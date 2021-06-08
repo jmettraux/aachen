@@ -1,0 +1,30 @@
+
+/* aachen.css */
+
+h1 {
+  text-transform: capitalize;
+}
+
+tbody tr:nth-child(odd) { background-color: rgba(0, 0, 0, 0.1); }
+tbody tr:nth-child(even) {}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+th, td {
+  padding: 2px 7px;
+}
+
+/* hide the sidenote number */
+span.sidenote:before {
+  content: "";
+}
+
+/*
+@media (min-width: 760px) {
+}
+@media (max-width: 760px) {
+}
+*/
+
