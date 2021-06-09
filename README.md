@@ -1,6 +1,13 @@
 
 # aachen
 
+Aachen is a minimal set of RPG rules.
+
+TODO
+
+
+## where does it come from?
+
 [SWN SRD question](https://www.reddit.com/r/SWN/comments/jxlw1e/swn_srd_a_quick_question_for_kevin_plus_what_do/)
 
 > CardinalXimenes (Kevin Crawford)
@@ -28,7 +35,17 @@
 > or other trope mainstays are hardly my property, and there's nothing stopping
 > someone from making their own setting with the same general outlines.
 
+
+## how to drift?
+
+TODO
+
+
 ## license
 
-[CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+This work is inspired by Kevin Crawford work
+
+Drifted as "Aachen" by John Mettraux, https://github.com/jmettraux/aachen, [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+see [LICENSE.txt](LICENSE.txt)
 
