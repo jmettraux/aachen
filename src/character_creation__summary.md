@@ -1,5 +1,5 @@
 
-# character creation summary
+# character creation - summary
 
 * Determine the value of the 6 attributes STR, DEX, CON, INT, WIS, and CHA. Compute the modifiers.
 * Compute the 4 saving throw scores, Physical, Evasion, Mental, and Luck
