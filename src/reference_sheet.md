@@ -1,6 +1,7 @@
 
 # System Quick Reference Sheet
 
+
 ## Skill Checks
 
 * Roll 2d6 + the skill level + most relevant attribute modifier
@@ -27,10 +28,7 @@
 * An ally can stabilize the mortally wounded with a DEX/Heal or an INT/Heal check at a difficulty of 8 plus the number of full rounds since the wounded was felled
 * Stabilized creatures stop dying and revive in ten minutes with one hit point and the Frail quality
 * Creatures lose the Frail quality after magical healing or a week of bed rest
-* Magical healing stabilizes and revives a Mortally Wounded PC with no Frail Quality applied TODO CLARIFY!!!!!!!!!!
-* First aid after a battle heals 1d6 HP plus the healer's Heal skill. This can be done multiple times, but each use adds 1 point of System Strain to the healed FIXME
-* A creature's maximum System Strain is equal to their CON score, and if maximized they can no longer benefit from any effect or healing that would add strain FIXME
-* A creature that is not Frail recovers their level or hit dice in lost hit points after each good night's rest and also loses one accrued System Strain point FIXME
+* Magical healing stabilizes and revives a Mortally Wounded PC, the frail quality is not applied
 
 ## Spellcasting
 
