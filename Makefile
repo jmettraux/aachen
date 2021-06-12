@@ -2,6 +2,7 @@
 #NAME=`git branch --show-current`
 NAME_=`git branch --show-current | sed -e "s/[^-_a-zA-Z0-9]/_/g"`
 
+
 name:
 	echo ${NAME_}
 

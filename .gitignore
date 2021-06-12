@@ -5,6 +5,8 @@
 out/tmp/*.md
 out/html/*.js
 out/html/*.css
+out/html/*.ico
+out/html/*.png
 out/html/*.html
 out/html/et-book/
 out/pdf/*.pdf

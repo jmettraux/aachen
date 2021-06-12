@@ -34,6 +34,10 @@
 
 TODO
 
+## Reaction Checks
+
+TODO
+
 ## Combat Rounds
 
 * A combat round lasts about six seconds
