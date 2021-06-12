@@ -6,7 +6,7 @@
 * Determine the background of the character
 * Follow the background system to roll or pick skills
 * Select a class
-* Choose foci, they represent side talents or particular specializations
+* Choose talents, they represent side talents or particular specializations
 * Pick an extra skill, to reflect the character's outside interests, natural talents, hobby expertise, etc.
 * Finalize class selection, some classes require the selection of spells or special powers
 * Roll maximum hit point score, add CON modifier and class modifiers

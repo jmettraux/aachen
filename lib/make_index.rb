@@ -1,7 +1,7 @@
 
 def make_index
 
-  Dir['tmp/*__*.md']
+  Dir['out/tmp/*__*.md'] # FIXME __ vs _
     .sort
     .each do |path|
       fn = File.basename(path, '.md')

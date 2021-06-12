@@ -146,7 +146,7 @@ end
 
 def make_html(path)
 
-  fname = File.join('out', File.basename(path, '.md') + '.html')
+  fname = File.join('out/html', File.basename(path, '.md') + '.html')
   content = File.read(path)
   title = content.match(/^# ([^\n]+)/)[1] rescue 'TITLE'
 
@@ -157,7 +157,7 @@ end
 
 def make_htmls
 
-  ARGV.select { |a| a.match(/^tmp\//) }.each do |path|
+  ARGV.select { |a| a.match(/^out\/tmp\//) }.each do |path|
     make_html(path)
   end
 end
