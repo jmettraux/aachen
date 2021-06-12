@@ -118,15 +118,16 @@ end
 
 def make_html_head(title)
 
-  s = File.read(File.join(__dir__, 'head.html'))
-  s.sub!('$TITLE', title)
+  s = File.read(File.join(__dir__, 'assets/head.html'))
+  s.gsub!('$NAME', NAME_)
+  s.gsub!('$TITLE', title)
 
   s
 end
 
 def make_html_foot
 
-  File.read(File.join(__dir__, 'foot.html'))
+  File.read(File.join(__dir__, 'assets/foot.html'))
 end
 
 def do_make_html(title, content, out=$stdout)

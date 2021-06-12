@@ -5,6 +5,9 @@ require 'ostruct'
 require 'redcarpet'
 
 
+NAME_ = `git branch --show-current | sed -e "s/[^-_a-zA-Z0-9]/_/g"`.strip
+
+
 Dir[File.join(__dir__, '*.rb')]
   .each do |pa|
 
