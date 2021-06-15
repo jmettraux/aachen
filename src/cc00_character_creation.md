@@ -1,17 +1,17 @@
 
 # character creation - summary
 
-* Determine the value of the 6 attributes STR, DEX, CON, INT, WIS, and CHA. Compute the modifiers.
-* Compute the 4 saving throw scores, Physical, Evasion, Mental, and Luck
-* Determine the background of the character
-* Follow the background system to roll or pick skills
-* Select a class
-* Choose talents, they represent side talents or particular specializations
-* Pick an extra skill, to reflect the character's outside interests, natural talents, hobby expertise, etc.
-* Finalize class selection, some classes require the selection of spells or special powers
-* Roll maximum hit point score, add CON modifier and class modifiers
-* Give character a name
-* Acquire equipment
+* cc01 - Determine the value of the 6 attributes STR, DEX, CON, INT, WIS, and CHA. Compute the modifiers.
+* cc02 - Compute the 4 saving throw scores, Physical, Evasion, Mental, and Luck
+* cc03 - Determine the background of the character
+* cc04 - Follow the background system to roll or pick skills
+* cc05 - Select a class
+* cc06 - Choose talents, they represent side talents or particular specializations
+* cc07 - Pick an extra skill, to reflect the character's outside interests, natural talents, hobby expertise, etc.
+* cc08 - Finalize class selection, some classes require the selection of spells or special powers
+* cc09 - Determine hit points
+* cc10 - Give character a name
+* cc11 - Acquire equipment
 
 ### on picking skills during character creation
 
