@@ -3,5 +3,52 @@
 
 Give the character a name adapted to their origin, gender, and background.
 
-TODO roman, burgundian, and frankish random tables
+## random frankish names
+
+Select or roll a first name. For the family name roll again and become "Adalger son of Amman" or "Gerlind daughter of Amalric". If a patronym doesn't make much sense or if you're noble, become "Adalger of Heidelberg" or "Gerwin of Tours".
+
+| d12 | first part              |
+|----:|-------------------------|
+|   1 | Adal- (noble)           |
+|   2 | Am- (active)            |
+|   3 | Amal- (active)          |
+|   4 | Bald- (bold)            |
+|   5 | Bert- (bright)          |
+|   6 | Child- (fight)          |
+|   7 | Chlod- (famous)         |
+|   8 | Eg- (sword)             |
+|   9 | Sig- or Sigi- (victory) |
+|  10 | Theud- (folk)           |
+|  11 | Ger- (spear)            |
+|  12 | Wolf- or Wulf- (wolf)   |
+
+| d10 | masculine 2nd part | feminine 2nd part            |
+|----:|--------------------|------------------------------|
+|   1 | -ger (lance)       | -burg (fortress, protection) |
+|   2 | -man (man)         | -gard (dwelling-place)       |
+|   3 | -mund (protection) | -gund (war or combat)        |
+|   4 | -ric (powerful)    | -hild (battle)               |
+|   5 | -sind (road)       | -lind (gentle)               |
+|   6 | -bert (bright)     | -swind (strength)            |
+|   7 | -thar (army)       | -trud (power)                |
+|   8 | -thar (army)       |                              |
+|   9 | -win (friend)      |                              |
+|  10 | -gang              |                              |
+
+* https://www.behindthename.com/submit/names/usage/ancient-germanic-frankish
+* https://www.fantasynamegenerators.com/frankish-names.php
+
+## random burgundian names
+
+Follow the patronym / place name frankish suggestion above for the family name.
+
+TODO
+
+## random late roman names
+
+https://www.behindthename.com/names/usage/late-roman
+
+and
+
+https://www.fantasynamegenerators.com/byzantine-names.php
 
