@@ -11,7 +11,20 @@ The referee, prior to the check has decided on a difficulty, usually from 6 to 1
 
 ## skill check outcome
 
-In case of failure, the referee determines the outcome. The character simply fails or they succeed with some further complication of the situation.
+The referee determines the outcome of the skill check failure or success. Depending on the circumstances, the outcome might be very limited, plain failure or plain success.
+
+**Option**: subtract the difficulty to the skill check roll result to qualify the outcome.
+
+| difference | quality             |
+|:----------:|---------------------|
+|    to -5   | Exceptional Failure |
+| -4 to -2   | Failure             |
+| -1         | Marginal Failure    |
+|  0         | Marginal Success    |
+|  1 to 4    | Success             |
+|  5 to      | Exceptional Success |
+
+On a marginal success, the referee might want to acknowledge success but add a further complication to the situation. Exceptional and marginal outcomes are begging for situation development.
 
 ## when to skill check
 
@@ -45,13 +58,6 @@ The referee might increase the difficulty by 1 or 2 if they think that the skill
 
 Circumstances and tools might alter a skill check difficulty. Usually the referee should limit the total change from -2 to +2.
 
-> Particularly helpful or hostile circumstances might give a bonus or a penalty
-> to a skill check. As a general rule, extremely bad circumstances or tools
-> would apply up to a -2 penalty to the skill check, while a very good situation
-> or the perfect set of tools might give up to +2 bonus to the roll. Usually, no
-> combination of modifiers should add more than +2 or -2 to any given skill
-> check.
-
 ## aiding a skill check
 
 A character may want to help a comrade at a skill check. If the referee agrees, they ask of the player a relevant skill check against the same difficulty as the _helped_ skill check.
@@ -62,7 +68,7 @@ Multiple characters may try to help, but the maximum  bonus to the _helped_ skil
 
 The _helping_ skill check is against the same difficulty, but it's not necessarilty the same combination attribute/skill as the _helped_ skill check.
 
-For example, TODO Adalric and Berthild
+For example, two characters are attempting to trim a horse hoof before going on pursuing foes, the referee asks a WIS/Ride from the trimmer against a difficulty of 8. A companion helps by holding and quieting the horse, CHA/Ride against the same difficulty of 8.
 
 ## opposed skill checks
 

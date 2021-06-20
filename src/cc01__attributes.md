@@ -43,9 +43,9 @@ Affects reaction rolls.
 
 To generate a character's score, roll 3d6 six times, assigning them in order to STR, DEX, CON, INT, WIS, and CHA.
 
-**Option:** The referee may allow the rolled score to be placed in any attribute.
+**Option**: The referee may allow the rolled score to be placed in any attribute.
 
-**Option:** Instead of rolling, one may use the 14, 12, 11, 10, 9, and 7 array.
+**Option**: Instead of rolling, one may use the 14, 12, 11, 10, 9, and 7 array.
 
 Any of the attribute score may be replaced by a 14, unless the array method was used.
 
