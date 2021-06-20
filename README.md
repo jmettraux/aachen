@@ -36,9 +36,9 @@ TODO
 > someone from making their own setting with the same general outlines.
 
 
-## how to drift?
+## how to drift/fork/branch?
 
-TODO
+See [BRANCHING.md](BRANCHING.md).
 
 
 ## license
