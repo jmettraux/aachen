@@ -17,18 +17,28 @@ The referee determines the outcome of the skill check failure or success. Depend
 
 | difference | quality             |
 |:----------:|---------------------|
-|    to -5   | Exceptional Failure |
-| -4 to -2   | Failure             |
-| -1         | Marginal Failure    |
-|  0         | Marginal Success    |
-|  1 to 4    | Success             |
-|  5 to      | Exceptional Success |
+|     to -5  | Exceptional Failure |
+|  -4 to -2  | Failure             |
+|     -1     | Marginal Failure    |
+|      0     | Marginal Success    |
+|   1 to 4   | Success             |
+|   5 to     | Exceptional Success |
 
 On a marginal success, the referee might want to acknowledge success but add a further complication to the situation. Exceptional and marginal outcomes are begging for situation development.
 
 ## when to skill check
 
+* a task is difficult and hazardous,
+* a task is performed under time pressure, or
+* success or failure of the task is important or interesting
+
+Old farm hands doesn't get skill check each time they drive the cart to the market, it is routine work for them.
+
 ## how not to skill check
+
+The referee might decide the task is too easy (skill difficulty < 6) or look at the character skill level and decide it is appropriate for an automatic success.
+
+If there is time, the referee might look at the character skill level and decide how much time is spent until the task succeeds (difficulty < 9).
 
 ## skill levels
 
@@ -79,9 +89,6 @@ For example, in an archery contest, all participants could roll DEX/Shoot, the h
 Skill checks may also oppose different combinations of skills and attributes.
 
 For example, a scout may roll DEX/Sneak against a sentinel WIS/Notice.
-
-> profession. If the NPC has no reason to be particularly good at the challenge,
-> they simply roll 2d6 and add nothing.
 
 ## skill check probabilities
 
