@@ -2,6 +2,8 @@
 .vim*
 *.swp
 
+.todo.md
+
 out/tmp/*.md
 out/html/*.js
 out/html/*.css
