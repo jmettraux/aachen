@@ -4,6 +4,7 @@ NAME_ != git branch --show-current | sed -e "s/[^-_a-zA-Z0-9]/_/g"
 BXR = bundle exec ruby
 BXM = $(BXR) -Ilib -r make -e
 
+all: html
 
 html: mds
 	rm -f out/html/*.html
@@ -31,5 +32,5 @@ serve:
 s: serve
 
 
-.PHONY: name table serve
+.PHONY: name table serve mds
 
