@@ -23,22 +23,31 @@ Fight with a melee weapon. Maintain such weapons.
 
 ### Shoot
 
-Fight with ranged weapons. Maintain such weapons and their ammunition.
+Fight with a ranged weapon. Maintain such weapons and their ammunition.
 
 ### Punch
 
 Fight unarmed. Punch, kick, grapple, or brawl.
 
 
+## special skills
+
+### Cast
+
+To cast spells. To analyze magical effects, to know about magic and its practicioners.
+
+Classes that cannot cast spells and have levels in this skill are simply scholars of magic.
+
+
 ## skills
 
 ### Administer
 
-To manage land and laborers, or a workshop, its journeymen and apprentices.
+To manage land and laborers, or a workshop, its journeyfolk and apprentices.
 
 ### Connect
 
-To find friends in far places, to know who is master in a place, and to know who to seek when a certain thing is desired.
+To connect with people, to ascertain the dynamics of groups and communities.
 
 ### Convince
 
@@ -50,39 +59,35 @@ To craft or repair goods.
 
 ### Exert
 
-To swim, climb, run, lift, and exert one's form mightily.
+To climb, run, lift, throw. Athletic training.
 
 ### Heal
 
-To cure the sick and mend the battle-bloodied. A vital skill in stabilizing wounds or ensuring clean recovery.
+To mend wounds, combat diseases, neutralize poisons.
+
+This skill is used when stabilizing _Mortally Wounded_ characters, its importance cannot be overstated.
 
 ### Hunt
 
-To take game with snare, arrow or spear, to know the habits and the manner of beasts.
+To take game with snare, arrow or spear, to know the habits and the manner of preys.
 
 ### Know
 
 The seven liberal arts are divided between the trivium and the quadrivium. The trivium is grammar, logic, and rhethoric. The quadrivium is arithmetic, geometry, music, and astronomy.
 
-Level-0 equals some mastery of the trivium, while above levels leave the trivium for the quadrivium.
+Level 0 equals some mastery of the trivium, while above levels leave the trivium for the quadrivium.
 
 ### Lead
 
-To inspire others to follow your lead.
-
-### Magic
-
-To cast or analyze magic and know things about famous mages and magical events.
-
-Classes that cannot cast spells obtain only intellectual and scholarly benefit from it.
+To conduct and inspire people.
 
 ### Notice
 
-To see what is subtle and sense what is hidden, either in men's speech or in the valley's dark places.
+To perceive small details, hidden features, emotional states. To be aware.
 
 ### Perform
 
-To sing and dance and know of the old stories.
+To sing, dance, or play an instrument. To know songs and stories.
 
 ### Pray
 
@@ -94,21 +99,25 @@ To ride an animal, to drive a cart or carriage. To take care of the animal.
 
 ### Sail
 
-To sail and navigate a ship, to build a craft. To read sea weather, to manage sailers, everything expected from a mariner.
+To sail and navigate a ship, to build a craft. To read sea weather, to manage sailors.
 
 ### Sneak
 
-To prowl unnoticed, to hide things so they cannot be found, to travel without leaving traces, to pick locks and defeat traps.
+To move unnoticed, without leaving traces, to conceal things, to deal with locks and traps.
 
 ### Survive
 
 To mitigate environmental hazards, to identify plants and wildlife, to craft basic survival tools and shelter.
 
+### Swim
+
+To swim, to be at ease in the water.
+
 ### Trade
 
-To buy and sell at a profit, to identify the worth of goods, to deal with merchants and traders, to know the laws and ways about smuggling and contraband.
+To buy and sell advantageously, to value goods correctly, to deal with traders and merchants, to know about trade laws, smuggling, and contraband.
 
 ### Work
 
-To plow fields, tend herds, weave cloth, hew trees, build halls, and all those things.
+To toil in the fields, take care of herds, hew trees, weave cloth. All the work.
 

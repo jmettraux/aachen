@@ -87,7 +87,7 @@ But remember, no novice character skill level can exceed 1.
 
 ### class ability: Spellcasting
 
-The Weaver gains one level in Magic.
+The Weaver gains one level in Cast.
 
 See the magic section for weaver and spellcasting.
 
