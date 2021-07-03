@@ -6,6 +6,7 @@
 * **Creature**: TODO
 * **Character**: TODO
 * **Class Ability**: TODO
+* **Exploration Turn**: TODO
 * **Modifier**: TODO
 * **Monster**: TODO
 * **NPC**: TODO
