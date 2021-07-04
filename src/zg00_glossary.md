@@ -15,6 +15,7 @@
 * **DEX**: Abbreviation for __Dexterity__
 * **Dexterity**: TODO
 * **Exploration Turn**: TODO
+* **Initiative**: TODO
 * **INT**: Abbreviation for __Intelligence__
 * **Intelligence**: TODO
 * **Modifier**: TODO
@@ -22,6 +23,7 @@
 * **Monster**: TODO
 * **NPC**: See __Non-Player Character__
 * **Non-Player Character**: TODO
+* **Option**: An optional piece of rule, the referee decides if it is used at their table.
 * **PC**: See __Player Character__
 * **Player**: TODO
 * **Player Character**: TODO
@@ -34,6 +36,7 @@
 * **Skill**: TODO
 * **STR**: Abbreviation for __Strength__
 * **Strength**: TODO
+* **Surprise**: TODO
 * **Talent**: TODO
 * **Turn**: TODO
 * **WIS**: Abbreviation for __Wisdom__
