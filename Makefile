@@ -7,7 +7,8 @@ BXM = $(BXR) -Ilib -r make -e
 all: html
 
 html: mds
-	rm -f out/html/*.html
+	rm -fR out/html/* out/html/.*
+	touch out/html/.gitkeep
 	cp lib/assets/*.ico out/html/
 	cp lib/assets/*.png out/html/
 	cp lib/assets/tufte.css out/html/
@@ -17,7 +18,8 @@ html: mds
 	ls out/tmp/*.md | xargs $(BXM) make_htmls
 
 mds:
-	rm -f out/tmp/*.md
+	rm -f out/tmp/* out/tmp/.*
+	touch out/tmp/.gitkeep
 	cp src/*.md out/tmp/
 	ls out/tmp/*.md | sort | xargs cat > out/tmp/$(NAME_).md
 	$(BXM) make_index >> out/tmp/index.md
