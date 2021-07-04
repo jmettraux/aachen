@@ -9,6 +9,14 @@ A combat usually involves two sides, the player characters and their allies' sid
 
 A combat situation is divided in **rounds** of roughly six seconds. Every participant takes their turn during the round, then another round begins.
 
+1. reaction roll if necessary
+2. surprise round if necessary
+3. initiative roll
+4. round begins
+  * initiative side takes their turns
+  * other side takes their turns
+  * go to 4, next round begins
+
 ## surprise
 
 Attackers always try to achieve surprise.
@@ -25,5 +33,33 @@ Each side then lets act its members in any order they like. Once they have all h
 
 **Option:** Each player character rolls for their own initiative, 1d8 + DEX modifier. The referee rolls once for the opposing side. Advantage: it's not all or nothing, one or more player character may act before the opposing side. Disadvantage: order of action is not group decided, but dice decided, potentially hindering group tactics.
 
+TODO sequence for the initiative optional rule
+
 ## action types
+
+When it's their turn, a participant may perform one **main action** and one **move action**, in the order they deem appropriate.
+
+There are also **on turn actions** and **instant actions**. Once the 4 types of actions are described, specialized actions will be described and each mapped to one type of action.
+
+### main actions
+
+A **main action** takes up most of the participant's round. Attacking an adversary, casting a spell, drawing a downed ally into cover, are examples of main actions.
+
+A participant may decide to turn their **main action** into a **move action**, effectively benefitting from two **move actions** for their round.
+
+### move actions
+
+The participant may move from zero to their normal movement rate, for a human participant, that's from 0 to 30 feet. Given the terrain and/or the circumstance the referee might reduce this movement rate.
+
+A move action may not be split, thus it's not possible to move 10 feet (move action), shoot a bow (main action), and then move 20 feet (move action action).
+
+### on turn actions
+
+**On turn actions** are simple and quick actions. Like main and move actions, on turn actions are performed by participants when it's their turn. Whereas main and move actions are limited, as many on turn actions as the referee judges reasonable may be performed.
+
+Example of on turn actions are, saying a few words, reloading a bow from a readied quiver, drawing out a readied object, and similar actions.
+
+### instant actions
+
+TODO
 
