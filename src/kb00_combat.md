@@ -39,7 +39,7 @@ TODO sequence for the initiative optional rule
 
 When it's their turn, a participant may perform one **main action** and one **move action**, in the order they deem appropriate.
 
-There are also **on turn actions** and **instant actions**. Once the 4 types of actions are described, specialized actions will be described and each mapped to one type of action.
+**On turn actions** and **instant actions** are available too. Together, those 4 types of actions frame how participants structure their actions in the round.
 
 ### main actions
 
@@ -60,6 +60,21 @@ A move action may not be split, thus it's not possible to move 10 feet (move act
 Example of on turn actions are, saying a few words, reloading a bow from a readied quiver, drawing out a readied object, and similar actions.
 
 ### instant actions
+
+**Instant actions** are generally linked to talents and special powers. They are so fast and simple that they can be performed at any, even out of turn, they can be delayed until needed. There is no limit on the number of instant actions a participant can take (unless the instant action description says otherwise).
+
+The referee decides on the execution orders if multiple instant actions are triggered at the same time.
+
+### summary
+
+For the round, a participant may perform
+
+* on their turn, one **main action** (or a second **move action**)
+* on their turn, one **move action**
+* on their turn, as many **on turn actions** as allowed by the referee
+* out of turn, as many **instant actions** as allowed by the referee
+
+## actions
 
 TODO
 
