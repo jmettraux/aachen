@@ -11,7 +11,11 @@ A combat situation is divided in **rounds** of roughly six seconds. Every partic
 
 ## surprise
 
-TODO
+Attackers always try to achieve surprise.
+
+To determine if a side surprise the other, an opposed roll DEX/Sneak versus WIS/Notice can be used. If the attackers DEX/Sneak roll prevails, they get a full round of action to themselves. Initiative is rolled when this surprise round ends.
+
+If a group of undisciplined and/or poorly trained non-player characters is surprised, the referee might make a Morale check for them.
 
 ## initiative
 
