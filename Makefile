@@ -11,7 +11,7 @@ html: mds
 	cp lib/assets/*.ico out/html/
 	cp lib/assets/*.png out/html/
 	cp lib/assets/tufte.css out/html/
-	cp -pR lib/assets/et-book out/html/
+	#cp -pR lib/assets/et-book out/html/
 	cp lib/assets/aachen.js out/html/$(NAME_).js
 	cp lib/assets/aachen.css out/html/$(NAME_).css
 	ls out/tmp/*.md | xargs $(BXM) make_htmls

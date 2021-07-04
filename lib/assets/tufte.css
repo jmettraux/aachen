@@ -3,6 +3,7 @@
 /* Import ET Book styles
    adapted from https://github.com/edwardtufte/et-book/blob/gh-pages/et-book.css */
 
+/*
 @font-face {
     font-family: "et-book";
     src: url("et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot");
@@ -38,6 +39,7 @@
     font-style: normal;
     font-display: swap;
 }
+*/
 
 /* Tufte CSS styles */
 html {
@@ -49,7 +51,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-left: 12.5%;
-    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    /*font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;*/
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", Domitian, "Book Antiqua", Georgia, serif;
     background-color: #fffff8;
     color: #111;
     max-width: 1400px;
@@ -102,7 +105,8 @@ p.subtitle {
 }
 
 .numeral {
-    font-family: et-book-roman-old-style;
+    /*font-family: et-book-roman-old-style;*/
+    font-family: Times, Baskerville, Georgia, serif;
 }
 
 .danger {
@@ -279,7 +283,8 @@ img {
 
 .sidenote-number:after,
 .sidenote:before {
-    font-family: et-book-roman-old-style;
+    /*font-family: et-book-roman-old-style;*/
+    font-family: Times, Baskerville, Georgia, serif;
     position: relative;
     vertical-align: baseline;
 }
