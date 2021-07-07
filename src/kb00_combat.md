@@ -78,3 +78,33 @@ For the round, a participant may perform
 
 TODO
 
+## attacks
+
+To determine if an attack hits or not, 1d20 is rolled, the class attack bonus and the relevant attribute modifier (STR or DEX) are added. The skill level in Stab, Shoot or Punch is added as well. If the result is greater or equal to the oponents's Armor Class, then the attack hits.
+
+For example, a 4th level fighter with a +1 STR modifier and Stab 1 attacks with a spear an AC 14 enemy guard. The fighter has to roll 1d20 + 4 (class attack bonus) + 1 (STR mod) + 1 (Stab level 1), so 1d20 + 6 and do 14 or better.
+
+Unlike skill checks, no level in Stab, Shoot, or Punch is not counted as -1, but as -2. Thus if the fighter had no training in Stab, their roll would become 1d20 + 4 + 1 - 2, so 1d20 + 3.
+
+The weapon dictates which attribute modifier is used, the rule of thumb is STR for melee weapons and DEX for ranged weapons.
+
+### melee attacks
+
+TODO
+
+### ranged attacks
+
+TODO
+
+### execution attacks
+
+TODO
+
+## morale checks
+
+TODO
+
+## 1d20 vs AC table
+
+TODO
+
