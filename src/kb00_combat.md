@@ -35,6 +35,10 @@ Each side then lets act its members in any order they like. Once they have all h
 
 TODO sequence for the initiative optional rule
 
+## in and out of melee
+
+TODO free attack
+
 ## action types
 
 When it's their turn, a participant may perform one **main action** and one **move action**, in the order they deem appropriate.
@@ -84,13 +88,13 @@ To determine if an attack hits or not, 1d20 is rolled, the class attack bonus an
 
 For example, a 4th level fighter with a +1 STR modifier and Stab 1 attacks with a spear an AC 14 enemy guard. The fighter has to roll 1d20 + 4 (class attack bonus) + 1 (STR mod) + 1 (Stab level 1), so 1d20 + 6 and do 14 or better.
 
-Unlike skill checks, no level in Stab, Shoot, or Punch is not counted as -1, but as -2. Thus if the fighter had no training in Stab, their roll would become 1d20 + 4 + 1 - 2, so 1d20 + 3.
+Unlike skill checks, no level in Stab, Shoot, or Punch is not counted as -1, but as -2. Thus if the fighter had no training in Stab, their hit roll would become 1d20 + 4 + 1 - 2, so 1d20 + 3.
 
 The weapon dictates which attribute modifier is used, the rule of thumb is STR for melee weapons and DEX for ranged weapons.
 
 ### melee attacks
 
-TODO
+Melee weapon 
 
 ### ranged attacks
 
@@ -100,11 +104,34 @@ TODO
 
 TODO
 
+## resolving damage
+
+TODO
+
 ## morale checks
 
 TODO
 
-## 1d20 vs AC table
+## 1d20 vs target table
 
-TODO
-
+| target |  1d20  |   adv  | eq |   dis  | eq |
+|-------:|-------:|-------:|---:|-------:|---:|
+|      2 | 95.00% | 99.75% | +1 | 90.25% | -1 |
+|      3 | 90.00% | 99.00% | +2 | 81.00% | -2 |
+|      4 | 85.00% | 97.75% | +3 | 72.25% | -3 |
+|      5 | 80.00% | 96.00% | +3 | 64.00% | -3 |
+|      6 | 75.00% | 93.75% | +4 | 56.25% | -4 |
+|      7 | 70.00% | 91.00% | +4 | 49.00% | -4 |
+|      8 | 65.00% | 87.75% | +5 | 42.25% | -5 |
+|      9 | 60.00% | 84.00% | +5 | 36.00% | -5 |
+|     10 | 55.00% | 79.75% | +5 | 30.25% | -5 |
+|     11 | 50.00% | 75.00% | +5 | 25.00% | -5 |
+|     12 | 45.00% | 69.75% | +5 | 20.25% | -5 |
+|     13 | 40.00% | 64.00% | +5 | 16.00% | -5 |
+|     14 | 35.00% | 57.75% | +5 | 12.25% | -5 |
+|     15 | 30.00% | 51.00% | +4 |  9.00% | -4 |
+|     16 | 25.00% | 43.75% | +4 |  6.25% | -4 |
+|     17 | 20.00% | 36.00% | +3 |  4.00% | -3 |
+|     18 | 15.00% | 27.75% | +3 |  2.25% | -3 |
+|     19 | 10.00% | 19.00% | +2 |  1.00% | -2 |
+|     20 |  5.00% |  9.75% | +1 |  0.25% | -1 |
