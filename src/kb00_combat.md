@@ -41,21 +41,37 @@ TODO free attack
 
 ## attacks
 
-To determine if an attack hits or not, 1d20 is rolled, the class attack bonus and the relevant attribute modifier (STR or DEX) are added. The skill level in Stab, Shoot or Punch is added as well. If the result is greater or equal to the oponents's Armor Class, then the attack hits.
+To determine if an attack hits or not, 1d20 is rolled, the class attack bonus and the relevant attribute modifier (STR or DEX) are added. The skill level in Stab, Shoot or Punch is added as well. If the result is greater or equal to the opponents's Armor Class, then the attack hits.
 
 For example, a 4th level fighter with a +1 STR modifier and Stab 1 attacks with a spear an AC 14 enemy guard. The fighter has to roll 1d20 + 4 (class attack bonus) + 1 (STR mod) + 1 (Stab level 1), so 1d20 + 6 and do 14 or better.
 
 Unlike skill checks, no level in Stab, Shoot, or Punch is not counted as -1, but as -2. Thus if the fighter had no training in Stab, their hit roll would become 1d20 + 4 + 1 - 2, so 1d20 + 3.
 
-The weapon dictates which attribute modifier is used, the rule of thumb is STR for melee weapons and DEX for ranged weapons.
+The weapon dictates which attribute modifier is used, the rule of thumb is STR for melee weapons and DEX for ranged weapons. Some weapons let the user choose between STR and DEX, the attribute modifier is used for the attack hit roll and the attack damage roll (and eventually shock damage).
 
 ### melee attacks
 
-Melee attacks usually have a _range_ of 5 feet. Some weapons or creature attacks have the Long trait, letting them target foes within 10 feet.
+Melee attacks usually have a _range_ of 5 feet. Some weapons or creature attacks have the _long_ trait, letting them target foes within 10 feet.
+
+TODO
+
+| Circumstance                          | Mod |
+|---------------------------------------|----:|
+| Melee attacking an adjacent prone foe |  +2 |
+| Melee attacking while prone           |  -4 |
 
 ### ranged attacks
 
+Shooting while being in contact with a melee opponent is not possible.
+
 TODO
+
+| Circumstance                             | Mod |
+|------------------------------------------|----:|
+| Shooting at a distant prone foe          |  -2 |
+| Shooting at an adjacent prone foe        |  +2 |
+| The target is at least half behind cover |  -2 |
+| The target is almost completely in cover |  -4 |
 
 ### damage
 
@@ -85,7 +101,18 @@ TODO
 
 ## morale checks
 
-TODO
+Morale affect NPCs, not PCs. By default, NPCs fight as long as honor and common sense demand it, but failed morale checks may change that.
+
+Morale checks are done
+
+* the first time the NPC sees an ally downed,
+* when the NPC sees half their allies downed
+
+The referee rolls a 2d6 for the NPC, if the result is higher than its morale number, the NPC must retreat or surrender, at the referee's discretion.
+
+The referee may decide on a modifier from -2 to +2 given circumstances like the presence of the leader (for example goblins have a morale of 7 usually, but it becomes 9 in presence of their leader).
+
+TODO retainer morale
 
 ## 1d20 vs target table
 
