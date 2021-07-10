@@ -65,13 +65,11 @@ TODO
 
 Some weapons or creature attacks have _shock damage_. It is expressed as dmg / AC and only applies to melee attacks.
 
-In case of miss, a weapon with shock damage automatically inflicts damage if the the opponent's AC is equal or less thant the shock damage target AC. Attribute modifier and magical modifiers do apply.
+Shock damage indicates the minimum amount of damage inflicted, miss or not. The STR or DEX modifier applies, magical bonuses apply too.
 
-If the attack hits, damage is rolled as usual. If the resulting damage is less than what would have been inflected with shock, it is upgraded to that shock damage.
+If the opponent AC is superior to the shock damage target AC, shock damage is not considered.
 
-For example, for fighter with STR mod of +1 and a weapon with a shock of "2 / AC 15", 2 + 1 points of damage are inflicted in case of miss against an opponent with an AC of 15 or less. Opponents with an AC of 16 or more incur no damage.
-
-Should the fighter hit, at least 3 points of damage are dealt to opponents with AC <= 15. Other opponents see damage rolled as usual.
+For example a fighter with STR +1 uses a "2 / AC 13" sword. An opponent with an AC of 13 or less gets at least 2 + 1 points of damage should the fighter make a melee attack on them. In case of hit, 1d8 + 1 (STR) is rolled, a roll of 1 or 2 both inflict 3 points of damage.
 
 ### execution attacks
 
