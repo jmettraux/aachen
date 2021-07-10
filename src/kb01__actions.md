@@ -40,3 +40,30 @@ For the round, a participant may perform
 * on their turn, as many **on turn actions** as allowed by the referee
 * out of turn, as many **instant actions** as allowed by the referee
 
+## actions
+
+These are common actions that can be taken by participants in a combat.
+
+### make a melee attack (main action)
+### make a ranged attack (main action)
+### make a snap attack (instant action + main action)
+### make a mob attack (main action)
+### cast a spell (main action)
+### charge (move action + main action)
+### screen an ally (move action)
+### total defense (instant action + main action)
+### run (move action) ~~~
+### make a fighting withdrawal (main action)
+### use a skill (main action)
+### ready or stow an item (main action)
+### reload a weapon (main action)
+### drop an item (instant action)
+### pick up an item (move action)
+### stand up (move action)
+### go prone (on turn action)
+### hold an action (move action)
+### delay an action (on turn action)
+
+### lock shields (move action)
+### shatter a shield (main action)
+
