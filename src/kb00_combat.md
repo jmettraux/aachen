@@ -62,16 +62,18 @@ TODO
 
 ### ranged attacks
 
-Shooting while being in contact with a melee opponent is not possible.
+Ranged weapon and creature ranged attacks have a short and a long range. For example, a large bow is 100ft / 600ft. From 100ft to 600ft, the modifier is -2, beyond 600ft, no chance to hit.
 
-TODO
+| Circumstance                                     | Mod |
+|--------------------------------------------------|----:|
+| Shooting at an adjacent prone foe                |  +2 |
+| Shooting at long range                           |  -2 |
+| Shooting at a distant prone foe                  |  -2 |
+| Shooting a single handed weapon while in contact |  -4 |
+| The target is at least half behind cover         |  -2 |
+| The target is almost completely in cover         |  -4 |
 
-| Circumstance                             | Mod |
-|------------------------------------------|----:|
-| Shooting at a distant prone foe          |  -2 |
-| Shooting at an adjacent prone foe        |  +2 |
-| The target is at least half behind cover |  -2 |
-| The target is almost completely in cover |  -4 |
+Shooting a two-handed weapon while in contact is not allowed.
 
 ### damage
 
