@@ -39,49 +39,6 @@ TODO sequence for the initiative optional rule
 
 TODO free attack
 
-## action types
-
-When it's their turn, a participant may perform one **main action** and one **move action**, in the order they deem appropriate.
-
-**On turn actions** and **instant actions** are available too. Together, those 4 types of actions frame how participants structure their actions in the round.
-
-### main actions
-
-A **main action** takes up most of the participant's round. Attacking an adversary, casting a spell, drawing a downed ally into cover, are examples of main actions.
-
-A participant may decide to turn their **main action** into a **move action**, effectively benefitting from two **move actions** for their round.
-
-### move actions
-
-The participant may move from zero to their normal movement rate, for a human participant, that's from 0 to 30 feet. Given the terrain and/or the circumstance the referee might reduce this movement rate.
-
-A move action may not be split, thus it's not possible to move 10 feet (move action), shoot a bow (main action), and then move 20 feet (move action action).
-
-### on turn actions
-
-**On turn actions** are simple and quick actions. Like main and move actions, on turn actions are performed by participants when it's their turn. Whereas main and move actions are limited, as many on turn actions as the referee judges reasonable may be performed.
-
-Example of on turn actions are, saying a few words, reloading a bow from a readied quiver, drawing out a readied object, and similar actions.
-
-### instant actions
-
-**Instant actions** are generally linked to talents and special powers. They are so fast and simple that they can be performed at any, even out of turn, they can be delayed until needed. There is no limit on the number of instant actions a participant can take (unless the instant action description says otherwise).
-
-The referee decides on the execution orders if multiple instant actions are triggered at the same time.
-
-### summary
-
-For the round, a participant may perform
-
-* on their turn, one **main action** (or a second **move action**)
-* on their turn, one **move action**
-* on their turn, as many **on turn actions** as allowed by the referee
-* out of turn, as many **instant actions** as allowed by the referee
-
-## actions
-
-TODO
-
 ## attacks
 
 To determine if an attack hits or not, 1d20 is rolled, the class attack bonus and the relevant attribute modifier (STR or DEX) are added. The skill level in Stab, Shoot or Punch is added as well. If the result is greater or equal to the oponents's Armor Class, then the attack hits.
@@ -94,17 +51,37 @@ The weapon dictates which attribute modifier is used, the rule of thumb is STR f
 
 ### melee attacks
 
-Melee weapon 
+Melee attacks usually have a _range_ of 5 feet. Some weapons or creature attacks have the Long trait, letting them target foes within 10 feet.
 
 ### ranged attacks
 
 TODO
 
+### damage
+
+TODO
+
+### shock damage
+
+Some weapons or creature attacks have _shock damage_. It is expressed as dmg / AC and only applies to melee attacks.
+
+In case of miss, a weapon with shock damage automatically inflicts damage if the the opponent's AC is equal or less thant the shock damage target AC. Attribute modifier and magical modifiers do apply.
+
+If the attack hits, damage is rolled as usual. If the resulting damage is less than what would have been inflected with shock, it is upgraded to that shock damage.
+
+For example, for fighter with STR mod of +1 and a weapon with a shock of "2 / AC 15", 2 + 1 points of damage are inflicted in case of miss against an opponent with an AC of 15 or less. Opponents with an AC of 16 or more incur no damage.
+
+Should the fighter hit, at least 3 points of damage are dealt to opponents with AC <= 15. Other opponents see damage rolled as usual.
+
 ### execution attacks
 
 TODO
 
-## resolving damage
+## shoving and grappling
+
+TODO
+
+## wielding two weapons
 
 TODO
 
