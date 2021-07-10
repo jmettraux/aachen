@@ -112,3 +112,21 @@ To put the above skill check difficulties in perspective, here are success perce
 
 For example, a roll of 2d6+1 with a difficulty of 9 succeeds 41.6% of the time.
 
+Regarding advantage (highest 2 of 3d6) and disadvantage (lowest 2 of 3d6), here is a table:
+
+| target |   2d6   |    adv  |  ~ |    dis  |  ~ |
+|-------:|--------:|--------:|---:|--------:|---:|
+|      2 | 100.00% | 100.00% | +0 | 100.00% |  0 |
+|      3 |  97.22% |  99.54% | +1 |  92.59% | -1 |
+|      4 |  91.67% |  98.15% | +1 |  80.09% | -1 |
+|      5 |  83.33% |  94.91% | +2 |  64.35% | -2 |
+|      6 |  72.22% |  89.35% | +2 |  47.69% | -2 |
+|      7 |  58.33% |  80.56% | +2 |  31.94% | -2 |
+|      8 |  41.67% |  68.06% | +2 |  19.44% | -2 |
+|      9 |  27.78% |  52.31% | +2 |  10.65% | -2 |
+|     10 |  16.67% |  35.65% | +2 |   5.09% | -2 |
+|     11 |   8.33% |  19.91% | +1 |   1.85% | -1 |
+|     12 |   2.78% |   7.41% | +1 |   0.46% |  0 |
+
+For example, a roll of 2d6+1 with a difficulty of 9 (target is 9 - 1 = 8), succeeds 41.67% of the time, with the advantage it becomes 68.06% (roughly equivalent to giving a +2), with the disadvantage it becomes 19.44% (roughly -2). These equivalent modifiers have to be taken with a pinch of salt.
+
