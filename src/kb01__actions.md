@@ -44,6 +44,33 @@ For the round, a participant may perform
 
 These are common actions that can be taken by participants in a combat.
 
+* main action
+  * make a melee attack
+  * make a ranged attack
+  * make a mob attack
+  * cast a spell
+  * use a skill
+  * ready or stow an item
+  * reload a weapon
+  * shatter a shield
+* instant action
+  * drop an item
+* instant action + main action
+  * make a snap attack
+  * go total defense
+* move action + main action
+  * charge
+* move action
+  * screen an ally
+  * run
+  * pick up an item
+  * stand up
+  * hold an action
+  * lock shields
+* on turn action
+  * go prone
+  * delay an action
+
 ### make a melee attack (main action)
 ### make a ranged attack (main action)
 ### make a snap attack (instant action + main action)
@@ -51,7 +78,7 @@ These are common actions that can be taken by participants in a combat.
 ### cast a spell (main action)
 ### charge (move action + main action)
 ### screen an ally (move action)
-### total defense (instant action + main action)
+### go total defense (instant action + main action)
 ### run (move action) ~~~
 ### make a fighting withdrawal (main action)
 ### use a skill (main action)
