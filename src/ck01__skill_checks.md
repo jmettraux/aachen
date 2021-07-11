@@ -112,7 +112,7 @@ To put the above skill check difficulties in perspective, here are success perce
 
 For example, a roll of 2d6+1 with a difficulty of 9 succeeds 41.6% of the time.
 
-Regarding advantage (highest 2 of 3d6) and disadvantage (lowest 2 of 3d6), here is a table:
+Here is a table about advantage (highest 2 of 3d6) and disadvantage (lowest 2 of 3d6) for skill checks:
 
 | target |   2d6   |    adv  |  ~ |    dis  |  ~ |
 |-------:|--------:|--------:|---:|--------:|---:|
