@@ -63,10 +63,10 @@ TODO
 | Sword, short   | STR/DEX   |  1d6 | 2 / 15 |         |            |   10 |
 | Sword, great   | STR       | 1d12 | 2 / 15 |         | 2H         |  250 |
 | &nbsp;         |           |      |        |         |            |      |
-| Bow, small     | DEX |  1d6 | | 50ft 15m 10sq tt-2 / 300ft 90m 60sq 6Ftt | 2H, R, XA  | 20 |
-| Bow, large     | STR |  1d8 | | 100ft 30m 20sq Ftt / 600ft 180m 120sq 15F | 2H, R, XA  | 20 |
-| Crossbow     x | DEX | 1d10 | | 100ft 30m 20sq Ftt / 300ft 90m 60sq 6Ftt | 2H, SR, XA | 10 |
-| Sling          | DEX |  1d6 | | 50ft 15m 10sq tt-2 / 100ft 30m 20sq Ftt | 2H, R | 10 |
+| Bow, small     | DEX |  1d6 | | 50ft 15m 10sq V / 300ft 90m 60sq | 2H, R, XA  | 20 |
+| Bow, large     | STR |  1d8 | | 100ft 30m 20sq VV / 600ft 180m 120sq | 2H, R, XA  | 20 |
+| Crossbow     x | DEX | 1d10 | | 100ft 30m 20sq VV / 300ft 90m 60sq | 2H, SR, XA | 10 |
+| Sling          | DEX |  1d6 | | 50ft 15m 10sq V / 100ft 30m 20sq VV | 2H, R | 10 |
 | &nbsp;         |           |      |        |         |            |      |
 | Shield bash S  | STR/DEX   |  1d4 |        |         | LL         |    - |
 | Shield bash L  | STR       |  1d6 | 1 / 13 |         | LL         |    - |
