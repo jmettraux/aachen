@@ -71,11 +71,15 @@ Ranged weapons:
 | Crossbow     x | DEX       | 1d10 | 100ft 30m 20sq VV | 300ft 90m 60sq    | 2H, SR, XA    |     7s |    84d |
 | Sling          | DEX       |  1d6 | 50ft 15m 10sq V   | 100ft 30m 20sq VV | 2H, R         |     6d |     6d |
 
-* 2H: Two Handed.
-* L: Long, allows melee attacks up to 10 feet, even if an ally is in the way. An opponent between 5 to 10 feet can disengage freely from the L weapon wielder, no need for a _fighting withdrawal_.
-* LL: Less Lethal, opponents brought to zero HP may be left alive (not mortally wounded), at the wielder's discretion.
-* XA: when used for an eXecution Attack, a -1 penalty is applied to the target Physical Save and the damage is doubled.
-* R: Reload. Takes a _Move Action_ to reload. If the user has at least Shoot 1 skill, only an _On Turn Action_ is necessary.
-* SR: Slow Reload. Takes a _Main Action_ to reload.
-* T: Throwable. Can be used in melee and also throw at the listed range. No shock damage when thrown. -4 to the hit roll if throwing while in melee with an opponent.
+Weapon traits:
+
+| Trait | Description |
+|-------|-------------|
+| 2H    | Two Handed. |
+| L     | Long, allows melee attacks up to 10 feet, even if an ally is in the way. An opponent between 5 to 10 feet can disengage freely from the L weapon wielder, no need for a _fighting withdrawal_. |
+| LL    | Less Lethal, opponents brought to zero HP may be left alive (not mortally wounded), at the wielder's discretion. |
+| XA    | when used for an eXecution Attack, a -1 penalty is applied to the target Physical Save and the damage is doubled. |
+| R     | Reload. Takes a _Move Action_ to reload. If the user has at least Shoot 1 skill, only an _On Turn Action_ is necessary. |
+| SR    | Slow Reload. Takes a _Main Action_ to reload. |
+| T     | Throwable. Can be used in melee and also thrown at the listed range. No shock damage when thrown. -4 to the hit roll if throwing while in melee with an opponent. |
 
