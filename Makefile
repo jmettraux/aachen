@@ -1,10 +1,9 @@
 
-#NAME=`git branch --show-current`
-NAME_ != git branch --show-current | sed -e "s/[^-_a-zA-Z0-9]/_/g"
+#NAME_ != git branch --show-current | sed -e "s/[^-_a-zA-Z0-9]/_/g"
+NAME_ != grep "NAME_:" Config.yaml | cut -d ": " -f 2 | sed 's/^ *//'
 RUBY = ruby
 RUM = $(RUBY) -Ilib -r make -e
-#LOW = lowdown
-HTP = wkhtmltopdf
+
 
 all: html
 
@@ -17,7 +16,7 @@ html:
 	$(RUM) make_html
 
 name:
-	echo $(NAME_)
+	@echo $(NAME_)
 
 serve:
 	$(RUBY) -run -ehttpd out/html/ -p7003

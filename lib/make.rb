@@ -1,9 +1,14 @@
 
-#require 'yaml'
+require 'yaml'
 #require 'ostruct'
 
-
-NAME_ = `git branch --show-current | sed -e "s/[^-_a-zA-Z0-9]/_/g"`.strip
+CONFIG =
+  YAML.load_file('Config.yaml')
+    .inject({}) { |h, (k, v)|
+      #h[k] = v
+      h[k.to_sym] = v
+      h }
+#pp CONFIG
 
 
 Dir[File.join(__dir__, '*.rb')]
