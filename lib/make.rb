@@ -1,8 +1,6 @@
 
-require 'yaml'
-require 'ostruct'
-
-require 'redcarpet'
+#require 'yaml'
+#require 'ostruct'
 
 
 NAME_ = `git branch --show-current | sed -e "s/[^-_a-zA-Z0-9]/_/g"`.strip

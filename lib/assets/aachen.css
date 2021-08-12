@@ -1,6 +1,7 @@
 
 /* aachen.css */
 
+/*
 h1 {
   text-transform: capitalize;
 }
@@ -15,11 +16,14 @@ table {
 th, td {
   padding: 2px 7px;
 }
+*/
 
 /* hide the sidenote number */
+/*
 span.sidenote:before {
   content: "";
 }
+*/
 
 /*
 @media (min-width: 760px) {
@@ -27,4 +31,10 @@ span.sidenote:before {
 @media (max-width: 760px) {
 }
 */
+
+@media print {
+  .no-break { page-break-inside: avoid; }
+  .break-before { page-break-before: always; }
+  .break-after { page-break-after: always; }
+}
 
