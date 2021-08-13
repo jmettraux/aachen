@@ -1,6 +1,7 @@
 
 #NAME_ != git branch --show-current | sed -e "s/[^-_a-zA-Z0-9]/_/g"
 NAME_ != grep "NAME_:" Config.yaml | cut -d ": " -f 2 | sed 's/^ *//'
+TOPDF != grep "topdf:" Config.yaml | cut -d ": " -f 2 | sed 's/^ *//'
 RUBY = ruby
 RUM = $(RUBY) -Ilib -r make -e
 
@@ -14,6 +15,9 @@ html:
 	cp lib/assets/*.png out/html/
 	cp lib/assets/*.css out/html/
 	$(RUM) make_html
+
+pdf: html
+	$(TOPDF) out/html/$(NAME_).html out/html/$(NAME_).pdf
 
 name:
 	@echo $(NAME_)
