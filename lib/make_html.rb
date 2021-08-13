@@ -1,6 +1,7 @@
 
 def make_html
 
+
   out = "out/html/#{CONFIG[:NAME_]}.html"
 
   echo(out, load_part('lib/assets/head.html'))
@@ -10,7 +11,14 @@ def make_html
     echo(out, load_part('lib/assets/pre_page.html', h))
     tpath = "out/tmp/#{File.basename(path)}"
     echo(tpath, load_part(path, h), 'wb')
-    system("lowdown #{tpath} >> #{out}")
+
+    cmd = { in: tpath, out: out }
+      .inject(CONFIG[:tohtml]) { |s, (k, v)| s.gsub(/\$\{#{k}\}/, v) }
+
+    puts(cmd)
+    system(cmd)
+    #system("lowdown #{tpath} >> #{out}")
+
     echo(out, load_part('lib/assets/post_page.html', h))
   end
 
