@@ -1,23 +1,31 @@
 
 def make_html
 
+  pages = Dir['src/page_*.md']
+    .inject([]) { |a, path|
+      i = path.match(/\/page_(\d+)__.+\.md$/)[1].to_i rescue nil
+      a[i] = path if i
+      a }
 
   out = "out/html/#{CONFIG[:NAME_]}.html"
 
   echo(out, load_part('lib/assets/head.html'))
 
-  Dir['src/page_*.md'].sort.each_with_index do |path, i|
-    h = { PATH: path, PAGE: i + 1 }
+  pages.each_with_index do |path, i|
+
+    h = { PATH: path, PAGE: i }
     echo(out, load_part('lib/assets/pre_page.html', h))
-    tpath = "out/tmp/#{File.basename(path)}"
-    echo(tpath, load_part(path, h), 'wb')
 
-    cmd = { in: tpath, out: out }
-      .inject(CONFIG[:tohtml]) { |s, (k, v)| s.gsub(/\$\{#{k}\}/, v) }
+    if path
 
-    puts(cmd)
-    system(cmd)
-    #system("lowdown #{tpath} >> #{out}")
+      tpath = "out/tmp/#{File.basename(path)}"
+      echo(tpath, load_part(path, h), 'wb')
+
+      cmd = { in: tpath, out: out }
+        .inject(CONFIG[:tohtml]) { |s, (k, v)| s.gsub(/\$\{#{k}\}/, v) }
+      puts(cmd)
+      system(cmd)
+    end
 
     echo(out, load_part('lib/assets/post_page.html', h))
   end
