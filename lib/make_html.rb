@@ -9,12 +9,14 @@ def make_html
 
   out = "out/html/#{CONFIG[:NAME_]}.html"
 
-  echo(out, load_part('lib/assets/head.html'))
+  echo(out, load_part('lib/partials/head.html'))
 
   pages.each_with_index do |path, i|
 
-    h = { PATH: path, PAGE: i }
-    echo(out, load_part('lib/assets/pre_page.html', h))
+    t = path.match(/__(.+)\.md$/)[1].gsub(/_/, ' ') rescue nil
+    h = { PATH: path, PAGE: i, TITLE: t, EVEN: i % 2 == 0 ? :even : :odd }
+
+    echo(out, load_part('lib/partials/pre_page.html', h))
 
     if path
 
@@ -25,12 +27,16 @@ def make_html
         .inject(CONFIG[:tohtml]) { |s, (k, v)| s.gsub(/\$\{#{k}\}/, v) }
       puts(cmd)
       system(cmd)
+
+    else
+
+      echo(out, '&nbsp;')
     end
 
-    echo(out, load_part('lib/assets/post_page.html', h))
+    echo(out, load_part('lib/partials/post_page.html', h))
   end
 
-  echo(out, load_part('lib/assets/foot.html'))
+  echo(out, load_part('lib/partials/foot.html'))
 end
 
 def echo(path, s, mode='ab')
