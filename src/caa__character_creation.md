@@ -1,6 +1,8 @@
 
 # character creation - summary
 
+FIXME
+
 * cc01 - Determine the value of the 6 attributes STR, DEX, CON, INT, WIS, and CHA. Compute the modifiers.
 * cc02 - Compute the 4 saving throw scores, Physical, Evasion, Mental, and Luck
 * cc03 - Determine the background of the character
