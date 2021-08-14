@@ -39,5 +39,11 @@ span.sidenote:before {
   .break-after { page-break-after: always; }
 }
 */
-section.page { page-break-before: always; }
+
+section.page {
+  /*
+  break-after: page;
+  */
+  page-break-after: always;
+}
 
