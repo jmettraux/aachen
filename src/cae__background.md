@@ -50,6 +50,7 @@ _Any Combat_ grants a level in any of the combat skills (they are usually _stab_
 
 Remember to recompute the attribute modifiers and the saving throw scores if an attribute score is changed.
 
+<!-- PAGE BREAK -->
 
 ## the backgrounds
 
