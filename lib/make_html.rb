@@ -20,25 +20,30 @@ def make_html
         next
       end
       f.write(l)
+      f.flush # yes, do flush
     end
   end
 
-  tmp = 'out/tmp/t.md'
   out = "out/html/#{CONFIG[:NAME_]}.html"
   cha = nil
 
   echo(out, load_part('lib/partials/head.html'))
 
-  Dir['out/tmp/*__*.md'].sort.each_with_index do |path, i|
+  Dir['out/tmp/*.md'].sort.each_with_index do |path, i|
 
     m = path.match(/\/([a-z]{3})(\d+)__(.+)\.md$/)
+    next unless m
+
     t = m[3].gsub(/_/, ' ')
     h = { PATH: path, PAGE: 1 + i, TITLE: t, EVEN: i % 2 == 1 ? :even : :odd }
+
+    tmp = "out/tmp/#{m[1]}#{m[2]}__#{m[3]}.1.md"
 
     echo(out, load_part('lib/partials/pre_chapter.html', h)) if m[2] == '0'
     echo(out, load_part('lib/partials/pre_page.html', h))
 
     echo(tmp, load_part(path, h), 'wb')
+
     cmd = { in: tmp, out: out }
       .inject(CONFIG[:tohtml]) { |s, (k, v)| s.gsub(/\$\{#{k}\}/, v) }
     puts(cmd)

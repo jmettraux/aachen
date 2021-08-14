@@ -8,6 +8,6 @@ NAME_UPCASE: AACHEN
 TITLE: Aachen
 SUBTITLE: Elements of Carolingian Fantasy
 
-tohtml: lowdown ${in} >> ${out}
+tohtml: lowdown -Thtml ${in} -o - >> ${out}
 topdf: wkhtmltopdf ${in} ${out}
 
