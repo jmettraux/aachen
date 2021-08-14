@@ -53,10 +53,19 @@ body {
 }
 
 section.page {
-  width: 66ch;
-  max-width: 66ch;
-  margin-left: 6ch;
+  display: flex;
 }
+section.page .left-space {
+  flex: 6ch;
+}
+section.page .column {
+  flex: 66ch;
+  text-align: justify;
+}
+section.page .right-space {
+  flex: 18ch;
+}
+
 section.page.odd {
 }
 section.page.even {
