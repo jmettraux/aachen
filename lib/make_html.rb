@@ -25,14 +25,17 @@ def make_html
 
   tmp = 'out/tmp/t.md'
   out = "out/html/#{CONFIG[:NAME_]}.html"
+  cha = nil
 
   echo(out, load_part('lib/partials/head.html'))
 
   Dir['out/tmp/*__*.md'].sort.each_with_index do |path, i|
 
-    t = path.match(/__(.+)\.md$/)[1].gsub(/_/, ' ') rescue nil
+    m = path.match(/\/([a-z]{3})(\d+)__(.+)\.md$/)
+    t = m[3].gsub(/_/, ' ')
     h = { PATH: path, PAGE: 1 + i, TITLE: t, EVEN: i % 2 == 1 ? :even : :odd }
 
+    echo(out, load_part('lib/partials/pre_chapter.html', h)) if m[2] == '0'
     echo(out, load_part('lib/partials/pre_page.html', h))
 
     echo(tmp, load_part(path, h), 'wb')
@@ -42,6 +45,9 @@ def make_html
     system(cmd)
 
     echo(out, load_part('lib/partials/post_page.html', h))
+
+    echo(out, load_part('lib/partials/post_chapter.html', h)) if m[1] != cha
+    cha = m[1]
   end
 
   echo(out, load_part('lib/partials/foot.html'))
