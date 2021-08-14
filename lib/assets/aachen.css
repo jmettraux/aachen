@@ -47,3 +47,18 @@ section.page {
   page-break-after: always;
 }
 
+body {
+  font-family: "Minion Pro", serif;
+  font-size: 13pt;
+}
+
+section.page {
+  width: 66ch;
+  max-width: 66ch;
+  margin-left: 6ch;
+}
+section.page.odd {
+}
+section.page.even {
+}
+
