@@ -99,7 +99,12 @@ def rework_md(s)
       c = c && c.split('.').join(' ').strip
       c = c || ''
 
-      "<#{h} id=\"#{i}\" class=\"#{c}\">#{$2}</#{h}>" }
+      "<#{h} id=\"#{i}\" class=\"#{c}\">#{$2}</#{h}>"
+
+        }
+    .gsub(/^(|.+|)[\t ]*\{([^}]+)\}[\t ]*$/) {
+      "<!--#{$2}-->\n#{$1}"
+        }
 end
 
 def rework_html(s)
@@ -111,14 +116,20 @@ def rework_html(s)
 
   s
     .gsub(/ id="([^"])+"/) { |x|
-      x.downcase.gsub(/-/, '_').gsub(/%20/, '_') }
+
+      x.downcase.gsub(/-/, '_').gsub(/%20/, '_')
+
+        }
     .gsub(/<!--(.+)-->[\t ]*\n*<table/) {
+
       atts = ''
       a = $1.strip.split
       i = a.find { |e| e.start_with?('#') }
       atts += " id=\"#{i[1..-1]}\"" if i
       c = a.find { |e| e.start_with?('.') }
       atts += " class=\"#{c.split('.').join(' ').strip}\"" if c
-      "<table#{atts} " }
+
+      "<table#{atts} "
+        }
 end
 
