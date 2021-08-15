@@ -1,6 +1,21 @@
 
 /* aachen.css */
 
+/*
+ *   4pt  Brilliant      Perle
+ *   5pt  Pearl          Sedanoise
+ *   6pt  Nonpareil      Nonpareille
+ *   7pt  Minion         Mignonne
+ *   8pt  Brevier        Gaillarde Petit-texte
+ *   9pt  Bourgeois      Petit-romain Gaillarde
+ *  10pt  Long Primer    Philosophie
+ *  11pt  Small Pica     Cicero
+ *  12pt  Pica           St-Augustin
+ *  14pt  English        Gros-texte
+ *  18pt  Great Primer   Gros-romain
+ *  20pt  Paragon        Petit-paragon
+ */
+
 /* top right bottom left */
 
 section.page {
@@ -12,7 +27,7 @@ section.page {
 
 body {
   font-family: "Minion Pro", serif;
-  font-size: 13pt;
+  font-size: 12pt; /* Pica */
 }
 
 /* SECTIONS */
@@ -77,6 +92,7 @@ dd {
 /* CLASSES */
 
 table.equipment {
+  font-size: 9pt; /* Bourgeois */
   width: 100%;
   page-break-inside: auto;
 }

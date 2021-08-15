@@ -14,18 +14,18 @@ Two easy points of reference, a labourer expects to be paid 1 penny for a day of
 
 ## Monetary System
 
-| Abb | Name     | Latin Name | French Name | Value | Value d |
-|-----|----------|------------|-------------|------:|--------:|
-| L   | Pound    | Liber      | Livre       |   20s |    240d |
-| s   | Shilling | Solidus    | Sou         |       |     12d |
-| d   | Pence    | Denarius   | Denier      |       |      1d |
-| f   | Farthing |            | Ferlin      |       |    1/4d |
+| Abb | Name     | Latin Name | French Name | Value | Val d | {.equipment}
+|-----|----------|------------|-------------|------:|------:|
+| L   | Pound    | Liber      | Livre       |   20s |  240d |
+| s   | Shilling | Solidus    | Sou         |       |   12d |
+| d   | Pence    | Denarius   | Denier      |       |    1d |
+| f   | Farthing |            | Ferlin      |       |  1/4d |
 
 
 ## Wages
 
-|                  | Span    | Wage   | Wage d |
-|------------------|---------|--------|--------|
+| Worker           |         | Wage   | Wage d | {.equipment}
+|------------------|---------|-------:|-------:|
 | Labourer         | 1 day   |     1d |     4f |
 | Labourer         | 1 month |     2s |    24d |
 | Labourer         | 1 year  |   1L4s |   288d |
@@ -36,24 +36,20 @@ Two easy points of reference, a labourer expects to be paid 1 penny for a day of
 
 TODO
 
-| Name         | AC           | or Mod   |   Cost | Cost d |
-|--------------|:------------:|:--------:|-------:|-------:|
-| No Armor     | 10 + DEX mod |          |        |        |
-| &nbsp;       |              |          |        |        |
-| Gambeson     | 12 + DEX mod |          |     1L |   240d |
-| Mail Shirt   | 14 + DEX mod |          |     2L |   480d |
-| Mail Hauberk | 16 + DEX mod |          |     3L |   720d |
-| &nbsp;       |              |          |        |        |
-| Shield small | 13 + DEX mod | +1 to AC |     3s |    36d |
-| Shield large | 14 + DEX mod | +1 to AC |     4s |    48d |
-| Shield broad | 15 + DEX mod | +1 to AC |     6s |    72d |
+| Item         | AC           | Value | Val d |   | Item         | AC           | or Mod   | Value | Val d | {.equipment}
+|--------------|:------------:|------:|------:|---|--------------|:------------:|:--------:|------:|------:|
+| No Armor     | 10 + DEX mod |       |       |   | Shield small | 13 + DEX mod | +1 to AC |    3s |   36d |
+| &nbsp;       |              |       |       |   | Shield large | 14 + DEX mod | +1 to AC |    4s |   48d |
+| Gambeson     | 12 + DEX mod |    1L |  240d |   | Shield broad | 15 + DEX mod | +1 to AC |    6s |   72d |
+| Mail Shirt   | 14 + DEX mod |    2L |  480d |   | | | | | | |
+| Mail Hauberk | 16 + DEX mod |    3L |  720d |   | | | | | | |
 
 
 ## Weapons
 
 Melee weapons:
 
-| Name           | Attribute | Dmg  | Shk/AC | Short Range       | Long Range        | Trait         |   Cost | Cost d |
+| Name           | Attribute | Dmg  | Shk/AC | Short Range       | Long Range        | Trait         |   Cost | Cost d | {.equipment}
 |----------------|:---------:|-----:|:------:|:-----------------:|:-----------------:|---------------|-------:|-------:|
 | Axe            | STR/DEX   |  1d6 | 2 / 15 | 10ft 3m 2sq       | 30ft 9m 6sq t     | T             |     6s |    72d |
 | Axe, war       | STR       | 1d10 | 3 / 15 |                   |                   | 2H            |     9s |   108d |
@@ -82,7 +78,7 @@ Melee weapons:
 
 Ranged weapons:
 
-| Name           | Attribute | Dmg  | Short Range       | Long Range        | Trait         |   Cost | Cost d |
+| Name           | Attribute | Dmg  | Short Range       | Long Range        | Trait         |   Cost | Cost d | {.equipment}
 |----------------|:---------:|-----:|:-----------------:|:-----------------:|---------------|-------:|-------:|
 | Bow, small     | DEX       |  1d6 | 50ft 15m 10sq V   | 300ft 90m 60sq    | 2H, R, XA     |     2s |    24d |
 | Bow, large     | STR       |  1d8 | 100ft 30m 20sq VV | 600ft 180m 120sq  | 2H, R, XA     |     3s |    36d |
@@ -91,7 +87,7 @@ Ranged weapons:
 
 Weapon traits:
 
-| Trait | Description |
+| Trait | Description | {.equipment}
 |-------|-------------|
 | 2H    | Two Handed. |
 | L     | Long, allows melee attacks up to 10 feet, even if an ally is in the way. An opponent between 5 to 10 feet can disengage freely from the L weapon wielder, no need for a _fighting withdrawal_. |
@@ -102,7 +98,7 @@ Weapon traits:
 | T     | Throwable. Can be used in melee and also thrown at the listed range. No shock damage when thrown. -4 to the hit roll if throwing while in melee with an opponent. |
 
 
-## Other Values
+## Other Items
 
 | Clothes           | Value | Val d |   | Clothes          | Value | Val d | {.equipment}
 |-------------------|------:|------:|---|------------------|------:|------:|
