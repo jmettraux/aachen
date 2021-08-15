@@ -5,6 +5,8 @@
 .todo.md
 
 out/tmp/*.md
+out/tmp/*.html
+
 out/html/*.js
 out/html/*.css
 out/html/*.ico

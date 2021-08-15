@@ -38,16 +38,20 @@ def make_html
     h = { PATH: path, PAGE: 1 + i, TITLE: t, EVEN: i % 2 == 1 ? :even : :odd }
 
     tmp = "out/tmp/#{m[1]}#{m[2]}__#{m[3]}.1.md"
+    tmp2 = "out/tmp/#{m[1]}#{m[2]}__#{m[3]}.2.html"
 
     echo(out, load_part('lib/partials/pre_chapter.html', h)) if m[2] == '0'
     echo(out, load_part('lib/partials/pre_page.html', h))
 
     echo(tmp, load_part(path, h), 'wb')
 
-    cmd = { in: tmp, out: out }
+    cmd = { in: tmp, out: tmp2 }
       .inject(CONFIG[:tohtml]) { |s, (k, v)| s.gsub(/\$\{#{k}\}/, v) }
-    puts(cmd)
-    system(cmd)
+    puts(cmd); system(cmd)
+
+    #cmd = "cat #{tmp2} >> #{out}"
+    #puts(cmd); system(cmd)
+    rework_html(tmp2, out)
 
     echo(out, load_part('lib/partials/post_page.html', h))
 
@@ -72,5 +76,14 @@ def load_part(path, h={})
       k = k.to_s; s.gsub!(/\$\{#{k}\}/, v.to_s) if k.match(/^[A-Z_]+$/) }
 
   s
+end
+
+def rework_html(src, tgt)
+
+  s = File.read(src)
+    .gsub!(/ id="([^"])+"/) { |x|
+      x.downcase.gsub(/-/, '_').gsub(/%20/, '_') }
+
+  echo(tgt, s)
 end
 
