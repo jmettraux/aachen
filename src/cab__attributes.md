@@ -45,7 +45,7 @@ For each score write down next to it its modifier.
 
 When rolling dice that are affected by an attribute, one doesn't apply the whole score; instead the attribute modifier is applied.
 
-<!-- #table-id -->
+<!-- #table-id .bar.baz -->
 | Attribute | Modifier |
 |-----------|----------|
 |         3 |       -2 |

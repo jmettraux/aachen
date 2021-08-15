@@ -104,7 +104,21 @@ end
 
 def rework_html(s)
 
+  # <!-- #table-id .bar.baz -->
+  # <table>
+  # -->
+  # <table id="table-id" class="bar baz">
+
   s
-    .gsub(/ id="([^"])+"/) { |x| x.downcase.gsub(/-/, '_').gsub(/%20/, '_') }
+    .gsub(/ id="([^"])+"/) { |x|
+      x.downcase.gsub(/-/, '_').gsub(/%20/, '_') }
+    .gsub(/<!--(.+)-->[\t ]*\n*<table/) {
+      atts = ''
+      a = $1.strip.split
+      i = a.find { |e| e.start_with?('#') }
+      atts += " id=\"#{i[1..-1]}\"" if i
+      c = a.find { |e| e.start_with?('.') }
+      atts += " class=\"#{c.split('.').join(' ').strip}\"" if c
+      "<table#{atts} " }
 end
 

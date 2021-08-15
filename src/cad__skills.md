@@ -6,7 +6,7 @@ Skill enumeration with description.
 
 ## skill levels
 
-|         | description                                          |
+|         | Description                                          |
 |---------|------------------------------------------------------|
 | Level 0 | The proficiency of an ordinary practicioner          |
 | Level 1 | Veteran of the skill, noticeably better than others  |

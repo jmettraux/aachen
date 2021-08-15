@@ -32,7 +32,7 @@ The score is a 16 minus the character level. No attribute modifier involved.
 
 A character of level 2 might have the following save scores:
 
-| att | score | mod | save         | score                  |
+| Att | Score | Mod | Save         | Score                  |
 |-----|------:|----:|:------------:|:----------------------:|
 | STR |     7 |  -1 |              |                        |
 | CON |     7 |  -1 | **Physical** | 16 - (-1) - 2 = **15** |
