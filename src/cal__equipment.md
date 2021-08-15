@@ -104,184 +104,98 @@ Weapon traits:
 
 ## Other Values
 
-Food
+| Clothes           | Value | Val d |   | Clothes          | Value | Val d | {.equipment}
+|-------------------|------:|------:|---|------------------|------:|------:|
+| Bliau, wool       |   13s |  156d |   | Gloves, wool     |    1s |   12d |
+| Bliau, silk       | 2L10s |  600d |   | Gloves, silk     |    4s |   48d |
+| Purse, buckram    |    9d |    9d |   | Vest, wool       |  4s8d |   56d |
+| Purse, silk       |    5s |   60d |   | Vest, linen      |  2s6d |   30d |
+| Hood              |  1s4d |   16d |   | Vest, silk       |    1L |  240d |
+| Hat, leather      |  1s4d |   16d |   | Vest, leather    |  9s4d |  112d |
+| Hat, wool         |    8d |    8d |   | Surcoat, wool    |  8s8d |  104d |
+| Hat, linen        |    4d |    4d |   | Surcoat, linen   |    5s |   60d |
+| Hat, silk         |  2s8d |   32d |   | Surcoat, silk    |    2L |  480d |
+| Breeches, leather | 14s8d |  176d |   | Tabard, wool     |  7s4d |   88d |
+| Breeches, wool    |  7s4d |   88d |   | Tabard, linen    |    4s |   48d |
+| Breeches, linen   |    4s |   48d |   | Tabard, silk     | 1L12s |  384d |
+| Breeches, silk    | 1L12s |  384d |   | Boots, leather   |  5s4d |   64d |
+| Blanket, wool     |    4s |   48d |   | Belt, leather    |   10d |   10d |
+| Gloves, leather   |    2s |   24d |   | Sandals, leather |    8d |    8d |
 
-| Item          | Quantity | Value  | Value d |
-|---------------|----------|-------:|--------:|
-| Oats          | 1 bushel |     4d |      4d |
-| Apples        | 1 bushel |     6d |      6d |
-| Beans         | 1 bushel |     8d |      8d |
-| Barley        | 1 bushel |     5d |      5d |
-| Rye           | 1 bushel |     6d |      6d |
-| Wheat         | 1 bushel |     8d |      8d |
-| Honey         | 1 gallon |    12d |     12d |
-| Eggs          |  1 dozen |     2d |      2d |
-| Hay           | 1 bushel |     6d |      6d |
-| Milk          | 1 gallon |     3d |      3d |
-| Beer          |   1 pint |     1f |   0.25d |
-| Cider         |   1 pint |     1f |   0.25d |
-| Brandy        |   1 pint |     8d |      8d |
-| Mead          |   1 pint |     2f |    0.5d |
-| Wine          |   1 pint |     2d |      2d |
-| Salt          | 1 bushel |    12d |     12d |
-| Brioche       |  1 dozen |     2f |    0.5d |
-| Oatmeal cakes |  1 dozen |     1d |      1d |
-| Bread, white  |          |     2f |    0.5d |
-| Bread, rye    |          |     1f |   0.25d |
-| Meal, warm    |          |     1d |      1d |
-| Meal, cold    |          |     3f |   0.75d |
+| Tools            |          | Value | Val d |   | Tools             |         | Value | Val d | {.equipment}
+|------------------|----------|------:|------:|---|-------------------|---------|------:|------:|
+| Anchor           |          |    1s |   12d |   | Nails             | 1 pound |    2d |    2d |
+| Rope             | 6 feet   |    6d |    6d |   | Axle              |         |    6d |    6d |
+| Oar              |          |    5d |    5d |   | Sickle            |         |   10d |   10d |
+| Bridle           |          |    1s |   12d |   | Scythe            |         |    2s |   24d |
+| Harness, horse   |          |  1s6d |   18d |   | Horseshoe         | 1 shoe  |    1d |    1d |
+| Saddle, combat   |          |    1L |  240d |   | Fork              |         |    6d |    6d |
+| Saddle, riding   |          |  6s8d |   80d |   | Goblet, tin       |         |    3d |    3d |
+| Spurs            |          |  1s6d |   18d |   | Grapple           |         |   10d |   10d |
+| Axe              |          |    1s |   12d |   | Harpoon           |         |  3s4d |   40d |
+| Cradle           |          |    9d |    9d |   | Lever             |         |    9d |    9d |
+| Coffin           |          |    9d |    9d |   | Hammer            |         |    6d |    6d |
+| Chair            |          |    1s |   12d |   | Crowbar           |         |    9d |    9d |
+| Plow             |          |    4s |   48d |   | Pickaxe           |         |    8d |    8d |
+| Snowshoes        |          |    3s |   36d |   | Pipe              |         |    2d |    2d |
+| Wheel            |          |  1s6d |   18d |   | Bottle            |         |    6d |    6d |
+| Bucket, wodden   |          |    4d |    4d |   | Key               |         |    2d |    2d |
+| Table            |          |    3s |   36d |   | Lock box          |         |    1s |   12d |
+| Barrel           |          |  1s3d |   15d |   | Lock              |         |    4d |    4d |
+| Lighter, tinder  |          |    6d |    6d |   | Bag, buckram      |         |    1d |    1d |
+| Candle           |          |    1f | 0.25d |   | Sac, canvas       |         |    4d |    4d |
+| Oil, lighting    | 1 gallon |    1s |   12d |   | Tent, pavillon    |         | 16s8d |  200d |
+| Lanterne         |          |    1s |   12d |   | Flute             |         |  1s6d |   18d |
+| Ink, black       | 3 liters |    3d |    3d |   | Harp              |         |  1L5s |  300d |
+| Feather, writing |          |    1d |    1d |   | Luth              |         | 16s8d |  200d |
+| Parchment        |          |    2d |    2d |   | Drum              |         |    3s |   36d |
+| Vellum           |          |    4d |    4d |   | Horn, hunting     |         |  1s8d |   20d |
+| Pan, copper      |          |    1s |   12d |   | Whip              |         |    1s |   12d |
+| Knife, kitchen   |          |    6d |    6d |   | Scabbard, leather |         |    4s |   48d |
+| Cauldron, iron   |          |   10d |   10d |   | Wineskin,1 gallon |         |   10d |   10d |
+| Mug, tin         |          |    4d |    4d |   | | | | |
 
-Services
+| Food          |          | Value | Val d |   | Food          |          | Value | Val d | {.equipment}
+|---------------|----------|------:|------:|---|---------------|----------|-------|-------|
+| Oats          | 1 bushel |    4d |    4d |   | Cider         |   1 pint |    1f | 0.25d |
+| Apples        | 1 bushel |    6d |    6d |   | Brandy        |   1 pint |    8d |    8d |
+| Beans         | 1 bushel |    8d |    8d |   | Mead          |   1 pint |    2f |  0.5d |
+| Barley        | 1 bushel |    5d |    5d |   | Wine          |   1 pint |    2d |    2d |
+| Rye           | 1 bushel |    6d |    6d |   | Salt          | 1 bushel |   12d |   12d |
+| Wheat         | 1 bushel |    8d |    8d |   | Brioche       |  1 dozen |    2f |  0.5d |
+| Honey         | 1 gallon |   12d |   12d |   | Oatmeal cakes |  1 dozen |    1d |    1d |
+| Eggs          |  1 dozen |    2d |    2d |   | Bread, white  |          |    2f |  0.5d |
+| Hay           | 1 bushel |    6d |    6d |   | Bread, rye    |          |    1f | 0.25d |
+| Milk          | 1 gallon |    3d |    3d |   | Meal, warm    |          |    1d |    1d |
+| Beer          |   1 pint |    1f | 0.25d |   | Meal, cold    |          |    3f | 0.75d |
 
-| Item                |       | Cost  | Cost d |
-|---------------------|-------|------:|-------:|
-| Notarial deed       |       |  1s6d |    18d |
-| Commercial contract |       |    2s |    24d |
-| Will                |       |    1s |    12d |
-| Stable              | 1 day |    1d |     1d |
-| Courtesan           |       |    1s |    12d |
-| Prostitute          |       |    1d |     1d |
-| Funeral service     |       | 16s8d |   200d |
+| Services            |       | Cost  | Cost d |   | Services        |   | Cost  | Cost d | {.equipment}
+|---------------------|-------|------:|-------:|---|-----------------|---|------:|-------:|
+| Notarial deed       |       |  1s6d |    18d |   | Courtesan       |   |    1s |    12d |
+| Commercial contract |       |    2s |    24d |   | Prostitute      |   |    1d |     1d |
+| Will                |       |    1s |    12d |   | Funeral service |   | 16s8d |   200d |
+| Stable              | 1 day |    1d |     1d |   | | | | |
 
-Clothes
+| Livestock       | Value | Val d |   | Livestock       | Value | Val d | {.equipment}
+|-----------------|------:|------:|---|-----------------|------:|------:|
+| Donkey          |   10s |  120d |   | Geese           |    9d |    9d |
+| Horse, steed    | 2L10s |  600d |   | Chicken         |    6d |    6d |
+| Horse, palfrey  | 1L10s |  360d |   | Falcon, trained |  8s4d |  100d |
+| Horse, work     | 16s8d |  200d |   | Mule            |   15s |  180d |
+| Cow             |    8s |   96d |   | Pig             |    2s |   24d |
+| Duck            |    6d |    6d |   | Swan            |    1s |   12d |
+| Goat            |   10d |   10d |   | Slave           |  1L5s |  300d |
+| Sheep           |    1s |   12d |   | | | |
 
-| Item              | Value | Value d |
-|-------------------|------:|--------:|
-| Bliau, wool       |   13s |    156d |
-| Bliau, silk       | 2L10s |    600d |
-| Purse, buckram    |    9d |      9d |
-| Purse, silk       |    5s |     60d |
-| Hood              |  1s4d |     16d |
-| Hat, leather      |  1s4d |     16d |
-| Hat, wool         |    8d |      8d |
-| Hat, linen        |    4d |      4d |
-| Hat, silk         |  2s8d |     32d |
-| Breeches, leather | 14s8d |    176d |
-| Breeches, wool    |  7s4d |     88d |
-| Breeches, linen   |    4s |     48d |
-| Breeches, silk    | 1L12s |    384d |
-| Blanket, wool     |    4s |     48d |
-| Gloves, leather   |    2s |     24d |
-| Gloves, wool      |    1s |     12d |
-| Gloves, silk      |    4s |     48d |
-| Vest, wool        |  4s8d |     56d |
-| Vest, linen       |  2s6d |     30d |
-| Vest, silk        |    1L |    240d |
-| Vest, leather     |  9s4d |    112d |
-| Surcoat, wool     |  8s8d |    104d |
-| Surcoat, linen    |    5s |     60d |
-| Surcoat, silk     |    2L |    480d |
-| Tabard, wool      |  7s4d |     88d |
-| Tabard, linen     |    4s |     48d |
-| Tabard, silk      | 1L12s |    384d |
-| Boots, leather    |  5s4d |     64d |
-| Belt, leather     |   10d |     10d |
-| Sandals, leather  |    8d |      8d |
-
-Livestock
-
-| Item            | Value | Value d |
-|-----------------|-------|---------|
-| Donkey          |   10s |    120d |
-| Horse, steed    | 2L10s |    600d |
-| Horse, palfrey  | 1L10s |    360d |
-| Horse, work     | 16s8d |    200d |
-| Cow             |    8s |     96d |
-| Duck            |    6d |      6d |
-| Goat            |   10d |     10d |
-| Sheep           |    1s |     12d |
-| Geese           |    9d |      9d |
-| Chicken         |    6d |      6d |
-| Falcon, trained |  8s4d |    100d |
-| Mule            |   15s |    180d |
-| Pig             |    2s |     24d |
-| Swan            |    1s |     12d |
-| Slave           |  1L5s |    300d |
-
-Tools
-
-| Item              | Quantity | Value | Value d |
-|-------------------|----------|-------|---------|
-| Anchor            |          |    1s |     12d |
-| Rope              | 6 feet   |    6d |      6d |
-| Oar               |          |    5d |      5d |
-| Bridle            |          |    1s |     12d |
-| Harness, horse    |          |  1s6d |     18d |
-| Saddle, combat    |          |    1L |    240d |
-| Saddle, riding    |          |  6s8d |     80d |
-| Spurs             |          |  1s6d |     18d |
-| Axe               |          |    1s |     12d |
-| Cradle            |          |    9d |      9d |
-| Coffin            |          |    9d |      9d |
-| Chair             |          |    1s |     12d |
-| Plow              |          |    4s |     48d |
-| Snowshoes         |          |    3s |     36d |
-| Wheel             |          |  1s6d |     18d |
-| Bucket, wodden    |          |    4d |      4d |
-| Table             |          |    3s |     36d |
-| Barrel            |          |  1s3d |     15d |
-| Lighter, tinder   |          |    6d |      6d |
-| Candle            |          |    1f |   0.25d |
-| Oil, lighting     | 1 gallon |    1s |     12d |
-| Lanterne          |          |    1s |     12d |
-| Ink, black        | 3 liters |    3d |      3d |
-| Feather, writing  |          |    1d |      1d |
-| Parchment         |          |    2d |      2d |
-| Vellum            |          |    4d |      4d |
-| Pan, copper       |          |    1s |     12d |
-| Knife, kitchen    |          |    6d |      6d |
-| Cauldron, iron    |          |   10d |     10d |
-| Mug, tin          |          |    4d |      4d |
-| Nails             | 1 pound  |    2d |      2d |
-| Axle              |          |    6d |      6d |
-| Sickle            |          |   10d |     10d |
-| Scythe            |          |    2s |     24d |
-| Horseshoe         | 1 shoe   |    1d |      1d |
-| Fork              |          |    6d |      6d |
-| Goblet, tin       |          |    3d |      3d |
-| Grapple           |          |   10d |     10d |
-| Harpoon           |          |  3s4d |     40d |
-| Lever             |          |    9d |      9d |
-| Hammer            |          |    6d |      6d |
-| Crowbar           |          |    9d |      9d |
-| Pickaxe           |          |    8d |      8d |
-| Pipe              |          |    2d |      2d |
-| Bottle            |          |    6d |      6d |
-| Key               |          |    2d |      2d |
-| Lock box          |          |    1s |     12d |
-| Lock              |          |    4d |      4d |
-| Bag, buckram      |          |    1d |      1d |
-| Sac, canvas       |          |    4d |      4d |
-| Tent, pavillon    |          | 16s8d |    200d |
-| Flute             |          |  1s6d |     18d |
-| Harp              |          |  1L5s |    300d |
-| Luth              |          | 16s8d |    200d |
-| Drum              |          |    3s |     36d |
-| Horn, hunting     |          |  1s8d |     20d |
-| Whip              |          |    1s |     12d |
-| Scabbard, leather |          |    4s |     48d |
-| Wineskin,1 gallon |          |   10d |     10d |
-
-Misc
-
-| Item          | Quantity | Value   | Value d |
-|---------------|----------|---------|---------|
-| Silver        | 1 once   |    1s8d |     20d |
-| Gold          | 1 once   | 1L13s4d |    400d |
-| Pelt, beaver  |          |    1s8d |     20d |
-| Pelt, horse   |          |     10d |     10d |
-| Pelt, pig     |          |      5d |      5d |
-| Pelt, suede   |          |      6d |      6d |
-| Pelt, ermine  |          |    2s6d |     30d |
-| Pelt, rabbit  |          |      1d |      1d |
-| Pelt, otter   |          |      2s |     24d |
-| Pelt, lamb    |          |      3d |      3d |
-| Pelt, sheep   |          |      4d |      4d |
-| Pelt, seal    |          |      2s |     24d |
-| Pelt, veal    |          |    2s2d |     26d |
-| Pelt, cow     |          |      1s |     12d |
-| Charcoal      | 1 bushel |      2d |      2d |
-| Coal          | 1 bushel |      6d |      6d |
-| Herbs, common | 1 ounce  |      6d |      6d |
-| Herbs, rare   | 1 ounce  |      5s |     60d |
+| Misc          |          | Value   | Val d |   | Misc          |          | Value   | Val d | {.equipment}
+|---------------|----------|--------:|------:|---|---------------|----------|---------|-------|
+| Pelt, beaver  |          |    1s8d |   20d |   | Pelt, seal    |          |      2s |   24d |
+| Pelt, horse   |          |     10d |   10d |   | Pelt, veal    |          |    2s2d |   26d |
+| Pelt, pig     |          |      5d |    5d |   | Pelt, cow     |          |      1s |   12d |
+| Pelt, suede   |          |      6d |    6d |   | Silver        | 1 once   |    1s8d |   20d |
+| Pelt, ermine  |          |    2s6d |   30d |   | Gold          | 1 once   | 1L13s4d |  400d |
+| Pelt, rabbit  |          |      1d |    1d |   | Charcoal      | 1 bushel |      2d |    2d |
+| Pelt, otter   |          |      2s |   24d |   | Coal          | 1 bushel |      6d |    6d |
+| Pelt, lamb    |          |      3d |    3d |   | Herbs, common | 1 ounce  |      6d |    6d |
+| Pelt, sheep   |          |      4d |    4d |   | Herbs, rare   | 1 ounce  |      5s |   60d |
 
