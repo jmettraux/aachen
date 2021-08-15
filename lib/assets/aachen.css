@@ -75,6 +75,7 @@ h3 {
 }
 
 table {
+  width: 100%;
   border-collapse: collapse;
   page-break-inside: avoid;
   margin-bottom: 1em;
@@ -96,13 +97,8 @@ dd {
 
 /* CLASSES */
 
-table.w100 {
-  width: 100%;
-}
-
 table.equipment {
   font-size: var(--small-face-size);
-  width: 100%;
   page-break-inside: auto;
 }
 table.equipment th,

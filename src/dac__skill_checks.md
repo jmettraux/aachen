@@ -94,7 +94,7 @@ For example, a scout may roll DEX/Sneak against a sentinel WIS/Notice.
 
 To put the above skill check difficulties in perspective, here are success percentages for roll versus difficulty pairs:
 
-| Roll    | DC 6 | DC 7 | DC 8 | DC 9 | DC 10 | DC 11 | DC 12 | DC 13 | DC 14 | {.w100}
+| Roll    | DC 6 | DC 7 | DC 8 | DC 9 | DC 10 | DC 11 | DC 12 | DC 13 | DC 14 |
 |---------|-----:|-----:|-----:|-----:|------:|------:|------:|------:|------:|
 | 2d6 - 5 |  8.3 |  2.8 |  0.0 |  0.0 |   0.0 |   0.0 |   0.0 |   0.0 |   0.0 |
 | 2d6 - 4 | 16.7 |  8.3 |  2.8 |  0.0 |   0.0 |   0.0 |   0.0 |   0.0 |   0.0 |
@@ -114,7 +114,7 @@ For example, a roll of 2d6+1 with a difficulty of 9 succeeds 41.6% of the time.
 
 Here is a table about advantage (highest 2 of 3d6) and disadvantage (lowest 2 of 3d6) for skill checks:
 
-| Target |   2d6   |    Adv  |  ~ |    Dis  |  ~ | {.w100}
+| Target |   2d6   |    Adv  |  ~ |    Dis  |  ~ |
 |-------:|--------:|--------:|---:|--------:|---:|
 |      2 | 100.00% | 100.00% | +0 | 100.00% |  0 |
 |      3 |  97.22% |  99.54% | +1 |  92.59% | -1 |
