@@ -56,7 +56,7 @@ See [BRANCHING.md](BRANCHING.md).
 
 ## license
 
-This work is inspired by Kevin Crawford work
+This work is inspired by Kevin Crawford [Stars Without Number](https://www.drivethrurpg.com/product/226996/Stars-Without-Number-Revised-Edition) and [Wolves of God](https://www.drivethrurpg.com/product/308470/Wolves-of-God-Adventures-in-Dark-Ages-England).
 
 Drifted as "Aachen" by John Mettraux, https://github.com/jmettraux/aachen, [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
