@@ -1,8 +1,8 @@
 
-# determine attributes
+# Determine Attributes
 
 
-## the attributes
+## The Attributes
 
 STR, DEX and CON are _physical_ attributes. INT, WIS, CHA are _mental_ attributes. This distinction is used in the background tables.
 
@@ -28,7 +28,7 @@ CHA charisma
 : Force of character, charming others, attracting attention, winning loyalty.
 : Affects reaction rolls.
 
-## roll attributes
+## Roll Attributes
 
 To generate a character's score, roll 3d6 six times, assigning them in order to STR, DEX, CON, INT, WIS, and CHA.
 
@@ -39,7 +39,7 @@ To generate a character's score, roll 3d6 six times, assigning them in order to 
 Any of the attribute score may be replaced by a 14, unless the array method was used.
 
 
-## write down attribute modifiers
+## Write Down Attribute Modifiers
 
 For each score write down next to it its modifier.
 

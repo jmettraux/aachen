@@ -1,37 +1,37 @@
 
-# combat actions
+# Combat Actions
 
-## action types
+## Action Types
 
 When it's their turn, a participant may perform one **main action** and one **move action**, in the order they deem appropriate.
 
 **On turn actions** and **instant actions** are available too. Together, those 4 types of actions frame how participants structure their actions in the round.
 
-### main actions
+### Main Actions
 
 A **main action** takes up most of the participant's round. Attacking an adversary, casting a spell, drawing a downed ally into cover, are examples of main actions.
 
 A participant may decide to turn their **main action** into a **move action**, effectively benefitting from two **move actions** for their round.
 
-### move actions
+### Move Actions
 
 The participant may move from zero to their normal movement rate, for a human participant, that's from 0 to 30 feet. Given the terrain and/or the circumstance the referee might reduce this movement rate.
 
 A move action may not be split, thus it's not possible to move 10 feet (move action), shoot a bow (main action), and then move 20 feet (move action action).
 
-### on turn actions
+### On Turn Actions
 
 **On turn actions** are simple and quick actions. Like main and move actions, on turn actions are performed by participants when it's their turn. Whereas main and move actions are limited, as many on turn actions as the referee judges reasonable may be performed.
 
 Example of on turn actions are, saying a few words, reloading a bow from a readied quiver, drawing out a readied object, and similar actions.
 
-### instant actions
+### Instant Actions
 
 **Instant actions** are generally linked to talents and special powers. They are so fast and simple that they can be performed at any, even out of turn, they can be delayed until needed. There is no limit on the number of instant actions a participant can take (unless the instant action description says otherwise).
 
 The referee decides on the execution orders if multiple instant actions are triggered at the same time.
 
-### summary
+### Summary
 
 For the round, a participant may perform
 
@@ -40,7 +40,7 @@ For the round, a participant may perform
 * on their turn, as many **on turn actions** as allowed by the referee
 * out of turn, as many **instant actions** as allowed by the referee
 
-## actions
+## Actions
 
 These are common actions that can be taken by participants in a combat.
 
@@ -71,26 +71,26 @@ These are common actions that can be taken by participants in a combat.
   * go prone
   * delay an action
 
-### make a melee attack (main action)
-### make a ranged attack (main action)
-### make a snap attack (instant action + main action)
-### make a mob attack (main action)
-### cast a spell (main action)
-### charge (move action + main action)
-### screen an ally (move action)
-### go total defense (instant action + main action)
-### run (move action) ~~~
-### make a fighting withdrawal (main action)
-### use a skill (main action)
-### ready or stow an item (main action)
-### reload a weapon (main action)
-### drop an item (instant action)
-### pick up an item (move action)
-### stand up (move action)
-### go prone (on turn action)
-### hold an action (move action)
-### delay an action (on turn action)
+### Make A Melee Attack (main Action)
+### Make A Ranged Attack (main Action)
+### Make A Snap Attack (instant Action + Main Action)
+### Make A Mob Attack (main Action)
+### Cast A Spell (main Action)
+### Charge (move Action + Main Action)
+### Screen An Ally (move Action)
+### Go Total Defense (instant Action + Main Action)
+### Run (move Action) ~~~
+### Make A Fighting Withdrawal (main Action)
+### Use A Skill (main Action)
+### Ready Or Stow An Item (main Action)
+### Reload A Weapon (main Action)
+### Drop An Item (instant Action)
+### Pick Up An Item (move Action)
+### Stand Up (move Action)
+### Go Prone (on Turn Action)
+### Hold An Action (move Action)
+### Delay An Action (on Turn Action)
 
-### lock shields (move action)
-### shatter a shield (main action)
+### Lock Shields (move Action)
+### Shatter A Shield (main Action)
 

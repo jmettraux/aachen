@@ -1,5 +1,5 @@
 
-# equip
+# Equip
 
 The referee grants equipment to the character, according to their background, origin, and class.
 
@@ -12,7 +12,7 @@ Item prices are indicative, hence most of them are expressed in pounds or shilli
 Two easy points of reference, a labourer expects to be paid 1 penny for a day of work and a cow costs 8 shillings (96 pence), hence 96 days of labour.
 
 
-## monetary system
+## Monetary System
 
 | Abb | Name     | Latin Name | French Name | Value | Value d |
 |-----|----------|------------|-------------|------:|--------:|
@@ -22,7 +22,7 @@ Two easy points of reference, a labourer expects to be paid 1 penny for a day of
 | f   | Farthing |            | Ferlin      |       |    1/4d |
 
 
-## wages
+## Wages
 
 |                  | Span    | Wage   | Wage d |
 |------------------|---------|--------|--------|
@@ -32,7 +32,7 @@ Two easy points of reference, a labourer expects to be paid 1 penny for a day of
 | Master craftsman | 1 day   |     5d |    20f |
 
 
-## armor
+## Armor
 
 TODO
 
@@ -49,7 +49,7 @@ TODO
 | Shield broad | 15 + DEX mod or +1 to AC |     6s |    72d |
 
 
-## weapons
+## Weapons
 
 Melee weapons:
 
@@ -102,7 +102,7 @@ Weapon traits:
 | T     | Throwable. Can be used in melee and also thrown at the listed range. No shock damage when thrown. -4 to the hit roll if throwing while in melee with an opponent. |
 
 
-## other values
+## Other Values
 
 Food
 

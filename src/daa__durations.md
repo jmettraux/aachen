@@ -1,5 +1,5 @@
 
-# durations, scenes, rounds, and turns
+# Durations, Scenes, Rounds, And Turns
 
 The referee is expected to track time for adventures and campaigns. Faery tales of endless winters have been told and retold but they too have some kind of calendar that the referee must track.
 

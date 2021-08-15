@@ -1,11 +1,11 @@
 
-# combat
+# Combat
 
-## sides
+## Sides
 
 A combat usually involves two sides, the player characters and their allies' side and the opposing side.
 
-## rounds
+## Rounds
 
 A combat situation is divided in **rounds** of roughly six seconds. Every participant takes their turn during the round, then another round begins.
 
@@ -17,7 +17,7 @@ A combat situation is divided in **rounds** of roughly six seconds. Every partic
   * other side takes their turns
   * go to 4, next round begins
 
-## surprise
+## Surprise
 
 Attackers always try to achieve surprise.
 
@@ -25,7 +25,7 @@ To determine if a side surprise the other, an opposed roll DEX/Sneak versus WIS/
 
 If a group of undisciplined and/or poorly trained non-player characters is surprised, the referee might make a Morale check for them.
 
-## initiative
+## Initiative
 
 The player character side throws 1d8 and adds the best DEX modifier found among them to the result. The opposing side does the same. The side with the highest result goes first. In case of tie, the player character side goes first.
 
@@ -35,11 +35,11 @@ Each side then lets act its members in any order they like. Once they have all h
 
 TODO sequence for the initiative optional rule
 
-## in and out of melee
+## In And Out Of Melee
 
 TODO free attack
 
-## attacks
+## Attacks
 
 To determine if an attack hits or not, 1d20 is rolled, the class attack bonus and the relevant attribute modifier (STR or DEX) are added. The skill level in Stab, Shoot or Punch is added as well. If the result is greater or equal to the opponents's Armor Class, then the attack hits.
 
@@ -49,7 +49,7 @@ Unlike skill checks, no level in Stab, Shoot, or Punch is not counted as -1, but
 
 The weapon dictates which attribute modifier is used, the rule of thumb is STR for melee weapons and DEX for ranged weapons. Some weapons let the user choose between STR and DEX, the attribute modifier is used for the attack hit roll and the attack damage roll (and eventually shock damage).
 
-### melee attacks
+### Melee Attacks
 
 Melee attacks usually have a _range_ of 5 feet. Some weapons or creature attacks have the _long_ trait, letting them target foes within 10 feet.
 
@@ -60,7 +60,7 @@ TODO
 | Melee attacking an adjacent prone foe |  +2 |
 | Melee attacking while prone           |  -4 |
 
-### ranged attacks
+### Ranged Attacks
 
 Ranged weapon and creature ranged attacks have a short and a long range. For example, a large bow is 100ft / 600ft. From 100ft to 600ft, the modifier is -2, beyond 600ft, no chance to hit.
 
@@ -75,11 +75,11 @@ Ranged weapon and creature ranged attacks have a short and a long range. For exa
 
 Shooting a two-handed weapon while in contact is not allowed.
 
-### damage
+### Damage
 
 TODO
 
-### shock damage
+### Shock Damage
 
 Some weapons or creature attacks have _shock damage_. It is expressed as dmg / AC and only applies to melee attacks.
 
@@ -89,19 +89,19 @@ If the opponent AC is superior to the shock damage target AC, shock damage is no
 
 For example a fighter with STR +1 uses a "2 / AC 13" sword. An opponent with an AC of 13 or less gets at least 2 + 1 points of damage should the fighter make a melee attack on them. In case of hit, 1d8 + 1 (STR) is rolled, a roll of 1 or 2 both inflict 3 points of damage.
 
-### execution attacks
+### Execution Attacks
 
 TODO
 
-## shoving and grappling
+## Shoving And Grappling
 
 TODO
 
-## wielding two weapons
+## Wielding Two Weapons
 
 TODO
 
-## 1d20 vs target table
+## 1d20 Vs Target Table
 
 | target | 1d20 |   adv  |  ~ |   dis  |  ~ |
 |-------:|-----:|-------:|---:|-------:|---:|

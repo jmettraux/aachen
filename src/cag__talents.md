@@ -20,11 +20,11 @@ Keenly aware of his surroundings and virtually impossible to take unaware. If th
 
 Never reacts more slowly than the rest of the party, regardless of roll.
 
-### level 1
+### Level 1
 
 Gains Notice as a bonus skill. Cannot be surprised. Roll two dice for initiative and take the best, or add +1 to the group initiative roll.
 
-### level 2
+### Level 2
 
 Always acts first in a combat round unless someone else involved also has Watchful.
 

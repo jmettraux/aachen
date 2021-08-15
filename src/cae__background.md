@@ -1,5 +1,5 @@
 
-# pick a background
+# Pick A Background
 
 This the background list for a simple medieval setting.[^1]
 
@@ -22,21 +22,21 @@ If one doesn't find any suitable background, one can come up with a background d
 >
 >   Kevin Crawford, Brother Cornix, "Wolves of God" p.15
 
-## picking a background
+## Picking A Background
 
 Picking a background grants a _free skill_ to the character. For example, a free man is given the _Work_ skill (at level 0).
 
 A character may choose one of three ways of selecting skills. _go quick_, _learn two skills_, or _roll three times_.
 
-### go quick
+### Go Quick
 
 The character is granted the two _quick skills_. Done.
 
-### learn two skills
+### Learn Two Skills
 
 The character is granted two skills selected from the 7 skills listed under the _Learning_ column.
 
-### roll three times
+### Roll Three Times
 
 Dice are rolled three times. The rolls can be made against the _Growth_ or the _Learning_ table. Rolling on the Growth table may even yield an attribute +2. Hitting _Any Skill_ gives the opportunity to choose any skill.[^2]
 
@@ -52,7 +52,7 @@ Remember to recompute the attribute modifiers and the saving throw scores if an 
 
 <!-- PAGE BREAK -->
 
-## the backgrounds
+## The Backgrounds
 
 
 ### Commoner

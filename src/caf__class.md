@@ -1,5 +1,5 @@
 
-# choose a class
+# Choose A Class
 
 There are only three core classes, Fighter, Expert, and Weaver (spellcaster). There is a fourth possibility, Adventurer which mixes two classes.
 
@@ -21,13 +21,13 @@ People gifted for physical violence and tenacity. Or simply any free man.
 |     9 |     9d6+18 |     +9 |                   |
 |    10 |    10d6+20 |    +10 | +1 Any            |
 
-### class ability: Fighter's luck
+### Class Ability: Fighter's Luck
 
 Once per scene, as an instant action, a successful attack roll against the character can be negated or the Fighter missed attack roll can be made into a successful hit.
 
 This ability cannot be used to negate environmental damage or damage done to a vehicule or mount the Fighter is riding.
 
-### class ability: Extra Talent
+### Class Ability: Extra Talent
 
 A Fighter can pick two Talents at level 1, or pick one Talent at level 2. (Other character classes pick only one Talent at level 1).
 
@@ -51,13 +51,13 @@ Experts gain the widest variety of non-combat skills and are the quickest to lea
 |     9 |        9d6 |     +4 |                  |
 |    10 |       10d6 |     +5 | +1 Any           |
 
-### class ability: Expertise
+### Class Ability: Expertise
 
 Once per scene, the Expert may reroll any non-combat skill check as an Instant action.
 
 In cases where it matters, the better of the two rolls may be used.
 
-### class ability: Quick Learner
+### Class Ability: Quick Learner
 
 Upon advancing in experience level, the Expert gains a bonus skill point that can be used on any non-combat, non-magic skill. This point can be saved for later use.
 
@@ -79,13 +79,13 @@ Weavers can weave the threads of the source. That gift grew in them since childh
 |     9 |      9d6-9 |     +3 |              |
 |    10 |    10d6-10 |     +4 | +1 Any       |
 
-### class ability: Sneak and Convince
+### Class Ability: Sneak And Convince
 
 The Weaver gains one level in Sneak and one in Convince.
 
 But remember, no novice character skill level can exceed 1.
 
-### class ability: Spellcasting
+### Class Ability: Spellcasting
 
 The Weaver gains one level in Cast.
 

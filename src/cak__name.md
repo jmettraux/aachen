@@ -1,9 +1,9 @@
 
-# name the character
+# Name The Character
 
 Give the character a name adapted to their origin, gender, and background.
 
-## random frankish names
+## Random Frankish Names
 
 Select or roll a first name. For the family name roll again and become "Adalger son of Amman" or "Gerlind daughter of Amalric". If a patronym doesn't make much sense or if you're noble, become "Adalger of Heidelberg" or "Gerwin of Tours".
 
@@ -38,13 +38,13 @@ Select or roll a first name. For the family name roll again and become "Adalger 
 * https://www.behindthename.com/submit/names/usage/ancient-germanic-frankish
 * https://www.fantasynamegenerators.com/frankish-names.php
 
-## random burgundian names
+## Random Burgundian Names
 
 Follow the patronym / place name frankish suggestion above for the family name.
 
 TODO
 
-## random late roman names
+## Random Late Roman Names
 
 https://www.behindthename.com/names/usage/late-roman
 

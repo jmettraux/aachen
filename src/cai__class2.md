@@ -1,7 +1,7 @@
 
 <!-- PAGE UNBREAK -->
 
-# finalize class selection
+# Finalize Class Selection
 
 Some classes require the selection of spells or special powers.
 

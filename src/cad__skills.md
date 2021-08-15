@@ -1,10 +1,10 @@
 
-# skill list
+# Skill List
 
 Skill enumeration with description.
 
 
-## skill levels
+## Skill Levels
 
 |         | Description                                          |
 |---------|------------------------------------------------------|
@@ -15,7 +15,7 @@ Skill enumeration with description.
 | Level 4 | Touching greatness, one of the best in the world     |
 
 
-## combat skills
+## Combat Skills
 
 Stab
 : Fight with a melee weapon. Maintain such weapons.
@@ -27,14 +27,14 @@ Punch
 : Fight unarmed. Punch, kick, grapple, or brawl.
 
 
-## special skills
+## Special Skills
 
 Cast
 : To cast spells. To analyze magical effects, to know about magic and its practicioners.
 : Classes that cannot cast spells and have levels in this skill are simply scholars of magic.
 
 
-## skills
+## Skills
 
 Administer
 : To manage land and laborers, or a workshop, its journeyfolk and apprentices.

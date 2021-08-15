@@ -1,5 +1,5 @@
 
-# skill checks
+# Skill Checks
 
 A skill check is done by rolling 2d6, adding the skill level and an attribute modifier. The skill and the attribute are determined by the referee. If the character has no skill level, -1 is added instead.
 
@@ -9,7 +9,7 @@ In a javelin precision throw contest, the referee might ask for a DEX/Shoot chec
 
 The referee, prior to the check has decided on a difficulty, usually from 6 to 15. To succeed, the roll result must reach or exceed the difficulty.
 
-## skill check outcome
+## Skill Check Outcome
 
 The referee determines the outcome of the skill check failure or success. Depending on the circumstances, the outcome might be very limited, plain failure or plain success.
 
@@ -26,7 +26,7 @@ The referee determines the outcome of the skill check failure or success. Depend
 
 On a marginal success, the referee might want to acknowledge success but add a further complication to the situation. Exceptional and marginal outcomes are begging for situation development.
 
-## when to skill check
+## When To Skill Check
 
 * a task is difficult and hazardous,
 * a task is performed under time pressure, or
@@ -34,13 +34,13 @@ On a marginal success, the referee might want to acknowledge success but add a f
 
 Old farm hands doesn't get skill check each time they drive the cart to the market, it is routine work for them.
 
-## how not to skill check
+## How Not To Skill Check
 
 The referee might decide the task is too easy (skill difficulty < 6) or look at the character skill level and decide it is appropriate for an automatic success.
 
 If there is time, the referee might look at the character skill level and decide how much time is spent until the task succeeds (difficulty < 9).
 
-## skill levels
+## Skill Levels
 
 |         | Mod | Description                                          |
 |---------|----:|------------------------------------------------------|
@@ -53,7 +53,7 @@ If there is time, the referee might look at the character skill level and decide
 
 Skill levels are acquired at character creation and through advancement.
 
-## skill check difficulty
+## Skill Check Difficulty
 
 |      | Skill Check Difficulty |
 |:----:|------------------------|
@@ -68,7 +68,7 @@ The referee might increase the difficulty by 1 or 2 if they think that the skill
 
 Circumstances and tools might alter a skill check difficulty. Usually the referee should limit the total change from -2 to +2.
 
-## aiding a skill check
+## Aiding A Skill Check
 
 A character may want to help a comrade at a skill check. If the referee agrees, they ask of the player a relevant skill check against the same difficulty as the _helped_ skill check.
 
@@ -80,7 +80,7 @@ The _helping_ skill check is against the same difficulty, but it's not necessari
 
 For example, two characters are attempting to trim a horse hoof before going on pursuing foes, the referee asks a WIS/Ride from the trimmer against a difficulty of 8. A companion helps by holding and quieting the horse, CHA/Ride against the same difficulty of 8.
 
-## opposed skill checks
+## Opposed Skill Checks
 
 Contests may be adjudicated via opposed skill checks. All participants roll with the same Ability / Skill combination and the one with the highest number wins. Ties go to player characters, or are re-rolled.
 
@@ -90,7 +90,7 @@ Skill checks may also oppose different combinations of skills and attributes.
 
 For example, a scout may roll DEX/Sneak against a sentinel WIS/Notice.
 
-## skill check probabilities
+## Skill Check Probabilities
 
 To put the above skill check difficulties in perspective, here are success percentages for roll versus difficulty pairs:
 

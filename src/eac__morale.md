@@ -1,9 +1,9 @@
 
-# morale
+# Morale
 
 Rules for the referee about NPCs morale.
 
-## morale checks
+## Morale Checks
 
 Morale affect NPCs, not PCs. By default, NPCs fight as long as honor and common sense demand it, but failed morale checks may change that.
 
@@ -16,7 +16,7 @@ The referee rolls a 2d6 for the NPC, if the result is higher than its morale num
 
 The referee may decide on a modifier from -2 to +2 given circumstances like the presence of the leader (for example goblins have a morale of 7 usually, but it becomes 9 in presence of their leader).
 
-## morale scale
+## Morale Scale
 
 | Troop Type           | Morale |
 |----------------------|-------:|

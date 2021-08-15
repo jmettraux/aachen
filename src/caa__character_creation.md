@@ -1,5 +1,5 @@
 
-# character creation - summary
+# Character Creation
 
 FIXME
 
@@ -15,7 +15,7 @@ FIXME
 * cc10 - Give character a name
 * cc11 - Acquire equipment
 
-### on picking skills during character creation
+### On Picking Skills During Character Creation
 
 The first time you pick a skill, it starts at level 0. The second time, it becomes level 1. The third time, you can instead pick any other skill of your choice that's less than level 1. No novice character skills can exceed level 1.
 

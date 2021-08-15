@@ -20,7 +20,7 @@
 * Monsters and NPCs have a single saving throw of 15 minus their halved and rounded-down hit dice
 * A roll of 1 is always a failure, a roll of 20 is always a success
 
-## Injury and Healing
+## Injury And Healing
 
 * A creature dies or is mortally wounded at zero hit points
 * Minor NPCs, PCs with the Frail quality, or creatures hit by unsurvivable injuries die instantly
@@ -49,7 +49,7 @@ TODO
 * On Turn actions allow the PC to say a few words, drop prone, or do other reflexively simple things
 * Instant Actions can be take at any time, even during someone else's turn, or even after dice have been rolled. Instant actions are usually special powers the PC can use or the result of holding an action in combat
 
-## Hitting and Damage
+## Hitting And Damage
 
 * An attack is made with a hit roll of 1d20 plus the relevant weapon skill plus the attribute modifier that the weapon uses plus the attack bonus of the character
 * If the resultant roll is equal or higher than the target's Armor Class, the attack hits
