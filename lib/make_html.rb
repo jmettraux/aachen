@@ -119,11 +119,23 @@ def load_part(path, h={})
   s
 end
 
+
+#
+# rework_html()
+
 def rework_md(s)
   #
   # currently: lowdown-0.8.3
   #
   # at some point, lowdown will deal with these reworks...
+
+  s = rework_md_table_id_and_class(s)
+  s = rework_md_headings(s)
+
+  s
+end
+
+def rework_md_headings(s)
 
   # md:   # AACHEN {#foo .bar.baz}
   # -->
@@ -142,27 +154,45 @@ def rework_md(s)
       c = c && c.split('.').join(' ').strip
       c = c || ''
 
-      "<#{h} id=\"#{i}\" class=\"#{c}\">#{$2}</#{h}>"
-
-        }
-    .gsub(/^(|.+|)[\t ]*\{([^}]+)\}[\t ]*$/) {
-      "<!--#{$2}-->\n#{$1}"
-        }
+      "<#{h} id=\"#{i}\" class=\"#{c}\">#{$2}</#{h}>" }
 end
+
+def rework_md_table_id_and_class(s)
+
+  s
+    .gsub(/^(|.+|)[\t ]*\{([^}]+)\}[\t ]*$/) {
+
+      "<!--#{$2}-->\n#{$1}" }
+end
+
+
+#
+# rework_html()
 
 def rework_html(s)
 
-  # <!-- #table-id .bar.baz -->
-  # <table>
-  # -->
-  # <table id="table-id" class="bar baz">
+  s = rework_html_id(s)
+  s = rework_html_table_id_class(s)
+
+  s
+end
+
+def rework_html_id(s)
 
   s
     .gsub(/ id="([^"])+"/) { |x|
 
-      x.downcase.gsub(/-/, '_').gsub(/%20/, '_')
+      x.downcase.gsub(/-/, '_').gsub(/%20/, '_') }
+end
 
-        }
+def rework_html_table_id_class(s)
+
+  #   <!-- #table-id .bar.baz -->
+  #   <table>
+  # ==>
+  #   <table id="table-id" class="bar baz">
+
+  s
     .gsub(/<!--(.+)-->[\t ]*\n*<table/) {
 
       atts = ''
@@ -172,7 +202,6 @@ def rework_html(s)
       c = a.find { |e| e.start_with?('.') }
       atts += " class=\"#{c.split('.').join(' ').strip}\"" if c
 
-      "<table#{atts} "
-        }
+      "<table#{atts} " }
 end
 
