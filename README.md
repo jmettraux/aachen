@@ -46,6 +46,14 @@ See [BRANCHING.md](BRANCHING.md).
 * https://www.markdownguide.org/extended-syntax/
 
 
+## dependencies
+
+* [lowdown](https://kristaps.bsd.lv/lowdown/) 0.8.3
+* [wkhtmltopdf](https://wkhtmltopdf.org/) 0.12.5p2
+* [ruby](https://www.ruby-lang.org/en/) 2.x
+* [make](https://en.wikipedia.org/wiki/Make_(software))
+
+
 ## license
 
 This work is inspired by Kevin Crawford work
