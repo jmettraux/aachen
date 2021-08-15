@@ -5,24 +5,33 @@ def make_html
     .sort
     .select { |path| File.basename(path).match?(/^([a-z]{3})__(.+)\.md$/) }
 
-  pages.each do |path|
-    m = File.basename(path).match(/^([a-z]{3})__(.+)\.md$/)
-    code = m[1]
-    rest = m[2]
-    off = 0
-    f = nil
-    File.readlines(path).each do |l|
-      f ||= File.open("out/tmp/#{code}#{off}__#{rest}.md", 'wb')
-      if l.match?(/^[ \t]*<!--[ \t]*(PAGE[ \t]+)?BREAK[ \t]*-->\s*$/)
-        f.close if f
-        f = nil
-        off = off + 1
-        next
+  out = "out/tmp/__#{CONFIG[:NAME_]}.md"
+
+  File.open(out, 'wb') do |f|
+    pages.each_with_index do |path, i|
+      s = File.read(path)
+      t = s.match(/\#{1,2}[\t ]+([^\n]+)/)[1].downcase.gsub(/[^a-z]+/, '_')
+      if i > 0
+        f.write("<!-- PAGE BREAK #{t} -->") \
+          unless s.match?(/\s*<!--[\t ]*(PAGE[\t ]+)?UNBREAK[\t ]*-->/)
       end
-      f.write(l)
-      f.flush # yes, do flush
+      f.write(s)
     end
   end
+
+  page = 1
+  f = File.open("out/tmp/p%03d__%s.md" % [ page, CONFIG[:NAME_] ], 'wb')
+    #
+  File.readlines(out).each do |l|
+    if m = l.strip.match(/^<!--[\t ]*(PAGE[\t ]+)?BREAK[\t ]+(.+)-->/)
+      f.close
+      page = page + 1
+      f = File.open("out/tmp/p%03d__%s.md" % [ page, m[2].strip ], 'wb')
+    else
+      f.write(l)
+    end
+  end
+  f.close
 
   out = "out/html/#{CONFIG[:NAME_]}.html"
   cha = nil
@@ -31,14 +40,16 @@ def make_html
 
   Dir['out/tmp/*.md'].sort.each_with_index do |path, i|
 
-    m = path.match(/\/([a-z]{3})(\d+)__(.+)\.md$/)
+    m = path.match(/\/p(\d{3})__(.+)\.md$/)
     next unless m
 
-    t = m[3].gsub(/_/, ' ')
-    h = { PATH: path, PAGE: 1 + i, TITLE: t, EVEN: i % 2 == 1 ? :even : :odd }
+    i = m[1].to_i
+    t = m[2].gsub(/_/, ' ')
+      #
+    h = { PATH: path, PAGE: i, TITLE: t, EVEN: i % 2 == 0 ? :even : :odd }
 
-    tmp = "out/tmp/#{m[1]}#{m[2]}__#{m[3]}.1.md"
-    tmp2 = "out/tmp/#{m[1]}#{m[2]}__#{m[3]}.2.html"
+    tmp = "out/tmp/pd#{m[1]}__#{m[2]}.md"
+    tmp2 = "out/tmp/pht#{m[1]}__#{m[2]}.html"
 
     echo(out, load_part('lib/partials/pre_chapter.html', h)) if m[2] == '0'
     echo(out, load_part('lib/partials/pre_page.html', h))

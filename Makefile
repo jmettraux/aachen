@@ -10,6 +10,7 @@ all: pdf
 
 html:
 	rm -fR out/tmp/*.md
+	rm -fR out/tmp/*.html
 	rm -fR out/html/* out/html/.*
 	touch out/html/.gitkeep
 	cp lib/assets/*.ico out/html/
