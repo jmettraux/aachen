@@ -1,4 +1,15 @@
 
+WORDS_TO_INDEX = %w[
+  combat
+  initiative
+  reaction
+  save
+  shooting
+  skill skills
+  spell
+  morale
+    ].freeze
+
 def make_html
 
   pages = Dir['src/*.md']
@@ -19,6 +30,15 @@ def make_html
     end
   end
 
+  index = {}
+  table = []
+    #
+  do_index = lambda { |page, s, heading=false|
+    s.split(/\W+/).each do |w|
+      w = w.downcase.gsub(/_+/, '')
+      (index[w] ||= []) << page if WORDS_TO_INDEX.include?(w)
+    end }
+
   page = 1
   f = File.open("out/tmp/p%03d__%s.md" % [ page, CONFIG[:NAME_] ], 'wb')
     #
@@ -28,10 +48,22 @@ def make_html
       page = page + 1
       f = File.open("out/tmp/p%03d__%s.md" % [ page, m[2].strip ], 'wb')
     else
+      if m = l.match(/^(\#{1,2}) (.+)$/)
+        table << [ m[2], m[1], page ]
+        do_index[page, m[2], :heading]
+      else
+        do_index[page, l]
+      end
       f.write(l)
     end
   end
   f.close
+
+  index.each { |_, v| v.uniq! }
+#puts "v" * 80
+#pp index
+#pp table
+#puts "^" * 80
 
   out = "out/html/#{CONFIG[:NAME_]}.html"
   cha = nil
