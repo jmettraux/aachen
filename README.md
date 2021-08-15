@@ -41,6 +41,11 @@ TODO
 See [BRANCHING.md](BRANCHING.md).
 
 
+## references
+
+* https://www.markdownguide.org/extended-syntax/
+
+
 ## license
 
 This work is inspired by Kevin Crawford work

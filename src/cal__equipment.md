@@ -180,7 +180,7 @@ Clothes
 
 Livestock
 
-| name            | Value | Value d |
+| Item            | Value | Value d |
 |-----------------|-------|---------|
 | Donkey          |   10s |    120d |
 | Horse, steed    | 2L10s |    600d |
@@ -200,7 +200,7 @@ Livestock
 
 Tools
 
-| name              | Quantity | Value | Value d |
+| Item              | Quantity | Value | Value d |
 |-------------------|----------|-------|---------|
 | Anchor            |          |    1s |     12d |
 | Rope              | 6 feet   |    6d |      6d |

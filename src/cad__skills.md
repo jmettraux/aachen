@@ -17,107 +17,81 @@ Skill enumeration with description.
 
 ## combat skills
 
-### Stab
+Stab
+: Fight with a melee weapon. Maintain such weapons.
 
-Fight with a melee weapon. Maintain such weapons.
+Shoot
+: Fight with a ranged weapon. Maintain such weapons and their ammunition.
 
-### Shoot
-
-Fight with a ranged weapon. Maintain such weapons and their ammunition.
-
-### Punch
-
-Fight unarmed. Punch, kick, grapple, or brawl.
+Punch
+: Fight unarmed. Punch, kick, grapple, or brawl.
 
 
 ## special skills
 
-### Cast
-
-To cast spells. To analyze magical effects, to know about magic and its practicioners.
-
-Classes that cannot cast spells and have levels in this skill are simply scholars of magic.
+Cast
+: To cast spells. To analyze magical effects, to know about magic and its practicioners.
+: Classes that cannot cast spells and have levels in this skill are simply scholars of magic.
 
 
 ## skills
 
-### Administer
+Administer
+: To manage land and laborers, or a workshop, its journeyfolk and apprentices.
 
-To manage land and laborers, or a workshop, its journeyfolk and apprentices.
+Connect
+: To connect with people, to ascertain the dynamics of groups and communities.
 
-### Connect
+Convince
+: To persuade one or more listeners.
 
-To connect with people, to ascertain the dynamics of groups and communities.
+Craft
+: To craft or repair goods.
 
-### Convince
+Exert
+: To climb, run, lift, throw. Athletic training.
 
-To persuade one or more listeners.
+Heal
+: To mend wounds, combat diseases, neutralize poisons.
+: This skill is used when stabilizing _Mortally Wounded_ characters, its importance cannot be overstated.
 
-### Craft
+Hunt
+: To take game with snare, arrow or spear, to know the habits and the manner of preys.
 
-To craft or repair goods.
+Know
+: The seven liberal arts are divided between the trivium and the quadrivium. The trivium is grammar, logic, and rhethoric. The quadrivium is arithmetic, geometry, music, and astronomy.
+: Level 0 equals some mastery of the trivium, while above levels leave the trivium for the quadrivium.
 
-### Exert
+Lead
+: To conduct and inspire people.
 
-To climb, run, lift, throw. Athletic training.
+Notice
+: To perceive small details, hidden features, emotional states. To be aware.
 
-### Heal
+Perform
+: To sing, dance, or play an instrument. To know songs and stories.
 
-To mend wounds, combat diseases, neutralize poisons.
+Pray
+: To know how to perform the religious rites, to know the religious history.
 
-This skill is used when stabilizing _Mortally Wounded_ characters, its importance cannot be overstated.
+Ride
+: To ride an animal, to drive a cart or carriage. To take care of the animal.
 
-### Hunt
+Sail
+: To sail and navigate a ship, to build a craft. To read sea weather, to manage sailors.
 
-To take game with snare, arrow or spear, to know the habits and the manner of preys.
+Sneak
+: To move unnoticed, without leaving traces, to conceal things, to deal with locks and traps.
 
-### Know
+Survive
+: To mitigate environmental hazards, to identify plants and wildlife, to craft basic survival tools and shelter.
 
-The seven liberal arts are divided between the trivium and the quadrivium. The trivium is grammar, logic, and rhethoric. The quadrivium is arithmetic, geometry, music, and astronomy.
+Swim
+: To swim, to be at ease in the water.
 
-Level 0 equals some mastery of the trivium, while above levels leave the trivium for the quadrivium.
+Trade
+: To buy and sell advantageously, to value goods correctly, to deal with traders and merchants, to know about trade laws, smuggling, and contraband.
 
-### Lead
-
-To conduct and inspire people.
-
-### Notice
-
-To perceive small details, hidden features, emotional states. To be aware.
-
-### Perform
-
-To sing, dance, or play an instrument. To know songs and stories.
-
-### Pray
-
-To know how to perform the religious rites, to know the religious history.
-
-### Ride
-
-To ride an animal, to drive a cart or carriage. To take care of the animal.
-
-### Sail
-
-To sail and navigate a ship, to build a craft. To read sea weather, to manage sailors.
-
-### Sneak
-
-To move unnoticed, without leaving traces, to conceal things, to deal with locks and traps.
-
-### Survive
-
-To mitigate environmental hazards, to identify plants and wildlife, to craft basic survival tools and shelter.
-
-### Swim
-
-To swim, to be at ease in the water.
-
-### Trade
-
-To buy and sell advantageously, to value goods correctly, to deal with traders and merchants, to know about trade laws, smuggling, and contraband.
-
-### Work
-
-To toil in the fields, take care of herds, hew trees, weave cloth. All the work.
+Work
+: To toil in the fields, take care of herds, hew trees, weave cloth. All the work.
 
