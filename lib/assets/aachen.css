@@ -53,6 +53,7 @@ h3 {
 table {
   border-collapse: collapse;
   page-break-inside: avoid;
+  margin-bottom: 1em;
 }
 th, td {
   border-bottom: solid thin;

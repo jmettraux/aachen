@@ -36,17 +36,17 @@ Two easy points of reference, a labourer expects to be paid 1 penny for a day of
 
 TODO
 
-| Name         | AC or mod                |   Cost | Cost d |
-|--------------|:------------------------:|-------:|-------:|
-| No Armor     | 10 + DEX mod             |        |        |
-| &nbsp;       |                          |        |        |
-| Gambeson     | 12 + DEX mod             |     1L |   240d |
-| Mail Shirt   | 14 + DEX mod             |     2L |   480d |
-| Mail Hauberk | 16 + DEX mod             |     3L |   720d |
-| &nbsp;       |                          |        |        |
-| Shield small | 13 + DEX mod or +1 to AC |     3s |    36d |
-| Shield large | 14 + DEX mod or +1 to AC |     4s |    48d |
-| Shield broad | 15 + DEX mod or +1 to AC |     6s |    72d |
+| Name         | AC           | or Mod   |   Cost | Cost d |
+|--------------|:------------:|:--------:|-------:|-------:|
+| No Armor     | 10 + DEX mod |          |        |        |
+| &nbsp;       |              |          |        |        |
+| Gambeson     | 12 + DEX mod |          |     1L |   240d |
+| Mail Shirt   | 14 + DEX mod |          |     2L |   480d |
+| Mail Hauberk | 16 + DEX mod |          |     3L |   720d |
+| &nbsp;       |              |          |        |        |
+| Shield small | 13 + DEX mod | +1 to AC |     3s |    36d |
+| Shield large | 14 + DEX mod | +1 to AC |     4s |    48d |
+| Shield broad | 15 + DEX mod | +1 to AC |     6s |    72d |
 
 
 ## Weapons
