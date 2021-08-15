@@ -43,15 +43,13 @@ def make_html
     echo(out, load_part('lib/partials/pre_chapter.html', h)) if m[2] == '0'
     echo(out, load_part('lib/partials/pre_page.html', h))
 
-    echo(tmp, load_part(path, h), 'wb')
+    echo(tmp, rework_md(load_part(path, h)), 'wb')
 
     cmd = { in: tmp, out: tmp2 }
       .inject(CONFIG[:tohtml]) { |s, (k, v)| s.gsub(/\$\{#{k}\}/, v) }
     puts(cmd); system(cmd)
 
-    #cmd = "cat #{tmp2} >> #{out}"
-    #puts(cmd); system(cmd)
-    rework_html(tmp2, out)
+    echo(out, rework_html(File.read(tmp2)))
 
     echo(out, load_part('lib/partials/post_page.html', h))
 
@@ -78,12 +76,35 @@ def load_part(path, h={})
   s
 end
 
-def rework_html(src, tgt)
+def rework_md(s)
+  #
+  # currently: lowdown-0.8.3
+  #
+  # at some point, lowdown will deal with these reworks...
 
-  s = File.read(src)
-    .gsub!(/ id="([^"])+"/) { |x|
-      x.downcase.gsub(/-/, '_').gsub(/%20/, '_') }
+  # md:   # AACHEN {#foo .bar.baz}
+  # -->
+  # html: <h1 id="foo" class="bar baz">AACHEN</a>
 
-  echo(tgt, s)
+  s
+    .gsub(/^(\#{1,4})\s+(.+)\s+(\{[^}]+\})\s*$/) {
+
+      h = "h#{$1.length}"
+      a = $3[1..-2].split
+      i = (
+        a.find { |e| e.start_with?('#') } ||
+        "X#{$2.strip.downcase.gsub(/\s+/, '_')}"
+          )[1..-1]
+      c = a.find { |e| e.start_with?('.') }
+      c = c && c.split('.').join(' ').strip
+      c = c || ''
+
+      "<#{h} id=\"#{i}\" class=\"#{c}\">#{$2}</#{h}>" }
+end
+
+def rework_html(s)
+
+  s
+    .gsub(/ id="([^"])+"/) { |x| x.downcase.gsub(/-/, '_').gsub(/%20/, '_') }
 end
 

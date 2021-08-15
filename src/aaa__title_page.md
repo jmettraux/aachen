@@ -1,3 +1,3 @@
 
-# ${NAME_UPCASE}
+# ${NAME_UPCASE} {#foo .bar.baz}
 
