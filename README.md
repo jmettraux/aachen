@@ -60,5 +60,5 @@ This work is inspired by Kevin Crawford [Stars Without Number](https://www.drive
 
 Drifted as "Aachen" by John Mettraux, https://github.com/jmettraux/aachen, [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
-see [LICENSE.txt](LICENSE.txt)
+See [LICENSE.txt](LICENSE.txt).
 
