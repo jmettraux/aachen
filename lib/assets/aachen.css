@@ -61,6 +61,9 @@ tr:first-of-type th {
 dt {
   font-weight: bold;
 }
+dd {
+  margin-bottom: 1em;
+}
 
 /* top right bottom left */
 
