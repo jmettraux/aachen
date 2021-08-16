@@ -86,13 +86,13 @@ def make_html
     echo(out, load_part('lib/partials/pre_chapter.html', h)) if m[2] == '0'
     echo(out, load_part('lib/partials/pre_page.html', h))
 
-    echo(tmp, rework_md(load_part(path, h)), 'wb')
+    echo(tmp, rework_md(load_part(path, h), h), 'wb')
 
     cmd = { in: tmp, out: tmp2 }
       .inject(CONFIG[:tohtml]) { |s, (k, v)| s.gsub(/\$\{#{k}\}/, v) }
     puts(cmd); system(cmd)
 
-    echo(out, rework_html(File.read(tmp2)))
+    echo(out, rework_html(File.read(tmp2), h))
 
     echo(out, load_part('lib/partials/post_page.html', h))
 
@@ -123,19 +123,21 @@ end
 #
 # rework_html()
 
-def rework_md(s)
+def rework_md(s, h)
   #
   # currently: lowdown-0.8.3
   #
   # at some point, lowdown will deal with these reworks...
 
-  s = rework_md_table_id_and_class(s)
-  s = rework_md_headings(s)
+  h = h.dup
+
+  s = rework_md_table_id_and_class(s, h)
+  s = rework_md_headings(s, h)
 
   s
 end
 
-def rework_md_headings(s)
+def rework_md_headings(s, h)
 
   # md:   # AACHEN {#foo .bar.baz}
   # -->
@@ -157,7 +159,7 @@ def rework_md_headings(s)
       "<#{h} id=\"#{i}\" class=\"#{c}\">#{$2}</#{h}>" }
 end
 
-def rework_md_table_id_and_class(s)
+def rework_md_table_id_and_class(s, h)
 
   s
     .gsub(/^(|.+|)[\t ]*\{([^}]+)\}[\t ]*$/) {
@@ -169,15 +171,17 @@ end
 #
 # rework_html()
 
-def rework_html(s)
+def rework_html(s, h)
 
-  s = rework_html_id(s)
-  s = rework_html_table_id_class(s)
+  h = h.dup
+
+  s = rework_html_id(s, h)
+  s = rework_html_table_id_class(s, h)
 
   s
 end
 
-def rework_html_id(s)
+def rework_html_id(s, h)
 
   s
     .gsub(/ id="([^"])+"/) { |x|
@@ -185,7 +189,7 @@ def rework_html_id(s)
       x.downcase.gsub(/-/, '_').gsub(/%20/, '_') }
 end
 
-def rework_html_table_id_class(s)
+def rework_html_table_id_class(s, h)
 
   #   <!-- #table-id .bar.baz -->
   #   <table>
