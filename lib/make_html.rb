@@ -210,6 +210,16 @@ def rework_html_table_id_class(s, h)
       "<table#{atts} " }
 end
 
+def do_rework_html(s, h, &block)
+
+  e = REXML::Document.new("<root>#{s}</root>").root
+
+  block.call(e, h)
+
+  #e.to_s.gsub(/<\/?root>/, '')
+  e.to_s[6..-8]
+end
+
 def rework_html_footnotes(s, h)
 
   # <p>This the background list for a simple medieval setting.
@@ -228,16 +238,16 @@ def rework_html_footnotes(s, h)
   # </ol>
   # </div>
 
-  e = REXML::Document.new("<root>#{s}</root>").root
-  ses = e.get_elements("//*[contains(@rel, 'footnote')]")
-  fne = e.get_elements("//*[contains(@class, 'footnotes')]")[0]
+  do_rework_html(s, h) do |e|
+
+    ses = e.get_elements("//*[contains(@rel, 'footnote')]")
+    fne = e.get_elements("//*[contains(@class, 'footnotes')]")[0]
+
 if ses.any?
   puts ("=" * 80) + ' ' + ses.size.to_s
   ses.each { |e| puts e.to_s }
   puts fne.to_s
 end
-
-  #e.to_s.gsub(/<\/?root>/, '')
-  e.to_s[6..-8]
+  end
 end
 
