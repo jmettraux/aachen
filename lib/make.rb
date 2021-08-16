@@ -1,6 +1,8 @@
 
 require 'yaml'
 #require 'ostruct'
+require 'rexml/document'
+
 
 CONFIG =
   YAML.load_file('Config.yaml')

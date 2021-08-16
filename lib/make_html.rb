@@ -177,6 +177,7 @@ def rework_html(s, h)
 
   s = rework_html_id(s, h)
   s = rework_html_table_id_class(s, h)
+  s = rework_html_footnotes(s, h)
 
   s
 end
@@ -207,5 +208,36 @@ def rework_html_table_id_class(s, h)
       atts += " class=\"#{c.split('.').join(' ').strip}\"" if c
 
       "<table#{atts} " }
+end
+
+def rework_html_footnotes(s, h)
+
+  # <p>This the background list for a simple medieval setting.
+  #   <sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup>
+  # </p>
+
+  # <div class="footnotes">
+  # <hr/>
+  # <ol>
+  # <li id="fn1">
+  # <p>One can roll, pick ... <a href="#fnref1" rev="footnote">&#8617;</a></p>
+  # </li>
+  # <li id="fn2">
+  # <p>The setting or the ...<a href="#fnref2" rev="footnote">&#8617;</a></p>
+  # </li>
+  # </ol>
+  # </div>
+
+  e = REXML::Document.new("<root>#{s}</root>").root
+  ses = e.get_elements("//*[contains(@rel, 'footnote')]")
+  fne = e.get_elements("//*[contains(@class, 'footnotes')]")[0]
+if ses.any?
+  puts ("=" * 80) + ' ' + ses.size.to_s
+  ses.each { |e| puts e.to_s }
+  puts fne.to_s
+end
+
+  #e.to_s.gsub(/<\/?root>/, '')
+  e.to_s[6..-8]
 end
 
