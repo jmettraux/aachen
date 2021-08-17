@@ -184,6 +184,7 @@ def rework_html(s, h)
 
   s = rework_html_id(s, h)
   s = rework_html_table_id_class(s, h)
+  s = rework_html_dl(s, h)
   s = rework_html_footnotes(s, h)
 
   s
@@ -225,6 +226,22 @@ def do_rework_html(s, h, &block)
 
   #e.to_s.gsub(/<\/?root>/, '')
   e.to_s[6..-8]
+end
+
+def rework_html_dl(s, h)
+
+  k = 'last-sibling'
+
+  do_rework_html(s, h) do |e|
+
+    e.get_elements('//dt').each do |dte|
+      pe = dte.previous_element
+      pe.add_attribute('class', k) if pe && pe.name == 'dd'
+    end
+    e.get_elements('//dl').each do |dle|
+      dle.get_elements('//dd').last.add_attribute('class', k)
+    end
+  end
 end
 
 def rework_html_footnotes(s, h)

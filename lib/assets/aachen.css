@@ -97,15 +97,20 @@ th {
 
 dl {
   display: grid;
-  grid-template-columns: 20% auto;
+  grid-template-columns: auto auto;
 }
 dt {
   grid-column: 1;
   font-weight: bold;
+  padding-right: 0.5em;
+  text-align: right;
 }
 dd {
   margin-inline-start: initial;
   grid-column: 2;
+}
+dd.last-sibling {
+  margin-bottom: 1em;
 }
 
 
@@ -123,8 +128,8 @@ table.equipment td {
 
 /* specific */
 
-[data-aa-title="equip"] dl {
-  grid-template-columns: 5% auto;
+[data-aa-title="skill list"] dl {
+  grid-template-columns: 19% auto;
 }
 
 /* top right bottom left */
