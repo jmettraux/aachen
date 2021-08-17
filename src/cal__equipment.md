@@ -26,10 +26,10 @@ Two easy points of reference, a labourer expects to be paid 1 penny for a day of
 
 | Worker           |         | Wage   | Wage d | {.equipment}
 |------------------|---------|-------:|-------:|
-| Labourer         | 1 day   |     1d |     4f |
+| Labourer         | 1 day   |     1d |     1d |
 | Labourer         | 1 month |     2s |    24d |
 | Labourer         | 1 year  |   1L4s |   288d |
-| Master craftsman | 1 day   |     5d |    20f |
+| Master craftsman | 1 day   |     5d |     5d |
 
 
 ## Armor
