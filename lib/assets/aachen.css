@@ -35,19 +35,26 @@ body {
   font-size: var(--body-face-size);
 }
 
+
 /* SECTIONS */
 
 section.page {
-  display: flex;
+  display: grid;
+  grid-template-columns: 5% 66ch auto;
 }
 section.page .left-space {
-  flex: 6ch;
+  grid-column: 1;
 }
 section.page .column {
-  flex: 66ch;
+  grid-column: 2;
 }
 section.page .right-space {
-  flex: 18ch;
+  grid-column: 3;
+}
+
+section.page.even {
+  display: grid;
+  grid-template-columns: auto 66ch 5%;
 }
 
 section.page .column p {
@@ -61,6 +68,7 @@ section.page.odd {
 }
 section.page.even {
 }
+
 
 /* CORE TAGS */
 
@@ -87,12 +95,19 @@ th {
   border-bottom: solid thin;
 }
 
+dl {
+  display: grid;
+  grid-template-columns: 20% auto;
+}
 dt {
+  grid-column: 1;
   font-weight: bold;
 }
 dd {
-  margin-bottom: 1em;
+  margin-inline-start: initial;
+  grid-column: 2;
 }
+
 
 /* CLASSES */
 
@@ -105,18 +120,11 @@ table.equipment td {
   padding: 0.28em;
 }
 
+
 /* specific */
 
 [data-aa-title="equip"] dl {
-  display: flex;
-  flex-wrap: wrap;
-}
-[data-aa-title="equip"] dt {
-  flex: 5%;
-}
-[data-aa-title="equip"] dd {
-  margin-inline-start: initial;
-  flex: 95%;
+  grid-template-columns: 5% auto;
 }
 
 /* top right bottom left */
