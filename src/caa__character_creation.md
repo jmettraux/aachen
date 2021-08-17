@@ -1,6 +1,8 @@
 
 # Character Creation
 
+## Outline
+
 * Determine the value of the 6 attributes STR, DEX, CON, INT, WIS, and CHA. Compute the modifiers.
 * Compute the 4 saving throw scores, Physical, Evasion, Mental, and Luck
 * Determine the background of the character
@@ -13,7 +15,7 @@
 * Give character a name
 * Equip the character
 
-### On Picking Skills During Character Creation
+## On Picking Skills During Character Creation
 
 The first time you pick a skill, it starts at level 0. The second time, it becomes level 1. The third time, you can instead pick any other skill of your choice that's less than level 1. No novice character skills can exceed level 1.
 

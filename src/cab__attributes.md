@@ -6,25 +6,25 @@
 
 STR, DEX and CON are _physical_ attributes. INT, WIS, CHA are _mental_ attributes. This distinction is used in the background tables.
 
-STR stength
+Strength STR
 : Lifting heavy weights, breaking thins, melee combat, carrying gear.
 : Affects melee attacks rolls and damage rolls.
 
-DEX dexterity
+Dexterity DEX
 : Speed, evasion, manual dexterity, reaction time, combat initiative.
 : Affects armour class, ranged and light weapon attack rolls and damage rolls.
 
-CON constitution
+Constitution CON
 : Hardiness, enduring injury, resisting poisons, going without food or rest.
 : Affects the maximum hit points.
 
-INT intelligence
+Intelligence INT
 : Memory, reasoning, intellectual skills, general education. Book smart.
 
-WIS wisdom
+Wisdom WIS
 : Noticing things, making judgements, reading situations, intuition. Street smart.
 
-CHA charisma
+Charisma CHA
 : Force of character, charming others, attracting attention, winning loyalty.
 : Affects reaction rolls.
 
