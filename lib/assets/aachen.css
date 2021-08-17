@@ -19,6 +19,7 @@
 :root {
   --body-face-size:   12pt; /* Pica */
   --small-face-size:  11pt; /* Small Pica */
+  --sidenote-width: 10em;
 }
 
 /* top right bottom left */
@@ -109,7 +110,7 @@ dd {
   margin-inline-start: initial;
   grid-column: 2;
 }
-dd.last-sibling {
+dd.last-dd {
   margin-bottom: 1em;
 }
 
@@ -123,6 +124,22 @@ table.equipment {
 table.equipment th,
 table.equipment td {
   padding: 0.28em;
+}
+
+
+/* SIDENOTES */
+
+  /* FIXME */
+
+aside.note {
+  display: block;
+  position: absolute;
+  margin-left: calc(-1.2 * var(--sidenote-width));
+  float: left;
+  width: var(--sidenote-width);
+}
+section.page aside.note p {
+  text-align: left;
 }
 
 

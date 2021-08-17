@@ -230,7 +230,7 @@ end
 
 def rework_html_dl(s, h)
 
-  k = 'last-sibling'
+  k = 'last-dd'
 
   do_rework_html(s, h) do |e|
 
@@ -264,14 +264,32 @@ def rework_html_footnotes(s, h)
 
   do_rework_html(s, h) do |e|
 
-    ses = e.get_elements("//*[contains(@rel, 'footnote')]")
-    fne = e.get_elements("//*[contains(@class, 'footnotes')]")[0]
+    ses =
+      e.get_elements("//*[contains(@rel, 'footnote')]").collect(&:parent)
+    fne =
+      e.get_elements("//*[contains(@class, 'footnotes')]")[0]
+    les =
+      fne && fne.get_elements("//li")
 
-if ses.any?
-  puts ("=" * 80) + ' ' + ses.size.to_s
-  ses.each { |e| puts e.to_s }
-  puts fne.to_s
-end
+    e.get_elements("//*[contains(@rev, 'footnote')]").each(&:remove)
+
+    ses.each_with_index do |se, i|
+      le = les[i]
+      e = make_html_element(:aside, { class: 'note' })
+      le.children.each { |lee| e.add_element(lee) }
+      se.replace_with(e)
+    end
+
+    fne.remove if fne
   end
+    .gsub('&#160;', '')
+end
+
+def make_html_element(tag, atts)
+
+  e = REXML::Element.new(tag.to_s)
+  atts.each { |k, v| e.add_attribute(k.to_s, v) }
+
+  e
 end
 
