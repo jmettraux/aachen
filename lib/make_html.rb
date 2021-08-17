@@ -70,6 +70,8 @@ def make_html
 
   echo(out, load_part('lib/partials/head.html'))
 
+  t0 = nil
+
   Dir['out/tmp/*.md'].sort.each_with_index do |path, i|
 
     m = path.match(/\/p(\d{3})__(.+)\.md$/)
@@ -78,13 +80,18 @@ def make_html
     i = m[1].to_i
     t = m[2].gsub(/_/, ' ')
       #
-    h = { PATH: path, PAGE: i, TITLE: t, EVEN: i % 2 == 0 ? :even : :odd }
+    h = {
+      PATH: path, PAGE: i,
+      TITLE: t, TITLE_: m[2],
+      EVEN: i % 2 == 0 ? :even : :odd }
 
     tmp = "out/tmp/pd#{m[1]}__#{m[2]}.md"
     tmp2 = "out/tmp/pht#{m[1]}__#{m[2]}.html"
 
-    echo(out, load_part('lib/partials/pre_chapter.html', h)) if m[2] == '0'
+    echo(out, load_part('lib/partials/pre_chapter.html', h)) if t != t0
     echo(out, load_part('lib/partials/pre_page.html', h))
+
+    t0 = t
 
     echo(tmp, rework_md(load_part(path, h), h), 'wb')
 

@@ -49,7 +49,7 @@ TODO
 
 Melee weapons:
 
-| Name           | Attribute | Dmg  | Shk/AC | Short Range       | Long Range        | Trait         |   Cost | Cost d | {.equipment}
+| Name           | Attribute | Dmg  | Shk/AC | Short Range       | Long Range        | Traits        |   Cost | Cost d | {.equipment}
 |----------------|:---------:|-----:|:------:|:-----------------:|:-----------------:|---------------|-------:|-------:|
 | Axe            | STR/DEX   |  1d6 | 2 / 15 | 10ft 3m 2sq       | 30ft 9m 6sq t     | T             |     6s |    72d |
 | Axe, war       | STR       | 1d10 | 3 / 15 |                   |                   | 2H            |     9s |   108d |
@@ -78,7 +78,7 @@ Melee weapons:
 
 Ranged weapons:
 
-| Name           | Attribute | Dmg  | Short Range       | Long Range        | Trait         |   Cost | Cost d | {.equipment}
+| Name           | Attribute | Dmg  | Short Range       | Long Range        | Traits        |   Cost | Cost d | {.equipment}
 |----------------|:---------:|-----:|:-----------------:|:-----------------:|---------------|-------:|-------:|
 | Bow, small     | DEX       |  1d6 | 50ft 15m 10sq V   | 300ft 90m 60sq    | 2H, R, XA     |     2s |    24d |
 | Bow, large     | STR       |  1d8 | 100ft 30m 20sq VV | 600ft 180m 120sq  | 2H, R, XA     |     3s |    36d |
@@ -87,15 +87,26 @@ Ranged weapons:
 
 Weapon traits:
 
-| Trait | Description | {.equipment}
-|-------|-------------|
-| 2H    | Two Handed. |
-| L     | Long, allows melee attacks up to 10 feet, even if an ally is in the way. An opponent between 5 to 10 feet can disengage freely from the L weapon wielder, no need for a _fighting withdrawal_. |
-| LL    | Less Lethal, opponents brought to zero HP may be left alive (not mortally wounded), at the wielder's discretion. |
-| XA    | when used for an eXecution Attack, a -1 penalty is applied to the target Physical Save and the damage is doubled. |
-| R     | Reload. Takes a _Move Action_ to reload. If the user has at least Shoot 1 skill, only an _On Turn Action_ is necessary. |
-| SR    | Slow Reload. Takes a _Main Action_ to reload. |
-| T     | Throwable. Can be used in melee and also thrown at the listed range. No shock damage when thrown. -4 to the hit roll if throwing while in melee with an opponent. |
+2H
+: Two Handed.
+
+L
+: Long, allows melee attacks up to 10 feet, even if an ally is in the way. An opponent between 5 to 10 feet can disengage freely from the L weapon wielder, no need for a _fighting withdrawal_.
+
+LL
+: Less Lethal, opponents brought to zero HP may be left alive (not mortally wounded), at the wielder's discretion.
+
+XA
+: when used for an eXecution Attack, a -1 penalty is applied to the target Physical Save and the damage is doubled.
+
+R
+: Reload. Takes a _Move Action_ to reload. If the user has at least Shoot 1 skill, only an _On Turn Action_ is necessary.
+
+SR
+: Slow Reload. Takes a _Main Action_ to reload.
+
+T
+: Throwable. Can be used in melee and also thrown at the listed range. No shock damage when thrown. -4 to the hit roll if throwing while in melee with an opponent.
 
 
 ## Other Items
