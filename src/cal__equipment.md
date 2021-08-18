@@ -44,6 +44,7 @@ TODO
 | Mail Shirt   | 14 + DEX mod |    2L |  480d |   | | | | | | |
 | Mail Hauberk | 16 + DEX mod |    3L |  720d |   | | | | | | |
 
+<!-- PAGE BREAK equipment -->
 
 ## Weapons
 
@@ -75,6 +76,8 @@ Melee weapons:
 | Shield bash S  | STR/DEX   |  1d4 |        |                   |                   | LL            |        |        |
 | Shield bash L  | STR       |  1d6 | 1 / 13 |                   |                   | LL            |        |        |
 | Unarmed attack | STR/DEX   | 1d2+Punch |   |                   |                   | LL            |        |        |
+
+<!-- PAGE BREAK equipment -->
 
 Ranged weapons:
 
@@ -129,6 +132,8 @@ T
 | Blanket, wool     |    4s |   48d |   | Belt, leather    |   10d |   10d |
 | Gloves, leather   |    2s |   24d |   | Sandals, leather |    8d |    8d |
 
+<!-- PAGE BREAK equipment -->
+
 | Tools            |          | Value | Val d |   | Tools             |         | Value | Val d | {.equipment}
 |------------------|----------|------:|------:|---|-------------------|---------|------:|------:|
 | Anchor           |          |    1s |   12d |   | Nails             | 1 pound |    2d |    2d |
@@ -175,6 +180,8 @@ T
 | Hay           | 1 bushel |    6d |    6d |   | Bread, rye    |          |    1f | 0.25d |
 | Milk          | 1 gallon |    3d |    3d |   | Meal, warm    |          |    1d |    1d |
 | Beer          |   1 pint |    1f | 0.25d |   | Meal, cold    |          |    3f | 0.75d |
+
+<!-- PAGE BREAK equipment -->
 
 | Services            |       | Cost  | Cost d |   | Services        |   | Cost  | Cost d | {.equipment}
 |---------------------|-------|------:|-------:|---|-----------------|---|------:|-------:|

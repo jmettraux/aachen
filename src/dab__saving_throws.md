@@ -47,6 +47,8 @@ Luck saves are not rooted in any attribute. When sheer good luck is the last dit
 
 Luck saves are equal to 16, minus the character level.
 
+<!-- PAGE BREAK saving_throws -->
+
 ## Monsters And Saving Throws
 
 Monsters have a single save equal to 15 minues half their hit dice, rounded down.
