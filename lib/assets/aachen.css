@@ -134,6 +134,7 @@ table.equipment td {
 aside.note {
   display: block;
   position: absolute;
+  margin-top: calc(1.2 * var(--body-face-size));
   margin-left: calc(-1.2 * var(--sidenote-width));
   float: left;
   width: var(--sidenote-width);

@@ -276,13 +276,17 @@ def rework_html_footnotes(s, h)
     ses.each_with_index do |se, i|
       le = les[i]
       e = make_html_element(:aside, { class: 'note' })
-      le.children.each { |lee| e.add_element(lee) }
-      se.replace_with(e)
+
+      le.children.each { |lee| e.add_element(lee) if lee.is_a?(REXML::Element) }
+
+      #se.replace_with(e)
+      se.parent.parent.insert_before(se.parent, e)
+      se.remove
     end
 
     fne.remove if fne
   end
-    .gsub('&#160;', '')
+    .gsub('&#160;', '') # remove rewind arrow...
 end
 
 def make_html_element(tag, atts)
