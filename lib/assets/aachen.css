@@ -40,18 +40,19 @@ body {
 /* SECTIONS */
 
 section.page {
+
+  width: 210mm;
+  height: 297mm; /* A4 */
+
+  padding: 4.23mm; /* Brother printable area.... */
+
   display: grid;
   grid-template-columns: 5% 66ch auto;
 }
-section.page .left-space {
-  grid-column: 1;
-}
-section.page .column {
-  grid-column: 2;
-}
-section.page .right-space {
-  grid-column: 3;
-}
+
+section.page .left-space { grid-column: 1; }
+section.page .column { grid-column: 2; }
+section.page .right-space { grid-column: 3; }
 
 section.page.even {
   display: grid;
@@ -113,6 +114,9 @@ dt::after {
 dd {
   margin-inline-start: initial;
   grid-column: 2;
+  /*
+  text-align: justify;
+  */
 }
 dd.last-dd {
   margin-bottom: 1em;
