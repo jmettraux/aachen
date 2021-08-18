@@ -3,17 +3,37 @@
 
 ## Outline
 
-* Determine the value of the 6 attributes STR, DEX, CON, INT, WIS, and CHA. Compute the modifiers.
-* Compute the 4 saving throw scores, Physical, Evasion, Mental, and Luck
-* Determine the background of the character
-* Follow the background system to roll or pick skills
-* Select a class
-* Choose talents, they represent side talents or particular specializations
-* Pick an extra skill, to reflect the character's outside interests, natural talents, hobby expertise, etc.
-* Finalize class selection, some classes require the selection of spells or special powers
-* Determine hit points
-* Give character a name
-* Equip the character
+Attributes
+: Determine STR, DEX, CON, INT, WIS, and CHA.
+: Compute the modifiers.
+
+Saving Throws
+: Compute the Physical, Evasion, Mental, and Luck saving throw scores.
+
+Background
+: Determine the background of the character
+: Follow the background table to roll or pick skills
+
+Class
+: Select a character class
+
+Talents
+: Choose talents, they represent side talents or particular specializations
+
+Skill
+: Pick an extra skill, to reflect the character's outside interests, natural talents, hobby expertise, etc.
+
+Class
+: Finalize class selection, some classes require the selection of spells or special powers
+
+Hit Points
+: Determine hit points
+
+Name
+: Give character a name
+
+Equip
+: Determine the equipment of the character
 
 ## On Picking Skills During Character Creation
 

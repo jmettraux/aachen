@@ -106,6 +106,10 @@ dt {
   padding-right: 0.5em;
   text-align: right;
 }
+dt::after {
+  content: '·';
+  padding-left: 0.5em;
+}
 dd {
   margin-inline-start: initial;
   grid-column: 2;
