@@ -34,6 +34,8 @@ On a marginal success, the referee might want to acknowledge success but add a f
 
 Old farm hands doesn't get skill check each time they drive the cart to the market, it is routine work for them.
 
+<!-- PAGE BREAK skill_checks -->
+
 ## How Not To Skill Check
 
 The referee might decide the task is too easy (skill difficulty < 6) or look at the character skill level and decide it is appropriate for an automatic success.
@@ -67,6 +69,8 @@ Skill levels are acquired at character creation and through advancement.
 The referee might increase the difficulty by 1 or 2 if they think that the skill is not completely relevant to the check.
 
 Circumstances and tools might alter a skill check difficulty. Usually the referee should limit the total change from -2 to +2.
+
+<!-- PAGE BREAK skill_checks -->
 
 ## Aiding A Skill Check
 
