@@ -82,6 +82,20 @@ section.page.odd {
 section.page.even {
 }
 
+section.page .column {
+  position: relative;
+}
+.page-number {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+section.page.odd .page-number {
+  left: 0;
+}
+section.page.even .page-number {
+}
+
 
 /* CORE TAGS */
 
