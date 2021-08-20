@@ -138,10 +138,26 @@ def rework_md(s, h)
 
   h = h.dup
 
+  s = rework_md_free_divs(s, h)
   s = rework_md_table_id_and_class(s, h)
   s = rework_md_headings(s, h)
 
   s
+end
+
+def rework_md_free_divs(s, h)
+
+  # <div#abc.def.ghi>
+  # Hello world.
+  # </div#abc.def.ghi>
+  #   -->
+  # <!-- div#abc.def.ghi -->
+  # Hello world.
+  # <!-- /div#abc.def.ghi -->
+
+  s
+    .gsub(/^[\t ]*<\/?div(#[a-zA-Z_-]+)?(\.[a-zA-Z_-]+)+>[\t ]*$/) { |x|
+      "<!-- #{x} -->" }
 end
 
 def rework_md_headings(s, h)
@@ -186,6 +202,7 @@ def rework_html(s, h)
   s = rework_html_table_id_class(s, h)
   s = rework_html_dl(s, h)
   s = rework_html_footnotes(s, h)
+  s = rework_html_free_divs(s, h)
 
   s
 end
@@ -242,6 +259,27 @@ def rework_html_dl(s, h)
       dle.get_elements('//dd').last.add_attribute('class', k)
     end
   end
+end
+
+def rework_html_free_divs(s, h)
+
+  # <!-- div#abc.def.ghi -->
+  # <p>Hello world.</p>
+  # <!-- /div#abc.def.ghi -->
+  #   -->
+  # <div#abc.def.ghi>
+  #   <p>Hello world.</p>
+  # </div>
+
+  s
+    .gsub(/^<!-- <div(#[a-zA-Z_-]+)?(\.[a-zA-Z_-]+)+> -->$/) { |x|
+      id = $1 && $1[1..-1]
+      cs = []; css = StringScanner.new(x); css.scan(/[^.]*/)
+      while c = css.scan(/\.[a-zA-Z_-]+/); cs << c[1..-1]; end
+      cs = cs.any? ? cs.join(' ') : nil
+      "<div#{id ? " id=\"#{id}\"" : ''}#{cs ? " class=\"#{cs}\"" : ''}>" + x }
+    .gsub(/^<!-- <\/div(#[a-zA-Z_-]+)?(\.[a-zA-Z_-]+)+> -->(<[^>]+>)$/) {
+      "#{$3}\n</div><!-- </div#{$1}#{$2}> -->" }
 end
 
 def rework_html_footnotes(s, h)

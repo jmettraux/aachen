@@ -28,6 +28,7 @@ Charisma CHA
 : Force of character, charming others, attracting attention, winning loyalty.
 : Affects reaction rolls.
 
+<div#abc.def.ghi>
 ## Roll Attributes
 
 To generate a character's score, roll 3d6 six times, assigning them in order to STR, DEX, CON, INT, WIS, and CHA.
@@ -37,6 +38,7 @@ To generate a character's score, roll 3d6 six times, assigning them in order to 
 **Option**: Instead of rolling, one may use the 14, 12, 11, 10, 9, and 7 array.
 
 Any of the attribute score may be replaced by a 14, unless the array method was used.
+</div#abc.def.ghi>
 
 
 ## Write Down Attribute Modifiers
