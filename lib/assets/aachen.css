@@ -25,10 +25,16 @@
  *  20pt  Paragon        Petit-paragon
  */
 
+/*
+ * point * mul  =  lineheight  =  point + lead
+ * 24pt * 1.25  =  30 pt       =  24pt + 6pt
+ * 16pt * 5/4   =  20 pt       =  16pt + 4pt
+ */
+
 :root {
-  --body-face-size:   13pt; /* Pica */
-  --small-face-size:  12pt; /* Small Pica */
   --sidenote-width: 10em;
+  --body-face: 24pt/1.25 minion-pro, serif;
+  --small-face: 26pt/1.25 ff-scala-sans-pro, sans-serif;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -44,12 +50,7 @@ section.page {
 }
 
 body {
-  /*
-  font-family: "EB Garamond", serif;
-  font-family: "Crimson Text", serif;
-  */
-  font-family: minion-pro, serif;
-  font-size: var(--body-face-size);
+  font: var(--body-face);
 }
 
 
@@ -156,7 +157,7 @@ dd.last-dd {
 /* CLASSES */
 
 table.equipment {
-  font-size: var(--small-face-size);
+  font: var(--small-face);
   page-break-inside: auto;
 }
 table.equipment th,
