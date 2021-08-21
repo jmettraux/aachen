@@ -29,6 +29,9 @@
   --sidenote-width: 10em;
 }
 
+*, *::before, *::after { box-sizing: border-box; }
+  /* https://css-tricks.com/almanac/properties/b/box-sizing/ */
+
 /* top right bottom left */
 
 section.page {
