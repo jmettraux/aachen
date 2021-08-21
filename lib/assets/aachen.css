@@ -9,7 +9,6 @@
   /* minion-pro, serif
      ff-scala-sans-pro, ff-scala-sans-pro-condensed sans-serif */
 
-
 /*
  *   4pt  Brilliant      Perle
  *   5pt  Pearl          Sedanoise
@@ -27,14 +26,21 @@
 
 /*
  * point * mul  =  lineheight  =  point + lead
+ *
  * 24pt * 1.25  =  30 pt       =  24pt + 6pt
  * 16pt * 5/4   =  20 pt       =  16pt + 4pt
+ *
+ * 20pt * 1.2   =  24 pt       =  20pt + 4pt
+ * 14pt * 1.42  =  16 pt       =  14pt + 2pt
  */
 
 :root {
   --sidenote-width: 10em;
-  --body-face: 24pt/1.25 minion-pro, serif;
-  --small-face: 26pt/1.25 ff-scala-sans-pro, sans-serif;
+  /*
+  --body-face: 20pt/1.2 minion-pro, serif;
+  */
+  --body-face: 16pt/1.2 minion-pro, serif;
+  --small-face: 14pt/calc(16 / 14) ff-scala-sans-pro, sans-serif;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -42,40 +48,46 @@
 
 /* top right bottom left */
 
-section.page {
-  /*
-  break-after: page;
-  */
-  page-break-after: always;
-}
-
-body {
+html {
   font: var(--body-face);
 }
 
-
-/* SECTIONS */
-
-section.page {
+.sheet {
 
   width: 210mm;
   height: 297mm; /* A4 */
 
   padding: 4.23mm; /* Brother printable area.... */
 
+  /*
   display: grid;
   grid-template-columns: 5% 66ch auto;
+  */
+  border-bottom: grey solid thin;
+  border-right: grey solid thin;
+}
+  .sheet { overflow: hidden; } /* FIXME FIXME FIXME */
+
+.page {
+  /*
+  break-after: page;
+  */
+  page-break-after: always;
+  border: lightgrey solid thin;
 }
 
-section.page .left-space { grid-column: 1; }
-section.page .column { grid-column: 2; }
-section.page .right-space { grid-column: 3; }
+/*
+.page .left-space { grid-column: 1; }
+.page .column { grid-column: 2; }
+.page .right-space { grid-column: 3; }
 
-section.page.even {
+.page.even {
   display: grid;
   grid-template-columns: auto 66ch 5%;
 }
+*/
 
+/*
 section.page .column p {
   text-align: justify;
 }
@@ -101,6 +113,7 @@ section.page.odd .page-number {
 }
 section.page.even .page-number {
 }
+*/
 
 
 /* CORE TAGS */
