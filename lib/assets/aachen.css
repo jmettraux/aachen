@@ -119,11 +119,16 @@ body {
 
 /* CORE TAGS */
 
+h1, h2, h3 {
+  margin: 0;
+}
 h1 {
   text-transform: capitalize;
+  margin-bottom: 1rem;
 }
 h2 {
   text-transform: capitalize;
+  margin-bottom: 1rem;
 }
 h3 {
   text-transform: capitalize;
