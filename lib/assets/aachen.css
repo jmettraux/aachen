@@ -36,6 +36,8 @@
 
 :root {
 
+  --phi: 1.61803398875;
+
   --body-face: 16pt/1.2 minion-pro, serif;
   --small-face: 14pt/calc(16 / 14) ff-scala-sans-pro, sans-serif;
 
@@ -44,10 +46,11 @@
 
   --sidenote-width: 10em;
 
-  --tblock-width: calc(8 * var(--page-width) / 10);
-  --tblock-height: calc(var(--tblock-width) * 1.61803398875);
-  --top-margin: calc(var(--page-height) / 10);
-  --spine-margin: calc(var(--page-width) / 10);
+  --tblock-height: calc(var(--page-height) / 10 * 9);
+  --tblock-width: calc(var(--tblock-height) / var(--phi));
+
+  --top-margin: calc((var(--page-height) - var(--tblock-height)) / 4);
+  --spine-margin: calc(var(--page-width) / 20);
 }
 
 *, *::before, *::after { box-sizing: border-box; }
