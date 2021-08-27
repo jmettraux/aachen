@@ -36,11 +36,11 @@
 
 :root {
   --sidenote-width: 10em;
-  /*
-  --body-face: 20pt/1.2 minion-pro, serif;
-  */
   --body-face: 16pt/1.2 minion-pro, serif;
   --small-face: 14pt/calc(16 / 14) ff-scala-sans-pro, sans-serif;
+  /*
+  --page-padding-unit: 0.42em;
+  */
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -49,72 +49,75 @@
 /* top right bottom left */
 
 html {
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
   font: var(--body-face);
 }
 
 .sheet {
 
   width: 210mm;
-  height: 297mm; /* A4 */
+  min-height: 297mm; /* A4 */
 
-  padding: 4.23mm; /* Brother printable area.... */
-
+  /*padding: 4.23mm; / * Brother printable area.... */
   /*
-  display: grid;
-  grid-template-columns: 5% 66ch auto;
+  padding: 5mm;
   */
+  margin: 0;
+
   border-bottom: grey solid thin;
   border-right: grey solid thin;
 }
-  .sheet { overflow: hidden; } /* FIXME FIXME FIXME */
+  /*
+  .page { overflow: hidden; }
+  */
 
 .page {
   /*
   break-after: page;
-  */
   page-break-after: always;
+  height: calc(240mm - var(--page-padding-unit) * 8);
+  */
   border: lightgrey solid thin;
+  margin-left: calc(210mm / 12);
+  margin-top: calc(297mm / 18);
+  margin-right: calc(210mm / 3);
+  min-height: calc(297mm - 297mm / 18 - 297mm / 9);
+  max-height: calc(297mm - 297mm / 18 - 297mm / 9);
+  overflow: hidden;
 }
-
-/*
-.page .left-space { grid-column: 1; }
-.page .column { grid-column: 2; }
-.page .right-space { grid-column: 3; }
-
+  /*
+.page.odd {
+  margin-top: calc(var(--page-padding-unit) * 5);
+  margin-bottom: calc(var(--page-padding-unit) * 8);
+  margin-left: calc(var(--page-padding-unit) * 3);
+  margin-right: calc(var(--page-padding-unit) * 5);
+}
 .page.even {
-  display: grid;
-  grid-template-columns: auto 66ch 5%;
+  margin-top: calc(var(--page-padding-unit) * 5);
+  margin-bottom: calc(var(--page-padding-unit) * 8);
+  margin-left: calc(var(--page-padding-unit) * 5);
+  margin-right: calc(var(--page-padding-unit) * 3);
 }
-*/
+  */
 
-/*
-section.page .column p {
-  text-align: justify;
+@page {
+  size: A4;
+  margin: 0;
 }
-section.page .column li {
-  text-align: justify;
+@media print {
+  .sheet {
+    margin: 0;
+    border: initial;
+    width: initial;
+    min-height: initial;
+    page-break-after: always;
+  }
 }
-
-section.page.odd {
-}
-section.page.even {
-}
-
-section.page .column {
-  position: relative;
-}
-.page-number {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-section.page.odd .page-number {
-  left: 0;
-}
-section.page.even .page-number {
-}
-*/
-
 
 /* CORE TAGS */
 

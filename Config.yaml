@@ -13,3 +13,5 @@ tohtml: lowdown -Thtml --html-no-skiphtml --html-no-escapehtml ${in} -o ${out}
 #topdf: wkhtmltopdf --disable-smart-shrinking ${in} ${out}
 topdf: chrome --headless --no-sandbox --print-to-pdf-no-header --print-to-pdf=${out} --no-margins --disable-gpu ${in}
 
+tops: pdftops ${in} ${out}
+

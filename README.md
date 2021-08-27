@@ -44,6 +44,7 @@ See [BRANCHING.md](BRANCHING.md).
 ## references
 
 * https://www.markdownguide.org/extended-syntax/
+* https://www.interact-sw.co.uk/iangblog/2005/04/29/psduplex
 
 
 ## dependencies
@@ -53,6 +54,7 @@ See [BRANCHING.md](BRANCHING.md).
 * [qpdf](http://qpdf.sourceforge.net/files/qpdf-manual.htm) 10.3.1
 * [ruby](https://www.ruby-lang.org/en/) 2.x
 * [make](https://en.wikipedia.org/wiki/Make_(software))
+* [poppler](https://poppler.freedesktop.org/) for pdftops
 
 
 ## license
