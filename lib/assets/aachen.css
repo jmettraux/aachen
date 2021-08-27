@@ -35,12 +35,19 @@
  */
 
 :root {
-  --sidenote-width: 10em;
+
   --body-face: 16pt/1.2 minion-pro, serif;
   --small-face: 14pt/calc(16 / 14) ff-scala-sans-pro, sans-serif;
-  /*
-  --page-padding-unit: 0.42em;
-  */
+
+  --page-width: 210mm; /* A4 */
+  --page-height: 297mm; /* A4 */
+
+  --sidenote-width: 10em;
+
+  --tblock-width: calc(8 * var(--page-width) / 10);
+  --tblock-height: calc(var(--tblock-width) * 1.61803398875);
+  --top-margin: calc(var(--page-height) / 10);
+  --spine-margin: calc(var(--page-width) / 10);
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -49,24 +56,25 @@
 /* top right bottom left */
 
 html {
+
+  font: var(--body-face); /* rem set here */
 }
+
 body {
+
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
-  font: var(--body-face);
 }
 
 .page {
 
-  width: 210mm;
-  min-height: 297mm; /* A4 */
+  width: var(--page-width);
+  min-height: var(--page-height);
 
   /*padding: 4.23mm; / * Brother printable area.... */
-  /*
-  padding: 5mm;
-  */
+
   margin: 0;
 
   border-right: grey solid thin;
@@ -74,27 +82,27 @@ body {
 }
 
 .text-block {
-  /*
-  break-after: page;
-  page-break-after: always;
-  height: calc(240mm - var(--page-padding-unit) * 8);
-  */
+
   border: lightgrey solid thin;
 
-  margin-left: calc(210mm / 12);
-  margin-top: calc(297mm / 18);
-  margin-right: calc(210mm / 3);
+  margin-top: var(--top-margin);
+  margin-left: var(--spine-margin);
 
-  min-height: calc(297mm - 297mm / 18 - 297mm / 9);
-  max-height: calc(297mm - 297mm / 18 - 297mm / 9);
+  min-width: var(--tblock-width);
+  max-width: var(--tblock-width);
+  min-height: var(--tblock-height);
+  max-height: var(--tblock-height);
   overflow: hidden;
 }
 
 .folio {
 
   margin-top: 1em;
-  margin-left: calc(210mm / 12);
-  margin-right: calc(210mm / 3);
+  margin-left: var(--spine-margin);
+
+  min-width: var(--tblock-width);
+  max-width: var(--tblock-width);
+
   text-align: right;
 }
 
