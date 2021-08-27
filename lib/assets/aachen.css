@@ -58,7 +58,7 @@ body {
   font: var(--body-face);
 }
 
-.sheet {
+.page {
 
   width: 210mm;
   min-height: 297mm; /* A4 */
@@ -69,41 +69,34 @@ body {
   */
   margin: 0;
 
-  border-bottom: grey solid thin;
   border-right: grey solid thin;
+  border-bottom: grey solid thin;
 }
-  /*
-  .page { overflow: hidden; }
-  */
 
-.page {
+.text-block {
   /*
   break-after: page;
   page-break-after: always;
   height: calc(240mm - var(--page-padding-unit) * 8);
   */
   border: lightgrey solid thin;
+
   margin-left: calc(210mm / 12);
   margin-top: calc(297mm / 18);
   margin-right: calc(210mm / 3);
+
   min-height: calc(297mm - 297mm / 18 - 297mm / 9);
   max-height: calc(297mm - 297mm / 18 - 297mm / 9);
   overflow: hidden;
 }
-  /*
-.page.odd {
-  margin-top: calc(var(--page-padding-unit) * 5);
-  margin-bottom: calc(var(--page-padding-unit) * 8);
-  margin-left: calc(var(--page-padding-unit) * 3);
-  margin-right: calc(var(--page-padding-unit) * 5);
+
+.folio {
+
+  margin-top: 1em;
+  margin-left: calc(210mm / 12);
+  margin-right: calc(210mm / 3);
+  text-align: right;
 }
-.page.even {
-  margin-top: calc(var(--page-padding-unit) * 5);
-  margin-bottom: calc(var(--page-padding-unit) * 8);
-  margin-left: calc(var(--page-padding-unit) * 5);
-  margin-right: calc(var(--page-padding-unit) * 3);
-}
-  */
 
 @page {
   size: A4;
@@ -194,7 +187,7 @@ aside.note {
   float: left;
   width: var(--sidenote-width);
 }
-section.page aside.note p {
+aside.note p {
   text-align: left;
 }
 

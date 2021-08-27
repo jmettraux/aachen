@@ -19,7 +19,7 @@ html:
 	$(RUM) make_html
 
 pdf: html
-	$(RUM) make_pdf
+	#$(RUM) make_pdf
 
 name:
 	@echo $(NAME_)
