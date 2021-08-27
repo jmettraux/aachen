@@ -103,12 +103,17 @@ body {
   margin: 0;
 }
 @media print {
-  .sheet {
+  .page {
     margin: 0;
     border: initial;
     width: initial;
     min-height: initial;
     page-break-after: always;
+  }
+  .text-block {
+    /*
+    border: initial;
+    */
   }
 }
 
