@@ -6,8 +6,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 */
 @import url("https://use.typekit.net/aqv1anf.css");
-  /* minion-pro, serif
-     ff-scala-sans-pro, ff-scala-sans-pro-condensed sans-serif */
 
 /*
  *   4pt  Brilliant      Perle
@@ -146,6 +144,9 @@ h1, h2, h3 {
 h1 {
   text-transform: capitalize;
   margin-bottom: 1rem;
+  font-family: trajan-pro-3, serif;
+  font-weight: 600;
+  font-style: normal;
 }
 h2 {
   text-transform: capitalize;
