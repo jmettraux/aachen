@@ -51,6 +51,8 @@
 
   --top-margin: calc((var(--page-height) - var(--tblock-height)) / 4);
   --spine-margin: calc(var(--page-width) / 20);
+
+  --edge-margin: calc(var(--page-width) - var(--spine-margin) - var(--tblock-width));
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -107,6 +109,14 @@ body {
   max-width: var(--tblock-width);
 
   text-align: right;
+}
+
+.page.even .text-block {
+  margin-left: var(--edge-margin);
+}
+.page.even .folio {
+  margin-left: var(--edge-margin);
+  text-align: left;
 }
 
 @page {
