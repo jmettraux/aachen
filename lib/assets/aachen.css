@@ -37,8 +37,6 @@
   --page-width: 210mm; /* A4 */
   --page-height: 297mm; /* A4 */
 
-  --sidenote-width: 10em;
-
   --tblock-height: calc(var(--page-height) / 10 * 9);
   --tblock-width: calc(var(--tblock-height) / var(--phi));
 
@@ -46,6 +44,8 @@
   --spine-margin: calc(var(--page-width) / 20);
 
   --edge-margin: calc(var(--page-width) - var(--spine-margin) - var(--tblock-width));
+
+  --side-width: 14ch; /* FIXME */
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -83,6 +83,8 @@ body {
 
 .text-block {
 
+  position: relative;
+
   border: lightgrey solid thin;
 
   margin-top: var(--top-margin);
@@ -92,7 +94,8 @@ body {
   max-width: var(--tblock-width);
   min-height: var(--tblock-height);
   max-height: var(--tblock-height);
-  overflow: hidden;
+
+  overflow: hidden; /* in .page has bad effects when printing */
 }
 
 .folio {
@@ -127,7 +130,9 @@ body {
     page-break-after: always;
   }
   .text-block {
+    /*
     position: relative;
+    */
   }
 }
 
@@ -223,12 +228,18 @@ table.equipment td {
 aside.note {
   display: block;
   position: absolute;
-  margin-top: calc(1.2 * var(--body-face-size));
-  margin-left: calc(-1.2 * var(--sidenote-width));
-  float: left;
-  width: var(--sidenote-width);
+  /*
+  margin-top: calc(1.2 * var(--size-a));
+  */
+  margin-left: calc(-1ch - var(--side-width));
+  width: 100px;
+  background-color: lightgreen;
+  border: green solid thin;
+  font-size: var(--size-b);
+  line-height: var(--mul-b);
 }
 aside.note p {
+  margin: 0;
   text-align: left;
 }
 
