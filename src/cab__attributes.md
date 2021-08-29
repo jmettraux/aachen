@@ -4,7 +4,7 @@
 
 ## The Attributes
 
-STR, DEX and CON are _physical_ attributes. INT, WIS, CHA are _mental_ attributes. This distinction is used in the background tables.
+STR, DEX and CON are _physical_ attributes. INT, WIS, CHA are _mental_ attributes. This distinction is used in the background tables.[^1]
 
 Strength STR
 : Lifting heavy weights, breaking thins, melee combat, carrying gear.
@@ -27,6 +27,8 @@ Wisdom WIS
 Charisma CHA
 : Force of character, charming others, attracting attention, winning loyalty.
 : Affects reaction rolls.
+
+[^1]: Testing footnotes
 
 <div#abc.def.ghi>
 ## Roll Attributes

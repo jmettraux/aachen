@@ -196,15 +196,26 @@ end
 
 def rework_html(s, h)
 
-  h = h.dup
+  h1 = h.dup
 
-  s = rework_html_id(s, h)
-  s = rework_html_table_id_class(s, h)
-  s = rework_html_dl(s, h)
-  s = rework_html_footnotes(s, h)
-  s = rework_html_free_divs(s, h)
+  s = rework_html_id(s, h1)
+  s = rework_html_table_id_class(s, h1)
+  s = rework_html_dl(s, h1)
+  s = rework_html_footnotes(s, h1)
+  s = rework_html_free_divs(s, h1)
+
+  h['SIDENOTES'] = rework_sidenotes(h1)
 
   s
+end
+
+def rework_sidenotes(h1)
+
+  sn = h1['SIDENOTES']
+
+  return '' if sn.empty?
+
+  '<div>Abc def ghi. Jkl mno pqr stu vwx yz.</div>'
 end
 
 def rework_html_id(s, h)
@@ -300,6 +311,8 @@ def rework_html_footnotes(s, h)
   # </ol>
   # </div>
 
+  h['SIDENOTES'] = []
+
   do_rework_html(s, h) do |e|
 
     ses =
@@ -312,13 +325,26 @@ def rework_html_footnotes(s, h)
     e.get_elements("//*[contains(@rev, 'footnote')]").each(&:remove)
 
     ses.each_with_index do |se, i|
-      le = les[i]
-      e = make_html_element(:aside, { class: 'note' })
 
-      le.children.each { |lee| e.add_element(lee) if lee.is_a?(REXML::Element) }
+#      le = les[i]
+#      e = make_html_element(:aside, { class: 'note' })
+#
+#      le.children.each { |lee| e.add_element(lee) if lee.is_a?(REXML::Element) }
+#
+#      #se.replace_with(e)
+#      se.parent.parent.insert_before(se.parent, e)
+#      se.remove
 
-      #se.replace_with(e)
-      se.parent.parent.insert_before(se.parent, e)
+      id = "note-#{i}"
+      ae = make_html_element(:span, { class: 'anchor', 'href': "##{id}" })
+      ne = make_html_element(:div, { id: id, class: 'note' })
+
+      les[i].children
+        .each { |lee| ne.add_element(lee) if lee.is_a?(REXML::Element) }
+
+      h['SIDENOTES'] << ne
+
+      se.parent.parent.insert_before(se.parent, ae)
       se.remove
     end
 
