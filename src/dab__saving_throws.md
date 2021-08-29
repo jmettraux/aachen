@@ -1,7 +1,7 @@
 
 # Saving Throws
 
-A saving throw—also called a save—represents an attempt to resist magic, a trap, a poison, a disease, or a similar threat. Referees request saving throws from characters under an imminent threat or resisting an effect.
+A saving throw—also called a save—represents an attempt to resist magic, a trap, a poison, a disease, or a similar threat. Referees request saving throws from characters under an imminent threat or resisting an effect.[^1]
 
 A saving throw is done with a d20. It succeeds if equal or greater than the saving throw score.
 
@@ -9,10 +9,11 @@ A successful saving throw means that the character suffers no harm, or reduced h
 
 Saving throws are computed from 16 minus the best of two attribute modifiers minus the character level.
 
-> Note that saving are meant to be last-ditch chances to avoid the worst of
-> unusual perils or uncommon dangers. You can't make an Evasion saving throw to
-> dodge a sword stroke; that's what the hit roll is for. It's up to the referee
-> to decide whether a particular danger might allow a saving throw or not.
+[^1]:
+  Note that saving are meant to be last-ditch chances to avoid the worst of
+  unusual perils or uncommon dangers. You can't make an Evasion saving throw to
+  dodge a sword stroke; that's what the hit roll is for. It's up to the referee
+  to decide whether a particular danger might allow a saving throw or not.
 
 ## The Saves
 

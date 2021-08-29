@@ -42,13 +42,13 @@ To generate a character's score, roll 3d6 six times, assigning them in order to 
 
 ## Write Down Attribute Modifiers
 
-| Attribute | Modifier | {.half-left.compact}
-|:---------:|:--------:|
-|         3 |       -2 |
-|     4 - 7 |       -1 |
-|    8 - 13 |        0 |
-|   14 - 17 |       +1 |
-|        18 |       +2 |
+| Value   | Modifier | {.half-left.compact}
+|:-------:|:--------:|
+| 3       |       -2 |
+| 4 - 7   |       -1 |
+| 8 - 13  |        0 |
+| 14 - 17 |       +1 |
+| 18      |       +2 |
 
 For each score write down next to it its modifier.
 

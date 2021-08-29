@@ -22,6 +22,11 @@
  *  20pt  Paragon        Petit-paragon
  */
 
+/*
+ * [ ] TODO try small caps for **bold**
+ * [ ] TODO style <blockquote>
+ */
+
 :root {
 
   --phi: 1.61803398875;
@@ -116,6 +121,7 @@ body {
 .notes p {
   margin: 0;
   margin-bottom: 1em;
+  text-indent: 0 !important;
 }
 .notes .note {
 
@@ -195,7 +201,15 @@ h2 {
   margin-bottom: 1rem;
 }
 h3 {
+  margin-top: 1rem;
   text-transform: capitalize;
+}
+
+p {
+  margin: 0.5rem 0;
+}
+p + p {
+  text-indent: 3ch;
 }
 
 table {
@@ -237,7 +251,7 @@ dd {
   */
 }
 dd.last-dd {
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
 }
 
 

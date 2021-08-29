@@ -320,7 +320,7 @@ def rework_html_footnotes(s, h)
     fne =
       e.get_elements("//*[contains(@class, 'footnotes')]")[0]
     les =
-      fne && fne.get_elements("//li")
+      fne && fne.get_elements("//li[@id]")
 
     e.get_elements("//*[contains(@rev, 'footnote')]").each(&:remove)
 
@@ -334,7 +334,12 @@ def rework_html_footnotes(s, h)
       ne = make_html_element(:div, { id: id, class: 'note' })
 
       les[i].children
-        .each { |lee| ne.add_element(lee) if lee.is_a?(REXML::Element) }
+        .each { |lee|
+          if lee.is_a?(REXML::Element)
+            ne.add_element(lee)
+          elsif lee.is_a?(REXML::Text)
+            ne.text = (ne.text || '') + "\n" + lee.to_s
+          end }
 
       h[:SIDENOTES] << ne
 

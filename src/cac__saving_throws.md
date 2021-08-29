@@ -3,29 +3,21 @@
 
 To make a save, one has to roll a d20 against a saving throw score. If the result is equal or better than the score, the save is successful.
 
-## Physical Save
+Physical Save
+: When resisting a poison, a disease, or exhaustion.
+: The score is 16, minus the best of the STR or CON modifiers, minus the character level.
 
-When resisting a poison, a disease, or exhaustion.
+Mental Save
+: When resisting magical effects, illusions, or warding off tempations and affirming one's willpower.
+: The score is 16, minus the best of the WIS or CHA modifiers, minus the character level.
 
-The score is 16, minus the best of the STR or CON modifiers, minus the character level.
+Evasion Save
+: Diving and dodging from sudden explosions, pits, and perils.
+: The score is 16, minus the best of the DEX or INT modifiers, minus the character level.
 
-## Mental Save
-
-When resisting magical effects, illusions, or warding off tempations and affirming one's willpower.
-
-The score is 16, minus the best of the WIS or CHA modifiers, minus the character level.
-
-## Evasion Save
-
-Diving and dodging from sudden explosions, pits, and perils.
-
-The score is 16, minus the best of the DEX or INT modifiers, minus the character level.
-
-## Luck Save
-
-When only sheer good luck can save the character.
-
-The score is a 16 minus the character level. No attribute modifier involved.
+Luck Save
+: When only sheer good luck can save the character.
+: The score is a 16 minus the character level. No attribute modifier involved.
 
 
 ## Example

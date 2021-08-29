@@ -33,7 +33,6 @@ Cast
 : To cast spells. To analyze magical effects, to know about magic and its practicioners.
 : Classes that cannot cast spells and have levels in this skill are simply scholars of magic.
 
-
 ## Skills
 
 Administer
@@ -47,6 +46,8 @@ Convince
 
 Craft
 : To craft or repair goods.
+
+<!-- PAGE BREAK skills -->
 
 Exert
 : To climb, run, lift, throw. Athletic training.

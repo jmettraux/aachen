@@ -1,14 +1,7 @@
 
 # Pick A Background
 
-This the background list for a simple medieval setting.[^1]
-
-[^1]:
-  One can roll, pick, or make a background with the referee's permission.
-
-One can roll on the below Backround table. The d6 doesn't map to the whole population. It maps to the adventurer population.
-
-| d6 | Background |
+| d6 | Background | {.half-left.compact}
 |---:|:----------:|
 |  1 | Commoner   |
 |  2 | Artisan    |
@@ -16,6 +9,13 @@ One can roll on the below Backround table. The d6 doesn't map to the whole popul
 |  4 | Religious  |
 |  5 | Slave      |
 |  6 | Wanderer   |
+
+This the background list for a simple medieval setting.[^1]
+
+[^1]:
+  One can roll, pick, or make a background with the referee's permission.
+
+One can roll on the below Backround table. The d6 doesn't map to the whole population. It maps to the adventurer population.
 
 If one doesn't find any suitable background, one can come up with a background description and three skills for it.
 
