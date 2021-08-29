@@ -2,9 +2,18 @@
 <!-- foot.html -->
 
   <script>
+
+    var clog = console.log;
+    function elt(sel) { return document.querySelector(sel); };
+    function elts(sel) { return Array.from(document.querySelectorAll(sel)); };
+
     document.addEventListener('readystatechange', function(ev) {
+
       if (ev.target.readyState !== "complete") return;
-      // TODO rebalance sidenotes
+
+      elts('span.anchor').forEach(function(e) {
+        elt(e.getAttribute('href')).style.top = `${e.offsetTop}px`;
+      });
     });
   </script>
 </body>

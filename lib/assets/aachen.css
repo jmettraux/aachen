@@ -110,7 +110,16 @@ body {
   min-width: var(--side-width);
   max-width: var(--side-width);
 
+  font-size: var(--size-b);
+  line-height: var(--mul-b);
+}
+.notes p {
+  margin: 0; /* FIXME */
+}
+.notes .note {
+
   border: lightgrey solid thin;
+  position: absolute;
 }
 
 .folio {
