@@ -28,7 +28,7 @@
   --sq2: 1.41421356237;
 
   --size-a: 14pt;
-    --mul-a: 1.3;
+    --mul-a: 1.15;
   --size-b: 12pt;
     --mul-b: calc((2 * var(--size-a) * var(--mul-a)) / (3 * var(--size-b)));
   --size-c: 10pt;
