@@ -22,23 +22,17 @@
  *  20pt  Paragon        Petit-paragon
  */
 
-/*
- * point * mul  =  lineheight  =  point + lead
- *
- * 24pt * 1.25  =  30 pt       =  24pt + 6pt
- * 16pt * 5/4   =  20 pt       =  16pt + 4pt
- *
- * 20pt * 1.2   =  24 pt       =  20pt + 4pt
- * 14pt * 1.42  =  16 pt       =  14pt + 2pt
- */
-
 :root {
 
   --phi: 1.61803398875;
   --sq2: 1.41421356237;
 
-  --body-face: 16pt/1.2 minion-pro, serif;
-  --small-face: 14pt/calc(16 / 14) ff-scala-sans-pro, sans-serif;
+  --size-a: 14pt;
+    --mul-a: 1.3;
+  --size-b: 12pt;
+    --mul-b: calc((2 * var(--size-a) * var(--mul-a)) / (3 * var(--size-b)));
+  --size-c: 10pt;
+    --mul-c: calc((1 * var(--size-a) * var(--mul-a)) / (2 * var(--size-c)));
 
   --page-width: 210mm; /* A4 */
   --page-height: 297mm; /* A4 */
@@ -61,7 +55,9 @@
 
 html {
 
-  font: var(--body-face); /* rem set here */
+  font-family: minion-pro, serif;
+  font-size: var(--size-a);
+  line-height: var(--mul-a);
 }
 
 body {
@@ -136,6 +132,7 @@ body {
 }
 
 .ruler {
+  display: none;
   margin-top: 0.5rem;
   width: 100%;
   position: absolute;
@@ -208,7 +205,9 @@ dd.last-dd {
 /* CLASSES */
 
 table.equipment {
-  font: var(--small-face);
+  font-family: ff-scala-sans-pro, sans-serif;
+  font-size: var(--size-c);
+  line-height: var(--mul-c);
   page-break-inside: auto;
 }
 table.equipment th,
