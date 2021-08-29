@@ -114,7 +114,8 @@ body {
   line-height: var(--mul-b);
 }
 .notes p {
-  margin: 0; /* FIXME */
+  margin: 0;
+  margin-bottom: 1em;
 }
 .notes .note {
 
@@ -190,6 +191,7 @@ h1 {
 }
 h2 {
   text-transform: capitalize;
+  margin-top: 2rem;
   margin-bottom: 1rem;
 }
 h3 {
@@ -201,12 +203,16 @@ table {
   border-collapse: collapse;
   page-break-inside: avoid;
   margin-bottom: 1em;
+  line-height: 0.9;
 }
 th, td {
   padding: 0.28em 0.49em 0.28em 0.49em;
 }
 th {
   border-bottom: solid thin;
+}
+table.compact {
+  line-height: 0.7;
 }
 
 dl {
@@ -248,6 +254,11 @@ table.equipment td {
   padding: 0.28em;
 }
 
+table.half-left {
+  width: 42%;
+  float: left;
+  margin-right: 1em;
+}
 
 /* specific */
 

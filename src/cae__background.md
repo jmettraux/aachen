@@ -3,7 +3,8 @@
 
 This the background list for a simple medieval setting.[^1]
 
-[^1]: One can roll, pick, or make a background with the referee's permission.
+[^1]:
+  One can roll, pick, or make a background with the referee's permission.
 
 One can roll on the below Backround table. The d6 doesn't map to the whole population. It maps to the adventurer population.
 
@@ -40,7 +41,8 @@ The character is granted two skills selected from the 7 skills listed under the 
 
 Dice are rolled three times. The rolls can be made against the _Growth_ or the _Learning_ table. Rolling on the Growth table may even yield an attribute +2. Hitting _Any Skill_ gives the opportunity to choose any skill.[^2]
 
-[^2]: The setting or the referee may dictate that selecting a skill like _Magic_ or _Pray_ is off limits.
+[^2]:
+  The setting or the referee may dictate that selecting a skill like _Magic_ or _Pray_ is off limits.
 
 _Any Combat_ grants a level in any of the combat skills (they are usually _stab_, _shoot_, and _punch_).
 
