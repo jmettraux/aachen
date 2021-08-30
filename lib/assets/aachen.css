@@ -50,9 +50,18 @@
 
   --edge-margin: calc(var(--page-width) - var(--spine-margin) - var(--tblock-width));
 
-  --side-left: calc(var(--spine-margin) + var(--tblock-width) + 0.5ch);
+  --side-left: calc(var(--spine-margin) + var(--tblock-width) + 1.0ch);
   --side-rest: calc(var(--page-width) - var(--side-left));
   --side-width: calc(var(--side-rest) - var(--spine-margin));
+
+  --title-face: trajan-pro-3, serif;
+  --main-face: minion-pro, serif;
+  --sans-face: ff-scala-sans-pro, sans-serif;
+
+  /*
+  --border-maybe: none;
+  */
+  --border-maybe: lightgrey solid thin;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -62,7 +71,7 @@
 
 html {
 
-  font-family: minion-pro, serif;
+  font-family: var(--main-face);
   font-size: var(--size-a);
   line-height: var(--mul-a);
 }
@@ -86,15 +95,18 @@ body {
 
   margin: 0;
 
+  /*
   border-right: grey solid thin;
   border-bottom: grey solid thin;
+  */
 }
 
 .text-block {
 
   position: relative;
 
-  border: lightgrey solid thin;
+  /*border: lightgrey solid thin;*/
+  border: var(--border-maybe);
 
   margin-top: var(--top-margin);
   margin-left: var(--spine-margin);
@@ -122,10 +134,13 @@ body {
   margin: 0;
   margin-bottom: 1em;
   text-indent: 0 !important;
+  text-align: left;
 }
 .notes .note {
 
-  border: lightgrey solid thin;
+  /*border: lightgrey solid thin;*/
+  border: var(--border-maybe);
+
   position: absolute;
 }
 
@@ -191,7 +206,7 @@ h1, h2, h3 {
 h1 {
   text-transform: capitalize;
   margin-bottom: 1rem;
-  font-family: trajan-pro-3, serif;
+  font-family: var(--title-face);
   font-weight: 600;
   font-style: normal;
 }
@@ -207,6 +222,7 @@ h3 {
 
 p {
   margin: 0.5rem 0;
+  text-align: justify;
 }
 p + p {
   text-indent: 3ch;
@@ -254,6 +270,11 @@ dd.last-dd {
   margin-bottom: 0.5em;
 }
 
+code {
+  font-family: var(--main-face);
+  color: red;
+}
+
 
 /* CLASSES */
 
@@ -263,7 +284,7 @@ dd.last-dd {
 }
 
 table.equipment {
-  font-family: ff-scala-sans-pro, sans-serif;
+  font-family: var(--sans-face);
   font-size: var(--size-c);
   line-height: var(--mul-c);
   page-break-inside: auto;
@@ -283,6 +304,10 @@ table.half-left {
 
 [data-aa-title="skill list"] dl {
   grid-template-columns: 19% auto;
+}
+
+[data-aa-title="backgrounds"] table {
+  line-height: 0.7; /* table.compact above */
 }
 
 /* top right bottom left */
