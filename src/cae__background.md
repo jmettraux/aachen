@@ -29,30 +29,26 @@ Picking a background grants a _free skill_ to the character. For example, a free
 
 A character may choose one of three ways of selecting skills. _go quick_, _learn two skills_, or _roll three times_.
 
-### Go Quick
+Go Quick
+: The character is granted the two _quick skills_. Done.
 
-The character is granted the two _quick skills_. Done.
+Learn Two Skills
+: The character is granted two skills selected from the 7 skills listed under the _Learning_ column.
 
-### Learn Two Skills
-
-The character is granted two skills selected from the 7 skills listed under the _Learning_ column.
-
-### Roll Three Times
-
-Dice are rolled three times. The rolls can be made against the _Growth_ or the _Learning_ table. Rolling on the Growth table may even yield an attribute +2. Hitting _Any Skill_ gives the opportunity to choose any skill.[^2]
+Roll Three Times[^2]
+: Dice are rolled three times. The rolls can be made against the _Growth_ or the _Learning_ table. Rolling on the Growth table may even yield an attribute +2. Hitting _Any Skill_ gives the opportunity to choose any skill.
 
 [^2]:
   The setting or the referee may dictate that selecting a skill like _Magic_ or _Pray_ is off limits.
 
-_Any Combat_ grants a level in any of the combat skills (they are usually _stab_, _shoot_, and _punch_).
-
-`+1 Any Att` means one point can be added to any attribute score.
-`+2 Physical` means two points can be added to one (+2) or two (each +1) physical attributes (usually STR, DEX, or CON).
-`+2 Mental` means two points can be added to one (+2) or two (each +1) mental attributes (usually INT, WIS, or CHA).
+* `Any Combat` grants a level in any of the combat skills: _stab_, _shoot_, or _punch_.
+* `+1 Any Att` means one point can be added to any attribute score.
+* `+2 Physical` means two points can be added to one (+2) or two (each +1) physical attributes (usually STR, DEX, or CON).
+* `+2 Mental` means two points can be added to one (+2) or two (each +1) mental attributes (usually INT, WIS, or CHA).
 
 Remember to recompute the attribute modifiers and the saving throw scores if an attribute score is changed.
 
-<!-- PAGE BREAK backgrounds -->
+<!-- PAGE BREAK background -->
 
 ## The Backgrounds
 
@@ -104,6 +100,7 @@ The character was born in a noble family, and expected to wield weapons like his
 |                  |    |             |  7 | Stab       |
 |                  |    |             |  8 | Convince   |
 
+<!-- PAGE BREAK background -->
 
 ### Religious
 

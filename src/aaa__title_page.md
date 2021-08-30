@@ -39,7 +39,5 @@
 
 # ${NAME_UPCASE} {.book-title}
 
-## description
-
 ${NAME_CAP} is a set of table top role-playing rules. They target a low-fantasy Europe, somewhere between the Dark Ages and AD 1100.
 

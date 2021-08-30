@@ -10,6 +10,7 @@ WORDS_TO_INDEX = %w[
   morale
     ].freeze
 
+
 def make_html
 
   pages = Dir['src/*.md']
@@ -21,7 +22,7 @@ def make_html
   File.open(out, 'wb') do |f|
     pages.each_with_index do |path, i|
       s = File.read(path)
-      t = s.match(/\#{1,2}[\t ]+([^\n]+)/)[1].downcase.gsub(/[^a-z]+/, '_')
+      t = path.match(/__(.+)\.md/)[1]
       if i > 0
         f.write("<!-- PAGE BREAK #{t} -->") \
           unless s.match?(/\s*<!--[\t ]*(PAGE[\t ]+)?UNBREAK[\t ]*-->/)
