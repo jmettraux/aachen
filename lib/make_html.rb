@@ -170,22 +170,20 @@ def rework_md_headings(s, h)
     .gsub(/^(\#{1,4})\s+(.+)\s+(\{[^}]+\})\s*$/) {
 
       h = "h#{$1.length}"
-      a = $3[1..-2].split
-      i = (
-        a.find { |e| e.start_with?('#') } ||
-        "X#{$2.strip.downcase.gsub(/\s+/, '_')}"
-          )[1..-1]
-      c = a.find { |e| e.start_with?('.') }
-      c = c && c.split('.').join(' ').strip
-      c = c || ''
+      a = $3[1..-2]
+      t = $2
+      m = a.match(/#([^.]+)/)
+      id = m ? " id=\"#{m[1]}\"" : ''
+      m = a.match(/(\.[^.#]+)+/)
+      cla = m ? " class=\"#{m[0].gsub('.', ' ').strip}\"" : ''
 
-      "<#{h} id=\"#{i}\" class=\"#{c}\">#{$2}</#{h}>" }
+      "<#{h}#{id}#{cla}>#{t}</#{h}>" }
 end
 
 def rework_md_table_id_and_class(s, h)
 
   s
-    .gsub(/^(|.+|)[\t ]*\{([^}]+)\}[\t ]*$/) {
+    .gsub(/^(\|.+\|)[\t ]*\{([^}]+)\}[\t ]*$/) {
 
       "<!--#{$2}-->\n#{$1}" }
 end

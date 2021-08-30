@@ -37,7 +37,7 @@
 <div>35</div>
 </div>
 
-# ${NAME_UPCASE} {#foo .bar.baz}
+# ${NAME_UPCASE} {.book-title}
 
 ## description
 

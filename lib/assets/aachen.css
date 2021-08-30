@@ -257,6 +257,11 @@ dd.last-dd {
 
 /* CLASSES */
 
+.book-title {
+  font-size: 60pt;
+  margin-top: 2em;
+}
+
 table.equipment {
   font-family: ff-scala-sans-pro, sans-serif;
   font-size: var(--size-c);
