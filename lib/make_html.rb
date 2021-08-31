@@ -13,6 +13,10 @@ WORDS_TO_INDEX = %w[
 
 def make_html
 
+  gitbra = (`git symbolic-ref --short HEAD` rescue 'no-git-branch')
+  gitsha = (`git rev-parse HEAD` rescue 'no-git-sha')
+  giturl = (`git ls-remote --get-url` rescue 'no-git-url')
+
   pages = Dir['src/*.md']
     .sort
     .select { |path| File.basename(path).match?(/^([a-z]{3})__(.+)\.md$/) }
@@ -82,6 +86,7 @@ def make_html
     t = m[2].gsub(/_/, ' ')
       #
     h = {
+      GITBRA: gitbra, GITSHA: gitsha, GITURL: giturl,
       PATH: path, PAGE: i,
       TITLE: t, TITLE_: m[2],
       EVEN: i % 2 == 0 ? :even : :odd }
