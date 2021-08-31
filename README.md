@@ -44,7 +44,7 @@ See [BRANCHING.md](BRANCHING.md).
 ## references
 
 * https://www.markdownguide.org/extended-syntax/
-* https://www.interact-sw.co.uk/iangblog/2005/04/29/psduplex
+* https://www.wikihow.com/Staple-a-Booklet
 
 
 ## dependencies
