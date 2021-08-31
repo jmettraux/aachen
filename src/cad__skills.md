@@ -20,6 +20,8 @@ Non-combat skill checks are done with 2d6; the modifier for a no-level skill is 
 
 ## Combat Skills
 
+[^1]
+
 Stab
 : Fight with a melee weapon. Maintain such weapons.
 
@@ -28,6 +30,9 @@ Shoot
 
 Punch
 : Fight unarmed. Punch, kick, grapple, or brawl.
+
+[^1]:
+  **Option**:<br/>split _Punch_ into _Punch_ and _Wrestle_.
 
 
 ## Special Skills

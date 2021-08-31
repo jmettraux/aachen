@@ -19,10 +19,6 @@ One can roll on the below Backround table. The d6 doesn't map to the whole popul
 
 If one doesn't find any suitable background, one can come up with a background description and three skills for it.
 
-> Remember, though, that England is a simple land, a few are subtle laborers. Only a scant few can be fed on the labor of other men.
->
->   Kevin Crawford, Brother Cornix, "Wolves of God" p.15
-
 ## Picking A Background
 
 Picking a background grants a _free skill_ to the character. For example, a free man is given the _Work_ skill (at level 0).

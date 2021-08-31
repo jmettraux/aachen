@@ -3,29 +3,25 @@
 
 The _physical_ attributes
 
-Strength STR
-: Lifting heavy weights, breaking thins, melee combat, carrying gear.
-: Affects melee attacks rolls and damage rolls.
+STRength
+: Lifting heavy weights, breaking thins, melee combat, carrying gear. Affects melee attacks rolls and damage rolls.
 
-Dexterity DEX
-: Speed, evasion, manual dexterity, reaction time, combat initiative.
-: Affects armour class, ranged and light weapon attack rolls and damage rolls.
+DEXterity
+: Speed, evasion, manual dexterity, reaction time, combat initiative. Affects armour class, ranged and light weapon attack rolls and damage rolls.
 
-Constitution CON
-: Hardiness, enduring injury, resisting poisons, going without food or rest.
-: Affects the maximum hit points.
+CONstitution
+: Hardiness, enduring injury, resisting poisons, going without food or rest. Affects the maximum hit points.
 
 The _mental_ attributes
 
-Intelligence INT
+INTelligence
 : Memory, reasoning, intellectual skills, general education. Book smart.
 
-Wisdom WIS
+WISdom
 : Noticing things, making judgements, reading situations, intuition. Street smart.
 
-Charisma CHA
-: Force of character, charming others, attracting attention, winning loyalty.
-: Affects reaction rolls.
+CHArisma
+: Force of character, charming others, attracting attention, winning loyalty. Affects reaction rolls.
 
 ## Roll Attributes
 
