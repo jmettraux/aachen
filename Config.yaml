@@ -14,6 +14,7 @@ to_html: lowdown -Thtml --html-no-skiphtml --html-no-escapehtml ${in} -o ${out}
 to_pdf: chrome --headless --no-sandbox --print-to-pdf-no-header --print-to-pdf=${out} --no-margins --disable-gpu ${in}
 to_stapled_pdf: qpdf ${in} --pages . ${pages} -- ${out}
 
+#to_ps: pdftops -duplex ${in} ${out}
 to_ps: pdftops ${in} ${out}
 to_ps2: psnup -2 ${in} ${out}
 

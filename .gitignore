@@ -12,7 +12,7 @@ out/html/*.css
 out/html/*.ico
 out/html/*.png
 out/html/*.pdf
+out/html/*.ps
 out/html/*.html
 out/html/et-book/
-out/pdf/*.pdf
 

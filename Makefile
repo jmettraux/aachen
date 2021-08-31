@@ -6,7 +6,7 @@ RUBY = ruby
 RUM = $(RUBY) -Ilib -r make -e
 
 
-all: pdf
+all: ps
 
 html:
 	rm -fR out/tmp/*.md
@@ -20,6 +20,8 @@ html:
 
 pdf: html
 	$(RUM) make_pdf
+ps: pdf
+	$(RUM) make_ps
 
 name:
 	@echo $(NAME_)
