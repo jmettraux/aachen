@@ -64,6 +64,8 @@ def make_html
   end
   f.close
 
+  system("touch out/tmp/p%03d__%s.md" % [ page + 1, 'blank' ]) if page.odd?
+
   index.each { |_, v| v.uniq! }
 #puts "v" * 80
 #pp index
@@ -102,7 +104,7 @@ def make_html
     echo(tmp, rework_md(load_part(path, h), h), 'wb')
 
     cmd = { in: tmp, out: tmp2 }
-      .inject(CONFIG[:tohtml]) { |s, (k, v)| s.gsub(/\$\{#{k}\}/, v) }
+      .inject(CONFIG[:to_html]) { |s, (k, v)| s.gsub(/\$\{#{k}\}/, v) }
     puts(cmd); system(cmd)
 
     echo(out, rework_html(File.read(tmp2), h))

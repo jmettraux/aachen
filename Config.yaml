@@ -8,11 +8,14 @@ NAME_UPCASE: AACHEN
 TITLE: Aachen
 SUBTITLE: Elements of Carolingian Fantasy
 
-tohtml: lowdown -Thtml --html-no-skiphtml --html-no-escapehtml ${in} -o ${out}
+to_html: lowdown -Thtml --html-no-skiphtml --html-no-escapehtml ${in} -o ${out}
 
-#topdf: wkhtmltopdf --disable-smart-shrinking ${in} ${out}
-topdf: chrome --headless --no-sandbox --print-to-pdf-no-header --print-to-pdf=${out} --no-margins --disable-gpu ${in}
+#to_pdf: wkhtmltopdf --disable-smart-shrinking ${in} ${out}
+to_pdf: chrome --headless --no-sandbox --print-to-pdf-no-header --print-to-pdf=${out} --no-margins --disable-gpu ${in}
+to_stapled_pdf: qpdf ${in} --pages . ${pages} -- ${out}
 
-tops: pdftops ${in} ${out}
-tops2: psnup -2 ${in} ${out}
+to_ps: pdftops ${in} ${out}
+to_ps2: psnup -2 ${in} ${out}
+
+pdfinfo: pdfinfo ${in}
 
