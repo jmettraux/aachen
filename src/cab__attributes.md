@@ -1,11 +1,7 @@
 
 # Determine Attributes
 
-<!--
-## The Attributes
--->
-
-STR, DEX and CON are _physical_ attributes. INT, WIS, CHA are _mental_ attributes. This distinction is used in the background tables.
+The _physical_ attributes
 
 Strength STR
 : Lifting heavy weights, breaking thins, melee combat, carrying gear.
@@ -19,6 +15,8 @@ Constitution CON
 : Hardiness, enduring injury, resisting poisons, going without food or rest.
 : Affects the maximum hit points.
 
+The _mental_ attributes
+
 Intelligence INT
 : Memory, reasoning, intellectual skills, general education. Book smart.
 
@@ -29,18 +27,15 @@ Charisma CHA
 : Force of character, charming others, attracting attention, winning loyalty.
 : Affects reaction rolls.
 
-## Roll Attributes [^1]
+## Roll Attributes
 
-To generate a character's score, roll 3d6 six times, assigning them in order to STR, DEX, CON, INT, WIS, and CHA. If desired, the lowest roll can be replaced by a 14.
+Roll 3d6 and assign in order STR, DEX, CON, INT, WIS, and CHA. Replace lowest roll with a 14.
 
-[^1]:
+**Or** if the referee allows it, roll 3d6 six times and assign at will;
 
-  **Option**: The referee may allow the rolled score to be placed in any attribute.
+**Or** use the 14, 12, 11, 10, 9, 7 array.
 
-  **Option**: Instead of rolling, one may use the 14, 12, 11, 10, 9, and 7 array.
-
-
-## Write Down Attribute Modifiers
+## Determine Attribute Modifiers
 
 | Value   | Modifier | {.half-left.compact}
 |:-------:|:--------:|
@@ -50,7 +45,7 @@ To generate a character's score, roll 3d6 six times, assigning them in order to 
 | 14 - 17 |       +1 |
 | 18      |       +2 |
 
-For each score write down next to it its modifier.
+For each score write down next its modifier next to its score.
 
-When rolling dice that are affected by an attribute, one doesn't apply the whole score; instead the attribute modifier is applied.
+Don't forget to recompute the modifier if the attribute is altered further down the character creation flow.
 

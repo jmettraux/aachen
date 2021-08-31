@@ -310,6 +310,10 @@ table.half-left {
 
 /* specific */
 
+[data-aa-title="attributes"] dl {
+  grid-template-columns: 29% auto;
+}
+
 [data-aa-title="skill list"] dl {
   grid-template-columns: 19% auto;
 }
