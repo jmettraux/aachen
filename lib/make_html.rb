@@ -64,7 +64,8 @@ def make_html
   end
   f.close
 
-  system("touch out/tmp/p%03d__%s.md" % [ page + 1, 'blank' ]) if page.odd?
+  system("touch out/tmp/p%03d__%s.md" % [ page + 1, 'blank' ]) \
+    if page.odd?
 
   index.each { |_, v| v.uniq! }
 #puts "v" * 80

@@ -3,6 +3,8 @@ def make_ps
 
   h = {}
 
+  # non-stapled
+
   h[:in] = "out/html/#{CONFIG[:NAME]}.pdf"
   h[:out] = "out/html/#{CONFIG[:NAME]}.ps"
   make(:to_ps, h)
@@ -14,6 +16,8 @@ def make_ps
   h[:in] = "out/html/#{CONFIG[:NAME]}.2.ps"
   h[:out] = "out/html/#{CONFIG[:NAME]}.2.duplex.ps"
   make_duplex(h)
+
+  # stapled
 
   h[:in] = "out/html/#{CONFIG[:NAME]}.stapled.pdf"
   h[:out] = "out/html/#{CONFIG[:NAME]}.stapled.ps"

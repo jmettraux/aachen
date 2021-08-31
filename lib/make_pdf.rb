@@ -2,11 +2,13 @@
 def make_pdf
 
   h = {}
+
   h[:in] = "out/html/#{CONFIG[:NAME]}.html"
   h[:out] = "out/html/#{CONFIG[:NAME]}.pdf"
-  h[:stapled_out] = "out/html/#{CONFIG[:NAME]}.stapled.pdf"
-
   make_chrome_pdf(h)
+
+  h[:in] = "out/html/#{CONFIG[:NAME]}.pdf"
+  h[:out] = "out/html/#{CONFIG[:NAME]}.stapled.pdf"
   make_stapled_pdf(h)
 end
 
@@ -20,10 +22,6 @@ def make_chrome_pdf(h)
 end
 
 def make_stapled_pdf(h)
-
-  h = h.dup
-  h[:in] = h[:out]
-  h[:out] = h[:stapled_out]
 
   cmd =
     h.inject(CONFIG[:pdfinfo]) { |s, (k, v)| s.gsub(/\$\{#{k}\}/, v) }
@@ -53,6 +51,13 @@ def array_pages(count)
         a[-(page - middle)][1] = page
       end
     end
+
+  a.each_with_index do |row, i|
+    a[i] = a[i].reverse if i.even?
+  end
+#puts "vvv"
+#a.each { |row| p row }
+#puts "^^^"
 
   a.flatten
 end
