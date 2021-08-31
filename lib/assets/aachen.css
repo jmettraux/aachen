@@ -286,6 +286,10 @@ a {
 
 /* CLASSES */
 
+.clear {
+  clear: both;
+}
+
 .book-title {
   font-size: 60pt;
   margin-top: 2em;
@@ -307,6 +311,13 @@ table.half-left {
   float: left;
   margin-right: 1em;
 }
+/*
+table.three-quarter-left {
+  width: 70%;
+  float: left;
+  margin-right: 1em;
+}
+*/
 
 /* specific */
 

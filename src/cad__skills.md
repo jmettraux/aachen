@@ -1,19 +1,22 @@
 
-# Skill List
+# Skills
 
-Skill enumeration with description.
+The character background yields skill levels through rolls or selection.
 
+The first time a skill is yielded, it is set at level 0. Should it come up again, it will reach level 1. At character creation the maximum level for a skill is 1, if the skill is yold again, give the level to another skill.
 
 ## Skill Levels
 
-|         | Description                                          |
-|---------|------------------------------------------------------|
-| Level 0 | The proficiency of an ordinary practicioner          |
-| Level 1 | Veteran of the skill, noticeably better than others  |
-| Level 2 | Veteran and talented, one of the best in the city    |
-| Level 3 | Inspirational master, one of the best in the kingdom |
-| Level 4 | Touching greatness, one of the best in the world     |
+Non-combat skill checks are done with 2d6; the modifier for a no-level skill is -1. Combat skill checks are different, they are done with 1d20; the modifier for a no-level skill is -2.
 
+| Level | Description                                          | Mod |
+|:-----:|:----------------------------------------------------:|:---:|
+| None  | No experience                                        |  -1 or -2 (combat) |
+| 0     | The proficiency of an ordinary practicioner          |   0 |
+| 1     | Veteran of the skill, noticeably better than others  |  +1 |
+| 2     | Veteran and talented, one of the best in the city    |  +2 |
+| 3     | Inspirational master, one of the best in the kingdom |  +3 |
+| 4     | Touching greatness, one of the best in the world     |  +4 |
 
 ## Combat Skills
 
@@ -33,7 +36,9 @@ Cast
 : To cast spells. To analyze magical effects, to know about magic and its practicioners.
 : Classes that cannot cast spells and have levels in this skill are simply scholars of magic.
 
-## Skills
+<!-- PAGE BREAK skills -->
+
+## Regular Skills
 
 Administer
 : To manage land and laborers, or a workshop, its journeyfolk and apprentices.
@@ -47,8 +52,6 @@ Convince
 Craft
 : To craft or repair goods.
 
-<!-- PAGE BREAK skills -->
-
 Exert
 : To climb, run, lift, throw. Athletic training.
 
@@ -60,8 +63,7 @@ Hunt
 : To take game with snare, arrow or spear, to know the habits and the manner of preys.
 
 Know
-: The seven liberal arts are divided between the trivium and the quadrivium. The trivium is grammar, logic, and rhethoric. The quadrivium is arithmetic, geometry, music, and astronomy.
-: Level 0 equals some mastery of the trivium, while above levels leave the trivium for the quadrivium.
+: TODO
 
 Lead
 : To conduct and inspire people.
