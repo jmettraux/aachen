@@ -33,7 +33,8 @@ Roll 3d6 and assign in order STR, DEX, CON, INT, WIS, and CHA. Replace lowest ro
 
 ## Determine Attribute Modifiers
 
-| Value   | Modifier | {.half-left.compact}
+<!-- .half-left.compact -->
+| Value   | Modifier |
 |:-------:|:--------:|
 | 3       |       -2 |
 | 4 - 7   |       -1 |

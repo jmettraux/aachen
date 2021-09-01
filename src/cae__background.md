@@ -1,7 +1,8 @@
 
 # Pick A Background
 
-| d6 | Background | {.half-left.compact}
+<!-- .half-left.compact -->
+| d6 | Background |
 |---:|:----------:|
 |  1 | Commoner   |
 |  2 | Artisan    |
