@@ -310,6 +310,13 @@ a {
   margin-top: 2em;
 }
 
+.left-column {
+  float: left;
+  width: 50%;
+}
+.right-column {
+}
+
 /*
 table#skills {
   font-family: var(--sans-face);
@@ -376,7 +383,10 @@ table.three-quarter-left {
 }
 
 [data-aa-title="skills"] dl {
-  grid-template-columns: 19% auto;
+  grid-template-columns: 32% auto;
+}
+[data-aa-title="skills"] dd.last-dd {
+  margin-bottom: 0;
 }
 
 [data-aa-title="backgrounds"] table {

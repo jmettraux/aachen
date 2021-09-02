@@ -300,23 +300,37 @@ end
 
 def rework_html_free_divs(s, h)
 
-  # <!-- div#abc.def.ghi -->
+  # <!-- <div#abc.def.ghi> -->
   # <p>Hello world.</p>
-  # <!-- /div#abc.def.ghi -->
+  # <!-- </div#abc.def.ghi> -->
   #   -->
   # <div#abc.def.ghi>
   #   <p>Hello world.</p>
   # </div>
 
   s
-    .gsub(/^<!-- <div(#[a-zA-Z_-]+)?(\.[a-zA-Z_-]+)+> -->$/) { |x|
-      id = $1 && $1[1..-1]
-      cs = []; css = StringScanner.new(x); css.scan(/[^.]*/)
-      while c = css.scan(/\.[a-zA-Z_-]+/); cs << c[1..-1]; end
-      cs = cs.any? ? cs.join(' ') : nil
-      "<div#{id ? " id=\"#{id}\"" : ''}#{cs ? " class=\"#{cs}\"" : ''}>" + x }
-    .gsub(/^<!-- <\/div(#[a-zA-Z_-]+)?(\.[a-zA-Z_-]+)+> -->(<[^>]+>)$/) {
-      "#{$3}\n</div><!-- </div#{$1}#{$2}> -->" }
+    .gsub(/^<!--[ \t]*<div([^>]+)>[ \t]*-->[ \t]*$/) {
+      ic = []
+      s = StringScanner.new($1)
+      id = s.scan(/[ \t]*#[-a-zA-Z0-9_]+/)
+      ic << "id=\"#{id.strip[1..-1]}\"" if id
+      cs = []; while c = s.scan(/[ \t]*\.[-a-zA-Z0-9_]+/)
+          cs << c.strip[1..-1]
+        end
+      ic << "class=\"#{cs.join(' ')}\"" if cs.any?
+      "<div #{ic.join(' ')}>" }
+    .gsub(/^<!--[ \t]*<\/div([^>]*)>[ \t]*-->[ \t]*$/) {
+      "</div>\n" }
+
+  #s
+  #  .gsub(/^<!-- <div(#[-a-zA-Z0-9_]+)?(\.[-a-zA-Z0-9_]+)+> -->$/) { |x|
+  #    id = $1 && $1[1..-1]
+  #    cs = []; css = StringScanner.new(x); css.scan(/[^.]*/)
+  #    while c = css.scan(/\.[a-zA-Z_-]+/); cs << c[1..-1]; end
+  #    cs = cs.any? ? cs.join(' ') : nil
+  #    "<div#{id ? " id=\"#{id}\"" : ''}#{cs ? " class=\"#{cs}\"" : ''}>" + x }
+  #  .gsub(/^<!-- <\/div(#[-a-zA-Z0-9_]+)?(\.[-a-zA-Z0-9_]+)+> -->(<[^>]+>)$/) {
+  #    "#{$3}\n</div><!-- </div#{$1}#{$2}> -->" }
 end
 
 def rework_html_footnotes(s, h)
