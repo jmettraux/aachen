@@ -68,13 +68,13 @@ Heal
 : To mend wounds, combat diseases, neutralize poisons.
 : This skill is used when stabilizing _Mortally Wounded_ characters, its importance cannot be overstated.
 
-Hunt
-: To take game with snare, arrow or spear, to know the habits and the manner of preys.
-
-
 <!-- </div.left-column> -->
 
 <!-- <div.right-column> -->
+
+Hunt
+: To take game with snare, arrow or spear, to know the habits and the manner of preys.
+
 Know
 : TODO
 

@@ -47,13 +47,7 @@ Remember to recompute the attribute modifiers and the saving throw scores if an 
 
 <!-- PAGE BREAK background -->
 
-<!--
-## The Backgrounds
--->
-[^1]
-
-[^1]:
-  ## Backgrounds
+## Backgrounds
 
 <!-- .background -->
 |                  | d6 | Growth      | d8 | Learning   |

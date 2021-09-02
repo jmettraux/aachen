@@ -42,10 +42,10 @@
   --page-width: 210mm; /* A4 */
   --page-height: 297mm; /* A4 */
 
-  --tblock-height: calc(var(--page-height) / 10 * 8.5);
+  --tblock-height: calc(var(--page-height) / 10 * 9);
   --tblock-width: calc(var(--tblock-height) / var(--phi));
 
-  --top-margin: calc((var(--page-height) - var(--tblock-height)) / 4);
+  --top-margin: calc((var(--page-height) - var(--tblock-height)) / 3);
   --spine-margin: calc(var(--page-width) / 21);
 
   --edge-margin: calc(var(--page-width) - var(--spine-margin) - var(--tblock-width));
@@ -58,10 +58,10 @@
   --main-face: minion-pro, serif;
   --sans-face: ff-scala-sans-pro, sans-serif;
 
-  --border-maybe: none;
   /*
-  --border-maybe: lightgrey solid thin;
+  --border-maybe: none;
   */
+  --border-maybe: lightgrey solid thin;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
