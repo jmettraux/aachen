@@ -56,7 +56,7 @@ Remember to recompute the attribute modifiers and the saving throw scores if an 
   ## Backgrounds
 
 <!-- .background -->
-| 1                | d6 | Growth      | d8 | Learning   |
+|                  | d6 | Growth      | d8 | Learning   |
 |------------------|---:|:-----------:|---:|:----------:|
 | **Free Skill**   |  1 | +1 Any Att  |  1 | Any Skill  |
 | Work             |  2 | +2 Physical |  2 | Connect    |
@@ -76,7 +76,7 @@ The character was born in a free peasant family.
 
 
 <!-- .background -->
-| 2                | d6 | Growth      | d8 | Learning   |
+|                  |    |             |    |            |
 |------------------|---:|:-----------:|---:|:----------:|
 | **Free Skill**   |  1 | +1 Any Att  |  1 | Any Skill  |
 | Craft            |  2 | +2 Physical |  2 | Connect    |
@@ -96,7 +96,7 @@ The character was either born in an artisan family (the son of a master or a jou
 
 
 <!-- .background -->
-| 3                | d6 | Growth      | d8 | Learning   |
+|                  |    |             |    |            |
 |------------------|---:|:-----------:|---:|:----------:|
 | **Free Skill**   |  1 | +1 Any Att  |  1 | Any Combat |
 | Stab             |  2 | +2 Physical |  2 | Any Skill  |
@@ -116,7 +116,7 @@ The character was born in a noble family, and expected to wield weapons like his
 
 
 <!-- .background -->
-| 4                | d6 | Growth      | d8 | Learning  |
+|                  |    |             |    |           |
 |------------------|---:|:-----------:|---:|:---------:|
 | **Free Skill**   |  1 | +1 Any Att  |  1 | Any Skill |
 | Pray             |  2 | +2 Physical |  2 | Connect   |
@@ -136,7 +136,7 @@ The character was born in a family entrusted with religious rituals. Or the char
 
 
 <!-- .background -->
-| 5                | d6 | Growth      | d8 | Learning   |
+|                  |    |             |    |            |
 |------------------|---:|:-----------:|---:|:----------:|
 | **Free Skill**   |  1 | +1 Any Att  |  1 | Any Combat |
 | Work             |  2 | +2 Physical |  2 | Any Skill  |
@@ -155,9 +155,8 @@ She or he managed to become from through manumission or escape. Or the character
 
 <div class="clear"> </div>
 
-
 <!-- .background -->
-| 6                | d6 | Growth      | d8 | Learning   |
+|                  |    |             |    |            |
 |------------------|---:|:-----------:|---:|:----------:|
 | **Free Skill**   |  1 | +1 Any Att  |  1 | Any Combat |
 | Exert            |  2 | +2 Physical |  2 | Any Skill  |

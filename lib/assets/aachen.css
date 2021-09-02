@@ -311,17 +311,17 @@ a {
 }
 
 table.background {
+  /*
+  display: grid;
+  grid-template-columns: 10ch 2ch 10ch 2ch auto;
+  */
   float: left;
   width: 50%;
   font-family: var(--sans-face);
   font-size: var(--size-c);
   /*line-height: var(--mul-c);*/
-  line-height: 0.8;
+  /*line-height: 0.8;*/
   margin-right: 1rem;
-}
-table.background th:first-child {
-  text-align: left;
-  font-weight: normal;
 }
 h3.background {
   margin-top: 0;
