@@ -144,18 +144,15 @@ def rework_md(s, h)
   # currently: lowdown-0.8.3
   #
   # at some point, lowdown will deal with these reworks...
-
-  h = h.dup
-
-  s = rework_md_free_divs(s, h)
-  s = rework_md_table_id_and_class(s, h)
-  s = rework_md_headings(s, h)
+  #
+  # 2021-09-02 No, it must be readable on Github,
+  #            so favour <!--xxx--> annotations
 
   s
 end
 
-def rework_md_free_divs(s, h)
-
+#def rework_md_free_divs(s, h)
+  #
   # <div#abc.def.ghi>
   # Hello world.
   # </div#abc.def.ghi>
@@ -163,39 +160,18 @@ def rework_md_free_divs(s, h)
   # <!-- div#abc.def.ghi -->
   # Hello world.
   # <!-- /div#abc.def.ghi -->
-
-  s
-    .gsub(/^[\t ]*<\/?div(#[a-zA-Z_-]+)?(\.[a-zA-Z_-]+)+>[\t ]*$/) { |x|
-      "<!-- #{x} -->" }
-end
-
-def rework_md_headings(s, h)
-
+#end
+#def rework_md_headings(s, h)
+  #
   # md:   # AACHEN {#foo .bar.baz}
   # -->
   # html: <h1 id="foo" class="bar baz">AACHEN</a>
-
-  s
-    .gsub(/^(\#{1,4})\s+(.+)\s+(\{[^}]+\})\s*$/) {
-
-      h = "h#{$1.length}"
-      a = $3[1..-2]
-      t = $2
-      m = a.match(/#([^.]+)/)
-      id = m ? " id=\"#{m[1]}\"" : ''
-      m = a.match(/(\.[^.#]+)+/)
-      cla = m ? " class=\"#{m[0].gsub('.', ' ').strip}\"" : ''
-
-      "<#{h}#{id}#{cla}>#{t}</#{h}>" }
-end
-
-def rework_md_table_id_and_class(s, h)
-
-  s
-    .gsub(/^(\|.+\|)[\t ]*\{([^}]+)\}[\t ]*$/) {
-
-      "<!--#{$2}-->\n#{$1}" }
-end
+#end
+#def rework_md_table_id_and_class(s, h)
+#  s
+#    .gsub(/^(\|.+\|)[\t ]*\{([^}]+)\}[\t ]*$/) {
+#      "<!--#{$2}-->\n#{$1}" }
+#end
 
 
 #
@@ -206,7 +182,8 @@ def rework_html(s, h)
   h1 = h.dup
 
   s = rework_html_id(s, h1)
-  s = rework_html_table_id_class(s, h1)
+
+  s = rework_html_id_class(s, h1)
   s = rework_html_dl(s, h1)
   s = rework_html_footnotes(s, h1)
   s = rework_html_free_divs(s, h1)
@@ -233,24 +210,56 @@ def rework_html_id(s, h)
       x.downcase.gsub(/-/, '_').gsub(/%20/, '_') }
 end
 
-def rework_html_table_id_class(s, h)
+def rework_html_id_class(s, h)
 
-  #   <!-- #table-id .bar.baz -->
-  #   <table>
-  # ==>
-  #   <table id="table-id" class="bar baz">
+  do_rework_html(s, h) do |e|
+    rework_html_icas(e, h)
+  end
+end
 
-  s
-    .gsub(/<!--(.+)-->[\t ]*\n*<table/) {
+def rework_html_icas(e, h)
 
-      atts = ''
-      a = $1.strip.split
-      i = a.find { |e| e.start_with?('#') }
-      atts += " id=\"#{i[1..-1]}\"" if i
-      c = a.find { |e| e.start_with?('.') }
-      atts += " class=\"#{c.split('.').join(' ').strip}\"" if c
+  return unless e.is_a?(REXML::Element)
 
-      "<table#{atts} " }
+  icas = nil
+
+  e.children.each do |c|
+
+    if c.is_a?(REXML::Comment)
+      icas = parse_id_classes_attributes(c)
+      # TODO remove comment?
+    elsif c.is_a?(REXML::Element)
+      if icas
+        icas.each do |k, v|
+          c.add_attribute(k.to_s, v)
+        end
+        icas = nil
+      end
+    #else
+    end
+  end
+end
+
+def parse_id_classes_attributes(e)
+
+  h = {}
+
+  s = StringScanner.new(e.string)
+
+  id = s.scan(/\s*#[-a-zA-Z0-9_]+/)
+  h[:id] = id.strip[1..-1] if id
+
+  cs = []; while c = s.scan(/\s*\.[-a-zA-Z0-9_]+/)
+      cs << c.strip[1..-1]
+    end
+  h[:class] = cs.join(' ') if cs.any?
+
+  while a = s.scan(/\s*[-a-zA-Z0-9_]+="[^"]+"/)
+    k, v = a.split('=')
+    h[k.strip] = v[1..-2]
+  end
+
+  h.empty? ? nil : h
 end
 
 def do_rework_html(s, h, &block)
