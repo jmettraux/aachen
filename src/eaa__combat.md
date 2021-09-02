@@ -25,6 +25,8 @@ To determine if a side surprise the other, an opposed roll DEX/Sneak versus WIS/
 
 If a group of undisciplined and/or poorly trained non-player characters is surprised, the referee might make a Morale check for them.
 
+<!-- PAGE BREAK combat -->
+
 ## Initiative
 
 The player character side throws 1d8 and adds the best DEX modifier found among them to the result. The opposing side does the same. The side with the highest result goes first. In case of tie, the player character side goes first.
@@ -48,6 +50,8 @@ For example, a 4th level fighter with a +1 STR modifier and Stab 1 attacks with 
 Unlike skill checks, no level in Stab, Shoot, or Punch is not counted as -1, but as -2. Thus if the fighter had no training in Stab, their hit roll would become 1d20 + 4 + 1 - 2, so 1d20 + 3.
 
 The weapon dictates which attribute modifier is used, the rule of thumb is STR for melee weapons and DEX for ranged weapons. Some weapons let the user choose between STR and DEX, the attribute modifier is used for the attack hit roll and the attack damage roll (and eventually shock damage).
+
+<!-- PAGE BREAK combat -->
 
 ### Melee Attacks
 
@@ -79,6 +83,8 @@ Shooting a two-handed weapon while in contact is not allowed.
 
 TODO
 
+<!-- PAGE BREAK combat -->
+
 ### Shock Damage
 
 Some weapons or creature attacks have _shock damage_. It is expressed as dmg / AC and only applies to melee attacks.
@@ -100,6 +106,8 @@ TODO
 ## Wielding Two Weapons
 
 TODO
+
+<!-- PAGE BREAK combat -->
 
 ## 1d20 Vs Target Table
 

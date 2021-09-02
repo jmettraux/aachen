@@ -1,5 +1,5 @@
 
-# System Quick Reference Sheet
+# System Quick Reference
 
 
 ## Skill Checks
@@ -20,6 +20,12 @@
 * Monsters and NPCs have a single saving throw of 15 minus their halved and rounded-down hit dice
 * A roll of 1 is always a failure, a roll of 20 is always a success
 
+## Spellcasting
+
+TODO
+
+<!-- PAGE BREAK reference -->
+
 ## Injury And Healing
 
 * A creature dies or is mortally wounded at zero hit points
@@ -29,10 +35,6 @@
 * Stabilized creatures stop dying and revive in ten minutes with one hit point and the Frail quality
 * Creatures lose the Frail quality after magical healing or a week of bed rest
 * Magical healing stabilizes and revives a Mortally Wounded PC, the frail quality is not applied
-
-## Spellcasting
-
-TODO
 
 ## Reaction Checks
 
@@ -48,6 +50,8 @@ TODO
 * Move actions allow the PC to move 30 feet or do similar short, simple actions
 * On Turn actions allow the PC to say a few words, drop prone, or do other reflexively simple things
 * Instant Actions can be take at any time, even during someone else's turn, or even after dice have been rolled. Instant actions are usually special powers the PC can use or the result of holding an action in combat
+
+<!-- PAGE BREAK reference -->
 
 ## Hitting And Damage
 

@@ -8,7 +8,8 @@
 <div>31</div><div>32</div><div>33</div><div>34</div><div>35</div>
 </div>
 
-# ${NAME_UPCASE} {.book-title}
+<!-- .book-title -->
+# ${NAME_UPCASE}
 
 ${NAME_CAP} is a set of tabletop role playing rules targetting a low-fantasy Europe between the Dark Ages and AD 1100.
 

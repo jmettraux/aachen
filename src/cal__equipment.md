@@ -14,7 +14,8 @@ Two easy points of reference, a labourer expects to be paid 1 penny for a day of
 
 ## Monetary System
 
-| Abb | Name     | Latin Name | French Name | Value | Val d | {.equipment}
+<!-- .equipment -->
+| Abb | Name     | Latin Name | French Name | Value | Val d |
 |-----|----------|------------|-------------|------:|------:|
 | L   | Pound    | Liber      | Livre       |   20s |  240d |
 | s   | Shilling | Solidus    | Sou         |       |   12d |
@@ -24,7 +25,8 @@ Two easy points of reference, a labourer expects to be paid 1 penny for a day of
 
 ## Wages
 
-| Worker           |         | Wage   | Wage d | {.equipment}
+<!-- .equipment -->
+| Worker           |         | Wage   | Wage d |
 |------------------|---------|-------:|-------:|
 | Labourer         | 1 day   |     1d |     1d |
 | Labourer         | 1 month |     2s |    24d |
@@ -36,7 +38,8 @@ Two easy points of reference, a labourer expects to be paid 1 penny for a day of
 
 TODO
 
-| Item         | AC           | Value | Val d |   | Item         | AC           | or Mod   | Value | Val d | {.equipment}
+<!-- .equipment -->
+| Item         | AC           | Value | Val d |   | Item         | AC           | or Mod   | Value | Val d |
 |--------------|:------------:|------:|------:|---|--------------|:------------:|:--------:|------:|------:|
 | No Armor     | 10 + DEX mod |       |       |   | Shield small | 13 + DEX mod | +1 to AC |    3s |   36d |
 | &nbsp;       |              |       |       |   | Shield large | 14 + DEX mod | +1 to AC |    4s |   48d |
@@ -50,7 +53,8 @@ TODO
 
 Melee weapons:
 
-| Name           | Attribute | Dmg  | Shk/AC | Short Range       | Long Range        | Traits        |   Cost | Cost d | {.equipment}
+<!-- .equipment -->
+| Name           | Attribute | Dmg  | Shk/AC | Short Range       | Long Range        | Traits        |   Cost | Cost d |
 |----------------|:---------:|-----:|:------:|:-----------------:|:-----------------:|---------------|-------:|-------:|
 | Axe            | STR/DEX   |  1d6 | 2 / 15 | 10ft 3m 2sq       | 30ft 9m 6sq t     | T             |     6s |    72d |
 | Axe, war       | STR       | 1d10 | 3 / 15 |                   |                   | 2H            |     9s |   108d |
@@ -81,7 +85,8 @@ Melee weapons:
 
 Ranged weapons:
 
-| Name           | Attribute | Dmg  | Short Range       | Long Range        | Traits        |   Cost | Cost d | {.equipment}
+<!-- .equipment -->
+| Name           | Attribute | Dmg  | Short Range       | Long Range        | Traits        |   Cost | Cost d |
 |----------------|:---------:|-----:|:-----------------:|:-----------------:|---------------|-------:|-------:|
 | Bow, small     | DEX       |  1d6 | 50ft 15m 10sq V   | 300ft 90m 60sq    | 2H, R, XA     |     2s |    24d |
 | Bow, large     | STR       |  1d8 | 100ft 30m 20sq VV | 600ft 180m 120sq  | 2H, R, XA     |     3s |    36d |
@@ -114,7 +119,8 @@ T
 
 ## Other Items
 
-| Clothes           | Value | Val d |   | Clothes          | Value | Val d | {.equipment}
+<!-- .equipment -->
+| Clothes           | Value | Val d |   | Clothes          | Value | Val d |
 |-------------------|------:|------:|---|------------------|------:|------:|
 | Bliau, wool       |   13s |  156d |   | Gloves, wool     |    1s |   12d |
 | Bliau, silk       | 2L10s |  600d |   | Gloves, silk     |    4s |   48d |
@@ -134,7 +140,8 @@ T
 
 <!-- PAGE BREAK equipment -->
 
-| Tools            |          | Value | Val d |   | Tools             |         | Value | Val d | {.equipment}
+<!-- .equipment -->
+| Tools            |          | Value | Val d |   | Tools             |         | Value | Val d |
 |------------------|----------|------:|------:|---|-------------------|---------|------:|------:|
 | Anchor           |          |    1s |   12d |   | Nails             | 1 pound |    2d |    2d |
 | Rope             | 6 feet   |    6d |    6d |   | Axle              |         |    6d |    6d |
@@ -167,7 +174,8 @@ T
 | Cauldron, iron   |          |   10d |   10d |   | Wineskin,1 gallon |         |   10d |   10d |
 | Mug, tin         |          |    4d |    4d |   | | | | |
 
-| Food          |          | Value | Val d |   | Food          |          | Value | Val d | {.equipment}
+<!-- .equipment -->
+| Food          |          | Value | Val d |   | Food          |          | Value | Val d |
 |---------------|----------|------:|------:|---|---------------|----------|-------|-------|
 | Oats          | 1 bushel |    4d |    4d |   | Cider         |   1 pint |    1f | 0.25d |
 | Apples        | 1 bushel |    6d |    6d |   | Brandy        |   1 pint |    8d |    8d |
@@ -183,14 +191,16 @@ T
 
 <!-- PAGE BREAK equipment -->
 
-| Services            |       | Cost  | Cost d |   | Services        |   | Cost  | Cost d | {.equipment}
+<!-- .equipment -->
+| Services            |       | Cost  | Cost d |   | Services        |   | Cost  | Cost d |
 |---------------------|-------|------:|-------:|---|-----------------|---|------:|-------:|
 | Notarial deed       |       |  1s6d |    18d |   | Courtesan       |   |    1s |    12d |
 | Commercial contract |       |    2s |    24d |   | Prostitute      |   |    1d |     1d |
 | Will                |       |    1s |    12d |   | Funeral service |   | 16s8d |   200d |
 | Stable              | 1 day |    1d |     1d |   | | | | |
 
-| Livestock       | Value | Val d |   | Livestock       | Value | Val d | {.equipment}
+<!-- .equipment -->
+| Livestock       | Value | Val d |   | Livestock       | Value | Val d |
 |-----------------|------:|------:|---|-----------------|------:|------:|
 | Donkey          |   10s |  120d |   | Geese           |    9d |    9d |
 | Horse, steed    | 2L10s |  600d |   | Chicken         |    6d |    6d |
@@ -201,7 +211,8 @@ T
 | Goat            |   10d |   10d |   | Slave           |  1L5s |  300d |
 | Sheep           |    1s |   12d |   | | | |
 
-| Misc          |          | Value   | Val d |   | Misc          |          | Value   | Val d | {.equipment}
+<!-- .equipment -->
+| Misc          |          | Value   | Val d |   | Misc          |          | Value   | Val d |
 |---------------|----------|--------:|------:|---|---------------|----------|---------|-------|
 | Pelt, beaver  |          |    1s8d |   20d |   | Pelt, seal    |          |      2s |   24d |
 | Pelt, horse   |          |     10d |   10d |   | Pelt, veal    |          |    2s2d |   26d |
