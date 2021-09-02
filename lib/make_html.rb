@@ -97,6 +97,8 @@ def make_html
     tmp = "out/tmp/pd#{m[1]}__#{m[2]}.md"
     tmp2 = "out/tmp/pht#{m[1]}__#{m[2]}.html"
 
+    echo(out, load_part('lib/partials/post_chapter.html', h)) if t0 && t != t0
+
     echo(out, load_part('lib/partials/pre_chapter.html', h)) if t != t0
     echo(out, load_part('lib/partials/pre_page.html', h))
 
@@ -111,9 +113,6 @@ def make_html
     echo(out, rework_html(File.read(tmp2), h))
 
     echo(out, load_part('lib/partials/post_page.html', h))
-
-    echo(out, load_part('lib/partials/post_chapter.html', h)) if m[1] != cha
-    cha = m[1]
   end
 
   echo(out, load_part('lib/partials/foot.html'))

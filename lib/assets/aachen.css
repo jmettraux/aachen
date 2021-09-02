@@ -310,6 +310,14 @@ a {
   margin-top: 2em;
 }
 
+table#skills {
+  font-family: var(--sans-face);
+  font-size: var(--size-c);
+}
+[data-aa-title="skills"] dl {
+  font-size: var(--size-b);
+}
+
 table.background {
   /*
   display: grid;
