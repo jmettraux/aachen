@@ -47,14 +47,16 @@ Remember to recompute the attribute modifiers and the saving throw scores if an 
 
 <!-- PAGE BREAK background -->
 
+<!--
 ## The Backgrounds
+-->
+[^1]
 
+[^1]:
+  ## Backgrounds
 
-### Commoner
-
-The character was born in a free peasant family.
-
-|                  | d6 | Growth      | d8 | Learning   |
+<!-- .background -->
+| 1                | d6 | Growth      | d8 | Learning   |
 |------------------|---:|:-----------:|---:|:----------:|
 | **Free Skill**   |  1 | +1 Any Att  |  1 | Any Skill  |
 | Work             |  2 | +2 Physical |  2 | Connect    |
@@ -65,12 +67,16 @@ The character was born in a free peasant family.
 |                  |    |             |  7 | Stab       |
 |                  |    |             |  8 | Work       |
 
+<!-- .background -->
+### Commoner
 
-### Artisan
+The character was born in a free peasant family.
 
-The character was either born in an artisan family (the son of a master or a journeyman) or accepted as a young apprentice in an artisan workshop.
+<div class="clear"> </div>
 
-|                  | d6 | Growth      | d8 | Learning   |
+
+<!-- .background -->
+| 2                | d6 | Growth      | d8 | Learning   |
 |------------------|---:|:-----------:|---:|:----------:|
 | **Free Skill**   |  1 | +1 Any Att  |  1 | Any Skill  |
 | Craft            |  2 | +2 Physical |  2 | Connect    |
@@ -81,12 +87,16 @@ The character was either born in an artisan family (the son of a master or a jou
 |                  |    |             |  7 | Convince   |
 |                  |    |             |  8 | Work       |
 
+<!-- .background -->
+### Artisan
 
-### Noble
+The character was either born in an artisan family (the son of a master or a journeyman) or accepted as a young apprentice in an artisan workshop.
 
-The character was born in a noble family, and expected to wield weapons like his ancestors did.
+<div class="clear"> </div>
 
-|                  | d6 | Growth      | d8 | Learning   |
+
+<!-- .background -->
+| 3                | d6 | Growth      | d8 | Learning   |
 |------------------|---:|:-----------:|---:|:----------:|
 | **Free Skill**   |  1 | +1 Any Att  |  1 | Any Combat |
 | Stab             |  2 | +2 Physical |  2 | Any Skill  |
@@ -97,13 +107,16 @@ The character was born in a noble family, and expected to wield weapons like his
 |                  |    |             |  7 | Stab       |
 |                  |    |             |  8 | Convince   |
 
-<!-- PAGE BREAK background -->
+<!-- .background -->
+### Noble
 
-### Religious
+The character was born in a noble family, and expected to wield weapons like his ancestors did.
 
-The character was born in a family entrusted with religious rituals. Or the character spent her or his youth in a monastery or preparing to become some kind of priest.
+<div class="clear"> </div>
 
-|                  | d6 | Growth      | d8 | Learning  |
+
+<!-- .background -->
+| 4                | d6 | Growth      | d8 | Learning  |
 |------------------|---:|:-----------:|---:|:---------:|
 | **Free Skill**   |  1 | +1 Any Att  |  1 | Any Skill |
 | Pray             |  2 | +2 Physical |  2 | Connect   |
@@ -114,14 +127,16 @@ The character was born in a family entrusted with religious rituals. Or the char
 |                  |    |             |  7 | Convince  |
 |                  |    |             |  8 | Work      |
 
+<!-- .background -->
+### Religious
 
-### Slave
+The character was born in a family entrusted with religious rituals. Or the character spent her or his youth in a monastery or preparing to become some kind of priest.
 
-A slave, born into slavery or forced into it by war or debt.
+<div class="clear"> </div>
 
-She or he managed to become from through manumission or escape. Or the character is the servant of another character in the party.
 
-|                  | d6 | Growth      | d8 | Learning   |
+<!-- .background -->
+| 5                | d6 | Growth      | d8 | Learning   |
 |------------------|---:|:-----------:|---:|:----------:|
 | **Free Skill**   |  1 | +1 Any Att  |  1 | Any Combat |
 | Work             |  2 | +2 Physical |  2 | Any Skill  |
@@ -132,12 +147,17 @@ She or he managed to become from through manumission or escape. Or the character
 |                  |    |             |  7 | Sneak      |
 |                  |    |             |  8 | Work       |
 
+<!-- .background -->
+### Slave
 
-### Wanderer
+A slave, born into slavery or forced into it by war or debt.
+She or he managed to become from through manumission or escape. Or the character is the servant of another character in the party.
 
-An outlaw or an unprotected foreigner.
+<div class="clear"> </div>
 
-|                  | d6 | Growth      | d8 | Learning   |
+
+<!-- .background -->
+| 6                | d6 | Growth      | d8 | Learning   |
 |------------------|---:|:-----------:|---:|:----------:|
 | **Free Skill**   |  1 | +1 Any Att  |  1 | Any Combat |
 | Exert            |  2 | +2 Physical |  2 | Any Skill  |
@@ -147,4 +167,9 @@ An outlaw or an unprotected foreigner.
 | Any Combat       |  6 | Any Skill   |  6 | Notice     |
 |                  |    |             |  7 | Sneak      |
 |                  |    |             |  8 | Convince   |
+
+<!-- .background -->
+### Wanderer
+
+An outlaw or an unprotected foreigner.
 
