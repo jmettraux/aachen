@@ -310,9 +310,19 @@ a {
   margin-top: 2em;
 }
 
+/*
 table#skills {
   font-family: var(--sans-face);
   font-size: var(--size-c);
+}
+*/
+table.skill-levels {
+  width: 50%;
+  float: left;
+  font-family: var(--sans-face);
+  font-size: var(--size-c);
+  line-height: var(--mul-c);
+  margin-right: 1rem;
 }
 [data-aa-title="skills"] dl {
   font-size: var(--size-b);
@@ -365,7 +375,7 @@ table.three-quarter-left {
   grid-template-columns: 22% auto;
 }
 
-[data-aa-title="skill list"] dl {
+[data-aa-title="skills"] dl {
   grid-template-columns: 19% auto;
 }
 

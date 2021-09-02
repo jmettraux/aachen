@@ -1,22 +1,27 @@
 
 # Skills
 
+<!-- .skill-levels -->
+| Level | Mod | Description                                              |
+|:-----:|:---:|----------------------------------------------------------|
+|       |  -1 | Unskilled                                                |
+|  0    |  +0 | Ordinary practicioner                                    |
+|  1    |  +1 | Veteran of the skill,<br/>noticeably better than others  |
+|  2    |  +2 | Veteran and talented,<br/>one of the best in the city    |
+|  3    |  +3 | Inspirational master,<br/>one of the best in the kingdom |
+|  4    |  +4 | One of the best in the known world                       |
+
 The character background yields skill levels through rolls or selection.
 
 The first time a skill is yielded, it is set at level 0. Should it come up again, it will reach level 1. At character creation the maximum level for a skill is 1, if the skill is yold again, give the level to another skill.
 
-## Skill Levels
+FIXME
 
+<div class="clear"> </div>
+
+<!--
 Non-combat skill checks are done with 2d6; the modifier for a no-level skill is -1. Combat skill checks are different, they are done with 1d20; the modifier for a no-level skill is -2.
-
-| Level | Description                                          | Mod |
-|:-----:|:----------------------------------------------------:|:---:|
-| None  | No experience                                        |  -1 or -2 (combat) |
-| 0     | The proficiency of an ordinary practicioner          |   0 |
-| 1     | Veteran of the skill, noticeably better than others  |  +1 |
-| 2     | Veteran and talented, one of the best in the city    |  +2 |
-| 3     | Inspirational master, one of the best in the kingdom |  +3 |
-| 4     | Touching greatness, one of the best in the world     |  +4 |
+-->
 
 ## Combat Skills
 
@@ -41,8 +46,7 @@ Cast
 : To cast spells. To analyze magical effects, to know about magic and its practicioners.
 : Classes that cannot cast spells and have levels in this skill are simply scholars of magic.
 
-<!-- PAGE BREAK skills -->
-
+<!-- .regular-skills -->
 ## Regular Skills
 
 Administer
