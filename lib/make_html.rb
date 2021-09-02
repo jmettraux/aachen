@@ -147,7 +147,18 @@ def rework_md(s, h)
   # 2021-09-02 No, it must be readable on Github,
   #            so favour <!--xxx--> annotations
 
+  s = rework_md_clear(s, h)
+
   s
+end
+
+def rework_md_clear(s, h)
+  #
+  # <!-- clear -->
+  # -->
+  # <div class="clear"> </div>
+
+  s.gsub(/<!--[ \t]*clear[ \t]*-->/, "<div class=\"clear\"> </div>\n")
 end
 
 #def rework_md_free_divs(s, h)

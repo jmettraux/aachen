@@ -17,7 +17,7 @@ The first time a skill is yielded, it is set at level 0. Should it come up again
 
 FIXME
 
-<div class="clear"> </div>
+<!-- clear -->
 
 <!--
 Non-combat skill checks are done with 2d6; the modifier for a no-level skill is -1. Combat skill checks are different, they are done with 1d20; the modifier for a no-level skill is -2.

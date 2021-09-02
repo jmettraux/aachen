@@ -72,7 +72,7 @@ Remember to recompute the attribute modifiers and the saving throw scores if an 
 
 The character was born in a free peasant family.
 
-<div class="clear"> </div>
+<!-- clear -->
 
 
 <!-- .background -->
@@ -92,7 +92,7 @@ The character was born in a free peasant family.
 
 The character was either born in an artisan family (the son of a master or a journeyman) or accepted as a young apprentice in an artisan workshop.
 
-<div class="clear"> </div>
+<!-- clear -->
 
 
 <!-- .background -->
@@ -112,7 +112,7 @@ The character was either born in an artisan family (the son of a master or a jou
 
 The character was born in a noble family, and expected to wield weapons like his ancestors did.
 
-<div class="clear"> </div>
+<!-- clear -->
 
 
 <!-- .background -->
@@ -132,7 +132,7 @@ The character was born in a noble family, and expected to wield weapons like his
 
 The character was born in a family entrusted with religious rituals. Or the character spent her or his youth in a monastery or preparing to become some kind of priest.
 
-<div class="clear"> </div>
+<!-- clear -->
 
 
 <!-- .background -->
@@ -153,7 +153,7 @@ The character was born in a family entrusted with religious rituals. Or the char
 A slave, born into slavery or forced into it by war or debt.
 She or he managed to become from through manumission or escape. Or the character is the servant of another character in the party.
 
-<div class="clear"> </div>
+<!-- clear -->
 
 <!-- .background -->
 |                  |    |             |    |            |
