@@ -48,7 +48,7 @@ Luck saves are not rooted in any attribute. When sheer good luck is the last dit
 
 Luck saves are equal to 16, minus the character level.
 
-<!-- PAGE BREAK saving_throws -->
+<!-- PAGE BREAK saves -->
 
 ## Monsters And Saving Throws
 
