@@ -260,6 +260,16 @@ table.compact {
   line-height: 0.7;
 }
 
+code {
+  font-family: var(--main-face);
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 dl {
   display: grid;
   grid-template-columns: auto auto;
@@ -288,15 +298,13 @@ dd > p {
   margin: 0;
 }
 
-code {
-  font-family: var(--main-face);
-  color: red;
+/*
+dl.dl-dt-small-caps dt {
+  font-variant: small-caps;
+  font-weight: normal;
+  text-transform: lowercase;
 }
-
-a {
-  text-decoration: none;
-  color: black;
-}
+*/
 
 
 /* CLASSES */
@@ -322,7 +330,6 @@ table#skills {
   font-family: var(--sans-face);
   font-size: var(--size-c);
 }
-*/
 table.skill-levels {
   width: 50%;
   float: left;
@@ -336,16 +343,16 @@ table.skill-levels {
 }
 
 table.background {
-  /*
+  / *
   display: grid;
   grid-template-columns: 10ch 2ch 10ch 2ch auto;
-  */
+  * /
   float: left;
   width: 50%;
   font-family: var(--sans-face);
   font-size: var(--size-c);
-  /*line-height: var(--mul-c);*/
-  /*line-height: 0.8;*/
+  / *line-height: var(--mul-c);* /
+  / *line-height: 0.8;* /
   margin-right: 1rem;
 }
 h3.background {
@@ -362,22 +369,17 @@ table.equipment th,
 table.equipment td {
   padding: 0.28em;
 }
+*/
 
-table.half-left {
+.half-left {
   width: 42%;
   float: left;
   margin-right: 1em;
 }
-/*
-table.three-quarter-left {
-  width: 70%;
-  float: left;
-  margin-right: 1em;
-}
-*/
 
 /* specific */
 
+/*
 [data-aa-title="attributes"] dl {
   grid-template-columns: 22% auto;
 }
@@ -390,8 +392,9 @@ table.three-quarter-left {
 }
 
 [data-aa-title="backgrounds"] table {
-  line-height: 0.7; /* table.compact above */
+  line-height: 0.7; / * table.compact above * /
 }
+*/
 
 /* top right bottom left */
 
