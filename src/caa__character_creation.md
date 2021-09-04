@@ -1,6 +1,15 @@
 
 # Character Creation
 
+<!-- .margin.compass -->
+* Attributes
+* Modifiers
+* Saving Throws
+* Background
+* Class
+* Talents
+* Finalization
+
 Attributes
 : Determine **STR**, **DEX**, **CON**, **INT**, **WIS**, and **CHA**.
 : Roll 3d6 and assign in order, replace lowest roll with a 14;

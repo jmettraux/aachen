@@ -119,7 +119,7 @@ body {
   overflow: hidden; /* in .page has bad effects when printing */
 }
 
-.notes {
+.margin {
 
   position: absolute;
   top: 0;
@@ -130,13 +130,13 @@ body {
   font-size: var(--size-b);
   line-height: var(--mul-b);
 }
-.notes p {
+.margin p {
   margin: 0;
   margin-bottom: 1em;
   text-indent: 0 !important;
   text-align: left;
 }
-.notes .note {
+.margin .note {
 
   /*border: lightgrey solid thin;*/
   border: var(--border-maybe);
@@ -145,14 +145,14 @@ body {
 
   position: absolute;
 }
-.notes h2 {
+.margin h2 {
   font-size: var(--size-a);
   line-height: var(--mul-a);
   font-weight: normal;
   font-style: italic;
   margin-top: 4em !important;
 }
-.page.even .notes h2 {
+.page.even .margin h2 {
   text-align: right;
 }
 
@@ -174,7 +174,7 @@ body {
   margin-left: var(--edge-margin);
   text-align: left;
 }
-.page.even .notes {
+.page.even .margin {
   left: calc(var(--page-width) - var(--side-left) - var(--side-width));
 }
 

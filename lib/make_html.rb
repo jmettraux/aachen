@@ -190,6 +190,7 @@ end
 def rework_html(s, h)
 
   h1 = h.dup
+  h1[:MARGIN_ELEMENTS] = []
 
   s = rework_html_id(s, h1)
 
@@ -197,19 +198,24 @@ def rework_html(s, h)
   s = rework_html_dl(s, h1)
   s = rework_html_footnotes(s, h1)
   s = rework_html_free_divs(s, h1)
+  s = rework_html_margin(s, h1)
 
-  h[:SIDENOTES] = rework_sidenotes(h1)
+  h[:MARGIN_ELEMENTS] = h1[:MARGIN_ELEMENTS].collect(&:to_s).join("\n")
 
   s
 end
 
-def rework_sidenotes(h1)
+def rework_html_margin(s, h)
 
-  sn = h1[:SIDENOTES]
+  do_rework_html(s, h) do |e|
 
-  return '' if sn.empty?
-
-  sn.collect { |n| n.to_s }.join("\n")
+    if me = e.get_elements('//*[contains(@class, "margin")]')[0]
+      cs = me.attributes['class'].split(' ') - [ 'margin' ]
+      me.add_attribute('class', cs.join(' '))
+      h[:MARGIN_ELEMENTS] << me.to_s
+      me.parent.delete_element(me)
+    end
+  end
 end
 
 def rework_html_id(s, h)
@@ -237,7 +243,7 @@ def rework_html_icas(e, h)
 
     if c.is_a?(REXML::Comment)
       icas = parse_id_classes_attributes(c)
-      # TODO remove comment?
+      c.parent.delete(c)
     elsif c.is_a?(REXML::Element)
       if icas
         icas.each do |k, v|
@@ -351,8 +357,6 @@ def rework_html_footnotes(s, h)
   # </ol>
   # </div>
 
-  h[:SIDENOTES] = []
-
   do_rework_html(s, h) do |e|
 
     ses =
@@ -381,7 +385,7 @@ def rework_html_footnotes(s, h)
             ne.text = (ne.text || '') + "\n" + lee.to_s
           end }
 
-      h[:SIDENOTES] << ne
+      h[:MARGIN_ELEMENTS] << ne
 
       se.parent.parent.insert_before(se.parent, ae)
       se.remove
