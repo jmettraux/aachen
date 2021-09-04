@@ -1,5 +1,5 @@
 
-# Choose A Class
+# Select Class
 
 There are only three core classes, Fighter, Expert, and Weaver (spellcaster). There is a fourth possibility, Adventurer which mixes two classes.
 

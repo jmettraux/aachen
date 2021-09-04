@@ -1,5 +1,5 @@
 
-# Choose Talent
+# Select Talents
 
 Once a character has a class, their Talents can be chosen. They are special knacks or focuses that the character developed.
 

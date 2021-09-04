@@ -1,5 +1,5 @@
 
-# Name The Character
+# Name
 
 Give the character a name adapted to their origin, gender, and background.
 

@@ -1,5 +1,5 @@
 
-# Pick A Background
+# Determine Background
 
 <!-- .half-left.compact -->
 | d6 | Background |
@@ -20,9 +20,9 @@ One can roll on the below Backround table. The d6 doesn't map to the whole popul
 
 If one doesn't find any suitable background, one can come up with a background description and three skills for it.
 
-## Picking A Background
+## Applying A Background
 
-Picking a background grants a _free skill_ to the character. For example, a free man is given the _Work_ skill (at level 0).
+A background grants a _free skill_ to the character. For example, a free man is given the _Work_ skill (at level 0).
 
 A character may choose one of three ways of selecting skills. _go quick_, _learn two skills_, or _roll three times_.
 
