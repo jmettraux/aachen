@@ -325,6 +325,17 @@ dl.dl-dt-small-caps dt {
 .right-column {
 }
 
+ul.compass {
+  list-style: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+  text-align: right;
+}
+.page.even ul.compass {
+  text-align: left;
+}
+
 /*
 table#skills {
   font-family: var(--sans-face);

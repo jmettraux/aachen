@@ -1,4 +1,13 @@
 
+<!-- .margin.compass -->
+* Attributes
+* **Saves**
+* Background
+* Class
+* Talents
+* Finalization
+
+
 # Determine Saving Throws
 
 To make a save, one has to roll a d20 against a saving throw score. If the result is equal or better than the score, the save is successful.

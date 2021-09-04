@@ -1,14 +1,14 @@
 
-# Character Creation
-
 <!-- .margin.compass -->
 * Attributes
-* Modifiers
-* Saving Throws
+* Saves
 * Background
 * Class
 * Talents
 * Finalization
+
+
+# Character Creation
 
 Attributes
 : Determine **STR**, **DEX**, **CON**, **INT**, **WIS**, and **CHA**.

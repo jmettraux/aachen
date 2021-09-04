@@ -1,4 +1,13 @@
 
+<!-- .margin.compass -->
+* Attributes
+* Saves
+* Background
+* Class
+* Talents
+* **Finalization**
+
+
 # Select Extra Skill
 
 Pick one skill to reflect the character's outside interests, natural talents, hobby expertise, or other personal focus.

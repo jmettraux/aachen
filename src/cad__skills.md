@@ -1,4 +1,13 @@
 
+<!-- .margin.compass -->
+* Attributes
+* Saves
+* **Background**
+* Class
+* Talents
+* Finalization
+
+
 # Skills
 
 <!-- .skill-levels -->

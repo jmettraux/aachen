@@ -1,4 +1,13 @@
 
+<!-- .margin.compass -->
+* Attributes
+* Saves
+* **Background**
+* Class
+* Talents
+* Finalization
+
+
 # Determine Background
 
 <!-- .half-left.compact -->
@@ -11,16 +20,16 @@
 |  5 | Slave      |
 |  6 | Wanderer   |
 
-This the background list for a simple medieval setting.[^1]
-
-[^1]:
-  One can roll, pick, or make a background with the referee's permission.
+This the background list for a simple medieval setting.
 
 One can roll on the below Backround table. The d6 doesn't map to the whole population. It maps to the adventurer population.
 
 If one doesn't find any suitable background, one can come up with a background description and three skills for it.
 
-## Applying A Background
+## Applying A Background[^1]
+
+[^1]:
+  One can roll, pick, or make a background with the referee's permission.
 
 A background grants a _free skill_ to the character. For example, a free man is given the _Work_ skill (at level 0).
 

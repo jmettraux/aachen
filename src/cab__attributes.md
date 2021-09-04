@@ -1,4 +1,13 @@
 
+<!-- .margin.compass -->
+* **Attributes**
+* Saves
+* Background
+* Class
+* Talents
+* Finalization
+
+
 # Determine Attributes
 
 The _physical_ attributes
