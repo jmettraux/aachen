@@ -24,7 +24,7 @@
 
 /*
  * [ ] TODO try small caps for **bold**
- * [ ] TODO style <blockquote>
+ * [x] TODO style <blockquote>
  */
 
 :root {
@@ -58,10 +58,10 @@
   --main-face: minion-pro, serif;
   --sans-face: ff-scala-sans-pro, sans-serif;
 
+  --border-maybe: lightgrey solid thin;
   /*
   --border-maybe: none;
   */
-  --border-maybe: lightgrey solid thin;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -124,8 +124,12 @@ body {
   position: absolute;
   top: 0;
   left: var(--side-left);
+
   min-width: var(--side-width);
   max-width: var(--side-width);
+
+  min-height: var(--tblock-height);
+  max-height: var(--tblock-height);
 
   font-size: var(--size-b);
   line-height: var(--mul-b);
@@ -326,11 +330,20 @@ dl.dl-dt-small-caps dt {
 }
 
 ul.compass {
+  position: absolute;
+  bottom: 0;
   list-style: none;
   margin-block-start: 0;
   margin-block-end: 0;
   padding-inline-start: 0;
   text-align: right;
+}
+ul.compass li:first-child {
+  margin-bottom: 0.5rem;
+}
+ul.compass li:first-child em {
+  font-style: normal;
+  font-variant: small-caps;
 }
 .page.even ul.compass {
   text-align: left;

@@ -1,4 +1,16 @@
 
+<!-- .margin.compass -->
+* _Character Creation_
+* Attributes
+* Saves
+* Background
+* Class
+* Talents
+* Hit Points
+* Name
+* **Equip**
+
+
 # Equip
 
 The referee grants equipment to the character, according to their background, origin, and class.

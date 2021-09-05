@@ -1,11 +1,15 @@
 
 <!-- .margin.compass -->
+* _Character Creation_
 * Attributes
 * **Saves**
 * Background
 * Class
 * Talents
-* Finalization
+* Hit Points
+* Name
+* Equip
+
 
 
 # Determine Saving Throws
