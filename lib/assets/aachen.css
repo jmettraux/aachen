@@ -58,10 +58,10 @@
   --main-face: minion-pro, serif;
   --sans-face: ff-scala-sans-pro, sans-serif;
 
-  --border-maybe: lightgrey solid thin;
   /*
-  --border-maybe: none;
+  --border-maybe: lightgrey solid thin;
   */
+  --border-maybe: none;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -230,9 +230,12 @@ h1:not(:first-child) {
   margin-top: 2rem;
 }
 h2 {
-  text-transform: capitalize;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-variant: small-caps;
+  font-weight: normal;
+  font-size: var(--size-a);
+  line-height: var(--mul-a);
 }
 h2:first-child {
   margin-top: 0;
@@ -269,7 +272,8 @@ table.compact {
 
 code {
   font-family: var(--main-face);
-  color: red;
+  font-variant: small-caps;
+  text-transform: lowercase;
 }
 
 a {
@@ -334,13 +338,18 @@ dl.dl-dt-small-caps dt {
 
 ul.compass {
   position: absolute;
-  top: 2.5em;
+  top: 3.5em;
   list-style: none;
   margin-block-start: 0;
   margin-block-end: 0;
   padding-inline-start: 0;
   text-align: right;
   font-style: italic;
+  border-right: lightgrey solid thin;
+  padding-right: 0.2rem;
+}
+ul.compass li {
+  color: #c0c0c0;
 }
 ul.compass li:first-child {
   margin-bottom: 0.5rem;
@@ -348,9 +357,18 @@ ul.compass li:first-child {
 ul.compass li:first-child em {
   font-style: normal;
   font-variant: small-caps;
+  color: black;
+}
+ul.compass li strong {
+  color: black;
+  font-weight: normal;
 }
 .page.even ul.compass {
   text-align: left;
+  border-left: lightgrey solid thin;
+  padding-left: 0.2rem;
+  border-right: 0;
+  padding-right: 0;
 }
 
 /*
@@ -412,11 +430,11 @@ table.equipment td {
   bottom: 0;
 }
 
-/*
 [data-aa-title="attributes"] dl {
   grid-template-columns: 22% auto;
 }
 
+/*
 [data-aa-title="skills"] dl {
   grid-template-columns: 32% auto;
 }

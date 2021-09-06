@@ -38,7 +38,7 @@ CHArisma
 
 ## Roll Attributes
 
-Roll 3d6 and assign in order STR, DEX, CON, INT, WIS, and CHA. Replace lowest roll with a 14.
+Roll 3d6 and assign in order `STR`, `DEX`, `CON`, `INT`, `WIS`, and `CHA`. Replace lowest roll with a 14.
 
 **Or** if the referee allows it, roll 3d6 six times and assign at will;
 

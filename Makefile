@@ -17,6 +17,7 @@ html:
 	cp lib/assets/*.png out/html/
 	cp lib/assets/*.css out/html/
 	$(RUM) make_html
+h: html
 
 pdf: html
 	$(RUM) make_pdf

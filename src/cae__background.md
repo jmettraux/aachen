@@ -44,8 +44,8 @@ Go Quick
 Learn Two Skills
 : The character is granted two skills selected from the 7 skills listed under the _Learning_ column.
 
-Roll Three Times[^2]
-: Dice are rolled three times. The rolls can be made against the _Growth_ or the _Learning_ table. Rolling on the Growth table may even yield an attribute +2. Hitting _Any Skill_ gives the opportunity to choose any skill.
+Roll Three Times
+: Dice are rolled three times. The rolls can be made against the _Growth_ or the _Learning_ table. Rolling on the Growth table may even yield an attribute +2. Hitting _Any Skill_ gives the opportunity to choose any skill.[^2]
 
 [^2]:
   The setting or the referee may dictate that selecting a skill like _Magic_ or _Pray_ is off limits.
