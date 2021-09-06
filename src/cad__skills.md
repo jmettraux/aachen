@@ -37,7 +37,7 @@ Non-combat skill checks are done with 2d6; the modifier for a no-level skill is 
 
 <!-- <div.left-column> -->
 
-Combat Skills
+## Combat Skills
 
 Stab
 : Fight with a melee weapon. Maintain such weapons.
@@ -52,14 +52,14 @@ Punch
   **Option**:<br/>split _Punch_ into _Punch_ and _Wrestle_.
 
 
-Special Skills
+## Special Skills
 
 Cast
 : To cast spells. To analyze magical effects, to know about magic and its practicioners.
 : Classes that cannot cast spells and have levels in this skill are simply scholars of magic.
 
 
-Regular Skills
+## Regular Skills
 
 Administer
 : To manage land and laborers, or a workshop, its journeyfolk and apprentices.
@@ -84,6 +84,7 @@ Heal
 
 <!-- <div.right-column> -->
 
+<!-- .skills-right-column -->
 Hunt
 : To take game with snare, arrow or spear, to know the habits and the manner of preys.
 
