@@ -37,7 +37,7 @@ Non-combat skill checks are done with 2d6; the modifier for a no-level skill is 
 
 <!-- <div.left-column> -->
 
-Combat Skills[^1]
+Combat Skills
 
 Stab
 : Fight with a melee weapon. Maintain such weapons.
@@ -46,7 +46,7 @@ Shoot
 : Fight with a ranged weapon. Maintain such weapons and their ammunition.
 
 Punch
-: Fight unarmed. Punch, kick, grapple, or brawl.
+: Fight unarmed. Punch, kick, grapple, or brawl.[^1]
 
 [^1]:
   **Option**:<br/>split _Punch_ into _Punch_ and _Wrestle_.

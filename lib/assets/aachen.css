@@ -226,6 +226,9 @@ h1 {
   font-weight: 600;
   font-style: normal;
 }
+h1:not(:first-child) {
+  margin-top: 2rem;
+}
 h2 {
   text-transform: capitalize;
   margin-top: 2rem;
@@ -331,12 +334,13 @@ dl.dl-dt-small-caps dt {
 
 ul.compass {
   position: absolute;
-  bottom: 0;
+  top: 2.5em;
   list-style: none;
   margin-block-start: 0;
   margin-block-end: 0;
   padding-inline-start: 0;
   text-align: right;
+  font-style: italic;
 }
 ul.compass li:first-child {
   margin-bottom: 0.5rem;
@@ -402,6 +406,11 @@ table.equipment td {
 }
 
 /* specific */
+
+[data-aa-page="1"] dl {
+  position: absolute;
+  bottom: 0;
+}
 
 /*
 [data-aa-title="attributes"] dl {
