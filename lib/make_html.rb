@@ -243,7 +243,7 @@ def rework_html_icas(e, h)
 
     if c.is_a?(REXML::Comment)
       icas = parse_id_classes_attributes(c)
-      c.parent.delete(c)
+      c.parent.delete(c) if icas
     elsif c.is_a?(REXML::Element)
       if icas
         icas.each do |k, v|
