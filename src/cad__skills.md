@@ -13,6 +13,9 @@
 
 # Skills
 
+<!-- <div.two-columns> -->
+<!-- <div.left-column> -->
+
 <!-- .skill-levels -->
 | Level | Mod | Description                                              |
 |:-----:|:---:|----------------------------------------------------------|
@@ -23,18 +26,24 @@
 |  3    |  +3 | Inspirational master,<br/>one of the best in the kingdom |
 |  4    |  +4 | One of the best in the known world                       |
 
+<!-- </div.left-column> -->
+<!-- <div.right-column> -->
+
 The character background yields skill levels through rolls or selection.
 
 The first time a skill is yielded, it is set at level 0. Should it come up again, it will reach level 1. At character creation the maximum level for a skill is 1, if the skill is yold again, give the level to another skill.
 
 FIXME
 
-<!-- clear -->
-
 <!--
 Non-combat skill checks are done with 2d6; the modifier for a no-level skill is -1. Combat skill checks are different, they are done with 1d20; the modifier for a no-level skill is -2.
 -->
 
+<!-- </div.right-column> -->
+<!-- </div.two-columns> -->
+
+
+<!-- <div.two-columns> -->
 <!-- <div.left-column> -->
 
 ## Combat Skills
@@ -81,10 +90,8 @@ Heal
 : This skill is used when stabilizing _Mortally Wounded_ characters, its importance cannot be overstated.
 
 <!-- </div.left-column> -->
-
 <!-- <div.right-column> -->
 
-<!-- .skills-right-column -->
 Hunt
 : To take game with snare, arrow or spear, to know the habits and the manner of preys.
 
@@ -125,4 +132,5 @@ Work
 : To toil in the fields, take care of herds, hew trees, weave cloth. All the work.
 
 <!-- </div.right-column> -->
+<!-- </div.two-columns> -->
 
