@@ -40,7 +40,7 @@ If one doesn't find any suitable background, one can come up with a background d
 
 ## Applying A Background
 
-A background grants a _free skill_ to the character. For example, a free man is given the _Work_ skill (at level 0).[^1]
+A background grants a _free skill_ to the character. For example, a `commoner` is given the _Work_ skill (at level 0).[^1]
 
 A character may choose one of three ways of selecting skills. _go quick_, _learn two skills_, or _roll three times_.
 
@@ -57,7 +57,7 @@ Roll Three Times
 : Dice are rolled three times. The rolls can be made against the _Growth_ or the _Learning_ table. Rolling on the Growth table may even yield an attribute +2. Hitting _Any Skill_ gives the opportunity to choose any skill.[^2]
 
 [^2]:
-  The setting or the referee may dictate that selecting a skill like _Magic_ or _Pray_ is off limits.
+  The setting or the referee may dictate that selecting a skill like _Cast_ or _Pray_ is off limits.
 
 * `Any Combat` grants a level in any of the combat skills: _stab_, _shoot_, or _punch_.
 * `+1 Any Att` means one point can be added to any attribute score.
@@ -68,7 +68,20 @@ Remember to recompute the attribute modifiers and the saving throw scores if an 
 
 <!-- PAGE BREAK background -->
 
+<!-- .margin.compass -->
+* _Character Creation_
+* Attributes
+* Saves
+* **Background**
+* Class
+* Talents
+* Hit Points
+* Name
+* Equip
+
+<!--
 ## Backgrounds
+-->
 
 <!-- .background -->
 |                  | d6 | Growth      | d8 | Learning   |
@@ -89,9 +102,12 @@ The character was born in a free peasant family.
 
 <!-- clear -->
 
+<!--
+|                  |    |             |    |            |
+-->
 
 <!-- .background -->
-|                  |    |             |    |            |
+|                  | d6 | Growth      | d8 | Learning   |
 |------------------|---:|:-----------:|---:|:----------:|
 | **Free Skill**   |  1 | +1 Any Att  |  1 | Any Skill  |
 | Craft            |  2 | +2 Physical |  2 | Connect    |
@@ -111,7 +127,7 @@ The character was either born in an artisan family (the son of a master or a jou
 
 
 <!-- .background -->
-|                  |    |             |    |            |
+|                  | d6 | Growth      | d8 | Learning   |
 |------------------|---:|:-----------:|---:|:----------:|
 | **Free Skill**   |  1 | +1 Any Att  |  1 | Any Combat |
 | Stab             |  2 | +2 Physical |  2 | Any Skill  |
@@ -131,7 +147,7 @@ The character was born in a noble family, and expected to wield weapons like his
 
 
 <!-- .background -->
-|                  |    |             |    |           |
+|                  | d6 | Growth      | d8 | Learning   |
 |------------------|---:|:-----------:|---:|:---------:|
 | **Free Skill**   |  1 | +1 Any Att  |  1 | Any Skill |
 | Pray             |  2 | +2 Physical |  2 | Connect   |
@@ -151,7 +167,7 @@ The character was born in a family entrusted with religious rituals. Or the char
 
 
 <!-- .background -->
-|                  |    |             |    |            |
+|                  | d6 | Growth      | d8 | Learning   |
 |------------------|---:|:-----------:|---:|:----------:|
 | **Free Skill**   |  1 | +1 Any Att  |  1 | Any Combat |
 | Work             |  2 | +2 Physical |  2 | Any Skill  |
@@ -171,7 +187,7 @@ She or he managed to become from through manumission or escape. Or the character
 <!-- clear -->
 
 <!-- .background -->
-|                  |    |             |    |            |
+|                  | d6 | Growth      | d8 | Learning   |
 |------------------|---:|:-----------:|---:|:----------:|
 | **Free Skill**   |  1 | +1 Any Att  |  1 | Any Combat |
 | Exert            |  2 | +2 Physical |  2 | Any Skill  |

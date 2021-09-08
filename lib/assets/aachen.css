@@ -376,9 +376,21 @@ ul.compass li strong {
   width: 32%;
   margin-right: 1rem;
 }
+.half-left {
+  float: left;
+  width: 49%;
+  margin-right: 1rem;
+}
 
 .background-table {
   grid-template-columns: 30% auto;
+}
+table.background {
+  float: left;
+  width: 49%;
+  font-size: var(--size-c);
+  line-height: 0.77;
+  margin-right: 1rem;
 }
 
 
@@ -430,6 +442,11 @@ dt:after {
 }
 [data-aa-title="skills"] dd.last-dd {
   margin-bottom: 0;
+}
+
+[data-aa-title="background"] h3 {
+  margin: 0;
+  margin-bottom: 0.5rem;
 }
 
 /* top right bottom left */
