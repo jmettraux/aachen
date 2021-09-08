@@ -13,29 +13,23 @@
 
 # Determine Background
 
-<!-- <div.two-columns.background-table> -->
-<!-- <div.left-column> -->
-
+<!-- .quarter-left.compact -->
 | d6 | Background |
 |---:|:----------:|
-|  1 | Commoner   |
-|  2 | Artisan    |
-|  3 | Religious  |
-|  4 | Noble      |
-|  5 | Slave      |
-|  6 | Wanderer   |
-
-<!-- </div.left-column> -->
-<!-- <div.right-column> -->
+|  1 | Wanderer   |
+|  2 | Slave      |
+|  3 | Commoner   |
+|  4 | Artisan    |
+|  5 | Religious  |
+|  6 | Noble      |
 
 This the background list for a simple medieval setting.
 
-One can roll on the below Backround table. The d6 doesn't map to the whole population. It maps to the adventurer population.
+One can roll on the below Background table. The d6 doesn't map to the whole population. It maps to the adventurer population.
+
+A background doesn't map 1 to 1 with a social class. A character with a `religious` background might come from a commoner family or from a noble family.
 
 If one doesn't find any suitable background, one can come up with a background description and three skills for it.
-
-<!-- </div.right-column> -->
-<!-- </div.two-columns> -->
 
 
 ## Applying A Background
@@ -82,6 +76,45 @@ Remember to recompute the attribute modifiers and the saving throw scores if an 
 <!--
 ## Backgrounds
 -->
+
+<!-- .background -->
+|                  | d6 | Growth      | d8 | Learning   |
+|------------------|---:|:-----------:|---:|:----------:|
+| **Free Skill**   |  1 | +1 Any Att  |  1 | Any Combat |
+| Exert            |  2 | +2 Physical |  2 | Any Skill  |
+|                  |  3 | +2 Physical |  3 | Connect    |
+| **Quick Skills** |  4 | +2 Mental   |  4 | Exert      |
+| Hunt             |  5 | Exert       |  5 | Hunt       |
+| Any Combat       |  6 | Any Skill   |  6 | Notice     |
+|                  |    |             |  7 | Sneak      |
+|                  |    |             |  8 | Convince   |
+
+<!-- .background -->
+### Wanderer
+
+An outlaw or an unprotected foreigner.
+
+<!-- clear -->
+
+<!-- .background -->
+|                  | d6 | Growth      | d8 | Learning   |
+|------------------|---:|:-----------:|---:|:----------:|
+| **Free Skill**   |  1 | +1 Any Att  |  1 | Any Combat |
+| Work             |  2 | +2 Physical |  2 | Any Skill  |
+|                  |  3 | +2 Physical |  3 | Connect    |
+| **Quick Skills** |  4 | +2 Any Att  |  4 | Craft      |
+| Sneak            |  5 | Exert       |  5 | Exert      |
+| Exert            |  6 | Any Skill   |  6 | Notice     |
+|                  |    |             |  7 | Sneak      |
+|                  |    |             |  8 | Work       |
+
+<!-- .background -->
+### Slave
+
+A slave, born into slavery or forced into it by war or debt.
+She or he managed to become from through manumission or escape. Or the character is the servant of another character in the party.
+
+<!-- clear -->
 
 <!-- .background -->
 |                  | d6 | Growth      | d8 | Learning   |
@@ -139,7 +172,7 @@ The character was either born in an artisan family (the son of a master or a jou
 |                  |    |             |  8 | Work      |
 
 <!-- .background -->
-### Religious
+### Religious[^1]
 
 The character was born in a family entrusted with religious rituals. Or the character spent her or his youth in a monastery or preparing to become some kind of priest.
 
@@ -159,55 +192,27 @@ The character was born in a family entrusted with religious rituals. Or the char
 |                  |    |             |  8 | Convince   |
 
 <!-- .background -->
-### Noble[^1]
+### Noble[^2]
 
 The character was born in a noble family, and expected to wield weapons like his ancestors did.
 
 <!-- clear -->
 
-
-<!-- .background -->
-|                  | d6 | Growth      | d8 | Learning   |
-|------------------|---:|:-----------:|---:|:----------:|
-| **Free Skill**   |  1 | +1 Any Att  |  1 | Any Combat |
-| Work             |  2 | +2 Physical |  2 | Any Skill  |
-|                  |  3 | +2 Physical |  3 | Connect    |
-| **Quick Skills** |  4 | +2 Any Att  |  4 | Craft      |
-| Sneak            |  5 | Exert       |  5 | Exert      |
-| Exert            |  6 | Any Skill   |  6 | Notice     |
-|                  |    |             |  7 | Sneak      |
-|                  |    |             |  8 | Work       |
-
-<!-- .background -->
-### Slave
-
-A slave, born into slavery or forced into it by war or debt.
-She or he managed to become from through manumission or escape. Or the character is the servant of another character in the party.
-
-<!-- clear -->
-
-<!-- .background -->
-|                  | d6 | Growth      | d8 | Learning   |
-|------------------|---:|:-----------:|---:|:----------:|
-| **Free Skill**   |  1 | +1 Any Att  |  1 | Any Combat |
-| Exert            |  2 | +2 Physical |  2 | Any Skill  |
-|                  |  3 | +2 Physical |  3 | Connect    |
-| **Quick Skills** |  4 | +2 Mental   |  4 | Exert      |
-| Hunt             |  5 | Exert       |  5 | Hunt       |
-| Any Combat       |  6 | Any Skill   |  6 | Notice     |
-|                  |    |             |  7 | Sneak      |
-|                  |    |             |  8 | Convince   |
-
-<!-- .background -->
-### Wanderer
-
-An outlaw or an unprotected foreigner.
-
-
 [^1]:
   Optionally:
 
-  | d12  | rank    |
+  | d6  | Soc Class |
+  |:---:|:---------:|
+  | 1   | Slave     |
+  | 2   | Commoner  |
+  | 3   | Artisan   |
+  | 4-6 | Noble     |
+
+
+[^2]:
+  Optionally:
+
+  | d12  | Rank    |
   |:----:|:-------:|
   | 1-4  | Knight  |
   | 5-7  | Baron   |
