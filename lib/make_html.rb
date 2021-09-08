@@ -221,9 +221,11 @@ end
 def rework_html_id(s, h)
 
   s
-    .gsub(/ id="([^"])+"/) { |x|
-
-      x.downcase.gsub(/-/, '_').gsub(/%20/, '_') }
+    .gsub(/ id="([^"]+)"/) {
+      o = $1
+      id = $1.downcase.gsub(/-/, '_').gsub(/%20/, '_')
+      id = id.split(/_*%3c/)[0]
+      " id=\"#{id}\"" }
 end
 
 def rework_html_id_class(s, h)

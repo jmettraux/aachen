@@ -46,7 +46,7 @@ Roll 3d6 and assign in order `STR`, `DEX`, `CON`, `INT`, `WIS`, and `CHA`. Repla
 
 ## Determine Attribute Modifiers
 
-<!-- .half-left.compact -->
+<!-- .third-left -->
 | Value   | Modifier |
 |:-------:|:--------:|
 | 3       |       -2 |

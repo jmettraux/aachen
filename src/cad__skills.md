@@ -46,7 +46,7 @@ Non-combat skill checks are done with 2d6; the modifier for a no-level skill is 
 <!-- <div.two-columns> -->
 <!-- <div.left-column> -->
 
-## Combat Skills
+## Combat Skills <span class="unskilled">(-2 when unskilled)</span>
 
 Stab
 : Fight with a melee weapon. Maintain such weapons.
@@ -54,8 +54,8 @@ Stab
 Shoot
 : Fight with a ranged weapon. Maintain such weapons and their ammunition.
 
-Punch
-: Fight unarmed. Punch, kick, grapple, or brawl.[^1]
+Punch[^1]
+: Fight unarmed. Punch, kick, grapple, or brawl.
 
 [^1]:
   **Option**:<br/>split _Punch_ into _Punch_ and _Wrestle_.
@@ -85,12 +85,12 @@ Craft
 Exert
 : To climb, run, lift, throw. Athletic training.
 
+<!-- </div.left-column> -->
+<!-- <div.right-column> -->
+
 Heal
 : To mend wounds, combat diseases, neutralize poisons.
 : This skill is used when stabilizing _Mortally Wounded_ characters, its importance cannot be overstated.
-
-<!-- </div.left-column> -->
-<!-- <div.right-column> -->
 
 Hunt
 : To take game with snare, arrow or spear, to know the habits and the manner of preys.

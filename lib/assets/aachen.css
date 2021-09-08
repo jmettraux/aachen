@@ -202,6 +202,7 @@ body {
   }
 }
 
+/*
 .ruler {
   display: none;
   margin-top: 0.5rem;
@@ -213,6 +214,7 @@ body {
 .ruler > div {
   border-bottom: lightgrey solid thin;
 }
+*/
 
 /* CORE TAGS */
 
@@ -247,7 +249,8 @@ h3 {
 }
 
 p {
-  margin: 0.5rem 0;
+  margin: 0;
+  margin-bottom: 0.5rem;
   text-align: justify;
 }
 p + p {
@@ -266,9 +269,6 @@ th, td {
 }
 th {
   border-bottom: solid thin;
-}
-table.compact {
-  line-height: 0.7;
 }
 
 code {
@@ -309,14 +309,6 @@ dd.last-dd {
 dd > p {
   margin: 0;
 }
-
-/*
-dl.dl-dt-small-caps dt {
-  font-variant: small-caps;
-  font-weight: normal;
-  text-transform: lowercase;
-}
-*/
 
 
 /* CLASSES */
@@ -375,7 +367,21 @@ ul.compass li strong {
   padding-right: 0;
 }
 
+.third-left {
+  float: left;
+  width: 32%;
+  margin-right: 1rem;
+}
+
 /*
+dl.dl-dt-small-caps dt {
+  font-variant: small-caps;
+  font-weight: normal;
+  text-transform: lowercase;
+}
+table.compact {
+  line-height: 0.7;
+}
 table#skills {
   font-family: var(--sans-face);
   font-size: var(--size-c);
@@ -419,13 +425,13 @@ table.equipment th,
 table.equipment td {
   padding: 0.28em;
 }
-*/
 
 .half-left {
   width: 42%;
   float: left;
   margin-right: 1em;
 }
+*/
 
 /* specific */
 
@@ -443,35 +449,17 @@ table.equipment td {
   line-height: var(--mul-b);
 }
 
-/*
-dl {
-  display: grid;
-  grid-template-columns: auto auto;
+[data-aa-title="skills"] h2:first-of-type {
+  margin-top: 0;
 }
-dt {
-  grid-column: 1;
-  font-weight: bold;
-  padding-right: 0.5em;
-  text-align: right;
-}
-dt::after {
-  content: '·';
-  padding-left: 0.5em;
-}
-dd {
-  margin-inline-start: initial;
-  grid-column: 2;
-}
-dd.last-dd {
-  margin-bottom: 0.5em;
-}
-dd > p {
-  margin: 0;
-}
-*/
 [data-aa-title="skills"] h2 {
   margin: 0.5rem 0;
   margin-top: 1rem;
+}
+[data-aa-title="skills"] h2 .unskilled {
+  font-size: var(--size-c);
+  font-variant: normal;
+  font-style: italic;
 }
 [data-aa-title="skills"] dl {
   display: initial;
@@ -479,40 +467,17 @@ dd > p {
   line-height: var(--mul-b);
 }
 [data-aa-title="skills"] dt {
-/*
-  text-align: left;
-  padding-right: 0.25em;
   float: left;
-*/
 }
 dt:after {
   content: '·';
-  /*
-  padding-left: 0.5em;
-  */
 }
 [data-aa-title="skills"] dd {
-/*
-  margin-inline-start: initial;
-  display: inline;
-  margin-left: 1rem;
-*/
-}
-[data-aa-title="skills"] dd:after {
-/*
-  display: block;
-  content: '';
-*/
+  margin-left: 0.5rem;
 }
 [data-aa-title="skills"] dd.last-dd {
   margin-bottom: 0;
 }
-
-/*
-[data-aa-title="backgrounds"] table {
-  line-height: 0.7; / * table.compact above * /
-}
-*/
 
 /* top right bottom left */
 
