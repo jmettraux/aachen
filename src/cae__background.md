@@ -13,7 +13,9 @@
 
 # Determine Background
 
-<!-- .half-left.compact -->
+<!-- <div.two-columns.background-table> -->
+<!-- <div.left-column> -->
+
 | d6 | Background |
 |---:|:----------:|
 |  1 | Commoner   |
@@ -23,11 +25,18 @@
 |  5 | Slave      |
 |  6 | Wanderer   |
 
+<!-- </div.left-column> -->
+<!-- <div.right-column> -->
+
 This the background list for a simple medieval setting.
 
 One can roll on the below Backround table. The d6 doesn't map to the whole population. It maps to the adventurer population.
 
 If one doesn't find any suitable background, one can come up with a background description and three skills for it.
+
+<!-- </div.right-column> -->
+<!-- </div.two-columns> -->
+
 
 ## Applying A Background[^1]
 
@@ -52,8 +61,8 @@ Roll Three Times
 
 * `Any Combat` grants a level in any of the combat skills: _stab_, _shoot_, or _punch_.
 * `+1 Any Att` means one point can be added to any attribute score.
-* `+2 Physical` means two points can be added to one (+2) or two (each +1) physical attributes (usually STR, DEX, or CON).
-* `+2 Mental` means two points can be added to one (+2) or two (each +1) mental attributes (usually INT, WIS, or CHA).
+* `+2 Physical` means two points can be added to one (`+2`) or two (each `+1`) physical attributes (usually `STR`, `DEX`, or `CON`).
+* `+2 Mental` means two points can be added to one (`+2`) or two (each `+1`) mental attributes (usually `INT`, `WIS`, or `CHA`).
 
 Remember to recompute the attribute modifiers and the saving throw scores if an attribute score is changed.
 

@@ -13,8 +13,17 @@
 
 # Skills
 
-<!-- <div.two-columns> -->
+<!-- <div.two-columns.skill-explanation> -->
 <!-- <div.left-column> -->
+
+A character background grants skill levels. Before presenting the backgrounds here are the skill list.
+
+Skills checks are done with 2d6 plus attribute modifier (previous page) and plus a skill level. Skill level start at _zero_ (`+0` mod), no skill level means `-1` mod.
+
+Combat rolls are done with 1d20 plus attribute modifier and plus a combat skill level. No skill level means `-2`, not `-1`.
+
+<!-- </div.left-column> -->
+<!-- <div.right-column> -->
 
 <!-- .skill-levels -->
 | Level | Mod | Description                                              |
@@ -26,16 +35,13 @@
 |  3    |  +3 | Inspirational master,<br/>one of the best in the kingdom |
 |  4    |  +4 | One of the best in the known world                       |
 
-<!-- </div.left-column> -->
-<!-- <div.right-column> -->
-
+<!--
 The character background yields skill levels through rolls or selection.
 
 The first time a skill is yielded, it is set at level 0. Should it come up again, it will reach level 1. At character creation the maximum level for a skill is 1, if the skill is yold again, give the level to another skill.
 
 FIXME
 
-<!--
 Non-combat skill checks are done with 2d6; the modifier for a no-level skill is -1. Combat skill checks are different, they are done with 1d20; the modifier for a no-level skill is -2.
 -->
 
@@ -43,7 +49,7 @@ Non-combat skill checks are done with 2d6; the modifier for a no-level skill is 
 <!-- </div.two-columns> -->
 
 
-<!-- <div.two-columns> -->
+<!-- <div.two-columns.skill-list> -->
 <!-- <div.left-column> -->
 
 ## Combat Skills <span class="unskilled">(-2 when unskilled)</span>
