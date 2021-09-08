@@ -447,6 +447,10 @@ dt:after {
 [data-aa-title="background"] h3 {
   margin: 0;
   margin-bottom: 0.5rem;
+  font-weight: normal;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  font-size: var(--size-a);
 }
 
 [data-aa-title="background"] .margin table {
