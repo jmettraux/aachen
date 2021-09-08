@@ -38,14 +38,14 @@ If one doesn't find any suitable background, one can come up with a background d
 <!-- </div.two-columns> -->
 
 
-## Applying A Background[^1]
+## Applying A Background
+
+A background grants a _free skill_ to the character. For example, a free man is given the _Work_ skill (at level 0).[^1]
+
+A character may choose one of three ways of selecting skills. _go quick_, _learn two skills_, or _roll three times_.
 
 [^1]:
   One can roll, pick, or make a background with the referee's permission.
-
-A background grants a _free skill_ to the character. For example, a free man is given the _Work_ skill (at level 0).
-
-A character may choose one of three ways of selecting skills. _go quick_, _learn two skills_, or _roll three times_.
 
 Go Quick
 : The character is granted the two _quick skills_. Done.

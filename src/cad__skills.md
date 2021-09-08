@@ -13,7 +13,7 @@
 
 # Skills
 
-<!-- <div.two-columns.skill-explanation> -->
+<!-- <div.two-columns> -->
 <!-- <div.left-column> -->
 
 A character background grants skill levels. Before presenting the backgrounds here are the skill list.
@@ -21,9 +21,6 @@ A character background grants skill levels. Before presenting the backgrounds he
 Skills checks are done with 2d6 plus attribute modifier (previous page) and plus a skill level. Skill level start at _zero_ (`+0` mod), no skill level means `-1` mod.
 
 Combat rolls are done with 1d20 plus attribute modifier and plus a combat skill level. No skill level means `-2`, not `-1`.
-
-<!-- </div.left-column> -->
-<!-- <div.right-column> -->
 
 <!-- .skill-levels -->
 | Level | Mod | Description                                              |
@@ -35,26 +32,9 @@ Combat rolls are done with 1d20 plus attribute modifier and plus a combat skill 
 |  3    |  +3 | Inspirational master,<br/>one of the best in the kingdom |
 |  4    |  +4 | One of the best in the known world                       |
 
-<!--
-The character background yields skill levels through rolls or selection.
-
-The first time a skill is yielded, it is set at level 0. Should it come up again, it will reach level 1. At character creation the maximum level for a skill is 1, if the skill is yold again, give the level to another skill.
-
-FIXME
-
-Non-combat skill checks are done with 2d6; the modifier for a no-level skill is -1. Combat skill checks are different, they are done with 1d20; the modifier for a no-level skill is -2.
--->
-
-<!-- </div.right-column> -->
-<!-- </div.two-columns> -->
-
-
-<!-- <div.two-columns.skill-list> -->
-<!-- <div.left-column> -->
-
 ## Combat Skills <span class="unskilled">(-2 when unskilled)</span>
 
-Stab
+Slash
 : Fight with a melee weapon. Maintain such weapons.
 
 Shoot
@@ -73,6 +53,8 @@ Cast
 : To cast spells. To analyze magical effects, to know about magic and its practicioners.
 : Classes that cannot cast spells and have levels in this skill are simply scholars of magic.
 
+<!-- </div.left-column> -->
+<!-- <div.right-column> -->
 
 ## Regular Skills
 
@@ -91,9 +73,6 @@ Craft
 Exert
 : To climb, run, lift, throw. Athletic training.
 
-<!-- </div.left-column> -->
-<!-- <div.right-column> -->
-
 Heal
 : To mend wounds, combat diseases, neutralize poisons.
 : This skill is used when stabilizing _Mortally Wounded_ characters, its importance cannot be overstated.
@@ -102,7 +81,7 @@ Hunt
 : To take game with snare, arrow or spear, to know the habits and the manner of preys.
 
 Know
-: TODO
+: Grammar, logic, rhetoric, then arithmetic, geometry, music, astronomy
 
 Lead
 : To conduct and inspire people.
@@ -115,6 +94,9 @@ Perform
 
 Pray
 : To know how to perform the religious rites, to know the religious history.
+
+Read
+: Level 0, read. Level 1, read and write.
 
 Ride
 : To ride an animal, to drive a cart or carriage. To take care of the animal.

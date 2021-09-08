@@ -377,9 +377,6 @@ ul.compass li strong {
   margin-right: 1rem;
 }
 
-.skill-explanation {
-  grid-template-columns: 52% auto;
-}
 .background-table {
   grid-template-columns: 30% auto;
 }
@@ -394,6 +391,10 @@ ul.compass li strong {
 
 [data-aa-title="attributes"] dl {
   grid-template-columns: 22% auto;
+}
+
+#combat_skills {
+  margin-top: 2rem;
 }
 
 [data-aa-title="skills"] table {
