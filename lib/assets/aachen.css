@@ -449,5 +449,10 @@ dt:after {
   margin-bottom: 0.5rem;
 }
 
+[data-aa-title="background"] .margin table {
+  font-size: var(--size-c);
+  line-height: 0.77;
+}
+
 /* top right bottom left */
 

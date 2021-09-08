@@ -20,8 +20,8 @@
 |---:|:----------:|
 |  1 | Commoner   |
 |  2 | Artisan    |
-|  3 | Noble      |
-|  4 | Religious  |
+|  3 | Religious  |
+|  4 | Noble      |
 |  5 | Slave      |
 |  6 | Wanderer   |
 
@@ -90,9 +90,9 @@ Remember to recompute the attribute modifiers and the saving throw scores if an 
 | Work             |  2 | +2 Physical |  2 | Connect    |
 |                  |  3 | +2 Physical |  3 | Craft      |
 | **Quick Skills** |  4 | +2 Mental   |  4 | Exert      |
-| Stab             |  5 | Exert       |  5 | Hunt       |
+| Slash            |  5 | Exert       |  5 | Hunt       |
 | Connect          |  6 | Any Skill   |  6 | Administer |
-|                  |    |             |  7 | Stab       |
+|                  |    |             |  7 | Slash      |
 |                  |    |             |  8 | Work       |
 
 <!-- .background -->
@@ -128,26 +128,6 @@ The character was either born in an artisan family (the son of a master or a jou
 
 <!-- .background -->
 |                  | d6 | Growth      | d8 | Learning   |
-|------------------|---:|:-----------:|---:|:----------:|
-| **Free Skill**   |  1 | +1 Any Att  |  1 | Any Combat |
-| Stab             |  2 | +2 Physical |  2 | Any Skill  |
-|                  |  3 | +2 Physical |  3 | Connect    |
-| **Quick Skills** |  4 | +2 Mental   |  4 | Trade      |
-| Lead             |  5 | Connect     |  5 | Lead       |
-| Connect          |  6 | Any Skill   |  6 | Ride       |
-|                  |    |             |  7 | Stab       |
-|                  |    |             |  8 | Convince   |
-
-<!-- .background -->
-### Noble
-
-The character was born in a noble family, and expected to wield weapons like his ancestors did.
-
-<!-- clear -->
-
-
-<!-- .background -->
-|                  | d6 | Growth      | d8 | Learning   |
 |------------------|---:|:-----------:|---:|:---------:|
 | **Free Skill**   |  1 | +1 Any Att  |  1 | Any Skill |
 | Pray             |  2 | +2 Physical |  2 | Connect   |
@@ -162,6 +142,26 @@ The character was born in a noble family, and expected to wield weapons like his
 ### Religious
 
 The character was born in a family entrusted with religious rituals. Or the character spent her or his youth in a monastery or preparing to become some kind of priest.
+
+<!-- clear -->
+
+
+<!-- .background -->
+|                  | d6 | Growth      | d8 | Learning   |
+|------------------|---:|:-----------:|---:|:----------:|
+| **Free Skill**   |  1 | +1 Any Att  |  1 | Any Combat |
+| Slash            |  2 | +2 Physical |  2 | Any Skill  |
+|                  |  3 | +2 Physical |  3 | Connect    |
+| **Quick Skills** |  4 | +2 Mental   |  4 | Trade      |
+| Lead             |  5 | Connect     |  5 | Lead       |
+| Connect          |  6 | Any Skill   |  6 | Ride       |
+|                  |    |             |  7 | Slash      |
+|                  |    |             |  8 | Convince   |
+
+<!-- .background -->
+### Noble[^1]
+
+The character was born in a noble family, and expected to wield weapons like his ancestors did.
 
 <!-- clear -->
 
@@ -202,4 +202,27 @@ She or he managed to become from through manumission or escape. Or the character
 ### Wanderer
 
 An outlaw or an unprotected foreigner.
+
+
+[^1]:
+  Optionally:
+
+  | d12  | rank    |
+  |:----:|:-------:|
+  | 1-4  | Knight  |
+  | 5-7  | Baron   |
+  | 8-9  | Count   |
+  | 10   | Marquis |
+  | 11   | Duke    |
+  | 12   | King    |
+
+<!--
+d100   seniority
+01     Bastard
+02-05  Legit. Bastard
+06-30  4th child
+31-55  3rd child
+56-80  2nd child
+81-00  1st child
+-->
 
