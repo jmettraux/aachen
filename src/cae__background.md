@@ -13,7 +13,7 @@
 
 # Determine Background
 
-<!-- .quarter-left.compact -->
+<!-- .quarter-right.compact -->
 | d6 | Background |
 |---:|:----------:|
 |  1 | Wanderer   |
