@@ -47,7 +47,7 @@ Punch[^1]
   **Option**:<br/>split _Punch_ into _Punch_ and _Wrestle_.
 
 
-## Special Skills
+## Special Skill
 
 Cast
 : To cast spells. To analyze magical effects, to know about magic and its practicioners.

@@ -401,6 +401,11 @@ table.background {
   line-height: 0.77;
   margin-right: 1rem;
 }
+table.background th:first-child {
+  color: #c0c0c0;
+  text-align: left;
+  border-bottom: black solid thin;
+}
 
 
 /* specific */
