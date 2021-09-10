@@ -104,6 +104,9 @@ Scene
 Skill
 : TODO
 
+Social Class
+: TODO
+
 STR
 : Abbreviation for __Strength__
 

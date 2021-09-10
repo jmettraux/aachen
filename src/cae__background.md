@@ -13,7 +13,7 @@
 
 # Determine Background
 
-<!-- .quarter-right.compact -->
+<!-- .backgrounds.quarter-right.compact -->
 | d6 | Background |
 |---:|:----------:|
 |  1 | Wanderer   |
@@ -23,42 +23,51 @@
 |  5 | Religious  |
 |  6 | Noble      |
 
-This the background list for a simple medieval setting.
+A background corresponds to where/how the character was raised. There isn't a one to one mapping between social class and background. A wanderer character may be of noble origin, but since they spent their childhood wandering, their skillset is given by the `wanderer` background.
 
-One can roll on the below Background table. The d6 doesn't map to the whole population. It maps to the adventurer population.
+Aachen targets Europa between 700 and 1100 AD. Social classes should be porous, especially for audacious and adventurous characters. FIXME.
 
-A background doesn't map 1 to 1 with a social class. A character with a `religious` background might come from a commoner family or from a noble family.
+The background is determined by rolling 1d6, or by choosing one in accord with the referee. A player may also want to come up with their own background, giving it a name and three skills. For example, a `Mountebank` background that grants _Convince_, _Exert_, and _Perform_.
 
-If one doesn't find any suitable background, one can come up with a background description and three skills for it.
+[^1]
 
+## Applying the Background
 
-## Applying A Background
+There are three ways to apply a background table.
 
-A background grants a _free skill_ to the character. For example, a `commoner` is given the _Work_ skill (at level 0).[^1]
+The **quick way** is to take the _Free Skill_ and the 2 _Quick Skills_.
 
-A character may choose one of three ways of selecting skills. _go quick_, _learn two skills_, or _roll three times_.
+The **selection way** is to take the _Free Skill_ and then select two skills from the right-most column, the _Learning_ column. Disregard, _Any Skill_ and _Any Combat Skill_.
+
+The **random way** is to the the _Free Skill_ and then roll thrice, either from the _Growth_ column or from the _Learning_ column. It is not necessary to roll thrice from the same column.
+
+Rolling _Any Skill_ means the player may choose any one skill for his character. Rolling _Any Combat (Skill)_ means the player may choose `SLASH`, `SHOOT`, or `PUNCH`.
+
+[^2]
+
+Rolling _+1 Any Att_ means 1 point may be added to the score of any attribute. Rolling _+2 Physical_ means 2 points may be added to the score of `STR`, `DEX`, or `CON`. 2 points on one of them, or 1 point on two of them. Rolling _+2 Mental_ is the equivalent for `INT`, `WIS`, and `CHA`.
+Remember to recompute the attribute modifiers and the saving throw scores if an attribute score is changed.
+
 
 [^1]:
-  One can roll, pick, or make a background with the referee's permission.
+  option:
 
-Go Quick
-: The character is granted the two _quick skills_. Done.
+  <!-- .social-class -->
+  | d8  | soclass |
+  |:---:|:-------:|
+  | 1   | outcast |
+  | 2-3 | slave   |
+  | 4-7 | free    |
+  | 8   | elite   |
 
-Learn Two Skills
-: The character is granted two skills selected from the 7 skills listed under the _Learning_ column.
-
-Roll Three Times
-: Dice are rolled three times. The rolls can be made against the _Growth_ or the _Learning_ table. Rolling on the Growth table may even yield an attribute +2. Hitting _Any Skill_ gives the opportunity to choose any skill.[^2]
+  <!-- .social-class -->
+  | d8  | origin  |
+  |:---:|:-------:|
+  | 1-6 | country |
+  | 7-8 | city    |
 
 [^2]:
-  The setting or the referee may dictate that selecting a skill like _Cast_ or _Pray_ is off limits.
-
-* `Any Combat` grants a level in any of the combat skills: _stab_, _shoot_, or _punch_.
-* `+1 Any Att` means one point can be added to any attribute score.
-* `+2 Physical` means two points can be added to one (`+2`) or two (each `+1`) physical attributes (usually `STR`, `DEX`, or `CON`).
-* `+2 Mental` means two points can be added to one (`+2`) or two (each `+1`) mental attributes (usually `INT`, `WIS`, or `CHA`).
-
-Remember to recompute the attribute modifiers and the saving throw scores if an attribute score is changed.
+  The referee may prevent you from choosing `cast`. Or let you take it for scholarly reasons (no actual spell casting).
 
 <!-- PAGE BREAK background -->
 
@@ -72,6 +81,7 @@ Remember to recompute the attribute modifiers and the saving throw scores if an 
 * Hit Points
 * Name
 * Equip
+
 
 <!--
 ## Backgrounds
@@ -172,7 +182,7 @@ The character was either born in an artisan family (the son of a master or a jou
 |                  |    |             |  8 | Work      |
 
 <!-- .background -->
-### Religious[^1]
+### Religious
 
 The character was born in a family entrusted with religious rituals. Or the character spent her or his youth in a monastery or preparing to become some kind of priest.
 
@@ -192,12 +202,13 @@ The character was born in a family entrusted with religious rituals. Or the char
 |                  |    |             |  8 | Convince   |
 
 <!-- .background -->
-### Noble[^2]
+### Noble
 
 The character was born in a noble family, and expected to wield weapons like his ancestors did.
 
 <!-- clear -->
 
+<!--
 [^1]:
   Optionally:
 
@@ -220,6 +231,7 @@ The character was born in a noble family, and expected to wield weapons like his
   | 10   | Marquis |
   | 11   | Duke    |
   | 12   | King    |
+-->
 
 <!--
 d100   seniority
