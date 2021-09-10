@@ -1,6 +1,7 @@
 
 # System Quick Reference
 
+TODO fit on one or two (facing) pages
 
 ## Skill Checks
 
@@ -20,11 +21,13 @@
 * Monsters and NPCs have a single saving throw of 15 minus their halved and rounded-down hit dice
 * A roll of 1 is always a failure, a roll of 20 is always a success
 
+...
+
+<!--
+
 ## Spellcasting
 
 TODO
-
-<!-- PAGE BREAK reference -->
 
 ## Injury And Healing
 
@@ -51,8 +54,6 @@ TODO
 * On Turn actions allow the PC to say a few words, drop prone, or do other reflexively simple things
 * Instant Actions can be take at any time, even during someone else's turn, or even after dice have been rolled. Instant actions are usually special powers the PC can use or the result of holding an action in combat
 
-<!-- PAGE BREAK reference -->
-
 ## Hitting And Damage
 
 * An attack is made with a hit roll of 1d20 plus the relevant weapon skill plus the attribute modifier that the weapon uses plus the attack bonus of the character
@@ -70,4 +71,6 @@ TODO
 * a Morale check is rolled on 2d6. If it's higher than the target's Morale score, they rout, retreat, or surrender, depending on the situation and their overall discipline
 * PCs never check Morale. NPCs do so when an ally first is downed, when half of them are down, or when shaken by some great reverse or terrifying foe
 * Even on a successful Morale check, NPCs will not continue to fight when it is obviously futile or not worth the risk
+
+-->
 
