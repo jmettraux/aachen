@@ -136,7 +136,7 @@ end
 
 
 #
-# rework_html()
+# rework_md()
 
 def rework_md(s, h)
   #
@@ -379,7 +379,7 @@ def rework_html_footnotes(s, h)
       id = "note-#{h[:PAGE]}-#{i + 1}"
 
       ae = make_html_element(:span, { class: 'anchor', 'href': "##{id}" })
-      ae.text = ''
+      ae.text = ' '
 
       ne = make_html_element(:div, { id: id, class: 'note' })
 
