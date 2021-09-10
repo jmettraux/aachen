@@ -244,16 +244,20 @@ def rework_html_icas(e, h)
   e.children.each do |c|
 
     if c.is_a?(REXML::Comment)
+
       icas = parse_id_classes_attributes(c)
       c.parent.delete(c) if icas
+
     elsif c.is_a?(REXML::Element)
+
       if icas
         icas.each do |k, v|
           c.add_attribute(k.to_s, v)
         end
         icas = nil
       end
-    #else
+
+      rework_html_icas(c, h)
     end
   end
 end
