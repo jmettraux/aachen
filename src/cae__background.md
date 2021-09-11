@@ -103,7 +103,6 @@ When a character is given a skill, it sets it at level 0. Taking it a second tim
 |                  |    |             |  7 | Sneak      |
 |                  |    |             |  8 | Convince   |
 
-<!-- .background -->
 ### Wanderer
 
 An outlaw or an unprotected foreigner. At some point the character "branched out".
@@ -123,7 +122,6 @@ An outlaw or an unprotected foreigner. At some point the character "branched out
 |                  |    |             |  7 | Sneak      |
 |                  |    |             |  8 | Work       |
 
-<!-- .background -->
 ### Slave
 
 Born into slavery or forced into it by war or debt. The character could be the servant of one of the characters in the party, or it could have become free through escape or manumission.
@@ -143,10 +141,9 @@ Born into slavery or forced into it by war or debt. The character could be the s
 |                  |    |             |  7 | Slash      |
 |                  |    |             |  8 | Work       |
 
-<!-- .background -->
 ### Commoner
 
-A free woman or man born in a family owning land and cultivating it.
+A free woman or man born in a family owning enough land to support itself.
 
 <!-- clear -->
 
@@ -163,7 +160,6 @@ A free woman or man born in a family owning land and cultivating it.
 |                  |    |             |  7 | Convince   |
 |                  |    |             |  8 | Work       |
 
-<!-- .background -->
 ### Artisan
 
 Born in an artisan family, son or daughter of a master or journeyman or born elsewhere but accepted as an apprentice into an artisan workshop.
@@ -183,7 +179,6 @@ Born in an artisan family, son or daughter of a master or journeyman or born els
 |                  |    |             |  7 | Convince  |
 |                  |    |             |  8 | Work      |
 
-<!-- .background -->
 ### Religious
 
 Born in a family of priests (pagan faith) or in a family linked to a religious institution (christian faith). Training to become a priest or being a novice in a minster.
@@ -203,8 +198,7 @@ Born in a family of priests (pagan faith) or in a family linked to a religious i
 |                  |    |             |  7 | Slash      |
 |                  |    |             |  8 | Convince   |
 
-<!-- .background -->
 ### Elite
 
-Born in an aristocratic family (old roman) or in an high office family (military or civilian). Or simply being raised with the sons or daughters of an elite family and "hanging around".
+Born in an old roman senatorial family or in the germanic elite. Or simply being raised with the sons or daughters of an elite family and "hanging around".
 
