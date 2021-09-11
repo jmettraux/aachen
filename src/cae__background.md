@@ -42,9 +42,9 @@ The **selection way** is to take the _Free Skill_ and then select two skills fro
 
 The **random way** is to the the _Free Skill_ and then roll thrice, either from the _Growth_ column or from the _Learning_ column. It is not necessary to roll thrice from the same column.
 
-Rolling _Any Skill_ means the player may choose any one skill for his character. Rolling _Any Combat (Skill)_ means the player may choose `SLASH`, `SHOOT`, or `PUNCH`.
-
 [^2]
+
+Rolling _Any Skill_ means the player may choose any one skill for his character. Rolling _Any Combat (Skill)_ means the player may choose `SLASH`, `SHOOT`, or `PUNCH`.
 
 Rolling _+1 Any Att_ means 1 point may be added to the score of any attribute. Rolling _+2 Physical_ means 2 points may be added to the score of `STR`, `DEX`, or `CON`. 2 points on one of them, or 1 point on two of them. Rolling _+2 Mental_ is the equivalent for `INT`, `WIS`, and `CHA`.
 Remember to recompute the attribute modifiers and the saving throw scores if an attribute score is changed.
