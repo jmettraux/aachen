@@ -425,8 +425,6 @@ table.social-class th { padding-left: 0; }
 table.social-class td { padding-left: 0; }
 table.social-class th:nth-child(1) { width: 40%; }
 
-.margin-top-zero { margin-top: 0 !important; }
-
 /* specific */
 
 [data-aa-page="1"] dl {
@@ -492,14 +490,26 @@ dt:after {
   line-height: 0.77;
 }
 
+[data-aa-title="class"] h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
 [data-aa-title="class"] table {
   float: right;
   width: 49%;
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-left: 1rem;
   margin-bottom: 0.5rem;
   font-size: var(--size-b);
   line-height: 0.7;
+}
+
+[data-aa-title="class"] h2.top {
+  margin-top: 0;
+}
+[data-aa-title="class"] table.top {
+  margin-top: 0;
 }
 
 /* top right bottom left */

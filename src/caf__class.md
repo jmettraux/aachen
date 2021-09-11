@@ -45,7 +45,22 @@ This ability cannot be used to negate environmental damage or damage done to a v
 A Fighter can pick two Talents at level 1, or pick one Talent at level 2. (Other character classes pick only one Talent at level 1).
 
 
+<!-- PAGE BREAK class -->
 
+
+<!-- .margin.compass -->
+* _Character Creation_
+* Attributes
+* Saves
+* Background
+* **Class**
+* Talents
+* Hit Points
+* Name
+* Equip
+
+
+<!-- .top -->
 | Lvl | HP   | Atk | Talent Picks      |
 |:---:|-----:|:---:|:-----------------:|
 |   1 |  1d6 |  +0 | 1 Any + 1 Dabster |
@@ -59,6 +74,7 @@ A Fighter can pick two Talents at level 1, or pick one Talent at level 2. (Other
 |   9 |  9d6 |  +4 |                   |
 |  10 | 10d6 |  +5 | +1 Any            |
 
+<!-- .top -->
 ## Dabster
 
 Thief, diplomat, healer, scholar, explorer, artisan can be enacted by a character with the expert class.
@@ -76,21 +92,7 @@ In cases where it matters, the better of the two rolls may be used.
 Upon advancing in experience level, the Dabster gains a bonus skill point that can be used on any non-combat, non-magic skill. This point can be saved for later use.
 
 
-<!-- PAGE BREAK class -->
 
-
-<!-- .margin.compass -->
-* _Character Creation_
-* Attributes
-* Saves
-* Background
-* **Class**
-* Talents
-* Hit Points
-* Name
-* Equip
-
-<!-- .margin-top-zero -->
 | Lvl | HP      | Atk | Talent Picks |
 |:---:|--------:|:---:|:------------:|
 |   1 |   1d6-1 |  +0 | 1 Any        |
@@ -104,7 +106,6 @@ Upon advancing in experience level, the Dabster gains a bonus skill point that c
 |   9 |   9d6-9 |  +3 |              |
 |  10 | 10d6-10 |  +4 | +1 Any       |
 
-<!-- .margin-top-zero -->
 ## Caster
 
 Casters can weave the threads of the source. That gift grew in them since childhood, they learned how to hide it and how to use it without getting noticed.
@@ -122,24 +123,40 @@ The Caster gains one level in Cast.
 See the magic section for weaver and spellcasting.
 
 
+<!-- PAGE BREAK class -->
+
+
+<!-- .margin.compass -->
+* _Character Creation_
+* Attributes
+* Saves
+* Background
+* **Class**
+* Talents
+* Hit Points
+* Name
+* Equip
+
+
+<!-- .top -->
 ## Adventurer
 
 Fighter, Dabster, and Caster are meant to cover a wide range of characters, but sometimes more granularity is required. An Adventurer is a mix of two classes, not as strong as a "pure" class, but more versatile.
 
 
 
-| Lvl | HP      | Atk | Talent Picks                 |
-|:---:|--------:|:---:|:----------------------------:|
+| Lvl | HP      | Atk | Talent Picks                  |
+|:---:|--------:|:---:|:-----------------------------:|
 |   1 |   1d6+2 |  +1 | 1 Dabster + 1 Fighter + 1 Any |
-|   2 |   2d6+4 |  +2 | +1 Any                       |
-|   3 |   3d6+6 |  +2 |                              |
-|   4 |   4d6+8 |  +3 |                              |
-|   5 |  5d6+10 |  +4 | +1 Any                       |
-|   6 |  6d6+12 |  +5 |                              |
-|   7 |  7d6+14 |  +5 | +1 Any                       |
-|   8 |  8d6+16 |  +6 |                              |
-|   9 |  9d6+18 |  +6 |                              |
-|  10 | 10d6+20 |  +7 | +1 Any                       |
+|   2 |   2d6+4 |  +2 | +1 Any                        |
+|   3 |   3d6+6 |  +2 |                               |
+|   4 |   4d6+8 |  +3 |                               |
+|   5 |  5d6+10 |  +4 | +1 Any                        |
+|   6 |  6d6+12 |  +5 |                               |
+|   7 |  7d6+14 |  +5 | +1 Any                        |
+|   8 |  8d6+16 |  +6 |                               |
+|   9 |  9d6+18 |  +6 |                               |
+|  10 | 10d6+20 |  +7 | +1 Any                        |
 
 ## Dabster-Fighter
 
@@ -148,6 +165,26 @@ A partial Dabster has the _quick learner_ class ability but not the _expertise_ 
 A partial Fighter doesn't have the _fighter's luck_ class ability but still receives their extra Talent.
 
 A partial Dabster / partial Fighter attack bonuses progress less advantageously than for a pure Fighter, but the hit points progress is equivalent.
+
+
+| Lvl | HP   | Atk | Talent Picks      |
+|:---:|-----:|:---:|:-----------------:|
+|   1 |  1d6 |  +0 | 1 Dabster + 1 Any |
+|   2 |  2d6 |  +1 | +1 Any            |
+|   3 |  3d6 |  +1 |                   |
+|   4 |  4d6 |  +2 |                   |
+|   5 |  5d6 |  +2 | +1 Any            |
+|   6 |  6d6 |  +3 |                   |
+|   7 |  7d6 |  +3 | +1 Any            |
+|   8 |  8d6 |  +4 |                   |
+|   9 |  9d6 |  +4 |                   |
+|  10 | 10d6 |  +5 | +1 Any            |
+
+## Dabster-Caster
+
+A partial Dabster has the _quick learner_ class ability but not the _expertise_ one.
+
+A partial Caster must choose between Sneak or Convince, they cannot benefit from both like a pure Caster does. Furthermore, a partial Caster disposes of less weave points, thus can cast less spells.
 
 
 <!-- PAGE BREAK class -->
@@ -165,29 +202,7 @@ A partial Dabster / partial Fighter attack bonuses progress less advantageously 
 * Equip
 
 
-<!-- .margin-top-zero -->
-| Lvl | HP   | Atk | Talent Picks     |
-|:---:|-----:|:---:|:----------------:|
-|   1 |  1d6 |  +0 | 1 Dabster + 1 Any |
-|   2 |  2d6 |  +1 | +1 Any           |
-|   3 |  3d6 |  +1 |                  |
-|   4 |  4d6 |  +2 |                  |
-|   5 |  5d6 |  +2 | +1 Any           |
-|   6 |  6d6 |  +3 |                  |
-|   7 |  7d6 |  +3 | +1 Any           |
-|   8 |  8d6 |  +4 |                  |
-|   9 |  9d6 |  +4 |                  |
-|  10 | 10d6 |  +5 | +1 Any           |
-
-<!-- .margin-top-zero -->
-## Dabster-Caster
-
-A partial Dabster has the _quick learner_ class ability but not the _expertise_ one.
-
-A partial Caster must choose between Sneak or Convince, they cannot benefit from both like a pure Caster does. Furthermore, a partial Caster disposes of less weave points, thus can cast less spells.
-
-
-
+<!-- .top -->
 | Lvl | HP      | Atk | Talent Picks      |
 |:---:|--------:|:---:|:-----------------:|
 |   1 |   1d6+2 |  +1 | 1 Fighter + 1 Any |
@@ -201,6 +216,7 @@ A partial Caster must choose between Sneak or Convince, they cannot benefit from
 |   9 |  9d6+18 |  +6 |                   |
 |  10 | 10d6+20 |  +7 | +1 Any            |
 
+<!-- .top -->
 ## Fighter-Caster
 
 A partial Caster must choose between Sneak or Convince, they cannot benefit from both like a pure Caster does. Furthermore, a partial Caster disposes of less weave points, thus can cast less spells.
