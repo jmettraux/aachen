@@ -106,9 +106,10 @@ When a character is given a skill, it sets it at level 0. Taking it a second tim
 <!-- .background -->
 ### Wanderer
 
-An outlaw or an unprotected foreigner.
+An outlaw or an unprotected foreigner. At some point the character "branched out".
 
 <!-- clear -->
+
 
 <!-- .background -->
 | 2                | d6 | Growth      | d8 | Learning   |
@@ -125,10 +126,10 @@ An outlaw or an unprotected foreigner.
 <!-- .background -->
 ### Slave
 
-A slave, born into slavery or forced into it by war or debt.
-She or he managed to become from through manumission or escape. Or the character is the servant of another character in the party.
+Born into slavery or forced into it by war or debt. The character could be the servant of one of the characters in the party, or it could have become free through escape or manumission.
 
 <!-- clear -->
+
 
 <!-- .background -->
 | 3                | d6 | Growth      | d8 | Learning   |
@@ -136,7 +137,7 @@ She or he managed to become from through manumission or escape. Or the character
 | **Free Skill**   |  1 | +1 Any Att  |  1 | Any Skill  |
 | Work             |  2 | +2 Physical |  2 | Connect    |
 |                  |  3 | +2 Physical |  3 | Craft      |
-| **Quick Skills** |  4 | +2 Mental   |  4 | Exert      |
+| **Quick Skills** |  4 | +2 Mental   |  4 | Ride       |
 | Slash            |  5 | Exert       |  5 | Hunt       |
 | Connect          |  6 | Any Skill   |  6 | Administer |
 |                  |    |             |  7 | Slash      |
@@ -145,13 +146,10 @@ She or he managed to become from through manumission or escape. Or the character
 <!-- .background -->
 ### Commoner
 
-The character was born in a free peasant family.
+A free woman or man born in a family owning land and cultivating it.
 
 <!-- clear -->
 
-<!--
-|                  |    |             |    |            |
--->
 
 <!-- .background -->
 | 4                | d6 | Growth      | d8 | Learning   |
@@ -168,7 +166,7 @@ The character was born in a free peasant family.
 <!-- .background -->
 ### Artisan
 
-The character was either born in an artisan family (the son of a master or a journeyman) or accepted as a young apprentice in an artisan workshop.
+Born in an artisan family, son or daughter of a master or journeyman or born elsewhere but accepted as an apprentice into an artisan workshop.
 
 <!-- clear -->
 
@@ -188,7 +186,7 @@ The character was either born in an artisan family (the son of a master or a jou
 <!-- .background -->
 ### Religious
 
-The character was born in a family entrusted with religious rituals. Or the character spent her or his youth in a monastery or preparing to become some kind of priest.
+Born in a family of priests (pagan faith) or in a family linked to a religious institution (christian faith). Training to become a priest or being a novice in a minster.
 
 <!-- clear -->
 
@@ -206,44 +204,7 @@ The character was born in a family entrusted with religious rituals. Or the char
 |                  |    |             |  8 | Convince   |
 
 <!-- .background -->
-### Noble
+### Elite
 
-The character was born in a noble family, and expected to wield weapons like his ancestors did.
-
-<!-- clear -->
-
-<!--
-[^1]:
-  Optionally:
-
-  | d6  | Soc Class |
-  |:---:|:---------:|
-  | 1   | Slave     |
-  | 2   | Commoner  |
-  | 3   | Artisan   |
-  | 4-6 | Noble     |
-
-
-[^2]:
-  Optionally:
-
-  | d12  | Rank    |
-  |:----:|:-------:|
-  | 1-4  | Knight  |
-  | 5-7  | Baron   |
-  | 8-9  | Count   |
-  | 10   | Marquis |
-  | 11   | Duke    |
-  | 12   | King    |
--->
-
-<!--
-d100   seniority
-01     Bastard
-02-05  Legit. Bastard
-06-30  4th child
-31-55  3rd child
-56-80  2nd child
-81-00  1st child
--->
+Born in an aristocratic family (old roman) or in an high office family (military or civilian). Or simply being raised with the sons or daughters of an elite family and "hanging around".
 
