@@ -25,11 +25,12 @@
 
 A background corresponds to where/how the character was raised. There isn't a one to one mapping between social class and background. A wanderer character may be of noble origin, but since they spent their childhood wandering, their skillset is given by the `wanderer` background.
 
-Aachen targets Europa between 700 and 1100 AD. Social classes should be porous, especially for audacious and adventurous characters. FIXME.
+Aachen targets Europa between 700 and 1100 AD. The Empire receded in far Byzantium, counts are still appointed officials but they try to make their officie hereditary, feodality is not far. A free man is expected to fight for his community but many are happy to pay for others to fight. The time period is wide and shifting, known yet foreign and dark.
+
+[^1]
 
 The background is determined by rolling 1d6, or by choosing one in accord with the referee. A player may also want to come up with their own background, giving it a name and three skills. For example, a `Mountebank` background that grants _Convince_, _Exert_, and _Perform_.
 
-[^1]
 
 ## Applying the Background
 
@@ -47,6 +48,8 @@ Rolling _Any Skill_ means the player may choose any one skill for his character.
 
 Rolling _+1 Any Att_ means 1 point may be added to the score of any attribute. Rolling _+2 Physical_ means 2 points may be added to the score of `STR`, `DEX`, or `CON`. 2 points on one of them, or 1 point on two of them. Rolling _+2 Mental_ is the equivalent for `INT`, `WIS`, and `CHA`.
 Remember to recompute the attribute modifiers and the saving throw scores if an attribute score is changed.
+
+When a character is given a skill, it sets it at level 0. Taking it a second time sets it at level 1. A new character may not exceed level 1 in a skill. Should that happen, shift the increment to another skill.
 
 
 [^1]:
