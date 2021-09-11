@@ -13,7 +13,9 @@
 
 # Select Class
 
-There are only three core classes, Fighter, Dabster, and Caster. There is a fourth possibility, Adventurer which mixes two classes.
+There are only three core classes, `Fighter`, `Dabster`, and `Caster`, but they can be mixed in pairs (six classes in total).
+
+Characters look and behave like travellers. They sometimes look like warriors or like religious persons. It's a low fantasy setting, casters do not look like "wizards" (remember the pointed hats was an indication that a man was a jewish).
 
 
 
@@ -34,13 +36,13 @@ There are only three core classes, Fighter, Dabster, and Caster. There is a four
 
 People gifted for physical violence and tenacity. Or simply any free man.
 
-### Class Ability: Fighter's Luck
+### Ability: Fighter's Luck
 
 Once per scene, as an instant action, a successful attack roll against the character can be negated or the Fighter missed attack roll can be made into a successful hit.
 
 This ability cannot be used to negate environmental damage or damage done to a vehicule or mount the Fighter is riding.
 
-### Class Ability: Extra Talent
+### Ability: Extra Talent
 
 A Fighter can pick two Talents at level 1, or pick one Talent at level 2. (Other character classes pick only one Talent at level 1).
 
@@ -81,13 +83,13 @@ Thief, diplomat, healer, scholar, explorer, artisan can be enacted by a characte
 
 Dabsters gain the widest variety of non-combat skills and are the quickest to learn more of them.
 
-### Class Ability: Skilled
+### Ability: Skilled
 
 Once per scene, the `Dabster` may reroll any non-combat skill check as an Instant action.
 
 In cases where it matters, the better of the two rolls may be used.
 
-### Class Ability: Quick Learner
+### Ability: Quick Learner
 
 Upon advancing in experience level, the Dabster gains a bonus skill point that can be used on any non-combat, non-magic skill. This point can be saved for later use.
 
@@ -110,13 +112,13 @@ Upon advancing in experience level, the Dabster gains a bonus skill point that c
 
 Casters can weave the threads of the source. That gift grew in them since childhood, they learned how to hide it and how to use it without getting noticed.
 
-### Class Ability: Sneak And Convince
+### Ability: Sneak And Convince
 
 The Caster gains one level in Sneak and one in Convince.
 
 But remember, no novice character skill level can exceed 1.
 
-### Class Ability: Spellcasting
+### Ability: Spellcasting
 
 The Caster gains one level in Cast.
 
@@ -139,7 +141,7 @@ See the magic section for weaver and spellcasting.
 
 
 <!-- .top -->
-## Adventurer
+## Mixing two core classes
 
 Fighter, Dabster, and Caster are meant to cover a wide range of characters, but sometimes more granularity is required. An Adventurer is a mix of two classes, not as strong as a "pure" class, but more versatile.
 
@@ -187,22 +189,6 @@ A partial Dabster has the _quick learner_ class ability but not the _expertise_ 
 A partial Caster must choose between Sneak or Convince, they cannot benefit from both like a pure Caster does. Furthermore, a partial Caster disposes of less weave points, thus can cast less spells.
 
 
-<!-- PAGE BREAK class -->
-
-
-<!-- .margin.compass -->
-* _Character Creation_
-* Attributes
-* Saves
-* Background
-* **Class**
-* Talents
-* Hit Points
-* Name
-* Equip
-
-
-<!-- .top -->
 | Lvl | HP      | Atk | Talent Picks      |
 |:---:|--------:|:---:|:-----------------:|
 |   1 |   1d6+2 |  +1 | 1 Fighter + 1 Any |
@@ -216,7 +202,6 @@ A partial Caster must choose between Sneak or Convince, they cannot benefit from
 |   9 |  9d6+18 |  +6 |                   |
 |  10 | 10d6+20 |  +7 | +1 Any            |
 
-<!-- .top -->
 ## Fighter-Caster
 
 A partial Caster must choose between Sneak or Convince, they cannot benefit from both like a pure Caster does. Furthermore, a partial Caster disposes of less weave points, thus can cast less spells.
