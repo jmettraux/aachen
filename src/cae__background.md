@@ -64,10 +64,11 @@ When a character is given a skill, it sets it at level 0. Taking it a second tim
   | 8   | elite   |
 
   <!-- .social-class -->
-  | d8  | origin  |
-  |:---:|:-------:|
-  | 1-6 | country |
-  | 7-8 | city    |
+  | d12  | origin  |
+  |:----:|:-------:|
+  | 1-8  | country |
+  | 9-11 | city    |
+  | 12   | court   |
 
 [^2]:
   The referee may prevent you from choosing `cast`. Or let you take it for scholarly reasons (no actual spell casting).
