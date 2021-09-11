@@ -425,6 +425,7 @@ table.social-class th { padding-left: 0; }
 table.social-class td { padding-left: 0; }
 table.social-class th:nth-child(1) { width: 40%; }
 
+.margin-top-zero { margin-top: 0 !important; }
 
 /* specific */
 
@@ -489,6 +490,16 @@ dt:after {
 [data-aa-title="background"] .margin table {
   font-size: var(--size-c);
   line-height: 0.77;
+}
+
+[data-aa-title="class"] table {
+  float: right;
+  width: 49%;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: var(--size-b);
+  line-height: 0.7;
 }
 
 /* top right bottom left */
