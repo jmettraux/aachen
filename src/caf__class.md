@@ -13,9 +13,15 @@
 
 # Select Class
 
-There are only three core classes, `Fighter`, `Dabster`, and `Caster`, but they can be mixed in pairs (six classes in total).
+There are only three core classes, `Fighter`, `Dabster`, and `Caster`, but they can be mixed in pairs (thus six possible classes in total).
 
-Characters look and behave like travellers. They sometimes look like warriors or like religious persons. It's a low fantasy setting, casters do not look like "wizards" (remember the pointed hats was an indication that a man was a jewish).
+The choice of a `Caster` class should be made in accord with the referee.
+
+A character with high scores in physical attributes (`STR`, `DEX`, `CON`) can choose between `Fighter` and `Dabster`.
+
+The characters look like travellers,
+
+TODO rework
 
 
 

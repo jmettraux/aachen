@@ -254,7 +254,7 @@ p {
   text-align: justify;
 }
 p + p {
-  text-indent: 3ch;
+  text-indent: 1.2em;
 }
 
 table {
@@ -342,10 +342,12 @@ ul.compass {
   margin-block-start: 0;
   margin-block-end: 0;
   padding-inline-start: 0;
-  text-align: right;
+  text-align: left;
   font-style: italic;
-  border-right: lightgrey solid thin;
-  padding-right: 0.2rem;
+  /*
+  border-left: lightgrey solid thin;
+  padding-left: 0.2rem;
+  */
 }
 ul.compass li {
   color: #c0c0c0;
@@ -363,11 +365,13 @@ ul.compass li strong {
   font-weight: normal;
 }
 .page.even ul.compass {
-  text-align: left;
-  border-left: lightgrey solid thin;
-  padding-left: 0.2rem;
-  border-right: 0;
-  padding-right: 0;
+  text-align: right;
+  /*
+  border-right: lightgrey solid thin;
+  padding-right: 0.2rem;
+  border-left: 0;
+  padding-left: 0;
+  */
 }
 
 .quarter-left { float: left; margin-right: 1rem; width: 24%; }
@@ -420,10 +424,21 @@ table.background-example td {
   border-color: darkgrey !important;
 }
 
-table.social-class { table-layout: fixed; margin-bottom: 1rem; }
-table.social-class th { padding-left: 0; }
-table.social-class td { padding-left: 0; }
-table.social-class th:nth-child(1) { width: 40%; }
+table.social-class {
+  table-layout: fixed;
+  margin-bottom: 1rem;
+}
+table.social-class th {
+  padding-left: 0;
+  border-bottom: lightgrey solid thin;
+  font-weight: 500;
+}
+table.social-class td {
+  padding-left: 0;
+}
+table.social-class th:nth-child(1) {
+  width: 40%;
+}
 
 /* specific */
 
