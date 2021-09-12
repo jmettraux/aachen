@@ -41,6 +41,8 @@
 
   --page-width: 210mm; /* A4 */
   --page-height: 297mm; /* A4 */
+  /*--page-width: 215.9mm; / * US Letter */
+  /*--page-height: 279.4mm; / * US Letter */
 
   --tblock-height: calc(var(--page-height) / 10 * 9);
   --tblock-width: calc(var(--tblock-height) / var(--phi));
@@ -184,6 +186,7 @@ body {
 
 @page {
   size: A4;
+  /*size: Letter;*/
   margin: 0;
   padding: 0;
 }
@@ -506,8 +509,8 @@ dt:after {
 }
 
 [data-aa-title="class"] h2 {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 [data-aa-title="class"] h3 {
   margin-top: 1rem;
@@ -520,7 +523,7 @@ dt:after {
 [data-aa-title="class"] table {
   float: right;
   width: 49%;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-left: 1rem;
   margin-bottom: 0.5rem;
   font-size: var(--size-b);
