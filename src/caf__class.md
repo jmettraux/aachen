@@ -13,20 +13,20 @@
 
 # Select Class
 
-There are only three core classes, `Fighter`, `Dabster`, and `Caster`, but they can be mixed in pairs (thus six possible classes in total).
+There are only three core classes, `Fighter`, `Dabster`, and `Caster`, but they can be mixed in pairs (three plus three classes in total).
 
-The choice of a `Caster` class should be made in accord with the referee.
+Adventurers are probably travellers, pilgrims, traders, vagabonds, gyrovagues, or hired hands on a mission. One who wields a spear is probably a fighter, you'd have to see them fight to ascertain that, the man with a tonsure is a cleric, or someone posing as one.
 
-A character with high scores in physical attributes (`STR`, `DEX`, `CON`) can choose between `Fighter` and `Dabster`.
+There should probably be no more than one `Caster` per adventurer group. It's a difficult class to play, it's weaker and must hide its abilities constantly from others.
 
-The characters look like travellers,
+A party composed only of `Fighter` characters is acceptable, but having one or two `Dabster` characters is probably better.
 
-TODO rework
+The number of classes is limited, but not your imagination, and experience will forge the characters gradually.
 
+&nbsp;
 
-
-| Lvl | HP      | Atk | Talent Picks      |
-|:---:|--------:|:---:|:-----------------:|
+| Lvl | HP      | Atk | Talent Levels     |
+|:---:|:-------:|:---:|:-----------------:|
 |   1 |   1d6+2 |  +1 | 1 Any + 1 Fighter |
 |   2 |   2d6+4 |  +2 | +1 Any            |
 |   3 |   3d6+6 |  +3 |                   |
@@ -40,17 +40,24 @@ TODO rework
 
 ## Fighter
 
-People gifted for physical violence and tenacity. Or simply any free man.
+Any free man is supposed to bear arms in service of his community. Better if he has some actual training in using them.
+
+Choosing the `Fighter` class doesn't mean the character is a professional soldier, it means they have an aptitude for weapons and are devoting time to maintain and enhance that aptitude.
 
 ### Ability: Fighter's Luck
 
-Once per scene, as an instant action, a successful attack roll against the character can be negated or the Fighter missed attack roll can be made into a successful hit.
+Once per scene, as an instant action, a successful attack roll against the character can be negated or the character missed attack roll can be made to hit.
 
-This ability cannot be used to negate environmental damage or damage done to a vehicule or mount the Fighter is riding.
+This ability cannot be used to negate an attack on a vehicle or creature the character is riding. It cannot be used to negate damage inflicted by the "environment" the character is in.
 
 ### Ability: Extra Talent
 
+<!--
+ All heroes can pick one Focus, but Warriors may pick two, either taking two different Foci at first level or taking two
+levels of a single favored art.
+
 A Fighter can pick two Talents at level 1, or pick one Talent at level 2. (Other character classes pick only one Talent at level 1).
+-->
 
 
 <!-- PAGE BREAK class -->
@@ -69,8 +76,8 @@ A Fighter can pick two Talents at level 1, or pick one Talent at level 2. (Other
 
 
 <!-- .top -->
-| Lvl | HP   | Atk | Talent Picks      |
-|:---:|-----:|:---:|:-----------------:|
+| Lvl | HP   | Atk | Talent Levels     |
+|:---:|:----:|:---:|:-----------------:|
 |   1 |  1d6 |  +0 | 1 Any + 1 Dabster |
 |   2 |  2d6 |  +1 | +1 Any            |
 |   3 |  3d6 |  +1 |                   |
@@ -101,18 +108,18 @@ Upon advancing in experience level, the Dabster gains a bonus skill point that c
 
 
 
-| Lvl | HP      | Atk | Talent Picks |
-|:---:|--------:|:---:|:------------:|
-|   1 |   1d6-1 |  +0 | 1 Any        |
-|   2 |   2d6-2 |  +0 | +1 Any       |
-|   3 |   3d6-3 |  +1 |              |
-|   4 |   4d6-4 |  +1 |              |
-|   5 |   5d6-5 |  +2 | +1 Any       |
-|   6 |   6d6-6 |  +2 |              |
-|   7 |   7d6-7 |  +3 | +1 Any       |
-|   8 |   8d6-8 |  +3 |              |
-|   9 |   9d6-9 |  +3 |              |
-|  10 | 10d6-10 |  +4 | +1 Any       |
+| Lvl | HP      | Atk | Talent Levels |
+|:---:|:-------:|:---:|:-------------:|
+|   1 |   1d6-1 |  +0 | 1 Any         |
+|   2 |   2d6-2 |  +0 | +1 Any        |
+|   3 |   3d6-3 |  +1 |               |
+|   4 |   4d6-4 |  +1 |               |
+|   5 |   5d6-5 |  +2 | +1 Any        |
+|   6 |   6d6-6 |  +2 |               |
+|   7 |   7d6-7 |  +3 | +1 Any        |
+|   8 |   8d6-8 |  +3 |               |
+|   9 |   9d6-9 |  +3 |               |
+|  10 | 10d6-10 |  +4 | +1 Any        |
 
 ## Caster
 
@@ -153,18 +160,18 @@ Fighter, Dabster, and Caster are meant to cover a wide range of characters, but 
 
 
 
-| Lvl | HP      | Atk | Talent Picks                  |
-|:---:|--------:|:---:|:-----------------------------:|
-|   1 |   1d6+2 |  +1 | 1 Dabster + 1 Fighter + 1 Any |
-|   2 |   2d6+4 |  +2 | +1 Any                        |
-|   3 |   3d6+6 |  +2 |                               |
-|   4 |   4d6+8 |  +3 |                               |
-|   5 |  5d6+10 |  +4 | +1 Any                        |
-|   6 |  6d6+12 |  +5 |                               |
-|   7 |  7d6+14 |  +5 | +1 Any                        |
-|   8 |  8d6+16 |  +6 |                               |
-|   9 |  9d6+18 |  +6 |                               |
-|  10 | 10d6+20 |  +7 | +1 Any                        |
+| Lvl | HP      | Atk | Talent Levels                 |
+|:---:|:-------:|:---:|:-----------------------------:|
+|   1 |   1d6+1 |  +1 | 1 Dabster + 1 Fighter + 1 Any |
+|   2 |   2d6+2 |  +2 | +1 Any                        |
+|   3 |   3d6+3 |  +2 |                               |
+|   4 |   4d6+4 |  +3 |                               |
+|   5 |   5d6+5 |  +4 | +1 Any                        |
+|   6 |   6d6+6 |  +5 |                               |
+|   7 |   7d6+7 |  +5 | +1 Any                        |
+|   8 |   8d6+8 |  +6 |                               |
+|   9 |   9d6+9 |  +6 |                               |
+|  10 | 10d6+10 |  +7 | +1 Any                        |
 
 ## Dabster-Fighter
 
@@ -175,8 +182,8 @@ A partial Fighter doesn't have the _fighter's luck_ class ability but still rece
 A partial Dabster / partial Fighter attack bonuses progress less advantageously than for a pure Fighter, but the hit points progress is equivalent.
 
 
-| Lvl | HP   | Atk | Talent Picks      |
-|:---:|-----:|:---:|:-----------------:|
+| Lvl | HP   | Atk | Talent Levels     |
+|:---:|:----:|:---:|:-----------------:|
 |   1 |  1d6 |  +0 | 1 Dabster + 1 Any |
 |   2 |  2d6 |  +1 | +1 Any            |
 |   3 |  3d6 |  +1 |                   |
@@ -195,18 +202,18 @@ A partial Dabster has the _quick learner_ class ability but not the _expertise_ 
 A partial Caster must choose between Sneak or Convince, they cannot benefit from both like a pure Caster does. Furthermore, a partial Caster disposes of less weave points, thus can cast less spells.
 
 
-| Lvl | HP      | Atk | Talent Picks      |
-|:---:|--------:|:---:|:-----------------:|
-|   1 |   1d6+2 |  +1 | 1 Fighter + 1 Any |
-|   2 |   2d6+4 |  +2 | +1 Any            |
-|   3 |   3d6+6 |  +2 |                   |
-|   4 |   4d6+8 |  +3 |                   |
-|   5 |  5d6+10 |  +4 | +1 Any            |
-|   6 |  6d6+12 |  +5 |                   |
-|   7 |  7d6+14 |  +5 | +1 Any            |
-|   8 |  8d6+16 |  +6 |                   |
-|   9 |  9d6+18 |  +6 |                   |
-|  10 | 10d6+20 |  +7 | +1 Any            |
+| Lvl | HP      | Atk | Talent Levels     |
+|:---:|:-------:|:---:|:-----------------:|
+|   1 |   1d6+1 |  +1 | 1 Fighter + 1 Any |
+|   2 |   2d6+2 |  +2 | +1 Any            |
+|   3 |   3d6+3 |  +2 |                   |
+|   4 |   4d6+4 |  +3 |                   |
+|   5 |   5d6+5 |  +4 | +1 Any            |
+|   6 |   6d6+6 |  +5 |                   |
+|   7 |   7d6+7 |  +5 | +1 Any            |
+|   8 |   8d6+8 |  +6 |                   |
+|   9 |   9d6+9 |  +6 |                   |
+|  10 | 10d6+10 |  +7 | +1 Any            |
 
 ## Fighter-Caster
 
