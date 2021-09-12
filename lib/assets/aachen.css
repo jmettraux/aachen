@@ -347,10 +347,8 @@ ul.compass {
   padding-inline-start: 0;
   text-align: left;
   font-style: italic;
-  /*
-  border-left: lightgrey solid thin;
-  padding-left: 0.2rem;
-  */
+  padding-left: 0.3rem;
+  padding-right: 0;
 }
 ul.compass li {
   color: #c0c0c0;
@@ -369,12 +367,8 @@ ul.compass li strong {
 }
 .page.even ul.compass {
   text-align: right;
-  /*
-  border-right: lightgrey solid thin;
-  padding-right: 0.2rem;
-  border-left: 0;
   padding-left: 0;
-  */
+  padding-right: 0.3rem;
 }
 
 .quarter-left { float: left; margin-right: 1rem; width: 24%; }
