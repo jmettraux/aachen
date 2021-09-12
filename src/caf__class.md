@@ -25,18 +25,18 @@ The number of classes is limited, but not your imagination, and experience will 
 
 &nbsp;
 
-| Lvl | HP      | Atk | Talent Increments |
-|:---:|:-------:|:---:|:-----------------:|
-|   1 |   1d6+2 |  +1 | 1 any             |
-|   2 |   2d6+4 |  +2 | 1 any             |
-|   3 |   3d6+6 |  +3 |                   |
-|   4 |   4d6+8 |  +4 |                   |
-|   5 |  5d6+10 |  +5 | 1 any             |
-|   6 |  6d6+12 |  +6 |                   |
-|   7 |  7d6+14 |  +7 | 1 any             |
-|   8 |  8d6+16 |  +8 |                   |
-|   9 |  9d6+18 |  +9 |                   |
-|  10 | 10d6+20 | +10 | 1 any             |
+| Lvl | HP      | Atk | Talents |
+|:---:|:-------:|:---:|:-------:|
+|   1 |   1d6+2 |  +1 | 1       |
+|   2 |   2d6+4 |  +2 | +1      |
+|   3 |   3d6+6 |  +3 |         |
+|   4 |   4d6+8 |  +4 |         |
+|   5 |  5d6+10 |  +5 | +1      |
+|   6 |  6d6+12 |  +6 |         |
+|   7 |  7d6+14 |  +7 | +1      |
+|   8 |  8d6+16 |  +8 |         |
+|   9 |  9d6+18 |  +9 |         |
+|  10 | 10d6+20 | +10 | +1      |
 
 ## Fighter
 
@@ -78,18 +78,18 @@ A Fighter can pick two Talents at level 1, or pick one Talent at level 2. (Other
 
 
 <!-- .top -->
-| Lvl | HP   | Atk | Talent Increments |
-|:---:|:----:|:---:|:-----------------:|
-|   1 |  1d6 |  +0 | 1 any, 1 Dabster  |
-|   2 |  2d6 |  +1 | 1 any             |
-|   3 |  3d6 |  +1 |                   |
-|   4 |  4d6 |  +2 |                   |
-|   5 |  5d6 |  +2 | 1 any             |
-|   6 |  6d6 |  +3 |                   |
-|   7 |  7d6 |  +3 | 1 any             |
-|   8 |  8d6 |  +4 |                   |
-|   9 |  9d6 |  +4 |                   |
-|  10 | 10d6 |  +5 | 1 any             |
+| Lvl | HP   | Atk | Talents |
+|:---:|:----:|:---:|:-------:|
+|   1 |  1d6 |  +0 | **2**   |
+|   2 |  2d6 |  +1 | +1      |
+|   3 |  3d6 |  +1 |         |
+|   4 |  4d6 |  +2 |         |
+|   5 |  5d6 |  +2 | +1      |
+|   6 |  6d6 |  +3 |         |
+|   7 |  7d6 |  +3 | +1      |
+|   8 |  8d6 |  +4 |         |
+|   9 |  9d6 |  +4 |         |
+|  10 | 10d6 |  +5 | +1      |
 
 <!-- .top -->
 ## Dabster
@@ -112,18 +112,18 @@ See the section on _Advancement_ for how it plays out.
 
 
 
-| Lvl | HP      | Atk | Talent Increments |
-|:---:|:-------:|:---:|:-----------------:|
-|   1 |   1d6-1 |  +0 | 1 any             |
-|   2 |   2d6-2 |  +0 | 1 any             |
-|   3 |   3d6-3 |  +1 |                   |
-|   4 |   4d6-4 |  +1 |                   |
-|   5 |   5d6-5 |  +2 | 1 any             |
-|   6 |   6d6-6 |  +2 |                   |
-|   7 |   7d6-7 |  +3 | 1 any             |
-|   8 |   8d6-8 |  +3 |                   |
-|   9 |   9d6-9 |  +3 |                   |
-|  10 | 10d6-10 |  +4 | 1 any             |
+| Lvl | HP      | Atk | Talents |
+|:---:|:-------:|:---:|:-------:|
+|   1 |   1d6-1 |  +0 | 1       |
+|   2 |   2d6-2 |  +0 | +1      |
+|   3 |   3d6-3 |  +1 |         |
+|   4 |   4d6-4 |  +1 |         |
+|   5 |   5d6-5 |  +2 | +1      |
+|   6 |   6d6-6 |  +2 |         |
+|   7 |   7d6-7 |  +3 | +1      |
+|   8 |   8d6-8 |  +3 |         |
+|   9 |   9d6-9 |  +3 |         |
+|  10 | 10d6-10 |  +4 | +1      |
 
 ## Caster
 
@@ -135,7 +135,7 @@ Some of them are very talented, some others less so but were lucky enough to fin
 
 Once per scene, a missed _Sneak_ or _Convince_ skill check can be turned into a success.
 
-`Caster`s spends most of their life hiding their abilities. They are used to cover up, deny, conceal, etc.
+`Caster`s spend most of their life hiding their abilities. They are used to cover up, deny, conceal, etc.
 
 ### ❦ Spellcasting
 
@@ -165,19 +165,20 @@ See the spellcasting section for more.
 Fighter, Dabster, and Caster are meant to cover a wide range of characters, but sometimes more granularity is required. An Adventurer is a mix of two classes, not as strong as a "pure" class, but more versatile.
 
 
+<!-- .clear -->
 
-| Lvl | HP      | Atk | Talent Increments |
-|:---:|:-------:|:---:|:-----------------:|
-|   1 |   1d6+1 |  +1 | 1 any, 1 Fighter  |
-|   2 |   2d6+2 |  +2 | 1 any             |
-|   3 |   3d6+3 |  +2 |                   |
-|   4 |   4d6+4 |  +3 |                   |
-|   5 |   5d6+5 |  +4 | 1 any             |
-|   6 |   6d6+6 |  +5 |                   |
-|   7 |   7d6+7 |  +5 | 1 any             |
-|   8 |   8d6+8 |  +6 |                   |
-|   9 |   9d6+9 |  +6 |                   |
-|  10 | 10d6+10 |  +7 | 1 any             |
+| Lvl | HP      | Atk | Talents |
+|:---:|:-------:|:---:|:-------:|
+|   1 |   1d6+1 |  +1 | 1       |
+|   2 |   2d6+2 |  +2 | +1      |
+|   3 |   3d6+3 |  +2 |         |
+|   4 |   4d6+4 |  +3 |         |
+|   5 |   5d6+5 |  +4 | +1      |
+|   6 |   6d6+6 |  +5 |         |
+|   7 |   7d6+7 |  +5 | +1      |
+|   8 |   8d6+8 |  +6 |         |
+|   9 |   9d6+9 |  +6 |         |
+|  10 | 10d6+10 |  +7 | +1      |
 
 ## Dabster-Fighter
 
@@ -188,18 +189,20 @@ A partial Fighter doesn't have the _fighter's luck_ class ability but still rece
 A partial Dabster / partial Fighter attack bonuses progress less advantageously than for a pure Fighter, but the hit points progress is equivalent.
 
 
-| Lvl | HP   | Atk | Talent Increments |
-|:---:|:----:|:---:|:-----------------:|
-|   1 |  1d6 |  +0 | 1 Dabster, 1 any  |
-|   2 |  2d6 |  +1 | 1 any             |
-|   3 |  3d6 |  +1 |                   |
-|   4 |  4d6 |  +2 |                   |
-|   5 |  5d6 |  +2 | 1 any             |
-|   6 |  6d6 |  +3 |                   |
-|   7 |  7d6 |  +3 | 1 any             |
-|   8 |  8d6 |  +4 |                   |
-|   9 |  9d6 |  +4 |                   |
-|  10 | 10d6 |  +5 | 1 any             |
+<!-- .clear -->
+
+| Lvl | HP   | Atk | Talents |
+|:---:|:----:|:---:|:-------:|
+|   1 |  1d6 |  +0 | **2**   |
+|   2 |  2d6 |  +1 | +1      |
+|   3 |  3d6 |  +1 |         |
+|   4 |  4d6 |  +2 |         |
+|   5 |  5d6 |  +2 | +1      |
+|   6 |  6d6 |  +3 |         |
+|   7 |  7d6 |  +3 | +1      |
+|   8 |  8d6 |  +4 |         |
+|   9 |  9d6 |  +4 |         |
+|  10 | 10d6 |  +5 | +1      |
 
 ## Dabster-Caster
 
@@ -208,18 +211,20 @@ A partial Dabster has the _quick learner_ class ability but not the _expertise_ 
 A partial Caster must choose between Sneak or Convince, they cannot benefit from both like a pure Caster does. Furthermore, a partial Caster disposes of less weave points, thus can cast less spells.
 
 
-| Lvl | HP      | Atk | Talent Increments |
-|:---:|:-------:|:---:|:-----------------:|
-|   1 |   1d6+1 |  +1 | 1 any             |
-|   2 |   2d6+2 |  +2 | 1 any             |
-|   3 |   3d6+3 |  +2 |                   |
-|   4 |   4d6+4 |  +3 |                   |
-|   5 |   5d6+5 |  +4 | 1 any             |
-|   6 |   6d6+6 |  +5 |                   |
-|   7 |   7d6+7 |  +5 | 1 any             |
-|   8 |   8d6+8 |  +6 |                   |
-|   9 |   9d6+9 |  +6 |                   |
-|  10 | 10d6+10 |  +7 | 1 any             |
+<!-- .clear -->
+
+| Lvl | HP      | Atk | Talents |
+|:---:|:-------:|:---:|:-------:|
+|   1 |   1d6+1 |  +1 | 1       |
+|   2 |   2d6+2 |  +2 | +1      |
+|   3 |   3d6+3 |  +2 |         |
+|   4 |   4d6+4 |  +3 |         |
+|   5 |   5d6+5 |  +4 | +1      |
+|   6 |   6d6+6 |  +5 |         |
+|   7 |   7d6+7 |  +5 | +1      |
+|   8 |   8d6+8 |  +6 |         |
+|   9 |   9d6+9 |  +6 |         |
+|  10 | 10d6+10 |  +7 | +1      |
 
 ## Fighter-Caster
 

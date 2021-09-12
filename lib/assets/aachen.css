@@ -316,9 +316,7 @@ dd > p {
 
 /* CLASSES */
 
-.clear {
-  clear: both;
-}
+.clear { clear: both; }
 
 .book-title {
   font-size: 60pt;
@@ -516,7 +514,7 @@ dt:after {
 
 [data-aa-title="class"] table {
   float: right;
-  width: 49%;
+  width: 33%;
   margin-top: 1rem;
   margin-left: 1rem;
   margin-bottom: 0.5rem;
