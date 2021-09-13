@@ -11,8 +11,102 @@
 * Equip
 
 
+<!-- <div.two-columns> -->
+<!-- <div.left-column> -->
+
 # Select Talents
 
+A talent is a qualifier, for example a character might be `Lucky`. A talent may be select two times, simply prefix the character with _very_, our character becomes `Very Lucky`.
+
+The talent descriptions have thus two lines, one for the _normal_ gift, and one for the _very_ version of it.
+
+FIXME
+
+
+Hardy
+: +1 on _Physical_ saves
+: Advantage on _Physical_ saves
+
+Evasive
+: +1 on _Evasion_ saves
+: Advantage on _Evasion_ saves
+
+Wise
+: +1 on _Mental_ saves
+: Advantage on _Mental_ saves
+
+Lucky
+: +1 on _Luck_ saves
+: Advantage on _Luck_ saves
+
+Swerving
+: Once per scene, as an instant action, a successful attack against the character can be negated
+: As per · or a missed attack by the character can be made to succeed
+
+Skilled
+: Once per scene, as an instant action, a missed non-combat skill check can be turned into a success
+: TODO
+
+Deceiving
+: TODO
+: TODO
+
+<!-- </div.left-column> -->
+<!-- <div.right-column> -->
+
+Hardy 1
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+
+Hardy 2
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+
+Hardy 3
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+
+Hardy 4
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+
+Hardy 5
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+
+Hardy 6
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+
+Hardy 7
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+
+Hardy 8
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+
+Hardy 9
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+
+Hardy 10
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+
+Hardy 11
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+
+Hardy 12
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+
+<!-- </div.right-column> -->
+<!-- </div.two-columns> -->
+
+
+<!--
 Once a character has a class, their Talents can be chosen. They are special knacks or focuses that the character developed.
 
 Each Talent generally comes in two levels; the first time it is picked, it yields the first level, and the second time one gains the second level.
@@ -37,4 +131,5 @@ Level 1
 
 Level 2
 : Always acts first in a combat round unless someone else involved also has Watchful.
+-->
 

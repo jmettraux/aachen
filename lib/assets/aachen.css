@@ -476,9 +476,9 @@ table.social-class th:nth-child(1) {
 [data-aa-title="skills"] dt {
   float: left;
 }
-dt:after {
+/*[data-aa-title="skills"] dt:after {
   content: '·';
-}
+}*/
 [data-aa-title="skills"] dd {
   margin-left: 0.5rem;
 }
@@ -514,7 +514,7 @@ dt:after {
 
 [data-aa-title="class"] table {
   float: right;
-  width: 33%;
+  width: 34%;
   margin-top: 1rem;
   margin-left: 1rem;
   margin-bottom: 0.5rem;
@@ -527,6 +527,49 @@ dt:after {
 }
 [data-aa-title="class"] table.top {
   margin-top: 0.5rem;
+}
+
+[data-aa-title="talents"] dl {
+  display: block;
+  margin-top: 0;
+  font-size: var(--size-b);
+  line-height: var(--mul-b);
+}
+[data-aa-title="talents"] p + dl {
+  margin-top: 1.5rem;
+}
+[data-aa-title="talents"] dt {
+  display: inline;
+  padding-top: 0.25rem;
+  padding-right:0;
+  float: none;
+  text-align: left;
+  font-variant: small-caps;
+  font-weight: 500;
+  text-transform: lowercase;
+  font-size: var(--size-a);
+}
+[data-aa-title="talents"] dt:after {
+  content: '';
+  padding-left: 0;
+}
+[data-aa-title="talents"] dd:before {
+  content: '·';
+  padding-left: 0.3rem;
+  font-weight: 900;
+  color: red;
+  break-after: avoid;
+}
+[data-aa-title="talents"] dt + dd + dd:before {
+  content: '··';
+}
+[data-aa-title="talents"] dd {
+  display: inline;
+}
+[data-aa-title="talents"] dt + dd + dd {
+  display: block;
+  margin-bottom: 0.5rem;
+  text-indent: 0.3rem;
 }
 
 /* top right bottom left */
