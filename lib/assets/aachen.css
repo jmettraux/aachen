@@ -554,11 +554,10 @@ table.social-class th:nth-child(1) {
   padding-left: 0;
 }
 [data-aa-title="talents"] dd:before {
-  content: '·';
   padding-left: 0.3rem;
+  content: '·';
   font-weight: 900;
   color: red;
-  break-after: avoid;
 }
 [data-aa-title="talents"] dt + dd + dd:before {
   content: '··';
@@ -566,10 +565,10 @@ table.social-class th:nth-child(1) {
 [data-aa-title="talents"] dd {
   display: inline;
 }
-[data-aa-title="talents"] dt + dd + dd {
+[data-aa-title="talents"] dt + dd + dd:after {
+  content: '';
   display: block;
   margin-bottom: 0.5rem;
-  text-indent: 0.3rem;
 }
 
 /* top right bottom left */

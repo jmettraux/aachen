@@ -23,7 +23,7 @@ The talent descriptions have thus two lines, one for the _normal_ gift, and one 
 FIXME
 
 
-Hardy
+Firm
 : +1 on _Physical_ saves
 : Advantage on _Physical_ saves
 
@@ -43,64 +43,68 @@ Swerving
 : Once per scene, as an instant action, a successful attack against the character can be negated
 : As per · or a missed attack by the character can be made to succeed
 
-Skilled
+Skillful
 : Once per scene, as an instant action, a missed non-combat skill check can be turned into a success
-: TODO
+: As per · and the character has a +1 on checks for known skills (level 0 or better)
 
-Deceiving
-: TODO
-: TODO
+Deceitful
+: Once per scene, as an instant action, a missed _Sneak_ or _Convince_ check can be turned into a success
+: As per · and the character has a +1 on _Sneak_ and _Convince_ checks aimed at deception
+
+Intricate
+: May cast spells, has some _weave points_ to do so
+: May cast spells, has more _weave points_ (see Spellcasting section)
 
 <!-- </div.left-column> -->
 <!-- <div.right-column> -->
 
+Artful
+: TODO
+: TODO
+
+Sharp
+: TODO
+: TODO
+
+Vigorous
+: TODO
+: TODO
+
 Hardy 1
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 
 Hardy 2
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 
 Hardy 3
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 
 Hardy 4
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 
 Hardy 5
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 
 Hardy 6
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 
 Hardy 7
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 
 Hardy 8
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 
 Hardy 9
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
-
-Hardy 10
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
-
-Hardy 11
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
-
-Hardy 12
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding chan
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 
 <!-- </div.right-column> -->
 <!-- </div.two-columns> -->

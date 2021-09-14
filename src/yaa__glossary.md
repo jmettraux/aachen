@@ -6,6 +6,9 @@
 AC
 : See __Armor Class__
 
+Advantage
+: TODO
+
 Armor Class
 : TODO
 
@@ -40,6 +43,9 @@ DEX
 : Abbreviation for __Dexterity__
 
 Dexterity
+: TODO
+
+Disadvantage
 : TODO
 
 Exploration Turn
