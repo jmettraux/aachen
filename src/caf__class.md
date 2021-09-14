@@ -11,7 +11,7 @@
 * Equip
 
 
-# Select Class
+# Select a Class
 
 There are only three core classes, `Fighter`, `Dabster`, and `Caster`, but they can be mixed in pairs (three plus three classes in total).
 
@@ -115,7 +115,7 @@ A `Caster` has `VERY INTRICATE` and `VERY WISE` as class talents.
 The ~~factor~~ for computing the weave points (WP) of a `Caster` is the best of the `INT`, `WIS`, or `CHA` modifier.
 
 
-# Class Mixes
+# _or_ Mix two Classes
 
 `Fighter`, `Dabster`, and `Caster` are meant to cover a wide range of characters, but sometimes more granularity is required. A mix has its own level progression table, but the player has to choose between the class talents.
 

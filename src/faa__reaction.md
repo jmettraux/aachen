@@ -1,5 +1,5 @@
 
-# Reaction Rolls And Parley
+# Reaction Rolls and Parley
 
 A reaction roll determines the reaction of another party upon meeting the player characters.
 
