@@ -115,9 +115,9 @@ A `Caster` has `VERY INTRICATE` and `VERY WISE` as class talents.
 The ~~factor~~ for computing the weave points (WP) of a `Caster` is the best of the `INT`, `WIS`, or `CHA` modifier.
 
 
-# _or_ Mix two Classes
+# _or a_ Mix _of_ two Classes
 
-`Fighter`, `Dabster`, and `Caster` are meant to cover a wide range of characters, but sometimes more granularity is required. A mix has its own level progression table, but the player has to choose between the class talents.
+`Fighter`, `Dabster`, and `Caster` are meant to cover a wide range of characters, but sometimes more granularity is required. A mix has its own level progression table, but the player has to choose between the class talents or halves of them.
 
 For example, a `Fighter-Caster` has to choose between the class talents of the `Fighter` and of the `Caster`. The player can chose `VERY SWERVING` and `VERY INTRICATE`, or he could split the talents and take `VERY INTRICATE`, `SWERVING` and `FIRM` (1 very equals 2 non-very talents).
 
