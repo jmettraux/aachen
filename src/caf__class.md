@@ -15,7 +15,9 @@
 
 There are only three core classes, `Fighter`, `Dabster`, and `Caster`, but they can be mixed in pairs (three plus three classes in total).
 
-Each class has its own Hit Points and Attack Bonus progression as character level increases. A class is also given two class talents and one free talent to select (two free talents for a `Dabster`).
+Each class has its own Hit Points and Attack Bonus progression as character level increases.
+
+A class is also given two class talents and one free talent to select (two free talents for a `Dabster`). A talent is a qualifier that comes in two levels: unprefixed and _very_-prefixed. The two class talents are already _very_-prefixed.
 
 Adventurers are probably travellers, pilgrims, traders, vagabonds, gyrovagues, or hired hands on a mission. One who wields a spear is probably a fighter, you'd have to see them fight to ascertain that, the man with a tonsure is a cleric, or someone posing as one.
 
@@ -48,19 +50,6 @@ Choosing the `Fighter` class doesn't mean the character is a professional soldie
 
 The `Fighter` class talents are `VERY SWERVING` and `VERY FIRM`.
 
-<!--
-### ❦ Swerving
-
-Once per scene, as an instant action, a successful attack roll against the character can be negated or the character missed attack roll can be made to hit.
-
-This ability cannot be used to negate an attack targetting a vehicle or creature the character is riding. It cannot be used to negate damage inflicted by the "environment" the character is in.
--->
-<!--
- All heroes can pick one Focus, but Warriors may pick two, either taking two different Foci at first level or taking two
-levels of a single favored art.
-
-A Fighter can pick two Talents at level 1, or pick one Talent at level 2. (Other character classes pick only one Talent at level 1).
--->
 
 
 | Lvl | HP   | Atk | Talents |
@@ -83,14 +72,6 @@ One who is skilled, proficient. Thief, diplomat, healer, scholar, explorer, prie
 Dabsters gain the widest variety of non-combat skills and are the quickest to learn more of them.
 
 The `Dabster` class talents are `VERY SKILLFUL` and `VERY EVASIVE`.
-
-<!--
-### ❦ Assimilating
-
-Upon advancing in experience level, the Dabster gains a bonus skill point that can be used on any non-combat, non-magic skill. This point can be saved for later use.
-
-See the section on _Advancement_ for how it plays out.
--->
 
 
 <!-- PAGE BREAK class -->
@@ -134,11 +115,14 @@ A `Caster` has `VERY INTRICATE` and `VERY WISE` as class talents.
 The ~~factor~~ for computing the weave points (WP) of a `Caster` is the best of the `INT`, `WIS`, or `CHA` modifier.
 
 
-## Mixing two classes
+# Class Mixes
 
-Fighter, Dabster, and Caster are meant to cover a wide range of characters, but sometimes more granularity is required. An Adventurer is a mix of two classes, not as strong as a "pure" class, but more versatile.
+`Fighter`, `Dabster`, and `Caster` are meant to cover a wide range of characters, but sometimes more granularity is required. A mix has its own level progression table, but the player has to choose between the class talents.
 
-<!-- .right -->
+For example, a `Fighter-Caster` has to choose between the class talents of the `Fighter` and of the `Caster`. The player can chose `VERY SWERVING` and `VERY INTRICATE`, or he could split the talents and take `VERY INTRICATE`, `SWERVING` and `FIRM` (1 very equals 2 non-very talents).
+
+
+<!-- .right.further -->
 | Lvl | HP      | Atk | Talents |
 |:---:|:-------:|:---:|:-------:|
 |   1 |   1d6+1 |  +1 | 1       |
@@ -152,6 +136,7 @@ Fighter, Dabster, and Caster are meant to cover a wide range of characters, but 
 |   9 |   9d6+9 |  +6 |         |
 |  10 | 10d6+10 |  +7 | +1      |
 
+<!-- .ambi.further -->
 ## Fighter-Dabster _or_ Fighter-Caster
 
 Those two mixes grant more hit points and better attacks.
@@ -174,6 +159,7 @@ The ~~factor~~ for computing the weave points (WP) of a `Fighter-Caster` charact
 |   9 |  9d6 |  +4 |         |
 |  10 | 10d6 |  +5 | +1      |
 
+<!-- .ambi -->
 ## Dabster-Caster
 
 This mix grants one more talent at character creation. It gives the hit points and the attack bonuses of the Dabster.
