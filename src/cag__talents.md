@@ -52,8 +52,8 @@ Deceitful
 : As per · and the character has a +1 on _Sneak_ and _Convince_ checks aimed at deception
 
 Intricate
-: May cast spells, has some _weave points_ to do so
-: May cast spells, has more _weave points_ (see Spellcasting section)
+: May cast spells, WP = level * ~~factor~~
+: May cast spells, WP = level + (level * ~~factor~~)
 
 <!-- </div.left-column> -->
 <!-- <div.right-column> -->
@@ -67,6 +67,10 @@ Sharp
 : TODO
 
 Vigorous
+: TODO
+: TODO
+
+Watchful
 : TODO
 : TODO
 
@@ -102,10 +106,6 @@ Hardy 8
 : Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 : Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 
-Hardy 9
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
-
 <!-- </div.right-column> -->
 <!-- </div.two-columns> -->
 
@@ -126,14 +126,6 @@ Aside from the free Talent common to all characters, the Fighter or partial Figh
 
 ## Watchful
 
-Keenly aware of his surroundings and virtually impossible to take unaware. If the referee rolls initiative by side rather than individually, the Watchful character still rolls separately and might act alone before the rest of the group.
-
-Never reacts more slowly than the rest of the party, regardless of roll.
-
-Level 1
-: Gains Notice as a bonus skill. Cannot be surprised. Roll two dice for initiative and take the best, or add +1 to the group initiative roll.
-
-Level 2
-: Always acts first in a combat round unless someone else involved also has Watchful.
+...
 -->
 

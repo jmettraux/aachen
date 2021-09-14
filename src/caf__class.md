@@ -131,28 +131,14 @@ Some of them are very talented, some others less so but were lucky enough to fin
 
 A `Caster` has `VERY INTRICATE` and `VERY WISE` as class talents.
 
-<!--
-### ❦ Obfuscating
-
-Once per scene, a missed _Sneak_ or _Convince_ skill check can be turned into a success.
-
-`Caster`s spend most of their life hiding their abilities. They are used to cover up, deny, conceal, etc.
-
-### ❦ Spellcasting
-
-The `Caster` gains one level in _Cast_ and can weave the thread of magic to cast spells.
-
-See the spellcasting section for more.
--->
+The ~~factor~~ for computing the weave points (WP) of a `Caster` is the best of the `INT`, `WIS`, or `CHA` modifier.
 
 
-## Mixing two core classes
+## Mixing two classes
 
 Fighter, Dabster, and Caster are meant to cover a wide range of characters, but sometimes more granularity is required. An Adventurer is a mix of two classes, not as strong as a "pure" class, but more versatile.
 
-
-<!-- .clear -->
-
+<!-- .right -->
 | Lvl | HP      | Atk | Talents |
 |:---:|:-------:|:---:|:-------:|
 |   1 |   1d6+1 |  +1 | 1       |
@@ -166,17 +152,15 @@ Fighter, Dabster, and Caster are meant to cover a wide range of characters, but 
 |   9 |   9d6+9 |  +6 |         |
 |  10 | 10d6+10 |  +7 | +1      |
 
-## Dabster-Fighter
+## Fighter-Dabster _or_ Fighter-Caster
 
-A partial Dabster has the _quick learner_ class ability but not the _expertise_ one.
+Those two mixes grant more hit points and better attacks.
 
-A partial Fighter doesn't have the _fighter's luck_ class ability but still receives their extra Talent.
+The ~~factor~~ for computing the weave points (WP) of a `Fighter-Caster` character is the `WIS` modifier.
 
-A partial Dabster / partial Fighter attack bonuses progress less advantageously than for a pure Fighter, but the hit points progress is equivalent.
+<!-- clear -->
 
-
-<!-- .clear -->
-
+<!-- .right -->
 | Lvl | HP   | Atk | Talents |
 |:---:|:----:|:---:|:-------:|
 |   1 |  1d6 |  +0 | **2**   |
@@ -192,29 +176,7 @@ A partial Dabster / partial Fighter attack bonuses progress less advantageously 
 
 ## Dabster-Caster
 
-A partial Dabster has the _quick learner_ class ability but not the _expertise_ one.
+This mix grants one more talent at character creation. It gives the hit points and the attack bonuses of the Dabster.
 
-A partial Caster must choose between Sneak or Convince, they cannot benefit from both like a pure Caster does. Furthermore, a partial Caster disposes of less weave points, thus can cast less spells.
-
-
-<!-- .clear -->
-
-| Lvl | HP      | Atk | Talents |
-|:---:|:-------:|:---:|:-------:|
-|   1 |   1d6+1 |  +1 | 1       |
-|   2 |   2d6+2 |  +2 | +1      |
-|   3 |   3d6+3 |  +2 |         |
-|   4 |   4d6+4 |  +3 |         |
-|   5 |   5d6+5 |  +4 | +1      |
-|   6 |   6d6+6 |  +5 |         |
-|   7 |   7d6+7 |  +5 | +1      |
-|   8 |   8d6+8 |  +6 |         |
-|   9 |   9d6+9 |  +6 |         |
-|  10 | 10d6+10 |  +7 | +1      |
-
-## Fighter-Caster
-
-A partial Caster must choose between Sneak or Convince, they cannot benefit from both like a pure Caster does. Furthermore, a partial Caster disposes of less weave points, thus can cast less spells.
-
-A partial Fighter doesn't have the _fighter's luck_ class ability but still receives their extra Talent.
+The ~~factor~~ for computing the weave points (WP) of the character is the `INT` modifier.
 
