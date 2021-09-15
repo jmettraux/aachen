@@ -1,7 +1,7 @@
 
 <!-- PAGE UNBREAK -->
 
-# Finalize Class Selection
+# Select spells
 
-Some classes require the selection of spells or special powers.
+TODO
 
