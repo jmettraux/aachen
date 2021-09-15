@@ -11,10 +11,10 @@
 * Equipment
 
 
-# Skills
-
 <!-- <div.two-columns> -->
 <!-- <div.left-column> -->
+
+# Skills
 
 A character background grants skill levels. Before presenting the backgrounds here are the skill list.
 
@@ -32,7 +32,7 @@ Combat rolls are done with 1d20 plus attribute modifier and plus a combat skill 
 |  3    |  +3 | Inspirational master,<br/>one of the best in the kingdom |
 |  4    |  +4 | One of the best in the known world                       |
 
-## Combat Skills <span class="unskilled">(-2 when unskilled)</span>
+## Combat Skills _(-2 when unskilled)_
 
 Slash
 : Fight with a melee weapon. Maintain such weapons.

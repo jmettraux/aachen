@@ -462,7 +462,11 @@ table.social-class th:nth-child(1) {
   margin-top: 1rem;
   font-size: var(--size-a);
 }
-[data-aa-title="skills"] h2 .unskilled {
+[data-aa-title="skills"] h2:before {
+  content: '❦';
+  padding-right: 0.5rem;
+}
+[data-aa-title="skills"] h2 em {
   font-size: var(--size-c);
   font-variant: normal;
   font-style: italic;
@@ -474,10 +478,13 @@ table.social-class th:nth-child(1) {
 }
 [data-aa-title="skills"] dt {
   float: left;
+  font-variant: small-caps;
+  font-weight: normal;
 }
-/*[data-aa-title="skills"] dt:after {
+[data-aa-title="skills"] dt:after {
   content: '·';
-}*/
+  color: red;
+}
 [data-aa-title="skills"] dd {
   margin-left: 0.5rem;
 }
