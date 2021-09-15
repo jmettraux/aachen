@@ -546,12 +546,13 @@ table.social-class th:nth-child(1) {
 
 [data-aa-title="class"] table.right {
   float: right;
+  margin-top: 0;
   margin-left: 1rem;
   margin-right: 0;
 }
 
 [data-aa-title="class"] p + h1 {
-  margin-bottom: 1em;
+  margin-top: 3rem;
 }
 [data-aa-title="class"] h1 em {
   font-size: 66%;
@@ -567,10 +568,6 @@ table.social-class th:nth-child(1) {
 [data-aa-title="class"] h2.ambi {
   line-height: 0.7;
   margin-bottom: 1rem;
-}
-
-[data-aa-title="class"] .further {
-  margin-top: 2rem;
 }
 
 [data-aa-title="talents"] dl {

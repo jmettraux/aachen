@@ -122,7 +122,7 @@ The ~~factor~~ for computing the cast points (CP) of a `Caster` is the best of t
 For example, a `Fighter-Caster` has to choose between the class talents of the `Fighter` and of the `Caster`. The player can chose `VERY SWERVING` and `VERY INTRICATE`, or he could split the talents and take `VERY INTRICATE`, `SWERVING` and `FIRM` (1 very equals 2 non-very talents).
 
 
-<!-- .right.further -->
+<!-- .right -->
 | Lvl | HP      | Atk | Talents |
 |:---:|:-------:|:---:|:-------:|
 |   1 |   1d6+1 |  +1 | 1       |
@@ -136,7 +136,7 @@ For example, a `Fighter-Caster` has to choose between the class talents of the `
 |   9 |   9d6+9 |  +6 |         |
 |  10 | 10d6+10 |  +7 | +1      |
 
-<!-- .ambi.further -->
+<!-- .ambi -->
 ## Fighter-Dabster _or_ Fighter-Caster
 
 Those two mixes grant more hit points and better attacks.
