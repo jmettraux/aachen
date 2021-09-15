@@ -112,7 +112,7 @@ Some of them are very talented, some others less so but were lucky enough to fin
 
 A `Caster` has `VERY INTRICATE` and `VERY WISE` as class talents.
 
-The ~~factor~~ for computing the weave points (WP) of a `Caster` is the best of the `INT`, `WIS`, or `CHA` modifier.
+The ~~factor~~ for computing the cast points (CP) of a `Caster` is the best of the `INT`, `WIS`, or `CHA` modifier.
 
 
 # _or a_ Mix _of_ two Classes
@@ -141,7 +141,7 @@ For example, a `Fighter-Caster` has to choose between the class talents of the `
 
 Those two mixes grant more hit points and better attacks.
 
-The ~~factor~~ for computing the weave points (WP) of a `Fighter-Caster` character is the `WIS` modifier.
+The ~~factor~~ for computing the cast points (CP) of a `Fighter-Caster` character is the `WIS` modifier.
 
 <!-- clear -->
 
@@ -164,5 +164,5 @@ The ~~factor~~ for computing the weave points (WP) of a `Fighter-Caster` charact
 
 This mix grants one more talent at character creation. It gives the hit points and the attack bonuses of the Dabster.
 
-The ~~factor~~ for computing the weave points (WP) of the character is the `INT` modifier.
+The ~~factor~~ for computing the cast points (CP) of the character is the `INT` modifier.
 

@@ -52,8 +52,8 @@ Deceitful
 : As per · and the character has a +1 on _Sneak_ and _Convince_ checks aimed at deception
 
 Intricate
-: May cast spells, WP = level * ~~factor~~
-: May cast spells, WP = level + (level * ~~factor~~)
+: May cast spells, CP = level * ~~factor~~
+: May cast spells, CP = level + (level * ~~factor~~)
 
 <!-- </div.left-column> -->
 <!-- <div.right-column> -->

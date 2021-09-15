@@ -231,7 +231,7 @@ h1 {
   font-style: normal;
 }
 h1:not(:first-child) {
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 h2 {
   margin-top: 3rem;
