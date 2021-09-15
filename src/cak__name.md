@@ -8,7 +8,7 @@
 * Talents
 * Hit Points
 * **Name**
-* Equip
+* Equipment
 
 
 # Name

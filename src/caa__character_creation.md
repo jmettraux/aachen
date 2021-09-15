@@ -8,7 +8,7 @@
 * Talents
 * Hit Points
 * Name
-* Equip
+* Equipment
 
 
 # Character Creation
@@ -60,6 +60,6 @@ Hit Points
 Name
 : Give character a name
 
-Equip
+Equipment
 : Determine the equipment of the character with the referee.
 

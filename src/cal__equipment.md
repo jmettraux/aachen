@@ -8,10 +8,10 @@
 * Talents
 * Hit Points
 * Name
-* **Equip**
+* **Equipment**
 
 
-# Equip
+# Equipment
 
 The referee grants equipment to the character, according to their background, origin, and class.
 

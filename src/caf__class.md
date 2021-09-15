@@ -8,7 +8,7 @@
 * Talents
 * Hit Points
 * Name
-* Equip
+* Equipment
 
 
 # Select a Class
@@ -86,7 +86,7 @@ The `Dabster` class talents are `VERY SKILLFUL` and `VERY EVASIVE`.
 * Talents
 * Hit Points
 * Name
-* Equip
+* Equipment
 
 
 <!-- .top -->
