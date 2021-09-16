@@ -621,5 +621,16 @@ table.social-class th:nth-child(1) {
   margin-bottom: 0.5rem;
 }
 
+[data-aa-title="name"] table {
+  margin-top: 1rem;
+  font-size: 13px;
+  line-height: 0.6;
+  width: 100%;
+  font-family: var(--sans-face);
+}
+[data-aa-title="name"] table.top {
+  margin-top: 0;
+}
+
 /* top right bottom left */
 
