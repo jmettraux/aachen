@@ -3,34 +3,35 @@
 
 
 frankish_male_names = %w{
-  Adalbert(us)
+  Adalbert
   Agobard
   Audomar
-  Bern(h)ard(us)
+  Bernhard
   Burchard
   Carloman
   Chilperic
   Dagobert
-  Drogo(n)
+  Drogo
   Eberhard
   Ebrulf
   Fredegar
   Fridolin
   Fulk
-  Ger(a,o)ld
+  Gerald
   Goscelin
   Hartgard
   Hilduin
   Ingomer
   Jocelin
   Karlmann
-  Leu(t)fr(e,i)d
-  Martin(us)
-  Nor(d)bert
+  Leutfried
+  Martin
+  Nordbert
   Odo
   Ouen
   Pancras
   Philibert
+  Radbod
   Reginald
   Sigismund
   Theodemir
@@ -42,7 +43,7 @@ frankish_male_names = %w{
 
 frankish_female_names = %w{
   Agatha
-  Ber(g,i)undis
+  Bergundis
   Clothild
   Danburga
   Engelberga
@@ -50,13 +51,14 @@ frankish_female_names = %w{
   Fara
   Fredegunde
   Geneva
-  Gis(e)la
+  Gisela
   Helinda
   Herenfrida
   Hruodgarda
   Imma
   Irmengard
   Joveta
+  Landrada
   Leuekin
   Liedrada
   Merofled
@@ -69,7 +71,7 @@ frankish_female_names = %w{
   Radeken
   Regana
   Rosamund
-  Sig(,e)berta
+  Sigeberta
   Susanna
   Teutberga
   Theodelinda
@@ -77,4 +79,178 @@ frankish_female_names = %w{
   Vulfegundis
   Wisigard
 }
+
+gallic_male_names = %w{
+  Ambigat
+  Adcomaros
+  Aesarius
+  Allovico
+  Ambaxius
+  Bellognatus
+  Britomartis
+  Camulatucus
+  Carigo
+  Catamandus
+  Cingessus
+  Cintumarus
+  Cottio
+  Dano
+  Divicatus
+  Dobagni
+  Eburo
+  Excingomarus
+  Gabrius
+  Haesus
+  Ientinus
+  Losagni
+  Megaravico
+  Nertomaros
+  Oclicnos
+  Perrus
+  Qasigni
+  Remicus
+  Sacrovir
+  Segomaros
+  Tanotalos
+  Trito
+  Ulcagni
+  Venixamus
+  Vocorix
+  Vridolanos
+}
+
+gallic_female_names = %w{
+  Admata
+  Albina
+  Aventina
+  Betudaca
+  Brogimara
+  Cabrilla
+  Caranta
+  Centa
+  Danissa
+  Donisia
+  Elvissa
+  Epponina
+  Fimmilene
+  Gabra
+  Genna
+  Iccia
+  Isosae
+  Karina
+  Loucitta
+  Luppa
+  Mandelana
+  Meducena
+  Moria
+  Namusa
+  Nertomaria
+  Ollia
+  Origena
+  Peruia
+  Regina
+  Rotania
+  Samaxa
+  Segolia
+  Sila
+  Tascilla
+  Veleda
+  Vlatuna
+}
+
+roman_male_names = %w{
+  Aetius
+  Antonius
+  Appius
+  Augustus
+  Aulus
+  Caelus
+  Caius
+  Camillus
+  Cassius
+  Cnaeus
+  Decimus
+  Drusus
+  Faustus
+  Flavius
+  Gallus
+  Julianus
+  Livius
+  Lucius
+  Marcellus
+  Marcus
+  Marcus
+  Maximus
+  Numerius
+  Octavianus
+  Paulus
+  Primus
+  Publius
+  Publius
+  Quintus
+  Secundus
+  Septimus
+  Sextus
+  Tertius
+  Tiberius
+  Titus
+  Tullus
+}
+
+roman_female_names = %w{
+  Aemilia
+  Amanda
+  Aquillia
+  Aurelia
+  Barbatia
+  Bella
+  Caecilia
+  Caesonia
+  Calpornia
+  Camilia
+  Domitia
+  Drusilla
+  Ennia
+  Fabiana
+  Flavia
+  Florentia
+  Galeria
+  Helvetia
+  Icilia
+  Julia
+  Laetoria
+  Lucilia
+  Lucretia
+  Marcia
+  Nepia
+  Octavia
+  Orania
+  Plautia
+  Pompeia
+  Quinctia
+  Rusonia
+  Scribonia
+  Tullia
+  Umbria
+  Valeria
+  Victorina
+}
+
+puts "| d6d6 | Frankish M | F | Gallic M | F | Roman M | F |"
+puts "|:----:|:----------:|:-:|:--------:|:-:|:-------:|:-:|"
+
+d0, d1 = 1, 0
+frankish_male_names.each_with_index do |fmn, i|
+  d1 = d1 + 1
+  if d1 > 6
+    d0 = d0 + 1
+    d1 = 1
+  end
+  puts '| ' + [
+    "#{d0}#{d1}",
+    fmn, frankish_female_names[i],
+    gallic_male_names[i], gallic_female_names[i],
+    roman_male_names[i], roman_female_names[i]
+  ].join(' | ') + ' |'
+end
 
