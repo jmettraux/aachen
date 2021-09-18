@@ -42,19 +42,13 @@
 <!-- <div.equipment-grid> -->
 
 <!-- <div a1> -->
-
 foo
-
 <!-- </div> -->
 <!-- <div b2> -->
-
 bar
-
 <!-- </div> -->
 <!-- <div c3> -->
-
 baz
-
 <!-- </div> -->
 
 <!-- </div.equipment-grid> -->

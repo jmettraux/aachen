@@ -147,41 +147,37 @@ def rework_md(s, h)
   # 2021-09-02 No, it must be readable on Github,
   #            so favour <!--xxx--> annotations
 
+  s = rework_md_free_divs(s, h)
   s = rework_md_clear(s, h)
 
   s
 end
 
+def rework_md_free_divs(s, h)
+  #
+  # <!-- <div#abc.def.ghi> -->
+  # Hello world.
+  # <!-- </div> -->
+  #   ==>
+  # <!-- <div#abc.def.ghi> -->
+  #
+  # Hello world.
+  #
+  # <!-- </div> -->
+
+  s
+    .gsub(/^<!--[ \t]*<div[^>]+>[ \t]*-->[ \t]*$/) { |x| "#{x}\n" }
+    .gsub(/^<!--[ \t]*<\/div([^>]*)>[ \t]*-->[ \t]*$/) { |x| "\n#{x}" }
+end
+
 def rework_md_clear(s, h)
   #
   # <!-- clear -->
-  # -->
+  #   ==>
   # <div class="clear"> </div>
 
   s.gsub(/<!--[ \t]*clear[ \t]*-->/, "<div class=\"clear\"> </div>\n")
 end
-
-#def rework_md_free_divs(s, h)
-  #
-  # <div#abc.def.ghi>
-  # Hello world.
-  # </div#abc.def.ghi>
-  #   -->
-  # <!-- div#abc.def.ghi -->
-  # Hello world.
-  # <!-- /div#abc.def.ghi -->
-#end
-#def rework_md_headings(s, h)
-  #
-  # md:   # AACHEN {#foo .bar.baz}
-  # -->
-  # html: <h1 id="foo" class="bar baz">AACHEN</a>
-#end
-#def rework_md_table_id_and_class(s, h)
-#  s
-#    .gsub(/^(\|.+\|)[\t ]*\{([^}]+)\}[\t ]*$/) {
-#      "<!--#{$2}-->\n#{$1}" }
-#end
 
 
 #
