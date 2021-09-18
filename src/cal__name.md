@@ -13,43 +13,61 @@
 
 # Name
 
-Give the character a name adapted to their origin, gender, and background. These are frankish names, it's a starting point.
+Romans had three names (praenom, nomen, and cognomen) but in this dark age, only the last one remains. Family names will only come back in the fifteenth century.
 
-| d6d6 | Frankish M | F | Gallic M | F | Roman M | F |
+Frankish and germanic names are fashionable. Roman names are out of fashion except in some germanic families fascinated by roman civilization. Celtic (gallic) names are the least fashionable.
+
+Should the name be too ambiguous indicate the father name (patronym) or some place name. Bernhard son of Martin, Juliana of the Lake.
+
+
+| d6d8 | Frankish M | F | Gallic M | F | Roman M | F |
 |:----:|:----------:|:-:|:--------:|:-:|:-------:|:-:|
-| 11 | Adalbert | Agatha | Ambigat | Admata | Aetius | Aemilia |
-| 12 | Agobard | Bergundis | Adcomaros | Albina | Antonius | Amanda |
-| 13 | Audomar | Clothild | Aesarius | Aventina | Appius | Aquillia |
-| 14 | Bernhard | Danburga | Allovico | Betudaca | Augustus | Aurelia |
-| 15 | Burchard | Engelberga | Ambaxius | Brogimara | Aulus | Barbatia |
-| 16 | Carloman | Ermina | Bellognatus | Cabrilla | Caelus | Bella |
-| 21 | Chilperic | Fara | Britomartis | Caranta | Caius | Caecilia |
-| 22 | Dagobert | Fredegunde | Camulatucus | Centa | Camillus | Caesonia |
-| 23 | Drogo | Geneva | Carigo | Danissa | Cassius | Calpornia |
-| 24 | Eberhard | Gisela | Catamandus | Donisia | Cnaeus | Camilia |
-| 25 | Ebrulf | Helinda | Cingessus | Elvissa | Decimus | Domitia |
-| 26 | Fredegar | Herenfrida | Cintumarus | Epponina | Drusus | Drusilla |
-| 31 | Fridolin | Hruodgarda | Cottio | Fimmilene | Faustus | Ennia |
-| 32 | Fulk | Imma | Dano | Gabra | Flavius | Fabiana |
-| 33 | Gerald | Irmengard | Divicatus | Genna | Gallus | Flavia |
-| 34 | Goscelin | Joveta | Dobagni | Iccia | Julianus | Florentia |
-| 35 | Hartgard | Landrada | Eburo | Isosae | Livius | Galeria |
-| 36 | Hilduin | Leuekin | Excingomarus | Karina | Lucius | Helvetia |
-| 41 | Ingomer | Liedrada | Gabrius | Loucitta | Marcellus | Icilia |
-| 42 | Jocelin | Merofled | Haesus | Luppa | Marcus | Julia |
-| 43 | Karlmann | Merwig | Ientinus | Mandelana | Marcus | Laetoria |
-| 44 | Leutfried | Nidlebis | Losagni | Meducena | Maximus | Lucilia |
-| 45 | Martin | Nordrada | Megaravico | Moria | Numerius | Lucretia |
-| 46 | Nordbert | Ogiva | Nertomaros | Namusa | Octavianus | Marcia |
-| 51 | Odo | Olga | Oclicnos | Nertomaria | Paulus | Nepia |
-| 52 | Ouen | Plectrudis | Perrus | Ollia | Primus | Octavia |
-| 53 | Pancras | Radeken | Qasigni | Origena | Publius | Orania |
-| 54 | Philibert | Regana | Remicus | Peruia | Publius | Plautia |
-| 55 | Radbod | Rosamund | Sacrovir | Regina | Quintus | Pompeia |
-| 56 | Reginald | Sigeberta | Segomaros | Rotania | Secundus | Quinctia |
-| 61 | Sigismund | Susanna | Tanotalos | Samaxa | Septimus | Rusonia |
-| 62 | Theodemir | Teutberga | Trito | Segolia | Sextus | Scribonia |
-| 63 | Unroch | Theodelinda | Ulcagni | Sila | Tertius | Tullia |
-| 64 | Vigor | Ultrogotha | Venixamus | Tascilla | Tiberius | Umbria |
-| 65 | Walaric | Vulfegundis | Vocorix | Veleda | Titus | Valeria |
-| 66 | Zwentibold | Wisigard | Vridolanos | Vlatuna | Tullus | Victorina |
+| 11 | Adalbert | Adelhaid | Ambigat | Abrezta | Aetius | Aemilia |
+| 12 | Agobard | Adalmut | Adcomaros | Admata | Aemilius | Amanda |
+| 13 | Arduin | Agatha | Aesarius | Albina | Antonius | Aquillia |
+| 14 | Audomar | Bergundis | Allovico | Aventina | Appius | Aurelia |
+| 15 | Bernhard | Chlodeswinthe | Ambaxius | Ballatulla | Armenius | Barbatia |
+| 16 | Burchard | Clothild | Balorix | Banna | Augustus | Bella |
+| 17 | Carloman | Danburga | Bellognatus | Betudaca | Aulus | Caecilia |
+| 18 | Chilperic | Deuteria | Borvonicus | Brogimara | Caelus | Caesonia |
+| 21 | Dagobert | Engelberga | Britomartis | Cabrilla | Caius | Calpurnia |
+| 22 | Drogo | Ermina | Camulatucus | Caranta | Calpurnius | Camilia |
+| 23 | Eberhard | Fara | Carigo | Centa | Camillus | Dillia |
+| 24 | Ebrulf | Fredegunde | Catamandus | Danissa | Cassius | Domitia |
+| 25 | Faro | Geneva | Cingessus | Devignata | Castorius | Drusilla |
+| 26 | Fredegar | Gisela | Cintumarus | Donisia | Cnaeus | Eboria |
+| 27 | Fridolin | Helinda | Cottio | Dubna | Decimus | Egnatia |
+| 28 | Fulk | Herenfrida | Dano | Eburia | Drusus | Ennia |
+| 31 | Gerald | Hildberta | Divicatus | Epponina | Eborius | Fabiana |
+| 32 | Goscelin | Hruodgarda | Dobagni | Fimmilene | Eugenus | Festa |
+| 33 | Gunthar | Imma | Dubnotalus | Friagabi | Fabius | Flavia |
+| 34 | Hagen | Ingelburga | Eburo | Gabra | Falco | Florentia |
+| 35 | Hartgard | Irmengard | Epomedius | Genna | Faustus | Galeria |
+| 36 | Hilduin | Itta | Excingomarus | Iccia | Felix | Gemella |
+| 37 | Humbert | Joveta | Gabrius | Itta | Flavius | Germanica |
+| 38 | Ingomer | Landrada | Gennalo | Kareia | Gallus | Helvetia |
+| 41 | Jocelin | Leuekin | Gnatusius | Karina | Germanicus | Hortensa |
+| 42 | Karlmann | Liedrada | Haesus | Leucimara | Julianus | Icilia |
+| 43 | Leodegar | Mauriana | Iccalus | Loucitta | Livius | Iovia |
+| 44 | Leutfried | Merofled | Ientinus | Luppa | Longinius | Julia |
+| 45 | Martin | Merwig | Itavus | Mandelana | Lucius | Laetoria |
+| 46 | Nordbert | Nidlebis | Licno | Meducena | Marcellus | Lentula |
+| 47 | Odo | Nordrada | Litgenus | Moria | Marcus | Lucilia |
+| 48 | Ouen | Ogiva | Losagni | Namusa | Munatius | Lucretia |
+| 51 | Pancras | Olga | Maccarus | Nantia | Maximus | Marcia |
+| 52 | Philibert | Otberta | Megaravico | Nertomaria | Numerius | Nepia |
+| 53 | Radbod | Plectrudis | Nertomaros | Ollia | Octavianus | Octavia |
+| 54 | Reginald | Radeken | Oclicnos | Origena | Paulus | Orania |
+| 55 | Sigefroy | Rainilda | Perrus | Oxidubna | Primus | Orissa |
+| 56 | Sigismund | Regana | Qasigni | Peruia | Publius | Plautia |
+| 57 | Tescelin | Rosamund | Remicus | Regina | Quintus | Pompeia |
+| 58 | Theodemir | Rotlenda | Sacrovir | Regula | Secundus | Quinctia |
+| 61 | Theutgaud | Sigeberta | Segomaros | Rotania | Sempronius | Quintiliana |
+| 62 | Uda | Susanna | Tanotalos | Samaxa | Septimus | Romana |
+| 63 | Unroch | Swanahilde | Trito | Segolia | Sextus | Rusonia |
+| 64 | Vigor | Teutberga | Ulcagni | Sila | Tertius | Scribonia |
+| 65 | Walaric | Theodelinda | Venixamus | Tascilla | Tiberius | Tullia |
+| 66 | Wichmann | Ultrogotha | Viriodacus | Trocina | Titus | Umbria |
+| 67 | Wulfram | Vulfegundis | Vocorix | Veleda | Tullus | Valeria |
+| 68 | Zwentibold | Wisigard | Vridolanos | Vlatuna | Valerius | Victorina |
+

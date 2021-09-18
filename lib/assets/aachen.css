@@ -622,14 +622,11 @@ table.social-class th:nth-child(1) {
 }
 
 [data-aa-title="name"] table {
-  margin-top: 1rem;
+  margin-top: 2rem;
   font-size: 13px;
-  line-height: 0.6;
+  line-height: 0.65;
   width: 100%;
   font-family: var(--sans-face);
-}
-[data-aa-title="name"] table.top {
-  margin-top: 0;
 }
 
 /* top right bottom left */
