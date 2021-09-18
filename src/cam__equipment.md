@@ -41,6 +41,9 @@
 
 <!-- <div.equipment-grid> -->
 
+<!-- <div a1> -->
+&nbsp;
+<!-- </div> -->
 <!-- <div b1> -->
 Fighter
 <!-- </div> -->
@@ -72,6 +75,10 @@ Elite
 
 <!-- <div b2> -->
 * Quarterstaff
+<!-- </div> -->
+
+<!-- <div c2d2> -->
+wide, wide, wide, test, ...
 <!-- </div> -->
 
 <!-- </div.equipment-grid> -->

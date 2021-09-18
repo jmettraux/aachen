@@ -340,8 +340,8 @@ def parse_div_attributes(s)
     a << "grid-column-start: #{grid[0]}"
     a << "grid-row-start: #{grid[1]}"
     if grid[2]
-      a << "grid-column-end: #{grid[2]}"
-      a << "grid-row-end: #{grid[3]}"
+      a << "grid-column-end: #{grid[2] + 1}"
+      a << "grid-row-end: #{grid[3] + 1}"
     end
     atts['style'] = a.join('; ')
   end

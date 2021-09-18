@@ -637,11 +637,16 @@ table.social-class th:nth-child(1) {
 }
 
 [data-aa-title="equipment"] .equipment-grid {
-  margin-top: 1rem;
+  margin-top: 2rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  column-gap: 1rem;
+  grid-template-columns: auto 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr;
+}
+[data-aa-title="equipment"] .equipment-grid > div {
+  padding-right: 1rem;
+}
+[data-aa-title="equipment"] .equipment-grid .row-1 {
+  border-bottom: solid thin black;
 }
 
 /* top right bottom left */
