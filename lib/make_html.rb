@@ -245,7 +245,9 @@ def rework_html_icas(e, h)
 
     if c.is_a?(REXML::Comment)
 
-      icas = parse_id_classes_attributes(c)
+      icas = parse_div_attributes(c.string)
+      icas = nil if icas.empty?
+
       c.parent.delete(c) if icas
 
     elsif c.is_a?(REXML::Element)
@@ -260,30 +262,6 @@ def rework_html_icas(e, h)
       rework_html_icas(c, h)
     end
   end
-end
-
-  # TODO eventually replace me with expand_div_attributes
-  #
-def parse_id_classes_attributes(e)
-
-  h = {}
-
-  s = StringScanner.new(e.string)
-
-  id = s.scan(/\s*#[-a-zA-Z0-9_]+/)
-  h[:id] = id.strip[1..-1] if id
-
-  cs = []; while c = s.scan(/\s*\.[-a-zA-Z0-9_]+/)
-      cs << c.strip[1..-1]
-    end
-  h[:class] = cs.join(' ') if cs.any?
-
-  while a = s.scan(/\s*[-a-zA-Z0-9_]+="[^"]+"/)
-    k, v = a.split('=')
-    h[k.strip] = v[1..-2]
-  end
-
-  h.empty? ? nil : h
 end
 
 def do_rework_html(s, h, &block)
@@ -322,7 +300,7 @@ def colname_to_i(s)
   (s[0, 1].ord - 96) * 26 + (s[1, 1].ord - 96)
 end
 
-def expand_div_attributes(s)
+def parse_div_attributes(s)
 
   k = StringScanner.new(s)
 
@@ -338,10 +316,10 @@ def expand_div_attributes(s)
     pos0 = k.pos
 
     r = k.scan(/[ \t]*#[-a-zA-Z0-9_]+/)
-    atts['id'] = r if r
+    atts['id'] = r.strip if r
 
     r = k.scan(/[ \t]*\.[-a-zA-Z0-9_]+/)
-    clas << r[1..-1] if r
+    clas << r.strip[1..-1] if r
 
     if r = k.scan(/[ \t]*[-a-zA-Z0-9_]+="[^"]+"/)
       ke, va = r.strip.split('=')
@@ -371,7 +349,12 @@ def expand_div_attributes(s)
 
   atts['class'] = clas.join(' ') if clas.any?
 
-  atts.collect { |k, v| "#{k}=\"#{v}\"" }.join(' ')
+  atts
+end
+
+def expand_div_attributes(s)
+
+  parse_div_attributes(s).collect { |k, v| "#{k}=\"#{v}\"" }.join(' ')
 end
 
 def rework_html_free_divs(s, h)
