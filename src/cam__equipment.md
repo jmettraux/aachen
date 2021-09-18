@@ -45,17 +45,17 @@
 
 foo
 
-<!-- </div a1> -->
+<!-- </div> -->
 <!-- <div b2> -->
 
 bar
 
-<!-- </div b2> -->
+<!-- </div> -->
 <!-- <div c3> -->
 
 baz
 
-<!-- </div c3> -->
+<!-- </div> -->
 
 <!-- </div.equipment-grid> -->
 
