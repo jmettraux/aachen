@@ -637,6 +637,7 @@ table.social-class th:nth-child(1) {
 }
 
 [data-aa-title="equipment"] .equipment-grid {
+  margin-top: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;

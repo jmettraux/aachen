@@ -41,14 +41,37 @@
 
 <!-- <div.equipment-grid> -->
 
-<!-- <div a1> -->
-foo
+<!-- <div b1> -->
+Fighter
 <!-- </div> -->
+<!-- <div c1> -->
+Dabster
+<!-- </div> -->
+<!-- <div d1> -->
+Caster
+<!-- </div> -->
+
+<!-- <div a2> -->
+Wanderer
+<!-- </div> -->
+<!-- <div a3> -->
+Slave
+<!-- </div> -->
+<!-- <div a4> -->
+Commoner
+<!-- </div> -->
+<!-- <div a5> -->
+Artisan
+<!-- </div> -->
+<!-- <div a6> -->
+Religious
+<!-- </div> -->
+<!-- <div a7> -->
+Elite
+<!-- </div> -->
+
 <!-- <div b2> -->
-bar
-<!-- </div> -->
-<!-- <div c3> -->
-baz
+* Quarterstaff
 <!-- </div> -->
 
 <!-- </div.equipment-grid> -->
