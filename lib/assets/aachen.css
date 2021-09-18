@@ -629,5 +629,12 @@ table.social-class th:nth-child(1) {
   font-family: var(--sans-face);
 }
 
+[data-aa-title="equipment"] table {
+}
+[data-aa-title="equipment"] table.monetary {
+  font-size: var(--size-c);
+  line-height: 0.66;
+}
+
 /* top right bottom left */
 
