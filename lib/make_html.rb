@@ -329,6 +329,9 @@ def parse_div_attributes(s)
         m[2].to_i,
         colname_to_i(m[4]),
         m[5] ? m[5].to_i : nil ]
+      clas << [ m[1], m[2] ].join
+      clas << "col-#{m[1]}"
+      clas << "row-#{m[2]}"
     end
   end
 
