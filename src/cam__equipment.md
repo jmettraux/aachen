@@ -38,3 +38,24 @@
 <!-- </div.right-column> -->
 <!-- </div.two-columns> -->
 
+
+<!-- <div.equipment-grid> -->
+
+<!-- <div a1> -->
+
+foo
+
+<!-- </div a1> -->
+<!-- <div b2> -->
+
+bar
+
+<!-- </div b2> -->
+<!-- <div c3> -->
+
+baz
+
+<!-- </div c3> -->
+
+<!-- </div.equipment-grid> -->
+

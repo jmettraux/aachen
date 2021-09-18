@@ -262,6 +262,8 @@ def rework_html_icas(e, h)
   end
 end
 
+  # TODO eventually replace me with expand_div_attributes
+  #
 def parse_id_classes_attributes(e)
 
   h = {}
@@ -310,6 +312,68 @@ def rework_html_dl(s, h)
   end
 end
 
+def colname_to_i(s)
+
+  return nil unless s
+
+  s = s.downcase
+
+  return s[0, 1].ord - 96 if s.length < 2
+  (s[0, 1].ord - 96) * 26 + (s[1, 1].ord - 96)
+end
+
+def expand_div_attributes(s)
+
+  k = StringScanner.new(s)
+
+  atts = {}
+  clas = []
+  grid = nil
+
+  pos0 = -1
+
+  loop do
+
+    break if k.pos == pos0
+    pos0 = k.pos
+
+    r = k.scan(/[ \t]*#[-a-zA-Z0-9_]+/)
+    atts['id'] = r if r
+
+    r = k.scan(/[ \t]*\.[-a-zA-Z0-9_]+/)
+    clas << r[1..-1] if r
+
+    if r = k.scan(/[ \t]*[-a-zA-Z0-9_]+="[^"]+"/)
+      ke, va = r.strip.split('=')
+      atts[ke] = va[1..-2]
+    end
+
+    if r = k.scan(/[ \t]*[a-z]+\d+([a-z]+\d+)?/i)
+      m = r.strip.match(/^([a-z]+)(\d+)(([a-z]+)(\d+))?$/i)
+      grid = [
+        colname_to_i(m[1]),
+        m[2].to_i,
+        colname_to_i(m[4]),
+        m[5] ? m[5].to_i : nil ]
+    end
+  end
+
+  if grid
+    a = [ atts['style'] ].compact
+    a << "grid-column-start: #{grid[0]}"
+    a << "grid-row-start: #{grid[1]}"
+    if grid[2]
+      a << "grid-column-end: #{grid[2]}"
+      a << "grid-row-end: #{grid[3]}"
+    end
+    atts['style'] = a.join('; ')
+  end
+
+  atts['class'] = clas.join(' ') if clas.any?
+
+  atts.collect { |k, v| "#{k}=\"#{v}\"" }.join(' ')
+end
+
 def rework_html_free_divs(s, h)
 
   # <!-- <div#abc.def.ghi> -->
@@ -322,27 +386,9 @@ def rework_html_free_divs(s, h)
 
   s
     .gsub(/^<!--[ \t]*<div([^>]+)>[ \t]*-->[ \t]*$/) {
-      ic = []
-      s = StringScanner.new($1)
-      id = s.scan(/[ \t]*#[-a-zA-Z0-9_]+/)
-      ic << "id=\"#{id.strip[1..-1]}\"" if id
-      cs = []; while c = s.scan(/[ \t]*\.[-a-zA-Z0-9_]+/)
-          cs << c.strip[1..-1]
-        end
-      ic << "class=\"#{cs.join(' ')}\"" if cs.any?
-      "<div #{ic.join(' ')}>" }
+      "<div #{expand_div_attributes($1)}>" }
     .gsub(/^<!--[ \t]*<\/div([^>]*)>[ \t]*-->[ \t]*$/) {
       "</div>\n" }
-
-  #s
-  #  .gsub(/^<!-- <div(#[-a-zA-Z0-9_]+)?(\.[-a-zA-Z0-9_]+)+> -->$/) { |x|
-  #    id = $1 && $1[1..-1]
-  #    cs = []; css = StringScanner.new(x); css.scan(/[^.]*/)
-  #    while c = css.scan(/\.[a-zA-Z_-]+/); cs << c[1..-1]; end
-  #    cs = cs.any? ? cs.join(' ') : nil
-  #    "<div#{id ? " id=\"#{id}\"" : ''}#{cs ? " class=\"#{cs}\"" : ''}>" + x }
-  #  .gsub(/^<!-- <\/div(#[-a-zA-Z0-9_]+)?(\.[-a-zA-Z0-9_]+)+> -->(<[^>]+>)$/) {
-  #    "#{$3}\n</div><!-- </div#{$1}#{$2}> -->" }
 end
 
 def rework_html_footnotes(s, h)

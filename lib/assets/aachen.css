@@ -636,5 +636,12 @@ table.social-class th:nth-child(1) {
   line-height: 0.66;
 }
 
+[data-aa-title="equipment"] .equipment-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 1rem;
+}
+
 /* top right bottom left */
 
