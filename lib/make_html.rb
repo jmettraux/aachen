@@ -335,6 +335,7 @@ def parse_div_attributes(s)
       clas << [ m[1], m[2] ].join
       clas << "col-#{m[1]}"
       clas << "row-#{m[2]}"
+      clas << 'span' if grid[2] && (grid[2] > grid[0] || grid[3] > grid[1])
     end
   end
 

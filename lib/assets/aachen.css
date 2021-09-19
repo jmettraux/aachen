@@ -634,16 +634,20 @@ table.social-class th:nth-child(1) {
 [data-aa-title="equipment"] table.monetary {
   font-size: var(--size-c);
   line-height: 0.66;
+  float: left;
+  width: 49%;
+  margin-right: 1rem;
 }
 [data-aa-title="equipment"] .two-columns {
-  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 [data-aa-title="equipment"] .equipment-grid {
   margin-top: 2rem;
+  margin-bottom: 2rem;
   display: grid;
-  grid-template-columns: auto 1fr 1fr 1fr;
-  grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: auto 1fr 1fr;
+  /*grid-template-rows: auto auto auto auto auto auto auto;*/
   font-size: smaller;
 }
 [data-aa-title="equipment"] .equipment-grid .cell {
@@ -654,7 +658,16 @@ table.social-class th:nth-child(1) {
   text-align: center;
 }
 [data-aa-title="equipment"] .equipment-grid .col-a p {
-  text-align: left;
+  text-align: right;
+}
+[data-aa-title="equipment"] .equipment-grid .col-a.span p {
+  margin-top: 1.5em;
+}
+[data-aa-title="equipment"] .equipment-grid :not(.col-a).span p:before {
+  content: '— ';
+}
+[data-aa-title="equipment"] .equipment-grid :not(.col-a).span p:after {
+  content: ' —';
 }
 [data-aa-title="equipment"] .equipment-grid .row-1 {
   border-bottom: solid thin black;
