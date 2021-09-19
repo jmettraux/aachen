@@ -54,31 +54,37 @@ Dabster
 Caster
 <!-- </div> -->
 
-<!-- <div a2> -->
+<!-- <div a2> WANDERER -->
 Wanderer
 <!-- </div> -->
-<!-- <div a3> -->
+<!-- <div b2> -->
+quarterstaff, javelin, sling bag
+<!-- </div> -->
+<!-- <div c2d2> -->
+quarterstaff, sling bag
+<!-- </div> -->
+
+<!-- <div a3> SLAVE -->
 Slave
 <!-- </div> -->
-<!-- <div a4> -->
+<!-- <div b3> -->
+quarterstaff, sling bag
+<!-- </div> -->
+
+<!-- <div a4> COMMONER -->
 Commoner
 <!-- </div> -->
-<!-- <div a5> -->
+
+<!-- <div a5> ARTISAN -->
 Artisan
 <!-- </div> -->
-<!-- <div a6> -->
+
+<!-- <div a6> RELIGIOUS -->
 Religious
 <!-- </div> -->
-<!-- <div a7> -->
+
+<!-- <div a7> ELITE -->
 Elite
-<!-- </div> -->
-
-<!-- <div b2> -->
-* Quarterstaff
-<!-- </div> -->
-
-<!-- <div c2d2> -->
-wide, wide, wide, test, ...
 <!-- </div> -->
 
 <!-- </div.equipment-grid> -->

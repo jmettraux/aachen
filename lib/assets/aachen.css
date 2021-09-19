@@ -642,8 +642,11 @@ table.social-class th:nth-child(1) {
   grid-template-columns: auto 1fr 1fr 1fr;
   grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr;
 }
-[data-aa-title="equipment"] .equipment-grid > div {
+[data-aa-title="equipment"] .equipment-grid .cell {
   padding-right: 1rem;
+}
+[data-aa-title="equipment"] .equipment-grid .cell p {
+  text-align: left;
 }
 [data-aa-title="equipment"] .equipment-grid .row-1 {
   border-bottom: solid thin black;

@@ -166,8 +166,10 @@ def rework_md_free_divs(s, h)
   # <!-- </div> -->
 
   s
-    .gsub(/^<!--[ \t]*<div[^>]+>[ \t]*-->[ \t]*$/) { |x| "#{x}\n" }
-    .gsub(/^<!--[ \t]*<\/div([^>]*)>[ \t]*-->[ \t]*$/) { |x| "\n#{x}" }
+    .gsub(/^<!--[ \t]*(<div[^>]+>).*-->[ \t]*$/) {
+      "<!-- #{$1} -->\n\n" }
+    .gsub(/^<!--[ \t]*(<\/div([^>]*)>).*-->[ \t]*$/) {
+      "\n<!-- #{$1} -->\n" }
 end
 
 def rework_md_clear(s, h)
@@ -329,6 +331,7 @@ def parse_div_attributes(s)
         m[2].to_i,
         colname_to_i(m[4]),
         m[5] ? m[5].to_i : nil ]
+      clas << 'cell'
       clas << [ m[1], m[2] ].join
       clas << "col-#{m[1]}"
       clas << "row-#{m[2]}"
