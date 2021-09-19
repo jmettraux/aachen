@@ -695,6 +695,9 @@ table.social-class th:nth-child(1) {
 [data-aa-title="equipment"] dl.weapon-traits .last-dd {
   margin: 0;
 }
+[data-aa-title="equipment"] table.armor th:nth-child(5) {
+  border-bottom: 0;
+}
 
 [data-aa-title="equipment"] .note {
   font-size: smaller;

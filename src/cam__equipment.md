@@ -154,6 +154,7 @@ Monetary exchange is at its worse but people and organizations are still in the 
 <!-- .list -->
 ## armor
 
+<!-- .armor -->
 | Item         | AC           | Value | Val d |   | Item         | AC           | or Mod   | Value | Val d |
 |--------------|:------------:|------:|------:|---|--------------|:------------:|:--------:|------:|------:|
 | No Armor     | 10 + DEX mod |       |       |   | Shield small | 13 + DEX mod | +1 to AC |    3s |   36d |
