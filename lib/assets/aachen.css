@@ -673,5 +673,11 @@ table.social-class th:nth-child(1) {
   border-bottom: solid thin black;
 }
 
+[data-aa-title="equipment"] table.list {
+  font-family: var(--sans-face);
+  font-size: var(--size-c);
+  line-height: 0.85;
+}
+
 /* top right bottom left */
 
