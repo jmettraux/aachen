@@ -635,17 +635,25 @@ table.social-class th:nth-child(1) {
   font-size: var(--size-c);
   line-height: 0.66;
 }
+[data-aa-title="equipment"] .two-columns {
+  margin-bottom: 2rem;
+}
 
 [data-aa-title="equipment"] .equipment-grid {
   margin-top: 2rem;
   display: grid;
   grid-template-columns: auto 1fr 1fr 1fr;
-  grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr 1fr;
+  font-size: smaller;
 }
 [data-aa-title="equipment"] .equipment-grid .cell {
+  padding-top: 0.25rem;
   padding-right: 1rem;
 }
 [data-aa-title="equipment"] .equipment-grid .cell p {
+  text-align: center;
+}
+[data-aa-title="equipment"] .equipment-grid .col-a p {
   text-align: left;
 }
 [data-aa-title="equipment"] .equipment-grid .row-1 {
