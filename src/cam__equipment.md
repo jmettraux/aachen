@@ -17,6 +17,17 @@ These are equipment suggestions for new characters, based on their background an
 
 The referee may allow the `Caster` to choose the equipment of a `Fighter` of the same background, but beware playing the soldier.
 
+<!--
+All heroes begin play with a set of woolen clothes, simple shoes, a knife, and either a broad spear or a barbed spear as described on page 119. Saints, priests
+Farmer: Broad Shield, Three days of dried meat, Leather sack, Hatchet, Warm
+woolen blanket
+Hunter: Bow, Hatchet, Quiver and 20 arrows, Tinderbox and ember-carrier, Salt in a four-pound satchel
+Priest: Carved wooden crucifix, small book of pious writings, three days of hard bread, medicine bag of herbs and bandages, a jar of wine for Holy Communion
+Wanderer: Broad Shield, Three days of hard bread, Leather sack, Sturdy boots, Waterskin to hold a full gallon
+Warrior: Seax, Broad Shield, Leather sack, Three days of hard bread, Waterskin to hold a full gallon
+Free Choice: Pick any five items or weapons from the section on page 117,
+-->
+
 <!-- <div.equipment-grid> -->
 
 <!-- <div a1> -->
@@ -140,9 +151,9 @@ Monetary exchange is at its worse but people and organizations are still in the 
 * **Equipment**
 
 
+<!-- .list -->
 ## armor
 
-<!-- .list -->
 | Item         | AC           | Value | Val d |   | Item         | AC           | or Mod   | Value | Val d |
 |--------------|:------------:|------:|------:|---|--------------|:------------:|:--------:|------:|------:|
 | No Armor     | 10 + DEX mod |       |       |   | Shield small | 13 + DEX mod | +1 to AC |    3s |   36d |
@@ -151,11 +162,12 @@ Monetary exchange is at its worse but people and organizations are still in the 
 | Mail Shirt   | 14 + DEX mod |    2L |  480d |   | | | | | | |
 | Mail Hauberk | 16 + DEX mod |    3L |  720d |   | | | | | | |
 
+<!-- .list -->
 ## melee weapons
 
-<!-- .list -->
-| Name           | Attribute | Dmg  | Shk/AC | Short Range       | Long Range        | Traits        |   Cost | Cost d |
-|----------------|:---------:|-----:|:------:|:-----------------:|:-----------------:|---------------|-------:|-------:|
+<!-- .weapons -->
+| Name           | Att       | Dmg  | Shk/AC | Short Range       | Long Range        | Traits        |   Cost | Cost d |
+|----------------|:---------:|:----:|:------:|:-----------------:|:-----------------:|:-------------:|-------:|-------:|
 | Axe            | STR/DEX   |  1d6 | 2 / 15 | 10ft 3m 2sq       | 30ft 9m 6sq t     | T             |     6s |    72d |
 | Axe, war       | STR       | 1d10 | 3 / 15 |                   |                   | 2H            |     9s |   108d |
 | Club           | STR/DEX   |  1d4 | 1 / 13 | 10ft 3m 2sq       | 30ft 9m 6sq t     | T, LL         |        |        |
@@ -165,14 +177,14 @@ Monetary exchange is at its worse but people and organizations are still in the 
 | Hammer, war    | STR       |  1d8 | 1 / 18 |                   |                   |               |     8s |    96d |
 | Hammer, great  | STR       | 1d10 | 2 / 18 |                   |                   | 2H            |    10s |   120d |
 | Hatchet        | STR       |  1d4 | 1 / 13 |                   |                   |               |     1s |    12d |
+| Javelin        | STR/DEX   |  1d6 | 2 / 13 | 30ft 9m 6sq t     | 60ft 18m 12sq tt  | T             |     5s |    60d |
 | Knife          | STR/DEX   |  1d4 | 1 / 15 |                   |                   |               |     1s |    12d |
 | Mace           | STR       |  1d6 | 1 / 18 |                   |                   | LL            |     7s |    84d |
 | Pike           | STR       |  1d8 | 1 / 18 |                   |                   | 2H, L         |     5s |    60d |
+| Quarterstaff   | STR/DEX   |  1d6 | 1 / 13 |                   |                   | 2H, LL        |        |        |
 | Seax           | STR/DEX   |  1d6 | 1 / 15 |                   |                   |               |     2s |    24d |
-| Spear, barbed  | STR/DEX   |  1d6 | 2 / 13 | 30ft 9m 6sq t     | 60ft 18m 12sq tt  | T             |     5s |    60d |
 | Spear, broad   | STR       |  1d8 | 2 / 13 |                   |                   |               |     6s |    72d |
 | Spear, heavy   | STR       | 1d10 | 2 / 15 |                   |                   | 2H            |     7s |    84d |
-| Staff          | STR/DEX   |  1d6 | 1 / 13 |                   |                   | 2H, LL        |        |        |
 | Sword, long    | STR/DEX   |  1d8 | 2 / 13 |                   |                   |               |     1L |   240d |
 | Sword, short   | STR/DEX   |  1d6 | 2 / 15 |                   |                   |               |    10s |   120d |
 | Sword, great   | STR       | 1d12 | 2 / 15 |                   |                   | 2H            |     2L |   480d |
@@ -181,11 +193,57 @@ Monetary exchange is at its worse but people and organizations are still in the 
 | Shield bash L  | STR       |  1d6 | 1 / 13 |                   |                   | LL            |        |        |
 | Unarmed attack | STR/DEX   | 1d2+Punch |   |                   |                   | LL            |        |        |
 
+[^1]
+
+<!-- .weapon-traits -->
+2H
+: 2 Handed
+
+T
+: Throwable, -4 to hit if throwing while engaged in melee
+
+LL
+: Less Lethal, wielder can decide that opponents downed at 0 HP are still alive/conscious
+
+L
+: Long, allows melee attacaks up to 10ft (2sq), even if ally in the way. An opponent between 5 to 10ft can disengage freely from the `L` weapon wielder, no need for a _fighting withdrawal_.
+
 <!-- .list -->
-| Name           | Attribute | Dmg  | Short Range       | Long Range        | Traits        |   Cost | Cost d |
-|----------------|:---------:|-----:|:-----------------:|:-----------------:|---------------|-------:|-------:|
+## ranged weapons
+
+<!-- .weapons -->
+| Name           | Att       | Dmg  | Short Range       | Long Range        | Traits        |   Cost | Cost d |
+|----------------|:---------:|-----:|:-----------------:|:-----------------:|:-------------:|-------:|-------:|
 | Bow, small     | DEX       |  1d6 | 50ft 15m 10sq V   | 300ft 90m 60sq    | 2H, R, XA     |     2s |    24d |
 | Bow, large     | STR       |  1d8 | 100ft 30m 20sq VV | 600ft 180m 120sq  | 2H, R, XA     |     3s |    36d |
 | Crossbow     x | DEX       | 1d10 | 100ft 30m 20sq VV | 300ft 90m 60sq    | 2H, SR, XA    |     7s |    84d |
 | Sling          | DEX       |  1d6 | 50ft 15m 10sq V   | 100ft 30m 20sq VV | 2H, R         |     6d |     6d |
+
+<!-- .weapon-traits -->
+R
+: Reload. Takes a _Move Action_ to reload. If the user has at least Shoot 1 skill, only an _On Turn Action_ is necessary.
+
+SR
+: Slow Reload. Takes a _Main Action_ to reload.
+
+XA
+: when used for an eXecution Attack, a -1 penalty is applied to the target Physical Save and the damage is doubled.
+
+[^1]:
+  range sticks:
+
+  t
+  : 30ft 9m 6sq
+
+  F
+  : 40ft 12m 8sq
+
+  V
+  : 50ft 15m 10sq
+
+  tt
+  : 60ft 18m 12sq
+
+  VV
+  : 100ft 30m 20sq
 
