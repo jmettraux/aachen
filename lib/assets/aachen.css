@@ -631,14 +631,10 @@ table.social-class th:nth-child(1) {
   */
 }
 
-[data-aa-title="equipment"] table {
-}
 [data-aa-title="equipment"] table.monetary {
-  font-size: var(--size-c);
-  line-height: 0.66;
-  float: left;
-  width: 49%;
-  margin-right: 1rem;
+}
+[data-aa-title="equipment"] table.monetary th:nth-child(7) {
+  border: 0;
 }
 
 [data-aa-title="equipment"] .equipment-grid {
@@ -686,7 +682,14 @@ table.social-class th:nth-child(1) {
   font-size: var(--size-c);
   line-height: 0.85;
 }
-[data-aa-title="equipment"] h2.list:last-of-type {
+[data-aa-title="equipment"] h2.list.monetary {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+[data-aa-title="equipment"] table.monetary {
+  margin-bottom: 1rem;
+}
+[data-aa-title="equipment"] h2.list.ranged {
   margin-top: -0.5rem;
 }
 [data-aa-title="equipment"] table.weapons td:nth-child(2) {

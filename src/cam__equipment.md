@@ -114,27 +114,20 @@ everyday clothes, sling bag, knife, firestarter, 2d6 pieces of ammo
 <!-- </div.equipment-grid> -->
 
 
-## thinking in denarii
+<!-- .list.monetary -->
+## libri, soldi, denarii
 
 <!-- .monetary -->
-| Abb | Name     | Latin    | French | Value | Val d |
-|-----|----------|----------|--------|------:|------:|
-| L   | Pound    | Liber    | Livre  |   20s |  240d |
-| s   | Shilling | Solidus  | Sou    |       |   12d |
-| d   | Pence    | Denarius | Denier |       |    1d |
-| f   | Farthing |          | Ferlin |       |  1/4d |
+| Abb | Name     | Latin    | French | Value | Val d |   | Worker           |         | Wage   | Wage d |
+|-----|----------|----------|--------|------:|------:|---|------------------|---------|-------:|-------:|
+| L   | Pound    | Liber    | Livre  |   20s |  240d |   | Labourer         | 1 day   |     1d |     1d |
+| s   | Shilling | Solidus  | Sou    |       |   12d |   |                  | 1 month |     2s |    24d |
+| d   | Pence    | Denarius | Denier |       |    1d |   |                  | 1 year  |   1L4s |   288d |
+| f   | Farthing |          | Ferlin |       |  1/4d |   | Master craftsman | 1 day   |     5d |     5d |
+|     |          |          |        |       |       |   |                  | 1 month |    10s |   120d |
+|     |          |          |        |       |       |   |                  | 1 year  |     5L | 1,440d |
 
 Monetary exchange is at its worse but people and organizations are still in the habit of valuing services and merchandises in _Liber_, _Solidus_, and _Denarii_.
-
-<!-- .monetary -->
-| Worker           |         | Wage   | Wage d |
-|------------------|---------|-------:|-------:|
-| Labourer         | 1 day   |     1d |     1d |
-|                  | 1 month |     2s |    24d |
-|                  | 1 year  |   1L4s |   288d |
-| Master craftsman | 1 day   |     5d |     5d |
-|                  | 1 month |    10s |   120d |
-|                  | 1 year  |     5L | 1,440d |
 
 
 <!-- PAGE BREAK equipment -->
@@ -232,10 +225,10 @@ XA
 
 <!-- </div.two-columns> -->
 
-<!-- .list -->
+<!-- .list.ranged -->
 ## ranged weapons
 
-<!-- .weapons -->
+<!-- .weapons.ranged -->
 | Name            | Att       | Dmg  | Short Range       | Long Range        | Traits        |   Cost | Cost d |
 |---------------- |:---------:|-----:|:-----------------:|:-----------------:|:-------------:|-------:|-------:|
 | Bow, small      | DEX       |  1d6 | 50ft 15m 10sq V   | 300ft 90m 60sq    | 2H, R, XA     |     2s |    24d |
