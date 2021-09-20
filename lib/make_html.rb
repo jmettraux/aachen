@@ -64,8 +64,10 @@ def make_html
   end
   f.close
 
-  system("touch out/tmp/p%03d__%s.md" % [ page + 1, 'blank' ]) \
-    if page.odd?
+  pi = page; while pi % 4 != 0
+    pi = pi + 1
+    system('touch out/tmp/p%03d__%s.md' % [ pi, 'blank' ])
+  end
 
   index.each { |_, v| v.uniq! }
 #puts "v" * 80

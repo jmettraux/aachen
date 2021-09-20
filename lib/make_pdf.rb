@@ -35,8 +35,8 @@ def make_stapled_pdf(h)
   puts(cmd)
   m = `#{cmd}`.match(/Pages:\s+(\d+)/)
   pcount = m[1].to_i
-  p pcount
-  p array_pages(pcount)
+  p [ :pcount, pcount ]
+  p [ :array_pages, array_pages(pcount) ]
   h[:pages] = array_pages(pcount).collect(&:to_s).join(',')
 
   cmd =
@@ -62,7 +62,7 @@ def array_pages(count)
   a.each_with_index do |row, i|
     a[i] = a[i].reverse if i.even?
   end
-#puts "vvv"
+#puts; puts "vvv"
 #a.each { |row| p row }
 #puts "^^^"
 
