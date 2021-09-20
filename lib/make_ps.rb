@@ -30,6 +30,23 @@ def make_ps
   h[:in] = "out/html/#{CONFIG[:NAME]}.stapled.2.ps"
   h[:out] = "out/html/#{CONFIG[:NAME]}.stapled.2.duplex.ps"
   make_duplex(h)
+
+  # sample
+
+  if ENV['SAMPLE_PAGES']
+
+    h[:in] = "out/html/#{CONFIG[:NAME]}.sample.pdf"
+    h[:out] = "out/html/#{CONFIG[:NAME]}.sample.ps"
+    make(:to_ps, h)
+
+    h[:in] = "out/html/#{CONFIG[:NAME]}.sample.ps"
+    h[:out] = "out/html/#{CONFIG[:NAME]}.sample.2.ps"
+    make(:to_ps2, h)
+
+    h[:in] = "out/html/#{CONFIG[:NAME]}.sample.2.ps"
+    h[:out] = "out/html/#{CONFIG[:NAME]}.sample.2.duplex.ps"
+    make_duplex(h)
+  end
 end
 
 def make(cmd, h)

@@ -10,6 +10,13 @@ def make_pdf
   h[:in] = "out/html/#{CONFIG[:NAME]}.pdf"
   h[:out] = "out/html/#{CONFIG[:NAME]}.stapled.pdf"
   make_stapled_pdf(h)
+
+  if sps = ENV['SAMPLE_PAGES']
+    h[:in] = "out/html/#{CONFIG[:NAME]}.pdf"
+    h[:out] = "out/html/#{CONFIG[:NAME]}.sample.pdf"
+    h[:pages] = sps
+    make_sample_pdf(h)
+  end
 end
 
 def make_chrome_pdf(h)
@@ -60,5 +67,14 @@ def array_pages(count)
 #puts "^^^"
 
   a.flatten
+end
+
+def make_sample_pdf(h)
+
+  cmd =
+    h.inject(CONFIG[:to_stapled_pdf]) { |s, (k, v)| s.gsub(/\$\{#{k}\}/, v) }
+
+  puts(cmd)
+  system(cmd)
 end
 
