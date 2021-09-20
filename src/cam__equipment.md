@@ -174,8 +174,8 @@ Monetary exchange is at its worse but people and organizations are still in the 
 | Axe, war       | STR     | 1d10 | 3 / 15 | 2H       |   9s |   108d |
 | Club           | STR/DEX |  1d4 | 1 / 13 | T, LL    |      |        |
 | Club, large    | STR     | 1d10 | 2 / 15 | 2H       |      |        |
-| Dagger         | STR/DEX |  1d4 | 1 / 15 | S, T, PM |   2s |    24d |
-| Halberd      x | STR     | 1d10 | 2 / 15 | L        |   5s |    60d |
+| Dagger         | STR/DEX |  1d4 | 1 / 15 | S, T, XA |   2s |    24d |
+| Halberd (rare) | STR     | 1d10 | 2 / 15 | L        |   5s |    60d |
 | Hammer, war    | STR     |  1d8 | 1 / 18 |          |   8s |    96d |
 | Hammer, great  | STR     | 1d10 | 2 / 18 | 2H       |  10s |   120d |
 | Hatchet        | STR     |  1d4 | 1 / 13 |          |   1s |    12d |
@@ -226,7 +226,7 @@ SR
 : Slow Reload. Takes a _Main Action_ to reload.
 
 XA
-: when used for an eXecution Attack, a -1 penalty is applied to the target Physical Save and the damage is doubled.
+: when used for an eXecution Attack, a -1 penalty is applied to the target `Physical Save` and the damage is doubled.
 
 <!-- </div.right-column> -->
 
@@ -236,16 +236,16 @@ XA
 ## ranged weapons
 
 <!-- .weapons -->
-| Name           | Att       | Dmg  | Short Range       | Long Range        | Traits        |   Cost | Cost d |
-|----------------|:---------:|-----:|:-----------------:|:-----------------:|:-------------:|-------:|-------:|
-| Bow, small     | DEX       |  1d6 | 50ft 15m 10sq V   | 300ft 90m 60sq    | 2H, R, XA     |     2s |    24d |
-| Bow, large     | STR       |  1d8 | 100ft 30m 20sq VV | 600ft 180m 120sq  | 2H, R, XA     |     3s |    36d |
-| Crossbow     x | DEX       | 1d10 | 100ft 30m 20sq VV | 300ft 90m 60sq    | 2H, SR, XA    |     7s |    84d |
-| Sling          | DEX       |  1d6 | 50ft 15m 10sq V   | 100ft 30m 20sq VV | 2H, R         |     6d |     6d |
-| &nbsp;         |           |      |                   |                   |               |        |        |
-| Axe            | DEX       |  1d6 | 10ft 3m 6sq       | 30ft 9m 6sq t     | T             |     6s |    72d |
-| Dagger         | DEX       |  1d4 | 30ft 9m 6sq t     | 60ft 18m 12sq tt  | 2H, R         |     6d |     6d |
-| Javelin        | DEX       |  1d6 | 30ft 9m 6sq t     | 60ft 18m 12sq tt  | 2H, R         |     6d |     6d |
+| Name            | Att       | Dmg  | Short Range       | Long Range        | Traits        |   Cost | Cost d |
+|---------------- |:---------:|-----:|:-----------------:|:-----------------:|:-------------:|-------:|-------:|
+| Bow, small      | DEX       |  1d6 | 50ft 15m 10sq V   | 300ft 90m 60sq    | 2H, R, XA     |     2s |    24d |
+| Bow, large      | **STR**   |  1d8 | 100ft 30m 20sq VV | 600ft 180m 120sq  | 2H, R, XA     |     3s |    36d |
+| Crossbow (rare) | DEX       | 1d10 | 100ft 30m 20sq VV | 300ft 90m 60sq    | 2H, SR, XA    |     7s |    84d |
+| Sling           | DEX       |  1d6 | 50ft 15m 10sq V   | 100ft 30m 20sq VV | 2H, R         |     6d |     6d |
+| &nbsp;          |           |      |                   |                   |               |        |        |
+| _Axe_           | DEX       |  1d6 | 10ft 3m 6sq       | 30ft 9m 6sq t     | T             |     6s |    72d |
+| _Dagger_        | DEX       |  1d4 | 30ft 9m 6sq t     | 60ft 18m 12sq tt  | T             |     6d |     6d |
+| _Javelin_       | DEX       |  1d6 | 30ft 9m 6sq t     | 60ft 18m 12sq tt  | T             |     6d |     6d |
 
 
 [^1]:
