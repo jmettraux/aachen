@@ -108,7 +108,7 @@ sword, 20% gambeson
 _all_
 <!-- </div> -->
 <!-- <div b9c9> -->
-everyday clothes, sling bag, knife, firestarter, 2d6 pieces of ammo
+everyday clothes, sling bag, knife, tinderbox, 1 gallon waterskin, 3 days of travel rations, 2d6 pieces of ammo
 <!-- </div> -->
 
 <!-- </div.equipment-grid> -->
