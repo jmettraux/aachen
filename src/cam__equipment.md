@@ -163,51 +163,74 @@ Monetary exchange is at its worse but people and organizations are still in the 
 | Mail Shirt   | 14 + DEX mod |    2L |  480d |   | | | | | | |
 | Mail Hauberk | 16 + DEX mod |    3L |  720d |   | | | | | | |
 
+
 <!-- .list -->
 ## melee weapons
 
 <!-- .weapons -->
-| Name           | Att       | Dmg  | Shk/AC | Short Range       | Long Range        | Traits        |   Cost | Cost d |
-|----------------|:---------:|:----:|:------:|:-----------------:|:-----------------:|:-------------:|-------:|-------:|
-| Axe            | STR/DEX   |  1d6 | 2 / 15 | 10ft 3m 2sq       | 30ft 9m 6sq t     | T             |     6s |    72d |
-| Axe, war       | STR       | 1d10 | 3 / 15 |                   |                   | 2H            |     9s |   108d |
-| Club           | STR/DEX   |  1d4 | 1 / 13 | 10ft 3m 2sq       | 30ft 9m 6sq t     | T, LL         |        |        |
-| Club, large    | STR       | 1d10 | 2 / 15 |                   |                   | 2H            |        |        |
-| Dagger         | STR/DEX   |  1d4 | 1 / 15 | 30ft 9m 6sq t     | 60ft 18m 12sq tt  | S, T, PM      |     2s |    24d |
-| Halberd      x | STR       | 1d10 | 2 / 15 |                   |                   | L             |     5s |    60d |
-| Hammer, war    | STR       |  1d8 | 1 / 18 |                   |                   |               |     8s |    96d |
-| Hammer, great  | STR       | 1d10 | 2 / 18 |                   |                   | 2H            |    10s |   120d |
-| Hatchet        | STR       |  1d4 | 1 / 13 |                   |                   |               |     1s |    12d |
-| Javelin        | STR/DEX   |  1d6 | 2 / 13 | 30ft 9m 6sq t     | 60ft 18m 12sq tt  | T             |     5s |    60d |
-| Knife          | STR/DEX   |  1d4 | 1 / 15 |                   |                   |               |     1s |    12d |
-| Mace           | STR       |  1d6 | 1 / 18 |                   |                   | LL            |     7s |    84d |
-| Pike           | STR       |  1d8 | 1 / 18 |                   |                   | 2H, L         |     5s |    60d |
-| Quarterstaff   | STR/DEX   |  1d6 | 1 / 13 |                   |                   | 2H, LL        |        |        |
-| Seax           | STR/DEX   |  1d6 | 1 / 15 |                   |                   |               |     2s |    24d |
-| Spear, broad   | STR       |  1d8 | 2 / 13 |                   |                   |               |     6s |    72d |
-| Spear, heavy   | STR       | 1d10 | 2 / 15 |                   |                   | 2H            |     7s |    84d |
-| Sword, long    | STR/DEX   |  1d8 | 2 / 13 |                   |                   |               |     1L |   240d |
-| Sword, short   | STR/DEX   |  1d6 | 2 / 15 |                   |                   |               |    10s |   120d |
-| Sword, great   | STR       | 1d12 | 2 / 15 |                   |                   | 2H            |     2L |   480d |
-| &nbsp;         |           |      |        |                   |                   |               |        |        |
-| Shield bash S  | STR/DEX   |  1d4 |        |                   |                   | LL            |        |        |
-| Shield bash L  | STR       |  1d6 | 1 / 13 |                   |                   | LL            |        |        |
-| Unarmed attack | STR/DEX   | 1d2+Punch |   |                   |                   | LL            |        |        |
+| Name           | Att     | Dmg  | Shk/AC | Traits   | Cost | Cost d |
+|----------------|:-------:|:----:|:------:|:--------:|-----:|-------:|
+| Axe            | STR/DEX |  1d6 | 2 / 15 | T        |   6s |    72d |
+| Axe, war       | STR     | 1d10 | 3 / 15 | 2H       |   9s |   108d |
+| Club           | STR/DEX |  1d4 | 1 / 13 | T, LL    |      |        |
+| Club, large    | STR     | 1d10 | 2 / 15 | 2H       |      |        |
+| Dagger         | STR/DEX |  1d4 | 1 / 15 | S, T, PM |   2s |    24d |
+| Halberd      x | STR     | 1d10 | 2 / 15 | L        |   5s |    60d |
+| Hammer, war    | STR     |  1d8 | 1 / 18 |          |   8s |    96d |
+| Hammer, great  | STR     | 1d10 | 2 / 18 | 2H       |  10s |   120d |
+| Hatchet        | STR     |  1d4 | 1 / 13 |          |   1s |    12d |
+| Javelin        | STR/DEX |  1d6 | 2 / 13 | T        |   5s |    60d |
+| Knife          | STR/DEX |  1d4 | 1 / 15 |          |   1s |    12d |
+| Mace           | STR     |  1d6 | 1 / 18 | LL       |   7s |    84d |
+| Pike           | STR     |  1d8 | 1 / 18 | 2H, L    |   5s |    60d |
+| Quarterstaff   | STR/DEX |  1d6 | 1 / 13 | 2H, LL   |      |        |
+| Seax           | STR/DEX |  1d6 | 1 / 15 |          |   2s |    24d |
+| Spear, broad   | STR     |  1d8 | 2 / 13 |          |   6s |    72d |
+| Spear, heavy   | STR     | 1d10 | 2 / 15 | 2H       |   7s |    84d |
+| Sword, long    | STR/DEX |  1d8 | 2 / 13 |          |   1L |   240d |
+| Sword, short   | STR/DEX |  1d6 | 2 / 15 |          |  10s |   120d |
+| Sword, great   | STR     | 1d12 | 2 / 15 | 2H       |   2L |   480d |
+| &nbsp;         |         |      |        |          |      |        |
+| Shield bash S  | STR/DEX |  1d4 |        | LL       |      |        |
+| Shield bash L  | STR     |  1d6 | 1 / 13 | LL       |      |        |
+| Unarmed attack | STR/DEX | 1d2+Punch |   | LL       |      |        |
 
 [^1]
 
+<!-- <div.two-columns> -->
+
+<!-- <div.left-column> -->
+
 <!-- .weapon-traits -->
-2H
-: 2 Handed
-
-T
-: Throwable, -4 to hit if throwing while engaged in melee
-
 LL
 : Less Lethal, wielder can decide that opponents downed at 0 HP are still alive/conscious
 
 L
-: Long, allows melee attacaks up to 10ft (2sq), even if ally in the way. An opponent between 5 to 10ft can disengage freely from the `L` weapon wielder, no need for a _fighting withdrawal_.
+: Long, allows melee attacks up to 10ft (2sq), even if ally in the way. An opponent between 5 to 10ft can disengage freely from the `L` weapon wielder, no need for a _fighting withdrawal_.
+
+2H
+: 2 Handed
+
+<!-- </div.left-column> -->
+
+<!-- <div.right-column> -->
+
+<!-- .weapon-traits -->
+T
+: Throwable, -4 to hit if throwing while engaged in melee
+
+R
+: Reload. Takes a _Move Action_ to reload. If the user has at least Shoot 1 skill, only an _On Turn Action_ is necessary.
+
+SR
+: Slow Reload. Takes a _Main Action_ to reload.
+
+XA
+: when used for an eXecution Attack, a -1 penalty is applied to the target Physical Save and the damage is doubled.
+
+<!-- </div.right-column> -->
+
+<!-- </div.two-columns> -->
 
 <!-- .list -->
 ## ranged weapons
@@ -219,16 +242,11 @@ L
 | Bow, large     | STR       |  1d8 | 100ft 30m 20sq VV | 600ft 180m 120sq  | 2H, R, XA     |     3s |    36d |
 | Crossbow     x | DEX       | 1d10 | 100ft 30m 20sq VV | 300ft 90m 60sq    | 2H, SR, XA    |     7s |    84d |
 | Sling          | DEX       |  1d6 | 50ft 15m 10sq V   | 100ft 30m 20sq VV | 2H, R         |     6d |     6d |
+| &nbsp;         |           |      |                   |                   |               |        |        |
+| Axe            | DEX       |  1d6 | 10ft 3m 6sq       | 30ft 9m 6sq t     | T             |     6s |    72d |
+| Dagger         | DEX       |  1d4 | 30ft 9m 6sq t     | 60ft 18m 12sq tt  | 2H, R         |     6d |     6d |
+| Javelin        | DEX       |  1d6 | 30ft 9m 6sq t     | 60ft 18m 12sq tt  | 2H, R         |     6d |     6d |
 
-<!-- .weapon-traits -->
-R
-: Reload. Takes a _Move Action_ to reload. If the user has at least Shoot 1 skill, only an _On Turn Action_ is necessary.
-
-SR
-: Slow Reload. Takes a _Main Action_ to reload.
-
-XA
-: when used for an eXecution Attack, a -1 penalty is applied to the target Physical Save and the damage is doubled.
 
 [^1]:
   range sticks:
