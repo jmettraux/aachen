@@ -5,7 +5,7 @@
 * Saves
 * Background
 * Class
-* Talents
+* Traits
 * Hit Points
 * Name
 * **Equipment**
@@ -138,7 +138,7 @@ Monetary exchange is at its worse but people and organizations are still in the 
 * Saves
 * Background
 * Class
-* Talents
+* Traits
 * Hit Points
 * Name
 * **Equipment**

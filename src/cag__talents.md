@@ -5,7 +5,7 @@
 * Saves
 * Background
 * Class
-* **Talents**
+* **Traits**
 * Hit Points
 * Name
 * Equipment
@@ -14,7 +14,7 @@
 <!-- <div.two-columns> -->
 <!-- <div.left-column> -->
 
-# Select Talents
+# Select Traits
 
 A talent is a qualifier, for example a character might be `Lucky`. A talent may be select two times, simply prefix the character with _very_, our character becomes `Very Lucky`.
 
@@ -108,24 +108,4 @@ Hardy 8
 
 <!-- </div.right-column> -->
 <!-- </div.two-columns> -->
-
-
-<!--
-Once a character has a class, their Talents can be chosen. They are special knacks or focuses that the character developed.
-
-Each Talent generally comes in two levels; the first time it is picked, it yields the first level, and the second time one gains the second level.
-
-Once a Talent has been brought up to its maximum level, it generally can't be picked again. Some Talents can be taken more than once to apply to different skills, such as taking _Specialist_ twice to apply to both Sneak and Know skills.
-
-Many Talents grant a bonus skill. This skill is gained at level 0 or at level 1 if already at level 0. If it's already at level 1, one has to pick any other skill expect Cast. A talent earned later on as part of character advancement may improve the skill above level 1, as explained in the character advancement rules.
-
-Every PC can pick one Talent of any kind representing past experiences or native talent. This free talent doesn't necessarily have to have anything to do with the character class; a Fighter might be exceptionally _Cultured_, while a Weaver might be a vicious knife fighter with the _Close Combatant_ Talent.
-
-Aside from the free Talent common to all characters, the Fighter or partial Fighter can choose one Talent related to their martial background, and an Expert or partial Expert can choose one Talent related to something other than combat. In ambiguous cases, the referee decides if the Talent really does relate to their class; some Talents might be usable for both.
-
-
-## Watchful
-
-...
--->
 

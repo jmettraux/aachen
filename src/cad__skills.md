@@ -5,7 +5,7 @@
 * Saves
 * **Background**
 * Class
-* Talents
+* Traits
 * Hit Points
 * Name
 * Equipment

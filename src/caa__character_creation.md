@@ -5,7 +5,7 @@
 * Saves
 * Background
 * Class
-* Talents
+* Traits
 * Hit Points
 * Name
 * Equipment
@@ -39,11 +39,10 @@ Class
 : Select a character class;
 : `Fighter`, `Expert`, or `Caster`.
 
-Talents
-: Choose talents, they represent side talents or particular specializations;
-: 1 talent per character;
-: Fighters get 1 extra fight talent;
-: Experts get 1 extra talent of any kind.
+Traits
+: Choose traits, they represent side talents or particular specializations;
+: 1 trait per character;
+: Dabsters get 1 extra talent of any kind.
 
 Skill
 : Pick an extra skill, to reflect the character's outside interests, natural talents, hobby expertise, etc.;
