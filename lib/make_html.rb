@@ -48,7 +48,9 @@ def make_html
   f = File.open("out/tmp/p%03d__%s.md" % [ page, CONFIG[:NAME_] ], 'wb')
     #
   File.readlines(out).each do |l|
-    if m = l.strip.match(/^<!--[\t ]*(PAGE[\t ]+)?BREAK[\t ]+(.+)-->/)
+    if l.strip == '<!-- STOP -->'
+      break
+    elsif m = l.strip.match(/^<!--[\t ]*(PAGE[\t ]+)?BREAK[\t ]+(.+)-->/)
       f.close
       page = page + 1
       f = File.open("out/tmp/p%03d__%s.md" % [ page, m[2].strip ], 'wb')
