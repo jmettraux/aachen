@@ -24,6 +24,10 @@ pdf: html
 ps: pdf
 	$(RUM) make_ps
 
+blank:
+	echo "" | ps2pdf -sPAPERSIZE=a4 - out/tmp/blank_a4.pdf
+	echo "" | ps2pdf -sPAPERSIZE=letter - out/tmp/blank_letter.pdf
+
 name:
 	@echo $(NAME_)
 
