@@ -56,7 +56,7 @@ Hit Points
 : HP minimum is 1.
 
 Spells
-: Select (1 + mod `INT`) spells if the character has the `Intricate` trait.
+: If the character has the `Intricate` or `Very Intricate` trait, select (1 + mod `INT`) spells (at least one).
 
 Cast Points
 : _factor_ =<br/>`Caster` max(mod `INT`, mod `WIS`, mod `CHA`) |<br/>`Fighter-Caster` mod `WIS` | `Dabster-Caster` mod `INT` |<br/>at least 1
