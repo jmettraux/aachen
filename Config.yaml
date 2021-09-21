@@ -20,3 +20,5 @@ to_ps2: psnup -2 ${in} ${out}
 
 pdfinfo: pdfinfo ${in}
 
+srcsha: cat src/*.md | sha1
+

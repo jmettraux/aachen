@@ -16,6 +16,12 @@ def make_html
   gitbra = (`git symbolic-ref --short HEAD` rescue 'no-git-branch')
   gitsha = (`git rev-parse HEAD` rescue 'no-git-sha')
   giturl = (`git ls-remote --get-url` rescue 'no-git-url')
+  srcsha = (`#{CONFIG[:srcsha]}` rescue 'no-src-sha')
+
+  weburl =
+    giturl == 'no-git-url' ?
+    giturl :
+    giturl.gsub(':', '/').gsub(/^git@/, 'https://').gsub(/\.git$/, '')
 
   pages = Dir['src/*.md']
     .sort
@@ -94,6 +100,7 @@ def make_html
       #
     h = {
       GITBRA: gitbra, GITSHA: gitsha, GITURL: giturl,
+      WEBURL: weburl, SRCSHA: srcsha,
       PATH: path, PAGE: i,
       TITLE: t, TITLE_: m[2],
       EVEN: i % 2 == 0 ? :even : :odd }

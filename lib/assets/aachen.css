@@ -436,9 +436,24 @@ table.social-class th:nth-child(1) {
 
 /* specific */
 
+[data-aa-page="1"] h1 {
+  text-align: center;
+}
 [data-aa-page="1"] dl {
   position: absolute;
+  width: 100%;
   bottom: 0;
+}
+[data-aa-page="1"] dd {
+  font-family: monospace;
+  font-size: 80%;
+  line-height: 1.7;
+}
+[data-aa-page="1"] dd.last-dd {
+  margin: 0;
+}
+[data-aa-page="1"] .folio {
+  display: none;
 }
 
 [data-aa-title="attributes"] dl {

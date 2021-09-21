@@ -8,8 +8,10 @@ It is based on Star Without Numbers and its sibling games by Kevin Crawford. Onl
 
 Git branch
 : ${GITBRA}
-SHA
+Git SHA
 : ${GITSHA}
+Src SHA
+: ${SRCSHA}
 URL
-: ${GITURL}
+: ${WEBURL}
 
