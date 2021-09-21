@@ -17,7 +17,7 @@ def make_html
   gitsha = (`git rev-parse HEAD` rescue 'no-git-sha')
   giturl = (`git ls-remote --get-url` rescue 'no-git-url')
   srcsha = (`#{CONFIG[:srcsha]}` rescue 'no-src-sha')
-  printed = Time.now.strftime('%F')
+  printed = Time.now.utc.strftime('%F %H%MZ')
 
   weburl =
     giturl == 'no-git-url' ?
