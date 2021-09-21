@@ -148,7 +148,7 @@ The ~~factor~~ for computing the cast points (CP) of a `Fighter-Caster` characte
 <!-- .right -->
 | Lvl | HP   | Atk | Traits |
 |:---:|:----:|:---:|:------:|
-|   1 |  1d6 |  +0 | **2**  |
+|   1 |  1d6 |  +0 | 1      |
 |   2 |  2d6 |  +1 | +1     |
 |   3 |  3d6 |  +1 |        |
 |   4 |  4d6 |  +2 |        |
