@@ -236,7 +236,7 @@ XA
 | Crossbow (rare) | DEX       | 1d10 | 100ft 30m 20sq VV | 300ft 90m 60sq    | 2H, SR, XA    |     7s |    84d |
 | Sling           | DEX       |  1d6 | 50ft 15m 10sq V   | 100ft 30m 20sq VV | 2H, R         |     6d |     6d |
 | &nbsp;          |           |      |                   |                   |               |        |        |
-| _Axe_           | DEX       |  1d6 | 10ft 3m 6sq       | 30ft 9m 6sq t     | T             |     6s |    72d |
+| _Axe_           | DEX       |  1d6 | 10ft 3m 2sq       | 30ft 9m 6sq t     | T             |     6s |    72d |
 | _Dagger_        | DEX       |  1d4 | 30ft 9m 6sq t     | 60ft 18m 12sq tt  | T             |     6d |     6d |
 | _Javelin_       | DEX       |  1d6 | 30ft 9m 6sq t     | 60ft 18m 12sq tt  | T             |     6d |     6d |
 
@@ -258,4 +258,6 @@ XA
 
   VV
   : 100ft 30m 20sq
+
+  **t** alias the _walking stick_ since 30ft is the distance a human walks in a combat turn
 
