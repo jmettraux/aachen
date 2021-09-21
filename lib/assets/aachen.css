@@ -456,6 +456,15 @@ table.social-class th:nth-child(1) {
   display: none;
 }
 
+[data-aa-title="character creation"] dl {
+  margin-top: 2rem;
+}
+[data-aa-title="character creation"] dd:nth-of-type(26),
+[data-aa-title="character creation"] dd:nth-of-type(27) {
+  text-indent: -1rem;
+  padding-left: 1rem;
+}
+
 [data-aa-title="attributes"] dl {
   grid-template-columns: 22% auto;
 }

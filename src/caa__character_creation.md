@@ -23,7 +23,7 @@ Modifiers
 : Compute the modifier for each attribute;
 : 3 → **-2** | 4 to 7 → **-1** | 14 to 17 → **+1** | 18 → **+2**
 
-Saving Throws
+Saves
 : Compute the saving throw scores;
 : `Physical` = 16 - (max(mod `STR`, mod `CON`)) - 1
 : `Evasion` = 16 - (max(mod `DEX`, mod `INT`)) - 1
@@ -32,32 +32,36 @@ Saving Throws
 : (the -1 is for character level 1).
 
 Background
-: Determine the background of the character
-: Follow the background table to roll or pick skills
+: Determine the background of the character;
+: Follow then the background table to roll or pick skills.
 
 Class
 : Select a character class;
-: `Fighter`, `Expert`, or `Caster`.
+: `Fighter`, `Dabster`, or `Caster`.
 
 Traits
-: Choose traits, they represent side talents or particular specializations;
-: 1 trait per character;
-: Dabsters get 1 extra talent of any kind.
+: They represent side talents or particular specializations;
+: Choose (1 + mod `CHA`) traits, minimum 1;
+: 1 extra trait if the character is a `Dabster`.
 
 Skill
 : Pick an extra skill, to reflect the character's outside interests, natural talents, hobby expertise, etc.;
 : A new character may not exceed level 1 in a skill: should the creation lead you to reach level 2 in a skill, keep it at 1 and increment another skill.
 
-Class
-: Finalize class selection, some classes require the selection of spells or special powers
-
 Hit Points
-: Determine hit points;
-: Fighter 1d6+2 | Expert 1d6 | Caster 1d6-1;
-: Add the `CON` modifier, HP minimum is 1.
+: HP = `Fighter` 1d6+2 | `Dabster` 1d6 | `Caster` 1d6-1;
+: Add the `CON` modifier;
+: HP minimum is 1.
+
+Spells
+: Select (1 + mod `INT`) spells if the character has the `Intricate` trait.
+
+Cast Points
+: _factor_ =<br/>`Caster` max(mod `INT`, mod `WIS`, mod `CHA`) |<br/>`Fighter-Caster` mod `WIS` | `Dabster-Caster` mod `INT` |<br/>at least 1
+: CP =<br/>`Intricate` lvl * _factor_ | `Very Intricate` lvl + lvl * _factor_ |<br/>else 0
 
 Name
-: Give character a name
+: Give the character a name.
 
 Equipment
 : Determine the equipment of the character with the referee.
