@@ -8,14 +8,21 @@ def make_pdf
   make_chrome_pdf(h)
 
   h[:in] = "out/html/#{CONFIG[:NAME]}.pdf"
+  h[:out] = "out/html/#{CONFIG[:NAME]}.stuffed.pdf"
+  make_stuffed_pdf(h)
+
+  h[:in] = "out/html/#{CONFIG[:NAME]}.stuffed.pdf"
   h[:out] = "out/html/#{CONFIG[:NAME]}.stapled.pdf"
   make_stapled_pdf(h)
 
   if sps = ENV['SAMPLE_PAGES']
+
     h[:in] = "out/html/#{CONFIG[:NAME]}.pdf"
     h[:out] = "out/html/#{CONFIG[:NAME]}.sample.pdf"
     h[:pages] = sps
     make_sample_pdf(h)
+
+    # TODO stapled...
   end
 end
 
@@ -28,13 +35,33 @@ def make_chrome_pdf(h)
   system(cmd)
 end
 
-def make_stapled_pdf(h)
+def count_pages(h)
 
-  cmd =
-    h.inject(CONFIG[:pdfinfo]) { |s, (k, v)| s.gsub(/\$\{#{k}\}/, v) }
+  cmd = h.inject(CONFIG[:pdfinfo]) { |s, (k, v)| s.gsub(/\$\{#{k}\}/, v) }
   puts(cmd)
   m = `#{cmd}`.match(/Pages:\s+(\d+)/)
-  pcount = m[1].to_i
+
+  m[1].to_i
+end
+
+def make_stuffed_pdf(h)
+
+  h1 = h.dup
+  pcount = count_pages(h)
+  p [ :pcount, pcount ]
+
+  h1[:blanks] = ([ 'out/tmp/blank_a4.pdf' ] * (pcount % 4)).join(' ')
+
+  cmd =
+    h1.inject(CONFIG[:to_stuffed_pdf]) { |s, (k, v)| s.gsub(/\$\{#{k}\}/, v) }
+
+  puts(cmd)
+  system(cmd)
+end
+
+def make_stapled_pdf(h)
+
+  pcount = count_pages(h)
   p [ :pcount, pcount ]
   p [ :array_pages, array_pages(pcount) ]
   h[:pages] = array_pages(pcount).collect(&:to_s).join(',')

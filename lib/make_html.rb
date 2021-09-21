@@ -72,10 +72,12 @@ def make_html
   end
   f.close
 
-  pi = page; while pi % 4 != 0
-    pi = pi + 1
-    system('touch out/tmp/p%03d__%s.md' % [ pi, 'blank' ])
-  end
+  #pi = page; while pi % 4 != 0
+  #  pi = pi + 1
+  #  system('touch out/tmp/p%03d__%s.md' % [ pi, 'blank' ])
+  #end
+    #
+    # no, this is now done only when generating a stapled booklet
 
   index.each { |_, v| v.uniq! }
 #puts "v" * 80
