@@ -701,18 +701,15 @@ table.social-class th:nth-child(1) {
 }
 
 [data-aa-title="equipment"] h2.list {
-  margin-top: 1.0rem;
-  margin-bottom: 0.4rem;
+  margin-top: 0.7rem;
+  margin-bottom: 0.3rem;
 }
 [data-aa-title="equipment"] h2#armor {
-  margin-top: 0;
+  margin-top: -0.3rem;
 }
 [data-aa-title="equipment"] h2.list + table {
-  /*
-  font-family: var(--sans-face);
-  */
-  font-size: var(--size-c);
-  line-height: 0.85;
+  font-size: var(--size-b);
+  line-height: 0.66;
 }
 [data-aa-title="equipment"] h2.list.monetary {
   margin-top: 3rem;
@@ -722,14 +719,18 @@ table.social-class th:nth-child(1) {
   margin-bottom: 1rem;
 }
 [data-aa-title="equipment"] h2.list.ranged {
-  margin-top: -0.5rem;
+}
+[data-aa-title="equipment"] table.weapons.ranged {
+  font-size: 11pt;
+  line-height: 0.66;
 }
 [data-aa-title="equipment"] table.weapons td:nth-child(2) {
   font-size: 80%;
 }
 [data-aa-title="equipment"] dl.weapon-traits {
-  margin:; 0;
-  font-size: 70%;
+  margin: 0;
+  margin-top: 0.5rem;
+  font-size: 11pt;
 }
 [data-aa-title="equipment"] dl.weapon-traits .last-dd {
   margin: 0;

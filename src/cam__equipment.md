@@ -148,45 +148,44 @@ Monetary exchange is at its worse but people and organizations are still in the 
 ## armor
 
 <!-- .armor -->
-| Item         | AC      | Val |    d |   | Item         | AC      | or Mod   | Value | Val d |
-|--------------|:-------:|----:|-----:|---|--------------|:-------:|:--------:|------:|------:|
-| No Armor     | 10 + dm |     |      |   | Shield small | 13 + dm | +1 to AC |    3s |   36d |
-| &nbsp;       |         |     |      |   | Shield large | 14 + dm | +1 to AC |    4s |   48d |
-| Gambeson     | 12 + dm |  1L | 240d |   | Shield broad | 15 + dm | +1 to AC |    6s |   72d |
-| Mail Shirt   | 14 + dm |  2L | 480d |   | | | | | | |
-| Mail Hauberk | 16 + dm |  3L | 720d |   | | | | | | |
+| Item         | AC             | Val |    d |   | Item         | AC             | or AC | Val |   d |
+|--------------|:--------------:|----:|-----:|---|--------------|:--------------:|:-----:|:---:|----:|
+| Gambeson     | 12 + `DEX` m   |  1L | 240d |   | Shield small | 13 + `DEX` m   | +1    |  3s | 36d |
+| Mail Shirt   | 14 + `DEX` m   |  2L | 480d |   | Shield large | 14 + `DEX` m   | +1    |  4s | 48d |
+| Mail Hauberk | 16 + `DEX` m   |  3L | 720d |   | Shield broad | 15 + `DEX` m   | +1    |  6s | 72d |
+| _No Armor_   | 10 + `DEX` m   |     |      |   | | | | | | |
 
 
 <!-- .list -->
 ## melee weapons
 
 <!-- .weapons -->
-| Name           | Att     | Dmg  | Shk/AC | Flags    | Val |    d |
-|----------------|:-------:|:----:|:------:|:--------:|----:|-----:|
-| Axe            | STR/DEX |  1d6 | 2 / 15 | T        |  6s |  72d |
-| Axe, war       | STR     | 1d10 | 3 / 15 | 2H       |  9s | 108d |
-| Club           | STR/DEX |  1d4 | 1 / 13 | T, LL    |     |      |
-| Club, large    | STR     | 1d10 | 2 / 15 | 2H       |     |      |
-| Dagger         | STR/DEX |  1d4 | 1 / 15 | S, T, XA |  2s |  24d |
-| Halberd *      | STR     | 1d10 | 2 / 15 | L        |  5s |  60d |
-| Hammer, war    | STR     |  1d8 | 1 / 18 |          |  8s |  96d |
-| Hammer, great  | STR     | 1d10 | 2 / 18 | 2H       | 10s | 120d |
-| Hatchet        | STR     |  1d4 | 1 / 13 |          |  1s |  12d |
-| Javelin        | STR/DEX |  1d6 | 2 / 13 | T        |  5s |  60d |
-| Knife          | STR/DEX |  1d4 | 1 / 15 |          |  1s |  12d |
-| Mace           | STR     |  1d6 | 1 / 18 | LL       |  7s |  84d |
-| Pike           | STR     |  1d8 | 1 / 18 | 2H, L    |  5s |  60d |
-| Quarterstaff   | STR/DEX |  1d6 | 1 / 13 | 2H, LL   |     |      |
-| Seax           | STR/DEX |  1d6 | 1 / 15 |          |  2s |  24d |
-| Spear, broad   | STR     |  1d8 | 2 / 13 |          |  6s |  72d |
-| Spear, heavy   | STR     | 1d10 | 2 / 15 | 2H       |  7s |  84d |
-| Sword, long    | STR/DEX |  1d8 | 2 / 13 |          |  1L | 240d |
-| Sword, short   | STR/DEX |  1d6 | 2 / 15 |          | 10s | 120d |
-| Sword, great   | STR     | 1d12 | 2 / 15 | 2H       |  2L | 480d |
-| &nbsp;         |         |      |        |          |     |      |
-| Shield bash S  | STR/DEX |  1d4 |        | LL       |     |      |
-| Shield bash L  | STR     |  1d6 | 1 / 13 | LL       |     |      |
-| Unarmed attack | STR/DEX | 1d2+Punch |   | LL       |     |      |
+| Name             | Attribute | Damage | Shk/AC | Flags    | Value | Value d |
+|------------------|:---------:|:------:|:------:|:--------:|----:|-----:|
+| Axe              | STR/DEX   |  1d6   | 2 / 15 | T        |  6s |  72d |
+| Axe, war         | STR       | 1d10   | 3 / 15 | 2H       |  9s | 108d |
+| Club             | STR/DEX   |  1d4   | 1 / 13 | T, LL    |     |      |
+| Club, large      | STR       | 1d10   | 2 / 15 | 2H       |     |      |
+| Dagger           | STR/DEX   |  1d4   | 1 / 15 | S, T, XA |  2s |  24d |
+| Halberd *        | STR       | 1d10   | 2 / 15 | L        |  5s |  60d |
+| Hammer, war      | STR       |  1d8   | 1 / 18 |          |  8s |  96d |
+| Hammer, great    | STR       | 1d10   | 2 / 18 | 2H       | 10s | 120d |
+| Hatchet          | STR       |  1d4   | 1 / 13 |          |  1s |  12d |
+| Javelin          | STR/DEX   |  1d6   | 2 / 13 | T        |  5s |  60d |
+| Knife            | STR/DEX   |  1d4   | 1 / 15 |          |  1s |  12d |
+| Mace             | STR       |  1d6   | 1 / 18 | LL       |  7s |  84d |
+| Pike             | STR       |  1d8   | 1 / 18 | 2H, L    |  5s |  60d |
+| Quarterstaff     | STR/DEX   |  1d6   | 1 / 13 | 2H, LL   |     |      |
+| Seax             | STR/DEX   |  1d6   | 1 / 15 |          |  2s |  24d |
+| Spear, broad     | STR       |  1d8   | 2 / 13 |          |  6s |  72d |
+| Spear, heavy     | STR       | 1d10   | 2 / 15 | 2H       |  7s |  84d |
+| Sword, long      | STR/DEX   |  1d8   | 2 / 13 |          |  1L | 240d |
+| Sword, short     | STR/DEX   |  1d6   | 2 / 15 |          | 10s | 120d |
+| Sword, great     | STR       | 1d12   | 2 / 15 | 2H       |  2L | 480d |
+| &nbsp;           |           |        |        |          |     |      |
+| Shield bash S    | STR/DEX   |  1d4   |        | LL       |     |      |
+| Shield bash L    | STR       |  1d6   | 1 / 13 | LL       |     |      |
+| _Unarmed attack_ | STR/DEX   | 1d2+Punch |     | LL       |     |      |
 
 [^1]
 
@@ -229,16 +228,16 @@ XA
 ## ranged weapons
 
 <!-- .weapons.ranged -->
-| Name       | Att       | Dmg  | Short Range       | Long Range        | Flags         |   Val  | d      |
-|------------|:---------:|:----:|:-----------------:|:-----------------:|:-------------:|-------:|-------:|
-| Bow, small | DEX       |  1d6 | 50ft 15m 10sq V   | 300ft 90m 60sq    | 2H, R, XA     |     2s |    24d |
-| Bow, large | **STR**   |  1d8 | 100ft 30m 20sq VV | 600ft 180m 120sq  | 2H, R, XA     |     3s |    36d |
-| Crossbow * | DEX       | 1d10 | 100ft 30m 20sq VV | 300ft 90m 60sq    | 2H, SR, XA    |     7s |    84d |
-| Sling      | DEX       |  1d6 | 50ft 15m 10sq V   | 100ft 30m 20sq VV | 2H, R         |     6d |     6d |
-| &nbsp;     |           |      |                   |                   |               |        |        |
-| _Axe_      | DEX       |  1d6 | 10ft 3m 2sq       | 30ft 9m 6sq t     | T             |     6s |    72d |
-| _Dagger_   | DEX       |  1d4 | 30ft 9m 6sq t     | 60ft 18m 12sq tt  | T             |     6d |     6d |
-| _Javelin_  | DEX       |  1d6 | 30ft 9m 6sq t     | 60ft 18m 12sq tt  | T             |     6d |     6d |
+| Name       | Attr      | Dmg  | Short Range       | Long Range (Atk -2) | Flags         |   Val  | d      |
+|------------|:---------:|:----:|:-----------------:|:-------------------:|:-------------:|-------:|-------:|
+| Bow, small | DEX       |  1d6 | 50ft 15m 10sq V   | 300ft 90m 60sq      | 2H, R, XA     |     2s |    24d |
+| Bow, large | **STR**   |  1d8 | 100ft 30m 20sq VV | 600ft 180m 120sq    | 2H, R, XA     |     3s |    36d |
+| Crossbow * | DEX       | 1d10 | 100ft 30m 20sq VV | 300ft 90m 60sq      | 2H, SR, XA    |     7s |    84d |
+| Sling      | DEX       |  1d6 | 50ft 15m 10sq V   | 100ft 30m 20sq VV   | 2H, R         |     6d |     6d |
+| &nbsp;     |           |      |                   |                     |               |        |        |
+| _Axe_      | DEX       |  1d6 | 10ft 3m 2sq       | 30ft 9m 6sq t       | T             |     6s |    72d |
+| _Dagger_   | DEX       |  1d4 | 30ft 9m 6sq t     | 60ft 18m 12sq tt    | T             |     6d |     6d |
+| _Javelin_  | DEX       |  1d6 | 30ft 9m 6sq t     | 60ft 18m 12sq tt    | T             |     6d |     6d |
 
 
 [^1]:
