@@ -17,6 +17,7 @@ def make_html
   gitsha = (`git rev-parse HEAD` rescue 'no-git-sha')
   giturl = (`git ls-remote --get-url` rescue 'no-git-url')
   srcsha = (`#{CONFIG[:srcsha]}` rescue 'no-src-sha')
+  printed = Time.now.strftime('%F')
 
   weburl =
     giturl == 'no-git-url' ?
@@ -102,7 +103,7 @@ def make_html
       #
     h = {
       GITBRA: gitbra, GITSHA: gitsha, GITURL: giturl,
-      WEBURL: weburl, SRCSHA: srcsha,
+      WEBURL: weburl, SRCSHA: srcsha, PRINTED: printed,
       PATH: path, PAGE: i,
       TITLE: t, TITLE_: m[2],
       EVEN: i % 2 == 0 ? :even : :odd }

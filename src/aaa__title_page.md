@@ -6,7 +6,7 @@ ${NAME_CAP} is a set of tabletop role playing rules targetting a low-fantasy Eur
 
 It is based on Star Without Numbers and its sibling games by Kevin Crawford. Only the core rules of those games are present here, inherited from the old ancient. No intellectual property of Kevin Crawford is reproduced here.
 
-Git branch
+Git Branch
 : ${GITBRA}
 Git SHA
 : ${GITSHA}
@@ -14,4 +14,6 @@ Src SHA
 : ${SRCSHA}
 URL
 : ${WEBURL}
+Printed
+: ${PRINTED}
 
