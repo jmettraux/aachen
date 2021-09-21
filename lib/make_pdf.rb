@@ -22,7 +22,13 @@ def make_pdf
     h[:pages] = sps
     make_sample_pdf(h)
 
-    # TODO stapled...
+    h[:in] = "out/html/#{CONFIG[:NAME]}.sample.pdf"
+    h[:out] = "out/html/#{CONFIG[:NAME]}.sample.stuffed.pdf"
+    make_stuffed_pdf(h)
+
+    h[:in] = "out/html/#{CONFIG[:NAME]}.sample.stuffed.pdf"
+    h[:out] = "out/html/#{CONFIG[:NAME]}.sample.stapled.pdf"
+    make_stapled_pdf(h)
   end
 end
 
@@ -48,9 +54,12 @@ def make_stuffed_pdf(h)
 
   h1 = h.dup
   pcount = count_pages(h)
-  p [ :pcount, pcount ]
+  mod = pcount % 4; mod = 4 - mod if mod > 0
 
-  h1[:blanks] = ([ 'out/tmp/blank_a4.pdf' ] * (pcount % 4)).join(' ')
+  p [ :pcount, pcount ]
+  p [ :pcount, :mod, mod ]
+
+  h1[:blanks] = ([ 'out/tmp/blank_a4.pdf' ] * mod).join(' ')
 
   cmd =
     h1.inject(CONFIG[:to_stuffed_pdf]) { |s, (k, v)| s.gsub(/\$\{#{k}\}/, v) }
