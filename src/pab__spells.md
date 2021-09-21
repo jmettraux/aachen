@@ -70,3 +70,6 @@ MA: main action, OTA: on turn action, IA: instant action, T: touch, C: close, S:
 
 Move requires an on turn action. Prolong requires an instant action.
 
+
+<!-- STOP -->
+
