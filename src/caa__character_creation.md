@@ -13,6 +13,9 @@
 
 # Character Creation
 
+Level
+: A new character is level 1.
+
 Attributes
 : Determine `STR`, `DEX`, `CON`, `INT`, `WIS`, and `CHA`.
 : Roll 3d6 and assign in order, replace lowest roll with a 14;
@@ -25,11 +28,10 @@ Modifiers
 
 Saves
 : Compute the saving throw scores;
-: `Physical` = 16 - (max(mod `STR`, mod `CON`)) - 1
-: `Evasion` = 16 - (max(mod `DEX`, mod `INT`)) - 1
-: `Mental` = 16 - (max(mod `WIS`, mod `CHA`)) - 1
-: `Luck` = 16 - 1
-: (the -1 is for character level 1).
+: `Physical` = 16 - (max(mod `STR`, mod `CON`)) - _level_
+: `Evasion` = 16 - (max(mod `DEX`, mod `INT`)) - _level_
+: `Mental` = 16 - (max(mod `WIS`, mod `CHA`)) - _level_
+: `Luck` = 16 - _level_.
 
 Background
 : Determine the background of the character;
@@ -58,7 +60,7 @@ Spells
 
 Cast Points
 : _factor_ =<br/>`Caster` max(mod `INT`, mod `WIS`, mod `CHA`) |<br/>`Fighter-Caster` mod `WIS` | `Dabster-Caster` mod `INT` |<br/>at least 1
-: CP =<br/>`Intricate` lvl * _factor_ | `Very Intricate` lvl + lvl * _factor_ |<br/>else 0
+: CP =<br/>`Intricate` _level_ * _factor_ | `Very Intricate` _level_ + _level_ * _factor_ |<br/>else 0
 
 Name
 : Give the character a name.
