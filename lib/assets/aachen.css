@@ -500,26 +500,63 @@ table.social-class th:nth-child(1) {
   font-variant: normal;
   font-style: italic;
 }
+
 [data-aa-title="skills"] dl {
-  display: initial;
+  display: block;
+  margin-top: 0;
+  margin-left: 0.5rem;
   font-size: var(--size-b);
   line-height: var(--mul-b);
 }
+[data-aa-title="skills"] p + dl {
+  margin-top: 1.5rem;
+}
 [data-aa-title="skills"] dt {
-  float: left;
+  display: inline-block;
+  padding-top: 0.1rem;
+  padding-right:0;
+  float: none;
+  text-align: left;
   font-variant: small-caps;
-  font-weight: normal;
+  font-weight: 500;
   text-transform: lowercase;
+  font-size: var(--size-a);
+  text-indent: -0.5rem;
 }
 [data-aa-title="skills"] dt:after {
+  content: '';
+  padding-right: 0;
+}
+/*
+[data-aa-title="skills"] dd:before {
   content: '·';
+  font-weight: 900;
   color: red;
 }
-[data-aa-title="skills"] dd {
-  margin-left: 0.5rem;
+[data-aa-title="skills"] dt + dd + dd:before {
+  content: '··';
 }
-[data-aa-title="skills"] dd.last-dd {
+*/
+[data-aa-title="skills"] dd {
+  display: inline;
+}
+[data-aa-title="skills"] .last-dd {
   margin-bottom: 0;
+}
+/*
+[data-aa-title="skills"] dt + dd + dd {
+  display: block;
+  text-indent: -0.5rem;
+}
+*/
+[data-aa-title="skills"] dt + dd:after {
+  content: '';
+  display: block;
+}
+[data-aa-title="skills"] dt + dd + dd:after {
+  content: '';
+  display: block;
+  margin-bottom: 0.5rem;
 }
 
 [data-aa-title="background"] h3 {
@@ -562,7 +599,7 @@ table.social-class th:nth-child(1) {
 }
 
 [data-aa-title="class"] del,
-[data-aa-title="talents"] del {
+[data-aa-title="traits"] del {
   text-decoration: none;
   color: red;
 }
@@ -600,17 +637,17 @@ table.social-class th:nth-child(1) {
   margin-bottom: 1rem;
 }
 
-[data-aa-title="talents"] dl {
+[data-aa-title="traits"] dl {
   display: block;
   margin-top: 0;
   margin-left: 0.5rem;
   font-size: var(--size-b);
   line-height: var(--mul-b);
 }
-[data-aa-title="talents"] p + dl {
+[data-aa-title="traits"] p + dl {
   margin-top: 1.5rem;
 }
-[data-aa-title="talents"] dt {
+[data-aa-title="traits"] dt {
   display: inline-block;
   padding-top: 0.25rem;
   padding-right:0;
@@ -622,30 +659,30 @@ table.social-class th:nth-child(1) {
   font-size: var(--size-a);
   text-indent: -0.5rem;
 }
-[data-aa-title="talents"] dt:after {
+[data-aa-title="traits"] dt:after {
   content: '';
   padding-right: 0;
 }
-[data-aa-title="talents"] dd:before {
+[data-aa-title="traits"] dd:before {
   content: '·';
   font-weight: 900;
   color: red;
 }
-[data-aa-title="talents"] dt + dd + dd:before {
+[data-aa-title="traits"] dt + dd + dd:before {
   content: '··';
 }
-[data-aa-title="talents"] dd {
+[data-aa-title="traits"] dd {
   display: inline;
 }
-[data-aa-title="talents"] dt + dd + dd {
+[data-aa-title="traits"] dt + dd + dd {
   display: block;
   text-indent: -0.5rem;
 }
-[data-aa-title="talents"] dt + dd:after {
+[data-aa-title="traits"] dt + dd:after {
   content: '';
   display: block;
 }
-[data-aa-title="talents"] dt + dd + dd:after {
+[data-aa-title="traits"] dt + dd + dd:after {
   content: '';
   display: block;
   margin-bottom: 0.5rem;
