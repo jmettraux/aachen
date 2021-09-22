@@ -19,6 +19,7 @@ Frankish and germanic names are fashionable. Roman names are out of fashion exce
 
 Should the name be too ambiguous indicate the father name (patronym) or some place name. Bernhard son of Martin, Juliana of the Lake.
 
+[^1]
 
 | d6d8 | Frankish M | F | Gallic M | F | Roman M | F |
 |:----:|:----------:|:-:|:--------:|:-:|:-------:|:-:|
@@ -70,4 +71,36 @@ Should the name be too ambiguous indicate the father name (patronym) or some pla
 | 66 | Wichmann | Ultrogotha | Viriodacus | Trocina | Titus | Umbria |
 | 67 | Wulfram | Vulfegundis | Vocorix | Veleda | Tullus | Valeria |
 | 68 | Zwentibold | Wisigard | Vridolanos | Vlatuna | Valerius | Victorina |
+
+
+[^1]:
+  maybe:
+
+  <!-- .social-class -->
+  | d4d6 | origin    |
+  |:----:|:---------:|
+  | 11   | _roman_   |
+  | 12   | ·         |
+  | 13   | frankish  |
+  | 14   | ·         |
+  | 15   | ·         |
+  | 16   | gallic    |
+  | 21   | ·         |
+  | 22   | ·         |
+  | 23   | burgund   |
+  | 24   | ·         |
+  | 25   | lombard   |
+  | 26   | briton    |
+  | 31   | ·         |
+  | 32   | visigoth  |
+  | 33   | ·         |
+  | 34   | saxon     |
+  | 35   | ·         |
+  | 36   | a-saxon   |
+  | 41   | dane      |
+  | 42   | scot      |
+  | 43   | byzantine |
+  | 44   | north-african |
+  | 45   | jewish    |
+  | 46   | arab      |
 

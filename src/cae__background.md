@@ -53,7 +53,7 @@ When a character is given a skill, it sets it at level 0. Taking it a second tim
 
 
 [^1]:
-  option:
+  options:
 
   <!-- .social-class -->
   | d8  | soclass |
