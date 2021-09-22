@@ -118,14 +118,14 @@ everyday clothes, sling bag, knife, tinderbox, 1 gallon waterskin, 3 days of tra
 ## libri, soldi, denarii
 
 <!-- .monetary -->
-| Abb | Name     | Latin    | French | Value | Val d |   | Worker           |         | Wage   | Wage d |
-|-----|----------|----------|--------|------:|------:|---|------------------|---------|-------:|-------:|
-| L   | Pound    | Liber    | Livre  |   20s |  240d |   | Labourer         | 1 day   |     1d |     1d |
-| s   | Shilling | Solidus  | Sou    |       |   12d |   |                  | 1 month |     2s |    24d |
-| d   | Pence    | Denarius | Denier |       |    1d |   |                  | 1 year  |   1L4s |   288d |
-| f   | Farthing |          | Ferlin |       |  1/4d |   | Master craftsman | 1 day   |     5d |     5d |
-|     |          |          |        |       |       |   |                  | 1 month |    10s |   120d |
-|     |          |          |        |       |       |   |                  | 1 year  |     5L | 1,440d |
+|     | Name     | Latin    | French | Val | Val d |   | Worker           |         | Wage   | d      |
+|-----|----------|----------|--------|----:|------:|---|------------------|---------|-------:|-------:|
+| L   | Pound    | Liber    | Livre  | 20s |  240d |   | Labourer         | 1 day   |     1d |     1d |
+| s   | Shilling | Solidus  | Sou    |     |   12d |   |                  | 1 month |     2s |    24d |
+| d   | Pence    | Denarius | Denier |     |    1d |   |                  | 1 year  |   1L4s |   288d |
+| f   | Farthing |          | Ferlin |     |  1/4d |   | Master           | 1 day   |     5d |     5d |
+|     |          |          |        |     |       |   | Craftsman        | 1 month |    10s |   120d |
+|     |          |          |        |     |       |   |                  | 1 year  |     5L | 1,440d |
 
 Monetary exchange is at its worse but people and organizations are still in the habit of valuing services and merchandises in _Liber_, _Solidus_, and _Denarii_.
 
@@ -160,32 +160,32 @@ Monetary exchange is at its worse but people and organizations are still in the 
 ## melee weapons
 
 <!-- .weapons -->
-| Name             | Attribute | Damage | Shk/AC | Flags    | Value | Value d |
-|------------------|:---------:|:------:|:------:|:--------:|----:|-----:|
-| Axe              | STR/DEX   |  1d6   | 2 / 15 | T        |  6s |  72d |
-| Axe, war         | STR       | 1d10   | 3 / 15 | 2H       |  9s | 108d |
-| Club             | STR/DEX   |  1d4   | 1 / 13 | T, LL    |     |      |
-| Club, large      | STR       | 1d10   | 2 / 15 | 2H       |     |      |
-| Dagger           | STR/DEX   |  1d4   | 1 / 15 | S, T, XA |  2s |  24d |
-| Halberd *        | STR       | 1d10   | 2 / 15 | L        |  5s |  60d |
-| Hammer, war      | STR       |  1d8   | 1 / 18 |          |  8s |  96d |
-| Hammer, great    | STR       | 1d10   | 2 / 18 | 2H       | 10s | 120d |
-| Hatchet          | STR       |  1d4   | 1 / 13 |          |  1s |  12d |
-| Javelin          | STR/DEX   |  1d6   | 2 / 13 | T        |  5s |  60d |
-| Knife            | STR/DEX   |  1d4   | 1 / 15 |          |  1s |  12d |
-| Mace             | STR       |  1d6   | 1 / 18 | LL       |  7s |  84d |
-| Pike             | STR       |  1d8   | 1 / 18 | 2H, L    |  5s |  60d |
-| Quarterstaff     | STR/DEX   |  1d6   | 1 / 13 | 2H, LL   |     |      |
-| Seax             | STR/DEX   |  1d6   | 1 / 15 |          |  2s |  24d |
-| Spear, broad     | STR       |  1d8   | 2 / 13 |          |  6s |  72d |
-| Spear, heavy     | STR       | 1d10   | 2 / 15 | 2H       |  7s |  84d |
-| Sword, long      | STR/DEX   |  1d8   | 2 / 13 |          |  1L | 240d |
-| Sword, short     | STR/DEX   |  1d6   | 2 / 15 |          | 10s | 120d |
-| Sword, great     | STR       | 1d12   | 2 / 15 | 2H       |  2L | 480d |
-| &nbsp;           |           |        |        |          |     |      |
-| Shield bash S    | STR/DEX   |  1d4   |        | LL       |     |      |
-| Shield bash L    | STR       |  1d6   | 1 / 13 | LL       |     |      |
-| _Unarmed attack_ | STR/DEX   | 1d2+Punch |     | LL       |     |      |
+| Name             | Attribute | Damage | Shk/AC< | Flags    | Value | Value d |
+|------------------|:---------:|:------:|:-------:|:--------:|----:|-----:|
+| Axe              | STR/DEX   |  1d6   | 2 / 15  | T        |  6s |  72d |
+| Axe, war         | STR       | 1d10   | 3 / 15  | 2H       |  9s | 108d |
+| Club             | STR/DEX   |  1d4   | 1 / 13  | T, LL    |     |      |
+| Club, large      | STR       | 1d10   | 2 / 15  | 2H       |     |      |
+| Dagger           | STR/DEX   |  1d4   | 1 / 15  | S, T, XA |  2s |  24d |
+| Halberd *        | STR       | 1d10   | 2 / 15  | L        |  5s |  60d |
+| Hammer, war      | STR       |  1d8   | 1 / 18  |          |  8s |  96d |
+| Hammer, great    | STR       | 1d10   | 2 / 18  | 2H       | 10s | 120d |
+| Hatchet          | STR       |  1d4   | 1 / 13  |          |  1s |  12d |
+| Javelin          | STR/DEX   |  1d6   | 2 / 13  | T        |  5s |  60d |
+| Knife            | STR/DEX   |  1d4   | 1 / 15  |          |  1s |  12d |
+| Mace             | STR       |  1d6   | 1 / 18  | LL       |  7s |  84d |
+| Pike             | STR       |  1d8   | 1 / 18  | 2H, L    |  5s |  60d |
+| Quarterstaff     | STR/DEX   |  1d6   | 1 / 13  | 2H, LL   |     |      |
+| Seax             | STR/DEX   |  1d6   | 1 / 15  |          |  2s |  24d |
+| Spear, broad     | STR       |  1d8   | 2 / 13  |          |  6s |  72d |
+| Spear, heavy     | STR       | 1d10   | 2 / 15  | 2H       |  7s |  84d |
+| Sword, long      | STR/DEX   |  1d8   | 2 / 13  |          |  1L | 240d |
+| Sword, short     | STR/DEX   |  1d6   | 2 / 15  |          | 10s | 120d |
+| Sword, great     | STR       | 1d12   | 2 / 15  | 2H       |  2L | 480d |
+| &nbsp;           |           |        |         |          |     |      |
+| Shield bash S    | STR/DEX   |  1d4   |         | LL       |     |      |
+| Shield bash L    | STR       |  1d6   | 1 / 13  | LL       |     |      |
+| _Unarmed attack_ | STR/DEX   | 1d2+Punch |      | LL       |     |      |
 
 [^1]
 
