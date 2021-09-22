@@ -44,7 +44,9 @@ Punch[^1]
 : Fight unarmed. Punch, kick, grapple, or brawl.
 
 [^1]:
-  **Option**:<br/>split _Punch_ into _Punch_ and _Wrestle_.
+  option:
+
+  Split `Punch` into `Punch` and `Wrestle`.
 
 
 ## Special Skill

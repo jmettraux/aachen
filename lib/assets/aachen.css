@@ -509,6 +509,7 @@ table.social-class th:nth-child(1) {
   float: left;
   font-variant: small-caps;
   font-weight: normal;
+  text-transform: lowercase;
 }
 [data-aa-title="skills"] dt:after {
   content: '·';
