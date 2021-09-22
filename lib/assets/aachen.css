@@ -460,6 +460,10 @@ table.social-class th:nth-child(1) {
 [data-aa-title="character creation"] dl {
   margin-top: 2rem;
 }
+[data-aa-title="character creation"] dd:nth-of-type(4),
+[data-aa-title="character creation"] dd:nth-of-type(5) {
+  text-indent: 1rem;
+}
 [data-aa-title="character creation"] dd:nth-of-type(26),
 [data-aa-title="character creation"] dd:nth-of-type(27) {
   text-indent: -1rem;
