@@ -70,6 +70,17 @@ When a character is given a skill, it sets it at level 0. Taking it a second tim
   | 9-11 | city    |
   | 12   | court   |
 
+  <!-- .social-class -->
+  | d8  | seniority  |
+  |:---:|:----------:|
+  | 1   | illegitim. |
+  | 2   | bastard    |
+  | 3   | 4th        |
+  | 4-5 | 3rd        |
+  | 6-7 | 2nd        |
+  | 8   | 1st        |
+
+
 [^2]:
   The referee may prevent you from choosing `cast`. Or let you take it for scholarly reasons (no actual spell casting).
 
