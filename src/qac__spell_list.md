@@ -1,4 +1,11 @@
 
+<!-- .margin.compass -->
+* _Playing a Caster_
+* Spellcasting
+* Spell types
+* **Spell list**
+
+
 ## Amber Arrow
 
 Fires a heat arrow at a single target.

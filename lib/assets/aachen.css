@@ -356,6 +356,7 @@ ul.compass li:first-child {
 ul.compass li:first-child em {
   font-style: normal;
   font-variant: small-caps;
+  text-transform: lowercase;
   color: black;
 }
 ul.compass li strong {

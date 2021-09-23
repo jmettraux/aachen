@@ -1,14 +1,9 @@
 
 <!-- .margin.compass -->
-* _Playing<br/>the Game_
+* _Playing a Caster_
 * Spellcasting
-* **Spells**
-* Durations
-* Saving throws
-* Skill checks
-* Combat
-* Health
-* Advancement
+* **Spell types**
+* Spell list
 
 
 <!-- .colours -->
@@ -69,7 +64,4 @@ Most of the casters choose simple, well known, forms for weaving their magical t
 MA: main action, OTA: on turn action, IA: instant action, T: touch, C: close, S: short, M: medium, L: long
 
 Move requires an on turn action. Prolong requires an instant action.
-
-
-<!-- STOP -->
 
