@@ -36,7 +36,7 @@ Saves
 
 Background
 : Determine the background of the character;
-: Follow then the background table to roll or pick skills.
+: Then follow the background table to roll or pick skill levels.
 
 Class
 : Select a character class;
@@ -47,9 +47,8 @@ Traits
 : Choose (1 + `CHA`m) traits, minimum 1;
 : 1 extra trait if the character is a `Dabster`.
 
-Skill
-: Pick an extra skill, to reflect the character's outside interests, natural talents, hobby expertise, etc.;
-: A new character may not exceed level 1 in a skill: should the creation lead you to reach level 2 in a skill, keep it at 1 and increment another skill.
+Skill[^1]
+: Pick an extra skill level, to reflect the character's outside interests, natural talents, hobby expertise, etc.
 
 Hit Points
 : HP = `Fighter` 1d6+2 | `Dabster` 1d6 | `Caster` 1d6-1;
@@ -67,4 +66,8 @@ Name
 
 Equipment
 : Determine the equipment of the character with the referee.
+
+
+[^1]:
+  A new character may not exceed level 1 in a skill: should the creation lead you to reach level 2 in a skill, keep it at 1 and increment another skill.
 
