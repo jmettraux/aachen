@@ -20,7 +20,7 @@ A talent is a qualifier, for example a character might be `Lucky`. A talent may 
 
 The talent descriptions have thus two lines, one for the _normal_ gift, and one for the _very_ version of it.
 
-FIXME
+<span style="color: red;">FIXME</span>
 
 
 Firm
@@ -52,8 +52,8 @@ Deceitful
 : As per · and the character has a +1 on _Sneak_ and _Convince_ checks aimed at deception
 
 Intricate
-: May cast spells, CP = level * ~~factor~~
-: May cast spells, CP = level + (level * ~~factor~~)
+: May cast spells,<br/>CP = char level * ~~CP factor~~
+: May cast spells,<br/>CP = char level + (char level * ~~CP factor~~)
 
 <!-- </div.left-column> -->
 <!-- <div.right-column> -->
@@ -73,6 +73,10 @@ Vigorous
 Watchful
 : TODO
 : TODO
+
+Scheming
+: Each combat turn,  may exchange their initiative rank with someone in the party
+: Each combat turn,  may reshuffle the initiative ranks of the party
 
 Hardy 1
 : Advantage on Luck save lore ipsum nihil obstat pan kun pudding
@@ -99,10 +103,6 @@ Hardy 6
 : Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 
 Hardy 7
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
-
-Hardy 8
 : Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 : Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 

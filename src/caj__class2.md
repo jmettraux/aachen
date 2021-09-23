@@ -3,7 +3,7 @@
 
 <!-- there is only spell selection for now -->
 
-# Select spells
+# Select Spells
 
 A `Caster` or simply a character with the `Intricate` trait may select a few spells in accord with the referee. The background and the origin of the character might lead the referee to recommend certain spells.
 
