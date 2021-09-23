@@ -633,7 +633,7 @@ table.social-class th:nth-child(1) {
 }
 [data-aa-title="traits"] dt {
   display: inline-block;
-  padding-top: 0.25rem;
+  /*padding-top: 0.25rem;*/
   padding-right:0;
   float: none;
   text-align: left;
@@ -669,7 +669,10 @@ table.social-class th:nth-child(1) {
 [data-aa-title="traits"] dt + dd + dd:after {
   content: '';
   display: block;
-  margin-bottom: 0.5rem;
+  /*margin-bottom: 0.5rem;*/
+}
+[data-aa-title="traits"] dd.last-dd {
+  margin-bottom: 0.33rem;
 }
 
 [data-aa-title="skill2"] h1:not(:first-child) {

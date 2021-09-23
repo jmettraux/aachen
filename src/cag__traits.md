@@ -43,6 +43,10 @@ Swerving
 : Once per scene, as an instant action, a successful attack against the character can be negated
 : As per · or a missed attack by the character can be made to succeed
 
+~~Intricate~~[^1]
+: May cast spells,<br/>CP = char level * ~~CP factor~~
+: May cast spells,<br/>CP = char level + (char level * ~~CP factor~~)
+
 Skillful
 : Once per scene, as an instant action, a missed non-combat skill check can be turned into a success
 : As per · and the character has a +1 on checks for known skills (level 0 or better)
@@ -51,9 +55,12 @@ Deceitful
 : Once per scene, as an instant action, a missed _Sneak_ or _Convince_ check can be turned into a success
 : As per · and the character has a +1 on _Sneak_ and _Convince_ checks aimed at deception
 
-~~Intricate~~
-: May cast spells,<br/>CP = char level * ~~CP factor~~
-: May cast spells,<br/>CP = char level + (char level * ~~CP factor~~)
+Scheming
+: Each combat turn,  may exchange their initiative rank with someone in the party
+: Each combat turn,  may reshuffle the initiative ranks of the party
+
+[^1]:
+  Better prevent non-`caster`s from taking `INTRICATE`, at least not at level 1 and not if there is no mentor around.
 
 <!-- </div.left-column> -->
 <!-- <div.right-column> -->
@@ -73,10 +80,6 @@ Vigorous
 Watchful
 : TODO
 : TODO
-
-Scheming
-: Each combat turn,  may exchange their initiative rank with someone in the party
-: Each combat turn,  may reshuffle the initiative ranks of the party
 
 Hardy 1
 : Advantage on Luck save lore ipsum nihil obstat pan kun pudding
@@ -103,6 +106,18 @@ Hardy 6
 : Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 
 Hardy 7
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+
+Hardy 8
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+
+Hardy 9
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+
+Hardy 10
 : Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 : Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 
