@@ -59,8 +59,8 @@ Spells
 : If the character has the `Intricate` or `Very Intricate` trait, select (1 + `INT`m) spells (at least one).
 
 Cast Points
-: _factor_ =<br/>`Caster` max(`INT`m, `WIS`m, `CHA`m) |<br/>`Fighter-Caster` `WIS`m | `Dabster-Caster` `INT`m |<br/>at least 1
-: CP =<br/>`Intricate` _level_ * _factor_ | `Very Intricate` _level_ + _level_ * _factor_ |<br/>else 0
+: _CP factor_ =<br/>`Caster` max(`INT`m, `WIS`m, `CHA`m) |<br/>`Fighter-Caster` `WIS`m | `Dabster-Caster` `INT`m |<br/>at least 1, but 0 for a non-`Caster`;
+: CP =<br/>`Intricate` _character level_ * _CP factor_ |<br/>`Very Intricate` _character level_ + _character level_ * _CP factor_ |<br/>else 0.
 
 Name
 : Give the character a name.
