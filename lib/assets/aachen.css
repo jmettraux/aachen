@@ -453,6 +453,9 @@ table.social-class th:nth-child(1) {
 [data-aa-page="1"] dd.last-dd {
   margin: 0;
 }
+[data-aa-page="1"] .license-link {
+  font-size: x-small;
+}
 [data-aa-page="1"] .folio {
   display: none;
 }

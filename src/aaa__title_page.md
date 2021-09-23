@@ -8,12 +8,19 @@ It is based on Star Without Numbers and its sibling games by Kevin Crawford. Onl
 
 Git Branch
 : ${GITBRA}
+
 Git SHA
 : ${GITSHA}
+
 Src SHA
 : ${SRCSHA}
+
 URL
 : ${WEBURL}
+
 Printed
 : ${PRINTED}
+
+License
+: CC-BY 4.0 <span class="license-link">https://creativecommons.org/licenses/by/4.0/</span>
 
