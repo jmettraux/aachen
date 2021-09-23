@@ -11,7 +11,7 @@ At a finer level of granularity, keeping track of how much time is required to p
 
 Most effects do last for a **scene**. A single fight is a scene, a dialog with a NPC is a scene. A single time span in a single location. The majority of scenes last no longer than a quarter of an hour. When an power or ability listed as "lasting for a scene" is used in one scene, it's expected to be over at the beginning of the next scene, unless decided otherwise by the referee.
 
-During a fight (scene), the time is divided in **rounds** of six seconds.
+During a fight (scene), the time is divided in **rounds** of 6 seconds.
 
 In the heat of the combat, __turn__ is often used interchangeably with __round__. That is why, __exploration turn__ is distinguished below. On some tables, a __combat turn__ is understood as the span of time where the focus, the turn is given to a creature in combat. A __round__ is thus a sum of __combat turns__, taken, well, in turn.
 
