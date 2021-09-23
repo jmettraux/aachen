@@ -20,7 +20,7 @@ A talent is a qualifier, for example a character might be `Lucky`. A talent may 
 
 The talent descriptions have thus two lines, one for the _normal_ gift, and one for the _very_ version of it.
 
-<span style="color: red;">FIXME</span>
+~~FIXME~~
 
 
 Firm
@@ -51,7 +51,7 @@ Deceitful
 : Once per scene, as an instant action, a missed _Sneak_ or _Convince_ check can be turned into a success
 : As per · and the character has a +1 on _Sneak_ and _Convince_ checks aimed at deception
 
-Intricate
+~~Intricate~~
 : May cast spells,<br/>CP = char level * ~~CP factor~~
 : May cast spells,<br/>CP = char level + (char level * ~~CP factor~~)
 
