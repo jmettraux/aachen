@@ -1,4 +1,12 @@
 
+<!-- .margin.compass -->
+* _Running the Game_
+* Morale
+* **Reaction**
+* Beartiary
+* Probabilities
+
+
 # Reaction Rolls and Parley
 
 A reaction roll determines the reaction of another party upon meeting the player characters.

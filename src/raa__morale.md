@@ -1,4 +1,12 @@
 
+<!-- .margin.compass -->
+* _Running the Game_
+* **Morale**
+* Reaction
+* Beartiary
+* Probabilities
+
+
 # Morale
 
 Rules for the referee about NPCs morale.

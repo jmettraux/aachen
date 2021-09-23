@@ -1,4 +1,7 @@
 
+<!-- SKIP -->
+
+
 # Skill Checks
 
 A skill check is done by rolling 2d6, adding the skill level and an attribute modifier. The skill and the attribute are determined by the referee. If the character has no skill level, -1 is added instead.

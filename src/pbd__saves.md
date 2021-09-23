@@ -1,4 +1,7 @@
 
+<!-- SKIP -->
+
+
 # Saving Throws
 
 A saving throw—also called a save—represents an attempt to resist magic, a trap, a poison, a disease, or a similar threat. Referees request saving throws from characters under an imminent threat or resisting an effect.[^1]
