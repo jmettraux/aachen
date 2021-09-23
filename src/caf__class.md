@@ -112,7 +112,7 @@ Some of them are very talented, some others less so but were lucky enough to fin
 
 A `Caster` has `VERY INTRICATE` and `VERY WISE` as class talents.
 
-The ~~factor~~ for computing the cast points (CP) of a `Caster` is the best of the `INT`, `WIS`, or `CHA` modifier.
+The ~~factor~~ for computing the cast points (CP) of a `Caster` is the best of the `INT`, `WIS`, or `CHA` modifiers.
 
 
 # _or a_ Mix _of_ two Classes

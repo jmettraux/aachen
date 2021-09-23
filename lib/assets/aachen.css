@@ -514,7 +514,7 @@ table.social-class th:nth-child(1) {
 [data-aa-title="skills"] dt {
   display: inline-block;
   padding-top: 0.1rem;
-  padding-right:0;
+  /*padding-right:0;*/
   float: none;
   text-align: left;
   font-variant: small-caps;
@@ -524,31 +524,15 @@ table.social-class th:nth-child(1) {
   text-indent: -0.5rem;
 }
 [data-aa-title="skills"] dt:after {
-  content: '';
+  content: '·';
   padding-right: 0;
 }
-/*
-[data-aa-title="skills"] dd:before {
-  content: '·';
-  font-weight: 900;
-  color: red;
-}
-[data-aa-title="skills"] dt + dd + dd:before {
-  content: '··';
-}
-*/
 [data-aa-title="skills"] dd {
   display: inline;
 }
 [data-aa-title="skills"] .last-dd {
   margin-bottom: 0;
 }
-/*
-[data-aa-title="skills"] dt + dd + dd {
-  display: block;
-  text-indent: -0.5rem;
-}
-*/
 [data-aa-title="skills"] dt + dd:after {
   content: '';
   display: block;
