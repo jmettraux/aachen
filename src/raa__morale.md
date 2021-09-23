@@ -3,7 +3,7 @@
 * _Running the Game_
 * **Morale**
 * Reaction
-* Beartiary
+* Bestiary
 * Probabilities
 
 

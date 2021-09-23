@@ -799,29 +799,29 @@ table.social-class th:nth-child(1) {
   margin-bottom: 0;
 }
 
-[data-aa-title="beartiary"] h2 {
+[data-aa-title="bestiary"] h2 {
   margin-bottom: 1rem;
 }
 
-[data-aa-title="beartiary"] ul:not(.compass) {
+[data-aa-title="bestiary"] ul:not(.compass) {
   list-style: none;
   margin-block-start: 0;
   margin-block-end: 0;
   padding-inline-start: 0;
 }
-[data-aa-title="beartiary"] ul:not(.compass) li > strong {
+[data-aa-title="bestiary"] ul:not(.compass) li > strong {
   display: inline-block;
   min-width: 4rem;
   text-align: right;
 }
-[data-aa-title="beartiary"] ul:not(.compass) li > strong:after {
+[data-aa-title="bestiary"] ul:not(.compass) li > strong:after {
   padding-left: 0.3rem;
   content: '·';
 }
-[data-aa-title="beartiary"] ul:not(.compass) + p {
+[data-aa-title="bestiary"] ul:not(.compass) + p {
   margin-top: 0.75rem;
 }
-[data-aa-title="beartiary"] p > em:after {
+[data-aa-title="bestiary"] p > em:after {
   content: '·';
   padding-left: 0.25rem;
 }
