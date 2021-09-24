@@ -487,11 +487,12 @@ table.social-class th:nth-child(1) {
   float: right;
   width: 22%;
   line-height: 0.5;
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-left: 1rem;
 }
 
-[data-aa-title="attributes"] table.modifiers + h2 {
+[data-aa-title="attributes"] h2 {
+  margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -504,6 +505,11 @@ table.social-class th:nth-child(1) {
 }
 [data-aa-title="attributes"] table.example tr:nth-child(2n) td {
   border-bottom: solid thin #c0c0c0;
+}
+
+[data-aa-title="attributes"] table.saves td:nth-child(2),
+[data-aa-title="attributes"] table.saves td:nth-child(3) {
+  font-size: var(--size-b);
 }
 
 #combat_skills {

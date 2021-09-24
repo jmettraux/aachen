@@ -24,20 +24,16 @@ Luck Save
 : The score is a 16 minus the character level. No attribute modifier involved.
 -->
 
-Physical
-: 16 - (max(`STR`m, `CON`m)) - _character level_
-
-Evasion
-: 16 - (max(`DEX`m, `INT`m)) - _character level_
-
-Mental
-: 16 - (max(`WIS`m, `CHA`m)) - _character level_
-
-Luck
-: 16 - _character level_
+<!-- .saves -->
+| Save     | Against                                    | Value                                     |
+|----------|--------------------------------------------|-------------------------------------------|
+| Physical | poison, disease, or exhaustion             | 16 - (max(`STR`m, `CON`m)) - _char level_ |
+| Evasion  | magical effects, illusions, or temptations | 16 - (max(`DEX`m, `INT`m)) - _char level_ |
+| Mental   | sudden explosions, sudden pits or perils   | 16 - (max(`WIS`m, `CHA`m)) - _char level_ |
+| Luck     | bad luck ;-)                               | 16 - _char level_                         |
 
 
-## Computation example
+## Example
 
 A character of level 2 might have the following save scores:
 
@@ -50,5 +46,6 @@ A character of level 2 might have the following save scores:
 | `INT` |     9 |   0 | +1  |**Evasion**  | 16 - (+1) - 2 = **13** |
 | `WIS` |    14 |  +1 |     |             |                        |
 | `CHA` |     7 |  -1 | +1  |**Mental**   | 16 - (+1) - 2 = **13** |
+|       |       |     |     |             |                        |
 |       |       |     |     |**Luck**     | 16        - 2 = **14** |
 
