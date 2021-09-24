@@ -123,3 +123,19 @@ Hardy 10
 <!-- </div.right-column> -->
 <!-- </div.two-columns> -->
 
+
+<!-- PAGE BREAK traits -->
+
+<!-- .margin.compass -->
+* _Character Creation_
+* Atts & Saves
+* Background
+* Class
+* **Traits**
+* Hit Points
+* Name
+* Equipment
+
+
+TODO
+
