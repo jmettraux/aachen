@@ -1,6 +1,7 @@
 
 <!-- PAGE UNBREAK -->
 
+
 # Determine Cast Points
 
 Cast points are mana points, they're Cast Points here, because it _parallels_ with Hit Points (_Verb_ Points).

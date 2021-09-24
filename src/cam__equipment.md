@@ -1,8 +1,7 @@
 
 <!-- .margin.compass -->
 * _Character Creation_
-* Attributes
-* Saves
+* Atts & Saves
 * Background
 * Class
 * Traits
@@ -134,8 +133,7 @@ Monetary exchange is at its worse but people and organizations are still in the 
 
 <!-- .margin.compass -->
 * _Character Creation_
-* Attributes
-* Saves
+* Atts & Saves
 * Background
 * Class
 * Traits

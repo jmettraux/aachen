@@ -1,8 +1,7 @@
 
 <!-- .margin.compass -->
 * _Character Creation_
-* **Attributes**
-* Saves
+* **Atts & Saves**
 * Background
 * Class
 * Traits
@@ -14,8 +13,14 @@
 
 # Determine Attributes
 
-The `physical` attributes
+<!-- .attributes -->
+| Att   | Name         | Description              |   | Att   | Name         | Description        |
+|-------|--------------|--------------------------|---|-------|--------------|--------------------|
+| `STR` | Strength     | physical power           |   | `INT` | Intelligence | book smart         |
+| `DEX` | Dexterity    | agility and coordination |   | `WIS` | Wisdom       | street smart       |
+| `CON` | Constitution | hardiness and endurance  |   | `CHA` | Charisma     | force of character |
 
+<!--
 STRength
 : Lifting heavy weights, breaking thins, melee combat, carrying gear. Affects melee attacks rolls and damage rolls.
 
@@ -34,28 +39,4 @@ WISdom
 : Noticing things, making judgements, reading situations, intuition. Street smart.
 
 CHArisma
-: Force of character, charming others, attracting attention, winning loyalty. Affects reaction rolls.
-
-## Roll Attributes
-
-Roll 3d6 and assign in order `STR`, `DEX`, `CON`, `INT`, `WIS`, and `CHA`. Replace lowest roll with a 14.
-
-**or** if the referee allows it, roll 3d6 six times and assign at will;
-
-**or** use the 14, 12, 11, 10, 9, 7 array.
-
-## Determine Attribute Modifiers
-
-<!-- .third-left -->
-| Value   | Modifier |
-|:-------:|:--------:|
-| 3       |       -2 |
-| 4 - 7   |       -1 |
-| 8 - 13  |        0 |
-| 14 - 17 |       +1 |
-| 18      |       +2 |
-
-For each score write down next its modifier next to its score.
-
-Don't forget to recompute the modifier if the attribute is altered further down the character creation flow.
-
+-->

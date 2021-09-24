@@ -8,6 +8,8 @@
 
 # Spellcasting
 
+Spellcasters hide their gift.
+
 <!--
 Weavers are persons with the gift of weaving, weaving magical threads to achieve effects.
 

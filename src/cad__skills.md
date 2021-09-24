@@ -1,8 +1,7 @@
 
 <!-- .margin.compass -->
 * _Character Creation_
-* Attributes
-* Saves
+* Atts & Saves
 * **Background**
 * Class
 * Traits

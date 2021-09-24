@@ -1,6 +1,7 @@
 
 <!-- PAGE UNBREAK -->
 
+
 <!-- there is only spell selection for now -->
 
 # Select Spells

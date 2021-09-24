@@ -1,8 +1,7 @@
 
 <!-- .margin.compass -->
 * _Character Creation_
-* Attributes
-* Saves
+* Atts & Saves
 * Background
 * **Class**
 * Traits
@@ -79,8 +78,7 @@ The `Dabster` class talents are `VERY SKILLFUL` and `VERY EVASIVE`.
 
 <!-- .margin.compass -->
 * _Character Creation_
-* Attributes
-* Saves
+* Atts & Saves
 * Background
 * **Class**
 * Traits

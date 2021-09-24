@@ -1,19 +1,10 @@
 
-<!-- .margin.compass -->
-* _Character Creation_
-* Attributes
-* **Saves**
-* Background
-* Class
-* Traits
-* Hit Points
-* Name
-* Equipment
-
+<!-- PAGE UNBREAK -->
 
 
 # Determine Saving Throws
 
+<!--
 To make a save, one has to roll a d20 against a saving throw score. If the result is equal or better than the score, the save is successful.
 
 Physical Save
@@ -31,6 +22,7 @@ Evasion Save
 Luck Save
 : When only sheer good luck can save the character.
 : The score is a 16 minus the character level. No attribute modifier involved.
+-->
 
 
 ## Calculation example
