@@ -157,8 +157,8 @@ Monetary exchange is at its worse but people and organizations are still in the 
 <!-- .list -->
 ## melee weapons
 
-<!-- .weapons -->
-| Name             | Attribute | Damage | Shk/AC< | Flags    | Value | Value d |
+<!-- .weapons.melee -->
+| Name             | Attribute | Damage | Shk/AC<= | Flags    | Value | Value d |
 |------------------|:---------:|:------:|:-------:|:--------:|----:|-----:|
 | Axe              | STR/DEX   |  1d6   | 2 / 15  | T        |  6s |  72d |
 | Axe, war         | STR       | 1d10   | 3 / 15  | 2H       |  9s | 108d |
@@ -232,7 +232,6 @@ XA
 | Bow, large | **STR**   |  1d8 | 100ft 30m 20sq VV | 600ft 180m 120sq 12V  | 2H, R, XA     |     3s |    36d |
 | Crossbow * | DEX       | 1d10 | 100ft 30m 20sq VV | 300ft 90m 60sq 6V     | 2H, SR, XA    |     7s |    84d |
 | Sling      | DEX       |  1d6 | 50ft 15m 10sq V   | 100ft 30m 20sq VV     | 2H, R         |     6d |     6d |
-| &nbsp;     |           |      |                   |                       |               |        |        |
 | _Axe_      | DEX       |  1d6 | 10ft 3m 2sq       | 30ft 9m 6sq t         | T             |     6s |    72d |
 | _Dagger_   | DEX       |  1d4 | 30ft 9m 6sq t     | 60ft 18m 12sq tt      | T             |     6d |     6d |
 | _Javelin_  | DEX       |  1d6 | 30ft 9m 6sq t     | 60ft 18m 12sq tt      | T             |     6d |     6d |

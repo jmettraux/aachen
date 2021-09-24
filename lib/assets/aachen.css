@@ -377,9 +377,8 @@ ul.compass li strong {
 .third-right { float: right; margin-left: 1rem; width: 32%; }
 .half-right { float: right; margin-left: 1rem; width: 49%; }
 
-.compact {
-  line-height: 0.77;
-}
+.compact { line-height: 0.77; }
+.compact6 { line-height: 0.66; }
 
 table.backgrounds {
   line-height: 0.6;
@@ -468,23 +467,43 @@ table.social-class th:nth-child(1) {
 [data-aa-title="character creation"] dd:nth-of-type(5) {
   text-indent: 1rem;
 }
-[data-aa-title="character creation"] dd:nth-of-type(26),
-[data-aa-title="character creation"] dd:nth-of-type(27) {
+[data-aa-title="character creation"] dd:nth-of-type(25),
+[data-aa-title="character creation"] dd:nth-of-type(26) {
   text-indent: -1rem;
   padding-left: 1rem;
 }
 
 [data-aa-title="attributes"] table.attributes {
+  float: left;
+  width: 56%;
+  margin-right: 1rem;
+  line-height: 0.8;
 }
-[data-aa-title="attributes"] table.attributes td {
-  vertical-align: top;
-}
-[data-aa-title="attributes"] table.attributes th:nth-child(4) {
-  border: 0;
-}
-[data-aa-title="attributes"] table.attributes td:nth-child(3),
-[data-aa-title="attributes"] table.attributes td:nth-child(7) {
+[data-aa-title="attributes"] table.attributes td:nth-child(3) {
   font-size: var(--size-b);
+}
+
+[data-aa-title="attributes"] table.modifiers {
+  float: right;
+  width: 22%;
+  line-height: 0.5;
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+
+[data-aa-title="attributes"] table.modifiers + h2 {
+  margin-bottom: 1rem;
+}
+
+[data-aa-title="attributes"] p {
+  text-indent: 0;
+}
+
+[data-aa-title="attributes"] table.example {
+  line-height: 0.5;
+}
+[data-aa-title="attributes"] table.example tr:nth-child(2n) td {
+  border-bottom: solid thin #c0c0c0;
 }
 
 #combat_skills {
@@ -763,9 +782,15 @@ table.social-class th:nth-child(1) {
 }
 [data-aa-title="equipment"] h2.list.ranged {
 }
+[data-aa-title="equipment"] table.weapons.melee tr:nth-child(3n) td {
+  border-bottom: solid thin #c0c0c0;
+}
 [data-aa-title="equipment"] table.weapons.ranged {
   font-size: 11pt;
   line-height: 0.66;
+}
+[data-aa-title="equipment"] table.weapons.ranged tr:nth-child(4) td {
+  border-bottom: solid thin #c0c0c0;
 }
 [data-aa-title="equipment"] table.weapons td:nth-child(2) {
   font-size: 80%;

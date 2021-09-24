@@ -24,14 +24,14 @@ Attributes
 Modifiers
 : Compute `STR`m, `DEX`m, `CON`m, `INT`m, `WIS`m, and `CHA`m;
 : 3 → **-2** | 4 to 7 → **-1** | 14 to 17 → **+1** | 18 → **+2**;
-: so if `STR` is 18 then `STR`m is +2.
+: so if `STR` is 18 then `STR`m is +2; if `INT` is 13 then `INT`m is +0.
 
 Saves
 : Compute the saving throw scores;
-: `Physical` = 16 - (max(`STR`m, `CON`m)) - _level_
-: `Evasion` = 16 - (max(`DEX`m, `INT`m)) - _level_
-: `Mental` = 16 - (max(`WIS`m, `CHA`m)) - _level_
-: `Luck` = 16 - _level_.
+: `Physical` = 16 - (max(`STR`m, `CON`m)) - _character level_;
+: `Evasion` = 16 - (max(`DEX`m, `INT`m)) - _character level_;
+: `Mental` = 16 - (max(`WIS`m, `CHA`m)) - _character level_;
+: `Luck` = 16 - _character level_.
 
 Background
 : Determine the background of the character;
@@ -50,15 +50,15 @@ Skill[^1]
 : Pick an extra skill level, to reflect the character's outside interests, natural talents, hobby expertise, etc.
 
 Hit Points
-: HP = `Fighter` 1d6+2 | `Dabster` 1d6 | `Caster` 1d6-1;
+: HP = `Fighter` → 1d6+2 | `Dabster` → 1d6 | `Caster` → 1d6-1;
 : Add `CON`m, but HP minimum is 1.
 
 Spells
 : If the character has the `Intricate` or `Very Intricate` trait, select (1 + `INT`m) spells (at least one).
 
 Cast Points
-: _CP factor_ =<br/>`Caster` max(`INT`m, `WIS`m, `CHA`m) |<br/>`Fighter-Caster` `WIS`m | `Dabster-Caster` `INT`m |<br/>at least 1, but 0 for a non-`Caster`;
-: CP =<br/>`Intricate` _character level_ * _CP factor_ |<br/>`Very Intricate` _character level_ + _character level_ * _CP factor_ |<br/>else 0.
+: _CP factor_ =<br/>non-`Caster` → 0 | `Caster` → max(`INT`m, `WIS`m, `CHA`m) |<br/>`Fighter-Caster` → `WIS`m | `Dabster-Caster` → `INT`m<br/>(at least 1 for a caster);
+: CP =<br/>`Intricate` → _character level_ * _CP factor_ |<br/>`Very Intricate` → _character level_ + _character level_ * _CP factor_ |<br/>else 0.
 
 Name
 : Give the character a name.

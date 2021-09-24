@@ -14,29 +14,38 @@
 # Determine Attributes
 
 <!-- .attributes -->
-| Att   | Name         | Description              |   | Att   | Name         | Description        |
-|-------|--------------|--------------------------|---|-------|--------------|--------------------|
-| `STR` | Strength     | physical power           |   | `INT` | Intelligence | book smart         |
-| `DEX` | Dexterity    | agility and coordination |   | `WIS` | Wisdom       | street smart       |
-| `CON` | Constitution | hardiness and endurance  |   | `CHA` | Charisma     | force of character |
+| Name         | Att   | Description              |
+|--------------|-------|--------------------------|
+| Strength     | `STR` | physical power           |
+| Dexterity    | `DEX` | agility and coordination |
+| Constitution | `CON` | hardiness and endurance  |
+| Intelligence | `INT` | book smart               |
+| Wisdom       | `WIS` | street smart             |
+| Charisma     | `CHA` | force of character       |
 
-<!--
-STRength
-: Lifting heavy weights, breaking thins, melee combat, carrying gear. Affects melee attacks rolls and damage rolls.
+Roll 3d6 and assign in order. Replace the lowest roll with a 14.
 
-DEXterity
-: Speed, evasion, manual dexterity, reaction time, combat initiative. Affects armour class, ranged and light weapon attack rolls and damage rolls.
+**Or** roll 3d6 six times and assign at will.
 
-CONstitution
-: Hardiness, enduring injury, resisting poisons, going without food or rest. Affects the maximum hit points.
+**Or** use the 14, 12, 11, 10, 9, 7 array and assign at will.
 
-The `mental` attributes
+<!-- clear -->
 
-INTelligence
-: Memory, reasoning, intellectual skills, general education. Book smart.
 
-WISdom
-: Noticing things, making judgements, reading situations, intuition. Street smart.
+<!-- .modifiers -->
+| Score | Modifier |
+|:-----:|:--------:|
+| 3     | -2       |
+| 4-7   | -1       |
+| 8-13  | +0       |
+| 14-17 | +1       |
+| 18    | +2       |
 
-CHArisma
--->
+## Compute Modifiers
+
+For each attribute, take the score and compute the modifier.
+
+For example, `STR` 5 → `STR`m -1; `DEX` 9 → `DEX`m +0; etc.
+
+<!-- clear -->
+
