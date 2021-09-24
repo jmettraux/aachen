@@ -9,6 +9,9 @@
 
 # Bestiary
 
+TODO conversion process
+
+
 ## Bear
 
 * **AC**      13

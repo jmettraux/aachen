@@ -8,25 +8,21 @@
 
 # Spellcasting
 
-Spellcasters hide their gift.
+Casters have the gift of weaving magical threads to achieve effects. The gift doesn't seem hereditary, a minority of people are casters, some of them don't even know they have the gift, some might be blind, weaving but not seeing the threads. Casters normally see the threads they weave but don't see other casters' threads, unless a thread revealing spell is used.
 
-<!--
-Weavers are persons with the gift of weaving, weaving magical threads to achieve effects.
+Most non-casters think magic exists, but they don't know what forms it takes. Some of them know of the gift.
 
-The gift doesn't seem hereditary. The majority of the weavers consider it a curse rather than a gift and hide it. A minority of people are weavers. Some weavers don't even know they have the gift, they might be gifted but blind, they don't see the threads although they trigger the weaving.
+## Casting cost
 
-Some non-gifted people, through their friendship with a weaver know of the gift. They keep the secret for fear of their friend to be discovered. Some non-weavers abuse weak weavers and use them but keep the silence.
+Casting a spell costs at least 1 CP. Casters decide how many CPs they invest in the spell they're about to cast. The spell effects scale with the amount of CP injected.
 
-A weaver sees the thread they weave. Non-weavers don't seem to see threads, although some might... A weaver doesn't see the threads another weaver makes, unless they use a thread-revealing spell.
+Casters may not go below 0 CP, but they can, as an instant action, convert some of their HPs to CPs, but they cannot go below 0 HP. If after the casting, they are reduced to 0 HP, they fall spent and inconscious.
 
-Colours are known to many cultures. Different spells have different thread colours. It seems that the black threads are about pain and damage for all the weavers, and that blue threads generate cold or nullify heat were they appear, these are two examples.
+## Casting check
 
-Weavers seem to agree on colours, but there may be some of them with twisted perception of the colours (as written above, some are even blind to the threads).
+Once the CP are consumed, a skill check against a DC of 8 has to be rolled with 2d6 + `Cast` + attribute modifier.
 
-Balls, arrows, huts are known to many cultures. A simple vocabulary emerged around forms and colours, they easily translate from a language to the other. Weaver may thus easily describe what they are trying to achieve to each other.
-
-Some travelled weavers say that in Constantinople or in the Caliphate, there are more colours and more forms and sophistication, but it'd take a lifetime to ascertain.
--->
+TODO
 
 <!--
 Weaver casts spells by consuming Weave Points (hereafter WP or WPs).

@@ -42,7 +42,7 @@ White
 
 Casters see the magical energy as threads of various colours. Each colour affects different _domains_. It is probable that some casters see colours differently, and that some of them don't see some of the colours.
 
-Most of the casters choose simple, well known, forms for weaving their magical threads. Maybe in Byzantium or furhter east, there are casters that know more complicated forms.
+Most of the casters choose simple, well known, forms for weaving their magical threads. Maybe in Constantinople or further east, there are casters that know more complicated forms.
 
 
 ## Forms
