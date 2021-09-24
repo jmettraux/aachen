@@ -501,6 +501,7 @@ table.social-class th:nth-child(1) {
 }
 
 [data-aa-title="attributes"] table.example {
+  margin-top: 1rem;
   line-height: 0.5;
 }
 [data-aa-title="attributes"] table.example tr:nth-child(2n) td {
@@ -745,6 +746,9 @@ table.social-class th:nth-child(1) {
   /*grid-template-rows: auto auto auto auto auto auto auto;*/
   font-size: smaller;
 }
+[data-aa-title="equipment"] .equipment-grid .row-1 code {
+  font-size: 120%;
+}
 [data-aa-title="equipment"] .equipment-grid .cell {
   padding-top: 0.25rem;
   padding-right: 1rem;
@@ -753,10 +757,11 @@ table.social-class th:nth-child(1) {
   text-align: center;
 }
 [data-aa-title="equipment"] .equipment-grid .col-a p {
-  text-align: right;
+  text-align: left;
+  font-size: 110%;
 }
 [data-aa-title="equipment"] .equipment-grid .col-a.span p {
-  margin-top: 1.5em;
+  /*margin-top: 1.5em;*/
 }
 [data-aa-title="equipment"] .equipment-grid :not(.col-a).span p:before {
   content: '— ';

@@ -16,16 +16,6 @@ These are equipment suggestions for new characters, based on their background an
 
 The referee may allow the `Caster` to choose the equipment of a `Fighter` of the same background, but beware playing the soldier.
 
-<!--
-All heroes begin play with a set of woolen clothes, simple shoes, a knife, and either a broad spear or a barbed spear as described on page 119. Saints, priests
-Farmer: Broad Shield, Three days of dried meat, Leather sack, Hatchet, Warm
-woolen blanket
-Hunter: Bow, Hatchet, Quiver and 20 arrows, Tinderbox and ember-carrier, Salt in a four-pound satchel
-Priest: Carved wooden crucifix, small book of pious writings, three days of hard bread, medicine bag of herbs and bandages, a jar of wine for Holy Communion
-Wanderer: Broad Shield, Three days of hard bread, Leather sack, Sturdy boots, Waterskin to hold a full gallon
-Warrior: Seax, Broad Shield, Leather sack, Three days of hard bread, Waterskin to hold a full gallon
-Free Choice: Pick any five items or weapons from the section on page 117,
--->
 
 <!-- <div.equipment-grid> -->
 
@@ -43,7 +33,7 @@ Free Choice: Pick any five items or weapons from the section on page 117,
 `Wanderer`
 <!-- </div> -->
 <!-- <div b2> -->
-quarterstaff, javelin, seax
+quarterstaff, seax
 <!-- </div> -->
 <!-- <div c2> -->
 quarterstaff
@@ -53,7 +43,7 @@ quarterstaff
 `Slave`
 <!-- </div> -->
 <!-- <div b3> -->
-quarterstaff, 25% sling
+quarterstaff
 <!-- </div> -->
 <!-- <div c3> -->
 quarterstaff
@@ -63,20 +53,20 @@ quarterstaff
 `Commoner`
 <!-- </div> -->
 <!-- <div b4> -->
-spear, shield, seax, axe/bow
+spear, shield, seax
 <!-- </div> -->
 <!-- <div c4> -->
-seax, 20% bow
+seax
 <!-- </div> -->
 
 <!-- <div a5> ARTISAN -->
 `Artisan`
 <!-- </div> -->
 <!-- <div b5> -->
-spear, shield, seax, axe/bow, 20% gambeson
+spear, shield, seax, 5-6 gambeson
 <!-- </div> -->
 <!-- <div c5> -->
-seax, axe/bow
+seax
 <!-- </div> -->
 
 <!-- <div a6a7> RELIGIOUS -->
@@ -86,7 +76,7 @@ seax, axe/bow
 spear, shield, seax
 <!-- </div> -->
 <!-- <div c6> -->
-seax
+1-4 seax or 5-6 dagger
 <!-- </div> -->
 
 <!-- <div b7c7> religious 2 -->
@@ -97,17 +87,46 @@ religious object
 `Elite`
 <!-- </div> -->
 <!-- <div b8> -->
-spear, shield, sword, 20% mail shirt
+spear, shield, sword,<br/>
+1-4 gambeson or 5-6 mail shirt
 <!-- </div> -->
 <!-- <div c8> -->
-sword, 20% gambeson
+sword, 5-6 gambeson
 <!-- </div> -->
 
 <!-- <div a9> ALL -->
 _all_
 <!-- </div> -->
 <!-- <div b9c9> -->
-everyday clothes, sling bag, knife, tinderbox, 1 gallon waterskin, 3 days of travel rations, 2d6 pieces of ammo
+everyday clothes, sling bag, knife, tinderbox,<br/>1 gallon waterskin, travel rations 1d6 days
+<!-- </div> -->
+
+<!-- <div a10> ALL -->
+· `Shoot` >= 0
+<!-- </div> -->
+<!-- <div b10c10> -->
+sling or bow, 2d6 pieces of ammo, or 1d3 javelins
+<!-- </div> -->
+
+<!-- <div a11> ALL -->
+· `Craft` >= 0
+<!-- </div> -->
+<!-- <div b11c11> -->
+light tools for 1 given craft
+<!-- </div> -->
+
+<!-- <div a12> ALL -->
+· `Heal` >= 0
+<!-- </div> -->
+<!-- <div b12c12> -->
+medicine bag of herbs and bandages
+<!-- </div> -->
+
+<!-- <div a13> ALL -->
+· `Work` >= 0
+<!-- </div> -->
+<!-- <div b13c13> -->
+axe
 <!-- </div> -->
 
 <!-- </div.equipment-grid> -->
