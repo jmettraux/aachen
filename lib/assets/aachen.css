@@ -832,28 +832,20 @@ table.social-class th:nth-child(1) {
   color: red;
 }
 
-/*
-[data-aa-title="spells"] h1 {
-  margin-top: 0;
+[data-aa-title="spells"] .two-columns {
+  grid-template-columns: 30% auto;
 }
-[data-aa-title="spells"] h2 {
-}
-[data-aa-title="spells"] .colours {
-  float: right;
-  width: 35%;
-  margin-top: 0;
-  margin-left: 1rem;
-}
-[data-aa-title="spells"] .colours dd {
-  margin-bottom: 0;
-}
-*/
+
 [data-aa-title="spells"] dl {
   font-size: var(--size-b);
 }
 [data-aa-title="spells"] table {
-  font-size: var(--size-c);
+  font-size: var(--size-b);
   line-height: 0.85;
+  margin-bottom: 1rem;
+}
+
+[data-aa-title="spells"] h2 {
   margin-bottom: 1rem;
 }
 

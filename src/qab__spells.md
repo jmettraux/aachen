@@ -13,7 +13,10 @@ Casters see the magical energy as threads of various colours. Each colour affect
 
 Most of the casters choose simple, well known, forms for weaving their magical threads. Maybe in Constantinople or further east, there are casters that know more complicated forms.
 
-## Spell Colours
+<!-- <div.two-columns> -->
+<!-- <div.left-column> -->
+
+## Colours
 
 <!-- .colours -->
 Amber
@@ -46,24 +49,31 @@ Turquoise
 White
 : Light
 
+<!-- </div> -->
+<!-- <div.right-column> -->
 
-## Spell Forms
+## Forms
 
-| form   | ct     | diameter     | range     | duration  | speed/rnd | move        | prolong                          |
-|--------|:------:|:------------:|:---------:|:---------:|:---------:|:-----------:|:--------------------------------:|
-| Arrow  | MA     | -            | L 80ft/CP | 1 rnd/CP  | 80ft/CP   | -           | -                                |
-| Ball   | MA     | 1ft/CP       | M 30ft/CP | 1 rnd/CP  | 30ft/CP   | 1 CP, 5 ft  | < lvl * 10ft, 1 CP, 1 rnd |
-| Crown  | MA     | 1ft/CP       | M 30ft/CP | 10 min/CP | 0         | 1 CP, 5 ft  | < lvl * 10ft, 1 CP, 1 min |
-| Disk   | MA     | 5ft/CP       | S 10ft/CP | 10 min/CP | 0         | 1 CP, 5 ft  | < lvl * 10ft, 1 CP, 1 min |
-| Finger | MA     | -            | T touch   | 1 rnd     | 0         | -           | 1 CP, 1 rnd                      |
-| Flail  | MA     | -            | S 10ft/CP | 1 rnd     | 80ft/CP   | -           | -                                |
-| Hand   | MA     | -            | T touch   | 1 rnd     | 0         | -           | 1 CP, 1 rnd                      |
-| Hut    | MA+OTA | 5ft/CP       | C 5ft/CP  | 1 min/CP  | 0         | 1 CP, 5 ft  | < lvl * 10ft, 1 CP, 1 min |
-| Pole   | MA     | -            | S 10ft/CP | 1 rnd     | 0         | -           | 1 CP, 1 rnd                      |
-| Shield | MA     | broad shield | T touch   | 1 min/CP  | 0         | 1 CP, 10 ft | 1 CP, 1 min                      |
-| Tunnel | MA     | 5ft/CP       | C 5ft/CP  | 1 min/CP  | 80ft/CP   | no          | < lvl * 10ft, 1 CP, 1 min |
+| form   | diameter     | range     | duration  | speed/rnd |
+|--------|:------------:|:---------:|:---------:|:---------:|
+| Arrow  | -            | L 80ft/CP | 1 rnd/CP  | 80ft/CP   |
+| Ball   | 1ft/CP       | M 30ft/CP | 1 rnd/CP  | 30ft/CP   |
+| Crown  | 1ft/CP       | M 30ft/CP | 10 min/CP | 0         |
+| Disk   | 5ft/CP       | S 10ft/CP | 10 min/CP | 0         |
+| Finger | -            | T touch   | 1 rnd     | 0         |
+| Flail  | -            | S 10ft/CP | 1 rnd     | 80ft/CP   |
+| Hand   | -            | T touch   | 1 rnd     | 0         |
+| Hut    | 5ft/CP       | C 5ft/CP  | 1 min/CP  | 0         |
+| Pole   | -            | S 10ft/CP | 1 rnd     | 0         |
+| Shield | broad shield | T touch   | 1 min/CP  | 0         |
+| Tunnel | 5ft/CP       | C 5ft/CP  | 1 min/CP  | 80ft/CP   |
 
-MA: main action, OTA: on turn action, IA: instant action, T: touch, C: close, S: short, M: medium, L: long
+**T**: touch, **C**: close, **S**: short, **M**: medium, **L**: long
 
+<!-- </div> -->
+<!-- </div> -->
+
+<!--
 Move requires an on turn action. Prolong requires an instant action.
+-->
 
