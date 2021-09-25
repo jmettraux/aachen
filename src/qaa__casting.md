@@ -12,17 +12,23 @@ Casters have the gift of weaving magical threads to achieve effects. The gift do
 
 Most non-casters think magic exists, but they don't know what forms it takes. Some of them know of the gift.
 
-## Casting cost
+Casting Points
+: Caster characters have a current amount of CPs;
+: As an instant action, a caster may convert one or more of their HPs to CPs.
 
-Casting a spell costs at least 1 CP. Casters decide how many CPs they invest in the spell they're about to cast. The spell effects scale with the amount of CP injected.
+Casting Cost
+: Casting a spell costs at least 1 CP;
+: Casters invest CPs and the spell scales accordingly;
+: Casters may not invest more CP than their remaining CPs.
 
-Casters may not go below 0 CP, but they can, as an instant action, convert some of their HPs to CPs, but they cannot go below 0 HP. If after the casting, they are reduced to 0 HP, they fall spent and inconscious.
+Casting Check
+: _attribute modifier_ is `INT`m, `WIS`m, or `CHA`m;
+: The same _attribute modifier_ cannot be used twice in a row in the same scene;
+: 2d6 + `Cast` + _attribute modifier_ >= 8 to succeed;
+: TODO failure, criticals, etc...
 
-## Casting check
-
-Once the CP are consumed, a skill check against a DC of 8 has to be rolled with 2d6 + `Cast` + attribute modifier.
-
-TODO
+After Cast
+: Casters who converted all their HPs to CPs to cast fall inconscious right after the the cast, successful or not.
 
 <!--
 Weaver casts spells by consuming Weave Points (hereafter WP or WPs).
