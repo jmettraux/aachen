@@ -12,51 +12,43 @@ Casters have the gift of weaving magical threads to achieve effects. The gift do
 
 Most non-casters think magic exists, but they don't know what forms it takes. Some of them know of the gift.
 
-Casting Points
-: Caster characters have a current amount of CPs;
-: As an instant action, a caster may convert one or more of their HPs to CPs.
+Casting Points[^1]
+: After a good night rest, casters go back to their Cast Point maximum (CP max);
+: After a not so good night rest, casters go back to half the CP max rounded up;
+: Casters may temporarily accumulate more CP than their CP max;
+: As an instant action, casters may at any moment convert one or more of their remaining HPs to CPs;
+: As an instant action, casters may accept becoming ~~frail~~ (see Health) to gain _character level_ x d4 CPs.
 
 Casting Cost
-: Casting a spell costs at least 1 CP;
-: Casters invest CPs and the spell scales accordingly;
-: Casters may not invest more CP than their remaining CPs.
+: Casting a spell costs a main action and at least 1 CP;
+: Spells scale with the CPs invested in them;
+: Casters may not invest more CPs than their current CP count.
 
-Casting Check
-: _attribute modifier_ is `INT`m, `WIS`m, or `CHA`m;
-: The same _attribute modifier_ cannot be used twice in a row in the same scene;
-: 2d6 + `Cast` + _attribute modifier_ >= 8 to succeed;
-: TODO failure, criticals, etc...
+Casting Roll[^2]
+: _attribute modifier_ is `INT`m (book smart), `WIS`m (street smart), or `CHA`m (force of will);
+: The same _att modifier_ cannot be used twice in a row in the same scene;
+: 2d6 + `Cast` + _att modifier_ >= 8 to succeed;
+: Casters who incur damage in the combat round before casting do roll at disadvantage (3d6, 2 worse dice);
+: If the roll fails, the spell peters out;
+: Success or failure, invested CPs are consumed and gone.
+
+Casting at ~~Risk~~
+: Casters may accept a risk in order to gain 1 extra CP to invest;
+: Still, at least 1 CP must be invested;
+: If the casting roll fails with a double 1, the spell peters out as expected, the CPs are consumed, but 1d6 extra HPs have to be paid;
+: Friends and/or foes within 5ft must bear the extra HP cost;
+: The caster must endure at least 1 of the extra HP (they may pay in CP though).
 
 After Cast
 : Casters who converted all their HPs to CPs to cast fall inconscious right after the the cast, successful or not.
 
+[^1]:
+  Using two sort of coins for HPs and CPs make point management easy and tactile.
+
+[^2]:
+  Maybe the referee will want to simplify things and let casters use the same modifier over and over.
+
 <!--
-Weaver casts spells by consuming Weave Points (hereafter WP or WPs).
-
-After a good night rest, a Weaver disposes of their level plus their level times the best of their INT, WIS, or CHA modifier. Thus a level 2 Weaver with +2 in INT, disposes of 2 + 2 * 2 = 6 WP.
-
-## casting cost in WPs
-
-Casting a spell costs at least 1 WP. The Weaver decides how many WPs they use right before casting. The Weaver cannot go below zero WPs.
-
-A weaver can, as an instant action, convert some of his HPs to WPs. The weaver must "spare" at least 1 HP.
-
-Once the WP are consumed, a skill check against a difficulty of 8 has to be rolled 2d6 + Magic skill + attribute modifier.
-
-The attribute modifier is either INT, WIS, or CHA, the Weaver decides which one to use, guided by the referee. In a given scene, the same modifier cannot be used twice in a row. For example, a Weaver cannot cast a spell with an INT modifier and then another (or the same spell) with an INT modifier, they must use the WIS or the CHA modifier.
-
-The Weaver (or the referee) are invited to "roleplay" the spell depending on the att modifier used. INT cold logic, WIS street smart, CHA force of will.
-
-If the roll fails, the weavery fails, the WP are consumed anyway.
-
-## becoming frail to obtain WPs
-
-A Weaver may accept become "frail" (see Injury) and immediately gain 1d6 WP plus the best of its INT, CHA, or WIS modifiers.
-
-## casting at risk
-
-A Weaver may accept a risk to reduce by one the WP cost of casting a spell. The minimal cost is still 1 WP. If the skill check results in a double 1, the cast fails, and 1d6 HPs have to paid by the caster or creatures within 5 feet. The referee determines who bears the extra cost and by how much. The caster must pay at least 1 HP or 1 WP, other designated targets must pay in HPs.
-
 ## known spells
 
 A Weaver is usually granted 1 or 2 spells at level 1. As the Weaver gains experience, the referee considers their trail and hint at new spells. The referee may "loan" spells to the Weaver and eventually take them back. Two spells per level might be a good number for the known spells.
