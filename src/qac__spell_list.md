@@ -33,8 +33,8 @@ Can be used to put a easily flammable object in fire.
 * **Diameter** 1ft/CP
 * **Duration** 1 rnd/CP
 * **Speed** 30ft/CP
-* **Move** 1 WP, 5 ft
-* **Prolong** within (level * 10ft), 1 WP, 1 rnd
+* **Move** 1 CP/5ft
+* **Prolong** w/i (lvl * 10ft), 1 CP/rnd
 
 The caster stove.
 
@@ -47,8 +47,8 @@ Some people are not very good at boiling water, it seems they never did it. Mayb
 * **Range** T touch
 * **Diameter** broad shield
 * **Duration** 1 min/CP
-* **Move** 1 WP, 10 ft
-* **Prolong** 1 WP, 1 min
+* **Move** 1 CP/10ft
+* **Prolong** 1 CP/min
 
 Intense heat lens.
 
@@ -69,13 +69,12 @@ Missiles and polearm ends are not stopped by the shield.
 
 Fires an arrow of weaving pain at a single target.
 
-1 CP - 1d4 + skill | 2 CP - 1d6 + skill | >3 CP - 1d8 + skill |
-
-Skill is the Magic skill level.
+CP 1 → 1d4 + `Cast` skill | CP 2 → 1d6 + `Cast` skill | CP >= 3 → 1d8 + `Cast` skill
 
 The arrow is invisible and may avoid allies and non-targets in a complex and curved flight.
 
 Silver threads do stop the coal arrow.
+
 
 ## Coal Flail
 
@@ -92,6 +91,22 @@ Inflicts 1d6 + skill damage points. There must a direct way between the caster a
 Silver threads do stop the coal flail.
 
 
+## Coal Shield
+
+* **Casting Time** main action
+* **Range** T touch
+* **Diameter** broad shield
+* **Duration** 1 min/CP
+* **Move** 1 CP/10ft
+* **Prolong** 1 CP/min
+
+A lens of pain, inflicting damage upon traversal.
+
+A shield of pain with (1d6 + skill) * CP "hit points". A creature attempting to cross the shield takes 1d6 damage. Those points are removed from the shield hit points. When the shield reaches zero points, it vanishes.
+
+As a main action, the caster of the coal shield, may consume CPs to "mend" the shield, again (1d6 + skill) * CP.
+
+
 <!-- PAGE BREAK spell_list -->
 
 <!-- .margin.compass -->
@@ -101,21 +116,6 @@ Silver threads do stop the coal flail.
 * **Spell list**
 
 
-## Coal Shield
-
-* **Casting Time** main action
-* **Range** T touch
-* **Diameter** broad shield
-* **Duration** 1 min/CP
-* **Move** 1 WP, 10 ft
-* **Prolong** 1 WP, 1 min
-
-A lens of pain, inflicting damage upon traversal.
-
-A shield of pain with (1d6 + skill) * WP "hit points". A creature attempting to cross the shield takes 1d6 damage. Those points are removed from the shield hit points. When the shield reaches zero points, it vanishes.
-
-As a main action, the caster of the coal shield, may consume WPs to "mend" the shield, again (1d6 + skill) * WP.
-
 
 ## Blue Crown
 
@@ -123,8 +123,8 @@ As a main action, the caster of the coal shield, may consume WPs to "mend" the s
 * **Range** M 30ft/CP
 * **Diameter** 1ft/CP
 * **Duration** 10 min/CP
-* **Move** 1 WP, 5 ft
-* **Prolong** within (level * 10ft), 1 WP, 1 min
+* **Move** 1 CP/5ft
+* **Prolong** w/i (lvl * 10ft), 1 CP/min
 
 A ring of cold, keeping things inside cold.
 
@@ -137,8 +137,8 @@ Applied around a creature or part of it may inflict 1d2 + skill damage per round
 * **Range** S 10ft/CP
 * **Diameter** 5ft/CP
 * **Duration** 10 min/CP
-* **Move** 1 WP, 5 ft
-* **Prolong** within (level * 10ft), 1 WP, 1 min
+* **Move** 1 CP/5ft
+* **Prolong** w/i (lvl * 10ft), 1 CP/min
 
 A disk of active cold / ice on the floor.
 
@@ -153,26 +153,17 @@ Depending on the context, a creature might slide on the disk and fall. A wet hai
 * **Range** T touch
 * **Diameter** -
 * **Duration** 1 rnd
-* **Prolong** 1 WP, 1 rnd
+* **Prolong** 1 CP/rnd
 
 Damage dealing cold finger.
 
 Threads generating cold are woven around the index finger of the caster. The caster is not affected negatively by the cold.
 
-The threads can deal WP + skill cold damage. The GM can give an Evasion save to the victim if appropriate.
+The threads can deal CP + skill cold damage. The GM can give an Evasion save to the victim if appropriate.
 
 The finger can also be used to stop ongoing heat/burning damage.
 
 (Beware touching metal objects!)
-
-
-<!-- PAGE BREAK spell_list -->
-
-<!-- .margin.compass -->
-* _Playing a Caster_
-* Spellcasting
-* Spell types
-* **Spell list**
 
 
 ## Night Ball
@@ -182,8 +173,8 @@ The finger can also be used to stop ongoing heat/burning damage.
 * **Diameter** 1ft/CP
 * **Duration** 1 rnd/CP
 * **Speed** 30ft/CP
-* **Move** 1 WP, 5 ft
-* **Prolong** within (level * 10ft), 1 WP, 1 rnd
+* **Move** 1 CP/5ft
+* **Prolong** w/i (lvl * 10ft), 1 CP/rnd
 
 A ball of light absorbing threads.
 
@@ -198,11 +189,11 @@ More static uses of the ball are common, to simply prevent light/vision from cro
 * **Range** S 10ft/CP
 * **Diameter** 5ft/CP
 * **Duration** 10 min/CP
-* **Move** 1 WP, 5 ft
-* **Prolong** within (level * 10ft), 1 WP, 1 min
+* **Move** 1 CP/5ft
+* **Prolong** w/i (lvl * 10ft), 1 CP/min
 
-* **Move:** 1 WP, 5 ft
-* **Prolong:** within (level * 10ft), 1 WP, 1 min
+* **Move:** 1 CP / 5ft
+* **Prolong:** w/i (level * 10ft), 1 CP/min
 
 A disk of darkness hiding what is below or behind it.
 
@@ -211,14 +202,25 @@ Some people weave it in dark places to hide traps and trenches. Some casters pla
 It just looks like a pool of darkness.
 
 
+<!-- PAGE BREAK spell_list -->
+
+<!-- .margin.compass -->
+* _Playing a Caster_
+* Spellcasting
+* Spell types
+* **Spell list**
+
+
+
+
 ## Night Hut
 
 * **Casting Time** main action
 * **Range** C 5ft/CP
 * **Diameter** 5ft/CP
 * **Duration** 1 min/CP
-* **Move** 1 WP, 5 ft
-* **Prolong** within (level * 10ft), 1 WP, 1 min
+* **Move** 1 CP/5ft
+* **Prolong** w/i (lvl * 10ft), 1 CP/min
 
 Chamber of obscurity, no light comes in or out.
 
@@ -234,14 +236,14 @@ Loose night threads woven in the form of a hut absorb light. Anything goes thoug
 * **Diameter** 1ft/CP
 * **Duration** 1 rnd/CP
 * **Speed** 30ft/CP
-* **Move** 1 WP, 5 ft
-* **Prolong** within (level * 10ft), 1 WP, 1 rnd
+* **Move** 1 CP/5ft
+* **Prolong** w/i (lvl * 10ft), 1 CP/rnd
 
 Magic revealing floating ball.
 
 A reveal ball, within its radius, a thread outlines threads left by other casters. The colours of those threads is revealed. Only the threads within the radius of the ball are outlined by the quartz thread.
 
-By consuming 1 extra WP, all the threads (quartz and others) are revealed to other casters. Non casters must succeed a DD 8 WIS / Magic skill check to see. The GM may decide that some characters or creatures are thread blind and simply cannot see.
+By consuming 1 extra CP, all the threads (quartz and others) are revealed to other casters. Non casters must succeed a DD 8 WIS / `Cast` skill check to see. The GM may decide that some characters or creatures are thread blind and simply cannot see.
 
 The ball might be quite smaller than the form of the thread it reveals. Blind man and elephant situation.
 
@@ -256,11 +258,11 @@ The ball might be quite smaller than the form of the thread it reveals. Blind ma
 
 Thread breaking thread flail.
 
-Should the flail threads collide with any other thread weave, the flail might unweave the target. The successful spellcasting score + the WP against an INT / Magic skill roll for the original caster (GM, please use 13 by default).
+Should the flail threads collide with any other thread weave, the flail might unweave the target. The successful spellcasting score + the CP against an INT / `Cast` skill roll for the original caster (GM, please use 13 by default).
 
 The flail only collides once.
 
-An unlucky caster might flail uselessly at nothing, wasting WPs.
+An unlucky caster might flail uselessly at nothing, wasting CPs.
 
 
 ## Quartz Pole
@@ -269,13 +271,13 @@ An unlucky caster might flail uselessly at nothing, wasting WPs.
 * **Range** S 10ft/CP
 * **Diameter** -
 * **Duration** 1 rnd
-* **Prolong** 1 WP, 1 rnd
+* **Prolong** 1 CP/rnd
 
 Thread probing pole.
 
 The pole is woven in the caster's hands, it can be used to probe for threads. It feels like holding a bamboo pole.
 
-By consuming 1 extra WP, all the threads (quartz and others) are revealed to other casters. Non casters must succeed a DD 8 WIS / Magic skill check to see. The GM may decide that some characters or creatures are thread blind and simply cannot see.
+By consuming 1 extra CP, all the threads (quartz and others) are revealed to other casters. Non casters must succeed a DD 8 WIS / `Cast` skill check to see. The GM may decide that some characters or creatures are thread blind and simply cannot see.
 
 
 ## Red Disk
@@ -284,8 +286,8 @@ By consuming 1 extra WP, all the threads (quartz and others) are revealed to oth
 * **Range** S 10ft/CP
 * **Diameter** 5ft/CP
 * **Duration** 10 min/CP
-* **Move** 1 WP, 5 ft
-* **Prolong** within (level * 10ft), 1 WP, 1 min
+* **Move** 1 CP/5ft
+* **Prolong** w/i (lvl * 10ft), 1 CP/min
 
 Disk of fire.
 
@@ -294,13 +296,22 @@ When the spell ends and its fire hasn't propagated to some flammable elements, t
 Inflicts 1d4 + skill per round damage points to creatures exposed to it.
 
 
+<!-- PAGE BREAK spell_list -->
+
+<!-- .margin.compass -->
+* _Playing a Caster_
+* Spellcasting
+* Spell types
+* **Spell list**
+
+
 ## Red Finger
 
 * **Casting Time** main action
 * **Range** T touch
 * **Diameter** -
 * **Duration** 1 rnd
-* **Prolong** 1 WP, 1 rnd
+* **Prolong** 1 CP/rnd
 
 Also known as the caster lighter.
 
@@ -340,7 +351,7 @@ The scarlet thread arrow fires from the caster's hand, it goes through its targe
 
 Should the arrow fall into water, it dissolves twice faster.
 
-Remember only the caster sees their own thread, but should a caster pick up the arrow, it may absorb the collected WPs if it succeeds a difficulty 6 Magic skill check, the attribute modifier is the same attribute modifier used by the caster of the arrow. If the skill check fails, the WPs are lost, if the skill check fails with a double 1, the caster incurs 1 HP damage.
+Remember only the caster sees their own thread, but should a caster pick up the arrow, it may absorb the collected CPs if it succeeds a difficulty 6 `Cast` skill check, the attribute modifier is the same attribute modifier used by the caster of the arrow. If the skill check fails, the CPs are lost, if the skill check fails with a double 1, the caster incurs 1 HP damage.
 
 
 ## Scarlet Finger
@@ -349,11 +360,11 @@ Remember only the caster sees their own thread, but should a caster pick up the 
 * **Range** T touch
 * **Diameter** -
 * **Duration** 1 rnd
-* **Prolong** 1 WP, 1 rnd
+* **Prolong** 1 CP/rnd
 
 Hit point draining finger.
 
-The caster drops the tip of their finger on a victim's skin or fur and drains (1 + skill + attribute modifier) HPs. Those HPs are turned into WPs for the caster. The attribute modifier is the one for the attribute used for casting (INT, WIS, or CHA).
+The caster drops the tip of their finger on a victim's skin or fur and drains (1 + skill + attribute modifier) HPs. Those HPs are turned into CPs for the caster. The attribute modifier is the one for the attribute used for casting (INT, WIS, or CHA).
 
 The GM grants a saving throw to the victim or not.
 
@@ -364,15 +375,26 @@ The GM grants a saving throw to the victim or not.
 * **Range** T touch
 * **Diameter** -
 * **Duration** 1 rnd
-* **Prolong** 1 WP, 1 rnd
+* **Prolong** 1 CP/rnd
 
 Hit point draining out of wounds.
 
 The caster lays their hand on the wound of a living target and weave threads that drain the the wounded of some of their hit points.
 
-The target suffers 1d6 + skill damage which are turned to WPs and added to the caster's current WP count.
+The target suffers 1d6 + skill damage which are turned to CPs and added to the caster's current CP count.
 
-(Remember that weaving requires at least 1 WP, so the in the worst case, the caster might gain 1 - 1 WPs and the target might lose 1 HP).
+(Remember that weaving requires at least 1 CP, so the in the worst case, the caster might gain 1 - 1 CPs and the target might lose 1 HP).
+
+
+
+<!-- PAGE BREAK spell_list -->
+
+<!-- .margin.compass -->
+* _Playing a Caster_
+* Spellcasting
+* Spell types
+* **Spell list**
+
 
 
 ## Silver Ball
@@ -382,8 +404,8 @@ The target suffers 1d6 + skill damage which are turned to WPs and added to the c
 * **Diameter** 1ft/CP
 * **Duration** 1 rnd/CP
 * **Speed** 30ft/CP
-* **Move** 1 WP, 5 ft
-* **Prolong** within (level * 10ft), 1 WP, 1 rnd
+* **Move** 1 CP/5ft
+* **Prolong** w/i (lvl * 10ft), 1 CP/rnd
 
 Bowling silver ball.
 
@@ -400,8 +422,8 @@ Remember, may not be prolonged if out of prolongation reach.
 * **Range** M 30ft/CP
 * **Diameter** 1ft/CP
 * **Duration** 10 min/CP
-* **Move** 1 WP, 5 ft
-* **Prolong** within (level * 10ft), 1 WP, 1 min
+* **Move** 1 CP/5ft
+* **Prolong** w/i (lvl * 10ft), 1 CP/min
 
 The silver crown or the slave crown. Used by casters to bind people.
 
@@ -416,13 +438,13 @@ May also be used to to protect things from impact, but it's a crown or a donut, 
 * **Range** T touch
 * **Diameter** -
 * **Duration** 1 rnd
-* **Prolong** 1 WP, 1 rnd
+* **Prolong** 1 CP/rnd
 
 Caster duck tape.
 
 The hand of the caster leaves a trace of fence thread mid-air. It blocks anything except for threads.
 
-As an instant action, the caster can invest 1 WP to let the silver hand last one more round. The range for this "investment" is 30 feet.
+As an instant action, the caster can invest 1 CP to let the silver hand last one more round. The range for this "investment" is 30 feet.
 
 Can be used as a "caster duck tape".
 
@@ -433,14 +455,14 @@ Can be used as a "caster duck tape".
 * **Range** C 5ft/CP
 * **Diameter** 5ft/CP
 * **Duration** 1 min/CP
-* **Move** 1 WP, 5 ft
-* **Prolong** within (level * 10ft), 1 WP, 1 min
+* **Move** 1 CP/5ft
+* **Prolong** w/i (lvl * 10ft), 1 CP/min
 
 Weaves a thread fence into a hut shape.
 
-The hut has (1d8 + caster magic skill) * WP hit points. As long as the hut has HPs it protectes completely its content.
+The hut has (1d8 + caster magic skill) * CP hit points. As long as the hut has HPs it protectes completely its content.
 
-By paying 1 WP (and an instant action), the caster adds (1d8 + caster magic skill) HPs to the hut.
+By paying 1 CP (and an instant action), the caster adds (1d8 + caster magic skill) HPs to the hut.
 
 
 ## Turquoise Arrow
@@ -456,14 +478,23 @@ Healing arrow.
 Works from 15 feet on only. Gives 1d3 + skill HP to the target. Does not stabilize a Mortally Wounded creature.
 
 
+<!-- PAGE BREAK spell_list -->
+
+<!-- .margin.compass -->
+* _Playing a Caster_
+* Spellcasting
+* Spell types
+* **Spell list**
+
+
 ## Turquoise Hut
 
 * **Casting Time** main action
 * **Range** C 5ft/CP
 * **Diameter** 5ft/CP
 * **Duration** 1 min/CP
-* **Move** 1 WP, 5 ft
-* **Prolong** within (level * 10ft), 1 WP, 1 min
+* **Move** 1 CP/5ft
+* **Prolong** w/i (lvl * 10ft), 1 CP/min
 
 Stabilization hut.
 
@@ -476,7 +507,7 @@ Mortally wounded creatures in the hut stabilize (as per rules, they reach 1 HP a
 * **Range** S 10ft/CP
 * **Diameter** -
 * **Duration** 1 rnd
-* **Prolong** 1 WP, 1 rnd
+* **Prolong** 1 CP/rnd
 
 All the creatures touched by the pole gain 1d3 + skill HPs.
 
@@ -489,14 +520,14 @@ The pole does stabilize a Mortally Wounded creature.
 * **Range** M 30ft/CP
 * **Diameter** 1ft/CP
 * **Duration** 10 min/CP
-* **Move** 1 WP, 5 ft
-* **Prolong** within (level * 10ft), 1 WP, 1 min
+* **Move** 1 CP/5ft
+* **Prolong** w/i (lvl * 10ft), 1 CP/min
 
 Halo or aureola of light.
 
 A crown of light, some casters use it to light their tables at night.
 
-By default, it is static. For 1 extra WP, it can me threaded so that it follows something (a head for example).
+By default, it is static. For 1 extra CP, it can me threaded so that it follows something (a head for example).
 
 
 ## Gold Hand
@@ -505,7 +536,7 @@ By default, it is static. For 1 extra WP, it can me threaded so that it follows 
 * **Range** T touch
 * **Diameter** -
 * **Duration** 1 rnd
-* **Prolong** 1 WP, 1 rnd
+* **Prolong** 1 CP/rnd
 
 Flashing hand.
 
@@ -522,7 +553,7 @@ Cannot prolong.
 * **Range** S 10ft/CP
 * **Diameter** -
 * **Duration** 1 rnd
-* **Prolong** 1 WP, 1 rnd
+* **Prolong** 1 CP/rnd
 
 Caster scope.
 
@@ -530,11 +561,21 @@ Caster scope.
 
 Can be used as a sort of periscope, to look unnoticed through straw or foliage. Remember the pole is invisible to most creatures.
 
-A caster with Magic-1 or better may control the flow of light turning the pole into a microsope or a telescope.
+A caster with `Cast` 1 or better may control the flow of light turning the pole into a microsope or a telescope.
 
-The caster may consume 1 WP to bend the pole, bow-like, but it won't turn into an endoscope.
+The caster may consume 1 CP to bend the pole, bow-like, but it won't turn into an endoscope.
 
 Can be prolonged for free with a main action and a successful difficulty 6 skill check, same attribute modifier as used when weaving.
+
+
+<!-- PAGE BREAK spell_list -->
+
+<!-- .margin.compass -->
+* _Playing a Caster_
+* Spellcasting
+* Spell types
+* **Spell list**
+
 
 
 ## Gold Shield
@@ -543,8 +584,8 @@ Can be prolonged for free with a main action and a successful difficulty 6 skill
 * **Range** T touch
 * **Diameter** broad shield
 * **Duration** 1 min/CP
-* **Move** 1 WP, 10 ft
-* **Prolong** 1 WP, 1 min
+* **Move** 1 CP/10ft
+* **Prolong** 1 CP/min
 
 Image alteration shield.
 
@@ -552,5 +593,5 @@ This shield is sometimes called the "past window". The image seen through it is 
 
 The caster may decide to simply use it as a mirror. All the the light going through it is reflected. Both sides.
 
-For one extra WP, the shield can be used as a spotlight, a light emitting shield suspended mid air.
+For one extra CP, the shield can be used as a spotlight, a light emitting shield suspended mid air.
 
