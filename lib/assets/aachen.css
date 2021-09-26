@@ -873,7 +873,7 @@ table.social-class th:nth-child(1) {
   column-gap: 1rem;
 }
 [data-aa-title="spell list"] .spell {
-  width: 48%;
+  width: calc((var(--tblock-width) - 1rem) / 2);
 }
 
 [data-aa-title="spell list"] h2 {
