@@ -837,12 +837,20 @@ table.social-class th:nth-child(1) {
 }
 
 [data-aa-title="spells"] dl {
+  margin-top: 1.5rem;
   font-size: var(--size-b);
+}
+[data-aa-title="spells"] dl dt {
+  font-weight: normal;
+  color: red;
 }
 [data-aa-title="spells"] table {
   font-size: var(--size-b);
   line-height: 0.85;
   margin-bottom: 1rem;
+}
+[data-aa-title="spells"] table td:nth-child(1) {
+  color: red;
 }
 
 [data-aa-title="spells"] h2 {
@@ -852,6 +860,7 @@ table.social-class th:nth-child(1) {
 [data-aa-title="bestiary"] h2 {
   margin-bottom: 1rem;
 }
+
 
 [data-aa-title="spells"] .caption {
   font-size: var(--size-b);
@@ -871,6 +880,7 @@ table.social-class th:nth-child(1) {
   margin-top: 0;
   margin-bottom: 0.1rem;
   font-size: calc(1.5 * var(--size-a));
+  color: red;
 }
 [data-aa-title="spell list"] ul:not(.compass) {
   list-style: none;
