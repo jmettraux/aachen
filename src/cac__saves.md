@@ -25,7 +25,7 @@ Luck Save
 -->
 
 <!-- .saves -->
-| Save     | Against                                    | Value                                     |
+| Save     | Against                                    | Score                                     |
 |----------|--------------------------------------------|-------------------------------------------|
 | Physical | poison, disease, or exhaustion             | 16 - (max(`STR`m, `CON`m)) - _char level_ |
 | Evasion  | magical effects, illusions, or temptations | 16 - (max(`DEX`m, `INT`m)) - _char level_ |

@@ -853,6 +853,33 @@ table.social-class th:nth-child(1) {
   margin-bottom: 1rem;
 }
 
+[data-aa-title="spells"] .caption {
+  font-size: var(--size-b);
+}
+
+[data-aa-title="spell list"] h2 {
+  clear: both;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: calc(1.3 * var(--size-a));
+}
+[data-aa-title="spell list"] ul:not(.compass) {
+  float: right;
+  list-style: none;
+  font-size: var(--size-b);
+  padding-inline-start: 0;
+  margin-top: 0;
+  margin-left: 1rem;
+  width: 28%;
+}
+[data-aa-title="spell list"] ul:not(.compass) strong {
+  width: 4rem;
+}
+[data-aa-title="spell list"] p {
+  font-size: var(--size-b);
+  text-indent: 0;
+}
+
 [data-aa-title="bestiary"] ul:not(.compass) {
   list-style: none;
   margin-block-start: 0;

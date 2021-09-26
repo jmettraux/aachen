@@ -22,7 +22,7 @@ Most of the casters choose simple, well known, forms for weaving their magical t
 Amber
 : Heat
 
-Black
+Coal
 : Damage
 
 Blue
@@ -46,7 +46,7 @@ Silver
 Turquoise
 : Healing
 
-White
+Gold
 : Light
 
 <!-- </div> -->
@@ -68,10 +68,15 @@ White
 | Shield | broad shield | T touch   | 1 min/CP  | 0         |
 | Tunnel | 5ft/CP       | C 5ft/CP  | 1 min/CP  | 80ft/CP   |
 
+<!-- .caption -->
 **T**: touch, **C**: close, **S**: short, **M**: medium, **L**: long
 
 <!-- </div> -->
 <!-- </div> -->
+
+* casting a _Blue Finger_ costs 1 CP
+* casting a _Night Ball_ within 30ft that lasts 2 rounds costs 1 CP + 1 CP for the extra round
+* casting a _Night Ball_ at 50ft that lasts 2 rounds costs 1 CP + 1 CP for the extra round + 1 CP for the extra 30ft range + 1 CP for the extra speed (so that it
 
 <!--
 Move requires an on turn action. Prolong requires an instant action.
