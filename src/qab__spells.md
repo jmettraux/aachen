@@ -54,7 +54,7 @@ Gold
 
 ## Forms
 
-| form   | diameter     | range     | duration  | speed/rnd |
+| name   | diameter     | range     | duration  | speed/rnd |
 |--------|:------------:|:---------:|:---------:|:---------:|
 | Arrow  | -            | L 80ft/CP | 1 rnd/CP  | 80ft/CP   |
 | Ball   | 1ft/CP       | M 30ft/CP | 1 rnd/CP  | 30ft/CP   |
@@ -74,11 +74,19 @@ Gold
 <!-- </div> -->
 <!-- </div> -->
 
-* casting a _Blue Finger_ costs 1 CP
-* casting a _Night Ball_ within 30ft that lasts 2 rounds costs 1 CP + 1 CP for the extra round
-* casting a _Night Ball_ at 50ft that lasts 2 rounds costs 1 CP + 1 CP for the extra round + 1 CP for the extra 30ft range + 1 CP for the extra speed (so that it
+* casting a ~~Blue Finger~~ costs 1 CP
+* casting a ~~Night Ball~~ within 30ft that lasts 2 rounds costs 1 CP + 1 CP for the extra round
+* casting a ~~Night Ball~~ at 50ft that lasts 2 rounds costs 1 CP + 1 CP for the extra round + 1 CP for the extra 30ft range + 1 CP for the extra speed (so that it
 
 <!--
 Move requires an on turn action. Prolong requires an instant action.
 -->
+
+## Elan
+
+Many of the spell descriptions below mention _élan_. It is equal to the `Cast` skill level plus the attribute modifier used for casting the spell. So it varies from -2 to +6.
+
+When a spell inflects damage and the dice roll plus the _élan_ results in zero or less, do inflect 1 point of damage.
+
+For example, a caster with `INT`m -1, fires an ~~Amber Arrow~~ and rolls a 1. That computes to 0, but since it's about damage, it will actually inflect 1 point of damage.
 

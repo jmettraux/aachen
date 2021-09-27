@@ -9,6 +9,7 @@
 
 <!-- vvv -->
 
+
 <!-- <div.spell> -->
 
 ## Amber Arrow
@@ -20,7 +21,7 @@
 
 Fires a heat arrow at a single target.
 
-1d3 + `Cast` skill level damage unless the target succeeds at a Physical save.
+1d3 + _élan_ damage unless the target succeeds at a Physical save.
 
 Can be used to ignite easily flammable objects.
 
@@ -57,66 +58,11 @@ Some people are not very good at boiling water, it seems they never did it. Mayb
 
 Intense heat lens.
 
-Creatures attempting to cross the shield lose (1d6 + caster `Cast`) HPs.
+Creatures attempting to cross the shield lose (1d6 + _élan_) HPs.
 
 Hot air waves distort light, so the shield is somehow discernable.
 
 Missiles and polearm ends are not stopped by the shield.
-
-<!-- </div> -->
-
-<!-- <div.spell> -->
-
-## Coal Arrow
-
-* **Cst** main action
-* **Rng** L 80ft/CP
-* **Dur** 1 rnd/CP
-* **Spd** 80ft/CP
-
-Fires an arrow of weaving pain at a single target.
-
-CP 1 → 1d4 + `Cast` | CP 2 → 1d6 + `Cast` | CP >= 3 → 1d8 + `Cast`
-
-The arrow is invisible and may avoid allies and non-targets in a complex and curved flight.
-
-Silver threads do stop the coal arrow.
-
-<!-- </div> -->
-
-<!-- <div.spell> -->
-
-## Coal Flail
-
-* **Cst** main action
-* **Rng** S 10ft/CP
-* **Dur** 1 rnd
-* **Spd** 80ft/CP
-
-Flail of magical pain.
-
-Inflicts (1d6 + `Cast`) damage points. There must a direct way between the caster and their target.
-
-Silver threads do stop the coal flail.
-
-<!-- </div> -->
-
-<!-- <div.spell> -->
-
-## Coal Shield
-
-* **Cst** main action
-* **Rng** T touch
-* **Dia** broad shield
-* **Dur** 1 min/CP
-* **Mov** 1 CP/10ft
-* **Prol** 1 CP/min
-
-A lens of pain, inflicting damage upon traversal.
-
-A shield of pain with (1d6 + `Cast`) * CP "hit points". A creature attempting to cross the shield takes 1d6 damage. Those points are removed from the shield hit points. When the shield reaches zero points, it vanishes.
-
-As a main action, the caster of the coal shield, may consume CPs to "mend" the shield, again (1d6 + `Cast`) * CP.
 
 <!-- </div> -->
 
@@ -133,7 +79,7 @@ As a main action, the caster of the coal shield, may consume CPs to "mend" the s
 
 A ring of cold, keeping things inside cold.
 
-Applied around a creature or part of it may inflict (1d2 + `Cast`) damage per round.
+Applied around a creature or part of it may inflict (1d2 + _élan_) damage per round.
 
 <!-- </div> -->
 
@@ -156,16 +102,6 @@ Depending on the context, a creature might slide on the disk and fall. A wet hai
 
 <!-- </div> -->
 
-
-<!-- PAGE BREAK spell_list -->
-
-<!-- .margin.compass -->
-* _Playing a Caster_
-* Spellcasting
-* Spell types
-* **Spell list**
-
-
 <!-- <div.spell> -->
 
 ## Blue Finger
@@ -179,13 +115,170 @@ Damage dealing cold finger.
 
 Threads generating cold are woven around the index finger of the caster (who is not affected negatively by the cold).
 
-The threads can deal CP + `Cast` points of cold damage. The referee can grant an _Evasion_ save to the victim if appropriate.
+The threads can deal (CP + _élan_) points of cold damage. The referee can grant an _Evasion_ save to the victim if appropriate.
 
 The finger can also be used to stop ongoing heat/burning damage.
 
 (Beware touching metal objects!)
 
 <!-- </div> -->
+
+<!-- <div.spell> -->
+
+## Coal Arrow
+
+* **Cst** main action
+* **Rng** L 80ft/CP
+* **Dur** 1 rnd/CP
+* **Spd** 80ft/CP
+
+Fires an arrow of weaving pain at a single target.
+
+CP 1 → 1d4 + _élan_ | CP 2 → 1d6 + _élan_ | CP >= 3 → 1d8 + _élan_
+
+The arrow is invisible and may avoid allies and non-targets in a complex and curved flight.
+
+Silver threads do stop the coal arrow.
+
+<!-- </div> -->
+
+<!-- <div.spell> -->
+
+## Coal Flail
+
+* **Cst** main action
+* **Rng** S 10ft/CP
+* **Dur** 1 rnd
+* **Spd** 80ft/CP
+
+Flail of magical pain.
+
+Inflicts (1d6 + _élan_) damage points. There must a direct way between the caster and their target.
+
+Silver threads do stop the coal flail.
+
+<!-- </div> -->
+
+
+<!-- PAGE BREAK spell_list -->
+
+<!-- .margin.compass -->
+* _Playing a Caster_
+* Spellcasting
+* Spell types
+* **Spell list**
+
+
+<!-- <div.spell> -->
+
+## Coal Shield
+
+* **Cst** main action
+* **Rng** T touch
+* **Dia** broad shield
+* **Dur** 1 min/CP
+* **Mov** 1 CP/10ft
+* **Prol** 1 CP/min
+
+A lens of pain, inflicting damage upon traversal.
+
+A shield of pain with (1d6 + _élan_) * CP "hit points". A creature attempting to cross the shield takes 1d6 damage. Those points are removed from the shield hit points. When the shield reaches zero points, it vanishes.
+
+As a main action, the caster of the coal shield, may consume CPs to "mend" the shield, again (1d6 + _élan_) * CP.
+
+<!-- </div> -->
+
+<!-- <div.spell> -->
+
+## Gold Crown
+
+* **Cst** main action
+* **Rng** M 30ft/CP
+* **Dia** 1ft/CP
+* **Dur** 10 min/CP
+* **Mov** 1 CP/5ft
+* **Prol** w/i (lvl * 10ft), 1 CP/min
+
+Halo or aureola of light.
+
+A crown of light, some casters use it to light their tables at night.
+
+By default, it is static. For 1 extra CP, it can be threaded so that it follows something (a head for example).
+
+<!-- </div> -->
+
+<!-- <div.spell> -->
+
+## Gold Hand
+
+* **Cst** main action
+* **Rng** T touch
+* **Dur** 1 rnd
+* **Prol** 1 CP/rnd
+
+Flashing hand.
+
+The caster shows their hand and the gold thread they've just weaved flashes in their palm.
+
+Creatures in front of the hand are blinded (unless they looked the other direction or had their eyes closed). Blinded creatures have -2 to their AC and -2 to their hit and skill rolls while blind. As an On Turn Action, they may shake off their blindness with a successful _Evasion_ save roll.
+
+Cannot prolong.
+
+<!-- </div> -->
+
+<!-- <div.spell> -->
+
+## Gold Pole
+
+* **Cst** main action
+* **Rng** S 10ft/CP
+* **Dur** 1 rnd
+* **Prol** 1 CP/rnd
+
+Caster scope.
+
+2 feet taller than its caster, the pole gathers light at one tip transmitting it to the other tip.
+
+Can be used as a sort of periscope, to look unnoticed through straw or foliage. Remember the pole is invisible to most creatures.
+
+A caster with `Cast` 1 or better may control the flow of light turning the pole into a microsope or a telescope.
+
+The caster may consume 1 CP to bend the pole, bow-like, but it won't turn into an endoscope.
+
+Can be prolonged for free with a main action and a successful DC 6 skill check, same attribute modifier as used when weaving.
+
+<!-- </div> -->
+
+<!-- <div.spell> -->
+
+## Gold Shield
+
+* **Cst** main action
+* **Rng** T touch
+* **Dia** broad shield
+* **Dur** 1 min/CP
+* **Mov** 1 CP/10ft
+* **Prol** 1 CP/min
+
+Image alteration shield.
+
+This shield is sometimes called the "past window". The image seen through it is the same as the image that passed at the moment it was weaved. It can thus be used for some invisibility trick. The problem is that it works both ways, the other side looks like what it was at weaving time and vice versa. You can move behind the shield, but looking through it won't tell you much about the current situation there.
+
+The caster may decide to simply use it as a mirror. All the the light going through it is reflected. Both sides.
+
+For one extra CP, the shield can be used as a spotlight, a light emitting shield suspended mid air.
+
+<!-- </div> -->
+
+
+<!-- PAGE BREAK spell_list -->
+
+<!-- .margin.compass -->
+* _Playing a Caster_
+* Spellcasting
+* Spell types
+* **Spell list**
+
 
 <!-- <div.spell> -->
 
@@ -286,16 +379,6 @@ An unlucky caster might flail uselessly at nothing, wasting CPs.
 
 <!-- </div> -->
 
-
-<!-- PAGE BREAK spell_list -->
-
-<!-- .margin.compass -->
-* _Playing a Caster_
-* Spellcasting
-* Spell types
-* **Spell list**
-
-
 <!-- <div.spell> -->
 
 ## Quartz Pole
@@ -313,6 +396,16 @@ By consuming 1 extra CP, all the threads (quartz and others) are revealed to oth
 
 <!-- </div> -->
 
+
+<!-- PAGE BREAK spell_list -->
+
+<!-- .margin.compass -->
+* _Playing a Caster_
+* Spellcasting
+* Spell types
+* **Spell list**
+
+
 <!-- <div.spell> -->
 
 ## Red Disk
@@ -328,7 +421,7 @@ Disk of fire.
 
 When the spell ends and its fire hasn't propagated to some flammable elements, the fire ends.
 
-Inflicts 1d4 + `Cast` per round damage points to creatures exposed to it.
+Inflicts (1d4 + _élan_) per round damage points to creatures exposed to it.
 
 <!-- </div> -->
 
@@ -347,7 +440,7 @@ Read threads emit a flame at the point of the caster's finger.
 
 Once the castery stops, the threads dissolve, the heat disperses.
 
-Might deal 1 + `Cast` damage points to a target.
+Might deal (1 + _élan_) damage points to a target.
 
 <!-- </div> -->
 
@@ -362,7 +455,7 @@ Might deal 1 + `Cast` damage points to a target.
 
 Flail of fire.
 
-Inflicts 1d6 + `Cast` damage points. There must a direct way between the caster and their target. May put the target on fire, at the GM discretion.
+Inflicts (1d6 + _élan_) damage points. There must a direct way between the caster and their target. May put the target on fire, at the GM discretion.
 
 Silver threads do stop the red flail.
 
@@ -379,11 +472,30 @@ Silver threads do stop the red flail.
 
 Hit point draining arrows, can be harvested if recovered.
 
-The scarlet thread arrow fires from the caster's hand, it goes through its target and drains 1d8 + `Cast` HPs from it. The arrow flies then for damage * 10 feet and drops on the floor. It will dissolve after damage * 2 rounds.
+The scarlet thread arrow fires from the caster's hand, it goes through its target and drains (1d8 + _élan_) HPs from it. The arrow flies then for damage * 10 feet and drops on the floor. It will dissolve after damage * 2 rounds.
 
 Should the arrow fall into water, it dissolves twice faster.
 
 Remember only the caster sees their own thread, but should a caster pick up the arrow, it may absorb the collected CPs if it succeeds a DC 6 `Cast` skill check, the attribute modifier is the same attribute modifier used by the caster of the arrow. If the skill check fails, the CPs are lost, if the skill check fails with a double 1, the caster incurs 1 HP damage.
+
+<!-- </div> -->
+
+<!-- <div.spell> -->
+
+## Scarlet Disk
+
+* **Cst** main action
+* **Rng** S 10ft/CP
+* **Dia** 5ft/CP
+* **Dur** 10 min/CP
+* **Mov** 1 CP/5ft
+* **Prol** w/i (lvl * 10ft), 1 CP/min
+
+Draining disk.
+
+A creature walking on the disk will lose (1d6 + _élan_) HP (min 1). Half of these, rounded up, will be received as CPs by the caster of the disk if he is within 50ft of the disk. By consuming 1 more CP when casting, the range can be elongated to 100ft.
+
+Creatures victim of the disk understand the magic nature of their loss if they succeed a DC 10 `WIS` / `Cast` skill check (remember -1 if they have no level in `Cast`).
 
 <!-- </div> -->
 
@@ -398,11 +510,21 @@ Remember only the caster sees their own thread, but should a caster pick up the 
 
 Hit point draining finger.
 
-The caster drops the tip of their finger on a victim's skin or fur and drains (1 + _volume_) HPs. Those HPs are turned into CPs for the caster.
+The caster drops the tip of their finger on a victim's skin or fur and drains (1 + _élan_) HPs. Those HPs are turned into CPs for the caster.
 
 The referee might grant a saving throw to the victim.
 
 <!-- </div> -->
+
+
+<!-- PAGE BREAK spell_list -->
+
+<!-- .margin.compass -->
+* _Playing a Caster_
+* Spellcasting
+* Spell types
+* **Spell list**
+
 
 <!-- <div.spell> -->
 
@@ -417,21 +539,11 @@ Hit point draining out of wounds.
 
 The caster lays their hand on the wound of a living target and weave threads that drain the the wounded of some of their HPs.
 
-The target loses 1d6 + _volume_ HPs which are turned to CPs and added to the caster's current CP count.
+The target loses 1d6 + _élan_ HPs which are turned to CPs and added to the caster's current CP count.
 
 (Remember that casting requires at least 1 CP, so the in the worst case, the caster might gain 1 - 1 CPs and the target might lose 1 HP).
 
 <!-- </div> -->
-
-
-<!-- PAGE BREAK spell_list -->
-
-<!-- .margin.compass -->
-* _Playing a Caster_
-* Spellcasting
-* Spell types
-* **Spell list**
-
 
 <!-- <div.spell> -->
 
@@ -506,9 +618,9 @@ Can be used as a "caster duck tape".
 
 Weaves a thread fence into a hut shape.
 
-The hut has (1d8 + _volume_) * CP hit points. As long as the hut has HPs it protectes completely its content.
+The hut has (1d8 + _élan_) * CP hit points. As long as the hut has HPs it protectes completely its content.
 
-By paying 1 CP (and an instant action), the caster adds (1d8 + _volume_) HPs to the hut.
+By paying 1 CP (and an instant action), the caster adds (1d8 + _élan_) HPs to the hut.
 
 <!-- </div> -->
 
@@ -523,7 +635,22 @@ By paying 1 CP (and an instant action), the caster adds (1d8 + _volume_) HPs to 
 
 Healing arrow.
 
-Works from 15 feet on only. Grants 1d3 + _volume_ HP to the target. Does not stabilize a Mortally Wounded creature.
+Works from 15 feet on only. Grants 1d6 + _élan_ HP to the target. Does not stabilize a Mortally Wounded creature.
+
+<!-- </div> -->
+
+<!-- <div.spell> -->
+
+## Turquoise Hand
+
+* **Cst** main action
+* **Rng** T touch
+* **Dur** 1 rnd
+* **Prol** 1 CP/rnd
+
+Healing hand.
+
+Gives back (1d6 + _élan_) HPs to the targetted creature or stabilizes it (back to 1 HP and not Mortally Wounded.
 
 <!-- </div> -->
 
@@ -544,6 +671,16 @@ Mortally wounded creatures in the hut stabilize (as per rules, they reach 1 HP a
 
 <!-- </div> -->
 
+
+<!-- PAGE BREAK spell_list -->
+
+<!-- .margin.compass -->
+* _Playing a Caster_
+* Spellcasting
+* Spell types
+* **Spell list**
+
+
 <!-- <div.spell> -->
 
 ## Turquoise Pole
@@ -553,91 +690,9 @@ Mortally wounded creatures in the hut stabilize (as per rules, they reach 1 HP a
 * **Dur** 1 rnd
 * **Prol** 1 CP/rnd
 
-All the creatures touched by the pole are granted (1d3 + _volume_) HPs.
+All the creatures touched by the pole are granted (1d3 + _élan_) HPs.
 
 The pole does stabilize a Mortally Wounded creature.
-
-<!-- </div> -->
-
-<!-- <div.spell> -->
-
-## Gold Crown
-
-* **Cst** main action
-* **Rng** M 30ft/CP
-* **Dia** 1ft/CP
-* **Dur** 10 min/CP
-* **Mov** 1 CP/5ft
-* **Prol** w/i (lvl * 10ft), 1 CP/min
-
-Halo or aureola of light.
-
-A crown of light, some casters use it to light their tables at night.
-
-By default, it is static. For 1 extra CP, it can be threaded so that it follows something (a head for example).
-
-<!-- </div> -->
-
-<!-- <div.spell> -->
-
-## Gold Hand
-
-* **Cst** main action
-* **Rng** T touch
-* **Dur** 1 rnd
-* **Prol** 1 CP/rnd
-
-Flashing hand.
-
-The caster shows their hand and the gold thread they've just weaved flashes in their palm.
-
-Creatures in front of the hand are blinded (unless they looked the other direction or had their eyes closed). Blinded creatures have -2 to their AC and -2 to their hit and skill rolls while blind. As an On Turn Action, they may shake off their blindness with a successful _Evasion_ save roll.
-
-Cannot prolong.
-
-<!-- </div> -->
-
-<!-- <div.spell> -->
-
-## Gold Pole
-
-* **Cst** main action
-* **Rng** S 10ft/CP
-* **Dur** 1 rnd
-* **Prol** 1 CP/rnd
-
-Caster scope.
-
-2 feet taller than its caster, the pole gathers light at one tip transmitting it to the other tip.
-
-Can be used as a sort of periscope, to look unnoticed through straw or foliage. Remember the pole is invisible to most creatures.
-
-A caster with `Cast` 1 or better may control the flow of light turning the pole into a microsope or a telescope.
-
-The caster may consume 1 CP to bend the pole, bow-like, but it won't turn into an endoscope.
-
-Can be prolonged for free with a main action and a successful DC 6 skill check, same attribute modifier as used when weaving.
-
-<!-- </div> -->
-
-<!-- <div.spell> -->
-
-## Gold Shield
-
-* **Cst** main action
-* **Rng** T touch
-* **Dia** broad shield
-* **Dur** 1 min/CP
-* **Mov** 1 CP/10ft
-* **Prol** 1 CP/min
-
-Image alteration shield.
-
-This shield is sometimes called the "past window". The image seen through it is the same as the image that passed at the moment it was weaved. It can thus be used for some invisibility trick. The problem is that it works both ways, the other side looks like what it was at weaving time and vice versa. You can move behind the shield, but looking through it won't tell you much about the current situation there.
-
-The caster may decide to simply use it as a mirror. All the the light going through it is reflected. Both sides.
-
-For one extra CP, the shield can be used as a spotlight, a light emitting shield suspended mid air.
 
 <!-- </div> -->
 
