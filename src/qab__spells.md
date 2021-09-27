@@ -111,7 +111,7 @@ Most of the casters choose simple, well known, forms for weaving their magical t
 Move requires an on turn action. Prolong requires an instant action.
 -->
 
-## Elan
+## Élan
 
 Many of the spell descriptions below mention _élan_. It is equal to the `Cast` skill level plus the attribute modifier used for casting the spell. So it varies from -2 to +6.
 
