@@ -245,7 +245,6 @@ By default, it is static. For 1 extra CP, it can be threaded so that it follows 
 * **Cst** main action
 * **Rng** T touch
 * **Dur** 1 rnd
-* **Prol** 1 CP/rnd
 
 Flashing hand.
 
