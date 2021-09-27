@@ -10,37 +10,37 @@
 
 <!-- .colours -->
 Amber
-: Heat
+: heat
 
 Coal
-: Damage
+: damage
 
 Copper
-: Earth
+: earth
 
 Blue
-: Cold
+: cold
 
 Night
-: Darkness
+: darkness
 
 Quartz
-: Meta
+: meta
 
 Red
-: Fire
+: fire
 
 Scarlet
-: Drain
+: drain
 
 Silver
-: Fence
+: fence
 
 Turquoise
-: Healing
+: healing
 
 Gold
-: Light
+: light
 
 ×
 

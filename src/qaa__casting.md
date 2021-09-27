@@ -17,7 +17,7 @@ Casting Points[^1]
 : After a not so good night rest, casters go back to half the CP max rounded up;
 : Casters may temporarily accumulate more CP than their CP max;
 : As an instant action, casters may at any moment convert one or more of their remaining HPs to CPs;
-: As an instant action, casters may accept becoming ~~frail~~ (see Health) to gain _character level_ x d4 CPs.
+: As an instant action, casters may accept becoming ~~frail~~ (see Health) to gain _character level_ × d4 CPs.
 
 Casting Cost
 : Casting a spell costs a main action and at least 1 CP;

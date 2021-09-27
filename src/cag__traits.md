@@ -43,8 +43,8 @@ Swerving
 : As per · or a missed attack by the character can be made to succeed
 
 ~~Intricate~~[^1]
-: May cast spells,<br/>CP = char level * ~~CP factor~~
-: May cast spells,<br/>CP = char level + (char level * ~~CP factor~~)
+: May cast spells,<br/>CP = char level × ~~CP factor~~
+: May cast spells,<br/>CP = char level + (char level × ~~CP factor~~)
 
 Skillful
 : Once per scene, as an instant action, a missed non-combat skill check can be turned into a success
