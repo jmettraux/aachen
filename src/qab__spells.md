@@ -10,73 +10,73 @@
 
 <!-- .colours -->
 Amber
-: heat
+: ~~1~~ heat
 
 Coal
-: damage
+: ~~2~~ damage
 
 Copper
-: earth
+: ~~3~~ earth
 
 Blue
-: cold
+: ~~4~~ cold
 
 Night
-: darkness
+: ~~5~~ darkness
 
 Quartz
-: meta
+: ~~6~~ meta
 
 Red
-: fire
+: ~~7~~ fire
 
 Scarlet
-: drain
+: ~~8~~ drain
 
 Silver
-: fence
+: ~~9~~ fence
 
 Turquoise
-: healing
+: ~~10~~ healing
 
 Gold
-: light
+: ~~11~~ light
 
 ×
 
 <!-- .forms -->
 Arrow
-: missile
+: ~~1~~ missile
 
 Ball
-: sphere
+: ~~2~~ sphere
 
 Crown
-: donut
+: ~~3~~ donut
 
 Disk
-: horizontal shield
+: ~~4~~ horizontal shield
 
 Finger
-: point
+: ~~5~~ point
 
 Flail
-: there and back
+: ~~6~~ there and back
 
 Hand
-: touch
+: ~~7~~ touch
 
 Hut
-: shelter
+: ~~8~~ shelter
 
 Pole
-: ten feet
+: ~~9~~ ten feet
 
 Shield
-: vertical disk
+: ~~10~~ vertical disk
 
 Tunnel
-: through
+: ~~11~~ through
 
 <!-- </div> -->
 

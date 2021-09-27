@@ -827,12 +827,16 @@ table.social-class th:nth-child(1) {
   float: right;
   display: grid;
   grid-template-columns: auto auto auto;
-  width: 58%;
+  width: 61%;
   margin-left: 1rem;
+  margin-bottom: 0.5rem;
 }
 [data-aa-title="spells"] .matrix p {
   font-size: 48pt;
   padding-top: 5.0rem;
+  color: #d0d0d0;
+}
+[data-aa-title="spells"] .matrix del {
   color: #d0d0d0;
 }
 [data-aa-title="spells"] dl {
