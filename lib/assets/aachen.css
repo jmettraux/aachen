@@ -896,6 +896,16 @@ table.social-class th:nth-child(1) {
   font-size: calc(1.5 * var(--size-a));
   color: red;
 }
+[data-aa-title="spell list"] h2 del {
+  font-size: 70%;
+  font-variant: normal;
+  color: #d0d0d0;
+}
+[data-aa-title="spell list"] h2 del:before {
+  content: '·';
+  padding-right: 0.3rem;
+}
+
 [data-aa-title="spell list"] ul:not(.compass) {
   list-style: none;
   font-size: var(--size-b);

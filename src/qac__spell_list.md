@@ -7,13 +7,14 @@
 
 # Spell List
 
-<!-- vvv -->
+[^1]:
+  To choose at random, roll d6d8 and pick spells by the number right of their name
 
+<!-- vvv -->
 
 <!-- <div.spell> -->
 
-## Amber Arrow
-
+## Amber Arrow ~~11~~
 * **Cst** main action
 * **Rng** L 80ft/CP
 * **Dur** 1 rnd/CP
@@ -29,8 +30,7 @@ Can be used to ignite easily flammable objects.
 
 <!-- <div.spell> -->
 
-## Amber Ball
-
+## Amber Ball ~~12~~
 * **Cst** main action
 * **Rng** M 30ft/CP
 * **Dia** 1ft/CP
@@ -48,8 +48,7 @@ Some people are not very good at boiling water, it seems they never did it. Mayb
 
 <!-- <div.spell> -->
 
-## Amber Shield
-
+## Amber Shield ~~13~~
 * **Cst** main action
 * **Rng** T touch
 * **Dia** broad shield
@@ -70,8 +69,7 @@ Missiles and polearm ends are not stopped by the shield.
 
 <!-- <div.spell> -->
 
-## Blue Crown
-
+## Blue Crown ~~14~~[^1]
 * **Cst** main action
 * **Rng** M 30ft/CP
 * **Dia** 1ft/CP
@@ -88,8 +86,7 @@ Applied around a creature or part of it may inflict (1d2 + _élan_) damage per r
 
 <!-- <div.spell> -->
 
-## Blue Disk
-
+## Blue Disk ~~15~~
 * **Cst** main action
 * **Rng** S 10ft/CP
 * **Dia** 5ft/CP
@@ -108,8 +105,7 @@ Depending on the context, a creature might slide on the disk and fall. A wet hai
 
 <!-- <div.spell> -->
 
-## Blue Finger
-
+## Blue Finger ~~16~~
 * **Cst** main action
 * **Rng** T touch
 * **Dur** 1 rnd
@@ -129,8 +125,7 @@ The finger can also be used to stop ongoing heat/burning damage.
 
 <!-- <div.spell> -->
 
-## Coal Arrow
-
+## Coal Arrow ~~17~~
 * **Cst** main action
 * **Rng** L 80ft/CP
 * **Dur** 1 rnd/CP
@@ -148,8 +143,7 @@ Silver threads do stop the coal arrow.
 
 <!-- <div.spell> -->
 
-## Coal Flail
-
+## Coal Flail ~~18~~
 * **Cst** main action
 * **Rng** S 10ft/CP
 * **Dur** 1 rnd
@@ -175,8 +169,7 @@ Silver threads do stop the coal flail.
 
 <!-- <div.spell> -->
 
-## Coal Pole
-
+## Coal Pole ~~21~~
 * **Cst** main action
 * **Rng** S 10ft/CP
 * **Dur** 1 rnd
@@ -190,8 +183,7 @@ Takes (1d10 + _élan_) HPs per round to the single target. Silver threads block 
 
 <!-- <div.spell> -->
 
-## Coal Shield
-
+## Coal Shield ~~22~~
 * **Cst** main action
 * **Rng** T touch
 * **Dia** broad shield
@@ -210,8 +202,7 @@ As a main action, the caster of the coal shield, may consume CPs to "mend" the s
 
 <!-- <div.spell> -->
 
-## Copper Disk
-
+## Copper Disk ~~23~~
 * **Cst** main action
 * **Rng** S 10ft/CP
 * **Dia** 5ft/CP
@@ -230,8 +221,7 @@ Supports up to (`Cast` + 2) * 100kg.
 
 <!-- <div.spell> -->
 
-## Gold Crown
-
+## Gold Crown ~~24~~
 * **Cst** main action
 * **Rng** M 30ft/CP
 * **Dia** 1ft/CP
@@ -250,8 +240,7 @@ By default, it is static. For 1 extra CP, it can be threaded so that it follows 
 
 <!-- <div.spell> -->
 
-## Gold Hand
-
+## Gold Hand ~~25~~
 * **Cst** main action
 * **Rng** T touch
 * **Dur** 1 rnd
@@ -269,8 +258,7 @@ Cannot prolong.
 
 <!-- <div.spell> -->
 
-## Gold Pole
-
+## Gold Pole ~~26~~
 * **Cst** main action
 * **Rng** S 10ft/CP
 * **Dur** 1 rnd
@@ -300,8 +288,7 @@ Can be prolonged for free with a main action and a successful DC 6 skill check, 
 
 <!-- <div.spell> -->
 
-## Gold Shield
-
+## Gold Shield ~~27~~
 * **Cst** main action
 * **Rng** T touch
 * **Dia** broad shield
@@ -322,8 +309,7 @@ For one extra CP, the shield can be used as a spotlight, a light emitting shield
 
 <!-- <div.spell> -->
 
-## Night Ball
-
+## Night Ball ~~28~~
 * **Cst** main action
 * **Rng** M 30ft/CP
 * **Dia** 1ft/CP
@@ -343,8 +329,7 @@ More static uses of the ball are common, to simply prevent light/vision from cro
 
 <!-- <div.spell> -->
 
-## Night Disk
-
+## Night Disk ~~31~~
 * **Cst** main action
 * **Rng** S 10ft/CP
 * **Dia** 5ft/CP
@@ -363,8 +348,7 @@ It just looks like a pool of darkness.
 
 <!-- <div.spell> -->
 
-## Night Hut
-
+## Night Hut ~~32~~
 * **Cst** 1 main action, then 1 on turn action
 * **Rng** C 5ft/CP
 * **Dia** 5ft/CP
@@ -383,8 +367,7 @@ Loose night threads woven in the form of a hut absorb light. Anything goes thoug
 
 <!-- <div.spell> -->
 
-## Quartz Ball
-
+## Quartz Ball ~~33~~
 * **Cst** main action
 * **Rng** M 30ft/CP
 * **Dia** 1ft/CP
@@ -406,8 +389,7 @@ The ball might be quite smaller than the form of the thread it reveals. Blind ma
 
 <!-- <div.spell> -->
 
-## Quartz Flail
-
+## Quartz Flail ~~34~~
 * **Cst** main action
 * **Rng** S 10ft/CP
 * **Dur** 1 rnd
@@ -435,8 +417,7 @@ An unlucky caster might flail uselessly at nothing, wasting CPs.
 
 <!-- <div.spell> -->
 
-## Quartz Pole
-
+## Quartz Pole ~~35~~
 * **Cst** main action
 * **Rng** S 10ft/CP
 * **Dur** 1 rnd
@@ -452,8 +433,7 @@ By consuming 1 extra CP, all the threads (quartz and others) are revealed to oth
 
 <!-- <div.spell> -->
 
-## Red Disk
-
+## Red Disk ~~36~~
 * **Cst** main action
 * **Rng** S 10ft/CP
 * **Dia** 5ft/CP
@@ -472,8 +452,7 @@ Inflicts (1d4 + _élan_) per round damage points to creatures exposed to it.
 
 <!-- <div.spell> -->
 
-## Red Finger
-
+## Red Finger ~~37~~
 * **Cst** main action
 * **Rng** T touch
 * **Dur** 1 rnd
@@ -491,8 +470,7 @@ Might deal (1 + _élan_) damage points to a target.
 
 <!-- <div.spell> -->
 
-## Red Flail
-
+## Red Flail ~~38~~
 * **Cst** main action
 * **Rng** S 10ft/CP
 * **Dur** 1 rnd
@@ -508,8 +486,7 @@ Silver threads do stop the red flail.
 
 <!-- <div.spell> -->
 
-## Scarlet Arrow
-
+## Scarlet Arrow ~~41~~
 * **Cst** main action
 * **Rng** L 80ft/CP
 * **Dur** 1 rnd/CP
@@ -527,8 +504,7 @@ Remember only the caster sees their own thread, but should a caster pick up the 
 
 <!-- <div.spell> -->
 
-## Scarlet Disk
-
+## Scarlet Disk ~~42~~
 * **Cst** main action
 * **Rng** S 10ft/CP
 * **Dia** 5ft/CP
@@ -547,8 +523,7 @@ Creatures victim of the disk understand the magic nature of their loss if they s
 
 <!-- <div.spell> -->
 
-## Scarlet Finger
-
+## Scarlet Finger ~~43~~
 * **Cst** main action
 * **Rng** T touch
 * **Dur** 1 rnd
@@ -574,8 +549,7 @@ The referee might grant a saving throw to the victim.
 
 <!-- <div.spell> -->
 
-## Scarlet Hand
-
+## Scarlet Hand ~~44~~
 * **Cst** main action
 * **Rng** T touch
 * **Dur** 1 rnd
@@ -593,8 +567,7 @@ The target loses 1d6 + _élan_ HPs which are turned to CPs and added to the cast
 
 <!-- <div.spell> -->
 
-## Silver Ball
-
+## Silver Ball ~~45~~
 * **Cst** main action
 * **Rng** M 30ft/CP
 * **Dia** 1ft/CP
@@ -616,8 +589,7 @@ Remember, may not be prolonged if out of prolongation reach.
 
 <!-- <div.spell> -->
 
-## Silver Crown
-
+## Silver Crown ~~46~~
 * **Cst** main action
 * **Rng** M 30ft/CP
 * **Dia** 1ft/CP
@@ -636,8 +608,7 @@ May also be used to to protect things from impact, but it's a crown or a donut, 
 
 <!-- <div.spell> -->
 
-## Silver Hand
-
+## Silver Hand ~~47~~
 * **Cst** main action
 * **Rng** T touch
 * **Dur** 1 rnd
@@ -655,8 +626,7 @@ Can be used as a "caster duck tape".
 
 <!-- <div.spell> -->
 
-## Silver Hut
-
+## Silver Hut ~~48~~
 * **Cst** 1 main action, then 1 on turn action
 * **Rng** C 5ft/CP
 * **Dia** 5ft/CP
@@ -667,7 +637,7 @@ Can be used as a "caster duck tape".
 
 Weaves a thread fence into a hut shape.
 
-The hut has (1d8 + _élan_) * CP hit points. As long as the hut has HPs it protectes completely its content.
+The hut has (1d8 + _élan_) * CP hit points. As long as the hut has HPs it protects completely its content.
 
 By paying 1 CP (and an instant action), the caster adds (1d8 + _élan_) HPs to the hut.
 
@@ -675,8 +645,7 @@ By paying 1 CP (and an instant action), the caster adds (1d8 + _élan_) HPs to t
 
 <!-- <div.spell> -->
 
-## Turquoise Arrow
-
+## Turquoise Arrow ~~51~~
 * **Cst** main action
 * **Rng** L 80ft/CP
 * **Dur** 1 rnd/CP
@@ -690,8 +659,7 @@ Works from 15 feet on only. Grants 1d6 + _élan_ HP to the target. Does not stab
 
 <!-- <div.spell> -->
 
-## Turquoise Hand
-
+## Turquoise Hand ~~52~~
 * **Cst** main action
 * **Rng** T touch
 * **Dur** 1 rnd
@@ -705,8 +673,7 @@ Gives back (1d6 + _élan_) HPs to the targetted creature or stabilizes it (back 
 
 <!-- <div.spell> -->
 
-## Turquoise Hut
-
+## Turquoise Hut ~~53~~
 * **Cst** 1 main action, then 1 on turn action
 * **Rng** C 5ft/CP
 * **Dia** 5ft/CP
@@ -733,8 +700,7 @@ Mortally wounded creatures in the hut stabilize (as per rules, they reach 1 HP a
 
 <!-- <div.spell> -->
 
-## Turquoise Pole
-
+## Turquoise Pole ~~54~~
 * **Cst** main action
 * **Rng** S 10ft/CP
 * **Dur** 1 rnd
