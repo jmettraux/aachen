@@ -43,37 +43,37 @@ Gold
 
 <!-- .forms -->
 Arrow
-: piercing
+: missile
 
 Ball
-: rounding
+: sphere
 
 Crown
-: circling
+: donut
 
 Disk
-: rounding
+: horizontal shield
 
 Finger
-: pointing
+: point
 
 Flail
-: slashing
+: there and back
 
 Hand
-: touching
+: touch
 
 Hut
-: sheltering
+: shelter
 
 Pole
-: axing
+: ten feet
 
 Shield
-: lensing
+: vertical disk
 
 Tunnel
-: passing
+: through
 
 <!-- </div> -->
 
