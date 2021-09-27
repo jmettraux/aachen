@@ -36,8 +36,9 @@ Can be used to ignite easily flammable objects.
 * **Dia** 1ft/CP
 * **Dur** 1 rnd/CP
 * **Spd** 30ft/CP
+* **Ctl** <= 10ft/lvl
 * **Mov** 1 CP/5ft
-* **Prol** w/i (lvl * 10ft), 1 CP/rnd
+* **Prol** 1 CP/rnd
 
 The caster stove.
 
@@ -53,6 +54,7 @@ Some people are not very good at boiling water, it seems they never did it. Mayb
 * **Rng** T touch
 * **Dia** broad shield
 * **Dur** 1 min/CP
+* **Ctl** <= 10ft/lvl
 * **Mov** 1 CP/10ft
 * **Prol** 1 CP/min
 
@@ -74,8 +76,9 @@ Missiles and polearm ends are not stopped by the shield.
 * **Rng** M 30ft/CP
 * **Dia** 1ft/CP
 * **Dur** 10 min/CP
+* **Ctl** <= 10ft/lvl
 * **Mov** 1 CP/5ft
-* **Prol** w/i (lvl * 10ft), 1 CP/min
+* **Prol** 1 CP/min
 
 A ring of cold, keeping things inside cold.
 
@@ -91,8 +94,9 @@ Applied around a creature or part of it may inflict (1d2 + _élan_) damage per r
 * **Rng** S 10ft/CP
 * **Dia** 5ft/CP
 * **Dur** 10 min/CP
+* **Ctl** <= 10ft/lvl
 * **Mov** 1 CP/5ft
-* **Prol** w/i (lvl * 10ft), 1 CP/min
+* **Prol** 1 CP/min
 
 A disk of active cold / ice on the floor.
 
@@ -171,12 +175,28 @@ Silver threads do stop the coal flail.
 
 <!-- <div.spell> -->
 
+## Coal Pole
+
+* **Cst** main action
+* **Rng** S 10ft/CP
+* **Dur** 1 rnd
+* **Prol** 1 CP/rnd
+
+Pole of woven pain. The Caster pike.
+
+Takes (1d10 + _élan_) HPs per round to the single target. Silver threads block block the pole if the silver caster succeeds a DC 8 `INT` / `Cast` skill check.
+
+<!-- </div> -->
+
+<!-- <div.spell> -->
+
 ## Coal Shield
 
 * **Cst** main action
 * **Rng** T touch
 * **Dia** broad shield
 * **Dur** 1 min/CP
+* **Ctl** <= 10ft/lvl
 * **Mov** 1 CP/10ft
 * **Prol** 1 CP/min
 
@@ -196,8 +216,9 @@ As a main action, the caster of the coal shield, may consume CPs to "mend" the s
 * **Rng** M 30ft/CP
 * **Dia** 1ft/CP
 * **Dur** 10 min/CP
+* **Ctl** <= 10ft/lvl
 * **Mov** 1 CP/5ft
-* **Prol** w/i (lvl * 10ft), 1 CP/min
+* **Prol** 1 CP/min
 
 Halo or aureola of light.
 
@@ -257,6 +278,7 @@ Can be prolonged for free with a main action and a successful DC 6 skill check, 
 * **Rng** T touch
 * **Dia** broad shield
 * **Dur** 1 min/CP
+* **Ctl** <= 10ft/lvl
 * **Mov** 1 CP/10ft
 * **Prol** 1 CP/min
 
@@ -289,8 +311,9 @@ For one extra CP, the shield can be used as a spotlight, a light emitting shield
 * **Dia** 1ft/CP
 * **Dur** 1 rnd/CP
 * **Spd** 30ft/CP
+* **Ctl** <= 10ft/lvl
 * **Mov** 1 CP/5ft
-* **Prol** w/i (lvl * 10ft), 1 CP/rnd
+* **Prol** 1 CP/rnd
 
 A ball of light absorbing threads.
 
@@ -308,8 +331,9 @@ More static uses of the ball are common, to simply prevent light/vision from cro
 * **Rng** S 10ft/CP
 * **Dia** 5ft/CP
 * **Dur** 10 min/CP
+* **Ctl** <= 10ft/lvl
 * **Mov** 1 CP/5ft
-* **Prol** w/i (lvl * 10ft), 1 CP/min
+* **Prol** 1 CP/min
 
 A disk of darkness hiding what is below or behind it.
 
@@ -323,12 +347,13 @@ It just looks like a pool of darkness.
 
 ## Night Hut
 
-* **Cst** main action
+* **Cst** 1 main action, then 1 on turn action
 * **Rng** C 5ft/CP
 * **Dia** 5ft/CP
 * **Dur** 1 min/CP
+* **Ctl** <= 10ft/lvl
 * **Mov** 1 CP/5ft
-* **Prol** w/i (lvl * 10ft), 1 CP/min
+* **Prol** 1 CP/min
 
 Chamber of obscurity, no light comes in or out.
 
@@ -347,8 +372,9 @@ Loose night threads woven in the form of a hut absorb light. Anything goes thoug
 * **Dia** 1ft/CP
 * **Dur** 1 rnd/CP
 * **Spd** 30ft/CP
+* **Ctl** <= 10ft/lvl
 * **Mov** 1 CP/5ft
-* **Prol** w/i (lvl * 10ft), 1 CP/rnd
+* **Prol** 1 CP/rnd
 
 Magic revealing floating ball.
 
@@ -414,8 +440,9 @@ By consuming 1 extra CP, all the threads (quartz and others) are revealed to oth
 * **Rng** S 10ft/CP
 * **Dia** 5ft/CP
 * **Dur** 10 min/CP
+* **Ctl** <= 10ft/lvl
 * **Mov** 1 CP/5ft
-* **Prol** w/i (lvl * 10ft), 1 CP/min
+* **Prol** 1 CP/min
 
 Disk of fire.
 
@@ -488,8 +515,9 @@ Remember only the caster sees their own thread, but should a caster pick up the 
 * **Rng** S 10ft/CP
 * **Dia** 5ft/CP
 * **Dur** 10 min/CP
+* **Ctl** <= 10ft/lvl
 * **Mov** 1 CP/5ft
-* **Prol** w/i (lvl * 10ft), 1 CP/min
+* **Prol** 1 CP/min
 
 Draining disk.
 
@@ -554,8 +582,9 @@ The target loses 1d6 + _élan_ HPs which are turned to CPs and added to the cast
 * **Dia** 1ft/CP
 * **Dur** 1 rnd/CP
 * **Spd** 30ft/CP
+* **Ctl** <= 10ft/lvl
 * **Mov** 1 CP/5ft
-* **Prol** w/i (lvl * 10ft), 1 CP/rnd
+* **Prol** 1 CP/rnd
 
 Bowling silver ball.
 
@@ -575,8 +604,9 @@ Remember, may not be prolonged if out of prolongation reach.
 * **Rng** M 30ft/CP
 * **Dia** 1ft/CP
 * **Dur** 10 min/CP
+* **Ctl** <= 10ft/lvl
 * **Mov** 1 CP/5ft
-* **Prol** w/i (lvl * 10ft), 1 CP/min
+* **Prol** 1 CP/min
 
 The silver crown or the slave crown. Used by casters to bind people.
 
@@ -609,12 +639,13 @@ Can be used as a "caster duck tape".
 
 ## Silver Hut
 
-* **Cst** main action
+* **Cst** 1 main action, then 1 on turn action
 * **Rng** C 5ft/CP
 * **Dia** 5ft/CP
 * **Dur** 1 min/CP
+* **Ctl** <= 10ft/lvl
 * **Mov** 1 CP/5ft
-* **Prol** w/i (lvl * 10ft), 1 CP/min
+* **Prol** 1 CP/min
 
 Weaves a thread fence into a hut shape.
 
@@ -658,12 +689,13 @@ Gives back (1d6 + _élan_) HPs to the targetted creature or stabilizes it (back 
 
 ## Turquoise Hut
 
-* **Cst** main action
+* **Cst** 1 main action, then 1 on turn action
 * **Rng** C 5ft/CP
 * **Dia** 5ft/CP
 * **Dur** 1 min/CP
+* **Ctl** <= 10ft/lvl
 * **Mov** 1 CP/5ft
-* **Prol** w/i (lvl * 10ft), 1 CP/min
+* **Prol** 1 CP/min
 
 Stabilization hut.
 

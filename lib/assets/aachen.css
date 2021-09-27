@@ -839,7 +839,7 @@ table.social-class th:nth-child(1) {
   margin-top: 0.3rem;
   margin-bottom: 0.0rem;
   font-size: var(--size-b);
-  line-height: 0.5;
+  line-height: 0.6;
 }
 [data-aa-title="spells"] dl dt {
   font-weight: normal;
@@ -887,10 +887,11 @@ table.social-class th:nth-child(1) {
 }
 [data-aa-title="spell list"] .spell {
   width: calc((var(--tblock-width) - 1rem) / 2);
+  margin-bottom: 0.1rem;
 }
 
 [data-aa-title="spell list"] h2 {
-  margin-top: 0;
+  margin-top: -0.3rem;
   margin-bottom: 0.1rem;
   font-size: calc(1.5 * var(--size-a));
   color: red;
