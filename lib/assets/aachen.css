@@ -820,13 +820,26 @@ table.social-class th:nth-child(1) {
   margin-top: 2rem;
 }
 
-[data-aa-title="spells"] .two-columns {
-  grid-template-columns: 30% auto;
+[data-aa-title="spells"] h1 {
+  margin-top: 0;
 }
-
+[data-aa-title="spells"] .matrix {
+  float: right;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 50%;
+  margin-left: 1rem;
+}
+[data-aa-title="spells"] .matrix p {
+  font-size: 48pt;
+  padding-top: 4.5rem;
+  color: #c0c0c0;
+}
 [data-aa-title="spells"] dl {
-  margin-top: 1.5rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.0rem;
   font-size: var(--size-b);
+  line-height: 0.5;
 }
 [data-aa-title="spells"] dl dt {
   font-weight: normal;
@@ -837,8 +850,17 @@ table.social-class th:nth-child(1) {
   line-height: 0.85;
   margin-bottom: 1rem;
 }
+[data-aa-title="spells"] table th,
+[data-aa-title="spells"] table td {
+  /*padding: 0.28em 0.49em 0.28em 0.49em;*/
+  /* top right bottom left */
+  padding: 0.2em 0 0 0;
+}
 [data-aa-title="spells"] table td:nth-child(1) {
   color: red;
+}
+[data-aa-title="spells"] table td:nth-child(2) {
+  font-size: 80%;
 }
 
 [data-aa-title="spells"] h2 {

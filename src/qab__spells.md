@@ -6,17 +6,7 @@
 * Spell list
 
 
-
-# Spells
-
-Casters see the magical energy as threads of various colours. Each colour affects different _domains_. It is probable that some casters see colours differently, and that some of them don't see some of the colours.
-
-Most of the casters choose simple, well known, forms for weaving their magical threads. Maybe in Constantinople or further east, there are casters that know more complicated forms.
-
-<!-- <div.two-columns> -->
-<!-- <div.left-column> -->
-
-## Colours
+<!-- <div.matrix> -->
 
 <!-- .colours -->
 Amber
@@ -49,30 +39,69 @@ Turquoise
 Gold
 : Light
 
+×
+
+<!-- .forms -->
+Arrow
+: piercing
+
+Ball
+: rounding
+
+Crown
+: circling
+
+Disk
+: rounding
+
+Finger
+: pointing
+
+Flail
+: slashing
+
+Hand
+: touching
+
+Hut
+: sheltering
+
+Pole
+: axing
+
+Shield
+: lensing
+
+Tunnel
+: passing
+
 <!-- </div> -->
-<!-- <div.right-column> -->
 
-## Forms
 
-| name   | diameter     | range     | duration  | speed/rnd |
-|--------|:------------:|:---------:|:---------:|:---------:|
-| Arrow  | -            | L 80ft/CP | 1 rnd/CP  | 80ft/CP   |
-| Ball   | 1ft/CP       | M 30ft/CP | 1 rnd/CP  | 30ft/CP   |
-| Crown  | 1ft/CP       | M 30ft/CP | 10 min/CP | 0         |
-| Disk   | 5ft/CP       | S 10ft/CP | 10 min/CP | 0         |
-| Finger | -            | T touch   | 1 rnd     | 0         |
-| Flail  | -            | S 10ft/CP | 1 rnd     | 80ft/CP   |
-| Hand   | -            | T touch   | 1 rnd     | 0         |
-| Hut    | 5ft/CP       | C 5ft/CP  | 1 min/CP  | 0         |
-| Pole   | -            | S 10ft/CP | 1 rnd     | 0         |
-| Shield | broad shield | T touch   | 1 min/CP  | 0         |
-| Tunnel | 5ft/CP       | C 5ft/CP  | 1 min/CP  | 80ft/CP   |
+# Spells
+
+Casters see the magical energy as threads of various colours. Each colour affects different _domains_. It is probable that some casters see colours differently, and that some of them don't see some of the colours.
+
+Most of the casters choose simple, well known, forms for weaving their magical threads. Maybe in Constantinople or further east, there are casters that know more complicated forms.
+
+
+| name   | ctime  | diameter     | range     | duration  | speed/rnd | move      | prolong  |
+|--------|:------:|:------------:|:---------:|:---------:|:---------:|:---------:|:--------:|
+| Arrow  | MA     | -            | L 80ft/CP | 1 rnd/CP  | 80ft/CP   | -         | -        |
+| Ball   | MA     | 1ft/CP       | M 30ft/CP | 1 rnd/CP  | 30ft/CP   | 1 CP/5ft  | 1 CP/rnd |
+| Crown  | MA     | 1ft/CP       | M 30ft/CP | 10 min/CP | 0         | 1 CP/5ft  | 1 CP/min |
+| Disk   | MA     | 5ft/CP       | S 10ft/CP | 10 min/CP | 0         | 1 CP/5ft  | 1 CP/min |
+| Finger | MA     | -            | T touch   | 1 rnd     | 0         | -         | 1 CP/rnd |
+| Flail  | MA     | -            | S 10ft/CP | 1 rnd     | 80ft/CP   | -         | -        |
+| Hand   | MA     | -            | T touch   | 1 rnd     | 0         | -         | 1 CP/rnd |
+| Hut    | MA+OTA | 5ft/CP       | C 5ft/CP  | 1 min/CP  | 0         | 1 CP/5ft  | 1 CP/min |
+| Pole   | MA     | -            | S 10ft/CP | 1 rnd     | 0         | -         | 1 CP/rnd |
+| Shield | MA     | broad shield | T touch   | 1 min/CP  | 0         | 1 CP/10ft | 1 CP/min |
+| Tunnel | MA     | 5ft/CP       | C 5ft/CP  | 1 min/CP  | 80ft/CP   | no        | 1 CP/min |
 
 <!-- .caption -->
+**MA**: main action, **OTA**: on turn action,
 **T**: touch, **C**: close, **S**: short, **M**: medium, **L**: long
-
-<!-- </div> -->
-<!-- </div> -->
 
 * casting a ~~Blue Finger~~ costs 1 CP
 * casting a ~~Night Ball~~ within 30ft that lasts 2 rounds costs 1 CP + 1 CP for the extra round
