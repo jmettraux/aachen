@@ -833,7 +833,7 @@ table.social-class th:nth-child(1) {
 [data-aa-title="spells"] .matrix p {
   font-size: 48pt;
   padding-top: 4.5rem;
-  color: #c0c0c0;
+  color: #d0d0d0;
 }
 [data-aa-title="spells"] dl {
   margin-top: 0.3rem;
@@ -861,6 +861,9 @@ table.social-class th:nth-child(1) {
 }
 [data-aa-title="spells"] table td:nth-child(2) {
   font-size: 80%;
+}
+[data-aa-title="spells"] table tr:nth-child(3n) td {
+  border-bottom: solid thin #c0c0c0;
 }
 
 [data-aa-title="spells"] h2 {

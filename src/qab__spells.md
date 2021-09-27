@@ -85,19 +85,19 @@ Casters see the magical energy as threads of various colours. Each colour affect
 Most of the casters choose simple, well known, forms for weaving their magical threads. Maybe in Constantinople or further east, there are casters that know more complicated forms.
 
 
-| name   | ctime  | diameter     | range     | duration  | speed/rnd | move      | prolong  |
-|--------|:------:|:------------:|:---------:|:---------:|:---------:|:---------:|:--------:|
-| Arrow  | MA     | -            | L 80ft/CP | 1 rnd/CP  | 80ft/CP   | -         | -        |
-| Ball   | MA     | 1ft/CP       | M 30ft/CP | 1 rnd/CP  | 30ft/CP   | 1 CP/5ft  | 1 CP/rnd |
-| Crown  | MA     | 1ft/CP       | M 30ft/CP | 10 min/CP | 0         | 1 CP/5ft  | 1 CP/min |
-| Disk   | MA     | 5ft/CP       | S 10ft/CP | 10 min/CP | 0         | 1 CP/5ft  | 1 CP/min |
-| Finger | MA     | -            | T touch   | 1 rnd     | 0         | -         | 1 CP/rnd |
-| Flail  | MA     | -            | S 10ft/CP | 1 rnd     | 80ft/CP   | -         | -        |
-| Hand   | MA     | -            | T touch   | 1 rnd     | 0         | -         | 1 CP/rnd |
-| Hut    | MA+OTA | 5ft/CP       | C 5ft/CP  | 1 min/CP  | 0         | 1 CP/5ft  | 1 CP/min |
-| Pole   | MA     | -            | S 10ft/CP | 1 rnd     | 0         | -         | 1 CP/rnd |
-| Shield | MA     | broad shield | T touch   | 1 min/CP  | 0         | 1 CP/10ft | 1 CP/min |
-| Tunnel | MA     | 5ft/CP       | C 5ft/CP  | 1 min/CP  | 80ft/CP   | no        | 1 CP/min |
+| name   | ctime  | diameter     | range     | duration  | speed/rnd | ctrl <=  | move      | prolong  |
+|--------|:------:|:------------:|:---------:|:---------:|:---------:|:--------:|:---------:|:--------:|
+| Arrow  | MA     | -            | L 80ft/CP | 1 rnd/CP  | 80ft/CP   | -        | -         | -        |
+| Ball   | MA     | 1ft/CP       | M 30ft/CP | 1 rnd/CP  | 30ft/CP   | 10ft/lvl | 1 CP/5ft  | 1 CP/rnd |
+| Crown  | MA     | 1ft/CP       | M 30ft/CP | 10 min/CP | 0         | 10ft/lvl | 1 CP/5ft  | 1 CP/min |
+| Disk   | MA     | 5ft/CP       | S 10ft/CP | 10 min/CP | 0         | 10ft/lvl | 1 CP/5ft  | 1 CP/min |
+| Finger | MA     | -            | T touch   | 1 rnd     | 0         | -        | -         | 1 CP/rnd |
+| Flail  | MA     | -            | S 10ft/CP | 1 rnd     | 80ft/CP   | -        | -         | -        |
+| Hand   | MA     | -            | T touch   | 1 rnd     | 0         | -        | -         | 1 CP/rnd |
+| Hut    | MA+OTA | 5ft/CP       | C 5ft/CP  | 1 min/CP  | 0         | 10ft/lvl | 1 CP/5ft  | 1 CP/min |
+| Pole   | MA     | -            | S 10ft/CP | 1 rnd     | 0         | -        | -         | 1 CP/rnd |
+| Shield | MA     | broad shield | T touch   | 1 min/CP  | 0         | 10ft/lvl | 1 CP/10ft | 1 CP/min |
+| Tunnel | MA     | 5ft/CP       | C 5ft/CP  | 1 min/CP  | 80ft/CP   | 10ft/lvl | no        | 1 CP/min |
 
 <!-- .caption -->
 **MA**: main action, **OTA**: on turn action,
