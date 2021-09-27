@@ -177,7 +177,7 @@ Monetary exchange is at its worse but people and organizations are still in the 
 ## melee weapons
 
 <!-- .weapons.melee -->
-| Name             | Attribute | Damage | Shk/AC<= | Flags    | Value | Value d |
+| Name             | Attribute | Damage | Shk / AC≤ | Flags    | Value | Value d |
 |------------------|:---------:|:------:|:-------:|:--------:|----:|-----:|
 | Axe              | STR/DEX   |  1d6   | 2 / 15  | T        |  6s |  72d |
 | Axe, war         | STR       | 1d10   | 3 / 15  | 2H       |  9s | 108d |

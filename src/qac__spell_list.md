@@ -12,6 +12,7 @@
 
 <!-- vvv -->
 
+
 <!-- <div.spell> -->
 
 ## Amber Arrow ~~11~~
@@ -36,7 +37,7 @@ Can be used to ignite easily flammable objects.
 * **Dia** 1ft/CP
 * **Dur** 1 rnd/CP
 * **Spd** 30ft/CP
-* **Ctl** <= 10ft/lvl
+* **Ctl** ≤ 10ft/lvl
 * **Mov** 1 CP/5ft
 * **Prol** 1 CP/rnd
 
@@ -53,7 +54,7 @@ Some people are not very good at boiling water, it seems they never did it. Mayb
 * **Rng** T touch
 * **Dia** broad shield
 * **Dur** 1 min/CP
-* **Ctl** <= 10ft/lvl
+* **Ctl** ≤ 10ft/lvl
 * **Mov** 1 CP/10ft
 * **Prol** 1 CP/min
 
@@ -74,7 +75,7 @@ Missiles and polearm ends are not stopped by the shield.
 * **Rng** M 30ft/CP
 * **Dia** 1ft/CP
 * **Dur** 10 min/CP
-* **Ctl** <= 10ft/lvl
+* **Ctl** ≤ 10ft/lvl
 * **Mov** 1 CP/5ft
 * **Prol** 1 CP/min
 
@@ -91,7 +92,7 @@ Applied around a creature or part of it may inflict (1d2 + _élan_) damage per r
 * **Rng** S 10ft/CP
 * **Dia** 5ft/CP
 * **Dur** 10 min/CP
-* **Ctl** <= 10ft/lvl
+* **Ctl** ≤ 10ft/lvl
 * **Mov** 1 CP/5ft
 * **Prol** 1 CP/min
 
@@ -188,15 +189,15 @@ Takes (1d10 + _élan_) HPs per round to the single target. Silver threads block 
 * **Rng** T touch
 * **Dia** broad shield
 * **Dur** 1 min/CP
-* **Ctl** <= 10ft/lvl
+* **Ctl** ≤ 10ft/lvl
 * **Mov** 1 CP/10ft
 * **Prol** 1 CP/min
 
 A lens of pain, inflicting damage upon traversal.
 
-A shield of pain with (1d6 + _élan_) * CP "hit points". A creature attempting to cross the shield takes 1d6 damage. Those points are removed from the shield hit points. When the shield reaches zero points, it vanishes.
+A shield of pain with (1d6 + _élan_) × CP "hit points". A creature attempting to cross the shield takes 1d6 damage. Those points are removed from the shield hit points. When the shield reaches zero points, it vanishes.
 
-As a main action, the caster of the coal shield, may consume CPs to "mend" the shield, again (1d6 + _élan_) * CP.
+As a main action, the caster of the coal shield, may consume CPs to "mend" the shield, again (1d6 + _élan_) × CP.
 
 <!-- </div> -->
 
@@ -207,7 +208,7 @@ As a main action, the caster of the coal shield, may consume CPs to "mend" the s
 * **Rng** S 10ft/CP
 * **Dia** 5ft/CP
 * **Dur** 10 min/CP
-* **Ctl** <= 10ft/lvl
+* **Ctl** ≤ 10ft/lvl
 * **Mov** 1 CP/5ft
 * **Prol** 1 CP/min
 
@@ -215,7 +216,7 @@ Copper platform.
 
 A solid disk of copper threads hangs in the air where the caster wove it.
 
-Supports up to (`Cast` + 2) * 100kg.
+Supports up to (`Cast` + 2) × 100kg.
 
 <!-- </div> -->
 
@@ -226,7 +227,7 @@ Supports up to (`Cast` + 2) * 100kg.
 * **Rng** M 30ft/CP
 * **Dia** 1ft/CP
 * **Dur** 10 min/CP
-* **Ctl** <= 10ft/lvl
+* **Ctl** ≤ 10ft/lvl
 * **Mov** 1 CP/5ft
 * **Prol** 1 CP/min
 
@@ -293,7 +294,7 @@ Can be prolonged for free with a main action and a successful DC 6 skill check, 
 * **Rng** T touch
 * **Dia** broad shield
 * **Dur** 1 min/CP
-* **Ctl** <= 10ft/lvl
+* **Ctl** ≤ 10ft/lvl
 * **Mov** 1 CP/10ft
 * **Prol** 1 CP/min
 
@@ -315,7 +316,7 @@ For one extra CP, the shield can be used as a spotlight, a light emitting shield
 * **Dia** 1ft/CP
 * **Dur** 1 rnd/CP
 * **Spd** 30ft/CP
-* **Ctl** <= 10ft/lvl
+* **Ctl** ≤ 10ft/lvl
 * **Mov** 1 CP/5ft
 * **Prol** 1 CP/rnd
 
@@ -334,7 +335,7 @@ More static uses of the ball are common, to simply prevent light/vision from cro
 * **Rng** S 10ft/CP
 * **Dia** 5ft/CP
 * **Dur** 10 min/CP
-* **Ctl** <= 10ft/lvl
+* **Ctl** ≤ 10ft/lvl
 * **Mov** 1 CP/5ft
 * **Prol** 1 CP/min
 
@@ -353,7 +354,7 @@ It just looks like a pool of darkness.
 * **Rng** C 5ft/CP
 * **Dia** 5ft/CP
 * **Dur** 1 min/CP
-* **Ctl** <= 10ft/lvl
+* **Ctl** ≤ 10ft/lvl
 * **Mov** 1 CP/5ft
 * **Prol** 1 CP/min
 
@@ -373,7 +374,7 @@ Loose night threads woven in the form of a hut absorb light. Anything goes thoug
 * **Dia** 1ft/CP
 * **Dur** 1 rnd/CP
 * **Spd** 30ft/CP
-* **Ctl** <= 10ft/lvl
+* **Ctl** ≤ 10ft/lvl
 * **Mov** 1 CP/5ft
 * **Prol** 1 CP/rnd
 
@@ -438,7 +439,7 @@ By consuming 1 extra CP, all the threads (quartz and others) are revealed to oth
 * **Rng** S 10ft/CP
 * **Dia** 5ft/CP
 * **Dur** 10 min/CP
-* **Ctl** <= 10ft/lvl
+* **Ctl** ≤ 10ft/lvl
 * **Mov** 1 CP/5ft
 * **Prol** 1 CP/min
 
@@ -494,7 +495,7 @@ Silver threads do stop the red flail.
 
 Hit point draining arrows, can be harvested if recovered.
 
-The scarlet thread arrow fires from the caster's hand, it goes through its target and drains (1d8 + _élan_) HPs from it. The arrow flies then for damage * 10 feet and drops on the floor. It will dissolve after damage * 2 rounds.
+The scarlet thread arrow fires from the caster's hand, it goes through its target and drains (1d8 + _élan_) HPs from it. The arrow flies then for damage × 10 feet and drops on the floor. It will dissolve after damage × 2 rounds.
 
 Should the arrow fall into water, it dissolves twice faster.
 
@@ -509,7 +510,7 @@ Remember only the caster sees their own thread, but should a caster pick up the 
 * **Rng** S 10ft/CP
 * **Dia** 5ft/CP
 * **Dur** 10 min/CP
-* **Ctl** <= 10ft/lvl
+* **Ctl** ≤ 10ft/lvl
 * **Mov** 1 CP/5ft
 * **Prol** 1 CP/min
 
@@ -573,7 +574,7 @@ The target loses 1d6 + _élan_ HPs which are turned to CPs and added to the cast
 * **Dia** 1ft/CP
 * **Dur** 1 rnd/CP
 * **Spd** 30ft/CP
-* **Ctl** <= 10ft/lvl
+* **Ctl** ≤ 10ft/lvl
 * **Mov** 1 CP/5ft
 * **Prol** 1 CP/rnd
 
@@ -594,7 +595,7 @@ Remember, may not be prolonged if out of prolongation reach.
 * **Rng** M 30ft/CP
 * **Dia** 1ft/CP
 * **Dur** 10 min/CP
-* **Ctl** <= 10ft/lvl
+* **Ctl** ≤ 10ft/lvl
 * **Mov** 1 CP/5ft
 * **Prol** 1 CP/min
 
@@ -631,13 +632,13 @@ Can be used as a "caster duck tape".
 * **Rng** C 5ft/CP
 * **Dia** 5ft/CP
 * **Dur** 1 min/CP
-* **Ctl** <= 10ft/lvl
+* **Ctl** ≤ 10ft/lvl
 * **Mov** 1 CP/5ft
 * **Prol** 1 CP/min
 
 Weaves a thread fence into a hut shape.
 
-The hut has (1d8 + _élan_) * CP hit points. As long as the hut has HPs it protects completely its content.
+The hut has (1d8 + _élan_) × CP hit points. As long as the hut has HPs it protects completely its content.
 
 By paying 1 CP (and an instant action), the caster adds (1d8 + _élan_) HPs to the hut.
 
@@ -678,7 +679,7 @@ Gives back (1d6 + _élan_) HPs to the targetted creature or stabilizes it (back 
 * **Rng** C 5ft/CP
 * **Dia** 5ft/CP
 * **Dur** 1 min/CP
-* **Ctl** <= 10ft/lvl
+* **Ctl** ≤ 10ft/lvl
 * **Mov** 1 CP/5ft
 * **Prol** 1 CP/min
 
