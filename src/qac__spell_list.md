@@ -210,6 +210,26 @@ As a main action, the caster of the coal shield, may consume CPs to "mend" the s
 
 <!-- <div.spell> -->
 
+## Copper Disk
+
+* **Cst** main action
+* **Rng** S 10ft/CP
+* **Dia** 5ft/CP
+* **Dur** 10 min/CP
+* **Ctl** <= 10ft/lvl
+* **Mov** 1 CP/5ft
+* **Prol** 1 CP/min
+
+Copper platform.
+
+A solid disk of copper threads hangs in the air where the caster wove it.
+
+Supports up to (`Cast` + 2) * 100kg.
+
+<!-- </div> -->
+
+<!-- <div.spell> -->
+
 ## Gold Crown
 
 * **Cst** main action
@@ -239,9 +259,9 @@ By default, it is static. For 1 extra CP, it can be threaded so that it follows 
 
 Flashing hand.
 
-The caster shows their hand and the gold thread they've just weaved flashes in their palm.
+The caster weaves golden light threads in his hand.
 
-Creatures in front of the hand are blinded (unless they looked the other direction or had their eyes closed). Blinded creatures have -2 to their AC and -2 to their hit and skill rolls while blind. As an On Turn Action, they may shake off their blindness with a successful _Evasion_ save roll.
+Creatures in front of the hand are blinded (unless they looked the other way or had their eyes closed). Blinded creatures have -2 to their AC and -2 to their hit and skill rolls while blind. As an On Turn Action, they may shake off their blindness with a successful _Mental_ save roll.
 
 Cannot prolong.
 
@@ -258,9 +278,7 @@ Cannot prolong.
 
 Caster scope.
 
-2 feet taller than its caster, the pole gathers light at one tip transmitting it to the other tip.
-
-Can be used as a sort of periscope, to look unnoticed through straw or foliage. Remember the pole is invisible to most creatures.
+2 feet taller than its caster, the pole gathers light at one tip transmitting it to the other tip. Can be used as a sort of periscope, to look unnoticed through straw or foliage. Remember the pole is invisible to most creatures.
 
 A caster with `Cast` 1 or better may control the flow of light turning the pole into a microsope or a telescope.
 
@@ -269,6 +287,16 @@ The caster may consume 1 CP to bend the pole, bow-like, but it won't turn into a
 Can be prolonged for free with a main action and a successful DC 6 skill check, same attribute modifier as used when weaving.
 
 <!-- </div> -->
+
+
+<!-- PAGE BREAK spell_list -->
+
+<!-- .margin.compass -->
+* _Playing a Caster_
+* Spellcasting
+* Spell types
+* **Spell list**
+
 
 <!-- <div.spell> -->
 
@@ -291,16 +319,6 @@ The caster may decide to simply use it as a mirror. All the the light going thro
 For one extra CP, the shield can be used as a spotlight, a light emitting shield suspended mid air.
 
 <!-- </div> -->
-
-
-<!-- PAGE BREAK spell_list -->
-
-<!-- .margin.compass -->
-* _Playing a Caster_
-* Spellcasting
-* Spell types
-* **Spell list**
-
 
 <!-- <div.spell> -->
 
@@ -380,7 +398,7 @@ Magic revealing floating ball.
 
 A reveal ball, within its radius, a thread outlines threads left by other casters. The colours of those threads is revealed. Only the threads within the radius of the ball are outlined by the quartz thread.
 
-By consuming 1 extra CP, all the threads (quartz and others) are revealed to other casters. Non casters must succeed a DC 8 `WIS` / `Cast` skill check to see. The GM may decide that some characters or creatures are thread blind and simply cannot see.
+By consuming 1 extra CP, all the threads (quartz and others) are revealed to other casters. Non casters must succeed a DC 8 `WIS` / `Cast` skill check to see. The referee may decide that some characters or creatures are thread blind and simply cannot see.
 
 The ball might be quite smaller than the form of the thread it reveals. Blind man and elephant situation.
 
@@ -397,13 +415,23 @@ The ball might be quite smaller than the form of the thread it reveals. Blind ma
 
 Thread breaking thread flail.
 
-Should the flail threads collide with any other thread weave, the flail might unweave the target. The successful spellcasting score + the CP against an `INT` / `Cast` skill roll for the original caster (GM, please use 13 by default).
+Should the flail threads collide with any other thread weave, the flail might unweave the target. The successful spellcasting score + the CP against an `INT` / `Cast` skill roll for the original caster (referee, please use 13 by default).
 
 The flail only collides once.
 
 An unlucky caster might flail uselessly at nothing, wasting CPs.
 
 <!-- </div> -->
+
+
+<!-- PAGE BREAK spell_list -->
+
+<!-- .margin.compass -->
+* _Playing a Caster_
+* Spellcasting
+* Spell types
+* **Spell list**
+
 
 <!-- <div.spell> -->
 
@@ -418,19 +446,9 @@ Thread probing pole.
 
 The pole is woven in the caster's hands, it can be used to probe for threads. It feels like holding a bamboo pole.
 
-By consuming 1 extra CP, all the threads (quartz and others) are revealed to other casters. Non casters must succeed a DC 8 `WIS` / `Cast` skill check to see. The GM may decide that some characters or creatures are thread blind and simply cannot see.
+By consuming 1 extra CP, all the threads (quartz and others) are revealed to other casters. Non casters must succeed a DC 8 `WIS` / `Cast` skill check to see. The referee may decide that some characters or creatures are thread blind and simply cannot see.
 
 <!-- </div> -->
-
-
-<!-- PAGE BREAK spell_list -->
-
-<!-- .margin.compass -->
-* _Playing a Caster_
-* Spellcasting
-* Spell types
-* **Spell list**
-
 
 <!-- <div.spell> -->
 
@@ -482,7 +500,7 @@ Might deal (1 + _élan_) damage points to a target.
 
 Flail of fire.
 
-Inflicts (1d6 + _élan_) damage points. There must a direct way between the caster and their target. May put the target on fire, at the GM discretion.
+Inflicts (1d6 + _élan_) damage points. There must a direct way between the caster and their target. May put the target on fire, at the referee discretion.
 
 Silver threads do stop the red flail.
 

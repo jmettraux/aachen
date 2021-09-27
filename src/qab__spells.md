@@ -15,6 +15,9 @@ Amber
 Coal
 : Damage
 
+Copper
+: Earth
+
 Blue
 : Cold
 
