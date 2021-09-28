@@ -658,58 +658,49 @@ table.social-class th:nth-child(1) {
   margin-bottom: 1rem;
 }
 
-[data-aa-title="traits"] dl {
-  display: block;
-  margin-top: 0;
-  margin-left: 0.5rem;
+
+[data-aa-title="traits"] .text-block {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+}
+[data-aa-title="traits"] .text-block > * {
+  width: calc((var(--tblock-width) - 1rem) / 2);
+}
+[data-aa-title="traits"] .trait {
   font-size: var(--size-b);
-  line-height: var(--mul-b);
 }
-[data-aa-title="traits"] p + dl {
-  margin-top: 1.5rem;
-}
-[data-aa-title="traits"] dt {
-  display: inline-block;
-  /*padding-top: 0.25rem;*/
-  padding-right:0;
-  float: none;
-  text-align: left;
-  font-variant: small-caps;
-  font-weight: 500;
-  text-transform: lowercase;
+[data-aa-title="traits"] .trait h3 {
   font-size: var(--size-a);
-  text-indent: -0.5rem;
+  margin-top: 0;
+  font-weight: normal;
+  font-variant: small-caps;
+  text-transform: lowercase;
 }
-[data-aa-title="traits"] dt:after {
-  content: '';
-  padding-right: 0;
+[data-aa-title="traits"] .trait h3 strong {
+  font-size: var(--size-b);
+  font-weight: normal;
+  font-variant: normal;
+  color: #c0c0c0;
 }
-[data-aa-title="traits"] dd:before {
+[data-aa-title="traits"] .trait h3 strong:before {
   content: '·';
-  font-weight: 900;
-  color: red;
+  padding-right: 0.3rem;
 }
-[data-aa-title="traits"] dt + dd + dd:before {
+[data-aa-title="traits"] .trait ul {
+  margin-top: 0;
+  padding-inline-start: 0;
+}
+[data-aa-title="traits"] .trait li {
+  list-style: none;
+}
+[data-aa-title="traits"] .trait li:before {
+  content: '·';
+  padding-right: 0.3rem;
+}
+[data-aa-title="traits"] .trait li + li:before {
   content: '··';
-}
-[data-aa-title="traits"] dd {
-  display: inline;
-}
-[data-aa-title="traits"] dt + dd + dd {
-  display: block;
-  text-indent: -0.5rem;
-}
-[data-aa-title="traits"] dt + dd:after {
-  content: '';
-  display: block;
-}
-[data-aa-title="traits"] dt + dd + dd:after {
-  content: '';
-  display: block;
-  /*margin-bottom: 0.5rem;*/
-}
-[data-aa-title="traits"] dd.last-dd {
-  margin-bottom: 0.33rem;
 }
 
 [data-aa-title="skill2"] h1:not(:first-child) {

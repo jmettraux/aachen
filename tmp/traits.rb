@@ -125,7 +125,18 @@ traits
   .sort_by { |a| a.first.gsub(/[^a-zA-Z]/, '') }
   .each { |a|
     number = increase(number, [ 4, 6 ])
-    puts "**#{number}** #{a.first}"
-    puts a[1..-1]
+    puts '<!-- <div.trait> -->'
+    puts
+    #puts "### **#{number}** #{a.first}"
+    puts "### #{a.first} **#{number}**"
+    a[1..-1].each { |e|
+      if e.match?(/^: /)
+        puts "* #{e[2..-1]}"
+      else
+        puts if e.match?(/^\[/)
+        puts e
+      end }
+    puts
+    puts '<!-- </div> -->'
     puts }
 

@@ -10,118 +10,195 @@
 * Equipment
 
 
-<!-- <div.two-columns> -->
-<!-- <div.left-column> -->
-
 # Select Traits
 
 A talent is a qualifier, for example a character might be `Lucky`. A talent may be select two times, simply prefix the character with _very_, our character becomes `Very Lucky`.
 
 The talent descriptions have thus two lines, one for the _normal_ gift, and one for the _very_ version of it.
 
-~~FIXME~~
+~~FIXME d4d6~~
 
 
-Firm
-: +1 on _Physical_ saves
-: Advantage on _Physical_ saves
 
-Evasive
-: +1 on _Evasion_ saves
-: Advantage on _Evasion_ saves
+<!-- <div.trait> -->
 
-Wise
-: +1 on _Mental_ saves
-: Advantage on _Mental_ saves
+### Artful **11**
+* TODO
+* TODO
 
-Lucky
-: +1 on _Luck_ saves
-: Advantage on _Luck_ saves
+<!-- </div> -->
 
-Swerving
-: Once per scene, as an instant action, a successful attack against the character can be negated
-: As per · or a missed attack by the character can be made to succeed
+<!-- <div.trait> -->
 
-~~Intricate~~[^1]
-: May cast spells,<br/>CP = char level × ~~CP factor~~
-: May cast spells,<br/>CP = char level + (char level × ~~CP factor~~)
+### Deceitful **12**
+* Once per scene, as an instant action, a missed _Sneak_ or _Convince_ check can be turned into a success
+* As per · and the character has a +1 on _Sneak_ and _Convince_ checks aimed at deception
 
-Skillful
-: Once per scene, as an instant action, a missed non-combat skill check can be turned into a success
-: As per · and the character has a +1 on checks for known skills (level 0 or better)
+<!-- </div> -->
 
-Deceitful
-: Once per scene, as an instant action, a missed _Sneak_ or _Convince_ check can be turned into a success
-: As per · and the character has a +1 on _Sneak_ and _Convince_ checks aimed at deception
+<!-- <div.trait> -->
 
-Scheming
-: Each combat turn,  may exchange their initiative rank with someone in the party
-: Each combat turn,  may reshuffle the initiative ranks of the party
+### Evasive **13**
+* +1 on _Evasion_ saves
+* Advantage on _Evasion_ saves
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
+### Firm **14**
+* +1 on _Physical_ saves
+* Advantage on _Physical_ saves
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
+### ~~Intricate~~[^1] **15**
+* May cast spells,<br/>CP = char level × ~~CP factor~~
+* May cast spells,<br/>CP = char level + (char level × ~~CP factor~~)
 
 [^1]:
   Better prevent non-`caster`s from taking `INTRICATE`, at least not at level 1 and not if there is no mentor around.
 
-<!-- </div.left-column> -->
-<!-- <div.right-column> -->
+<!-- </div> -->
 
-Artful
-: TODO
-: TODO
+<!-- <div.trait> -->
 
-Sharp
-: TODO
-: TODO
+### Lucky **16**
+* +1 on _Luck_ saves
+* Advantage on _Luck_ saves
 
-Vigorous
-: TODO
-: TODO
+<!-- </div> -->
 
-Watchful
-: TODO
-: TODO
+<!-- <div.trait> -->
 
-Hardy 1
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+### Scheming **21**
+* Each combat turn,  may exchange their initiative rank with someone in the party
+* Each combat turn,  may reshuffle the initiative ranks of the party
 
-Hardy 2
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+<!-- </div> -->
 
-Hardy 3
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+<!-- <div.trait> -->
 
-Hardy 4
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+### Sharp **22**
+* TODO
+* TODO
 
-Hardy 5
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+<!-- </div> -->
 
-Hardy 6
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+<!-- <div.trait> -->
 
-Hardy 7
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+### Skillful **23**
+* Once per scene, as an instant action, a missed non-combat skill check can be turned into a success
+* As per · and the character has a +1 on checks for known skills (level 0 or better)
 
-Hardy 8
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+<!-- </div> -->
 
-Hardy 9
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+<!-- <div.trait> -->
 
-Hardy 10
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
-: Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+### Swerving **24**
+* Once per scene, as an instant action, a successful attack against the character can be negated
+* As per · or a missed attack by the character can be made to succeed
 
-<!-- </div.right-column> -->
-<!-- </div.two-columns> -->
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
+### Vigorous **25**
+* TODO
+* TODO
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
+### Watchful **26**
+* TODO
+* TODO
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
+### Wise **31**
+* +1 on _Mental_ saves
+* Advantage on _Mental_ saves
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
+### Zealous 4 **32**
+* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
+### Zealous 2 **33**
+* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
+### Zealous 3 **34**
+* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
+### Zealous 1 **35**
+* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
+### Zealous 5 **36**
+* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
+### Zealous 6 **41**
+* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
+### Zealous 7 **42**
+* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
+### Zealous 8 **43**
+* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
+### Zealous 9 **44**
+* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+
+<!-- </div> -->
+
 
 
 <!-- PAGE BREAK traits -->
