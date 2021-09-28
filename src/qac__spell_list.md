@@ -384,8 +384,6 @@ A caster with `Cast` 1 or better may control the flow of light turning the pole 
 
 The caster may consume 1 CP to bend the pole, bow-like, but it won't turn into an endoscope.
 
-Can be prolonged for free with a main action and a successful DC 6 skill check, same attribute modifier as used when weaving.
-
 <!-- </div> -->
 
 <!-- <div.spell> -->
@@ -402,11 +400,9 @@ Can be prolonged for free with a main action and a successful DC 6 skill check, 
 
 Image alteration shield.
 
-This shield is sometimes called the "past window". The image seen through it is the same as the image that passed at the moment it was weaved. It can thus be used for some invisibility trick. The problem is that it works both ways, the other side looks like what it was at weaving time and vice versa. You can move behind the shield, but looking through it won't tell you much about the current situation there.
+This shield is sometimes called the "past window". The image seen through it is the same as the image that passed at the moment it was weaved. It can thus be used for some invisibility tricks. But it works both ways, the other side looks like what it was at weaving time and vice versa. You can move behind the shield, but looking through it won't tell you much about the current situation there.
 
 The caster may decide to simply use it as a mirror. All the the light going through it is reflected. Both sides.
-
-For one extra CP, the shield can be used as a spotlight, a light emitting shield suspended mid air.
 
 <!-- </div> -->
 
@@ -451,16 +447,6 @@ It just looks like a pool of darkness.
 
 <!-- </div> -->
 
-
-<!-- PAGE BREAK spell_list -->
-
-<!-- .margin.compass -->
-* _Playing a Caster_
-* Spellcasting
-* Spell types
-* **Spell list**
-
-
 <!-- <div.spell> -->
 
 ## Night Hut ~~37~~
@@ -498,6 +484,16 @@ Vertical disk of darkness.
 Casters use it to conceal their actions or simply their escape. Anything goes through, except light.
 
 <!-- </div> -->
+
+
+<!-- PAGE BREAK spell_list -->
+
+<!-- .margin.compass -->
+* _Playing a Caster_
+* Spellcasting
+* Spell types
+* **Spell list**
+
 
 <!-- <div.spell> -->
 
@@ -596,16 +592,6 @@ Inflicts (1d4 + _élan_) per round damage points (min 1) to creatures exposed to
 
 <!-- </div> -->
 
-
-<!-- PAGE BREAK spell_list -->
-
-<!-- .margin.compass -->
-* _Playing a Caster_
-* Spellcasting
-* Spell types
-* **Spell list**
-
-
 <!-- <div.spell> -->
 
 ## Red Finger ~~46~~
@@ -641,6 +627,16 @@ Inflicts (1d6 + _élan_) damage points (min 1). There must a direct way between 
 Silver threads do stop the red flail.
 
 <!-- </div> -->
+
+
+<!-- PAGE BREAK spell_list -->
+
+<!-- .margin.compass -->
+* _Playing a Caster_
+* Spellcasting
+* Spell types
+* **Spell list**
+
 
 <!-- <div.spell> -->
 
@@ -716,16 +712,6 @@ The referee might grant a saving throw to the victim.
 
 <!-- </div> -->
 
-
-<!-- PAGE BREAK spell_list -->
-
-<!-- .margin.compass -->
-* _Playing a Caster_
-* Spellcasting
-* Spell types
-* **Spell list**
-
-
 <!-- <div.spell> -->
 
 ## Scarlet Hand ~~54~~
@@ -787,6 +773,16 @@ The caster weaves a ring of silver threads around something. Some pranksters lik
 May also be used to to protect things from impact, but it's a crown or a donut, not a ball.
 
 <!-- </div> -->
+
+
+<!-- PAGE BREAK spell_list -->
+
+<!-- .margin.compass -->
+* _Playing a Caster_
+* Spellcasting
+* Spell types
+* **Spell list**
+
 
 <!-- <div.spell> -->
 
@@ -874,16 +870,6 @@ Stabilization hut.
 Mortally wounded creatures in the hut stabilize (as per rules, they reach 1 HP after 10 minutes of rest).
 
 <!-- </div> -->
-
-
-<!-- PAGE BREAK spell_list -->
-
-<!-- .margin.compass -->
-* _Playing a Caster_
-* Spellcasting
-* Spell types
-* **Spell list**
-
 
 <!-- <div.spell> -->
 
