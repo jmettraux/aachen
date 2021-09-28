@@ -141,7 +141,7 @@ The finger can also be used to stop ongoing heat/burning damage.
 
 Fires an arrow of weaving pain at a single target.
 
-CP 1 → 1d4 + _élan_ | CP 2 → 1d6 + _élan_ | CP >= 3 → 1d8 + _élan_ | at least 1 oint of damage
+CP 1 → 1d4 + _élan_ | CP 2 → 1d6 + _élan_ | CP >= 3 → 1d8 + _élan_ | at least 1 point of damage
 
 The arrow is invisible and may avoid allies and non-targets in a complex and curved flight.
 
@@ -253,7 +253,22 @@ Supports up to (`Cast` + 2) × 100kg.
 
 <!-- <div.spell> -->
 
-## Copper Pole ~~25~~
+## Copper Hand ~~25~~
+
+* **Cst** main action
+* **Rng** T touch
+* **Dur** 1 rnd
+* **Prol** 1 CP/rnd
+
+Caster glove.
+
+Copper threads are woven inside of the palm or on the external side of the hand. Can be used as a cup or to deliver a blow (1d6 + _élan_) damage points (min 1).
+
+<!-- </div> -->
+
+<!-- <div.spell> -->
+
+## Copper Pole ~~26~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -270,7 +285,7 @@ Supports up to (`Cast` + 1) × 100kg.
 
 <!-- <div.spell> -->
 
-## Gold Crown ~~26~~
+## Gold Crown ~~27~~
 
 * **Cst** main action
 * **Rng** M 30ft/CP
@@ -290,7 +305,7 @@ By default, it is static. For 1 extra CP, it can be threaded so that it follows 
 
 <!-- <div.spell> -->
 
-## Gold Hand ~~27~~
+## Gold Hand ~~28~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -318,7 +333,7 @@ Cannot prolong.
 
 <!-- <div.spell> -->
 
-## Gold Pole ~~28~~
+## Gold Pole ~~31~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -339,7 +354,7 @@ Can be prolonged for free with a main action and a successful DC 6 skill check, 
 
 <!-- <div.spell> -->
 
-## Gold Shield ~~31~~
+## Gold Shield ~~32~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -361,7 +376,7 @@ For one extra CP, the shield can be used as a spotlight, a light emitting shield
 
 <!-- <div.spell> -->
 
-## Night Ball ~~32~~
+## Night Ball ~~33~~
 
 * **Cst** main action
 * **Rng** M 30ft/CP
@@ -382,7 +397,7 @@ More static uses of the ball are common, to simply prevent light/vision from cro
 
 <!-- <div.spell> -->
 
-## Night Disk ~~33~~
+## Night Disk ~~34~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -402,7 +417,7 @@ It just looks like a pool of darkness.
 
 <!-- <div.spell> -->
 
-## Night Hut ~~34~~
+## Night Hut ~~35~~
 
 * **Cst** 1 main action, then 1 on turn action
 * **Rng** C 5ft/CP
@@ -414,9 +429,27 @@ It just looks like a pool of darkness.
 
 Chamber of obscurity, no light comes in or out.
 
-Loose night threads woven in the form of a hut absorb light. Anything goes though except light.
+Loose night threads woven in the form of a hut absorb light. Anything goes through except light.
 
 (It's practical for casters that are into film photography).
+
+<!-- </div> -->
+
+<!-- <div.spell> -->
+
+## Night Shield ~~36~~
+
+* **Cst** main action
+* **Rng** T touch
+* **Dia** broad shield
+* **Dur** 1 min/CP
+* **Ctl** ≤ 10ft/lvl
+* **Mov** 1 CP/10ft
+* **Prol** 1 CP/min
+
+Vertical disk of darkness.
+
+Casters use it to conceal their actions or simply their escape. Anything goes through, except light.
 
 <!-- </div> -->
 
@@ -432,7 +465,7 @@ Loose night threads woven in the form of a hut absorb light. Anything goes thoug
 
 <!-- <div.spell> -->
 
-## Quartz Ball ~~35~~
+## Quartz Ball ~~37~~
 
 * **Cst** main action
 * **Rng** M 30ft/CP
@@ -455,7 +488,7 @@ The ball might be quite smaller than the form of the thread it reveals. Blind ma
 
 <!-- <div.spell> -->
 
-## Quartz Flail ~~36~~
+## Quartz Flail ~~38~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -474,7 +507,7 @@ An unlucky caster might flail uselessly at nothing, wasting CPs.
 
 <!-- <div.spell> -->
 
-## Quartz Pole ~~37~~
+## Quartz Pole ~~41~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -491,7 +524,7 @@ By consuming 1 extra CP, all the threads (quartz and others) are revealed to oth
 
 <!-- <div.spell> -->
 
-## Red Disk ~~38~~
+## Red Disk ~~42~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -511,7 +544,7 @@ Inflicts (1d4 + _élan_) per round damage points (min 1) to creatures exposed to
 
 <!-- <div.spell> -->
 
-## Red Finger ~~41~~
+## Red Finger ~~43~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -530,7 +563,7 @@ Might deal (1 + _élan_) damage points (min 1) to a target.
 
 <!-- <div.spell> -->
 
-## Red Flail ~~42~~
+## Red Flail ~~44~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -557,7 +590,7 @@ Silver threads do stop the red flail.
 
 <!-- <div.spell> -->
 
-## Scarlet Arrow ~~43~~
+## Scarlet Arrow ~~45~~
 
 * **Cst** main action
 * **Rng** L 80ft/CP
@@ -576,7 +609,7 @@ Remember only the caster sees their own thread, but should a caster pick up the 
 
 <!-- <div.spell> -->
 
-## Scarlet Disk ~~44~~
+## Scarlet Disk ~~46~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -596,7 +629,7 @@ Creatures victim of the disk understand the magic nature of their loss if they s
 
 <!-- <div.spell> -->
 
-## Scarlet Finger ~~45~~
+## Scarlet Finger ~~47~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -613,7 +646,7 @@ The referee might grant a saving throw to the victim.
 
 <!-- <div.spell> -->
 
-## Scarlet Hand ~~46~~
+## Scarlet Hand ~~48~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -632,7 +665,7 @@ The target loses (1d6 + _élan_) HPs (min 1) which are turned to CPs and added t
 
 <!-- <div.spell> -->
 
-## Silver Ball ~~47~~
+## Silver Ball ~~51~~
 
 * **Cst** main action
 * **Rng** M 30ft/CP
@@ -655,7 +688,7 @@ Remember, may not be prolonged if out of prolongation reach.
 
 <!-- <div.spell> -->
 
-## Silver Crown ~~48~~
+## Silver Crown ~~52~~
 
 * **Cst** main action
 * **Rng** M 30ft/CP
@@ -685,7 +718,7 @@ May also be used to to protect things from impact, but it's a crown or a donut, 
 
 <!-- <div.spell> -->
 
-## Silver Hand ~~51~~
+## Silver Hand ~~53~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -704,7 +737,7 @@ Can be used as a "caster duck tape".
 
 <!-- <div.spell> -->
 
-## Silver Hut ~~52~~
+## Silver Hut ~~54~~
 
 * **Cst** 1 main action, then 1 on turn action
 * **Rng** C 5ft/CP
@@ -724,7 +757,7 @@ By paying 1 CP (and an instant action), the caster adds (1d8 + _élan_) HPs (min
 
 <!-- <div.spell> -->
 
-## Turquoise Arrow ~~53~~
+## Turquoise Arrow ~~55~~
 
 * **Cst** main action
 * **Rng** L 80ft/CP
@@ -739,7 +772,7 @@ Works from 15 feet on only. Grants (1d6 + _élan_) HPs (min 1) to the target. Do
 
 <!-- <div.spell> -->
 
-## Turquoise Hand ~~54~~
+## Turquoise Hand ~~56~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -754,7 +787,7 @@ Gives back (1d6 + _élan_) HPs (min 1) to the targetted creature or stabilizes i
 
 <!-- <div.spell> -->
 
-## Turquoise Hut ~~55~~
+## Turquoise Hut ~~57~~
 
 * **Cst** 1 main action, then 1 on turn action
 * **Rng** C 5ft/CP
@@ -772,7 +805,7 @@ Mortally wounded creatures in the hut stabilize (as per rules, they reach 1 HP a
 
 <!-- <div.spell> -->
 
-## Turquoise Pole ~~56~~
+## Turquoise Pole ~~58~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
