@@ -73,7 +73,25 @@ Missiles and polearm ends are not stopped by the shield.
 
 <!-- <div.spell> -->
 
-## Blue Crown ~~14~~[^1]
+## Amber Powder ~~14~~
+
+* **Cst** main action
+* **Rng** S 10ft/CP
+* **Dia** 5ft/CP
+* **Dur** 1 rnd/CP
+* **Spd** 30ft/CP
+* **Ctl** ≤ 10ft/lvl
+* **Prol** 1 CP/rnd
+
+Warmer.
+
+Warms up an area with fragments of heat threads. Some casters use it to warm up creatures that were exposed to intense cold.
+
+<!-- </div> -->
+
+<!-- <div.spell> -->
+
+## Blue Crown ~~15~~[^1]
 
 * **Cst** main action
 * **Rng** M 30ft/CP
@@ -91,7 +109,7 @@ Applied around a creature or part of it may inflict (1d2 + _élan_) damage per r
 
 <!-- <div.spell> -->
 
-## Blue Disk ~~15~~
+## Blue Disk ~~16~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -111,7 +129,7 @@ Depending on the context, a creature might slide on the disk and fall. A wet hai
 
 <!-- <div.spell> -->
 
-## Blue Finger ~~16~~
+## Blue Finger ~~17~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -132,7 +150,25 @@ The finger can also be used to stop ongoing heat/burning damage.
 
 <!-- <div.spell> -->
 
-## Coal Arrow ~~17~~
+## Blue Powder ~~18~~
+
+* **Cst** main action
+* **Rng** S 10ft/CP
+* **Dia** 5ft/CP
+* **Dur** 1 rnd/CP
+* **Spd** 30ft/CP
+* **Ctl** ≤ 10ft/lvl
+* **Prol** 1 CP/rnd
+
+Cooler cloud.
+
+Cools down an area.
+
+<!-- </div> -->
+
+<!-- <div.spell> -->
+
+## Coal Arrow ~~21~~
 
 * **Cst** main action
 * **Rng** L 80ft/CP
@@ -141,28 +177,11 @@ The finger can also be used to stop ongoing heat/burning damage.
 
 Fires an arrow of weaving pain at a single target.
 
-CP 1 → 1d4 + _élan_ | CP 2 → 1d6 + _élan_ | CP >= 3 → 1d8 + _élan_ | at least 1 point of damage
+CP 1 → 1d4 + _élan_ | CP 2 → 1d6 + _élan_ | CP ≥ 3 → 1d8 + _élan_ | at least 1 point of damage
 
 The arrow is invisible and may avoid allies and non-targets in a complex and curved flight.
 
 Silver threads do stop the coal arrow.
-
-<!-- </div> -->
-
-<!-- <div.spell> -->
-
-## Coal Flail ~~18~~
-
-* **Cst** main action
-* **Rng** S 10ft/CP
-* **Dur** 1 rnd
-* **Spd** 80ft/CP
-
-Flail of magical pain.
-
-Inflicts (1d6 + _élan_) damage points (min 1). There must a direct way between the caster and their target.
-
-Silver threads do stop the coal flail.
 
 <!-- </div> -->
 
@@ -178,7 +197,24 @@ Silver threads do stop the coal flail.
 
 <!-- <div.spell> -->
 
-## Coal Pole ~~21~~
+## Coal Flail ~~22~~
+
+* **Cst** main action
+* **Rng** S 10ft/CP
+* **Dur** 1 rnd
+* **Spd** 80ft/CP
+
+Flail of magical pain.
+
+Inflicts (1d6 + _élan_) damage points (min 1). There must a direct way between the caster and their target.
+
+Silver threads do stop the coal flail.
+
+<!-- </div> -->
+
+<!-- <div.spell> -->
+
+## Coal Pole ~~23~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -193,7 +229,7 @@ The single target loses (1d10 + _élan_) HPs per round (min 1). Silver threads b
 
 <!-- <div.spell> -->
 
-## Coal Shield ~~22~~
+## Coal Shield ~~24~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -213,7 +249,7 @@ As a main action, the caster of the coal shield, may consume CPs to "mend" the s
 
 <!-- <div.spell> -->
 
-## Copper Crown ~~23~~
+## Copper Crown ~~25~~
 
 * **Cst** main action
 * **Rng** M 30ft/CP
@@ -233,7 +269,7 @@ The referee may grant _Mental_ or _Physical_ save (minus the _élan_) to the tar
 
 <!-- <div.spell> -->
 
-## Copper Disk ~~24~~
+## Copper Disk ~~26~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -253,7 +289,7 @@ Supports up to (`Cast` + 2) × 100kg.
 
 <!-- <div.spell> -->
 
-## Copper Hand ~~25~~
+## Copper Hand ~~27~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -268,7 +304,7 @@ Copper threads are woven inside of the palm or on the external side of the hand.
 
 <!-- <div.spell> -->
 
-## Copper Pole ~~26~~
+## Copper Pole ~~28~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -285,7 +321,7 @@ Supports up to (`Cast` + 1) × 100kg.
 
 <!-- <div.spell> -->
 
-## Gold Crown ~~27~~
+## Gold Crown ~~31~~
 
 * **Cst** main action
 * **Rng** M 30ft/CP
@@ -303,9 +339,19 @@ By default, it is static. For 1 extra CP, it can be threaded so that it follows 
 
 <!-- </div> -->
 
+
+<!-- PAGE BREAK spell_list -->
+
+<!-- .margin.compass -->
+* _Playing a Caster_
+* Spellcasting
+* Spell types
+* **Spell list**
+
+
 <!-- <div.spell> -->
 
-## Gold Hand ~~28~~
+## Gold Hand ~~32~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -321,19 +367,9 @@ Cannot prolong.
 
 <!-- </div> -->
 
-
-<!-- PAGE BREAK spell_list -->
-
-<!-- .margin.compass -->
-* _Playing a Caster_
-* Spellcasting
-* Spell types
-* **Spell list**
-
-
 <!-- <div.spell> -->
 
-## Gold Pole ~~31~~
+## Gold Pole ~~33~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -354,7 +390,7 @@ Can be prolonged for free with a main action and a successful DC 6 skill check, 
 
 <!-- <div.spell> -->
 
-## Gold Shield ~~32~~
+## Gold Shield ~~34~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -376,7 +412,7 @@ For one extra CP, the shield can be used as a spotlight, a light emitting shield
 
 <!-- <div.spell> -->
 
-## Night Ball ~~33~~
+## Night Ball ~~35~~
 
 * **Cst** main action
 * **Rng** M 30ft/CP
@@ -397,7 +433,7 @@ More static uses of the ball are common, to simply prevent light/vision from cro
 
 <!-- <div.spell> -->
 
-## Night Disk ~~34~~
+## Night Disk ~~36~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -415,9 +451,19 @@ It just looks like a pool of darkness.
 
 <!-- </div> -->
 
+
+<!-- PAGE BREAK spell_list -->
+
+<!-- .margin.compass -->
+* _Playing a Caster_
+* Spellcasting
+* Spell types
+* **Spell list**
+
+
 <!-- <div.spell> -->
 
-## Night Hut ~~35~~
+## Night Hut ~~37~~
 
 * **Cst** 1 main action, then 1 on turn action
 * **Rng** C 5ft/CP
@@ -437,7 +483,7 @@ Loose night threads woven in the form of a hut absorb light. Anything goes throu
 
 <!-- <div.spell> -->
 
-## Night Shield ~~36~~
+## Night Shield ~~38~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -453,19 +499,9 @@ Casters use it to conceal their actions or simply their escape. Anything goes th
 
 <!-- </div> -->
 
-
-<!-- PAGE BREAK spell_list -->
-
-<!-- .margin.compass -->
-* _Playing a Caster_
-* Spellcasting
-* Spell types
-* **Spell list**
-
-
 <!-- <div.spell> -->
 
-## Quartz Ball ~~37~~
+## Quartz Ball ~~41~~
 
 * **Cst** main action
 * **Rng** M 30ft/CP
@@ -488,7 +524,7 @@ The ball might be quite smaller than the form of the thread it reveals. Blind ma
 
 <!-- <div.spell> -->
 
-## Quartz Flail ~~38~~
+## Quartz Flail ~~42~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -507,7 +543,7 @@ An unlucky caster might flail uselessly at nothing, wasting CPs.
 
 <!-- <div.spell> -->
 
-## Quartz Pole ~~41~~
+## Quartz Pole ~~43~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -524,7 +560,25 @@ By consuming 1 extra CP, all the threads (quartz and others) are revealed to oth
 
 <!-- <div.spell> -->
 
-## Red Disk ~~42~~
+## Quartz Powder ~~44~~
+
+* **Cst** main action
+* **Rng** S 10ft/CP
+* **Dia** 5ft/CP
+* **Dur** 1 rnd/CP
+* **Spd** 30ft/CP
+* **Ctl** ≤ 10ft/lvl
+* **Prol** 1 CP/rnd
+
+Fixation powder.
+
+Non-quartz threads within 5ft of the powder cloud are drawn in and become visible. The cloud might also be used to draw in thread arrows (as long as the cloud is maintained).
+
+<!-- </div> -->
+
+<!-- <div.spell> -->
+
+## Red Disk ~~45~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -542,9 +596,19 @@ Inflicts (1d4 + _élan_) per round damage points (min 1) to creatures exposed to
 
 <!-- </div> -->
 
+
+<!-- PAGE BREAK spell_list -->
+
+<!-- .margin.compass -->
+* _Playing a Caster_
+* Spellcasting
+* Spell types
+* **Spell list**
+
+
 <!-- <div.spell> -->
 
-## Red Finger ~~43~~
+## Red Finger ~~46~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -563,7 +627,7 @@ Might deal (1 + _élan_) damage points (min 1) to a target.
 
 <!-- <div.spell> -->
 
-## Red Flail ~~44~~
+## Red Flail ~~47~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -578,19 +642,27 @@ Silver threads do stop the red flail.
 
 <!-- </div> -->
 
+<!-- <div.spell> -->
 
-<!-- PAGE BREAK spell_list -->
+## Red Powder ~~48~~
 
-<!-- .margin.compass -->
-* _Playing a Caster_
-* Spellcasting
-* Spell types
-* **Spell list**
+* **Cst** main action
+* **Rng** S 10ft/CP
+* **Dia** 5ft/CP
+* **Dur** 1 rnd/CP
+* **Spd** 30ft/CP
+* **Ctl** ≤ 10ft/lvl
+* **Prol** 1 CP/rnd
 
+Fire bees.
+
+Creatures within the cloud are subject to tiny burn points. They are disadvantaged on all their actions. Creatures attacking them gain an advantage.
+
+<!-- </div> -->
 
 <!-- <div.spell> -->
 
-## Scarlet Arrow ~~45~~
+## Scarlet Arrow ~~51~~
 
 * **Cst** main action
 * **Rng** L 80ft/CP
@@ -609,7 +681,7 @@ Remember only the caster sees their own thread, but should a caster pick up the 
 
 <!-- <div.spell> -->
 
-## Scarlet Disk ~~46~~
+## Scarlet Disk ~~52~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -629,7 +701,7 @@ Creatures victim of the disk understand the magic nature of their loss if they s
 
 <!-- <div.spell> -->
 
-## Scarlet Finger ~~47~~
+## Scarlet Finger ~~53~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -644,9 +716,19 @@ The referee might grant a saving throw to the victim.
 
 <!-- </div> -->
 
+
+<!-- PAGE BREAK spell_list -->
+
+<!-- .margin.compass -->
+* _Playing a Caster_
+* Spellcasting
+* Spell types
+* **Spell list**
+
+
 <!-- <div.spell> -->
 
-## Scarlet Hand ~~48~~
+## Scarlet Hand ~~54~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -665,7 +747,7 @@ The target loses (1d6 + _élan_) HPs (min 1) which are turned to CPs and added t
 
 <!-- <div.spell> -->
 
-## Silver Ball ~~51~~
+## Silver Ball ~~55~~
 
 * **Cst** main action
 * **Rng** M 30ft/CP
@@ -688,7 +770,7 @@ Remember, may not be prolonged if out of prolongation reach.
 
 <!-- <div.spell> -->
 
-## Silver Crown ~~52~~
+## Silver Crown ~~56~~
 
 * **Cst** main action
 * **Rng** M 30ft/CP
@@ -706,19 +788,9 @@ May also be used to to protect things from impact, but it's a crown or a donut, 
 
 <!-- </div> -->
 
-
-<!-- PAGE BREAK spell_list -->
-
-<!-- .margin.compass -->
-* _Playing a Caster_
-* Spellcasting
-* Spell types
-* **Spell list**
-
-
 <!-- <div.spell> -->
 
-## Silver Hand ~~53~~
+## Silver Hand ~~57~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -737,7 +809,7 @@ Can be used as a "caster duck tape".
 
 <!-- <div.spell> -->
 
-## Silver Hut ~~54~~
+## Silver Hut ~~58~~
 
 * **Cst** 1 main action, then 1 on turn action
 * **Rng** C 5ft/CP
@@ -757,7 +829,7 @@ By paying 1 CP (and an instant action), the caster adds (1d8 + _élan_) HPs (min
 
 <!-- <div.spell> -->
 
-## Turquoise Arrow ~~55~~
+## Turquoise Arrow ~~61~~
 
 * **Cst** main action
 * **Rng** L 80ft/CP
@@ -772,7 +844,7 @@ Works from 15 feet on only. Grants (1d6 + _élan_) HPs (min 1) to the target. Do
 
 <!-- <div.spell> -->
 
-## Turquoise Hand ~~56~~
+## Turquoise Hand ~~62~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -787,7 +859,7 @@ Gives back (1d6 + _élan_) HPs (min 1) to the targetted creature or stabilizes i
 
 <!-- <div.spell> -->
 
-## Turquoise Hut ~~57~~
+## Turquoise Hut ~~63~~
 
 * **Cst** 1 main action, then 1 on turn action
 * **Rng** C 5ft/CP
@@ -803,9 +875,19 @@ Mortally wounded creatures in the hut stabilize (as per rules, they reach 1 HP a
 
 <!-- </div> -->
 
+
+<!-- PAGE BREAK spell_list -->
+
+<!-- .margin.compass -->
+* _Playing a Caster_
+* Spellcasting
+* Spell types
+* **Spell list**
+
+
 <!-- <div.spell> -->
 
-## Turquoise Pole ~~58~~
+## Turquoise Pole ~~64~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
