@@ -877,6 +877,11 @@ table.social-class th:nth-child(1) {
 [data-aa-title="spells"] table tr:nth-child(3n) td {
   border-bottom: solid thin #c0c0c0;
 }
+[data-aa-title="spells"] table td:nth-child(7),
+[data-aa-title="spells"] table td:nth-child(8),
+[data-aa-title="spells"] table td:nth-child(9) {
+  color: #a0a0a0;
+}
 
 [data-aa-title="spells"] h2 {
   margin-bottom: 1rem;
@@ -884,6 +889,17 @@ table.social-class th:nth-child(1) {
 
 [data-aa-title="spells"] .caption {
   font-size: var(--size-b);
+}
+
+[data-aa-title="spells"] ul {
+  list-style: none;
+  padding-inline-start: 0;
+  text-indent: -1rem;
+  margin-left: 1rem;
+}
+[data-aa-title="spells"] ul li:before {
+  content: '·';
+  padding-right: 0.5rem;
 }
 
 [data-aa-title="spell list"] .text-block {
