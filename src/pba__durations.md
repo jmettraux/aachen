@@ -1,5 +1,13 @@
 
-<!-- SKIP -->
+<!-- .margin.compass -->
+* _Playing the Game_
+* Skill Checks
+* Combat
+* Saves
+* Travel
+* Exploration
+* Advancement
+
 
 # Durations, Scenes, Rounds, and Turns
 
