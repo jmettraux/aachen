@@ -840,7 +840,22 @@ Works from 15 feet on only. Grants (1d6 + _élan_) HPs (min 1) to the target. Do
 
 <!-- <div.spell> -->
 
-## Turquoise Hand ~~62~~
+## Turquoise Finger ~~62~~
+
+* **Cst** main action
+* **Rng** T touch
+* **Dur** 1 rnd
+* **Prol** 1 CP/rnd
+
+Focus.
+
+Gives temporary (1d6 + _élan_) HPs (min 1) for the current scene. When the scene ends, the excitation goes away, those HPs are gone, and the target creature might then fall mortally wounded.
+
+<!-- </div> -->
+
+<!-- <div.spell> -->
+
+## Turquoise Hand ~~63~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -855,7 +870,7 @@ Gives back (1d6 + _élan_) HPs (min 1) to the targetted creature or stabilizes i
 
 <!-- <div.spell> -->
 
-## Turquoise Hut ~~63~~
+## Turquoise Hut ~~64~~
 
 * **Cst** 1 main action, then 1 on turn action
 * **Rng** C 5ft/CP
@@ -873,7 +888,7 @@ Mortally wounded creatures in the hut stabilize (as per rules, they reach 1 HP a
 
 <!-- <div.spell> -->
 
-## Turquoise Pole ~~64~~
+## Turquoise Pole ~~65~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
