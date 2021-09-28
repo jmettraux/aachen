@@ -11,6 +11,8 @@
 
 TODO conversion process
 
+TODO you can give _Traits_ to monsters
+
 ## Monsters And Saving Throws
 
 TODO move me

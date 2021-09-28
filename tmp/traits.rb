@@ -21,8 +21,8 @@ Swerving
 : As per · or a missed attack by the character can be made to succeed
 
 ~~Intricate~~[^1]
-: May cast spells,<br/>CP = char level × ~~CP factor~~
-: May cast spells,<br/>CP = char level + (char level × ~~CP factor~~)
+: May cast spells,<br/>CP = _char level_ × ~~CP factor~~
+: May cast spells,<br/>CP = _char level_ + (_char level_ × ~~CP factor~~)
 [^1]:
   Better prevent non-`caster`s from taking `INTRICATE`, at least not at level 1 and not if there is no mentor around.
 
@@ -115,8 +115,6 @@ TRAITS.strip.split("\n").each do |line|
 end
 traits << current
 
-#p traits.size
-
 puts
 
 number = '10'
@@ -139,4 +137,7 @@ traits
     puts
     puts '<!-- </div> -->'
     puts }
+
+puts "<!-- traits: #{traits.size} -->"
+puts
 

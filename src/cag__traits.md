@@ -16,9 +16,12 @@ A talent is a qualifier, for example a character might be `Lucky`. A talent may 
 
 The talent descriptions have thus two lines, one for the _normal_ gift, and one for the _very_ version of it.
 
-~~FIXME d4d6~~
+~~FIXME~~
 
+[^2]
 
+[^2]:
+  Carefully select traits or roll d4d6
 
 <!-- <div.trait> -->
 
@@ -55,8 +58,8 @@ The talent descriptions have thus two lines, one for the _normal_ gift, and one 
 <!-- <div.trait> -->
 
 ### ~~Intricate~~[^1] **15**
-* May cast spells,<br/>CP = char level × ~~CP factor~~
-* May cast spells,<br/>CP = char level + (char level × ~~CP factor~~)
+* May cast spells,<br/>CP = _char level_ × ~~CP factor~~
+* May cast spells,<br/>CP = _char level_ + (_char level_ × ~~CP factor~~)
 
 [^1]:
   Better prevent non-`caster`s from taking `INTRICATE`, at least not at level 1 and not if there is no mentor around.
@@ -175,6 +178,20 @@ The talent descriptions have thus two lines, one for the _normal_ gift, and one 
 
 <!-- </div> -->
 
+
+<!-- PAGE BREAK traits -->
+
+<!-- .margin.compass -->
+* _Character Creation_
+* Atts & Saves
+* Background
+* Class
+* **Traits**
+* Hit Points
+* Name
+* Equipment
+
+
 <!-- <div.trait> -->
 
 ### Zealous 7 **42**
@@ -199,20 +216,19 @@ The talent descriptions have thus two lines, one for the _normal_ gift, and one 
 
 <!-- </div> -->
 
+<!-- <div.trait> -->
 
+### Zealous 10 **45**
+* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 
-<!-- PAGE BREAK traits -->
+<!-- </div> -->
 
-<!-- .margin.compass -->
-* _Character Creation_
-* Atts & Saves
-* Background
-* Class
-* **Traits**
-* Hit Points
-* Name
-* Equipment
+<!-- <div.trait> -->
 
+### Zealous 11 **46**
+* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 
-TODO
+<!-- </div> -->
 

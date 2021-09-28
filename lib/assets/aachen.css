@@ -671,6 +671,9 @@ table.social-class th:nth-child(1) {
 [data-aa-title="traits"] .trait {
   font-size: var(--size-b);
 }
+[data-aa-title="traits"] .trait:first-of-type {
+  margin-top: 0.3rem;
+}
 [data-aa-title="traits"] .trait h3 {
   font-size: var(--size-a);
   margin-top: 0;
@@ -689,15 +692,24 @@ table.social-class th:nth-child(1) {
   padding-right: 0.3rem;
 }
 [data-aa-title="traits"] .trait ul {
-  margin-top: 0;
+  margin-top: -0.1rem;
   padding-inline-start: 0;
+  margin-bottom: 0.3rem;
 }
 [data-aa-title="traits"] .trait li {
   list-style: none;
+  margin-left: 0.9rem;
+  text-indent: -0.6rem;
+  line-height: 1.1;
 }
 [data-aa-title="traits"] .trait li:before {
   content: '·';
+  width: 0.6rem;
+  display: inline-block;
+  text-align: center;
+  /*
   padding-right: 0.3rem;
+  */
 }
 [data-aa-title="traits"] .trait li + li:before {
   content: '··';
