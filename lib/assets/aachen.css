@@ -837,7 +837,10 @@ table.social-class th:nth-child(1) {
   color: #d0d0d0;
 }
 [data-aa-title="spells"] .matrix del {
-  color: #d0d0d0;
+  color: #c0c0c0;
+  display: inline-block;
+  width: 0.9rem;
+  text-align: center;
 }
 [data-aa-title="spells"] dl {
   margin-top: 0.3rem;
@@ -848,6 +851,11 @@ table.social-class th:nth-child(1) {
 [data-aa-title="spells"] dl dt {
   font-weight: normal;
   color: red;
+}
+[data-aa-title="spells"] dl dt:after {
+  content: '';
+  margin: 0;
+  padding: 0;
 }
 [data-aa-title="spells"] table {
   font-size: var(--size-b);
@@ -874,11 +882,6 @@ table.social-class th:nth-child(1) {
   margin-bottom: 1rem;
 }
 
-[data-aa-title="bestiary"] h2 {
-  margin-bottom: 1rem;
-}
-
-
 [data-aa-title="spells"] .caption {
   font-size: var(--size-b);
 }
@@ -903,7 +906,7 @@ table.social-class th:nth-child(1) {
 [data-aa-title="spell list"] h2 del {
   font-size: 70%;
   font-variant: normal;
-  color: #d0d0d0;
+  color: #c0c0c0;
 }
 [data-aa-title="spell list"] h2 del:before {
   content: '·';
@@ -932,6 +935,9 @@ table.social-class th:nth-child(1) {
   margin-bottom: 0.3rem;
 }
 
+[data-aa-title="bestiary"] h2 {
+  margin-bottom: 1rem;
+}
 [data-aa-title="bestiary"] ul:not(.compass) {
   list-style: none;
   margin-block-start: 0;

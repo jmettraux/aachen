@@ -106,6 +106,8 @@ Most of the casters choose simple, well known, forms for weaving their magical t
 **MA**: main action, **OTA**: on turn action,
 **T**: touch, **C**: close, **S**: short, **M**: medium, **L**: long
 
+## CP Investment Examples
+
 * casting a ~~Blue Finger~~ costs 1 CP
 * casting a ~~Night Ball~~ within 30ft that lasts 2 rounds costs 1 CP + 1 CP for the extra round
 * casting a ~~Night Ball~~ at 50ft that lasts 2 rounds costs 1 CP + 1 CP for the extra round + 1 CP for the extra 30ft range + 1 CP for the extra speed (so that it
@@ -117,8 +119,4 @@ Move requires an on turn action. Prolong requires an instant action.
 ## Élan
 
 Many of the spell descriptions below mention _élan_. It is equal to the `Cast` skill level plus the attribute modifier used for casting the spell. So it varies from -2 to +6.
-
-When a spell inflects damage and the dice roll plus the _élan_ results in zero or less, do inflect 1 point of damage.
-
-For example, a caster with `INT`m -1, fires an ~~Amber Arrow~~ and rolls a 1. That computes to 0, but since it's about damage, it will actually inflect 1 point of damage.
 
