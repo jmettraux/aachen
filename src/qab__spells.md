@@ -72,11 +72,11 @@ Hut
 Pole
 : ~~9~~ ten feet
 
-Shield
-: ~~10~~ vertical disk
-
 Powder
-: ~~11~~ cloud
+: ~~10~~ cloud
+
+Shield
+: ~~11~~ vertical disk
 
 <!-- </div> -->
 
@@ -99,8 +99,8 @@ Most of the casters choose simple, well known, forms for weaving their magical t
 | Hand   | MA     | -            | T touch   | 1 rnd     | 0         | -        | -         | 1 CP/rnd |
 | Hut    | MA+OTA | 5ft/CP       | C 5ft/CP  | 1 min/CP  | 0         | 10ft/lvl | 1 CP/5ft  | 1 CP/min |
 | Pole   | MA     | -            | S 10ft/CP | 1 rnd     | 0         | -        | -         | 1 CP/rnd |
-| Shield | MA     | broad shield | T touch   | 1 min/CP  | 0         | 10ft/lvl | 1 CP/10ft | 1 CP/min |
 | Powder | MA     | 5ft/CP       | S 10ft/CP | 1 rnd/CP  | 30ft/CP   | 10ft/lvl | -         | 1 CP/rnd |
+| Shield | MA     | broad shield | T touch   | 1 min/CP  | 0         | 10ft/lvl | 1 CP/10ft | 1 CP/min |
 
 <!-- .caption -->
 **MA**: main action, **OTA**: on turn action,
