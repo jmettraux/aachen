@@ -1,6 +1,7 @@
 
 <!-- .margin.compass -->
 * _Playing the Game_
+* **Scenes & Rounds**
 * Skill Checks
 * Combat
 * Saves
@@ -9,7 +10,7 @@
 * Advancement
 
 
-# Durations, Scenes, Rounds, and Turns
+# Scenes, Rounds, and Turns
 
 The referee is expected to track time for adventures and campaigns. Faery tales of endless winters have been told and retold but they too have some kind of calendar that the referee must track.
 

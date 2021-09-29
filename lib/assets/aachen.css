@@ -354,11 +354,11 @@ ul.compass {
 }
 ul.compass li {
   color: #c0c0c0;
+  display: block;
 }
 ul.compass li:not(:first-child) {
-  display: inline-block;
-  text-indent: -0.5rem;
-  margin-left: 0.5rem;
+  text-indent: -0.6rem;
+  margin-left: 0.6rem;
 }
 ul.compass li:first-child {
   margin-bottom: 0.5rem;
@@ -377,6 +377,14 @@ ul.compass li strong {
   text-align: right;
   padding-left: 0;
   padding-right: 0.3rem;
+}
+.page.even ul.compass li:not(:first-child) {
+  margin-left: 0;
+  /*
+  direction: rtl;
+  text-indent: 0.6rem;
+  margin-right: -0.6rem;
+  */
 }
 
 .quarter-left { float: left; margin-right: 1rem; width: 24%; }
@@ -696,18 +704,18 @@ table.social-class th:nth-child(1) {
   content: '·';
   padding-right: 0.3rem;
 }
-[data-aa-title="traits"] .trait ul {
+[data-aa-title="traits"] .trait ul:not(.compass) {
   margin-top: -0.1rem;
   padding-inline-start: 0;
   margin-bottom: 0.3rem;
 }
-[data-aa-title="traits"] .trait li {
+[data-aa-title="traits"] .trait ul:not(.compass) li {
   list-style: none;
   margin-left: 0.9rem;
   text-indent: -0.6rem;
   line-height: 1.1;
 }
-[data-aa-title="traits"] .trait li:before {
+[data-aa-title="traits"] .trait ul:not(.compass) li:before {
   content: '·';
   width: 0.6rem;
   display: inline-block;
@@ -716,7 +724,7 @@ table.social-class th:nth-child(1) {
   padding-right: 0.3rem;
   */
 }
-[data-aa-title="traits"] .trait li + li:before {
+[data-aa-title="traits"] .trait ul:not(.compass) li + li:before {
   content: '··';
 }
 
@@ -899,13 +907,13 @@ table.social-class th:nth-child(1) {
   font-size: var(--size-b);
 }
 
-[data-aa-title="spells"] ul {
+[data-aa-title="spells"] ul:not(.compass) {
   list-style: none;
   padding-inline-start: 0;
   text-indent: -1rem;
   margin-left: 1rem;
 }
-[data-aa-title="spells"] ul li:before {
+[data-aa-title="spells"] ul:not(.compass) li:before {
   content: '·';
   padding-right: 0.5rem;
 }
