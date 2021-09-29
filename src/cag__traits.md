@@ -18,6 +18,8 @@ The talent descriptions have thus two lines, one for the _normal_ gift, and one 
 
 ~~FIXME~~
 
+~~TODO~~ always disengage... on `VERY`
+
 <!-- vvv ← d4d6 -->
 
 

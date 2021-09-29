@@ -355,6 +355,11 @@ ul.compass {
 ul.compass li {
   color: #c0c0c0;
 }
+ul.compass li:not(:first-child) {
+  display: inline-block;
+  text-indent: -0.5rem;
+  margin-left: 0.5rem;
+}
 ul.compass li:first-child {
   margin-bottom: 0.5rem;
 }
