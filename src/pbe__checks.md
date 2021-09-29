@@ -1,5 +1,12 @@
 
-<!-- SKIP -->
+<!-- .margin.compass -->
+* _Playing the Game_
+* Scenes & Saves
+* **Skill Checks**
+* Combat
+* Travel
+* Exploration
+* Advancement
 
 
 # Skill Checks
@@ -11,6 +18,7 @@ For example, to force a door open, the referee might demand a STR/Exert check. A
 In a javelin precision throw contest, the referee might ask for a DEX/Shoot check, in a javelin distance throw contest, a STR/Exert or a DEX/Exert could be used.
 
 The referee, prior to the check has decided on a difficulty, usually from 6 to 15. To succeed, the roll result must reach or exceed the difficulty.
+
 
 ## Skill Check Outcome
 
@@ -29,6 +37,7 @@ The referee determines the outcome of the skill check failure or success. Depend
 
 On a marginal success, the referee might want to acknowledge success but add a further complication to the situation. Exceptional and marginal outcomes are begging for situation development.
 
+
 ## When To Skill Check
 
 * a task is difficult and hazardous,
@@ -37,7 +46,6 @@ On a marginal success, the referee might want to acknowledge success but add a f
 
 Old farm hands doesn't get skill check each time they drive the cart to the market, it is routine work for them.
 
-<!-- PAGE BREAK checks -->
 
 ## How Not To Skill Check
 
@@ -72,8 +80,6 @@ Skill levels are acquired at character creation and through advancement.
 The referee might increase the difficulty by 1 or 2 if they think that the skill is not completely relevant to the check.
 
 Circumstances and tools might alter a skill check difficulty. Usually the referee should limit the total change from -2 to +2.
-
-<!-- PAGE BREAK checks -->
 
 ## Aiding A Skill Check
 
