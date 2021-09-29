@@ -9,97 +9,24 @@
 * Advancement
 
 
+<!-- .skill-levels -->
+| Lvl | Mod |                                                      |
+|:---:|:---:|------------------------------------------------------|
+|     |  -1 | Unskilled                                            |
+| 0   |  +0 | The proficiency of an ordinary practicioner          |
+| 1   |  +1 | Veteran of the skill, noticeably better than others  |
+| 2   |  +2 | Veteran and talented, one of the best in the city    |
+| 3   |  +3 | Inspirational master, one of the best in the kingdom |
+| 4   |  +4 | One of the best in the known world                   |
+
 # Skill Checks
 
-A skill check is done by rolling 2d6, adding the skill level and an attribute modifier. The skill and the attribute are determined by the referee. If the character has no skill level, -1 is added instead.
+~~2d6 + _skill level_ + _attribute modifier_~~ is the formula for a skill check. It succeeds if the sum is greater or equal to a _difficulty class_ (DC) set by the referee. The _attribute modifier_ is determined by the referee.
 
-For example, to force a door open, the referee might demand a STR/Exert check. A character with a Strength of 17 and Exert of 1 would roll 2d6+1+1 = 2d6+2. If the character has no level in Exert, they would roll 2d6+1-1 = 2d6.
+For example, to force a door open, the referee might demand a `STR`/`Exert` check and set the DC to 8. A character with a `STR` of 17 and an `Exert` of 1, thus rolls 2d6 + 1 (`Exert`) + 1 (`STR`m) against 8.
 
-In a javelin precision throw contest, the referee might ask for a DEX/Shoot check, in a javelin distance throw contest, a STR/Exert or a DEX/Exert could be used.
+If a character has no level in the skill being challenged, then -1 is used (remember 0 is the starting level, _ordinary practicioner_). The example becomes 2d6 -1 (no level in `Exert`) + 1 (`STR`m) against 8.
 
-The referee, prior to the check has decided on a difficulty, usually from 6 to 15. To succeed, the roll result must reach or exceed the difficulty.
+## Dis-Advantage
 
-
-## Skill Check Outcome
-
-The referee determines the outcome of the skill check failure or success. Depending on the circumstances, the outcome might be very limited, plain failure or plain success.
-
-**Option**: subtract the difficulty to the skill check roll result to qualify the outcome.
-
-| Difference | Quality             |
-|:----------:|---------------------|
-|     to -5  | Exceptional Failure |
-|  -4 to -2  | Failure             |
-|     -1     | Marginal Failure    |
-|      0     | Marginal Success    |
-|   1 to 4   | Success             |
-|   5 to     | Exceptional Success |
-
-On a marginal success, the referee might want to acknowledge success but add a further complication to the situation. Exceptional and marginal outcomes are begging for situation development.
-
-
-## When To Skill Check
-
-* a task is difficult and hazardous,
-* a task is performed under time pressure, or
-* success or failure of the task is important or interesting
-
-Old farm hands doesn't get skill check each time they drive the cart to the market, it is routine work for them.
-
-
-## How Not To Skill Check
-
-The referee might decide the task is too easy (skill difficulty < 6) or look at the character skill level and decide it is appropriate for an automatic success.
-
-If there is time, the referee might look at the character skill level and decide how much time is spent until the task succeeds (difficulty < 9).
-
-## Skill Levels
-
-|         | Mod | Description                                          |
-|---------|----:|------------------------------------------------------|
-|         |  -1 | Unskilled                                            |
-| level 0 |  +0 | The proficiency of an ordinary practicioner          |
-| level 1 |  +1 | Veteran of the skill, noticeably better than others  |
-| level 2 |  +2 | Veteran and talented, one of the best in the city    |
-| level 3 |  +3 | Inspirational master, one of the best in the kingdom |
-| level 4 |  +4 | One of the best in the known world                   |
-
-Skill levels are acquired at character creation and through advancement.
-
-## Skill Check Difficulty
-
-|      | Skill Check Difficulty |
-|:----:|------------------------|
-|   5- | (no check needed)      |
-|   6  | A relatively simple task that is still more than the character would usually be expected to manage in their regular background |
-|   8  | A significant challenge to a competent professional that they'd still succeed at more often than not |
-|  10  | Something too difficult to be expected of anyone but an expert, and even they might fail |
-|  12  | Only a true master could expect to carry this off with any degree of reliability |
-|  14+ | Only a true master has any chance of achieving this at all, and even they will probably fail |
-
-The referee might increase the difficulty by 1 or 2 if they think that the skill is not completely relevant to the check.
-
-Circumstances and tools might alter a skill check difficulty. Usually the referee should limit the total change from -2 to +2.
-
-## Aiding A Skill Check
-
-A character may want to help a comrade at a skill check. If the referee agrees, they ask of the player a relevant skill check against the same difficulty as the _helped_ skill check.
-
-If the _help_ skill check succeeds, the _helped_ skill check gets a +1 bonus on its roll.
-
-Multiple characters may try to help, but the maximum  bonus to the _helped_ skill check is +1.
-
-The _helping_ skill check is against the same difficulty, but it's not necessarilty the same combination attribute/skill as the _helped_ skill check.
-
-For example, two characters are attempting to trim a horse hoof before going on pursuing foes, the referee asks a WIS/Ride from the trimmer against a difficulty of 8. A companion helps by holding and quieting the horse, CHA/Ride against the same difficulty of 8.
-
-## Opposed Skill Checks
-
-Contests may be adjudicated via opposed skill checks. All participants roll with the same Ability / Skill combination and the one with the highest number wins. Ties go to player characters, or are re-rolled.
-
-For example, in an archery contest, all participants could roll DEX/Shoot, the highest result is kept. If there is a tie, all the tied participant roll again. Repeat until there is only one participant, the winner, left.
-
-Skill checks may also oppose different combinations of skills and attributes.
-
-For example, a scout may roll DEX/Sneak against a sentinel WIS/Notice.
-
+The referee might grant advantage or require disadvantage on a skill check. In case of advantage, 3d6 are rolled and the best two are kept and summed. In case of disadvantage, 3d6 are rolled and the worse two are kept and summed.

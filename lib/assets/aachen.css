@@ -362,6 +362,7 @@ ul.compass li:not(:first-child) {
 }
 ul.compass li:first-child {
   margin-bottom: 0.5rem;
+  line-height: 0.9;
 }
 ul.compass li:first-child em {
   font-style: normal;
@@ -832,6 +833,20 @@ table.social-class th:nth-child(1) {
   border-bottom: 0;
 }
 
+[data-aa-title="checks"] h1 {
+  margin-top: 0;
+}
+[data-aa-title="checks"] table.skill-levels {
+  float: right;
+  width: 35%;
+  margin-left: 1rem;
+  font-size: var(--size-b);
+  line-height: 0.9;
+}
+[data-aa-title="checks"] table.skill-levels tr:nth-child(1) td {
+  color: #b0b0b0;
+}
+
 [data-aa-title="casting"] dl {
   margin-top: 2rem;
 }
@@ -965,6 +980,14 @@ table.social-class th:nth-child(1) {
   font-size: var(--size-b);
   text-indent: 0;
   margin-bottom: 0.3rem;
+}
+
+[data-aa-title="difficulty"] table {
+  font-size: var(--size-b);
+  line-height: 0.66;
+}
+[data-aa-title="difficulty"] table tr:nth-child(3n) td {
+  border-bottom: solid thin #c0c0c0;
 }
 
 [data-aa-title="bestiary"] h2 {

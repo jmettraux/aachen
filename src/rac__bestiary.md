@@ -1,6 +1,7 @@
 
 <!-- .margin.compass -->
 * _Running the Game_
+* Difficulty
 * Morale
 * Reaction
 * **Bestiary**
