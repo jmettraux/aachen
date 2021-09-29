@@ -16,9 +16,7 @@ Romans had three names (praenom, nomen, and cognomen) but in this dark age, only
 
 Frankish and germanic names are fashionable. Roman names are out of fashion except in some germanic families fascinated by roman civilization. Celtic (gallic) names are the least fashionable.
 
-Should the name be too ambiguous indicate the father name (patronym) or some place name. Bernhard son of Martin, Juliana of the Lake.
-
-[^1]
+Should the name be too ambiguous indicate the father name (patronym) or some place name. Bernhard son of Martin, Juliana of the Lake.[^1]
 
 | d6d8 | Frankish M | F | Gallic M | F | Roman M | F |
 |:----:|:----------:|:-:|:--------:|:-:|:-------:|:-:|
@@ -76,30 +74,54 @@ Should the name be too ambiguous indicate the father name (patronym) or some pla
   maybe:
 
   <!-- .social-class -->
-  | d4d6 | origin    |
-  |:----:|:---------:|
-  | 11   | _roman_   |
-  | 12   | ·         |
-  | 13   | frankish  |
-  | 14   | ·         |
-  | 15   | ·         |
-  | 16   | gallic    |
-  | 21   | ·         |
-  | 22   | ·         |
-  | 23   | burgund   |
-  | 24   | ·         |
-  | 25   | lombard   |
-  | 26   | briton    |
-  | 31   | ·         |
-  | 32   | visigoth  |
-  | 33   | ·         |
-  | 34   | saxon     |
-  | 35   | ·         |
-  | 36   | a-saxon   |
-  | 41   | dane      |
-  | 42   | scot      |
-  | 43   | byzantine |
-  | 44   | north-african |
-  | 45   | jewish    |
-  | 46   | arab      |
+  | d6d8 | origin        |
+  |:----:|:-------------:|
+  |  11  | _roman_       |
+  |  12  | ·             |
+  |  13  | ·             |
+  |  14  | ·             |
+  |  15  | ·             |
+  |  16  | frankish      |
+  |  17  | ·             |
+  |  18  | ·             |
+  |  21  | ·             |
+  |  22  | ·             |
+  |  23  | gallic        |
+  |  24  | ·             |
+  |  25  | ·             |
+  |  26  | ·             |
+  |  27  | ·             |
+  |  28  | burgund       |
+  |  31  | ·             |
+  |  32  | ·             |
+  |  33  | ·             |
+  |  34  | lombard       |
+  |  35  | ·             |
+  |  36  | ·             |
+  |  37  | saxon         |
+  |  38  | ·             |
+  |  41  | ·             |
+  |  42  | briton        |
+  |  43  | ·             |
+  |  44  | ·             |
+  |  45  | a-saxon       |
+  |  46  | irish         |
+  |  47  | visigoth      |
+  |  48  | ·             |
+  |  51  | ·             |
+  |  52  | ·             |
+  |  53  | ostrogoth     |
+  |  54  | hun           |
+  |  55  | dane          |
+  |  56  | norwegian     |
+  |  57  | swede         |
+  |  58  | sami          |
+  |  61  | pict          |
+  |  62  | byzantine     |
+  |  63  | rus           |
+  |  64  | north-african |
+  |  65  | jewish        |
+  |  66  | ·             |
+  |  67  | ·             |
+  |  68  | arab          |
 
