@@ -118,15 +118,17 @@ traits << current
 puts
 
 number = '10'
+dice = [ 4, 6 ]
 
 traits
   .sort_by { |a| a.first.gsub(/[^a-zA-Z]/, '') }
-  .each { |a|
-    number = increase(number, [ 4, 6 ])
+  .each_with_index { |a, i|
+    number = increase(number, dice)
+    n = i == 0 ? " ← d#{dice[0]}d#{dice[1]}" : ''
     puts '<!-- <div.trait> -->'
     puts
     #puts "### **#{number}** #{a.first}"
-    puts "### #{a.first} **#{number}**"
+    puts "### #{a.first} **#{number}#{n}**"
     a[1..-1].each { |e|
       if e.match?(/^: /)
         puts "* #{e[2..-1]}"

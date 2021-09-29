@@ -7,15 +7,12 @@
 
 # Spell List
 
-[^1]:
-  To choose at random, roll d6d8 and pick spells by the number right of their name
-
-<!-- vvv -->
+<!-- vvv ← d6d8 -->
 
 
 <!-- <div.spell> -->
 
-## Amber Arrow ~~11~~
+## Amber Arrow ~~11 ← d6d8~~
 
 * **Cst** main action
 * **Rng** L 80ft/CP
@@ -91,7 +88,7 @@ Warms up an area with fragments of heat threads. Some casters use it to warm up 
 
 <!-- <div.spell> -->
 
-## Blue Crown ~~15~~[^1]
+## Blue Crown ~~15~~
 
 * **Cst** main action
 * **Rng** M 30ft/CP

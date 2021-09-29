@@ -18,14 +18,12 @@ The talent descriptions have thus two lines, one for the _normal_ gift, and one 
 
 ~~FIXME~~
 
-[^2]
+<!-- vvv ← d4d6 -->
 
-[^2]:
-  Carefully select traits or roll d4d6
 
 <!-- <div.trait> -->
 
-### Artful **11**
+### Artful **11 ← d4d6**
 * TODO
 * TODO
 
