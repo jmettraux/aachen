@@ -16,7 +16,9 @@ Romans had three names (praenom, nomen, and cognomen) but in this dark age, only
 
 Frankish and germanic names are fashionable. Roman names are out of fashion except in some germanic families fascinated by roman civilization. Celtic (gallic) names are the least fashionable.
 
-Should the name be too ambiguous indicate the father name (patronym) or some place name. Bernhard son of Martin, Juliana of the Lake.[^1]
+Should the name be too ambiguous indicate the father name (patronym) or some place name. Bernhard son of Martin, Juliana of the Lake.
+
+[^1]
 
 | d6d8 | Frankish M | F | Gallic M | F | Roman M | F |
 |:----:|:----------:|:-:|:--------:|:-:|:-------:|:-:|

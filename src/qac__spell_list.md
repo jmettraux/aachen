@@ -5,6 +5,7 @@
 * Spell types
 * **Spell list**
 
+
 # Spell List
 
 <!-- vvv ← d6d8 -->
@@ -286,7 +287,22 @@ Supports up to (`Cast` + 2) × 100kg.
 
 <!-- <div.spell> -->
 
-## Copper Hand ~~27~~
+## Copper Flail ~~27~~
+
+* **Cst** main action
+* **Rng** S 10ft/CP
+* **Dur** 1 rnd
+* **Spd** 80ft/CP
+
+Seizure flail.
+
+The flail is project there and back to seize an object (up to the caster `STR` in kg), trip a hand or leg, or deliver a blow (1d4 + _élan_) damage points (min 1).
+
+<!-- </div> -->
+
+<!-- <div.spell> -->
+
+## Copper Hand ~~28~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -301,7 +317,7 @@ Copper threads are woven inside of the palm or on the external side of the hand.
 
 <!-- <div.spell> -->
 
-## Copper Pole ~~28~~
+## Copper Pole ~~31~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -318,7 +334,7 @@ Supports up to (`Cast` + 1) × 100kg.
 
 <!-- <div.spell> -->
 
-## Gold Crown ~~31~~
+## Gold Crown ~~32~~
 
 * **Cst** main action
 * **Rng** M 30ft/CP
@@ -348,7 +364,7 @@ By default, it is static. For 1 extra CP, it can be threaded so that it follows 
 
 <!-- <div.spell> -->
 
-## Gold Hand ~~32~~
+## Gold Hand ~~33~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -366,7 +382,7 @@ Cannot prolong.
 
 <!-- <div.spell> -->
 
-## Gold Pole ~~33~~
+## Gold Pole ~~34~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -385,7 +401,7 @@ The caster may consume 1 CP to bend the pole, bow-like, but it won't turn into a
 
 <!-- <div.spell> -->
 
-## Gold Shield ~~34~~
+## Gold Shield ~~35~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -405,7 +421,7 @@ The caster may decide to simply use it as a mirror. All the the light going thro
 
 <!-- <div.spell> -->
 
-## Night Ball ~~35~~
+## Night Ball ~~36~~
 
 * **Cst** main action
 * **Rng** M 30ft/CP
@@ -426,7 +442,7 @@ More static uses of the ball are common, to simply prevent light/vision from cro
 
 <!-- <div.spell> -->
 
-## Night Disk ~~36~~
+## Night Disk ~~37~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -446,7 +462,7 @@ It just looks like a pool of darkness.
 
 <!-- <div.spell> -->
 
-## Night Hut ~~37~~
+## Night Hut ~~38~~
 
 * **Cst** 1 main action, then 1 on turn action
 * **Rng** C 5ft/CP
@@ -466,7 +482,7 @@ Loose night threads woven in the form of a hut absorb light. Anything goes throu
 
 <!-- <div.spell> -->
 
-## Night Shield ~~38~~
+## Night Shield ~~41~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -494,7 +510,7 @@ Casters use it to conceal their actions or simply their escape. Anything goes th
 
 <!-- <div.spell> -->
 
-## Quartz Ball ~~41~~
+## Quartz Ball ~~42~~
 
 * **Cst** main action
 * **Rng** M 30ft/CP
@@ -517,7 +533,7 @@ The ball might be quite smaller than the form of the thread it reveals. Blind ma
 
 <!-- <div.spell> -->
 
-## Quartz Flail ~~42~~
+## Quartz Flail ~~43~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -536,7 +552,7 @@ An unlucky caster might flail uselessly at nothing, wasting CPs.
 
 <!-- <div.spell> -->
 
-## Quartz Pole ~~43~~
+## Quartz Pole ~~44~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -553,7 +569,7 @@ By consuming 1 extra CP, all the threads (quartz and others) are revealed to oth
 
 <!-- <div.spell> -->
 
-## Quartz Powder ~~44~~
+## Quartz Powder ~~45~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -571,7 +587,7 @@ Non-quartz threads within 5ft of the powder cloud are drawn in and become visibl
 
 <!-- <div.spell> -->
 
-## Red Disk ~~45~~
+## Red Disk ~~46~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -591,7 +607,7 @@ Inflicts (1d4 + _élan_) per round damage points (min 1) to creatures exposed to
 
 <!-- <div.spell> -->
 
-## Red Finger ~~46~~
+## Red Finger ~~47~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -610,7 +626,7 @@ Might deal (1 + _élan_) damage points (min 1) to a target.
 
 <!-- <div.spell> -->
 
-## Red Flail ~~47~~
+## Red Flail ~~48~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -637,7 +653,7 @@ Silver threads do stop the red flail.
 
 <!-- <div.spell> -->
 
-## Red Powder ~~48~~
+## Red Powder ~~51~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -655,7 +671,7 @@ Creatures within the cloud are subject to tiny burn points. They are disadvantag
 
 <!-- <div.spell> -->
 
-## Scarlet Arrow ~~51~~
+## Scarlet Arrow ~~52~~
 
 * **Cst** main action
 * **Rng** L 80ft/CP
@@ -664,17 +680,15 @@ Creatures within the cloud are subject to tiny burn points. They are disadvantag
 
 Hit point draining arrows, can be harvested if recovered.
 
-The scarlet thread arrow fires from the caster's hand, it goes through its target and drains (1d8 + _élan_) HPs (min 1) from it. The arrow flies then for damage × 10 feet and drops on the floor. It will dissolve after damage × 2 rounds.
+The scarlet thread arrow fires from the caster's hand, it goes through its target and drains (1d8 + _élan_) HPs (min 1) from it. The arrow flies then for damage × 10 feet and drops on the floor. It will dissolve right before the next new moon.
 
-Should the arrow fall into water, it dissolves twice faster.
-
-Remember only the caster sees their own thread, but should a caster pick up the arrow, it may absorb the collected CPs if it succeeds a DC 6 `Cast` skill check, the attribute modifier is the same attribute modifier used by the caster of the arrow. If the skill check fails, the CPs are lost, if the skill check fails with a double 1, the caster incurs 1 HP damage.
+Remember only the caster sees their own thread, but should a caster pick up the arrow, it may absorb the collected CPs if it succeeds a DC 6 `Cast` skill check. In case of failure, the CPs are lost, if a double 1 is rolled, the CPs are lost and the caster incurs 1 HP damage.
 
 <!-- </div> -->
 
 <!-- <div.spell> -->
 
-## Scarlet Disk ~~52~~
+## Scarlet Disk ~~53~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
@@ -694,7 +708,7 @@ Creatures victim of the disk understand the magic nature of their loss if they s
 
 <!-- <div.spell> -->
 
-## Scarlet Finger ~~53~~
+## Scarlet Finger ~~54~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -711,7 +725,7 @@ The referee might grant a saving throw to the victim.
 
 <!-- <div.spell> -->
 
-## Scarlet Hand ~~54~~
+## Scarlet Hand ~~55~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -730,7 +744,7 @@ The target loses (1d6 + _élan_) HPs (min 1) which are turned to CPs and added t
 
 <!-- <div.spell> -->
 
-## Silver Ball ~~55~~
+## Silver Ball ~~56~~
 
 * **Cst** main action
 * **Rng** M 30ft/CP
@@ -753,7 +767,7 @@ Remember, may not be prolonged if out of prolongation reach.
 
 <!-- <div.spell> -->
 
-## Silver Crown ~~56~~
+## Silver Crown ~~57~~
 
 * **Cst** main action
 * **Rng** M 30ft/CP
@@ -783,7 +797,7 @@ May also be used to to protect things from impact, but it's a crown or a donut, 
 
 <!-- <div.spell> -->
 
-## Silver Hand ~~57~~
+## Silver Hand ~~58~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -802,7 +816,7 @@ Can be used as a "caster duck tape".
 
 <!-- <div.spell> -->
 
-## Silver Hut ~~58~~
+## Silver Hut ~~61~~
 
 * **Cst** 1 main action, then 1 on turn action
 * **Rng** C 5ft/CP
@@ -822,7 +836,7 @@ By paying 1 CP (and an instant action), the caster adds (1d8 + _élan_) HPs (min
 
 <!-- <div.spell> -->
 
-## Turquoise Arrow ~~61~~
+## Turquoise Arrow ~~62~~
 
 * **Cst** main action
 * **Rng** L 80ft/CP
@@ -837,7 +851,7 @@ Works from 15 feet on only. Grants (1d6 + _élan_) HPs (min 1) to the target. Do
 
 <!-- <div.spell> -->
 
-## Turquoise Finger ~~62~~
+## Turquoise Finger ~~63~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -852,7 +866,7 @@ Gives temporary (1d6 + _élan_) HPs (min 1) for the current scene. When the scen
 
 <!-- <div.spell> -->
 
-## Turquoise Hand ~~63~~
+## Turquoise Hand ~~64~~
 
 * **Cst** main action
 * **Rng** T touch
@@ -867,7 +881,7 @@ Gives back (1d6 + _élan_) HPs (min 1) to the targetted creature or stabilizes i
 
 <!-- <div.spell> -->
 
-## Turquoise Hut ~~64~~
+## Turquoise Hut ~~65~~
 
 * **Cst** 1 main action, then 1 on turn action
 * **Rng** C 5ft/CP
@@ -885,7 +899,7 @@ Mortally wounded creatures in the hut stabilize (as per rules, they reach 1 HP a
 
 <!-- <div.spell> -->
 
-## Turquoise Pole ~~65~~
+## Turquoise Pole ~~66~~
 
 * **Cst** main action
 * **Rng** S 10ft/CP
