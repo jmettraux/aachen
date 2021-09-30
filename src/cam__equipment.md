@@ -102,28 +102,28 @@ everyday clothes, sling bag, knife, tinderbox,<br/>1 gallon waterskin, travel ra
 <!-- </div> -->
 
 <!-- <div a10> ALL -->
-· `Shoot` >= 0
+· `Shoot` ≥ 0
 <!-- </div> -->
 <!-- <div b10c10> -->
 sling or bow, 2d6 pieces of ammo, or 1d3 javelins
 <!-- </div> -->
 
 <!-- <div a11> ALL -->
-· `Craft` >= 0
+· `Craft` ≥ 0
 <!-- </div> -->
 <!-- <div b11c11> -->
 light tools for 1 given craft
 <!-- </div> -->
 
 <!-- <div a12> ALL -->
-· `Heal` >= 0
+· `Heal` ≥ 0
 <!-- </div> -->
 <!-- <div b12c12> -->
 medicine bag of herbs and bandages
 <!-- </div> -->
 
 <!-- <div a13> ALL -->
-· `Work` >= 0
+· `Work` ≥ 0
 <!-- </div> -->
 <!-- <div b13c13> -->
 axe

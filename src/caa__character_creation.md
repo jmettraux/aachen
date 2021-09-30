@@ -58,7 +58,7 @@ Spells
 
 Cast Points
 : _CP factor_ =<br/>non-`Caster` → 0 | `Caster` → max(`INT`m, `WIS`m, `CHA`m) |<br/>`Fighter-Caster` → `WIS`m | `Dabster-Caster` → `INT`m<br/>(at least 1 for a caster);
-: CP =<br/>`Intricate` → _character level_ × _CP factor_ |<br/>`Very Intricate` → _character level_ + _character level_ × _CP factor_ |<br/>else 0.
+: CP =<br/>`Intricate` → _char level_ × _CP factor_ |<br/>`Very Intricate` → _char level_ + _char level_ × _CP factor_ |<br/>else 0.
 
 Name
 : Give the character a name.

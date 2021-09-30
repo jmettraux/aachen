@@ -1,7 +1,7 @@
 
 <!-- .margin.compass -->
 * _Running the Game_
-* Difficulty
+* Skill Checks
 * **Morale**
 * Reaction
 * Bestiary

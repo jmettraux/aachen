@@ -27,7 +27,7 @@ Casting Cost
 Casting Roll[^2]
 : _attribute modifier_ is `INT`m (book smart), `WIS`m (street smart), or `CHA`m (force of will);
 : The same _att modifier_ cannot be used twice in a row in the same scene;
-: 2d6 + `Cast` + _att modifier_ >= 8 to succeed;
+: ~~2d6 + `Cast` + _att modifier_~~ ≥ 8 to succeed;
 : Casters who incur damage in the combat round before casting do roll at disadvantage (3d6, 2 worse dice);
 : If the roll fails, the spell peters out;
 : Success or failure, invested CPs are consumed and gone.
