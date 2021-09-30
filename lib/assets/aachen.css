@@ -836,12 +836,15 @@ table.social-class th:nth-child(1) {
 [data-aa-title="checks"] h1 {
   margin-top: 0;
 }
+[data-aa-title="checks"] h2 {
+  margin-bottom: 1rem;
+}
 [data-aa-title="checks"] table.skill-levels {
   float: right;
   width: 35%;
   margin-left: 1rem;
   font-size: var(--size-b);
-  line-height: 0.9;
+  line-height: 1.0;
 }
 [data-aa-title="checks"] table.skill-levels tr:nth-child(1) td {
   color: #b0b0b0;
