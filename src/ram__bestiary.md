@@ -2,8 +2,7 @@
 <!-- .margin.compass -->
 * _Running the Game_
 * Skill Checks
-* Morale
-* Reaction
+* Reaction & Morale
 * **Bestiary**
 * Probabilities
 
