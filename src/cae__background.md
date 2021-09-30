@@ -52,7 +52,7 @@ When a character is given a skill, it sets it at level 0. Taking it a second tim
 
 
 [^1]:
-  options:
+  maybe:
 
   <!-- .social-class -->
   | d8  | soclass |
@@ -207,7 +207,20 @@ Born in a family of priests (pagan faith) or in a family linked to a religious i
 |                  |    |             |  7 | Slash      |
 |                  |    |             |  8 | Convince   |
 
+[^3]
+
 ### Elite
 
 Born in an old roman senatorial family or in the germanic elite. Or simply being raised with the sons or daughters of an elite family and "hanging around".
+
+[^3]:
+  maybe:
+
+  <!-- .social-class -->
+  | d10 | religion   |
+  |:---:|:----------:|
+  | 1-3 | pagan      |
+  | 4-8 | christian  |
+  | 9   | heresy     |
+  | 10  | other      |
 

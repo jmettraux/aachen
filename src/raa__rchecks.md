@@ -7,15 +7,17 @@
 * Probabilities
 
 
+
 <!-- .difficulty -->
 |     | Difficulty        |
 |:---:|-------------------|
-|  5- | (no check needed) |
-|  6  | A relatively simple task that is still more than the character would usually be expected to manage in their regular background |
-|  8  | A significant challenge to a competent professional that they'd still succeed at more often than not |
+| ≤5  | (no check needed) |
+| 6   | A relatively simple task that is still more than the character would usually be expected to manage in their regular background |
+| 8   | A significant challenge to a competent professional that they'd still succeed at more often than not |
 | 10  | Something too difficult to be expected of anyone but an expert, and even they might fail |
 | 12  | Only a true master could expect to carry this off with any degree of reliability |
-| 14+ | Only a true master has any chance of achieving this at all, and even they will probably fail |
+| ≥14 | Only a true master has any chance of achieving this at all, and even they will probably fail |
+
 
 
 # Skill Checks

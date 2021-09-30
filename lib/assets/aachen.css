@@ -383,8 +383,8 @@ ul.compass li strong {
   margin-left: 0;
   /*
   direction: rtl;
-  text-indent: 0.6rem;
-  margin-right: -0.6rem;
+  text-indent: -0.6rem;
+  margin-right: 0.6rem;
   */
 }
 
@@ -992,6 +992,15 @@ table.social-class th:nth-child(1) {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+[data-aa-title="rchecks"] ul:not(.compass) {
+  list-style: none;
+  padding-inline-start: 0;
+}
+[data-aa-title="rchecks"] ul:not(.compass) li:before {
+  padding-left: 0.3rem;
+  content: '·';
+  padding-right: 0.3rem;
+}
 [data-aa-title="rchecks"] table {
   font-size: var(--size-b);
   line-height: 0.66;
@@ -1003,9 +1012,9 @@ table.social-class th:nth-child(1) {
 */
 [data-aa-title="rchecks"] table.difficulty {
   float: right;
-  width: 45%;
+  width: 40%;
   margin-left: 1rem;
-  line-height: 0.9;
+  line-height: 1.0;
 }
 [data-aa-title="rchecks"] table.probabilities {
   float: right;
@@ -1016,14 +1025,20 @@ table.social-class th:nth-child(1) {
 [data-aa-title="reaction and morale"] table + h1 {
   margin-top: 0;
 }
+[data-aa-title="reaction and morale"] h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 [data-aa-title="reaction and morale"] table.reaction {
   font-size: var(--size-b);
+  line-height: 0.7;
   float: right;
   width: 62%;
   margin-left: 1rem;
 }
 [data-aa-title="reaction and morale"] table.morale-scale {
   font-size: var(--size-b);
+  line-height: 0.7;
   float: right;
   width: 35%;
   margin-left: 1rem;

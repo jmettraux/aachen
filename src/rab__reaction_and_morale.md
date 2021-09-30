@@ -8,16 +8,29 @@
 
 
 <!-- .reaction -->
-| 2d6     | Reaction                                           |
-|:-------:|----------------------------------------------------|
-|    -  2 | Hostile, attacks if the situation allows it        |
-|  3 -  5 | Unfriendly, may hinder, harm, or be of little help |
-|  6 -  8 | Wary, neutral                                      |
-|  9 - 11 | Indifferent, uninterested                          |
-| 12 -    | Friendly, helpful                                  |
+| 2d6    | Reaction                                           |
+|:------:|----------------------------------------------------|
+|   ≤ 2  | Hostile, attacks if the situation allows it        |
+| 3 -  5 | Unfriendly, may hinder, harm, or be of little help |
+| 6 -  8 | Wary, neutral                                      |
+| 9 - 11 | Indifferent, uninterested                          |
+|  ≥ 12  | Friendly, helpful                                  |
 
 # Reaction
 
+When the adventuring party encounters one or more creatures or NPCs, the referee might want to determine randomly what their reaction is. He rolls 2d6 and consult the table above.
+
+Of course, if the opponents are ambushing the party, a reaction roll is not needed.
+
+The reaction roll result has to be adapted to the situation. A 12 reaction with a band of thug might mean that they don't want to take the life of the party and are happy to let them go for a light fee.
+
+TODO Parley
+
+## Social Encounter Reaction
+
+TODO
+
+<!--
 A reaction roll determines the reaction of another party upon meeting the player characters.
 
 That other party may be a single creature or a group of them.
@@ -35,9 +48,11 @@ A reaction roll is done against a background situation. A roll of 12 for a band 
 
 A high reaction roll combined with some caution on the part of the player characters might turn the combat into a parley and potentially avoid fight altogether.
 
-<!-- .last-p -->
 Reaction rolls may be used for social encounters as well. The player characters might be presenting a request to a local magistrate and the referee rolls 2d6 plus the party leader's CHA modifier to get a feel for the magistrate mood.
+-->
 
+<!-- .last-p -->
+x
 
 <!-- .morale-scale -->
 | Troop Type           | Morale |

@@ -34,7 +34,7 @@ os << 'sami'; 0.times { os << '·' }
 os << 'pict'; 0.times { os << '·' }
 os << 'byzantine'; 0.times { os << '·' }
 os << 'rus'; 0.times { os << '·' }
-os << 'north-african'; 0.times { os << '·' }
+os << 'maghreb'; 0.times { os << '·' }
 os << 'jewish'; 2.times { os << '·' }
 os << 'arab'; 0.times { os << '·' }
 

@@ -9,5 +9,7 @@ The class table determines the hit points for the character. The `CON` modifier 
 A character must have at least 1 as a hit point maximum. They cannot have a maximum hit points of 0 or -1.
 
 [^1]:
-  Option:<br/>a level 1 character gets the best possible roll, the example `Fighter` thus gets 9 HP
+  Option:
+
+  a level 1 character gets the best possible roll, the example `Fighter` thus gets 9 HP
 
