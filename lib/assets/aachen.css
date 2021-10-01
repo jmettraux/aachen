@@ -853,15 +853,6 @@ table.social-class th:nth-child(1) {
 [data-aa-title="combat"] h1 {
   margin-bottom: 2rem;
 }
-/*
-[data-aa-title="combat"] h2 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-[data-aa-title="combat"] h2#sequence {
-  margin-top: -1rem;
-}
-*/
 [data-aa-title="combat"] .fleuron {
   font-weight: normal;
 }
@@ -870,6 +861,45 @@ table.social-class th:nth-child(1) {
 }
 [data-aa-title="combat"] hr {
   width: 56%;
+}
+
+[data-aa-title="combat2"] h2 {
+  margin-bottom: 1rem;
+}
+[data-aa-title="combat2"] h2:not(:first-child) {
+  margin-top: 1rem;
+}
+[data-aa-title="combat2"] ul:not(.compass) {
+  padding-inline-start: 0;
+}
+[data-aa-title="combat2"] .actions ul li {
+  list-style: none;
+  text-indent: 0;
+}
+[data-aa-title="combat2"] ul:not(.compass) li:before {
+  content: '·';
+  padding-right: 0.3rem;
+}
+[data-aa-title="combat2"] .actions ul ul li {
+}
+[data-aa-title="combat2"] .actions ul ul li:before {
+  padding-left: 1.3rem;
+  content: '··';
+}
+[data-aa-title="combat2"] .actions {
+  margin-top: -0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+[data-aa-title="combat2"] .actions .bravo {
+  grid-column-start: 2;
+}
+[data-aa-title="combat2"] table.modifiers {
+  float: right;
+  width: 50%;
+  margin-left: 1rem;
+  font-size: var(--size-b);
+  line-height: 0.7;
 }
 
 [data-aa-title="health"] table.scars {

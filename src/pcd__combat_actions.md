@@ -13,37 +13,6 @@
 
 # Combat Actions
 
-These are common actions that can be taken by participants in a combat.
-
-* main action
-  * make a melee attack
-  * make a ranged attack
-  * make a mob attack
-  * cast a spell
-  * use a skill
-  * ready or stow an item
-  * reload a weapon
-  * shatter a shield
-* instant action
-  * drop an item
-* instant action + main action
-  * make a snap attack
-  * go total defense
-* move action + main action
-  * charge
-* move action
-  * screen an ally
-  * run
-  * pick up an item
-  * stand up
-  * hold an action
-  * lock shields
-* on turn action
-  * go prone
-  * delay an action
-
-...TODO<!-- RETURN -->
-
 Make A Melee Attack
 : (main action)
 : TODO
