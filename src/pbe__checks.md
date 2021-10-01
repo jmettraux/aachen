@@ -4,6 +4,8 @@
 * Scenes & Saves
 * **Skill Checks**
 * Combat
+* Cbt Actions
+* Health
 * Travel
 * Exploration
 * Advancement

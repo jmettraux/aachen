@@ -872,6 +872,11 @@ table.social-class th:nth-child(1) {
   width: 56%;
 }
 
+[data-aa-title="health"] table.scars {
+  font-size: var(--size-b);
+  line-height: 0.7;
+}
+
 [data-aa-title="casting"] dl {
   margin-top: 2rem;
 }
