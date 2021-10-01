@@ -1044,7 +1044,16 @@ table.social-class th:nth-child(1) {
   margin-left: 1rem;
 }
 [data-aa-title="reaction and morale"] .last-p {
-  margin-bottom: 1.5rem;
+  margin-bottom: 3.0rem;
+}
+[data-aa-title="reaction and morale"] ul.morale-checks {
+  list-style: none;
+  padding-inline-start: 0;
+}
+[data-aa-title="reaction and morale"] ul.morale-checks li:before {
+  padding-left: 1.3rem;
+  content: '·';
+  padding-right: 0.3rem;
 }
 
 [data-aa-title="bestiary"] h2 {
@@ -1071,7 +1080,7 @@ table.social-class th:nth-child(1) {
   padding-left: 0.3rem;
   content: '·';
 }
-[data-aa-title="bestiary"] .creature p {
+.[data-aa-title="bestiary"] .creature p {
   text-indent: 0;
 }
 [data-aa-title="bestiary"] .creature:after {
