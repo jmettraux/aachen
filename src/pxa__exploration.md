@@ -16,9 +16,7 @@
 
 A "site" may be a dungeon, an old ruin, an underground site.
 
-Time in a site is measured in turns of ten minutes[^1]. Most of the things adventurers will wish to do will take a turn to accomplish, taking into account the packing and unpacking of gear, the need to listen carefully while working, and the desire and/or need to do all things quietly and carefully.
-
-[^1]: One turn is ten minutes
+Time in a site is measured in turns of ten minutes. Most of the things adventurers will wish to do will take a turn to accomplish, taking into account the packing and unpacking of gear, the need to listen carefully while working, and the desire and/or need to do all things quietly and carefully.
 
 
 ## Movement
@@ -39,6 +37,8 @@ _Running movement_[^rm] generally lets adventurers reach any location in most si
 
 
 ## Resting
+
+...TODO<!-- RETURN -->
 
 Adventurers must rest[^4] for one turn every hour or else they becomes wearied. Heroes who spend any time in Running movement must rest for a turn immediately after each turn of doing so.[^5] Those who engage in battle must also immediately spend a turn afterwards resting.
 

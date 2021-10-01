@@ -36,6 +36,8 @@ Non-fighter characters who want to get better with their weapons without an incr
 
 ## improve saving throws
 
+...TODO<!-- RETURN -->
+
 The character becomes more capable of evading chance harms and perils. Their saving throw scores decrease by one, making it easier to to succeed on saving throws. Thus, a character with a saving throw score of 15 at first level, would have 14 at second level.
 
 ## improve skills

@@ -36,6 +36,8 @@ On a natural roll of 2 or 3, some danger or trouble has befallen the hunting par
 
 ## Foraging
 
+...TODO<!-- RETURN -->
+
 The party may attempt a WIS + Survive skill check. The difficulty is 8 for woodlands, and it may climb to 12 or more for desert lands.
 
 On success, the foraging party collects 1d6 units plus the sum of the party's survival skill level (-1 for those without a survival skill level), the maximum is 10.

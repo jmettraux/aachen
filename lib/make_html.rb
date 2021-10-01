@@ -33,7 +33,8 @@ def make_html
   File.open(out, 'wb') do |f|
     pages.each_with_index do |path, i|
       s = File.read(path)
-      next if s.match(/<!-- SKIP -->/)
+      next if s.index('<!-- SKIP -->')
+      ri = s.index('<!-- RETURN -->'); s = s[0, ri] + "\n" if ri
       t = path.match(/__(.+)\.md/)[1]
       if i > 0
         f.write("<!-- PAGE BREAK #{t} -->") \
