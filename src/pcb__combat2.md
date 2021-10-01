@@ -73,10 +73,10 @@ Dis-Advantage
 
 Damage
 : in case of successful attack;
-: ~~_weapon damage dice_ + `STR`m~~;
+: ~~_weapon damage dice_ + `STR`m~~;[^1]
 : or _weapon damage dice_ + `DEX`m if `DEX`m used for atk roll.
 
-Shock Damage[^1]
+Shock Damage
 : in case of failed attack;
 : and if _target AC_ ≤ _weapon shock AC_;
 : ~~_weapon shock damage_ + `STR`m~~ (`DEX`m if used for atk roll).
@@ -85,8 +85,25 @@ Shock Damage[^1]
   Shock ~~2/15~~ means dmg 2 + _attr mod_ if _target AC_ ≤ 15
 
 
+<!-- .modifiers -->
+| Circumstance                              | Mod    |
+|-------------------------------------------|:------:|
+| The target is at least half behind cover  | -2     |
+| · is almost completely in cover           | -4     |
+| Shooting at an adjacent prone foe         | +2     |
+| · at long range                           | -2     |
+| · at a distant prone foe                  | -2     |
+| · a single handed weapon while in contact | -4     |
+| · a two handed weapon while in contact    | **No** |
+
+
 ## Ranged Attacks
 
-Nada
-: surf.
+Like Melee Attacks, but
+
+Range
+: as per weapon description.
+
+Shock Damage
+: none.
 
