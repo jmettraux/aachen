@@ -850,6 +850,20 @@ table.social-class th:nth-child(1) {
   color: #b0b0b0;
 }
 
+[data-aa-title="combat"] h1 {
+  margin-bottom: 2rem;
+}
+[data-aa-title="combat"] h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+[data-aa-title="combat"] h2#sequence {
+  margin-top: -1rem;
+}
+[data-aa-title="combat"] .fleuron {
+  font-weight: normal;
+}
+
 [data-aa-title="casting"] dl {
   margin-top: 2rem;
 }

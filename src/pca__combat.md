@@ -13,35 +13,99 @@
 
 # Combat
 
-## Rounds
 
-A combat situation is divided in **rounds** of roughly six seconds. Every participant takes their turn during the round, then another round begins.
+## Sequence
 
-1. reaction roll if necessary
-2. surprise round if necessary
-3. initiative roll
-4. round begins
-  * initiative side takes their turns
-  * other side takes their turns
-  * go to 4, next round begins
+Reaction
+: if necessary, ~~2d6~~ →<br/>≤ 3 Hostile | 3-5 Unfriendly | 6-8  Neutral |<br/>9-11 Indifferent | ≥ 12 Helpful.
 
-## Surprise
+Surprise
+: no surprise, or;
+: a side gets the surprise, or;
+: `DEX`/`Sneak` vs `WIS`/`Notice` opposed roll or equivalent;
 
-Attackers always try to achieve surprise.
+Surprise Round
+: if a side was granted the surprise.
 
-To determine if a side surprise the other, an opposed roll DEX/Sneak versus WIS/Notice can be used. If the attackers DEX/Sneak roll prevails, they get a full round of action to themselves. Initiative is rolled when this surprise round ends.
+Initiative[^1]
+: each side rolls ~~1d8~~ + side's best `DEX`m;
+: the side with the highest roll goes first,<br/>in case of tie, the PC side goes first;
 
-If a group of undisciplined and/or poorly trained non-player characters is surprised, the referee might make a Morale check for them.
+<span class="fleuron">❦</span> Hi Ini Round
+: each participant takes their turn.
 
-## Initiative
+Lo Ini Round
+: each participant takes their turn;
+: then loop back to ❦ unless the combat has ended.
 
-The player character side throws 1d8 and adds the best DEX modifier found among them to the result. The opposing side does the same. The side with the highest result goes first. In case of tie, the player character side goes first.
+Morale
+: on sustaining its first casualty and<br/>when half its participants are down,<br/>the NPC side breaks and flees/parleys if ~~2d6~~ > _Morale_
 
-Each side then lets act its members in any order they like. Once they have all had their turn, the other side starts acting. When both side have acted for the round, the next round begins, again starting with the side that initially won the initiative.
+[^1]:
+  option:
 
-**Option:** Each player character rolls for their own initiative, 1d8 + DEX modifier. The referee rolls once for the opposing side. Advantage: it's not all or nothing, one or more player character may act before the opposing side. Disadvantage: order of action is not group decided, but dice decided, potentially hindering group tactics.
+  each player rolls 1d8 + `DEX`m and the players get interleaved initiative (while the opfor still has its rounds together)
 
-TODO sequence for the initiative optional rule
+## Actions
+
+<!-- .actions -->
+Combat Round
+: approximately 6 seconds;
+: during which participant may perform<br/>one **Main Action** and one **Move Action**, in any order.
+: **On Turn Action** and **Instant Actions** are available too.
+
+Main Action (MA)
+: takes up most of the round;
+: examples: attacking, casting a spell, drawing a friend to cover, etc;
+: may be turned into a **MvA** (so 2 **MvA** for this round).
+
+Move Action (MvA)
+: bar
+
+On Turn Action (OTA)
+: bar
+
+Instant Action (IA)
+: bar
+
+
+<!-- RETURN -->
+
+### Main Actions
+
+A **main action** takes up most of the participant's round. Attacking an adversary, casting a spell, drawing a downed ally into cover, are examples of main actions.
+
+A participant may decide to turn their **main action** into a **move action**, effectively benefitting from two **move actions** for their round.
+
+### Move Actions
+
+The participant may move from zero to their normal movement rate, for a human participant, that's from 0 to 30 feet. Given the terrain and/or the circumstance the referee might reduce this movement rate.
+
+A move action may not be split, thus it's not possible to move 10 feet (move action), shoot a bow (main action), and then move 20 feet (move action action).
+
+### On Turn Actions
+
+**On turn actions** are simple and quick actions. Like main and move actions, on turn actions are performed by participants when it's their turn. Whereas main and move actions are limited, as many on turn actions as the referee judges reasonable may be performed.
+
+Example of on turn actions are, saying a few words, reloading a bow from a readied quiver, drawing out a readied object, and similar actions.
+
+### Instant Actions
+
+**Instant actions** are generally linked to talents and special powers. They are so fast and simple that they can be performed at any, even out of turn, they can be delayed until needed. There is no limit on the number of instant actions a participant can take (unless the instant action description says otherwise).
+
+The referee decides on the execution orders if multiple instant actions are triggered at the same time.
+
+### Summary
+
+For the round, a participant may perform
+
+* on their turn, one **main action** (or a second **move action**)
+* on their turn, one **move action**
+* on their turn, as many **on turn actions** as allowed by the referee
+* out of turn, as many **instant actions** as allowed by the referee
+
+
+<!-- RETURN -->
 
 ## In And Out Of Melee
 
