@@ -1,12 +1,17 @@
 
-<!-- SKIP -->
+<!-- .margin.compass -->
+* _Playing the Game_
+* Scenes & Saves
+* Skill Checks
+* **Combat**
+* Cbt Actions
+* Health
+* Travel
+* Exploration
+* Advancement
 
 
 # Combat
-
-## Sides
-
-A combat usually involves two sides, the player characters and their allies' side and the opposing side.
 
 ## Rounds
 
@@ -27,8 +32,6 @@ Attackers always try to achieve surprise.
 To determine if a side surprise the other, an opposed roll DEX/Sneak versus WIS/Notice can be used. If the attackers DEX/Sneak roll prevails, they get a full round of action to themselves. Initiative is rolled when this surprise round ends.
 
 If a group of undisciplined and/or poorly trained non-player characters is surprised, the referee might make a Morale check for them.
-
-<!-- PAGE BREAK combat -->
 
 ## Initiative
 
@@ -53,8 +56,6 @@ For example, a 4th level fighter with a +1 STR modifier and Slash 1 attacks with
 Unlike skill checks, no level in Slash, Shoot, or Punch is not counted as -1, but as -2. Thus if the fighter had no training in Slash, their hit roll would become 1d20 + 4 + 1 - 2, so 1d20 + 3.
 
 The weapon dictates which attribute modifier is used, the rule of thumb is STR for melee weapons and DEX for ranged weapons. Some weapons let the user choose between STR and DEX, the attribute modifier is used for the attack hit roll and the attack damage roll (and eventually shock damage).
-
-<!-- PAGE BREAK combat -->
 
 ### Melee Attacks
 
@@ -86,8 +87,6 @@ Shooting a two-handed weapon while in contact is not allowed.
 
 TODO
 
-<!-- PAGE BREAK combat -->
-
 ### Shock Damage
 
 Some weapons or creature attacks have _shock damage_. It is expressed as dmg / AC and only applies to melee attacks.
@@ -109,23 +108,4 @@ TODO
 ## Wielding Two Weapons
 
 TODO
-
-<!-- PAGE BREAK combat -->
-
-## 1d20 Vs Target Table
-
-| Target | 1d20 |   Adv  |  ~ |   Dis  |  ~ |   | Target | 1d20 |   Adv  |  ~ |   Dis  |  ~ |
-|-------:|-----:|-------:|---:|-------:|---:|---|-------:|-----:|-------:|---:|-------:|---:|
-|      2 |  95% | 99.75% | +1 | 90.25% | -1 |   |     12 |  45% | 69.75% | +5 | 20.25% | -5 |
-|      3 |  90% | 99.00% | +2 | 81.00% | -2 |   |     13 |  40% | 64.00% | +5 | 16.00% | -5 |
-|      4 |  85% | 97.75% | +3 | 72.25% | -3 |   |     14 |  35% | 57.75% | +5 | 12.25% | -5 |
-|      5 |  80% | 96.00% | +3 | 64.00% | -3 |   |     15 |  30% | 51.00% | +4 |  9.00% | -4 |
-|      6 |  75% | 93.75% | +4 | 56.25% | -4 |   |     16 |  25% | 43.75% | +4 |  6.25% | -4 |
-|      7 |  70% | 91.00% | +4 | 49.00% | -4 |   |     17 |  20% | 36.00% | +3 |  4.00% | -3 |
-|      8 |  65% | 87.75% | +5 | 42.25% | -5 |   |     18 |  15% | 27.75% | +3 |  2.25% | -3 |
-|      9 |  60% | 84.00% | +5 | 36.00% | -5 |   |     19 |  10% | 19.00% | +2 |  1.00% | -2 |
-|     10 |  55% | 79.75% | +5 | 30.25% | -5 |   |     20 |   5% |  9.75% | +1 |  0.25% | -1 |
-|     11 |  50% | 75.00% | +5 | 25.00% | -5 |   |        |      |        |    |        |    |
-
-The fighter in the example above had a hit roll 1d20 + 6 and do 14 or better. So the target is 8, at 65%. Giving the advantage makes the probability jump to 87.75% (which is equivalent to giving a +5).
 

@@ -1,5 +1,13 @@
 
-<!-- SKIP -->
+<!-- .margin.compass -->
+* _Playing the Game_
+* Scenes & Saves
+* Skill Checks
+* Combat
+* **Cbt Actions**
+* Travel
+* Exploration
+* Advancement
 
 
 # Combat Actions
@@ -28,8 +36,6 @@ A move action may not be split, thus it's not possible to move 10 feet (move act
 
 Example of on turn actions are, saying a few words, reloading a bow from a readied quiver, drawing out a readied object, and similar actions.
 
-<!-- PAGE BREAK actions -->
-
 ### Instant Actions
 
 **Instant actions** are generally linked to talents and special powers. They are so fast and simple that they can be performed at any, even out of turn, they can be delayed until needed. There is no limit on the number of instant actions a participant can take (unless the instant action description says otherwise).
@@ -44,8 +50,6 @@ For the round, a participant may perform
 * on their turn, one **move action**
 * on their turn, as many **on turn actions** as allowed by the referee
 * out of turn, as many **instant actions** as allowed by the referee
-
-<!-- PAGE BREAK actions -->
 
 ## Actions
 
@@ -78,7 +82,6 @@ These are common actions that can be taken by participants in a combat.
   * go prone
   * delay an action
 
-<!-- PAGE BREAK actions -->
 
 Make A Melee Attack
 : (main action)
@@ -147,8 +150,6 @@ Stand Up
 Go Prone
 : (on Turn action)
 : TODO
-
-<!-- PAGE BREAK actions -->
 
 Hold An action
 : (move action)

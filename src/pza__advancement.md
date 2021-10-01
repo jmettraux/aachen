@@ -1,8 +1,17 @@
 
-<!-- SKIP -->
+<!-- .margin.compass -->
+* _Playing the Game_
+* Scenes & Saves
+* Skill Checks
+* Combat
+* Cbt Actions
+* Health
+* Travel
+* Exploration
+* **Advancement**
 
 
-# Advancement
+# Advancement TODO
 
 FIXME rework and restructure (make it shorter)
 

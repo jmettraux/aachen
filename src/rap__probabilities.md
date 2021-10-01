@@ -9,9 +9,8 @@
 
 # Probabilities
 
-## Saving Throws
 
-TODO explain table below
+## Saving Throws
 
 | level |    | -2  |    | -1  |    |  0  |    |  1  |    |  2  |
 |------:|---:|:---:|---:|:---:|---:|:---:|---:|:---:|---:|:---:|
@@ -28,3 +27,20 @@ TODO explain table below
 
 For example, a character of level 3 with a DEX modifier of +2 has to roll 11 or better on a d20 to avoid falling in a suddenly spotted pit, that's 50%.
 
+
+## 1d20 Vs Target Table
+
+| Target | 1d20 |   Adv  |  ~ |   Dis  |  ~ |   | Target | 1d20 |   Adv  |  ~ |   Dis  |  ~ |
+|-------:|-----:|-------:|---:|-------:|---:|---|-------:|-----:|-------:|---:|-------:|---:|
+|      2 |  95% | 99.75% | +1 | 90.25% | -1 |   |     12 |  45% | 69.75% | +5 | 20.25% | -5 |
+|      3 |  90% | 99.00% | +2 | 81.00% | -2 |   |     13 |  40% | 64.00% | +5 | 16.00% | -5 |
+|      4 |  85% | 97.75% | +3 | 72.25% | -3 |   |     14 |  35% | 57.75% | +5 | 12.25% | -5 |
+|      5 |  80% | 96.00% | +3 | 64.00% | -3 |   |     15 |  30% | 51.00% | +4 |  9.00% | -4 |
+|      6 |  75% | 93.75% | +4 | 56.25% | -4 |   |     16 |  25% | 43.75% | +4 |  6.25% | -4 |
+|      7 |  70% | 91.00% | +4 | 49.00% | -4 |   |     17 |  20% | 36.00% | +3 |  4.00% | -3 |
+|      8 |  65% | 87.75% | +5 | 42.25% | -5 |   |     18 |  15% | 27.75% | +3 |  2.25% | -3 |
+|      9 |  60% | 84.00% | +5 | 36.00% | -5 |   |     19 |  10% | 19.00% | +2 |  1.00% | -2 |
+|     10 |  55% | 79.75% | +5 | 30.25% | -5 |   |     20 |   5% |  9.75% | +1 |  0.25% | -1 |
+|     11 |  50% | 75.00% | +5 | 25.00% | -5 |   |        |      |        |    |        |    |
+
+The fighter in the example above had a hit roll 1d20 + 6 and do 14 or better. So the target is 8, at 65%. Giving the advantage makes the probability jump to 87.75% (which is equivalent to giving a +5).
