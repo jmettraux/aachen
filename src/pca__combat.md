@@ -14,8 +14,6 @@
 # Combat
 
 
-## Sequence
-
 Reaction
 : if necessary, ~~2d6~~ →<br/>≤ 3 Hostile | 3-5 Unfriendly | 6-8  Neutral |<br/>9-11 Indifferent | ≥ 12 Helpful.
 
@@ -32,10 +30,10 @@ Initiative[^1]
 : the side with the highest roll goes first,<br/>in case of tie, the PC side goes first;
 
 <span class="fleuron">❦</span> Hi Ini Round
-: each participant takes their turn.
+: each participant in this side takes their turn.
 
 Lo Ini Round
-: each participant takes their turn;
+: each participant in that side takes their turn.
 : then loop back to ❦ unless the combat has ended.
 
 Morale
@@ -46,63 +44,34 @@ Morale
 
   each player rolls 1d8 + `DEX`m and the players get interleaved initiative (while the opfor still has its rounds together)
 
-## Actions
+
+<hr/>
 
 <!-- .actions -->
 Combat Round
 : approximately 6 seconds;
-: during which participant may perform<br/>one **Main Action** and one **Move Action**, in any order.
-: **On Turn Action** and **Instant Actions** are available too.
+: 1 **MA** + 1 **MvA** | 1 **MvA** + 1 **MA** | 2 **MvA**;
+: plus as many **OTA** as the referee deems reasonable.
 
 Main Action (MA)
 : takes up most of the round;
-: examples: attacking, casting a spell, drawing a friend to cover, etc;
-: may be turned into a **MvA** (so 2 **MvA** for this round).
+: _examples_: attacking, casting a spell, drawing a friend to cover, apply a skill, etc.
 
 Move Action (MvA)
-: bar
+: from 0 to movement rate (30ft 9m 6sq t for a human);
+: may not be split (may not move 10ft shoot, then move the remaining 20ft).
 
 On Turn Action (OTA)
-: bar
+: are performed on turn, like **MA** and **MvA**;
+: are simple and quick actions;
+: as many may be performed as the referee deems reasonable;
+: _examples_: saying a few word, drawing out a readied object, reloading a bow from a readied quiver, etc.
 
 Instant Action (IA)
-: bar
-
-
-<!-- RETURN -->
-
-### Main Actions
-
-A **main action** takes up most of the participant's round. Attacking an adversary, casting a spell, drawing a downed ally into cover, are examples of main actions.
-
-A participant may decide to turn their **main action** into a **move action**, effectively benefitting from two **move actions** for their round.
-
-### Move Actions
-
-The participant may move from zero to their normal movement rate, for a human participant, that's from 0 to 30 feet. Given the terrain and/or the circumstance the referee might reduce this movement rate.
-
-A move action may not be split, thus it's not possible to move 10 feet (move action), shoot a bow (main action), and then move 20 feet (move action action).
-
-### On Turn Actions
-
-**On turn actions** are simple and quick actions. Like main and move actions, on turn actions are performed by participants when it's their turn. Whereas main and move actions are limited, as many on turn actions as the referee judges reasonable may be performed.
-
-Example of on turn actions are, saying a few words, reloading a bow from a readied quiver, drawing out a readied object, and similar actions.
-
-### Instant Actions
-
-**Instant actions** are generally linked to talents and special powers. They are so fast and simple that they can be performed at any, even out of turn, they can be delayed until needed. There is no limit on the number of instant actions a participant can take (unless the instant action description says otherwise).
-
-The referee decides on the execution orders if multiple instant actions are triggered at the same time.
-
-### Summary
-
-For the round, a participant may perform
-
-* on their turn, one **main action** (or a second **move action**)
-* on their turn, one **move action**
-* on their turn, as many **on turn actions** as allowed by the referee
-* out of turn, as many **instant actions** as allowed by the referee
+: are simple and fast, and linked to traits and special powers;
+: may be performed _out of turn_;
+: as many as the referee deems reasonable;
+: execution order is decided by the referee if many trigger at the same time.
 
 
 <!-- RETURN -->

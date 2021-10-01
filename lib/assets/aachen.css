@@ -853,6 +853,7 @@ table.social-class th:nth-child(1) {
 [data-aa-title="combat"] h1 {
   margin-bottom: 2rem;
 }
+/*
 [data-aa-title="combat"] h2 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -860,8 +861,15 @@ table.social-class th:nth-child(1) {
 [data-aa-title="combat"] h2#sequence {
   margin-top: -1rem;
 }
+*/
 [data-aa-title="combat"] .fleuron {
   font-weight: normal;
+}
+[data-aa-title="combat"] dl {
+  grid-template-columns: 34% auto;
+}
+[data-aa-title="combat"] hr {
+  width: 56%;
 }
 
 [data-aa-title="casting"] dl {
