@@ -37,10 +37,10 @@ TODO
 * A creature dies or is mortally wounded at zero hit points
 * Minor NPCs, PCs with the Frail quality, or creatures hit by unsurvivable injuries die instantly
 * Others are mortally wounded and die six rounds later
-* An ally can stabilize the mortally wounded with a DEX/Heal or an INT/Heal check at a difficulty of 8 plus the number of full rounds since the wounded was felled
-* Stabilized creatures stop dying and revive in ten minutes with one hit point and the Frail quality
+* An ally can stabilise the mortally wounded with a DEX/Heal or an INT/Heal check at a difficulty of 8 plus the number of full rounds since the wounded was felled
+* Stabilised creatures stop dying and revive in ten minutes with one hit point and the Frail quality
 * Creatures lose the Frail quality after magical healing or a week of bed rest
-* Magical healing stabilizes and revives a Mortally Wounded PC, the frail quality is not applied
+* Magical healing stabilises and revives a Mortally Wounded PC, the frail quality is not applied
 
 ## Reaction Checks
 

@@ -845,7 +845,7 @@ By paying 1 CP (and an instant action), the caster adds (1d8 + _élan_) HPs (min
 
 Healing arrow.
 
-Works from 15 feet on only. Grants (1d6 + _élan_) HPs (min 1) to the target. Does not stabilize a Mortally Wounded creature.
+Works from 15 feet on only. Grants (1d6 + _élan_) HPs (min 1) to the target. Does not stabilise a Mortally Wounded creature.
 
 <!-- </div> -->
 
@@ -875,7 +875,7 @@ Gives temporary (1d6 + _élan_) HPs (min 1) for the current scene. When the scen
 
 Healing hand.
 
-Gives back (1d6 + _élan_) HPs (min 1) to the targetted creature or stabilizes it (back to 1 HP and not Mortally Wounded.
+Gives back (1d6 + _élan_) HPs (min 1) to the targetted creature or stabilises it (back to 1 HP and not Mortally Wounded.
 
 <!-- </div> -->
 
@@ -891,9 +891,9 @@ Gives back (1d6 + _élan_) HPs (min 1) to the targetted creature or stabilizes i
 * **Mov** 1 CP/5ft
 * **Prol** 1 CP/min
 
-Stabilization hut.
+Stabilisation hut.
 
-Mortally wounded creatures in the hut stabilize (as per rules, they reach 1 HP after 10 minutes of rest).
+Mortally wounded creatures in the hut stabilise (as per rules, they reach 1 HP after 10 minutes of rest).
 
 <!-- </div> -->
 
@@ -908,7 +908,7 @@ Mortally wounded creatures in the hut stabilize (as per rules, they reach 1 HP a
 
 All the creatures touched by the pole are granted (1d3 + _élan_) HPs (min 1).
 
-The pole does stabilize a Mortally Wounded creature.
+The pole does stabilise a Mortally Wounded creature.
 
 <!-- </div> -->
 

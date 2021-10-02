@@ -76,7 +76,7 @@ Exert
 
 Heal
 : To mend wounds, combat diseases, neutralize poisons.
-: This skill is used when stabilizing _Mortally Wounded_ characters, its importance cannot be overstated.
+: This skill is used when stabilising _Mortally Wounded_ characters, its importance cannot be overstated.
 
 Hunt
 : To take game with snare, arrow or spear, to know the habits and the manner of preys.
