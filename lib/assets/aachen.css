@@ -483,8 +483,8 @@ table.social-class th:nth-child(1) {
   font-size: var(--size-b);
   color: #c0c0c0;
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: 0.87rem;
+  right: 1.2rem;
 }
 [data-aa-title="character creation"] dl {
   margin-top: 2rem;
