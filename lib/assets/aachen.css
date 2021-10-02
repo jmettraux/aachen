@@ -934,11 +934,32 @@ table.social-class th:nth-child(1) {
   text-indent: -0.5rem;
   padding-left: 0.5rem;
 }
+[data-aa-title="cactions"] .abbreviations dt {
+  text-transform: initial;
+  font-variant: normal;
+  font-weight: bold;
+}
 [data-aa-title="cactions"] dt:after {
   content: '';
 }
 [data-aa-title="cactions"] dd {
   padding-left: 0.5rem;
+}
+[data-aa-title="cactions"] dl:not(.abbreviations) dt {
+  font-size: var(--size-a);
+  margin-right: 0;
+  padding-right: 0;
+}
+[data-aa-title="cactions"] dl:not(.abbreviations) dt + dd {
+  color: #b0b0b0;
+  font-size: 80%;
+  display: inline;
+  margin-left: 0;
+  padding-left: 0;
+}
+[data-aa-title="cactions"] dl:not(.abbreviations) dt + dd:before {
+  content: '·';
+  padding-right: 0.3rem;
 }
 [data-aa-title="cactions"] .text-block {
   display: flex;

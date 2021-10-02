@@ -13,87 +13,111 @@
 
 # Combat Actions
 
-Cast A Spell
-: Most spells require a Main Action **MA** to cast (and a free hand).
+[^1]:
+  <!-- .abbreviations -->
+  MA
+  : Main Action
 
-Charge
-: (move action + main action)
-: TODO
+  MvA
+  : Move Action
 
-Delay An action
-: (on Turn action)
-: TODO
+  OTA
+  : On Turn Action
 
-Drop An Item
-: (instant action)
+  IA
+  : Instant Action
+
+Cast a Spell
+: **MA**
+: Cast a spell, with a free hand.
+
+Delay an Action
+: **OTA**
+: Delay remainder of their actions until after a particular participant has acted.
+: Unlike `Hold an Action`, you cannot choose to act earlier.
+
+Hold an Action
+: **MvA**
+: By choosing to _Hold an Action_, the combatant can delay taking the rest of their actions until later in the round, activating them as an Instant Action.
+: Thus, a character who wins the initiative might use their Move Action to _Hold and Action_. Later in the round, as an enemy rushes around a corner, he may Instantly elect to use his Main Action to _Make a Ranged Attack_ with his readied crossbow. If acting in response to someone else's impeding action, the held action is resolved first.
+
+Foo
+: **OTA**
+: The combatant simply chooses to delay the remainder of their actions this turn until after a particular other participant has acted. Such a pause may be needed for some tactical plan or to respond to a particular enemy's action. Unlike `Hold an Action`, however, they cannot suddenly choose to act earlier than their chosen place in the turn order; they must wait until the participant they chose has acted before using whatever remaining actions they may have for the turn.
+
+Drop an Item
+: **IA**
 : TODO
 
 Go Prone
-: (on Turn action)
+: **OTA**
 : TODO
+
+[^1]
 
 Go Total Defense
-: (instant action + main action)
-: TODO
-
-Hold an Action
-: (move action)
+: **IA** + **MA**
 : TODO
 
 Lock Shields
-: (move action)
+: **MA**
 : TODO
 
+Make a Charge Attack
+: **MvA** + **MA**
+: Rush in straight line from at least 30ft (9m 6sq t) up to 60ft (18m 12sq tt) and hurl a spear or make a melee attack with a +2 attack roll bonus.
+: -2 penalty to AC until the whole combat round ends.
+
+<!-- .bravo -->
 Make a Melee Attack
-: (main action)
+: **MA**
 : TODO
 
 Make a Ranged Attack
-: (main action)
+: **MA**
 : TODO
 
 Make a Fighting Withdrawal
-: (main action)
+: **MA**
 : TODO
 
 Make a Snap Attack
-: (instant action + main action)
+: **IA** + **MA**
 : TODO
 
 Make a Mob Attack
-: (main action)
+: **MA**
 : TODO
 
-<!-- .bravo -->
 Pick Up An Item
-: (move action)
+: **MvA**
 : TODO
 
 Ready Or Stow An Item
-: (main action)
+: **MA**
 : TODO
 
 Reload A Weapon
-: (main action)
+: **MA**
 : TODO
 
-Run
-: (move action) ~~~
+_Run_
+: **MvA**
 : TODO
 
 Screen An Ally
-: (move action)
+: **MvA**
 : TODO
 
 Shatter A Shield
-: (main action)
+: **MA**
 : TODO
 
 Stand Up
-: (move action)
+: **MvA**
 : TODO
 
 Use A Skill
-: (main action)
+: **MA**
 : TODO
 
