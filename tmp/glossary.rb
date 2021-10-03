@@ -138,11 +138,35 @@
 # : TODO
 
 GLOSSARY = %{
-Armor Class or AC
 
-Strength or `STR`
+Armor Class (AC)
+The higher the AC, the better the character avoids or absorbs damage.
 
-Strength Modifier or `STR`m
+Attribute Modifiers
+`STR`m, `DEX`m, `CON`m, `INT`m, `WIS`m, and `CHA`m.
+An integer between -2 and +2 used to modified skill checks, attack rolls, and more.
+The higher the better.
+
+Attributes
+`STR`, `DEX`, `CON`, `INT`, `WIS`, and `CHA`.
+Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma, scored as integers between 3 and 18.
+The higher the better.
+
+Hit Points
+
+Saving Throw or Save
+
+Trait
+
+Class
+
+Background
+
+Level
+
+Advantage and Disadvantage
+Normally, one uses 1d20 for an attack and hopes for the highest result. When given the advantage, 2d20 is rolled and the highest of the two results counts.
+
 }
 
 entries = []
@@ -167,7 +191,11 @@ puts
 entries.sort_by(&:first)
   .each do |e|
     puts e.first
-    puts e.last
+    print ": "
+    e.last.each do |l|
+      print "#{l} "
+    end
+    puts
     puts
   end
 puts "<!-- </div> -->"

@@ -480,7 +480,7 @@ table.social-class th:nth-child(1) {
 }
 
 [data-aa-title="intro"] .glossary {
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
