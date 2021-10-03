@@ -37,14 +37,14 @@ Actions that are common in combat:
 * Move Action **MvA** + Main Action **MA**
   * charge
 * Move Action **MvA**
-  * ~~hold an action~~
+  * ~~hold action~~
   * lock shields
   * pick up an item
   * run
   * screen an ally
   * stand up
 * On Turn Action **OTA**
-  * ~~delay an action~~
+  * ~~take action after~~
   * go prone
 
 <!-- </div> -->
