@@ -113,7 +113,7 @@ A `Caster` has `VERY INTRICATE` and `VERY WISE` as class talents.
 The ~~factor~~ for computing the cast points (CP) of a `Caster` is the best of the `INT`, `WIS`, or `CHA` modifiers.
 
 
-# _or a_ Mix _of_ two Classes
+# _or a_ Hybrid _of_ two Classes
 
 `Fighter`, `Dabster`, and `Caster` are meant to cover a wide range of characters, but sometimes more granularity is required. A mix has its own level progression table, but the player has to choose between the class talents or halves of them.
 
