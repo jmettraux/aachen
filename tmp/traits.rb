@@ -1,5 +1,9 @@
 
 TRAITS = %{
+Snappy?
+: -3 instead of -4 on snap attacks
+: -2 instead of -4 on snap attacks
+
 Firm
 : +1 on _Physical_ saves
 : Advantage on _Physical_ saves

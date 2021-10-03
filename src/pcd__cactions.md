@@ -30,27 +30,30 @@
 
 Make a Melee Attack
 : **MA**
-: TODO
+: Make a melee attack with a readied melee weapon, see previous page.
 
 Make a Ranged Attack
 : **MA**
-: TODO
+: Make a ranged attack with a readied ranged weapon, see previous page.
 
 Make a Charge Attack
 : **MvA** + **MA**
 : Rush in straight line from at least 30ft (9m 6sq t) up to 60ft (18m 12sq tt) and hurl a spear or make a melee attack with a +2 attack roll bonus.
 : -2 penalty to AC until the whole combat round ends.
 
-Make a Snap Attack[^1]
+Make a Snap Attack
 : **IA** + **MA**
-: TODO
+: The character decides to act immediately (before his turn), sacrificing accuracy for speed. They _Make a Melee Attack_ or _Make a Ranged Attack_ against a foe in range;
+: The attack takes a -4 penalty to its hit roll.
+: If multiple combatants decide to _Make a Snap Attack_ at the same time, they are resolved simultaneously;
+: (if the character is a nameless NPC, the referee shouldn't bother granting them snap attacks).
 
-Make a Fighting Withdrawal
+Make a Fighting Withdrawal[^1]
 : **MA**
 : TODO
 
-Make a Mob Attack
-: **MA**
+Go Total Defense
+: **IA** + **MA**
 : TODO
 
 Cast a Spell
@@ -60,10 +63,6 @@ Cast a Spell
 <!-- .bravo -->
 Go Prone
 : **OTA**
-: TODO
-
-Go Total Defense
-: **IA** + **MA**
 : TODO
 
 ~~Take Action After~~
@@ -115,6 +114,10 @@ Use A Skill
 : TODO
 
 Lock Shields
+: **MA**
+: TODO
+
+Make a Mob Attack
 : **MA**
 : TODO
 

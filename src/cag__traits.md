@@ -100,7 +100,15 @@ The talent descriptions have thus two lines, one for the _normal_ gift, and one 
 
 <!-- <div.trait> -->
 
-### Swerving **24**
+### Snappy? **24**
+* -3 instead of -4 on snap attacks
+* -2 instead of -4 on snap attacks
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
+### Swerving **25**
 * Once per scene, as an instant action, a successful attack against the character can be negated
 * As per · or a missed attack by the character can be made to succeed
 
@@ -108,7 +116,7 @@ The talent descriptions have thus two lines, one for the _normal_ gift, and one 
 
 <!-- <div.trait> -->
 
-### Vigorous **25**
+### Vigorous **26**
 * TODO
 * TODO
 
@@ -116,7 +124,7 @@ The talent descriptions have thus two lines, one for the _normal_ gift, and one 
 
 <!-- <div.trait> -->
 
-### Watchful **26**
+### Watchful **31**
 * TODO
 * TODO
 
@@ -124,7 +132,7 @@ The talent descriptions have thus two lines, one for the _normal_ gift, and one 
 
 <!-- <div.trait> -->
 
-### Wise **31**
+### Wise **32**
 * +1 on _Mental_ saves
 * Advantage on _Mental_ saves
 
@@ -132,7 +140,7 @@ The talent descriptions have thus two lines, one for the _normal_ gift, and one 
 
 <!-- <div.trait> -->
 
-### Zealous 4 **32**
+### Zealous 3 **33**
 * Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 * Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 
@@ -140,15 +148,7 @@ The talent descriptions have thus two lines, one for the _normal_ gift, and one 
 
 <!-- <div.trait> -->
 
-### Zealous 2 **33**
-* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
-* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
-
-<!-- </div> -->
-
-<!-- <div.trait> -->
-
-### Zealous 3 **34**
+### Zealous 2 **34**
 * Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 * Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 
@@ -164,15 +164,7 @@ The talent descriptions have thus two lines, one for the _normal_ gift, and one 
 
 <!-- <div.trait> -->
 
-### Zealous 5 **36**
-* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
-* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
-
-<!-- </div> -->
-
-<!-- <div.trait> -->
-
-### Zealous 6 **41**
+### Zealous 4 **36**
 * Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 * Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 
@@ -181,20 +173,10 @@ The talent descriptions have thus two lines, one for the _normal_ gift, and one 
 
 <!-- PAGE BREAK traits -->
 
-<!-- .margin.compass -->
-* _Character Creation_
-* Atts & Saves
-* Background
-* Class
-* **Traits**
-* Hit Points
-* Name
-* Equipment
-
 
 <!-- <div.trait> -->
 
-### Zealous 7 **42**
+### Zealous 5 **41**
 * Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 * Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 
@@ -202,7 +184,7 @@ The talent descriptions have thus two lines, one for the _normal_ gift, and one 
 
 <!-- <div.trait> -->
 
-### Zealous 8 **43**
+### Zealous 6 **42**
 * Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 * Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 
@@ -210,7 +192,7 @@ The talent descriptions have thus two lines, one for the _normal_ gift, and one 
 
 <!-- <div.trait> -->
 
-### Zealous 9 **44**
+### Zealous 7 **43**
 * Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 * Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 
@@ -218,7 +200,7 @@ The talent descriptions have thus two lines, one for the _normal_ gift, and one 
 
 <!-- <div.trait> -->
 
-### Zealous 10 **45**
+### Zealous 8 **44**
 * Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 * Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 
@@ -226,9 +208,11 @@ The talent descriptions have thus two lines, one for the _normal_ gift, and one 
 
 <!-- <div.trait> -->
 
-### Zealous 11 **46**
+### Zealous 9 **45**
 * Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 * Advantage on Luck save lore ipsum nihil obstat pan kun pudding
 
 <!-- </div> -->
+
+<!-- traits: 23 -->
 
