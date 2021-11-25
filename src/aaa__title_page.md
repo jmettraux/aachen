@@ -4,7 +4,7 @@
 
 ${NAME_CAP} is a set of tabletop role playing rules targetting a low-fantasy Europe between the Dark Ages and AD 1100.
 
-It is based on Star Without Numbers and its sibling games by Kevin Crawford. Only the core rules of those games are present here, inherited from the old ancient. No intellectual property of Kevin Crawford is reproduced here.
+It's taking inspiration from Gallant&Bold from John Grümph and Stars Without Number from Kevin Crawford.
 
 Git Branch
 : ${GITBRA}
