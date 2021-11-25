@@ -140,9 +140,9 @@ The talent descriptions have thus two lines, one for the _normal_ gift, and one 
 
 <!-- <div.trait> -->
 
-### Zealous 3 **33**
-* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
-* Advantage on Luck save lore ipsum nihil obstat pan kun pudding
+### Fast **33**
+* Advantage on initiative rolls (best of 2d8)
+* Super advantage on initiative rolls (sum of 2d8)
 
 <!-- </div> -->
 
