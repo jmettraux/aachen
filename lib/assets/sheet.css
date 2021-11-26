@@ -1,0 +1,171 @@
+
+/* aachen.css */
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+*/
+@import url("https://use.typekit.net/aqv1anf.css");
+
+/*
+ *   4pt  Brilliant      Perle
+ *   5pt  Pearl          Sedanoise
+ *   6pt  Nonpareil      Nonpareille
+ *   7pt  Minion         Mignonne
+ *   8pt  Brevier        Gaillarde Petit-texte
+ *   9pt  Bourgeois      Petit-romain Gaillarde
+ *  10pt  Long Primer    Philosophie
+ *  11pt  Small Pica     Cicero
+ *  12pt  Pica           St-Augustin
+ *  14pt  English        Gros-texte
+ *  18pt  Great Primer   Gros-romain
+ *  20pt  Paragon        Petit-paragon
+ */
+
+/*
+ * [ ] TODO try small caps for **bold**
+ * [x] TODO style <blockquote>
+ */
+
+:root {
+
+  --phi: 1.61803398875;
+  --sq2: 1.41421356237;
+
+  --size-a: 14pt;
+    --mul-a: 1.15;
+  --size-b: 12pt;
+    --mul-b: calc((2 * var(--size-a) * var(--mul-a)) / (3 * var(--size-b)));
+  --size-c: 10pt;
+    --mul-c: calc((1 * var(--size-a) * var(--mul-a)) / (2 * var(--size-c)));
+
+  --page-width: 210mm; /* A4 */
+  --page-height: 297mm; /* A4 */
+  /*--page-width: 215.9mm; / * US Letter */
+  /*--page-height: 279.4mm; / * US Letter */
+
+  /*
+  --tblock-height: calc(var(--page-height) / 10 * 9);
+  --tblock-width: calc(var(--tblock-height) / var(--phi));
+
+  --top-margin: calc((var(--page-height) - var(--tblock-height)) / 3);
+  --spine-margin: calc(var(--page-width) / 21);
+
+  --edge-margin: calc(var(--page-width) - var(--spine-margin) - var(--tblock-width));
+
+  --side-left: calc(var(--spine-margin) + var(--tblock-width) + 1.0ch);
+  --side-rest: calc(var(--page-width) - var(--side-left));
+  --side-width: calc(var(--side-rest) - var(--spine-margin));
+  */
+
+  --title-face: trajan-pro-3, serif;
+  --main-face: minion-pro, serif;
+  --sans-face: ff-scala-sans-pro, sans-serif;
+
+  /*
+  --border-maybe: lightgrey solid thin;
+  */
+  --border-maybe: none;
+
+  --circle-side: 3.5rem;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+  /* https://css-tricks.com/almanac/properties/b/box-sizing/ */
+
+/* top right bottom left */
+
+html {
+
+  font-family: var(--main-face);
+  font-size: var(--size-a);
+  line-height: var(--mul-a);
+}
+
+body {
+
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+
+  position: relative;
+
+  width: var(--page-width);
+  min-height: var(--page-height);
+
+  /*padding: 4.23mm; / * Brother printable area.... */
+
+  margin: 0;
+}
+
+.grid0 {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+  grid-template-columns:
+    auto auto var(--circle-side) 1.4rem var(--circle-side) 2.8rem var(--circle-side);
+  /*
+  grid-template-rows: 1.4rem 1.4rem 1.4rem 1.4rem 1.4rem 1.4rem;
+  */
+}
+
+.col3 { grid-column-start: 3; }
+.col4 { grid-column-start: 4; }
+.col5 { grid-column-start: 5; }
+.col6 { grid-column-start: 6; }
+.col7 { grid-column-start: 7; }
+
+.row1  { grid-row-start:  1; }
+.row2  { grid-row-start:  2; }
+.row3  { grid-row-start:  3; }
+.row4  { grid-row-start:  4; }
+.row5  { grid-row-start:  5; }
+.row6  { grid-row-start:  6; }
+.row7  { grid-row-start:  7; }
+.row8  { grid-row-start:  8; }
+.row9  { grid-row-start:  9; }
+.row10 { grid-row-start: 10; }
+.row11 { grid-row-start: 11; }
+.row12 { grid-row-start: 12; }
+
+.ability-label {
+  grid-column: 2;
+  font-size: 140%;
+}
+
+.ability-circle {
+  width: var(--circle-side);
+  height: var(--circle-side);
+  border-radius: var(--circle-side);
+  border: 7px solid grey;
+  grid-row-end: span 2;
+}
+
+.save-circle {
+  width: var(--circle-side);
+  height: var(--circle-side);
+  border-radius: var(--circle-side);
+  border: 7px solid grey;
+  grid-row-end: span 2;
+}
+
+.line {
+  width: 100%;
+  height: 7px;
+  background-color: grey;
+  grid-row-end: span 2;
+}
+.ldown {
+  transform-origin: left;
+  transform: rotate(20deg);
+}
+.lup {
+  transform-origin: left;
+  transform: rotate(-20deg);
+}
+

@@ -8,7 +8,7 @@ RUM = $(RUBY) -Ilib -r make -e
 
 all: ps
 
-html:
+html0:
 	rm -fR out/tmp/*.md
 	rm -fR out/tmp/*.html
 	rm -fR out/html/* out/html/.*
@@ -16,6 +16,9 @@ html:
 	cp lib/assets/*.ico out/html/
 	cp lib/assets/*.png out/html/
 	cp lib/assets/*.css out/html/
+	cp src/sheet.html out/html/
+h0: html0
+html: html0
 	$(RUM) make_html
 h: html
 
