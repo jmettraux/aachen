@@ -1,7 +1,7 @@
 
 <!-- .margin.compass -->
 * _Character Creation_
-* Atts & Saves
+* Abis & Saves
 * Background
 * Class
 * Traits
@@ -15,23 +15,19 @@
 Level
 : A new character is level 1.
 
-Attributes~~→p4~~
+Abilities~~→p4~~
 : Determine `STR`, `DEX`, `CON`, `INT`, `WIS`, and `CHA`;
-: Roll 3d6 six times, assign in order, replace lowest roll with 14;
-: **or** roll 3d6 six times and assign at will;
-: **or** assign at will 14, 12, 11, 10, 9, 7 (no roll).
+: Roll 2 series of 6 × 3d6; pick best of the 2; assign at will.
 
-Modifiers~~→p4~~
-: Compute `STR`m, `DEX`m, `CON`m, `INT`m, `WIS`m, and `CHA`m;
-: 3 → **-2** | 4 to 7 → **-1** | 14 to 17 → **+1** | 18 → **+2**;
-: so if `STR` is 18 then `STR`m is +2; if `INT` is 13 then `INT`m is +0.
+Target Abilities~~→p4~~
+: Compute t`STR`, t`DEX`, t`CON`, t`INT`, t`WIS`, and t`CHA` where t`CHA` = 21 - `CHA`;
+: For example if `STR` is 17 then t`STR` is 21 - 17 thus 4.
 
 Saves~~→p4~~
 : Compute the saving throw scores;
-: `Physical` = 16 - (max(`STR`m, `CON`m)) - _character level_;
-: `Evasion` = 16 - (max(`DEX`m, `INT`m)) - _character level_;
-: `Mental` = 16 - (max(`WIS`m, `CHA`m)) - _character level_;
-: `Luck` = 16 - _character level_.
+: `Physical` = ceiling((t`STR` + t`CON`) / 2) - _character level_;
+: `Evasion` = ceiling((t`DEX` + t`INT`) / 2) - _character level_;
+: `Mental` = ceiling((t`WIS` + t`CHA`) / 2) - _character level_.
 
 Background~~→p6-7~~
 : Determine the background of the character;

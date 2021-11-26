@@ -1,7 +1,7 @@
 
 <!-- .margin.compass -->
 * _Character Creation_
-* Atts & Saves
+* Abis & Saves
 * **Background**
 * Class
 * Traits
@@ -87,7 +87,7 @@ When a character is given a skill, it sets it at level 0. Taking it a second tim
 
 <!-- .margin.compass -->
 * _Character Creation_
-* Atts & Saves
+* Abis & Saves
 * **Background**
 * Class
 * Traits
