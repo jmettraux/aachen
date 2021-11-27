@@ -16,6 +16,7 @@ html0:
 	cp lib/assets/*.ico out/html/
 	cp lib/assets/*.png out/html/
 	cp lib/assets/*.css out/html/
+	cp lib/assets/*.svg out/html/
 	$(RUBY) src/sheet.rb > out/html/sheet.html
 h0: html0
 html: html0

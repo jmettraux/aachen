@@ -4,11 +4,11 @@ require 'strscan'
 
 
 hs = OpenStruct.new(
-  page_width: '210mm', # A4
-  page_height: '297mm', # A4
+  page_width: '297mm', # A4
+  page_height: '210mm', # A4
   #page_width: 215.9mm, # US Letter
   #page_height: 279.4mm, # US Letter
-  size_a: '14pt',
+  size_a: '13pt',
   mul_a: '1.15',
   title_face: 'trajan-pro-3, serif',
   main_face: 'minion-pro, serif',
@@ -50,6 +50,7 @@ style = %{
     min-height: #{hs.page_height};
 
     /*padding: 4.23mm; / * Brother printable area.... */
+    /*padding: 0.17in; / * Brother printable area.... */
 
     margin: 0;
 border: 1px solid grey;
@@ -295,17 +296,14 @@ div('.save-label', 8, 7, 'Evasion')
 div('.learning-label', 8, 9, 'Learning')
 div('.save-label', 8, 11, 'Mental')
 
-puts %{
-  </div>
-</div>
-}
+puts %{ </div> }
 
 puts %{
-<!--
-<div class="page">
-</div>
--->
+  <img src="shield.svg" style="width: 4.2rem;"/>
+  <img src="heart.svg" style="width: 4.2rem;"/>
 }
+
+puts %{ </div> }
 
 puts %{
 </body>
