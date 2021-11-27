@@ -16,6 +16,7 @@ hs = OpenStruct.new(
   circle_side: '3.5rem',
   border_width: '0.4rem',
 )
+hs.cs = hs.circle_side
 
 style = %{
   /*
@@ -59,15 +60,35 @@ style = %{
     height: 100%;
     place-items: center;
     grid-template-columns:
-      auto auto #{hs.circle_side} 1.4rem #{hs.circle_side} 2.8rem #{hs.circle_side};
+      #{hs.cs} 2.8rem #{hs.cs} 8.4rem #{hs.cs} 2.8rem #{hs.cs};
     /*
     grid-template-rows: 1.4rem 1.4rem 1.4rem 1.4rem 1.4rem 1.4rem;
     */
   }
 
   .ability-label {
-    grid-column: 2;
     font-size: 140%;
+    grid-row-end: span 2;
+    justify-self: left;
+    position: relative;
+  }
+  .save-label {
+    padding-left: 0.1rem;
+    font-size: 140%;
+    grid-row-end: span 2;
+    justify-self: left;
+  }
+  .learning-label {
+    padding-left: 0.1rem;
+    font-size: 140%;
+    grid-row-end: span 2;
+    justify-self: left;
+    color: grey;
+  }
+  .ini-label {
+    font-size: 140%;
+    grid-row-end: span 2;
+    align-self: start;
   }
 
   .ability-circle {
@@ -110,11 +131,31 @@ style = %{
     transform-origin: left;
     transform: rotate(-20deg);
   }
+  .ldown30::after {
+    width: 5.6rem;
+    transform-origin: left;
+    transform: rotate(35deg);
+  }
+  .lup30::after {
+    width: 5.6rem;
+    transform-origin: left;
+    transform: rotate(-35deg);
+  }
   .lgrey::after {
     background-color: lightgrey;
   }
   .clgrey {
     border-color: lightgrey;
+  }
+
+  .ability-label::after {
+    content: '';
+    background-color: lightgrey;
+    position: absolute;
+    left: -1rem;
+    width: 11rem;
+    height: 1.7rem;
+    z-index: -1;
   }
 }.strip
 
@@ -183,26 +224,25 @@ end
 
 #set_origin(0, 1)
 
-div('.ability-label', 2, 1, '<b>STR</b>ength')
-div('.ability-label', 2, 3, '<b>CON</b>stitution')
-div('.ability-label', 2, 5, '<b>DEX</b>terity')
-div('.ability-label', 2, 7, '<b>INT</b>elligence')
-div('.ability-label', 2, 9, '<b>WIS</b>dom')
-div('.ability-label', 2, 11, '<b>CHA</b>risma')
+div('.save-circle', 1, 7)
+div('.ini-label', 1, 9, 'INI')
 
-div('.ability-circle', 3, 1)
-div('.ability-circle', 3, 3)
-div('.ability-circle', 3, 5)
-div('.ability-circle', 3, 7)
-div('.ability-circle', 3, 9)
-div('.ability-circle', 3, 11)
+div('.line.lup30', 2, 7)
+div('.line.ldown30', 2, 7)
 
-div('.line', 4, 1)
-div('.line', 4, 3)
-div('.line', 4, 5)
-div('.line', 4, 7)
-div('.line', 4, 9)
-div('.line', 4, 11)
+div('.ability-circle.clgrey', 3, 1)
+div('.ability-circle.clgrey', 3, 3)
+div('.ability-circle.clgrey', 3, 5)
+div('.ability-circle.clgrey', 3, 7)
+div('.ability-circle.clgrey', 3, 9)
+div('.ability-circle.clgrey', 3, 11)
+
+div('.ability-label.bggrey', 4, 1, '<b>STR</b>ength')
+div('.ability-label', 4, 3, '<b>CON</b>stitution')
+div('.ability-label.bggrey', 4, 5, '<b>DEX</b>terity')
+div('.ability-label', 4, 7, '<b>INT</b>elligence')
+div('.ability-label.bggrey', 4, 9, '<b>WIS</b>dom')
+div('.ability-label', 4, 11, '<b>CHA</b>risma')
 
 div('.ability-circle', 5, 1)
 div('.ability-circle', 5, 3)
@@ -224,6 +264,11 @@ div('.save-circle', 7, 2)
 div('.save-circle', 7, 6)
 div('.save-circle.clgrey', 7, 8)
 div('.save-circle', 7, 10)
+
+div('.save-label', 8, 2, 'Physical')
+div('.save-label', 8, 6, 'Evasion')
+div('.learning-label', 8, 8, 'Learning')
+div('.save-label', 8, 10, 'Mental')
 
 puts %{
   </div>
