@@ -66,6 +66,11 @@ style = %{
     */
   }
 
+  .a-label {
+    font-size: 110%;
+    padding-bottom: 0.2rem;
+    color: grey;
+  }
   .ability-label {
     font-size: 140%;
     grid-row-end: span 2;
@@ -90,6 +95,10 @@ style = %{
     grid-row-end: span 2;
     align-self: start;
   }
+  .ini-label.top {
+    color: grey;
+    font-size: 110%;
+  }
 
   .ability-circle {
     width: #{hs.circle_side};
@@ -109,6 +118,11 @@ style = %{
     background-color: white;
     z-index: 10;
     grid-row-end: span 2;
+  }
+
+  .sq {
+    border-radius: 0;
+    margin-top: 0.1rem;
   }
 
   .line {
@@ -146,6 +160,9 @@ style = %{
   }
   .clgrey {
     border-color: lightgrey;
+  }
+  .bggrey {
+    background-color: lightgrey;
   }
 
   .ability-label::after {
@@ -224,51 +241,56 @@ end
 
 #set_origin(0, 1)
 
-div('.save-circle', 1, 7)
-div('.ini-label', 1, 9, 'INI')
+div('.ini-label.top', 1, 7, '1d20+')
+div('.save-circle.sq', 1, 8)
+div('.ini-label', 1, 10, 'INI')
 
-div('.line.lup30', 2, 7)
-div('.line.ldown30', 2, 7)
+div('.line.lup30', 2, 8)
+div('.line.ldown30', 2, 8)
 
-div('.ability-circle.clgrey', 3, 1)
-div('.ability-circle.clgrey', 3, 3)
-div('.ability-circle.clgrey', 3, 5)
-div('.ability-circle.clgrey', 3, 7)
-div('.ability-circle.clgrey', 3, 9)
-div('.ability-circle.clgrey', 3, 11)
+div('.a-label', 3, 1, '3d6')
+div('.a-label', 5, 1, '21-x')
+div('.a-label', 7, 1, 'saves')
 
-div('.ability-label.bggrey', 4, 1, '<b>STR</b>ength')
-div('.ability-label', 4, 3, '<b>CON</b>stitution')
-div('.ability-label.bggrey', 4, 5, '<b>DEX</b>terity')
-div('.ability-label', 4, 7, '<b>INT</b>elligence')
-div('.ability-label.bggrey', 4, 9, '<b>WIS</b>dom')
-div('.ability-label', 4, 11, '<b>CHA</b>risma')
+div('.ability-circle.clgrey.sq', 3, 2)
+div('.ability-circle.clgrey.sq', 3, 4)
+div('.ability-circle.clgrey.sq', 3, 6)
+div('.ability-circle.clgrey.sq', 3, 8)
+div('.ability-circle.clgrey.sq', 3, 10)
+div('.ability-circle.clgrey.sq', 3, 12)
 
-div('.ability-circle', 5, 1)
-div('.ability-circle', 5, 3)
-div('.ability-circle', 5, 5)
-div('.ability-circle', 5, 7)
-div('.ability-circle', 5, 9)
-div('.ability-circle', 5, 11)
+div('.ability-label.bggrey', 4, 2, '<b>STR</b>ength')
+div('.ability-label', 4, 4, '<b>CON</b>stitution')
+div('.ability-label.bggrey', 4, 6, '<b>DEX</b>terity')
+div('.ability-label', 4, 8, '<b>INT</b>elligence')
+div('.ability-label.bggrey', 4, 10, '<b>WIS</b>dom')
+div('.ability-label', 4, 12, '<b>CHA</b>risma')
 
-div('.line.ldown', 6, 1)
-div('.line.lup', 6, 3)
-div('.line.ldown', 6, 5)
-div('.line.lup', 6, 7)
-div('.line.ldown.lgrey', 6, 7)
-div('.line.lup.lgrey', 6, 9)
-div('.line.ldown', 6, 9)
-div('.line.lup', 6, 11)
+div('.ability-circle', 5, 2)
+div('.ability-circle', 5, 4)
+div('.ability-circle', 5, 6)
+div('.ability-circle', 5, 8)
+div('.ability-circle', 5, 10)
+div('.ability-circle', 5, 12)
 
-div('.save-circle', 7, 2)
-div('.save-circle', 7, 6)
-div('.save-circle.clgrey', 7, 8)
-div('.save-circle', 7, 10)
+div('.line.ldown', 6, 2)
+div('.line.lup', 6, 4)
+div('.line.ldown', 6, 6)
+div('.line.lup', 6, 8)
+div('.line.ldown.lgrey', 6, 8)
+div('.line.lup.lgrey', 6, 10)
+div('.line.ldown', 6, 10)
+div('.line.lup', 6, 12)
 
-div('.save-label', 8, 2, 'Physical')
-div('.save-label', 8, 6, 'Evasion')
-div('.learning-label', 8, 8, 'Learning')
-div('.save-label', 8, 10, 'Mental')
+div('.save-circle', 7, 3)
+div('.save-circle', 7, 7)
+div('.save-circle.clgrey', 7, 9)
+div('.save-circle', 7, 11)
+
+div('.save-label', 8, 3, 'Physical')
+div('.save-label', 8, 7, 'Evasion')
+div('.learning-label', 8, 9, 'Learning')
+div('.save-label', 8, 11, 'Mental')
 
 puts %{
   </div>
