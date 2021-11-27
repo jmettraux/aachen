@@ -154,6 +154,12 @@ def split_id_and_classes(s)
   { id: id, classes: cs }
 end
 
+def set_origin(x, y)
+  $x = x
+  $y = y
+end
+set_origin(0, 0)
+
 def div(id_and_classes, *rest)
 
   h = split_id_and_classes(id_and_classes)
@@ -161,8 +167,8 @@ def div(id_and_classes, *rest)
   text = rest.find { |e| e.is_a?(String) }
 
   styles = []
-  styles << "grid-column-start: #{x}" if x
-  styles << "grid-row-start: #{y}" if y
+  styles << "grid-column-start: #{$x + x}" if x
+  styles << "grid-row-start: #{$y + y}" if y
   styles << "grid-column-end: #{xspan}" if xspan
   styles << "grid-row-end: #{yspan}" if yspan
 
@@ -174,6 +180,8 @@ def div(id_and_classes, *rest)
   print text  if text
   puts "</div>"
 end
+
+#set_origin(0, 1)
 
 div('.ability-label', 2, 1, '<b>STR</b>ength')
 div('.ability-label', 2, 3, '<b>CON</b>stitution')
