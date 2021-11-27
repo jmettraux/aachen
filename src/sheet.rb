@@ -56,7 +56,15 @@ style = %{
 border: 1px solid grey;
   }
 
-  .grid0 {
+  .page-grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .ability-grid {
     display: grid;
     width: 100%;
     height: 100%;
@@ -66,6 +74,8 @@ border: 1px solid grey;
     /*
     grid-template-rows: 1.4rem 1.4rem 1.4rem 1.4rem 1.4rem 1.4rem;
     */
+    grid-column: 1;
+    grid-row: 1;
   }
 
   .a-label {
@@ -178,6 +188,19 @@ border: 1px solid grey;
     height: 1.7rem;
     z-index: -1;
   }
+
+  .info-grid {
+    display: grid;
+    grid-column: 2; grid-row: 1;
+  }
+  .skill-grid {
+    display: grid;
+    grid-column: 1; grid-row: 2;
+  }
+  .gear-grid {
+    display: grid;
+    grid-column: 2; grid-row: 2;
+  }
 }.strip
 
 puts %{
@@ -193,9 +216,6 @@ puts %{
   </style>
 </head>
 <body>
-
-<div class="page">
-  <div class="grid0">
 }
 
 def split_id_and_classes(s)
@@ -243,7 +263,12 @@ def div(id_and_classes, *rest)
   puts "</div>"
 end
 
-#set_origin(0, 1)
+puts %{
+<div class="page">
+  <div class="page-grid">
+}
+
+puts %{ <div class="ability-grid"> }
 
 div('.ini-label.top', 1, 7, '1d20+')
 div('.save-circle.sq', 1, 8)
@@ -296,14 +321,29 @@ div('.save-label', 8, 7, 'Evasion')
 div('.learning-label', 8, 9, 'Learning')
 div('.save-label', 8, 11, 'Mental')
 
-puts %{ </div> }
+puts %{ </div> <!-- ability-grid --> }
+
+puts %{ <div class="info-grid"> }
+puts "INFO"
+puts %{ </div> <!-- info-grid --> }
+
+puts %{ <div class="skill-grid"> }
+puts "SKILLS"
+puts %{ </div> <!-- skill-grid --> }
+
+puts %{ <div class="gear-grid"> }
+puts "GEAR"
+puts %{ </div> <!-- gear-grid --> }
+
+#puts %{
+#  <img src="shield.svg" style="width: 4.2rem;"/>
+#  <img src="heart.svg" style="width: 4.2rem;"/>
+#}
 
 puts %{
-  <img src="shield.svg" style="width: 4.2rem;"/>
-  <img src="heart.svg" style="width: 4.2rem;"/>
+  </div> <!-- .page-grid -->
+</div> <!-- .page -->
 }
-
-puts %{ </div> }
 
 puts %{
 </body>
