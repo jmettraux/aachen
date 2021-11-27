@@ -29,45 +29,25 @@
 
 :root {
 
+  /*
   --phi: 1.61803398875;
   --sq2: 1.41421356237;
+  */
 
   --size-a: 14pt;
     --mul-a: 1.15;
-  --size-b: 12pt;
-    --mul-b: calc((2 * var(--size-a) * var(--mul-a)) / (3 * var(--size-b)));
-  --size-c: 10pt;
-    --mul-c: calc((1 * var(--size-a) * var(--mul-a)) / (2 * var(--size-c)));
 
   --page-width: 210mm; /* A4 */
   --page-height: 297mm; /* A4 */
   /*--page-width: 215.9mm; / * US Letter */
   /*--page-height: 279.4mm; / * US Letter */
 
-  /*
-  --tblock-height: calc(var(--page-height) / 10 * 9);
-  --tblock-width: calc(var(--tblock-height) / var(--phi));
-
-  --top-margin: calc((var(--page-height) - var(--tblock-height)) / 3);
-  --spine-margin: calc(var(--page-width) / 21);
-
-  --edge-margin: calc(var(--page-width) - var(--spine-margin) - var(--tblock-width));
-
-  --side-left: calc(var(--spine-margin) + var(--tblock-width) + 1.0ch);
-  --side-rest: calc(var(--page-width) - var(--side-left));
-  --side-width: calc(var(--side-rest) - var(--spine-margin));
-  */
-
   --title-face: trajan-pro-3, serif;
   --main-face: minion-pro, serif;
   --sans-face: ff-scala-sans-pro, sans-serif;
 
-  /*
-  --border-maybe: lightgrey solid thin;
-  */
-  --border-maybe: none;
-
   --circle-side: 3.5rem;
+  --border-width: 0.4rem;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -142,7 +122,9 @@ body {
   width: var(--circle-side);
   height: var(--circle-side);
   border-radius: var(--circle-side);
-  border: 7px solid grey;
+  border: var(--border-width) solid grey;
+  background-color: white;
+  z-index: 10;
   grid-row-end: span 2;
 }
 
@@ -150,22 +132,36 @@ body {
   width: var(--circle-side);
   height: var(--circle-side);
   border-radius: var(--circle-side);
-  border: 7px solid grey;
+  border: var(--border-width) solid grey;
+  background-color: white;
+  z-index: 10;
   grid-row-end: span 2;
 }
 
 .line {
-  width: 100%;
-  height: 7px;
-  background-color: grey;
   grid-row-end: span 2;
 }
-.ldown {
+.line::after {
+  content: '';
+  width: 1.4rem;
+  height: var(--border-width);
+  display: inline-block;
+  background-color: grey;
+}
+.ldown::after {
+  width: 4.2rem;
   transform-origin: left;
   transform: rotate(20deg);
 }
-.lup {
+.lup::after {
+  width: 4.2rem;
   transform-origin: left;
   transform: rotate(-20deg);
+}
+.lgrey::after {
+  background-color: lightgrey;
+}
+.clgrey {
+  border-color: lightgrey;
 }
 
