@@ -16,7 +16,7 @@ html0:
 	cp lib/assets/*.ico out/html/
 	cp lib/assets/*.png out/html/
 	cp lib/assets/*.css out/html/
-	cp src/sheet.html out/html/
+	$(RUBY) src/sheet.rb > out/html/sheet.html
 h0: html0
 html: html0
 	$(RUM) make_html
