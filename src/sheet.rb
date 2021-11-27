@@ -15,6 +15,8 @@ hs = OpenStruct.new(
   sans_face: 'ff-scala-sans-pro, sans-serif',
   circle_side: '3.5rem',
   border_width: '0.4rem',
+  box_width: '1.2rem',
+  box_height: '1.5rem',
 )
 hs.cs = hs.circle_side
 
@@ -62,6 +64,7 @@ border: 1px solid grey;
     height: 100%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    gap: 1rem 1rem;
   }
 
   .ability-grid {
@@ -201,6 +204,15 @@ border: 1px solid grey;
     display: grid;
     grid-column: 2; grid-row: 2;
   }
+
+  .skill-label {
+    font-size: 120%;
+  }
+  .skill-box {
+    border: #{hs.border_width} solid grey;
+    width: #{hs.box_width};
+    height: #{hs.box_height};
+  }
 }.strip
 
 puts %{
@@ -242,7 +254,7 @@ def set_origin(x, y)
 end
 set_origin(0, 0)
 
-def div(id_and_classes, *rest)
+def make(tag_name, id_and_classes, *rest, &block)
 
   h = split_id_and_classes(id_and_classes)
   x, y, yspan, xspan = rest.select { |e| e.is_a?(Integer) }
@@ -254,86 +266,106 @@ def div(id_and_classes, *rest)
   styles << "grid-column-end: #{xspan}" if xspan
   styles << "grid-row-end: #{yspan}" if yspan
 
-  print "<div"
+  print "<#{tag_name}"
   print " id=\"#{h[:id]}\"" if h[:id]
   print " class=\"#{h[:classes].join(' ')}\"" if h[:classes].any?
   print " style=\"#{styles.join('; ')}\"" if styles.any?
   print ">"
   print text  if text
-  puts "</div>"
+  block.yield if block
+  puts "</#{tag_name}>"
 end
+
+def div(*args, &block); make(:div, *args, &block); end
+def img(*args, &block); make(:img, *args, &block); end
 
 puts %{
 <div class="page">
   <div class="page-grid">
 }
 
-puts %{ <div class="ability-grid"> }
+div('.ability-grid') do
 
-div('.ini-label.top', 1, 7, '1d20+')
-div('.save-circle.sq', 1, 8)
-div('.ini-label', 1, 10, 'INI')
+  div('.ini-label.top', 1, 7, '1d20+')
+  div('.save-circle.sq', 1, 8)
+  div('.ini-label', 1, 10, 'INI')
 
-div('.line.lup35', 2, 8)
-div('.line.ldown35', 2, 8)
+  div('.line.lup35', 2, 8)
+  div('.line.ldown35', 2, 8)
 
-div('.a-label', 3, 1, '3d6')
-div('.a-label', 5, 1, '21-x')
-div('.a-label', 7, 1, 'saves')
+  div('.a-label', 3, 1, '3d6')
+  div('.a-label', 5, 1, '21-x')
+  div('.a-label', 7, 1, 'saves')
 
-div('.ability-circle.clgrey.sq', 3, 2)
-div('.ability-circle.clgrey.sq', 3, 4)
-div('.ability-circle.clgrey.sq', 3, 6)
-div('.ability-circle.clgrey.sq', 3, 8)
-div('.ability-circle.clgrey.sq', 3, 10)
-div('.ability-circle.clgrey.sq', 3, 12)
+  div('.ability-circle.clgrey.sq', 3, 2)
+  div('.ability-circle.clgrey.sq', 3, 4)
+  div('.ability-circle.clgrey.sq', 3, 6)
+  div('.ability-circle.clgrey.sq', 3, 8)
+  div('.ability-circle.clgrey.sq', 3, 10)
+  div('.ability-circle.clgrey.sq', 3, 12)
 
-div('.ability-label.bggrey', 4, 2, '<b>STR</b>ength')
-div('.ability-label', 4, 4, '<b>CON</b>stitution')
-div('.ability-label.bggrey', 4, 6, '<b>DEX</b>terity')
-div('.ability-label', 4, 8, '<b>INT</b>elligence')
-div('.ability-label.bggrey', 4, 10, '<b>WIS</b>dom')
-div('.ability-label', 4, 12, '<b>CHA</b>risma')
+  div('.ability-label.bggrey', 4, 2, '<b>STR</b>ength')
+  div('.ability-label', 4, 4, '<b>CON</b>stitution')
+  div('.ability-label.bggrey', 4, 6, '<b>DEX</b>terity')
+  div('.ability-label', 4, 8, '<b>INT</b>elligence')
+  div('.ability-label.bggrey', 4, 10, '<b>WIS</b>dom')
+  div('.ability-label', 4, 12, '<b>CHA</b>risma')
 
-div('.ability-circle', 5, 2)
-div('.ability-circle', 5, 4)
-div('.ability-circle', 5, 6)
-div('.ability-circle', 5, 8)
-div('.ability-circle', 5, 10)
-div('.ability-circle', 5, 12)
+  div('.ability-circle', 5, 2)
+  div('.ability-circle', 5, 4)
+  div('.ability-circle', 5, 6)
+  div('.ability-circle', 5, 8)
+  div('.ability-circle', 5, 10)
+  div('.ability-circle', 5, 12)
 
-div('.line.ldown', 6, 2)
-div('.line.lup', 6, 4)
-div('.line.ldown', 6, 6)
-div('.line.lup', 6, 8)
-div('.line.ldown.lgrey', 6, 8)
-div('.line.lup.lgrey', 6, 10)
-div('.line.ldown', 6, 10)
-div('.line.lup', 6, 12)
+  div('.line.ldown', 6, 2)
+  div('.line.lup', 6, 4)
+  div('.line.ldown', 6, 6)
+  div('.line.lup', 6, 8)
+  div('.line.ldown.lgrey', 6, 8)
+  div('.line.lup.lgrey', 6, 10)
+  div('.line.ldown', 6, 10)
+  div('.line.lup', 6, 12)
 
-div('.save-circle', 7, 3)
-div('.save-circle', 7, 7)
-div('.save-circle.clgrey', 7, 9)
-div('.save-circle', 7, 11)
+  div('.save-circle', 7, 3)
+  div('.save-circle', 7, 7)
+  div('.save-circle.clgrey', 7, 9)
+  div('.save-circle', 7, 11)
 
-div('.save-label', 8, 3, 'Physical')
-div('.save-label', 8, 7, 'Evasion')
-div('.learning-label', 8, 9, 'Learning')
-div('.save-label', 8, 11, 'Mental')
+  div('.save-label', 8, 3, 'Physical')
+  div('.save-label', 8, 7, 'Evasion')
+  div('.learning-label', 8, 9, 'Learning')
+  div('.save-label', 8, 11, 'Mental')
+end
 
-puts %{ </div> <!-- ability-grid --> }
+div('.info-grid') do
 
-puts %{ <div class="info-grid"> }
-puts "INFO"
-puts %{ </div> <!-- info-grid --> }
+  puts "INFO"
+end
 
-puts %{ <div class="skill-grid"> }
-puts "SKILLS"
-puts %{ </div> <!-- skill-grid --> }
+div('.skill-grid') do
 
-puts %{ <div class="gear-grid"> }
-puts "GEAR"
-puts %{ </div> <!-- gear-grid --> }
+  div('.skill-label', 3, 1, 'Slash')
+  div('.skill-label', 3, 2, 'Punch')
+  div('.skill-label', 3, 3, 'Grapple')
+  div('.skill-label', 3, 5, 'Shoot')
+  div('.skill-label', 3, 7, 'Dodge')
+  div('.skill-label', 3, 8, 'Parry')
+  div('.skill-label', 3, 9, 'Block')
+
+  div('.skill-box', 4, 1)
+  div('.skill-box', 4, 2)
+  div('.skill-box', 4, 3)
+  div('.skill-box', 4, 5)
+  div('.skill-box', 4, 7)
+  div('.skill-box', 4, 8)
+  div('.skill-box', 4, 9)
+end
+
+div('.gear-grid') do
+
+  puts "GEAR"
+end
 
 #puts %{
 #  <img src="shield.svg" style="width: 4.2rem;"/>
