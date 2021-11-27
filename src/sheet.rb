@@ -52,6 +52,7 @@ style = %{
     /*padding: 4.23mm; / * Brother printable area.... */
 
     margin: 0;
+border: 1px solid grey;
   }
 
   .grid0 {
@@ -60,7 +61,7 @@ style = %{
     height: 100%;
     place-items: center;
     grid-template-columns:
-      #{hs.cs} 2.8rem #{hs.cs} 8.4rem #{hs.cs} 2.8rem #{hs.cs};
+      #{hs.cs} 2.1rem #{hs.cs} 8.4rem #{hs.cs} 2.8rem #{hs.cs};
     /*
     grid-template-rows: 1.4rem 1.4rem 1.4rem 1.4rem 1.4rem 1.4rem;
     */
@@ -145,15 +146,17 @@ style = %{
     transform-origin: left;
     transform: rotate(-20deg);
   }
-  .ldown30::after {
+  .ldown35::after {
     width: 5.6rem;
     transform-origin: left;
     transform: rotate(35deg);
+    background-color: lightgrey;
   }
-  .lup30::after {
+  .lup35::after {
     width: 5.6rem;
     transform-origin: left;
     transform: rotate(-35deg);
+    background-color: lightgrey;
   }
   .lgrey::after {
     background-color: lightgrey;
@@ -245,8 +248,8 @@ div('.ini-label.top', 1, 7, '1d20+')
 div('.save-circle.sq', 1, 8)
 div('.ini-label', 1, 10, 'INI')
 
-div('.line.lup30', 2, 8)
-div('.line.ldown30', 2, 8)
+div('.line.lup35', 2, 8)
+div('.line.ldown35', 2, 8)
 
 div('.a-label', 3, 1, '3d6')
 div('.a-label', 5, 1, '21-x')
