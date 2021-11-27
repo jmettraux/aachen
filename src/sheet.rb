@@ -4,28 +4,30 @@ require 'strscan'
 
 
 hs = OpenStruct.new(
-  page_width: '297mm', # A4
-  page_height: '210mm', # A4
+  page_width: "#{297 - 2 * 4.25}mm", # A4
+  page_height: "#{210 - 2 * 4.25}mm", # A4
   #page_width: 215.9mm, # US Letter
   #page_height: 279.4mm, # US Letter
-  size_a: '13pt',
+  size_a: '14pt',
   mul_a: '1.15',
   title_face: 'trajan-pro-3, serif',
-  main_face: 'minion-pro, serif',
+  #main_face: 'minion-pro, serif',
+  main_face: 'EB Garamond, serif',
   sans_face: 'ff-scala-sans-pro, sans-serif',
   circle_side: '3.5rem',
   border_width: '0.4rem',
-  box_width: '1.2rem',
-  box_height: '1.5rem',
+  box_border_width: '0.2rem',
+  box_width: '2.8rem',
+  box_height: '1.4rem',
 )
 hs.cs = hs.circle_side
 
 style = %{
-  /*
   @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+  /*
   @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
-  */
   @import url("https://use.typekit.net/aqv1anf.css");
+  */
 
   *, *::before, *::after { box-sizing: border-box; }
 
@@ -82,37 +84,31 @@ border: 1px solid grey;
   }
 
   .a-label {
-    font-size: 110%;
     padding-bottom: 0.2rem;
     color: grey;
   }
   .ability-label {
-    font-size: 140%;
     grid-row-end: span 2;
     justify-self: left;
     position: relative;
   }
   .save-label {
     padding-left: 0.1rem;
-    font-size: 140%;
     grid-row-end: span 2;
     justify-self: left;
   }
   .learning-label {
     padding-left: 0.1rem;
-    font-size: 140%;
     grid-row-end: span 2;
     justify-self: left;
     color: grey;
   }
   .ini-label {
-    font-size: 140%;
     grid-row-end: span 2;
     align-self: start;
   }
   .ini-label.top {
     color: grey;
-    font-size: 110%;
   }
 
   .ability-circle {
@@ -206,12 +202,17 @@ border: 1px solid grey;
   }
 
   .skill-label {
-    font-size: 120%;
   }
   .skill-box {
-    border: #{hs.border_width} solid grey;
+    border: #{hs.box_border_width} solid grey;
     width: #{hs.box_width};
     height: #{hs.box_height};
+    margin-bottom: 1px;
+  }
+  .skill-box::after {
+    content: '+';
+    color: grey;
+    display: inline-block;
   }
 }.strip
 
@@ -345,21 +346,53 @@ end
 
 div('.skill-grid') do
 
-  div('.skill-label', 3, 1, 'Slash')
-  div('.skill-label', 3, 2, 'Punch')
-  div('.skill-label', 3, 3, 'Grapple')
-  div('.skill-label', 3, 5, 'Shoot')
-  div('.skill-label', 3, 7, 'Dodge')
-  div('.skill-label', 3, 8, 'Parry')
-  div('.skill-label', 3, 9, 'Block')
+  %w{
+    Administer Connect Convince #Craft Exert Heal Hunt #Know Lead Notice
+    Perform Pray Read Ride
+  }
+    .select { |k|
+      k[0, 1] != '#' }
+    .each_with_index do |k, i|
+      next if k == 'skip'
+      div('.skill-label', 1, 1 + i, k)
+      div('.skill-box', 2, 1 + i)
+    end
+  %w{
+    Sail Sneak Survive Swim Trade Work
+    #skip
+    Craft_
+    Craft_
+    Craft_
+    Know_
+    Know_
+    Know_
+  }
+    .select { |k|
+      k[0, 1] != '#' }
+    .each_with_index do |k, i|
+      next if k == 'skip'
+      m = k.match(/^([^_]+)_/); k = "#{m[1]} ____" if m
+      div('.skill-label', 3, 1 + i, k)
+      div('.skill-box', 4, 1 + i)
+    end
 
-  div('.skill-box', 4, 1)
-  div('.skill-box', 4, 2)
-  div('.skill-box', 4, 3)
-  div('.skill-box', 4, 5)
-  div('.skill-box', 4, 7)
-  div('.skill-box', 4, 8)
-  div('.skill-box', 4, 9)
+  %w{
+    #Slash
+    iAxes iMace iStaffs iSpears iSwords
+    skip
+    iBows iCrossbows iSlings
+    skip
+    Dodge
+    #Parry
+    Shield
+  }
+    .select { |k|
+      k[0, 1] != '#' }
+    .each_with_index do |k, i|
+      next if k == 'skip'
+      div('.skill-label', 5, 1 + i, k)
+      div('.skill-box', 6, 1 + i)
+    end
 end
 
 div('.gear-grid') do
