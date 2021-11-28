@@ -78,10 +78,7 @@ border: 1px solid grey;
     height: 100%;
     place-items: center;
     grid-template-columns:
-      #{hs.cs} 0.7rem #{hs.cs} 8.4rem #{hs.cs} 0.7rem #{hs.cs} auto;
-    /*
-    grid-template-rows: 1.4rem 1.4rem 1.4rem 1.4rem 1.4rem 1.4rem;
-    */
+      #{hs.cs} 0.7rem #{hs.cs} 6.0rem #{hs.cs} 0.7rem #{hs.cs} auto;
     grid-column: 1;
     grid-row: 1;
   }
@@ -115,6 +112,7 @@ border: 1px solid grey;
   .ini-label {
     grid-row-end: span 2;
     align-self: start;
+    text-align: center;
   }
 
   .ability-circle {
@@ -196,7 +194,7 @@ border: 1px solid grey;
     background-color: lightgrey;
     position: absolute;
     left: -1rem;
-    width: 11rem;
+    width: 8rem;
     height: 1.7rem;
     z-index: -1;
   }
@@ -323,7 +321,7 @@ border: 1px solid grey;
     justify-self: left;
   }
   .ac.big img {
-    width: 3.8rem;
+    width: 3.6rem;
   }
   .ac.big.grey {
     opacity: 0.4;
@@ -415,7 +413,7 @@ div('.ability-grid') do
 
   #div('.ini-label.top', 1, 7, '1d20+')
   div('.save-circle.sq', 1, 8)
-  div('.ini-label', 1, 10, 'INI')
+  div('.ini-label', 1, 10, 'INI<br/>tiative')
 
   div('.line.lup35', 2, 8)
   div('.line.ldown35', 2, 8)
@@ -578,7 +576,7 @@ div('.skill-grid') do
 
 
   div('.ac', 8, 1) { img('.ac', src: 'shield.svg') }
-  div('.ac-label.base', 9, 1, 2, 3, 'base AC<br/>' + armor)
+  div('.ac-label.base', 9, 1, 2, 4, 'base AC<br/>' + armor)
 
   ac =
     'base AC + best of<br/>' +
