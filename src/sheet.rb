@@ -69,7 +69,7 @@ border: 1px solid grey;
     /*
     grid-template-rows: 1fr 1fr;
     */
-    gap: 2rem 1rem;
+    gap: 1rem 1rem;
   }
 
   .ability-grid {
@@ -88,6 +88,7 @@ border: 1px solid grey;
 
   .a-label {
     font-size: 71%;
+    padding-top: 0.2rem;
     padding-bottom: 0.2rem;
     color: grey;
   }
@@ -109,6 +110,7 @@ border: 1px solid grey;
     justify-self: center;
     align-self: center;
     color: grey;
+    text-align: center;
   }
   .ini-label {
     grid-row-end: span 2;
@@ -382,9 +384,13 @@ div('.ability-grid') do
   div('.line.ldown35', 2, 8)
 
   div('.a-label', 3, 1, '3d6')
-  div('.a-label', 4, 1, '21-x')
   div('.a-label', 5, 1, 'Ability TC')
   div('.a-label', 7, 1, 'Save TC')
+
+  div('.a-label', 1, 14, 'mean-')
+  div('.a-label', 3, 14, 'A')
+  div('.a-label', 5, 14, '21 - A')
+  div('.a-label', 7, 14, 'mean+')
 
   div('.ability-circle.clgrey.sq', 3, 2)
   div('.ability-circle.clgrey.sq', 3, 4)
@@ -425,7 +431,7 @@ div('.ability-grid') do
   div('.save-label', 8, 7, 'Evasion')
   div('.save-label', 8, 11, 1, 2, 'Mental', style: 'align-self: end')
 
-  div('.learning-label', 9, 9, 1, 2, 'learning')
+  div('.learning-label', 9, 9, 1, 2, 'learning<br/>TC')
 end
 
 div('.hp-grid') do
