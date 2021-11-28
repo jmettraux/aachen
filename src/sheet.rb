@@ -79,8 +79,6 @@ border: 1px solid grey;
     place-items: center;
     grid-template-columns:
       #{hs.cs} 0.7rem #{hs.cs} 6.0rem #{hs.cs} 0.7rem #{hs.cs} auto;
-    grid-column: 1;
-    grid-row: 1;
   }
 
   .a-label {
@@ -203,7 +201,6 @@ border: 1px solid grey;
 
   .hp-grid {
     display: grid;
-    grid-column: 2; grid-row: 1;
     column-gap: 0.5rem;
   }
 
@@ -247,7 +244,6 @@ border: 1px solid grey;
 
   .info-grid {
     display: grid;
-    grid-column: 3; grid-row: 1;
     grid-template-columns: 50% 50%;
   }
 
@@ -268,7 +264,6 @@ border: 1px solid grey;
 
   .gear-grid {
     display: grid;
-    grid-column: 3; grid-row: 2;
     row-gap: 1rem;
     margin-top: 0.5rem;
   }
@@ -305,7 +300,6 @@ border: 1px solid grey;
 
   .skill-grid {
     display: grid;
-    grid-column: 1 / span 2; grid-row: 2;
   }
 
   .skill-label {
@@ -351,7 +345,6 @@ border: 1px solid grey;
     justify-self: center;
   }
   .ac-label {
-    grid-column-end: span 2;
   }
   .ac-label.base {
   }
@@ -451,7 +444,7 @@ puts %{
   <div class="page-grid">
 }
 
-div('.ability-grid') do
+div('.ability-grid', 1, 1) do
 
   #div('.ini-label.top', 1, 7, '1d20+')
   div('.save-circle.sq', 1, 8)
@@ -511,7 +504,7 @@ div('.ability-grid') do
   div('.learning-label', 9, 9, 1, 2, 'learning<br/>TC')
 end
 
-div('.hp-grid') do
+div('.hp-grid', 2, 1) do
 
   div('.hp-max', 1, 1) do
     img('.heart', src: 'heart.svg')
@@ -549,7 +542,7 @@ div('.hp-grid') do
   end
 end
 
-div('.info-grid') do
+div('.info-grid', 3, 1) do
   div('.picture', 2, 1, 1, 6)
   j = -1
   [ 'name', '', 'player', 'origin', 'level' ]
@@ -566,7 +559,7 @@ div('.info-grid') do
     end
 end
 
-div('.skill-grid') do
+div('.skill-grid', 1, 2, 2, 1) do
 
   j = 0
   %w{
@@ -654,7 +647,7 @@ div('.skill-grid') do
   end
 end
 
-div('.gear-grid') do
+div('.gear-grid', 3, 2) do
 
   div('.weapon-grid', 1, 1) do
     [ 'weapon', 'atk', 'dmg', 'range' ]
