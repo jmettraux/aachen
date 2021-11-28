@@ -616,10 +616,10 @@ div('.skill-grid') do
 
   armor =
     '<div class="armors">' +
-    [ '8 <i>no armor</i>',
-      '10 gambeson',
-      '12 mail shirt',
-      '14 mail hauberk'
+    [ '10 <i>no armor</i>',
+      '12 gambeson',
+      '14 mail shirt',
+      '16 mail hauberk'
         ].join('<br/>') +
     '</div>'
 
