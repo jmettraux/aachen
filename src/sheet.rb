@@ -204,8 +204,27 @@ border: 1px solid grey;
   /* HP GRID */
 
   .hp-grid {
-    display: block;
+    display: grid;
     grid-column: 2; grid-row: 1;
+    column-gap: 0.5rem;
+  }
+
+  .hp-max {
+    justify-self: center;
+  }
+  .hp-max img {
+    width: 6.3rem;
+  }
+
+  .hp-info .classes {
+    margin-top: 1rem;
+    font-size: 70%;
+    color: grey;
+  }
+  .hp-info .level {
+    font-size: 70%;
+    color: grey;
+    text-align: center;
   }
 
   /* INFO GRID */
@@ -388,8 +407,8 @@ div('.ability-grid') do
   div('.a-label', 7, 1, 'Save TC')
 
   div('.a-label', 1, 14, 'mean-')
-  div('.a-label', 3, 14, 'A')
-  div('.a-label', 5, 14, '21 - A')
+  div('.a-label', 3, 14, 'Abi')
+  div('.a-label', 5, 14, '21 - Abi')
   div('.a-label', 7, 14, 'mean+')
 
   div('.ability-circle.clgrey.sq', 3, 2)
@@ -436,8 +455,31 @@ end
 
 div('.hp-grid') do
 
-  img('.heart', src: 'heart.svg', style: 'justify-self: center;')
-  img('.cross', src: 'cross.svg', style: 'justify-self: center;')
+  div('.hp-max', 1, 1) do
+    img('.heart', src: 'heart.svg')
+  end
+  div('.hp-info', 2, 1) do
+    div('HP max')
+    div('.classes') do
+      div('Fighter 1d8+3 / lvl')
+      div('Dabster 1d8 / lvl')
+      div('Caster 1d8-1 / lvl')
+      div('Fighter-x 1d8+1 / lvl')
+      div('Dabster-Caster 1d8 / lvl')
+    end
+  end
+  div('.hp-info', 1, 2, 2, 1) do
+    div('.level') do
+      div('1d20 ≥ CON TC → best of 2d8')
+      div('1d20 < CON TC → mean+ of 2d8')
+    end
+  end
+  div('.att', 1, 3) do
+    div('ATT')
+  end
+  div('.att-info', 2, 3) do
+    div('ATT INFO')
+  end
 end
 
 div('.info-grid') do
