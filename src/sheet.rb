@@ -217,7 +217,7 @@ border: 1px solid grey;
   }
 
   .hp-info .classes {
-    margin-top: 1rem;
+    margin-top: 0.4rem;
     font-size: 70%;
     color: grey;
   }
@@ -225,6 +225,24 @@ border: 1px solid grey;
     font-size: 70%;
     color: grey;
     text-align: center;
+  }
+
+  .att {
+    justify-self: center;
+  }
+  .att::before {
+    content: '+';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  .att img {
+    width: 4.9rem;
+  }
+  .att-info .explanation {
+    margin-top: 0.4rem;
+    font-size: 70%;
+    color: grey;
   }
 
   /* INFO GRID */
@@ -475,10 +493,18 @@ div('.hp-grid') do
     end
   end
   div('.att', 1, 3) do
-    div('ATT')
+    img('.cross', src: 'cross.svg')
   end
   div('.att-info', 2, 3) do
-    div('ATT INFO')
+    div('Ranged Attack')
+    div('.explanation', '1d20 + X ≥ eny AC')
+  end
+  div('.att', 1, 4) do
+    img('.cross', src: 'cross.svg')
+  end
+  div('.att-info', 2, 4) do
+    div('Melee Attack')
+    div('.explanation', '1d20 + X ≥ eny AC')
   end
 end
 
