@@ -267,12 +267,34 @@ border: 1px solid grey;
   /* GEAR GRID */
 
   .gear-grid {
-    display: block;
+    display: grid;
     grid-column: 3; grid-row: 2;
+    row-gap: 1rem;
   }
   .gear-label {
+    font-size: 70%;
+    color: grey;
+    height: 1.4rem;
+    border-bottom: 1px solid grey;
   }
   .gear-line {
+    width: 100%;
+    height: 1.4rem;
+    border-bottom: 1px solid grey;
+  }
+
+  .weapon-grid {
+    display: grid;
+    column-gap: 0.3rem;
+  }
+
+  .weapon-key {
+    font-size: 70%;
+    color: grey;
+  }
+  .weapon-line {
+    font-size: 70%;
+    color: grey;
     width: 100%;
     height: 1.4rem;
     border-bottom: 1px solid grey;
@@ -624,8 +646,19 @@ end
 
 div('.gear-grid') do
 
-  div('.gear-label', 'Gear')
-  11.times { div('.gear-line') }
+  div('.weapon-grid', 1, 1) do
+    [ 'weapon', 'atk', 'dmg', 'range' ]
+      .each_with_index do |k, i|
+        div('.weapon-key', k, 1 + i, 1)
+      end
+    5.times do |i|
+      4.times { |j| div('.weapon-line', '', j + 1, i + 2) }
+    end
+  end
+  div('.gear', 1, 2) do
+    div('.gear-label', 'Gear')
+    5.times { div('.gear-line') }
+  end
 end
 
 #puts %{
