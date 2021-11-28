@@ -69,7 +69,7 @@ border: 1px solid grey;
     /*
     grid-template-rows: 1fr 1fr;
     */
-    gap: 1rem 1rem;
+    gap: 2rem 1rem;
   }
 
   .ability-grid {
@@ -257,6 +257,7 @@ border: 1px solid grey;
     background-color: lightgrey;
     padding: 0;
     margin-right: 0.2rem;
+    padding-right: 0.2rem;
     text-align: center;
   }
 
@@ -269,10 +270,22 @@ border: 1px solid grey;
     grid-column-end: span 2;
   }
   .ac-label.base {
-    grid-row-end: span 4;
   }
   .ac-label.left {
     justify-self: right;
+  }
+
+  .ac.big {
+    justify-self: left;
+  }
+  .ac.big img {
+    width: 3.5rem;
+  }
+  .ac.big.grey {
+    opacity: 0.5;
+  }
+  .ac-title {
+    font-weight: bold;
   }
 
   .armors {
@@ -319,7 +332,7 @@ def set_origin(x, y); $x = x; $y = y; end; set_origin(0, 0)
 def make(tag_name, *rest, &block)
 
   idc = rest.find { |e| e.is_a?(String) && e.match?(/^[.#]/) }; rest.delete(idc)
-  x, y, yspan, xspan = rest.select { |e| e.is_a?(Integer) }
+  x, y, xspan, yspan = rest.select { |e| e.is_a?(Integer) }
   text = rest.find { |e| e.is_a?(String) }
   opts = rest.find { |e| e.is_a?(Hash) }
 
@@ -329,8 +342,8 @@ def make(tag_name, *rest, &block)
     #
   styles << "grid-column-start: #{$x + x}" if x
   styles << "grid-row-start: #{$y + y}" if y
-  styles << "grid-column-end: #{xspan}" if xspan
-  styles << "grid-row-end: #{yspan}" if yspan
+  styles << "grid-column-end: span #{xspan}" if xspan
+  styles << "grid-row-end: span #{yspan}" if yspan
     #
   style = opts && opts.delete(:style)
   styles << style if style
@@ -482,15 +495,24 @@ div('.skill-grid') do
     '</div>'
 
 
-  div('.ac.base', 8, 3) { img('.ac', src: 'shield.svg') }
-  div('.ac', 10, 7) { img('.ac', src: 'shield.svg') }
-  div('.ac', 10, 9) { img('.ac', src: 'shield.svg') }
-  div('.ac', 10, 11) { img('.ac', src: 'shield.svg') }
+  div('.ac', 8, 1) { img('.ac', src: 'shield.svg') }
+  div('.ac-label.base', 9, 1, 2, 3, 'base AC<br/>' + armor)
 
-  div('.ac-label.base', 9, 3, 'base AC<br/>' + armor)
-  div('.ac-label.left', 8, 7, 'AC (weapon + shield)')
-  div('.ac-label.left', 8, 9, 'AC (weapon)')
-  div('.ac-label.left', 8, 11, 'AC (dodge)')
+  ac =
+    'base AC + best of<br/>' +
+    '&nbsp;&nbsp;<i>Dodge</i>, <i>Shield</i>, or Weapon'
+
+  div('.ac.big.grey', 8, 5, 2, 5) { img('.ac', src: 'shield.svg') }
+  div('.ac-label', 10, 5, 1, 5) do
+    div('.ac-title', 'min AC')
+    div('.ac-detail', 'base AC + <i>Dodge</i>')
+  end
+
+  div('.ac.big', 8, 9, 2, 5) { img('.ac', src: 'shield.svg') }
+  div('.ac-label', 10, 9, 1, 5) do
+    div('.ac-title', 'AC')
+    div('.ac-detail', ac)
+  end
 end
 
 div('.gear-grid') do
