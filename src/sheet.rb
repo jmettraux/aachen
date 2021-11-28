@@ -14,10 +14,10 @@ hs = OpenStruct.new(
   #main_face: 'minion-pro, serif',
   main_face: 'EB Garamond, serif',
   sans_face: 'ff-scala-sans-pro, sans-serif',
-  circle_side: '3.5rem',
-  border_width: '0.4rem',
+  circle_side: '3.0rem',
+  border_width: '0.3rem',
   box_border_width: '0.2rem',
-  box_width: '2.8rem',
+  box_width: '2.1rem',
   box_height: '1.4rem',
 )
 hs.cs = hs.circle_side
@@ -51,7 +51,8 @@ style = %{
     position: relative;
 
     width: #{hs.page_width};
-    min-height: #{hs.page_height};
+    /*min-height: #{hs.page_height};*/
+    max-height: #{hs.page_height};
 
     /*padding: 4.23mm; / * Brother printable area.... */
     /*padding: 0.17in; / * Brother printable area.... */
@@ -64,8 +65,10 @@ border: 1px solid grey;
     display: grid;
     width: 100%;
     height: 100%;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*
     grid-template-rows: 1fr 1fr;
+    */
     gap: 1rem 1rem;
   }
 
@@ -107,9 +110,6 @@ border: 1px solid grey;
     grid-row-end: span 2;
     align-self: start;
   }
-  .ini-label.top {
-    color: grey;
-  }
 
   .ability-circle {
     width: #{hs.circle_side};
@@ -134,6 +134,12 @@ border: 1px solid grey;
   .sq {
     border-radius: 0;
     margin-top: 0.1rem;
+  }
+  .sq::before {
+    content: '+';
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: grey;
   }
 
   .line {
@@ -190,18 +196,21 @@ border: 1px solid grey;
 
   .info-grid {
     display: grid;
-    grid-column: 2; grid-row: 1;
+    grid-column: 2 / span 2; grid-row: 1;
   }
   .skill-grid {
     display: grid;
-    grid-column: 1; grid-row: 2;
+    grid-column: 1 / span 2; grid-row: 2;
   }
   .gear-grid {
     display: grid;
-    grid-column: 2; grid-row: 2;
+    grid-column: 3; grid-row: 2;
   }
 
   .skill-label {
+  }
+  .skill-label.italic {
+    font-style: italic;
   }
   .skill-box {
     border: #{hs.box_border_width} solid grey;
@@ -209,10 +218,33 @@ border: 1px solid grey;
     height: #{hs.box_height};
     margin-bottom: 1px;
   }
+  .skill-box.attack {
+    border-color: black;
+  }
   .skill-box::after {
     content: '+';
     color: grey;
     display: inline-block;
+  }
+
+  .ac {
+    width: 2.1rem;
+    grid-row-end: span 2;
+    justify-self: center;
+  }
+  .ac-label {
+    grid-column-end: span 2;
+  }
+  .ac-label.base {
+    grid-row-end: span 4;
+  }
+  .ac-label.left {
+    justify-self: right;
+  }
+
+  .armors {
+    font-size: 12pt;
+    color: grey;
   }
 }.strip
 
@@ -236,7 +268,7 @@ def split_id_and_classes(s)
   id = nil
   cs = []
 
-  ss = StringScanner.new(s); while ! ss.eos?
+  ss = StringScanner.new(s || ''); while ! ss.eos?
     m = ss.scan(/[.#][-_a-zA-Z0-9]+/); break unless m
     m0 = m[0, 1 ]; m1 = m[1..-1]
     if m0 == '#'
@@ -246,20 +278,19 @@ def split_id_and_classes(s)
     end
   end
 
-  { id: id, classes: cs }
+  OpenStruct.new(id: id, classes: cs)
 end
 
-def set_origin(x, y)
-  $x = x
-  $y = y
-end
-set_origin(0, 0)
+def set_origin(x, y); $x = x; $y = y; end; set_origin(0, 0)
 
-def make(tag_name, id_and_classes, *rest, &block)
+def make(tag_name, *rest, &block)
 
-  h = split_id_and_classes(id_and_classes)
+  idc = rest.find { |e| e.is_a?(String) && e.match?(/^[.#]/) }; rest.delete(idc)
   x, y, yspan, xspan = rest.select { |e| e.is_a?(Integer) }
   text = rest.find { |e| e.is_a?(String) }
+  opts = rest.find { |e| e.is_a?(Hash) }
+
+  idc = split_id_and_classes(idc || '')
 
   styles = []
   styles << "grid-column-start: #{$x + x}" if x
@@ -268,17 +299,18 @@ def make(tag_name, id_and_classes, *rest, &block)
   styles << "grid-row-end: #{yspan}" if yspan
 
   print "<#{tag_name}"
-  print " id=\"#{h[:id]}\"" if h[:id]
-  print " class=\"#{h[:classes].join(' ')}\"" if h[:classes].any?
+  print " id=\"#{idc.id}\"" if idc.id 
+  print " class=\"#{idc.classes.join(' ')}\"" if idc.classes.any?
   print " style=\"#{styles.join('; ')}\"" if styles.any?
+  opts.each { |k, v| print " #{k}=#{v.to_s.inspect}" } if opts
   print ">"
-  print text  if text
-  block.yield if block
+  print text if text
+  block.call if block
   puts "</#{tag_name}>"
 end
 
 def div(*args, &block); make(:div, *args, &block); end
-def img(*args, &block); make(:img, *args, &block); end
+def img(*args); make(:img, *args); end
 
 puts %{
 <div class="page">
@@ -287,7 +319,7 @@ puts %{
 
 div('.ability-grid') do
 
-  div('.ini-label.top', 1, 7, '1d20+')
+  #div('.ini-label.top', 1, 7, '1d20+')
   div('.save-circle.sq', 1, 8)
   div('.ini-label', 1, 10, 'INI')
 
@@ -359,7 +391,7 @@ div('.skill-grid') do
     end
   %w{
     Sail Sneak Survive Swim Trade Work
-    #skip
+    #---
     Craft_
     Craft_
     Craft_
@@ -370,29 +402,49 @@ div('.skill-grid') do
     .select { |k|
       k[0, 1] != '#' }
     .each_with_index do |k, i|
-      next if k == 'skip'
-      m = k.match(/^([^_]+)_/); k = "#{m[1]} ____" if m
+      next if k == '---'
+      m = k.match(/^([^_]+)_/); k = "#{m[1]} _____" if m
       div('.skill-label', 3, 1 + i, k)
       div('.skill-box', 4, 1 + i)
     end
 
   %w{
-    #Slash
-    iAxes iMace iStaffs iSpears iSwords
-    skip
-    iBows iCrossbows iSlings
-    skip
-    Dodge
+    _Bows _Crossbows _Slings
+    ---
+    #Slash _Axes* _Maces* _Staffs* _Spears* _Swords*
+    ---
     #Parry
     Shield
+    Dodge
   }
     .select { |k|
       k[0, 1] != '#' }
     .each_with_index do |k, i|
-      next if k == 'skip'
-      div('.skill-label', 5, 1 + i, k)
-      div('.skill-box', 6, 1 + i)
+      next if k == '---'
+      it, k = k[0, 1] == '_' ? [ true, k[1..-1] ] : [ false, k ]
+      at, k = k[-1, 1] == '*' ? [ true, k[0..-2] ] : [ false, k ]
+      div('.skill-label' + (it ? '.italic' : ''), 5, 1 + i, k)
+      div('.skill-box' + (at ? '.attack' : ''), 6, 1 + i)
     end
+
+  armor =
+    '<div class="armors">' +
+    [ '10 <i>no armor</i>', '12 gambeson', '14 mail shirt', '16 mail hauberk' ]
+      .join('<br/>') +
+    '</div>'
+
+
+  div('.ac.base', 7, 3) { img('.ac', src: 'shield.svg') }
+  div('.ac', 9, 7) { img('.ac', src: 'shield.svg') }
+  div('.ac', 9, 9) { img('.ac', src: 'shield.svg') }
+  div('.ac', 9, 11) { img('.ac', src: 'shield.svg') }
+
+  div('.ac-label.base', 8, 3, 'base AC<br/>' + armor)
+  div('.ac-label.left', 7, 7, 'AC (weapon + shield)')
+  div('.ac-label.left', 7, 9, 'AC (weapon)')
+  div('.ac-label.left', 7, 11, 'AC (dodge)')
+  #div('.ac', 8, 9, 'AC with weapon and shield')
+  #div('.ac', 8, 11, 'AC naked')
 end
 
 div('.gear-grid') do
