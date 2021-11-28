@@ -69,7 +69,7 @@ border: 1px solid grey;
     /*
     grid-template-rows: 1fr 1fr;
     */
-    gap: 1rem 1rem;
+    gap: 1rem 0;
   }
 
   .ability-grid {
@@ -248,6 +248,20 @@ border: 1px solid grey;
   .info-grid {
     display: grid;
     grid-column: 3; grid-row: 1;
+    grid-template-columns: 50% 50%;
+  }
+
+  .info-grid .field {
+    font-size: 70%;
+    color: grey;
+    align-self: end;
+    border-bottom: 1px solid grey;
+  }
+
+  .info-grid .picture {
+    width: 100%;
+    height: 100%;
+    border: 1px solid grey;
   }
 
   /* GEAR GRID */
@@ -486,6 +500,7 @@ div('.hp-grid') do
   end
   div('.hp-info', 1, 2, 2, 1) do
     div('.level') do
+      div('upon levelling up')
       div('1d20 ≥ CON TC → best of 2d8')
       div('1d20 < CON TC → mean+ of 2d8')
     end
@@ -507,8 +522,20 @@ div('.hp-grid') do
 end
 
 div('.info-grid') do
-
-  puts "INFO"
+  div('.picture', 2, 1, 1, 6)
+  j = -1
+  [ 'name', '', 'player', 'origin', 'level' ]
+    .each_with_index do |k, i|
+      j = i
+      k = '&nbsp;' if k == ''
+      div('.field', k, 1, 1 + i)
+    end
+  j = j + 2
+  [ 'class', 'background', 'appearance', '', 'traits', '', '', '', 'scars', '' ]
+    .each_with_index do |k, i|
+      k = '&nbsp;' if k == ''
+      div('.field', k, 1, j + i, 2, 1)
+    end
 end
 
 div('.skill-grid') do
