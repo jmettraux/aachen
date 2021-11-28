@@ -69,7 +69,7 @@ border: 1px solid grey;
     /*
     grid-template-rows: 1fr 1fr;
     */
-    gap: 1rem 0;
+    gap: 0.5rem 0;
   }
 
   .ability-grid {
@@ -270,6 +270,7 @@ border: 1px solid grey;
     display: grid;
     grid-column: 3; grid-row: 2;
     row-gap: 1rem;
+    margin-top: 0.5rem;
   }
   .gear-label {
     font-size: 70%;
@@ -325,6 +326,11 @@ border: 1px solid grey;
     content: '+';
     color: grey;
     display: inline-block;
+  }
+  .skill-note {
+    font-size: 70%;
+    color: grey;
+    align-self: center;
   }
 
   .weapon-cat {
@@ -498,8 +504,8 @@ div('.ability-grid') do
   div('.save-circle.clgrey', 8, 9)
   div('.save-circle', 7, 11)
 
-  div('.save-label', 8, 3, 'Physical')
-  div('.save-label', 8, 7, 'Evasion')
+  div('.save-label', 8, 3, 1, 2, 'Physical')
+  div('.save-label', 8, 7, 1, 2, 'Evasion')
   div('.save-label', 8, 11, 1, 2, 'Mental', style: 'align-self: end')
 
   div('.learning-label', 9, 9, 1, 2, 'learning<br/>TC')
@@ -562,6 +568,7 @@ end
 
 div('.skill-grid') do
 
+  j = 0
   %w{
     Administer Connect Convince #Craft Exert Heal Hunt #Know Lead Notice
     Perform Pray Read Ride
@@ -572,7 +579,10 @@ div('.skill-grid') do
       next if k == 'skip'
       div('.skill-label', 1, 1 + i, k)
       div('.skill-box', 2, 1 + i)
+      j = 1 + i
     end
+  div('.skill-note', 'when empty, defaults to -2', 1, j + 1, 4, 1)
+
   %w{
     Sail Sneak Survive Swim Trade Work
     #---
@@ -593,7 +603,7 @@ div('.skill-grid') do
     end
 
   %w{
-    _Bows _Crossbows _Slings
+    _Bows _Crossbows _Slings _Javelins
     ---
     #Slash _Axes* _Maces* _Staffs* _Spears* _Swords*
     ---
@@ -611,8 +621,8 @@ div('.skill-grid') do
       div('.skill-box' + (at ? '.attack' : ''), 7, 1 + i)
     end
 
-  div('.weapon-cat', 5, 1, 1, 3, 'ranged')
-  div('.weapon-cat', 5, 5, 1, 5, 'melee')
+  div('.weapon-cat', 5, 1, 1, 4, 'ranged')
+  div('.weapon-cat', 5, 6, 1, 5, 'melee')
 
   armor =
     '<div class="armors">' +
