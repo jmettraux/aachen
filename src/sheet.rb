@@ -16,7 +16,7 @@ hs = OpenStruct.new(
   sans_face: 'ff-scala-sans-pro, sans-serif',
   circle_side: '3.0rem',
   border_width: '0.3rem',
-  box_border_width: '0.2rem',
+  box_border_width: '0.14rem',
   box_width: '2.1rem',
   box_height: '1.4rem',
 )
@@ -249,6 +249,17 @@ border: 1px solid grey;
     display: inline-block;
   }
 
+  .weapon-cat {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    justify-self: stretch;
+    align-self: stretch;
+    background-color: lightgrey;
+    padding: 0;
+    margin-right: 0.2rem;
+    text-align: center;
+  }
+
   .ac {
     width: 2.1rem;
     grid-row-end: span 2;
@@ -315,10 +326,14 @@ def make(tag_name, *rest, &block)
   idc = split_id_and_classes(idc || '')
 
   styles = []
+    #
   styles << "grid-column-start: #{$x + x}" if x
   styles << "grid-row-start: #{$y + y}" if y
   styles << "grid-column-end: #{xspan}" if xspan
   styles << "grid-row-end: #{yspan}" if yspan
+    #
+  style = opts && opts.delete(:style)
+  styles << style if style
 
   print "<#{tag_name}"
   print " id=\"#{idc.id}\"" if idc.id 
@@ -450,9 +465,12 @@ div('.skill-grid') do
       next if k == '---'
       it, k = k[0, 1] == '_' ? [ true, k[1..-1] ] : [ false, k ]
       at, k = k[-1, 1] == '*' ? [ true, k[0..-2] ] : [ false, k ]
-      div('.skill-label' + (it ? '.italic' : ''), 5, 1 + i, k)
-      div('.skill-box' + (at ? '.attack' : ''), 6, 1 + i)
+      div('.skill-label' + (it ? '.italic' : ''), 6, 1 + i, k)
+      div('.skill-box' + (at ? '.attack' : ''), 7, 1 + i)
     end
+
+  div('.weapon-cat', 5, 1, 'ranged', style: 'grid-row-end: span 3;')
+  div('.weapon-cat', 5, 5, 'melee', style: 'grid-row-end: span 5;')
 
   armor =
     '<div class="armors">' +
@@ -464,17 +482,15 @@ div('.skill-grid') do
     '</div>'
 
 
-  div('.ac.base', 7, 3) { img('.ac', src: 'shield.svg') }
-  div('.ac', 9, 7) { img('.ac', src: 'shield.svg') }
-  div('.ac', 9, 9) { img('.ac', src: 'shield.svg') }
-  div('.ac', 9, 11) { img('.ac', src: 'shield.svg') }
+  div('.ac.base', 8, 3) { img('.ac', src: 'shield.svg') }
+  div('.ac', 10, 7) { img('.ac', src: 'shield.svg') }
+  div('.ac', 10, 9) { img('.ac', src: 'shield.svg') }
+  div('.ac', 10, 11) { img('.ac', src: 'shield.svg') }
 
-  div('.ac-label.base', 8, 3, 'base AC<br/>' + armor)
-  div('.ac-label.left', 7, 7, 'AC (weapon + shield)')
-  div('.ac-label.left', 7, 9, 'AC (weapon)')
-  div('.ac-label.left', 7, 11, 'AC (dodge)')
-  #div('.ac', 8, 9, 'AC with weapon and shield')
-  #div('.ac', 8, 11, 'AC naked')
+  div('.ac-label.base', 9, 3, 'base AC<br/>' + armor)
+  div('.ac-label.left', 8, 7, 'AC (weapon + shield)')
+  div('.ac-label.left', 8, 9, 'AC (weapon)')
+  div('.ac-label.left', 8, 11, 'AC (dodge)')
 end
 
 div('.gear-grid') do
