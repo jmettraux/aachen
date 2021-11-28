@@ -194,9 +194,13 @@ border: 1px solid grey;
     z-index: -1;
   }
 
+  .hp-grid {
+    display: grid;
+    grid-column: 2; grid-row: 1;
+  }
   .info-grid {
     display: grid;
-    grid-column: 2 / span 2; grid-row: 1;
+    grid-column: 3; grid-row: 1;
   }
   .skill-grid {
     display: grid;
@@ -371,6 +375,11 @@ div('.ability-grid') do
   div('.save-label', 8, 11, 'Mental')
 end
 
+div('.hp-grid') do
+
+  img('.heart', src: 'heart.svg', style: 'justify-self: center;')
+end
+
 div('.info-grid') do
 
   puts "INFO"
@@ -429,8 +438,11 @@ div('.skill-grid') do
 
   armor =
     '<div class="armors">' +
-    [ '10 <i>no armor</i>', '12 gambeson', '14 mail shirt', '16 mail hauberk' ]
-      .join('<br/>') +
+    [ '8 <i>no armor</i>',
+      '10 gambeson',
+      '12 mail shirt',
+      '14 mail hauberk'
+        ].join('<br/>') +
     '</div>'
 
 
