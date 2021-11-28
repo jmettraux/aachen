@@ -78,7 +78,7 @@ border: 1px solid grey;
     height: 100%;
     place-items: center;
     grid-template-columns:
-      #{hs.cs} 2.1rem #{hs.cs} 8.4rem #{hs.cs} 2.8rem #{hs.cs};
+      #{hs.cs} 0.7rem #{hs.cs} 8.4rem #{hs.cs} 0.7rem #{hs.cs} auto;
     /*
     grid-template-rows: 1.4rem 1.4rem 1.4rem 1.4rem 1.4rem 1.4rem;
     */
@@ -87,6 +87,7 @@ border: 1px solid grey;
   }
 
   .a-label {
+    font-size: 71%;
     padding-bottom: 0.2rem;
     color: grey;
   }
@@ -97,13 +98,16 @@ border: 1px solid grey;
   }
   .save-label {
     padding-left: 0.1rem;
-    grid-row-end: span 2;
+    /*grid-row-end: span 2;*/
     justify-self: left;
+    align-self: start;
   }
   .learning-label {
-    padding-left: 0.1rem;
-    grid-row-end: span 2;
-    justify-self: left;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 70%;
+    justify-self: center;
+    align-self: center;
     color: grey;
   }
   .ini-label {
@@ -174,7 +178,8 @@ border: 1px solid grey;
     transform: rotate(-35deg);
     background-color: lightgrey;
   }
-  .lgrey::after {
+  .learning::after {
+    width: 4.7rem;
     background-color: lightgrey;
   }
   .clgrey {
@@ -197,7 +202,7 @@ border: 1px solid grey;
   /* HP GRID */
 
   .hp-grid {
-    display: grid;
+    display: block;
     grid-column: 2; grid-row: 1;
   }
 
@@ -279,10 +284,10 @@ border: 1px solid grey;
     justify-self: left;
   }
   .ac.big img {
-    width: 3.5rem;
+    width: 3.8rem;
   }
   .ac.big.grey {
-    opacity: 0.5;
+    opacity: 0.4;
   }
   .ac-title {
     font-weight: bold;
@@ -377,8 +382,9 @@ div('.ability-grid') do
   div('.line.ldown35', 2, 8)
 
   div('.a-label', 3, 1, '3d6')
-  div('.a-label', 5, 1, '21-x')
-  div('.a-label', 7, 1, 'saves')
+  div('.a-label', 4, 1, '21-x')
+  div('.a-label', 5, 1, 'Ability TC')
+  div('.a-label', 7, 1, 'Save TC')
 
   div('.ability-circle.clgrey.sq', 3, 2)
   div('.ability-circle.clgrey.sq', 3, 4)
@@ -405,25 +411,27 @@ div('.ability-grid') do
   div('.line.lup', 6, 4)
   div('.line.ldown', 6, 6)
   div('.line.lup', 6, 8)
-  div('.line.ldown.lgrey', 6, 8)
-  div('.line.lup.lgrey', 6, 10)
+  div('.line.ldown.learning', 6, 8, 2)
+  div('.line.lup.learning', 6, 10, 2)
   div('.line.ldown', 6, 10)
   div('.line.lup', 6, 12)
 
   div('.save-circle', 7, 3)
   div('.save-circle', 7, 7)
-  div('.save-circle.clgrey', 7, 9)
+  div('.save-circle.clgrey', 8, 9)
   div('.save-circle', 7, 11)
 
   div('.save-label', 8, 3, 'Physical')
   div('.save-label', 8, 7, 'Evasion')
-  div('.learning-label', 8, 9, 'Learning')
-  div('.save-label', 8, 11, 'Mental')
+  div('.save-label', 8, 11, 1, 2, 'Mental', style: 'align-self: end')
+
+  div('.learning-label', 9, 9, 1, 2, 'learning')
 end
 
 div('.hp-grid') do
 
   img('.heart', src: 'heart.svg', style: 'justify-self: center;')
+  img('.cross', src: 'cross.svg', style: 'justify-self: center;')
 end
 
 div('.info-grid') do
@@ -482,8 +490,8 @@ div('.skill-grid') do
       div('.skill-box' + (at ? '.attack' : ''), 7, 1 + i)
     end
 
-  div('.weapon-cat', 5, 1, 'ranged', style: 'grid-row-end: span 3;')
-  div('.weapon-cat', 5, 5, 'melee', style: 'grid-row-end: span 5;')
+  div('.weapon-cat', 5, 1, 1, 3, 'ranged')
+  div('.weapon-cat', 5, 5, 1, 5, 'melee')
 
   armor =
     '<div class="armors">' +
