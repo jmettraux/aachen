@@ -194,21 +194,39 @@ border: 1px solid grey;
     z-index: -1;
   }
 
+  /* HP GRID */
+
   .hp-grid {
     display: grid;
     grid-column: 2; grid-row: 1;
   }
+
+  /* INFO GRID */
+
   .info-grid {
     display: grid;
     grid-column: 3; grid-row: 1;
   }
+
+  /* GEAR GRID */
+
+  .gear-grid {
+    display: block;
+    grid-column: 3; grid-row: 2;
+  }
+  .gear-label {
+  }
+  .gear-line {
+    width: 100%;
+    height: 1.4rem;
+    border-bottom: 1px solid grey;
+  }
+
+  /* SKILL GRID */
+
   .skill-grid {
     display: grid;
     grid-column: 1 / span 2; grid-row: 2;
-  }
-  .gear-grid {
-    display: grid;
-    grid-column: 3; grid-row: 2;
   }
 
   .skill-label {
@@ -461,7 +479,8 @@ end
 
 div('.gear-grid') do
 
-  puts "GEAR"
+  div('.gear-label', 'Gear')
+  11.times { div('.gear-line') }
 end
 
 #puts %{
