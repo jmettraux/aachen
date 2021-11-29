@@ -71,6 +71,7 @@ border: 1px solid grey;
 
   .subgrid {
     display: grid;
+    row-gap: 0.7rem;
   }
 
   .ability-grid {
@@ -88,11 +89,21 @@ border: 1px solid grey;
     padding-bottom: 0.2rem;
     color: grey;
   }
+
   .ability-label {
-    grid-row-end: span 2;
     justify-self: left;
     position: relative;
   }
+  .ability-label::after {
+    content: '';
+    background-color: lightgrey;
+    position: absolute;
+    left: -1rem;
+    width: 8rem;
+    height: 1.8rem;
+    z-index: -1;
+  }
+
   .save-label {
     padding-left: 0.1rem;
     justify-self: left;
@@ -181,19 +192,6 @@ border: 1px solid grey;
   }
   .clgrey {
     border-color: lightgrey;
-  }
-  .bggrey {
-    background-color: lightgrey;
-  }
-
-  .ability-label::after {
-    content: '';
-    background-color: lightgrey;
-    position: absolute;
-    left: -1rem;
-    width: 8rem;
-    height: 1.7rem;
-    z-index: -1;
   }
 
   /* HP GRID */
@@ -302,6 +300,7 @@ border: 1px solid grey;
   }
 
   .skill-label {
+    margin-left: 0.2rem;
   }
   .skill-label.italic {
     font-style: italic;
@@ -324,6 +323,7 @@ border: 1px solid grey;
     font-size: 70%;
     color: grey;
     align-self: center;
+    justify-self: center;
   }
 
   .weapon-cat {
@@ -474,12 +474,12 @@ div('.left.subgrid', 1, 1) do
     div('.ability-circle.clgrey.sq', 3, 10)
     div('.ability-circle.clgrey.sq', 3, 12)
 
-    div('.ability-label.bggrey', 4, 2, '<b>STR</b>ength')
-    div('.ability-label', 4, 4, '<b>CON</b>stitution')
-    div('.ability-label.bggrey', 4, 6, '<b>DEX</b>terity')
-    div('.ability-label', 4, 8, '<b>INT</b>elligence')
-    div('.ability-label.bggrey', 4, 10, '<b>WIS</b>dom')
-    div('.ability-label', 4, 12, '<b>CHA</b>risma')
+    div('.ability-label', 4, 2, 1, 2, '<b>STR</b>ength')
+    div('.ability-label', 4, 4, 1, 2, '<b>CON</b>stitution')
+    div('.ability-label', 4, 6, 1, 2, '<b>DEX</b>terity')
+    div('.ability-label', 4, 8, 1, 2, '<b>INT</b>elligence')
+    div('.ability-label', 4, 10, 1, 2, '<b>WIS</b>dom')
+    div('.ability-label', 4, 12, 1, 2, '<b>CHA</b>risma')
 
     div('.ability-circle', 5, 2)
     div('.ability-circle', 5, 4)
@@ -514,7 +514,7 @@ div('.left.subgrid', 1, 1) do
     j = 0
     %w{
       Administer Connect Convince #Craft Exert Heal Hunt #Know Lead Notice
-      Perform Pray Read Ride
+      Perform Pray Read Ride Sail
     }
       .select { |k|
         k[0, 1] != '#' }
@@ -524,24 +524,27 @@ div('.left.subgrid', 1, 1) do
         div('.skill-box', 2, 1 + i)
         j = 1 + i
       end
-    div('.skill-note', 'when empty, defaults to -2', 1, j + 1, 4, 1)
+    div('.skill-note', 'skills default to -2', 3, 11, 5, 1)
 
     %w{
-      Sail Sneak Survive Swim Trade Work
+      Sneak Survive Swim Trade Work
       #---
-      Craft_
-      Craft_
-      Craft_
-      Know_
-      Know_
-      Know_
+      _
+      _
+      _
+      _
+      _
+      ---
+      _Cast
+      _Scan
     }
       .select { |k|
         k[0, 1] != '#' }
       .each_with_index do |k, i|
         next if k == '---'
-        m = k.match(/^([^_]+)_/); k = "#{m[1]} _____" if m
-        div('.skill-label', 3, 1 + i, k)
+        it, k = k.match(/^_(.+)$/) ? [ true, $1 ] : [ false, k ]
+        k = (k == '_') ? '_________' : k
+        div('.skill-label' + (it ? '.italic' : ''), 3, 1 + i, k)
         div('.skill-box', 4, 1 + i)
       end
 
