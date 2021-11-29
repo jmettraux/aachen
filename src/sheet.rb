@@ -65,13 +65,13 @@ border: 1px solid grey;
     display: grid;
     width: 100%;
     height: 100%;
-    grid-template-columns: 1fr 1fr 1fr;
-    /*gap: 0.5rem 0;*/
+    grid-template-columns: 42% auto 35%;
+    column-gap: 0.4rem;
   }
 
   .subgrid {
     display: grid;
-    row-gap: 0.7rem;
+    row-gap: 0.4rem;
   }
 
   .ability-grid {
@@ -145,7 +145,7 @@ border: 1px solid grey;
 
   .sq {
     border-radius: 0;
-    margin-top: 0.1rem;
+    margin-top: 1px;
   }
   .sq::before {
     content: '+';
@@ -198,35 +198,52 @@ border: 1px solid grey;
 
   .hp-grid {
     display: grid;
-    column-gap: 0.5rem;
   }
 
   .hp-max {
     justify-self: center;
   }
   .hp-max img {
-    width: 6.3rem;
+    width: 4.9rem;
   }
 
+  /*
   .hp-info .classes {
     margin-top: 0.4rem;
-    font-size: 70%;
+    font-size: 11pt;
     color: grey;
   }
-  .hp-info .level {
-    font-size: 70%;
-    color: grey;
-    text-align: center;
+  */
+
+  /* CP GRID */
+
+  .cp-max {
+    justify-self: center;
+  }
+
+  .cp-max img {
+    width: 3.5rem;
+  }
+
+  .cp-grid {
+    display: grid;
+  }
+
+  /* ATT GRID */
+
+  .att-grid {
+    display: grid;
   }
 
   .att {
     justify-self: center;
+    position: relative;
   }
   .att::before {
     content: '+';
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
+    display: 'inline-block';
+    position: absolute;
+    top: 2rem;
   }
   .att img {
     width: 4.9rem;
@@ -300,10 +317,11 @@ border: 1px solid grey;
   }
 
   .skill-tag {
-    font-size: 67pt;
-    color: lightgrey;
+    font-size: 70pt;
+    font-weight: bold;
+    color: #dfdfdf;
     z-index: -1;
-    align-self: start;
+    align-self: end;
   }
 
   .skill-label {
@@ -352,33 +370,31 @@ border: 1px solid grey;
   }
 
   .ac {
-    width: 2.1rem;
     justify-self: center;
   }
-  .ac-label {
+  .ac img {
+    width: 4.2rem;
   }
-  .ac-label.base {
-  }
-  .ac-label.left {
-    justify-self: right;
+  .ac.base img {
+    width: 2.8rem;
   }
 
-  .ac.big {
-    justify-self: left;
-  }
-  .ac.big img {
-    width: 3.6rem;
-  }
-  .ac.big.grey {
-    opacity: 0.4;
-  }
-  .ac-title {
+  .ac-label {
+    padding-top: 0.4rem;
     font-weight: bold;
   }
-
-  .armors {
-    font-size: 12pt;
+  .ac-explanation {
+    font-size: 11pt;
     color: grey;
+  }
+
+  /* misc */
+
+  .bold { font-weight: bold; }
+
+  .center.subgrid > * {
+    grid-template-columns: 50% auto;
+    justify-self: stretch;
   }
 }.strip
 
@@ -542,7 +558,7 @@ div('.left.subgrid', 1, 1) do
       _
       _
       _
-      _
+      ---
       ---
       _Cast
       _Scan
@@ -557,7 +573,7 @@ div('.left.subgrid', 1, 1) do
         div('.skill-box', 4, 1 + i)
       end
 
-    div('.skill-tag', 3, 11, 2, 4, 'M')
+    div('.skill-tag', 3, 10, 2, 4, 'M')
 
     %w{
       _Bows _Crossbows _Slings _Javelins
@@ -577,7 +593,7 @@ div('.left.subgrid', 1, 1) do
         div('.skill-label' + (it ? '.italic' : ''), 6, 1 + i, k)
         div('.skill-box' + (at ? '.attack' : ''), 7, 1 + i)
       end
-    div('.skill-tag', 6, 1, 2, 4, 'F')
+    div('.skill-tag', 6, 10, 2, 4, 'F')
 
     div('.weapon-cat', 5, 1, 1, 4, 'ranged')
     div('.weapon-cat', 5, 6, 1, 5, 'melee')
@@ -592,69 +608,70 @@ div('.center.subgrid', 2, 1) do
       img('.heart', src: 'heart.svg')
     end
     div('.hp-info', 2, 1) do
-      div('HP max')
-      div('.classes') do
-        div('Fighter 1d8+3 / lvl')
-        div('Dabster 1d8 / lvl')
-        div('Caster 1d8-1 / lvl')
-        div('Fighter-x 1d8+1 / lvl')
-        div('Dabster-Caster 1d8 / lvl')
-      end
+      div('.bold', 'HP max')
+      #div('.classes') do
+      #  div('Fighter 1d8+3 / lvl')
+      #  div('Dabster 1d8 / lvl')
+      #  div('Caster 1d8-1 / lvl')
+      #  div('Fighter-x 1d8+1 / lvl')
+      #  div('Dabster-Caster 1d8 / lvl')
+      #end
     end
-    div('.hp-info', 1, 2, 2, 1) do
-      div('.level') do
-        div('upon levelling up')
-        div('1d20 ≥ CON TC → best of 2d8')
-        div('1d20 < CON TC → mean+ of 2d8')
-      end
+  #end
+  #div('.cp-grid', 1, 2) do
+    div('.cp-max', 1, 2) { img(src: 'drop.svg') }
+    div('.cp-info', 2, 2) do
+      div('.bold', 'CP max')
     end
-    div('.att', 1, 3) do
+  end
+
+  div('.att-grid', 1, 3) do
+
+    div('.att', 1, 1) do
       img('.cross', src: 'cross.svg')
     end
-    div('.att-info', 2, 3) do
+    div('.att-info', 2, 1) do
       div('Ranged Attack')
       div('.explanation', '1d20 + X ≥ eny AC')
     end
-    div('.att', 1, 4) do
+    div('.att', 1, 2) do
       img('.cross', src: 'cross.svg')
     end
-    div('.att-info', 2, 4) do
+    div('.att-info', 2, 2) do
       div('Melee Attack')
       div('.explanation', '1d20 + X ≥ eny AC')
     end
   end
 
-  div('.ac-grid', 1, 2) do
+  div('.ac-grid', 1, 4) do
 
-    armor =
-      '<div class="armors">' +
-      [ '10 <i>no armor</i>',
-        '12 gambeson',
-        '14 mail shirt',
-        '16 mail hauberk'
-          ].join('<br/>') +
-      '</div>'
+    div('.ac.base', 1, 1) { img('.ac', src: 'shield-grey.svg') }
+    div('.ac-group', 2, 1) do
+      div('.ac-label', 'base AC')
+      div('.ac-explanation') do
+        div([
+          '10 <i>no armor</i>',
+          '12 gambeson',
+          '14 mail shirt',
+          '16 mail hauberk' ].join('<br/>'))
+      end
+    end#, 'base AC<br/>' + armor)
 
-    div('.ac', 1, 1) { img('.ac', src: 'shield.svg') }
-    div('.ac-label.base', 1, 2, 'base AC<br/>' + armor)
+    div('.ac', 1, 2) { img('.ac', src: 'shield-grey.svg') }
+    div('.ac', 1, 3) { img('.ac', src: 'shield.svg') }
 
-    div('.ac.big.grey', 2, 1, 1, 2) { img('.ac', src: 'shield.svg') }
-    div('.ac.big', 2, 3, 1, 2) { img('.ac', src: 'shield.svg') }
-    #ac =
-    #  'base AC + best of<br/>' +
-    #  '&nbsp;&nbsp;<i>Dodge</i>, <i>Shield</i>, or Weapon'
+    div('.ac-group', 2, 2) do
+      div('.ac-label', 'Min AC')
+      div('.ac-explanation', 'base AC + <i>Dodge</i>')
+    end
 
-  #  div('.ac.big.grey', 8, 5, 2, 5) { img('.ac', src: 'shield.svg') }
-  #  div('.ac-label', 10, 5, 1, 5) do
-  #    div('.ac-title', 'min AC')
-  #    div('.ac-detail', 'base AC + <i>Dodge</i>')
-  #  end
-  #
-  #  div('.ac.big', 8, 9, 2, 5) { img('.ac', src: 'shield.svg') }
-  #  div('.ac-label', 10, 9, 1, 5) do
-  #    div('.ac-title', 'AC')
-  #    div('.ac-detail', ac)
-  #  end
+    div('.ac-group', 2, 3) do
+      div('.ac-label', 'AC')
+      div('.ac-explanation',
+        'base AC + best of<br/>' +
+        '&nbsp;&nbsp;<i>Dodge</i>, <i>Shield</i>,<br/>' +
+        '&nbsp;&nbsp;or Weapon')
+    end
   end
 end
 
