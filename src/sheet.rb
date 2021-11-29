@@ -66,10 +66,11 @@ border: 1px solid grey;
     width: 100%;
     height: 100%;
     grid-template-columns: 1fr 1fr 1fr;
-    /*
-    grid-template-rows: 1fr 1fr;
-    */
-    gap: 0.5rem 0;
+    /*gap: 0.5rem 0;*/
+  }
+
+  .subgrid {
+    display: grid;
   }
 
   .ability-grid {
@@ -429,7 +430,7 @@ def make(tag_name, *rest, &block)
   styles << style if style
 
   print "<#{tag_name}"
-  print " id=\"#{idc.id}\"" if idc.id 
+  print " id=\"#{idc.id}\"" if idc.id
   print " class=\"#{idc.classes.join(' ')}\"" if idc.classes.any?
   print " style=\"#{styles.join('; ')}\"" if styles.any?
   opts.each { |k, v| print " #{k}=#{v.to_s.inspect}" } if opts
@@ -447,233 +448,237 @@ puts %{
   <div class="page-grid">
 }
 
-div('.ability-grid', 1, 1) do
+div('.left.subgrid', 1, 1) do
 
-  div('.save-circle.sq', 1, 8)
-  div('.ini-label', 1, 10, 1, 2, 'INI<br/>tiative')
+  div('.ability-grid', 1, 1) do
 
-  div('.line.lup35', 2, 8)
-  div('.line.ldown35', 2, 8)
+    div('.save-circle.sq', 1, 8)
+    div('.ini-label', 1, 10, 1, 2, 'INI<br/>tiative')
 
-  div('.a-label', 3, 1, '3d6')
-  div('.a-label', 5, 1, 'Ability TC')
-  div('.a-label', 7, 1, 'Save TC')
+    div('.line.lup35', 2, 8)
+    div('.line.ldown35', 2, 8)
 
-  div('.a-label', 1, 14, 'mean-')
-  div('.a-label', 3, 14, 'Abi')
-  div('.a-label', 5, 14, '21 - Abi')
-  div('.a-label', 7, 14, 'mean+')
+    div('.a-label', 3, 1, '3d6')
+    div('.a-label', 5, 1, 'Ability TC')
+    div('.a-label', 7, 1, 'Save TC')
 
-  div('.ability-circle.clgrey.sq', 3, 2)
-  div('.ability-circle.clgrey.sq', 3, 4)
-  div('.ability-circle.clgrey.sq', 3, 6)
-  div('.ability-circle.clgrey.sq', 3, 8)
-  div('.ability-circle.clgrey.sq', 3, 10)
-  div('.ability-circle.clgrey.sq', 3, 12)
+    div('.a-label', 1, 14, 'mean-')
+    div('.a-label', 3, 14, 'Abi')
+    div('.a-label', 5, 14, '21 - Abi')
+    div('.a-label', 7, 14, 'mean+')
 
-  div('.ability-label.bggrey', 4, 2, '<b>STR</b>ength')
-  div('.ability-label', 4, 4, '<b>CON</b>stitution')
-  div('.ability-label.bggrey', 4, 6, '<b>DEX</b>terity')
-  div('.ability-label', 4, 8, '<b>INT</b>elligence')
-  div('.ability-label.bggrey', 4, 10, '<b>WIS</b>dom')
-  div('.ability-label', 4, 12, '<b>CHA</b>risma')
+    div('.ability-circle.clgrey.sq', 3, 2)
+    div('.ability-circle.clgrey.sq', 3, 4)
+    div('.ability-circle.clgrey.sq', 3, 6)
+    div('.ability-circle.clgrey.sq', 3, 8)
+    div('.ability-circle.clgrey.sq', 3, 10)
+    div('.ability-circle.clgrey.sq', 3, 12)
 
-  div('.ability-circle', 5, 2)
-  div('.ability-circle', 5, 4)
-  div('.ability-circle', 5, 6)
-  div('.ability-circle', 5, 8)
-  div('.ability-circle', 5, 10)
-  div('.ability-circle', 5, 12)
+    div('.ability-label.bggrey', 4, 2, '<b>STR</b>ength')
+    div('.ability-label', 4, 4, '<b>CON</b>stitution')
+    div('.ability-label.bggrey', 4, 6, '<b>DEX</b>terity')
+    div('.ability-label', 4, 8, '<b>INT</b>elligence')
+    div('.ability-label.bggrey', 4, 10, '<b>WIS</b>dom')
+    div('.ability-label', 4, 12, '<b>CHA</b>risma')
 
-  div('.line.ldown', 6, 2)
-  div('.line.lup', 6, 4)
-  div('.line.ldown', 6, 6)
-  div('.line.lup', 6, 8)
-  div('.line.ldown.learning', 6, 8, 2)
-  div('.line.lup.learning', 6, 10, 2)
-  div('.line.ldown', 6, 10)
-  div('.line.lup', 6, 12)
+    div('.ability-circle', 5, 2)
+    div('.ability-circle', 5, 4)
+    div('.ability-circle', 5, 6)
+    div('.ability-circle', 5, 8)
+    div('.ability-circle', 5, 10)
+    div('.ability-circle', 5, 12)
 
-  div('.save-circle', 7, 3)
-  div('.save-circle', 7, 7)
-  div('.save-circle.clgrey', 8, 9)
-  div('.save-circle', 7, 11)
+    div('.line.ldown', 6, 2)
+    div('.line.lup', 6, 4)
+    div('.line.ldown', 6, 6)
+    div('.line.lup', 6, 8)
+    div('.line.ldown.learning', 6, 8, 2)
+    div('.line.lup.learning', 6, 10, 2)
+    div('.line.ldown', 6, 10)
+    div('.line.lup', 6, 12)
 
-  div('.save-label', 8, 3, 1, 2, 'Physical')
-  div('.save-label', 8, 7, 1, 2, 'Evasion')
-  div('.save-label', 8, 11, 1, 2, 'Mental', style: 'align-self: end')
+    div('.save-circle', 7, 3)
+    div('.save-circle', 7, 7)
+    div('.save-circle.clgrey', 8, 9)
+    div('.save-circle', 7, 11)
 
-  div('.learning-label', 9, 9, 1, 2, 'learning<br/>TC')
-end
+    div('.save-label', 8, 3, 1, 2, 'Physical')
+    div('.save-label', 8, 7, 1, 2, 'Evasion')
+    div('.save-label', 8, 11, 1, 2, 'Mental', style: 'align-self: end')
 
-div('.skill-grid', 1, 2) do
-
-  j = 0
-  %w{
-    Administer Connect Convince #Craft Exert Heal Hunt #Know Lead Notice
-    Perform Pray Read Ride
-  }
-    .select { |k|
-      k[0, 1] != '#' }
-    .each_with_index do |k, i|
-      next if k == 'skip'
-      div('.skill-label', 1, 1 + i, k)
-      div('.skill-box', 2, 1 + i)
-      j = 1 + i
-    end
-  div('.skill-note', 'when empty, defaults to -2', 1, j + 1, 4, 1)
-
-  %w{
-    Sail Sneak Survive Swim Trade Work
-    #---
-    Craft_
-    Craft_
-    Craft_
-    Know_
-    Know_
-    Know_
-  }
-    .select { |k|
-      k[0, 1] != '#' }
-    .each_with_index do |k, i|
-      next if k == '---'
-      m = k.match(/^([^_]+)_/); k = "#{m[1]} _____" if m
-      div('.skill-label', 3, 1 + i, k)
-      div('.skill-box', 4, 1 + i)
-    end
-
-  %w{
-    _Bows _Crossbows _Slings _Javelins
-    ---
-    #Slash _Axes* _Maces* _Staffs* _Spears* _Swords*
-    ---
-    #Parry
-    Shield
-    Dodge
-  }
-    .select { |k|
-      k[0, 1] != '#' }
-    .each_with_index do |k, i|
-      next if k == '---'
-      it, k = k[0, 1] == '_' ? [ true, k[1..-1] ] : [ false, k ]
-      at, k = k[-1, 1] == '*' ? [ true, k[0..-2] ] : [ false, k ]
-      div('.skill-label' + (it ? '.italic' : ''), 6, 1 + i, k)
-      div('.skill-box' + (at ? '.attack' : ''), 7, 1 + i)
-    end
-
-  div('.weapon-cat', 5, 1, 1, 4, 'ranged')
-  div('.weapon-cat', 5, 6, 1, 5, 'melee')
-end
-
-div('.hp-grid', 2, 1) do
-
-  div('.hp-max', 1, 1) do
-    img('.heart', src: 'heart.svg')
+    div('.learning-label', 9, 9, 1, 2, 'learning<br/>TC')
   end
-  div('.hp-info', 2, 1) do
-    div('HP max')
-    div('.classes') do
-      div('Fighter 1d8+3 / lvl')
-      div('Dabster 1d8 / lvl')
-      div('Caster 1d8-1 / lvl')
-      div('Fighter-x 1d8+1 / lvl')
-      div('Dabster-Caster 1d8 / lvl')
-    end
-  end
-  div('.hp-info', 1, 2, 2, 1) do
-    div('.level') do
-      div('upon levelling up')
-      div('1d20 ≥ CON TC → best of 2d8')
-      div('1d20 < CON TC → mean+ of 2d8')
-    end
-  end
-  div('.att', 1, 3) do
-    img('.cross', src: 'cross.svg')
-  end
-  div('.att-info', 2, 3) do
-    div('Ranged Attack')
-    div('.explanation', '1d20 + X ≥ eny AC')
-  end
-  div('.att', 1, 4) do
-    img('.cross', src: 'cross.svg')
-  end
-  div('.att-info', 2, 4) do
-    div('Melee Attack')
-    div('.explanation', '1d20 + X ≥ eny AC')
-  end
-end
 
-div('.ac-grid', 2, 2) do
+  div('.skill-grid', 1, 2) do
 
-  armor =
-    '<div class="armors">' +
-    [ '10 <i>no armor</i>',
-      '12 gambeson',
-      '14 mail shirt',
-      '16 mail hauberk'
-        ].join('<br/>') +
-    '</div>'
-
-  div('.ac', 1, 1) { img('.ac', src: 'shield.svg') }
-  div('.ac-label.base', 1, 2, 'base AC<br/>' + armor)
-
-  div('.ac.big.grey', 2, 1, 1, 2) { img('.ac', src: 'shield.svg') }
-  div('.ac.big', 2, 3, 1, 2) { img('.ac', src: 'shield.svg') }
-  #ac =
-  #  'base AC + best of<br/>' +
-  #  '&nbsp;&nbsp;<i>Dodge</i>, <i>Shield</i>, or Weapon'
-
-#  div('.ac.big.grey', 8, 5, 2, 5) { img('.ac', src: 'shield.svg') }
-#  div('.ac-label', 10, 5, 1, 5) do
-#    div('.ac-title', 'min AC')
-#    div('.ac-detail', 'base AC + <i>Dodge</i>')
-#  end
-#
-#  div('.ac.big', 8, 9, 2, 5) { img('.ac', src: 'shield.svg') }
-#  div('.ac-label', 10, 9, 1, 5) do
-#    div('.ac-title', 'AC')
-#    div('.ac-detail', ac)
-#  end
-end
-
-div('.info-grid', 3, 1) do
-  div('.picture', 2, 1, 1, 6)
-  j = -1
-  [ 'name', '', 'player', 'origin', 'level' ]
-    .each_with_index do |k, i|
-      j = i
-      k = '&nbsp;' if k == ''
-      div('.field', k, 1, 1 + i)
-    end
-  j = j + 2
-  [ 'class', 'background', 'appearance', '', 'traits', '', '', '', 'scars', '' ]
-    .each_with_index do |k, i|
-      k = '&nbsp;' if k == ''
-      div('.field', k, 1, j + i, 2, 1)
-    end
-end
-
-div('.gear-grid', 3, 2) do
-
-  div('.weapon-grid', 1, 1) do
-    [ 'weapon', 'atk', 'dmg', 'range' ]
+    j = 0
+    %w{
+      Administer Connect Convince #Craft Exert Heal Hunt #Know Lead Notice
+      Perform Pray Read Ride
+    }
+      .select { |k|
+        k[0, 1] != '#' }
       .each_with_index do |k, i|
-        div('.weapon-key', k, 1 + i, 1)
+        next if k == 'skip'
+        div('.skill-label', 1, 1 + i, k)
+        div('.skill-box', 2, 1 + i)
+        j = 1 + i
       end
-    5.times do |i|
-      4.times { |j| div('.weapon-line', '', j + 1, i + 2) }
-    end
-  end
-  div('.gear', 1, 2) do
-    div('.gear-label', 'Gear')
-    5.times { div('.gear-line') }
+    div('.skill-note', 'when empty, defaults to -2', 1, j + 1, 4, 1)
+
+    %w{
+      Sail Sneak Survive Swim Trade Work
+      #---
+      Craft_
+      Craft_
+      Craft_
+      Know_
+      Know_
+      Know_
+    }
+      .select { |k|
+        k[0, 1] != '#' }
+      .each_with_index do |k, i|
+        next if k == '---'
+        m = k.match(/^([^_]+)_/); k = "#{m[1]} _____" if m
+        div('.skill-label', 3, 1 + i, k)
+        div('.skill-box', 4, 1 + i)
+      end
+
+    %w{
+      _Bows _Crossbows _Slings _Javelins
+      ---
+      #Slash _Axes* _Maces* _Staffs* _Spears* _Swords*
+      ---
+      #Parry
+      Shield
+      Dodge
+    }
+      .select { |k|
+        k[0, 1] != '#' }
+      .each_with_index do |k, i|
+        next if k == '---'
+        it, k = k[0, 1] == '_' ? [ true, k[1..-1] ] : [ false, k ]
+        at, k = k[-1, 1] == '*' ? [ true, k[0..-2] ] : [ false, k ]
+        div('.skill-label' + (it ? '.italic' : ''), 6, 1 + i, k)
+        div('.skill-box' + (at ? '.attack' : ''), 7, 1 + i)
+      end
+
+    div('.weapon-cat', 5, 1, 1, 4, 'ranged')
+    div('.weapon-cat', 5, 6, 1, 5, 'melee')
   end
 end
 
-#puts %{
-#  <img src="shield.svg" style="width: 4.2rem;"/>
-#  <img src="heart.svg" style="width: 4.2rem;"/>
-#}
+div('.center.subgrid', 2, 1) do
+
+  div('.hp-grid', 1, 1) do
+
+    div('.hp-max', 1, 1) do
+      img('.heart', src: 'heart.svg')
+    end
+    div('.hp-info', 2, 1) do
+      div('HP max')
+      div('.classes') do
+        div('Fighter 1d8+3 / lvl')
+        div('Dabster 1d8 / lvl')
+        div('Caster 1d8-1 / lvl')
+        div('Fighter-x 1d8+1 / lvl')
+        div('Dabster-Caster 1d8 / lvl')
+      end
+    end
+    div('.hp-info', 1, 2, 2, 1) do
+      div('.level') do
+        div('upon levelling up')
+        div('1d20 ≥ CON TC → best of 2d8')
+        div('1d20 < CON TC → mean+ of 2d8')
+      end
+    end
+    div('.att', 1, 3) do
+      img('.cross', src: 'cross.svg')
+    end
+    div('.att-info', 2, 3) do
+      div('Ranged Attack')
+      div('.explanation', '1d20 + X ≥ eny AC')
+    end
+    div('.att', 1, 4) do
+      img('.cross', src: 'cross.svg')
+    end
+    div('.att-info', 2, 4) do
+      div('Melee Attack')
+      div('.explanation', '1d20 + X ≥ eny AC')
+    end
+  end
+
+  div('.ac-grid', 1, 2) do
+
+    armor =
+      '<div class="armors">' +
+      [ '10 <i>no armor</i>',
+        '12 gambeson',
+        '14 mail shirt',
+        '16 mail hauberk'
+          ].join('<br/>') +
+      '</div>'
+
+    div('.ac', 1, 1) { img('.ac', src: 'shield.svg') }
+    div('.ac-label.base', 1, 2, 'base AC<br/>' + armor)
+
+    div('.ac.big.grey', 2, 1, 1, 2) { img('.ac', src: 'shield.svg') }
+    div('.ac.big', 2, 3, 1, 2) { img('.ac', src: 'shield.svg') }
+    #ac =
+    #  'base AC + best of<br/>' +
+    #  '&nbsp;&nbsp;<i>Dodge</i>, <i>Shield</i>, or Weapon'
+
+  #  div('.ac.big.grey', 8, 5, 2, 5) { img('.ac', src: 'shield.svg') }
+  #  div('.ac-label', 10, 5, 1, 5) do
+  #    div('.ac-title', 'min AC')
+  #    div('.ac-detail', 'base AC + <i>Dodge</i>')
+  #  end
+  #
+  #  div('.ac.big', 8, 9, 2, 5) { img('.ac', src: 'shield.svg') }
+  #  div('.ac-label', 10, 9, 1, 5) do
+  #    div('.ac-title', 'AC')
+  #    div('.ac-detail', ac)
+  #  end
+  end
+end
+
+div('.right.subgrid', 3, 1) do
+
+  div('.info-grid', 1, 1) do
+    div('.picture', 2, 1, 1, 6)
+    j = -1
+    [ 'name', '', 'player', 'origin', 'level' ]
+      .each_with_index do |k, i|
+        j = i
+        k = '&nbsp;' if k == ''
+        div('.field', k, 1, 1 + i)
+      end
+    j = j + 2
+    [ 'class', 'background', 'appearance', '', 'traits', '', '', '', 'scars', '' ]
+      .each_with_index do |k, i|
+        k = '&nbsp;' if k == ''
+        div('.field', k, 1, j + i, 2, 1)
+      end
+  end
+
+  div('.gear-grid', 1, 2) do
+
+    div('.weapon-grid', 1, 1) do
+      [ 'weapon', 'atk', 'dmg', 'range' ]
+        .each_with_index do |k, i|
+          div('.weapon-key', k, 1 + i, 1)
+        end
+      5.times do |i|
+        4.times { |j| div('.weapon-line', '', j + 1, i + 2) }
+      end
+    end
+    div('.gear', 1, 2) do
+      div('.gear-label', 'Gear')
+      5.times { div('.gear-line') }
+    end
+  end
+end
 
 puts %{
   </div> <!-- .page-grid -->
