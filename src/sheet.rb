@@ -299,6 +299,13 @@ border: 1px solid grey;
     display: grid;
   }
 
+  .skill-tag {
+    font-size: 67pt;
+    color: lightgrey;
+    z-index: -1;
+    align-self: start;
+  }
+
   .skill-label {
     margin-left: 0.2rem;
   }
@@ -511,6 +518,8 @@ div('.left.subgrid', 1, 1) do
 
   div('.skill-grid', 1, 2) do
 
+    div('.skill-tag', 1, 1, 2, 4, 'G')
+
     j = 0
     %w{
       Administer Connect Convince #Craft Exert Heal Hunt #Know Lead Notice
@@ -548,6 +557,8 @@ div('.left.subgrid', 1, 1) do
         div('.skill-box', 4, 1 + i)
       end
 
+    div('.skill-tag', 3, 11, 2, 4, 'M')
+
     %w{
       _Bows _Crossbows _Slings _Javelins
       ---
@@ -566,6 +577,7 @@ div('.left.subgrid', 1, 1) do
         div('.skill-label' + (it ? '.italic' : ''), 6, 1 + i, k)
         div('.skill-box' + (at ? '.attack' : ''), 7, 1 + i)
       end
+    div('.skill-tag', 6, 1, 2, 4, 'F')
 
     div('.weapon-cat', 5, 1, 1, 4, 'ranged')
     div('.weapon-cat', 5, 6, 1, 5, 'melee')
@@ -649,16 +661,16 @@ end
 div('.right.subgrid', 3, 1) do
 
   div('.info-grid', 1, 1) do
-    div('.picture', 2, 1, 1, 6)
+    div('.picture', 2, 1, 1, 7)
     j = -1
-    [ 'name', '', 'player', 'origin', 'level' ]
+    [ 'name', '', 'player', 'origin', 'level', 'class', 'background' ]
       .each_with_index do |k, i|
         j = i
         k = '&nbsp;' if k == ''
         div('.field', k, 1, 1 + i)
       end
     j = j + 2
-    [ 'class', 'background', 'appearance', '', 'traits', '', '', '', 'scars', '' ]
+    [ 'appearance', '', 'traits', '', '', '', 'scars', '' ]
       .each_with_index do |k, i|
         k = '&nbsp;' if k == ''
         div('.field', k, 1, j + i, 2, 1)
