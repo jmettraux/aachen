@@ -16,7 +16,7 @@ hs = OpenStruct.new(
   sans_face: 'ff-scala-sans-pro, sans-serif',
   circle_side: '3.0rem',
   border_width: '0.3rem',
-  box_border_width: '0.14rem',
+  box_border_width: '0.10rem',
   box_width: '2.1rem',
   box_height: '1.4rem',
 )
@@ -94,7 +94,6 @@ border: 1px solid grey;
   }
   .save-label {
     padding-left: 0.1rem;
-    /*grid-row-end: span 2;*/
     justify-self: left;
     align-self: start;
   }
@@ -108,7 +107,6 @@ border: 1px solid grey;
     text-align: center;
   }
   .ini-label {
-    grid-row-end: span 2;
     align-self: start;
     text-align: center;
   }
@@ -244,7 +242,7 @@ border: 1px solid grey;
 
   .info-grid {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 60% auto;
   }
 
   .info-grid .field {
@@ -339,9 +337,14 @@ border: 1px solid grey;
     text-align: center;
   }
 
+  /* AC GRID */
+
+  .ac-grid {
+    display: grid;
+  }
+
   .ac {
     width: 2.1rem;
-    grid-row-end: span 2;
     justify-self: center;
   }
   .ac-label {
@@ -446,9 +449,8 @@ puts %{
 
 div('.ability-grid', 1, 1) do
 
-  #div('.ini-label.top', 1, 7, '1d20+')
   div('.save-circle.sq', 1, 8)
-  div('.ini-label', 1, 10, 'INI<br/>tiative')
+  div('.ini-label', 1, 10, 1, 2, 'INI<br/>tiative')
 
   div('.line.lup35', 2, 8)
   div('.line.ldown35', 2, 8)
@@ -504,62 +506,7 @@ div('.ability-grid', 1, 1) do
   div('.learning-label', 9, 9, 1, 2, 'learning<br/>TC')
 end
 
-div('.hp-grid', 2, 1) do
-
-  div('.hp-max', 1, 1) do
-    img('.heart', src: 'heart.svg')
-  end
-  div('.hp-info', 2, 1) do
-    div('HP max')
-    div('.classes') do
-      div('Fighter 1d8+3 / lvl')
-      div('Dabster 1d8 / lvl')
-      div('Caster 1d8-1 / lvl')
-      div('Fighter-x 1d8+1 / lvl')
-      div('Dabster-Caster 1d8 / lvl')
-    end
-  end
-  div('.hp-info', 1, 2, 2, 1) do
-    div('.level') do
-      div('upon levelling up')
-      div('1d20 ≥ CON TC → best of 2d8')
-      div('1d20 < CON TC → mean+ of 2d8')
-    end
-  end
-  div('.att', 1, 3) do
-    img('.cross', src: 'cross.svg')
-  end
-  div('.att-info', 2, 3) do
-    div('Ranged Attack')
-    div('.explanation', '1d20 + X ≥ eny AC')
-  end
-  div('.att', 1, 4) do
-    img('.cross', src: 'cross.svg')
-  end
-  div('.att-info', 2, 4) do
-    div('Melee Attack')
-    div('.explanation', '1d20 + X ≥ eny AC')
-  end
-end
-
-div('.info-grid', 3, 1) do
-  div('.picture', 2, 1, 1, 6)
-  j = -1
-  [ 'name', '', 'player', 'origin', 'level' ]
-    .each_with_index do |k, i|
-      j = i
-      k = '&nbsp;' if k == ''
-      div('.field', k, 1, 1 + i)
-    end
-  j = j + 2
-  [ 'class', 'background', 'appearance', '', 'traits', '', '', '', 'scars', '' ]
-    .each_with_index do |k, i|
-      k = '&nbsp;' if k == ''
-      div('.field', k, 1, j + i, 2, 1)
-    end
-end
-
-div('.skill-grid', 1, 2, 2, 1) do
+div('.skill-grid', 1, 2) do
 
   j = 0
   %w{
@@ -616,6 +563,47 @@ div('.skill-grid', 1, 2, 2, 1) do
 
   div('.weapon-cat', 5, 1, 1, 4, 'ranged')
   div('.weapon-cat', 5, 6, 1, 5, 'melee')
+end
+
+div('.hp-grid', 2, 1) do
+
+  div('.hp-max', 1, 1) do
+    img('.heart', src: 'heart.svg')
+  end
+  div('.hp-info', 2, 1) do
+    div('HP max')
+    div('.classes') do
+      div('Fighter 1d8+3 / lvl')
+      div('Dabster 1d8 / lvl')
+      div('Caster 1d8-1 / lvl')
+      div('Fighter-x 1d8+1 / lvl')
+      div('Dabster-Caster 1d8 / lvl')
+    end
+  end
+  div('.hp-info', 1, 2, 2, 1) do
+    div('.level') do
+      div('upon levelling up')
+      div('1d20 ≥ CON TC → best of 2d8')
+      div('1d20 < CON TC → mean+ of 2d8')
+    end
+  end
+  div('.att', 1, 3) do
+    img('.cross', src: 'cross.svg')
+  end
+  div('.att-info', 2, 3) do
+    div('Ranged Attack')
+    div('.explanation', '1d20 + X ≥ eny AC')
+  end
+  div('.att', 1, 4) do
+    img('.cross', src: 'cross.svg')
+  end
+  div('.att-info', 2, 4) do
+    div('Melee Attack')
+    div('.explanation', '1d20 + X ≥ eny AC')
+  end
+end
+
+div('.ac-grid', 2, 2) do
 
   armor =
     '<div class="armors">' +
@@ -626,25 +614,43 @@ div('.skill-grid', 1, 2, 2, 1) do
         ].join('<br/>') +
     '</div>'
 
+  div('.ac', 1, 1) { img('.ac', src: 'shield.svg') }
+  div('.ac-label.base', 1, 2, 'base AC<br/>' + armor)
 
-  div('.ac', 8, 1) { img('.ac', src: 'shield.svg') }
-  div('.ac-label.base', 9, 1, 2, 4, 'base AC<br/>' + armor)
+  div('.ac.big.grey', 2, 1, 1, 2) { img('.ac', src: 'shield.svg') }
+  div('.ac.big', 2, 3, 1, 2) { img('.ac', src: 'shield.svg') }
+  #ac =
+  #  'base AC + best of<br/>' +
+  #  '&nbsp;&nbsp;<i>Dodge</i>, <i>Shield</i>, or Weapon'
 
-  ac =
-    'base AC + best of<br/>' +
-    '&nbsp;&nbsp;<i>Dodge</i>, <i>Shield</i>, or Weapon'
+#  div('.ac.big.grey', 8, 5, 2, 5) { img('.ac', src: 'shield.svg') }
+#  div('.ac-label', 10, 5, 1, 5) do
+#    div('.ac-title', 'min AC')
+#    div('.ac-detail', 'base AC + <i>Dodge</i>')
+#  end
+#
+#  div('.ac.big', 8, 9, 2, 5) { img('.ac', src: 'shield.svg') }
+#  div('.ac-label', 10, 9, 1, 5) do
+#    div('.ac-title', 'AC')
+#    div('.ac-detail', ac)
+#  end
+end
 
-  div('.ac.big.grey', 8, 5, 2, 5) { img('.ac', src: 'shield.svg') }
-  div('.ac-label', 10, 5, 1, 5) do
-    div('.ac-title', 'min AC')
-    div('.ac-detail', 'base AC + <i>Dodge</i>')
-  end
-
-  div('.ac.big', 8, 9, 2, 5) { img('.ac', src: 'shield.svg') }
-  div('.ac-label', 10, 9, 1, 5) do
-    div('.ac-title', 'AC')
-    div('.ac-detail', ac)
-  end
+div('.info-grid', 3, 1) do
+  div('.picture', 2, 1, 1, 6)
+  j = -1
+  [ 'name', '', 'player', 'origin', 'level' ]
+    .each_with_index do |k, i|
+      j = i
+      k = '&nbsp;' if k == ''
+      div('.field', k, 1, 1 + i)
+    end
+  j = j + 2
+  [ 'class', 'background', 'appearance', '', 'traits', '', '', '', 'scars', '' ]
+    .each_with_index do |k, i|
+      k = '&nbsp;' if k == ''
+      div('.field', k, 1, j + i, 2, 1)
+    end
 end
 
 div('.gear-grid', 3, 2) do
