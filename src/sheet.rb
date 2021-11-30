@@ -281,6 +281,7 @@ border: 1px solid grey;
     row-gap: 1rem;
     margin-top: 0.5rem;
   }
+  /*
   .gear-label {
     font-size: 70%;
     color: grey;
@@ -292,6 +293,7 @@ border: 1px solid grey;
     height: 1.4rem;
     border-bottom: 1px solid grey;
   }
+  */
 
   .weapon-grid {
     display: grid;
@@ -385,6 +387,20 @@ border: 1px solid grey;
   }
   .ac-explanation {
     font-size: 11pt;
+    color: grey;
+  }
+
+  /* LEVEL GRID */
+
+  .level-grid {
+    display: grid;
+    font-size: 11pt;
+  }
+  .level-grid > * {
+    justify-self: right;
+    height: 0.14rem;
+  }
+  .level-label {
     color: grey;
   }
 
@@ -705,10 +721,33 @@ div('.right.subgrid', 3, 1) do
         4.times { |j| div('.weapon-line', '', j + 1, i + 2) }
       end
     end
-    div('.gear', 1, 2) do
-      div('.gear-label', 'Gear')
-      5.times { div('.gear-line') }
-    end
+
+    #div('.gear', 1, 2) do
+    #  div('.gear-label', 'Gear')
+    #  5.times { div('.gear-line') }
+    #end
+  end
+
+  div('.level-grid', 1, 3) do
+    [ 'hp', 'cp', 'f skills', 'g skills', 'm skills', 'traits' ]
+      .each_with_index do |k, i|
+        div('.level-label', 2 + i, 1, k)
+      end
+    [
+      [ 'fighter',         '1d8+3',    '',   '1d2', '1d3',    '', '1 maybe' ],
+      [ 'dabster',           '1d8',    '',     '1', '1d4',    '', '1 maybe' ],
+      [ 'caster',          '1d8-1', '1d8', '1d2-1', '1d3', '1d2', '1 maybe' ],
+      [ 'fighter-dabster', '1d8+1',    '',     '1', '1d4',    '', '1 maybe' ],
+      [ 'fighter-caster',  '1d8+1', '1d6',     '1', '1d3',   '1', '1 maybe' ],
+      [ 'dabster-caster',    '1d8', '1d6', '1d2-1', '1d3',   '1', '1 maybe' ],
+    ]
+      .each_with_index do |row, j|
+        row
+          .each_with_index do |v, i|
+            k = (i == 0 && j < 3) ? '.bold' : '.n'
+            div(k, 1 + i, 2 + j, v)
+          end
+      end
   end
 end
 
