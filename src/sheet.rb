@@ -577,7 +577,7 @@ div('.left.subgrid', 1, 1) do
       ---
       ---
       _Cast
-      _Scan
+      _Feel
     }
       .select { |k|
         k[0, 1] != '#' }
