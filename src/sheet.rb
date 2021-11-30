@@ -295,9 +295,11 @@ border: 1px solid grey;
   }
   */
 
+  /* WEAPON GRID */
+
   .weapon-grid {
     display: grid;
-    column-gap: 0.3rem;
+    column-gap: 0.1rem;
   }
 
   .weapon-key {
@@ -310,6 +312,18 @@ border: 1px solid grey;
     width: 100%;
     height: 1.4rem;
     border-bottom: 1px solid grey;
+  }
+  .weapon-att {
+    height: 1.7rem;
+  }
+  .weapon-att::before {
+    content: '+';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  .weapon-att img {
+    width: 2.1rem;
   }
 
   /* SKILL GRID */
@@ -397,8 +411,10 @@ border: 1px solid grey;
     font-size: 11pt;
   }
   .level-grid > * {
-    justify-self: right;
-    height: 0.14rem;
+    justify-self: center;
+    height: 0.63rem;
+  }
+  .level-grid .left {
   }
   .level-label {
     color: grey;
@@ -710,17 +726,23 @@ div('.right.subgrid', 3, 1) do
       end
   end
 
-  div('.gear-grid', 1, 2) do
+  div('.weapon-grid', 1, 2) do
 
-    div('.weapon-grid', 1, 1) do
-      [ 'weapon', 'atk', 'dmg', 'range' ]
-        .each_with_index do |k, i|
-          div('.weapon-key', k, 1 + i, 1)
-        end
-      5.times do |i|
-        4.times { |j| div('.weapon-line', '', j + 1, i + 2) }
+    [ 'weapon', 'atk', 'dmg', 'range' ]
+      .each_with_index do |k, i|
+        div('.weapon-key', k, 1 + i, 1)
       end
+    5.times do |i|
+      div('.weapon-line', '', 1, i + 2);
+      div('.weapon-att', 2, i + 2) do
+        img('.cross', src: 'cross.svg')
+      end
+      div('.weapon-line', '', 3, i + 2);
+      div('.weapon-line', '', 4, i + 2);
     end
+  end
+
+  div('.gear-grid', 1, 3) do
 
     #div('.gear', 1, 2) do
     #  div('.gear-label', 'Gear')
@@ -728,10 +750,11 @@ div('.right.subgrid', 3, 1) do
     #end
   end
 
-  div('.level-grid', 1, 3) do
-    [ 'hp', 'cp', 'f skills', 'g skills', 'm skills', 'traits' ]
+  div('.level-grid', 1, 4) do
+
+    [ 'per level', 'hp', 'cp', 'f skills', 'g skills', 'm skills', 'traits' ]
       .each_with_index do |k, i|
-        div('.level-label', 2 + i, 1, k)
+        div('.level-label' + (i == 0 ? '.left' : ''), 1 + i, 1, k)
       end
     [
       [ 'fighter',         '1d8+3',    '',   '1d2', '1d3',    '', '1 maybe' ],
