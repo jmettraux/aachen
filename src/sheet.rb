@@ -266,6 +266,8 @@ border: 1px solid grey;
     color: grey;
     align-self: end;
     border-bottom: 1px solid grey;
+    min-height: 1.2rem;
+    max-height: 1.2rem;
   }
 
   .info-grid .picture {
@@ -299,7 +301,8 @@ border: 1px solid grey;
 
   .weapon-grid {
     display: grid;
-    column-gap: 0.1rem;
+    column-gap: 0.21rem;
+    grid-template-columns: 30% 77px auto 25%;
   }
 
   .weapon-key {
@@ -310,20 +313,26 @@ border: 1px solid grey;
     font-size: 70%;
     color: grey;
     width: 100%;
-    height: 1.4rem;
+    /*height: 1.4rem;*/
     border-bottom: 1px solid grey;
   }
   .weapon-att {
-    height: 1.7rem;
+    min-height: 1.6rem;
+    max-height: 1.6rem;
+    position: relative;
+    padding-left: 1.1rem;
+  }
+  .weapon-att.odd {
+    padding-left: 1.7rem;
   }
   .weapon-att::before {
     content: '+';
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
+    position: absolute;
+    left: 0.35rem;
+    top: 0.49rem;
   }
   .weapon-att img {
-    width: 2.1rem;
+    width: 2.4rem;
   }
 
   /* SKILL GRID */
@@ -734,7 +743,8 @@ div('.right.subgrid', 3, 1) do
       end
     5.times do |i|
       div('.weapon-line', '', 1, i + 2);
-      div('.weapon-att', 2, i + 2) do
+      k = i.odd? ? '.odd' : ''
+      div('.weapon-att' + k, 2, i + 2) do
         img('.cross', src: 'cross.svg')
       end
       div('.weapon-line', '', 3, i + 2);
