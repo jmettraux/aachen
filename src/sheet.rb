@@ -71,7 +71,7 @@ border: 1px solid grey;
 
   .subgrid {
     display: grid;
-    row-gap: 0.4rem;
+    /*row-gap: 0.4rem;*/
   }
 
   .ability-grid {
@@ -254,6 +254,11 @@ border: 1px solid grey;
     color: grey;
   }
 
+  .right.subgrid {
+    row-gap: 0.4rem;
+    grid-template-rows: 50% 27% auto;
+  }
+
   /* INFO GRID */
 
   .info-grid {
@@ -269,6 +274,16 @@ border: 1px solid grey;
     min-height: 1.2rem;
     max-height: 1.2rem;
   }
+  .gear-grid .field {
+    font-size: 70%;
+    color: grey;
+    align-self: end;
+    border-bottom: 1px solid grey;
+    /*
+    min-height: 1.2rem;
+    max-height: 1.2rem;
+    */
+  }
 
   .info-grid .picture {
     width: 100%;
@@ -280,7 +295,6 @@ border: 1px solid grey;
 
   .gear-grid {
     display: grid;
-    row-gap: 1rem;
     margin-top: 0.5rem;
   }
   /*
@@ -410,22 +424,6 @@ border: 1px solid grey;
   }
   .ac-explanation {
     font-size: 11pt;
-    color: grey;
-  }
-
-  /* LEVEL GRID */
-
-  .level-grid {
-    display: grid;
-    font-size: 11pt;
-  }
-  .level-grid > * {
-    justify-self: center;
-    height: 0.63rem;
-  }
-  .level-grid .left {
-  }
-  .level-label {
     color: grey;
   }
 
@@ -590,7 +588,7 @@ div('.left.subgrid', 1, 1) do
         div('.skill-box', 2, 1 + i)
         j = 1 + i
       end
-    div('.skill-note', 'skills default to -2', 3, 11, 5, 1)
+    div('.skill-note', 'skills default to -2', 3, 10, 2, 1)
 
     %w{
       Sneak Survive Swim Trade Work
@@ -600,9 +598,9 @@ div('.left.subgrid', 1, 1) do
       _
       _
       ---
-      ---
       _Cast
       _Feel
+      _Soak
     }
       .select { |k|
         k[0, 1] != '#' }
@@ -634,7 +632,7 @@ div('.left.subgrid', 1, 1) do
         div('.skill-label' + (it ? '.italic' : ''), 6, 1 + i, k)
         div('.skill-box' + (at ? '.attack' : ''), 7, 1 + i)
       end
-    div('.skill-tag', 6, 10, 2, 4, 'F')
+    div('.skill-tag', 6, 1, 2, 4, 'F')
 
     div('.weapon-cat', 5, 1, 1, 4, 'ranged')
     div('.weapon-cat', 5, 6, 1, 5, 'melee')
@@ -737,49 +735,27 @@ div('.right.subgrid', 3, 1) do
 
   div('.weapon-grid', 1, 2) do
 
-    [ 'weapon', 'atk', 'dmg', 'range' ]
+    [ 'weapon', 'range', 'atk', 'dmg' ]
       .each_with_index do |k, i|
         div('.weapon-key', k, 1 + i, 1)
       end
     5.times do |i|
       div('.weapon-line', '', 1, i + 2);
+      div('.weapon-line', '', 2, i + 2);
       k = i.odd? ? '.odd' : ''
-      div('.weapon-att' + k, 2, i + 2) do
+      div('.weapon-att' + k, 3, i + 2) do
         img('.cross', src: 'cross.svg')
       end
-      div('.weapon-line', '', 3, i + 2);
       div('.weapon-line', '', 4, i + 2);
     end
   end
 
   div('.gear-grid', 1, 3) do
 
-    #div('.gear', 1, 2) do
-    #  div('.gear-label', 'Gear')
-    #  5.times { div('.gear-line') }
-    #end
-  end
-
-  div('.level-grid', 1, 4) do
-
-    [ 'per level', 'hp', 'cp', 'f skills', 'g skills', 'm skills', 'traits' ]
+    [ 'gear', '', '', '', '' ]
       .each_with_index do |k, i|
-        div('.level-label' + (i == 0 ? '.left' : ''), 1 + i, 1, k)
-      end
-    [
-      [ 'fighter',         '1d8+3',    '',   '1d2', '1d3',    '', '1 maybe' ],
-      [ 'dabster',           '1d8',    '',     '1', '1d4',    '', '1 maybe' ],
-      [ 'caster',          '1d8-1', '1d8', '1d2-1', '1d3', '1d2', '1 maybe' ],
-      [ 'fighter-dabster', '1d8+1',    '',     '1', '1d4',    '', '1 maybe' ],
-      [ 'fighter-caster',  '1d8+1', '1d6',     '1', '1d3',   '1', '1 maybe' ],
-      [ 'dabster-caster',    '1d8', '1d6', '1d2-1', '1d3',   '1', '1 maybe' ],
-    ]
-      .each_with_index do |row, j|
-        row
-          .each_with_index do |v, i|
-            k = (i == 0 && j < 3) ? '.bold' : '.n'
-            div(k, 1 + i, 2 + j, v)
-          end
+        k = '&nbsp;' if k == ''
+        div('.field', k, 1, 1 + i, 2, 1)
       end
   end
 end
