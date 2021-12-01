@@ -19,15 +19,19 @@ Abilities~~→p4~~
 : Determine `STR`, `DEX`, `CON`, `INT`, `WIS`, and `CHA`;
 : Roll 2 series of 6 × 3d6; pick best of the 2; assign at will.
 
-Target Abilities~~→p4~~
-: Compute t`STR`, t`DEX`, t`CON`, t`INT`, t`WIS`, and t`CHA` where t`CHA` = 21 - `CHA`;
-: For example if `STR` is 17 then t`STR` is 21 - 17 thus 4.
+Ability TCs~~→p4~~
+: Compute `STR TC`, `DEX TC`, `CON TC`, `INT TC`, `WIS TC`, and `CHA TC` where `XXX TC` = 21 - `XXX`;
+: For example if `STR` is 17 then `STR TC` is 21 - 17 thus 4.
 
 Saves~~→p4~~
 : Compute the saving throw scores;
-: `Physical` = ceiling((t`STR` + t`CON`) / 2) - _character level_;
-: `Evasion` = ceiling((t`DEX` + t`INT`) / 2) - _character level_;
-: `Mental` = ceiling((t`WIS` + t`CHA`) / 2) - _character level_.
+: `Physical` = mean of `STR TC` and `CON TC`, round up;
+: `Evasion` = mean of `DEX TC` and `INT TC`, round up;
+: `Mental` = mean of `WIS TC` and `CHA TC`, round up.
+
+INI and Learning~~→p4~~
+: INI mod = mean of (`DEX` and `WIS`), round down;
+: Learning mod = mean of `INT TC` and `WIS TC`, round up.
 
 Background~~→p6-7~~
 : Determine the background of the character;
@@ -39,22 +43,25 @@ Class~~→p8-9~~
 
 Traits~~→p10-11~~
 : They represent side talents or particular specializations;
-: Choose (1 + `CHA`m) traits, minimum 1;
-: 1 extra trait if the character is a `Dabster`.
+: Choose a trait and if 1d20 ≥ Trait Ability TC, add 1 level to it, else nothing;
+: 1 extra Trait attempt for a `Dabster`.
 
-Skill~~→p12~~[^1]
-: Pick an extra skill level, to reflect the character's outside interests, natural talents, hobby expertise, etc.
+Skill~~→p12~~
+: Pick an extra general skill (not a fighter skill, nor a magic skill).
 
 Hit Points~~→p12~~
-: HP = `Fighter` → 1d6+2 | `Dabster` → 1d6 | `Caster` → 1d6-1;
-: Add `CON`m, but HP minimum is 1.
-
-Spells~~→p12~~
-: If the character has the `Intricate` or `Very Intricate` trait, select (1 + `INT`m) spells (at least one).
+: `Fighter` → 1d8+3 | `Dabster` → 1d8 | `Caster` → 1d8-1;
+: Roll 2d8, if 1d20  ≥ `CON TC`, pick the best d8, else the worst;
+: Apply trait modifiers if any;
+: Minimum HP is 1.
 
 Cast Points~~→p12~~
-: _CP factor_ =<br/>non-`Caster` → 0 | `Caster` → max(`INT`m, `WIS`m, `CHA`m) |<br/>`Fighter-Caster` → `WIS`m | `Dabster-Caster` → `INT`m<br/>(at least 1 for a caster);
-: CP =<br/>`Intricate` → _char level_ × _CP factor_ |<br/>`Very Intricate` → _char level_ + _char level_ × _CP factor_ |<br/>else 0.
+: `Caster` → 1d8 | `Dabster/Fighter -Caster` → 1d6;
+: Roll 2d8 (or 2d6),<br/>if 1d20 ≥ `Mental TC`, pick the best die, else the worst;
+: Apply trait modifiers if any.
+
+Spells~~→p12~~
+: If the character has the `Intricate` or `Very Intricate` trait, select (1 + `INT`m) spells (at least one). **FIXME**
 
 Name~~→p13~~
 : Give the character a name.
@@ -63,6 +70,8 @@ Equipment~~→p14-15~~
 : Determine the equipment of the character with the referee.
 
 
+<!--
 [^1]:
   A new character may not exceed level 1 in a skill: should the creation lead you to reach level 2 in a skill, keep it at 1 and increment another skill.
+-->
 

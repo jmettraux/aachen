@@ -514,7 +514,7 @@ table.social-class th:nth-child(1) {
   font-size: var(--size-b);
   color: #c0c0c0;
   position: absolute;
-  top: 0.87rem;
+  top: 1.0rem;
   right: 1.2rem;
 }
 [data-aa-title="character creation"] dl {
@@ -523,6 +523,7 @@ table.social-class th:nth-child(1) {
 [data-aa-title="character creation"] dt {
   position: relative;
 }
+/*
 [data-aa-title="character creation"] dd:nth-of-type(4),
 [data-aa-title="character creation"] dd:nth-of-type(5) {
   text-indent: 1rem;
@@ -532,6 +533,7 @@ table.social-class th:nth-child(1) {
   text-indent: -1rem;
   padding-left: 1rem;
 }
+*/
 
 [data-aa-title="attributes"] table.attributes {
   float: left;
