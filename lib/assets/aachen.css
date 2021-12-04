@@ -585,11 +585,6 @@ table.social-class th:nth-child(1) {
   content: '❦';
   padding-right: 0.5rem;
 }
-[data-aa-title="skills"] h2 em {
-  font-size: var(--size-c);
-  font-variant: normal;
-  font-style: italic;
-}
 
 [data-aa-title="skills"] dl {
   display: block;
@@ -611,7 +606,9 @@ table.social-class th:nth-child(1) {
   font-weight: 500;
   text-transform: lowercase;
   font-size: var(--size-a);
-  text-indent: -0.5rem;
+  /*text-indent: -0.5rem;*/
+  margin-left: -0.5rem;
+  padding-right: 0.35rem;
 }
 [data-aa-title="skills"] dt:after {
   content: '·';

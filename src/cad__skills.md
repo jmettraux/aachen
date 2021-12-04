@@ -15,49 +15,42 @@
 
 # Skills
 
-A character background grants skill levels. Before presenting the backgrounds here are the skill list.
+Skills are expressed from 0 to 10 or 20. That value is used as a d20 modifier against an Ability TC, a Save TC, or an AC.
 
-Skills checks are done with 2d6 plus attribute modifier (previous page) and plus a skill level. Skill level start at _zero_ (`+0` mod), no skill level means `-1` mod.
+## Fighter Skills
 
-Combat rolls are done with 1d20 plus attribute modifier and plus a combat skill level. No skill level means `-2`, not `-1`.
+Bows / Crossbows / Slings / Javelins / Throw
+: Shoot with a given type of ranged weapon (or throw a rock).
 
-<!-- .skill-levels -->
-| Level | Mod | Description                                              |
-|:-----:|:---:|----------------------------------------------------------|
-|       |  -1 | Unskilled                                                |
-|  0    |  +0 | Ordinary practicioner                                    |
-|  1    |  +1 | Veteran of the skill,<br/>noticeably better than others  |
-|  2    |  +2 | Veteran and talented,<br/>one of the best in the city    |
-|  3    |  +3 | Inspirational master,<br/>one of the best in the kingdom |
-|  4    |  +4 | One of the best in the known world                       |
+Axes / Maces / Staffs / Spears / Swords
+: Fight with a given type of melee weapon.
 
-## Combat Skills _(-2 when unskilled)_
+Punch / Grapple
+: Fight unarmed. Punching and grappling are separate.
 
-Slash
-: Fight with a melee weapon. Maintain such weapons.
+Shield
+: TODO
 
-Shoot
-: Fight with a ranged weapon. Maintain such weapons and their ammunition.
-
-Punch[^1]
-: Fight unarmed. Punch, kick, grapple, or brawl.
-
-[^1]:
-  option:
-
-  Split `Punch` into `Punch` and `Wrestle`.
+Dodge
+: TODO
 
 
-## Special Skill
+## Magic Skill
 
 Cast
 : To cast spells. To analyze magical effects, to know about magic and its practicioners.
 : Classes that cannot cast spells and have levels in this skill are simply scholars of magic.
 
+Feel
+: TODO
+
+Soak
+: TODO
+
 <!-- </div.left-column> -->
 <!-- <div.right-column> -->
 
-## Regular Skills
+## General Skills
 
 Administer
 : To manage land and laborers, or a workshop, its journeyfolk and apprentices.
