@@ -388,8 +388,8 @@ border: 1px solid grey;
   .skill-note {
     font-size: 11pt;
     color: grey;
-    align-self: center;
-    justify-self: center;
+    align-self: end;
+    justify-self: left;
   }
 
   .weapon-cat {
@@ -590,7 +590,13 @@ div('.left.subgrid', 1, 1) do
         div('.skill-box', 2, 1 + i)
         j = 1 + i
       end
-    div('.skill-note', 'skills default to -2', 3, 11, 2, 1)
+
+    [
+      'skills start at +0',
+      'but default to -2',
+      '1d20 + skill ≥ ABI TC'
+    ]
+      .each_with_index { |s, i| div('.skill-note', s, 3, 9 + i, 2, 1) }
 
     %w{
       Trade Work
@@ -600,7 +606,7 @@ div('.left.subgrid', 1, 1) do
       _
       _
       _
-      _
+      ---
       ---
       ---
       ---

@@ -188,12 +188,13 @@ Born in an artisan family, son or daughter of a master or journeyman or born els
 |                  |    |             |  7 | Convince  |
 |                  |    |             |  8 | Work      |
 
+[^3]
+
 ### Religious
 
 Born in a family of priests (pagan faith) or in a family linked to a religious institution (christian faith). Training to become a priest or being a novice in a minster.
 
 <!-- clear -->
-
 
 <!-- .background -->
 | 6                | d6 | Growth      | d8 | Learning   |
@@ -207,7 +208,6 @@ Born in a family of priests (pagan faith) or in a family linked to a religious i
 |                  |    |             |  7 | Slash      |
 |                  |    |             |  8 | Convince   |
 
-[^3]
 
 ### Elite
 

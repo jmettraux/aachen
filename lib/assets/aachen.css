@@ -412,16 +412,17 @@ table.background {
   font-size: var(--size-c);
   line-height: 0.77;
   margin-right: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
 }
 table.background th:first-child {
   color: #c0c0c0;
   text-align: left;
   border-bottom: black solid thin;
 }
-table.background th:nth-child(1) { width: 28% }
-table.background th:nth-child(5) { width: 28% }
+table.background th:nth-child(1) { width: 28%; }
+table.background th:nth-child(5) { width: 28%; }
 
+/*
 table.background-example {
   float: right;
   width: 49%;
@@ -436,6 +437,7 @@ table.background-example td {
   color: darkgrey;
   border-color: darkgrey !important;
 }
+*/
 
 table.social-class {
   table-layout: fixed;
