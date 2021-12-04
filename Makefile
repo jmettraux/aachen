@@ -8,11 +8,10 @@ RUM = $(RUBY) -Ilib -r make -e
 
 all: ps
 
-html0:
-	rm -fR out/tmp/*.md
-	rm -fR out/tmp/*.html
-	rm -fR out/html/* out/html/.*
+html0: clean
+	touch out/tmp/.gitkeep
 	touch out/html/.gitkeep
+	cp lib/assets/blank*.pdf out/tmp/
 	cp lib/assets/*.ico out/html/
 	cp lib/assets/*.png out/html/
 	cp lib/assets/*.css out/html/
@@ -39,6 +38,19 @@ serve:
 	$(RUBY) -run -ehttpd out/html/ -p7003
 s: serve
 
+clean:
+	rm -f out/tmp/*.md
+	rm -f out/tmp/*.pdf
+	rm -f out/tmp/*.html
+	rm -f out/html/*.ps
+	rm -f out/html/*.pdf
+	rm -f out/html/*.css
+	rm -f out/html/*.ico
+	rm -f out/html/*.png
+	rm -f out/html/*.svg
+	rm -f out/html/*.html
+	rm -fR out/html/* out/html/.*
 
-.PHONY: name serve
+
+.PHONY: name serve clean
 
