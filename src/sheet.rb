@@ -18,7 +18,7 @@ hs = OpenStruct.new(
   border_width: '0.3rem',
   box_border_width: '0.10rem',
   box_width: '2.1rem',
-  box_height: '1.4rem',
+  box_height: '1.1rem',
 )
 hs.cs = hs.circle_side
 
@@ -71,7 +71,7 @@ border: 1px solid grey;
 
   .subgrid {
     display: grid;
-    /*row-gap: 0.4rem;*/
+    row-gap: 0.4rem;
   }
 
   .ability-grid {
@@ -358,13 +358,15 @@ border: 1px solid grey;
   .skill-tag {
     font-size: 70pt;
     font-weight: bold;
-    color: #dfdfdf;
+    color: #d0d0d0;
     z-index: -1;
     align-self: end;
   }
 
   .skill-label {
+    height: #{hs.box_height};
     margin-left: 0.2rem;
+    font-size: 11pt;
   }
   .skill-label.italic {
     font-style: italic;
@@ -384,7 +386,7 @@ border: 1px solid grey;
     display: inline-block;
   }
   .skill-note {
-    font-size: 70%;
+    font-size: 11pt;
     color: grey;
     align-self: center;
     justify-self: center;
@@ -573,12 +575,12 @@ div('.left.subgrid', 1, 1) do
 
   div('.skill-grid', 1, 2) do
 
-    div('.skill-tag', 1, 1, 2, 4, 'G')
+    div('.skill-tag', 1, 1, 2, 5, 'G')
 
     j = 0
     %w{
       Administer Connect Convince #Craft Exert Heal Hunt #Know Lead Notice
-      Perform Pray Read Ride Sail
+      Perform Pray Read Ride Sail Sneak Survive Swim
     }
       .select { |k|
         k[0, 1] != '#' }
@@ -588,15 +590,21 @@ div('.left.subgrid', 1, 1) do
         div('.skill-box', 2, 1 + i)
         j = 1 + i
       end
-    div('.skill-note', 'skills default to -2', 3, 10, 2, 1)
+    div('.skill-note', 'skills default to -2', 3, 11, 2, 1)
 
     %w{
-      Sneak Survive Swim Trade Work
+      Trade Work
       #---
+      _Craft
+      _Know
       _
       _
       _
       _
+      ---
+      ---
+      ---
+      ---
       ---
       _Cast
       _Feel
@@ -612,12 +620,13 @@ div('.left.subgrid', 1, 1) do
         div('.skill-box', 4, 1 + i)
       end
 
-    div('.skill-tag', 3, 10, 2, 4, 'M')
+    div('.skill-tag', 3, 12, 2, 5, 'M')
 
     %w{
-      _Bows _Crossbows _Slings _Javelins
+      _Bows _Crossbows _Slings _Javelins Throw
       ---
       #Slash _Axes* _Maces* _Staffs* _Spears* _Swords*
+      Punch Grapple
       ---
       #Parry
       Shield
@@ -632,10 +641,10 @@ div('.left.subgrid', 1, 1) do
         div('.skill-label' + (it ? '.italic' : ''), 6, 1 + i, k)
         div('.skill-box' + (at ? '.attack' : ''), 7, 1 + i)
       end
-    div('.skill-tag', 6, 1, 2, 4, 'F')
+    div('.skill-tag', 6, 1, 2, 5, 'F')
 
-    div('.weapon-cat', 5, 1, 1, 4, 'ranged')
-    div('.weapon-cat', 5, 6, 1, 5, 'melee')
+    div('.weapon-cat', 5, 1, 1, 5, 'ranged')
+    div('.weapon-cat', 5, 7, 1, 7, 'melee')
   end
 end
 
