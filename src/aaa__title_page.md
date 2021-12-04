@@ -4,7 +4,14 @@
 
 ${NAME_CAP} is a set of tabletop role playing rules targetting a low-fantasy Europe between the Dark Ages and AD 1100.
 
-It's taking inspiration from Gallant&Bold from John Grümph and Stars Without Number from Kevin Crawford.
+It's taking inspiration from Gallant & Bold from John Grümph and Stars Without Number from Kevin Crawford.
+
+Design Decisions:
+
+* fast character creation
+* low on math (slightly harder operations only at character creation)
+* 1d20 roll high, advantage and disadvantage
+* may use any OSR bestiary (HD, AC, ...)
 
 Git Branch
 : ${GITBRA}

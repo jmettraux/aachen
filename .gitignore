@@ -4,15 +4,18 @@
 
 .todo.md
 
+tmp/*.svg
+
 out/tmp/*.md
 out/tmp/*.html
 
 out/html/*.js
+out/html/*.ps
 out/html/*.css
 out/html/*.ico
 out/html/*.png
 out/html/*.pdf
-out/html/*.ps
+out/html/*.svg
 out/html/*.html
 out/html/et-book/
 
