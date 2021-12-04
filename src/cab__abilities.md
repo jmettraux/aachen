@@ -47,9 +47,9 @@ For each ability, compute its `TC` (target class). `ABI TC` = 21 - `ABI`.
 | Evasion  | magical effects, illusions, or temptations | mean of `DEX TC` and `INT TC`, round up |
 | Mental   | sudden explosions, sudden pits or perils   | mean of `WIS TC` and `CHA TC`, round up |
 
-The initiative modifier is equal to the mean of `DEX` and `WIS` rounded down.
+The _INItiative modifier_ is equal to the mean of `DEX` and `WIS` rounded down.
 
-The learning TC is equal to the mean of `INT` and `WIS` rounded up.
+The _learning TC_ is equal to the mean of `INT` and `WIS` rounded up.
 
 
 ## Example

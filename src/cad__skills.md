@@ -17,6 +17,10 @@
 
 Skills are expressed from 0 to 10 or 20. That value is used as a d20 modifier against an Ability TC, a Save TC, or an AC.
 
+When a character acquires a skill, they start at +0. If a character has not been exposed to the skills, they have a -2 in it.
+
+Skills are divided between Fighter skills **F**, Magic skills **M**, and General skills **G**.
+
 ## Fighter Skills
 
 Bows / Crossbows / Slings / Javelins / Throw
@@ -29,23 +33,22 @@ Punch / Grapple
 : Fight unarmed. Punching and grappling are separate.
 
 Shield
-: TODO
+: To use a shield, defensively and offensively.
 
 Dodge
-: TODO
+: To avoid hits and projectiles.
 
 
 ## Magic Skill
 
 Cast
-: To cast spells. To analyze magical effects, to know about magic and its practicioners.
-: Classes that cannot cast spells and have levels in this skill are simply scholars of magic.
+: To cast spells.
 
 Feel
-: TODO
+: To feel spell effects.
 
 Soak
-: TODO
+: To absorb magical energy as CP (Casting Points).
 
 <!-- </div.left-column> -->
 <!-- <div.right-column> -->
@@ -108,7 +111,7 @@ Swim
 : To swim, to be at ease in the water.
 
 Trade
-: To buy and sell advantageously, to value goods correctly, to deal with traders and merchants, to know about trade laws, smuggling, and contraband.
+: To buy and sell advantageously, to value goods correctly, to deal with traders and merchants.
 
 Work
 : To toil in the fields, take care of herds, hew trees, weave cloth. All the work.
