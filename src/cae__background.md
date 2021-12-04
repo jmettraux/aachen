@@ -37,18 +37,20 @@ There are three ways to apply a background table.
 
 The **quick way** is to take the _Free Skill_ and the 2 _Quick Skills_.
 
-The **selection way** is to take the _Free Skill_ and then select two skills from the right-most column, the _Learning_ column. Disregard, _Any Skill_ and _Any Combat Skill_.
+The **selection way** is to take the _Free Skill_ and then select two skills from the right-most column, the _Learning_ column. Disregard, _Any Skill_ and _Any Fighter Skill_.
 
 The **random way** is to the the _Free Skill_ and then roll thrice, either from the _Growth_ column or from the _Learning_ column. It is not necessary to roll thrice from the same column.
 
 [^2]
 
-Rolling _Any Skill_ means the player may choose any one skill for his character. Rolling _Any Combat (Skill)_ means the player may choose `SLASH`, `SHOOT`, or `PUNCH`.
+Rolling _Any Skill_ means the player may choose any one skill for his character. Rolling _Any Fighter (Skill)_ means the player may choose `SLASH`, `SHOOT`, or `PUNCH`.
 
 Rolling _+1 Any Att_ means 1 point may be added to the score of any attribute. Rolling _+2 Physical_ means 2 points may be added to the score of `STR`, `DEX`, or `CON`. 2 points on one of them, or 1 point on two of them. Rolling _+2 Mental_ is the equivalent for `INT`, `WIS`, and `CHA`.
 Remember to recompute the attribute modifiers and the saving throw scores if an attribute score is changed.
 
 When a character is given a skill, it sets it at level 0. Taking it a second time sets it at level 1. A new character may not exceed level 1 in a skill. Should that happen, shift the increment to another skill.
+
+Character with Backgrounds tagged _learning adventage_ get an advantage when rolling for skills upon levelling up.
 
 
 [^1]:
@@ -101,16 +103,16 @@ When a character is given a skill, it sets it at level 0. Taking it a second tim
 -->
 
 <!-- .background -->
-| 1                | d6 | Growth      | d8 | Learning   |
-|------------------|---:|:-----------:|---:|:----------:|
-| **Free Skill**   |  1 | +1 Any Att  |  1 | Any Combat |
-| Exert            |  2 | +2 Physical |  2 | Any Skill  |
-|                  |  3 | +2 Physical |  3 | Connect    |
-| **Quick Skills** |  4 | +2 Mental   |  4 | Exert      |
-| Hunt             |  5 | Exert       |  5 | Hunt       |
-| Any Combat       |  6 | Any Skill   |  6 | Notice     |
-|                  |    |             |  7 | Sneak      |
-|                  |    |             |  8 | Convince   |
+| 1                | d6 | Growth      | d8 | Learning    |
+|------------------|---:|:-----------:|---:|:-----------:|
+| **Free Skill**   |  1 | +1 Any Att  |  1 | Any Fighter |
+| Exert            |  2 | +2 Physical |  2 | Any Skill   |
+|                  |  3 | +2 Physical |  3 | Connect     |
+| **Quick Skills** |  4 | +2 Mental   |  4 | Exert       |
+| Hunt             |  5 | Exert       |  5 | Hunt        |
+| Any Fighter      |  6 | Any Skill   |  6 | Notice      |
+|                  |    |             |  7 | Sneak       |
+|                  |    |             |  8 | Convince    |
 
 ### Wanderer
 
@@ -120,16 +122,16 @@ An outlaw or an unprotected foreigner. At some point the character "branched out
 
 
 <!-- .background -->
-| 2                | d6 | Growth      | d8 | Learning   |
-|------------------|---:|:-----------:|---:|:----------:|
-| **Free Skill**   |  1 | +1 Any Att  |  1 | Any Combat |
-| Work             |  2 | +2 Physical |  2 | Any Skill  |
-|                  |  3 | +2 Physical |  3 | Connect    |
-| **Quick Skills** |  4 | +2 Any Att  |  4 | Craft      |
-| Sneak            |  5 | Exert       |  5 | Exert      |
-| Exert            |  6 | Any Skill   |  6 | Notice     |
-|                  |    |             |  7 | Sneak      |
-|                  |    |             |  8 | Work       |
+| 2                | d6 | Growth      | d8 | Learning    |
+|------------------|---:|:-----------:|---:|:-----------:|
+| **Free Skill**   |  1 | +1 Any Att  |  1 | Any Fighter |
+| Work             |  2 | +2 Physical |  2 | Any Skill   |
+|                  |  3 | +2 Physical |  3 | Connect     |
+| **Quick Skills** |  4 | +2 Any Att  |  4 | Craft       |
+| Sneak            |  5 | Exert       |  5 | Exert       |
+| Exert            |  6 | Any Skill   |  6 | Notice      |
+|                  |    |             |  7 | Sneak       |
+|                  |    |             |  8 | Work        |
 
 ### Slave
 
@@ -169,7 +171,7 @@ A free woman or man born in a family owning enough land to support itself.
 |                  |    |             |  7 | Convince   |
 |                  |    |             |  8 | Work       |
 
-### Artisan
+### Artisan ~~(learning advantage)~~
 
 Born in an artisan family, son or daughter of a master or journeyman or born elsewhere but accepted as an apprentice into an artisan workshop.
 
@@ -190,26 +192,26 @@ Born in an artisan family, son or daughter of a master or journeyman or born els
 
 [^3]
 
-### Religious
+### Religious ~~(learning advantage)~~
 
 Born in a family of priests (pagan faith) or in a family linked to a religious institution (christian faith). Training to become a priest or being a novice in a minster.
 
 <!-- clear -->
 
 <!-- .background -->
-| 6                | d6 | Growth      | d8 | Learning   |
-|------------------|---:|:-----------:|---:|:----------:|
-| **Free Skill**   |  1 | +1 Any Att  |  1 | Any Combat |
-| Slash            |  2 | +2 Physical |  2 | Any Skill  |
-|                  |  3 | +2 Physical |  3 | Connect    |
-| **Quick Skills** |  4 | +2 Mental   |  4 | Trade      |
-| Lead             |  5 | Connect     |  5 | Lead       |
-| Connect          |  6 | Any Skill   |  6 | Ride       |
-|                  |    |             |  7 | Slash      |
-|                  |    |             |  8 | Convince   |
+| 6                | d6 | Growth      | d8 | Learning    |
+|------------------|---:|:-----------:|---:|:-----------:|
+| **Free Skill**   |  1 | +1 Any Att  |  1 | Any Fighter |
+| Slash            |  2 | +2 Physical |  2 | Any Skill   |
+|                  |  3 | +2 Physical |  3 | Connect     |
+| **Quick Skills** |  4 | +2 Mental   |  4 | Trade       |
+| Lead             |  5 | Connect     |  5 | Lead        |
+| Connect          |  6 | Any Skill   |  6 | Ride        |
+|                  |    |             |  7 | Slash       |
+|                  |    |             |  8 | Convince    |
 
 
-### Elite
+### Elite ~~(learning advantage)~~
 
 Born in an old roman senatorial family or in the germanic elite. Or simply being raised with the sons or daughters of an elite family and "hanging around".
 

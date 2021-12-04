@@ -594,7 +594,7 @@ div('.left.subgrid', 1, 1) do
     [
       'skills start at +0',
       'but default to -2',
-      '1d20 + skill ≥ ABI TC'
+      '1d20 + skill ≥ abi TC'
     ]
       .each_with_index { |s, i| div('.skill-note', s, 3, 9 + i, 2, 1) }
 

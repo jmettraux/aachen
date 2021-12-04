@@ -640,6 +640,13 @@ table.social-class th:nth-child(1) {
   text-transform: lowercase;
   font-size: var(--size-a);
 }
+[data-aa-title="background"] h3 del {
+  color: grey;
+  font-size: 80%;
+  font-variant: normal;
+  text-transform: initial;
+  margin-left: 0.3rem;
+}
 
 [data-aa-title="background"] .margin table {
   font-size: var(--size-c);
