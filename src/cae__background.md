@@ -45,8 +45,8 @@ The **random way** is to the the _Free Skill_ and then roll thrice, either from 
 
 Rolling _Any Skill_ means the player may choose any one skill for his character. Rolling _Any Fighter (Skill)_ means the player may choose `SLASH`, `SHOOT`, or `PUNCH`.
 
-Rolling _+1 Any Att_ means 1 point may be added to the score of any attribute. Rolling _+2 Physical_ means 2 points may be added to the score of `STR`, `DEX`, or `CON`. 2 points on one of them, or 1 point on two of them. Rolling _+2 Mental_ is the equivalent for `INT`, `WIS`, and `CHA`.
-Remember to recompute the attribute modifiers and the saving throw scores if an attribute score is changed.
+Rolling _+1 Any Abi_ means 1 point may be added to the score of any ability. Rolling _+2 Physical_ means 2 points may be added to the score of `STR`, `DEX`, or `CON`. 2 points on one of them, or 1 point on two of them. Rolling _+2 Mental_ is the equivalent for `INT`, `WIS`, and `CHA`.
+Remember to recompute the ability modifiers and the saving throw scores if an ability score is changed.
 
 When a character is given a skill, it sets it at level 0. Taking it a second time sets it at level 1. A new character may not exceed level 1 in a skill. Should that happen, shift the increment to another skill.
 
@@ -105,7 +105,7 @@ Character with Backgrounds tagged _learning adventage_ get an advantage when rol
 <!-- .background -->
 | 1                | d6 | Growth      | d8 | Learning    |
 |------------------|---:|:-----------:|---:|:-----------:|
-| **Free Skill**   |  1 | +1 Any Att  |  1 | Any Fighter |
+| **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Fighter |
 | Exert            |  2 | +2 Physical |  2 | Any Skill   |
 |                  |  3 | +2 Physical |  3 | Connect     |
 | **Quick Skills** |  4 | +2 Mental   |  4 | Exert       |
@@ -124,10 +124,10 @@ An outlaw or an unprotected foreigner. At some point the character "branched out
 <!-- .background -->
 | 2                | d6 | Growth      | d8 | Learning    |
 |------------------|---:|:-----------:|---:|:-----------:|
-| **Free Skill**   |  1 | +1 Any Att  |  1 | Any Fighter |
+| **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Fighter |
 | Work             |  2 | +2 Physical |  2 | Any Skill   |
 |                  |  3 | +2 Physical |  3 | Connect     |
-| **Quick Skills** |  4 | +2 Any Att  |  4 | Craft       |
+| **Quick Skills** |  4 | +2 Any Abi  |  4 | Craft       |
 | Sneak            |  5 | Exert       |  5 | Exert       |
 | Exert            |  6 | Any Skill   |  6 | Notice      |
 |                  |    |             |  7 | Sneak       |
@@ -143,7 +143,7 @@ Born into slavery or forced into it by war or debt. The character could be the s
 <!-- .background -->
 | 3                | d6 | Growth      | d8 | Learning   |
 |------------------|---:|:-----------:|---:|:----------:|
-| **Free Skill**   |  1 | +1 Any Att  |  1 | Any Skill  |
+| **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Skill  |
 | Work             |  2 | +2 Physical |  2 | Connect    |
 |                  |  3 | +2 Physical |  3 | Craft      |
 | **Quick Skills** |  4 | +2 Mental   |  4 | Ride       |
@@ -162,7 +162,7 @@ A free woman or man born in a family owning enough land to support itself.
 <!-- .background -->
 | 4                | d6 | Growth      | d8 | Learning   |
 |------------------|---:|:-----------:|---:|:----------:|
-| **Free Skill**   |  1 | +1 Any Att  |  1 | Any Skill  |
+| **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Skill  |
 | Craft            |  2 | +2 Physical |  2 | Connect    |
 |                  |  3 | +2 Mental   |  3 | Craft      |
 | **Quick Skills** |  4 | +2 Mental   |  4 | Trade      |
@@ -181,7 +181,7 @@ Born in an artisan family, son or daughter of a master or journeyman or born els
 <!-- .background -->
 | 5                | d6 | Growth      | d8 | Learning   |
 |------------------|---:|:-----------:|---:|:---------:|
-| **Free Skill**   |  1 | +1 Any Att  |  1 | Any Skill |
+| **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Skill |
 | Pray             |  2 | +2 Physical |  2 | Connect   |
 |                  |  3 | +2 Mental   |  3 | Craft     |
 | **Quick Skills** |  4 | +2 Mental   |  4 | Know      |
@@ -201,7 +201,7 @@ Born in a family of priests (pagan faith) or in a family linked to a religious i
 <!-- .background -->
 | 6                | d6 | Growth      | d8 | Learning    |
 |------------------|---:|:-----------:|---:|:-----------:|
-| **Free Skill**   |  1 | +1 Any Att  |  1 | Any Fighter |
+| **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Fighter |
 | Slash            |  2 | +2 Physical |  2 | Any Skill   |
 |                  |  3 | +2 Physical |  3 | Connect     |
 | **Quick Skills** |  4 | +2 Mental   |  4 | Trade       |
