@@ -41,28 +41,29 @@ The **selection way** is to take the _Free Skill_ and then select two skills fro
 
 The **random way** is to the the _Free Skill_ and then roll thrice, either from the _Growth_ column or from the _Learning_ column. It is not necessary to roll thrice from the same column.
 
-[^2]
-
 Rolling _Any Skill_ means the player may choose any one skill for his character. Rolling _Any Fighter (Skill)_ means the player may choose `SLASH`, `SHOOT`, or `PUNCH`.
+
+[^2]
 
 Rolling _+1 Any Abi_ means 1 point may be added to the score of any ability. Rolling _+2 Physical_ means 2 points may be added to the score of `STR`, `DEX`, or `CON`. 2 points on one of them, or 1 point on two of them. Rolling _+2 Mental_ is the equivalent for `INT`, `WIS`, and `CHA`.
 Remember to recompute the ability modifiers and the saving throw scores if an ability score is changed.
 
-When a character is given a skill, it sets it at level 0. Taking it a second time sets it at level 1. A new character may not exceed level 1 in a skill. Should that happen, shift the increment to another skill.
+When a character is given a skill, it sets it at level 0. Taking it a second time sets it at level 1.
 
-Character with Backgrounds tagged _learning adventage_ get an advantage when rolling for skills upon levelling up.
+Character with Backgrounds tagged _learning advantage_ get an advantage when rolling for skills upon levelling up.
 
 
 [^1]:
-  maybe:
+  maybe, to differentiate social class from bg:
 
   <!-- .social-class -->
-  | d8  | soclass |
-  |:---:|:-------:|
-  | 1   | outcast |
-  | 2-3 | slave   |
-  | 4-7 | free    |
-  | 8   | elite   |
+  | d12   | soclass    |
+  |:-----:|:----------:|
+  | 1-8   | _bground_  |
+  |  9    | outcast    |
+  | 10    | slave      |
+  | 11    | free       |
+  | 12    | elite      |
 
   <!-- .social-class -->
   | d12  | origin  |
@@ -83,7 +84,8 @@ Character with Backgrounds tagged _learning adventage_ get an advantage when rol
 
 
 [^2]:
-  The referee may prevent you from choosing `cast`. Or let you take it for scholarly reasons (no actual spell casting).
+  _Any Skill_:
+  The referee may prevent you from choosing `cast`, `feel`, or `soak`. Or let you take it for scholarly reasons (no actual spell casting).
 
 <!-- PAGE BREAK background -->
 
@@ -141,16 +143,16 @@ Born into slavery or forced into it by war or debt. The character could be the s
 
 
 <!-- .background -->
-| 3                | d6 | Growth      | d8 | Learning   |
-|------------------|---:|:-----------:|---:|:----------:|
-| **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Skill  |
-| Work             |  2 | +2 Physical |  2 | Connect    |
-|                  |  3 | +2 Physical |  3 | Craft      |
-| **Quick Skills** |  4 | +2 Mental   |  4 | Ride       |
-| Slash            |  5 | Exert       |  5 | Hunt       |
-| Connect          |  6 | Any Skill   |  6 | Administer |
-|                  |    |             |  7 | Slash      |
-|                  |    |             |  8 | Work       |
+| 3                | d6 | Growth      | d8 | Learning    |
+|------------------|---:|:-----------:|---:|:-----------:|
+| **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Fighter |
+| Work             |  2 | +2 Physical |  2 | Any Skill   |
+|                  |  3 | +2 Physical |  3 | Connect     |
+| **Quick Skills** |  4 | +2 Mental   |  4 | Craft       |
+| Staff            |  5 | Exert       |  5 | Ride        |
+| Connect          |  6 | Any Skill   |  6 | Hunt        |
+|                  |    |             |  7 | Administer  |
+|                  |    |             |  8 | Work        |
 
 ### Commoner
 
@@ -190,9 +192,7 @@ Born in an artisan family, son or daughter of a master or journeyman or born els
 |                  |    |             |  7 | Convince  |
 |                  |    |             |  8 | Work      |
 
-[^3]
-
-### Religious ~~(learning advantage)~~
+### Religious ~~(learning advantage)~~ [^3]
 
 Born in a family of priests (pagan faith) or in a family linked to a religious institution (christian faith). Training to become a priest or being a novice in a minster.
 
@@ -202,12 +202,12 @@ Born in a family of priests (pagan faith) or in a family linked to a religious i
 | 6                | d6 | Growth      | d8 | Learning    |
 |------------------|---:|:-----------:|---:|:-----------:|
 | **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Fighter |
-| Slash            |  2 | +2 Physical |  2 | Any Skill   |
+| Sword            |  2 | +2 Physical |  2 | Any Skill   |
 |                  |  3 | +2 Physical |  3 | Connect     |
 | **Quick Skills** |  4 | +2 Mental   |  4 | Trade       |
 | Lead             |  5 | Connect     |  5 | Lead        |
 | Connect          |  6 | Any Skill   |  6 | Ride        |
-|                  |    |             |  7 | Slash       |
+|                  |    |             |  7 | Shield      |
 |                  |    |             |  8 | Convince    |
 
 

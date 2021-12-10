@@ -14,6 +14,7 @@ Design Decisions:
 * may use any OSR bestiary (HD, AC, ...)
 * abilities are nouns, skills are verbs, traits are adjective (modifiable by very)
 * abilities and saves are DCs (TCs), skills are modifiers, d20 roll high
+* traits should be short and unambiguous (-, very, extremely)
 
 Git Branch
 : ${GITBRA}
