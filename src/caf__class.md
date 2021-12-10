@@ -27,19 +27,9 @@ A party composed only of `Fighter` characters is acceptable, but having one or t
 The number of classes is limited, but not your imagination, and experience will forge the characters gradually.
 
 
-
-| Lvl | HP      | Atk | Traits |
-|:---:|:-------:|:---:|:------:|
-|   1 |   1d6+2 |  +1 | 1      |
-|   2 |   2d6+4 |  +2 | +1     |
-|   3 |   3d6+6 |  +3 |        |
-|   4 |   4d6+8 |  +4 |        |
-|   5 |  5d6+10 |  +5 | +1     |
-|   6 |  6d6+12 |  +6 |        |
-|   7 |  7d6+14 |  +7 | +1     |
-|   8 |  8d6+16 |  +8 |        |
-|   9 |  9d6+18 |  +9 |        |
-|  10 | 10d6+20 | +10 | +1     |
+| HP    | CP   | f skills | g skills | m skills |
+|:-----:|:----:|:--------:|:--------:|:--------:|
+| 1d8+3 | none | 1d4      | 1d4      | none     |
 
 ## Fighter
 
@@ -50,19 +40,9 @@ Choosing the `Fighter` class doesn't mean the character is a professional soldie
 The `Fighter` class talents are `VERY SWERVING` and `VERY FIRM`.
 
 
-
-| Lvl | HP   | Atk | Traits |
-|:---:|:----:|:---:|:------:|
-|   1 |  1d6 |  +0 | **2**  |
-|   2 |  2d6 |  +1 | +1     |
-|   3 |  3d6 |  +1 |        |
-|   4 |  4d6 |  +2 |        |
-|   5 |  5d6 |  +2 | +1     |
-|   6 |  6d6 |  +3 |        |
-|   7 |  7d6 |  +3 | +1     |
-|   8 |  8d6 |  +4 |        |
-|   9 |  9d6 |  +4 |        |
-|  10 | 10d6 |  +5 | +1     |
+| HP  | CP   | f skills | g skills | m skills |
+|:---:|:----:|:--------:|:--------:|:--------:|
+| 1d8 | none | 1d3      | 1d6      | none     |
 
 ## Dabster
 
@@ -88,18 +68,9 @@ The `Dabster` class talents are `VERY SKILLFUL` and `VERY EVASIVE`.
 
 
 <!-- .top -->
-| Lvl | HP      | Atk | Traits |
-|:---:|:-------:|:---:|:------:|
-|   1 |   1d6-1 |  +0 | 1      |
-|   2 |   2d6-2 |  +0 | +1     |
-|   3 |   3d6-3 |  +1 |        |
-|   4 |   4d6-4 |  +1 |        |
-|   5 |   5d6-5 |  +2 | +1     |
-|   6 |   6d6-6 |  +2 |        |
-|   7 |   7d6-7 |  +3 | +1     |
-|   8 |   8d6-8 |  +3 |        |
-|   9 |   9d6-9 |  +3 |        |
-|  10 | 10d6-10 |  +4 | +1     |
+| HP    | CP   | f skills | g skills | m skills |
+|:-----:|:----:|:--------:|:--------:|:--------:|
+| 1d8-1 | 1d8  | 1d3-1    | 1d4      | 1d3      |
 
 <!-- .top -->
 ## Caster
@@ -110,8 +81,6 @@ Some of them are very talented, some others less so but were lucky enough to fin
 
 A `Caster` has `VERY INTRICATE` and `VERY WISE` as class talents.
 
-The ~~factor~~ for computing the cast points (CP) of a `Caster` is the best of the `INT`, `WIS`, or `CHA` modifiers.
-
 
 # _or a_ Hybrid _of_ two Classes
 
@@ -121,46 +90,37 @@ For example, a `Fighter-Caster` has to choose between the class talents of the `
 
 
 <!-- .right -->
-| Lvl | HP      | Atk | Traits |
-|:---:|:-------:|:---:|:------:|
-|   1 |   1d6+1 |  +1 | 1      |
-|   2 |   2d6+2 |  +2 | +1     |
-|   3 |   3d6+3 |  +2 |        |
-|   4 |   4d6+4 |  +3 |        |
-|   5 |   5d6+5 |  +4 | +1     |
-|   6 |   6d6+6 |  +5 |        |
-|   7 |   7d6+7 |  +5 | +1     |
-|   8 |   8d6+8 |  +6 |        |
-|   9 |   9d6+9 |  +6 |        |
-|  10 | 10d6+10 |  +7 | +1     |
+| HP    | CP   | f skills | g skills | m skills |
+|:-----:|:----:|:--------:|:--------:|:--------:|
+| 1d8+1 | none | 1d3      | 1d5      | none     |
 
 <!-- .ambi -->
-## Fighter-Dabster _or_ Fighter-Caster
+## Fighter-Dabster
 
-Those two mixes grant more hit points and better attacks.
-
-The ~~factor~~ for computing the cast points (CP) of a `Fighter-Caster` character is the `WIS` modifier.
+Blah blah blah.
 
 <!-- clear -->
 
 <!-- .right -->
-| Lvl | HP   | Atk | Traits |
-|:---:|:----:|:---:|:------:|
-|   1 |  1d6 |  +0 | 1      |
-|   2 |  2d6 |  +1 | +1     |
-|   3 |  3d6 |  +1 |        |
-|   4 |  4d6 |  +2 |        |
-|   5 |  5d6 |  +2 | +1     |
-|   6 |  6d6 |  +3 |        |
-|   7 |  7d6 |  +3 | +1     |
-|   8 |  8d6 |  +4 |        |
-|   9 |  9d6 |  +4 |        |
-|  10 | 10d6 |  +5 | +1     |
+| HP    | CP   | f skills | g skills | m skills |
+|:-----:|:----:|:--------:|:--------:|:--------:|
+| 1d8+1 | 1d6  | 1d3      | 1d3      | 1d2      |
+
+<!-- .ambi -->
+## Fighter-Caster
+
+Blah blah blah.
+
+
+<!-- clear -->
+
+<!-- .right -->
+| HP    | CP   | f skills | g skills | m skills |
+|:-----:|:----:|:--------:|:--------:|:--------:|
+| 1d8   | 1d6  | 1d3-1    | 1d4      | 1d2      |
 
 <!-- .ambi -->
 ## Dabster-Caster
 
-This mix grants one more talent at character creation. It gives the hit points and the attack bonuses of the Dabster.
-
-The ~~factor~~ for computing the cast points (CP) of the character is the `INT` modifier.
+Blah blah blah.
 

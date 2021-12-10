@@ -667,15 +667,12 @@ table.social-class th:nth-child(1) {
 
 [data-aa-title="class"] table {
   float: left;
-  width: 34%;
+  width: 49%;
   margin-top: 1rem;
   margin-right: 1rem;
   margin-bottom: 0.5rem;
   font-size: var(--size-b);
   line-height: 0.66;
-}
-[data-aa-title="class"] table strong {
-  color: red;
 }
 
 [data-aa-title="class"] h2.top {
