@@ -731,6 +731,11 @@ table.social-class th:nth-child(1) {
   font-variant: small-caps;
   text-transform: lowercase;
 }
+[data-aa-title="traits"] .trait h3 code {
+  font-size: var(--size-b);
+}
+[data-aa-title="traits"] .trait h3 code:before { content: '· ('; }
+[data-aa-title="traits"] .trait h3 code:after { content: ')'; }
 [data-aa-title="traits"] .trait h3 strong {
   font-size: var(--size-b);
   font-weight: normal;
@@ -763,6 +768,9 @@ table.social-class th:nth-child(1) {
 }
 [data-aa-title="traits"] .trait ul:not(.compass) li + li:before {
   content: '··';
+}
+[data-aa-title="traits"] .trait ul:not(.compass) li + li + li:before {
+  content: '···';
 }
 
 [data-aa-title="skill2"] h1:not(:first-child) {
