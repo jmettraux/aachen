@@ -22,7 +22,7 @@ Each class is presented with a table detailing the count of each item an adventu
 
 Before rolling for count, roll a d20 against the given `TC`, if successful then the count dice is rolled twice with the best result kept (like when rolling with advantage). For example, a fighter successfully rolling 1d20 against their `CON TC` may roll 2d8 pick the best and add 3 to determine their new HP max.
 
-Traits are a bit different. A character receives _attempts_, they can be used to acquire a trait or to enhance it (from _regular_, to _very_, to _highly_).
+Traits are a bit different. A character receives _attempts_, they can be used to acquire a trait or to enhance it (from _regular_, to _very_, to _highly_). An attempt is a roll against the trait given `TC`, if successful the trait is acquired or enhanced, else too bad.
 
 
 | Item           | 1d20 ≥   | Count      |
@@ -102,6 +102,7 @@ Blah blah blah ~~TODO~~.
 For example, a `Fighter-Caster` has to choose between the class talents of the `Fighter` and of the `Caster`. The player can chose `VERY SWERVING` and `VERY INTRICATE`, or he could split the talents and take `VERY INTRICATE`, `SWERVING` and `FIRM` (1 very equals 2 non-very talents).
 -->
 
+<!-- clear -->
 
 <!-- .right -->
 | Item           | 1d20 ≥   | Count      |
@@ -114,7 +115,6 @@ For example, a `Fighter-Caster` has to choose between the class talents of the `
 | Spells         |          |            |
 | Traits         |          | 3 attempts |
 
-<!-- .ambi -->
 ## Fighter-Dabster
 
 Blah blah blah TODO.
@@ -132,7 +132,6 @@ Blah blah blah TODO.
 | Spells         | `Lea TC` | 1d2        |
 | Traits         |          | 2 attempts |
 
-<!-- .ambi -->
 ## Fighter-Caster
 
 Blah blah blah TODO.
@@ -151,7 +150,6 @@ Blah blah blah TODO.
 | Spells         | `Lea TC` | 1d2        |
 | Traits         |          | 3 attempts |
 
-<!-- .ambi -->
 ## Dabster-Caster
 
 Blah blah blah TODO.
