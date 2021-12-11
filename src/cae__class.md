@@ -14,22 +14,23 @@
 
 There are only three core classes, `Fighter`, `Dabster`, and `Caster`, but they can be mixed in pairs (three plus three classes in total).
 
-Each class has its own Hit Points and Attack Bonus progression as character level increases.
-
-A class is also given two class talents and one free talent to select (two free talents for a `Dabster`). A talent is a qualifier that comes in two levels: unprefixed and _very_-prefixed. The two class talents are already _very_-prefixed.
+The vast majority of people belong to the classes `Fighter` and `Dabster`.
 
 Adventurers are probably travellers, pilgrims, traders, vagabonds, gyrovagues, or hired hands on a mission. One who wields a spear is probably a fighter, you'd have to see them fight to ascertain that, the man with a tonsure is a cleric, or someone posing as one.
 
-There should probably be no more than one `Caster` per adventurer group. It's a difficult class to play, it's weaker and must hide its abilities constantly from others.
+Each class is presented with a table detailing how many HPs (and maybe CPs) and skills they receive each time they level up. Character creation is considered as levelling up from 0 to 1.
 
-A party composed only of `Fighter` characters is acceptable, but having one or two `Dabster` characters is probably better.
+Each item in a class table has a `TC` covering it. A successful 1d20 roll against this `TC` grants the advantage on the roll below. For example. A fighter succeeding a `CON TC` roll, then rolls (best of 2 d8)+3 instead of 1d8+3 to add to their HP count.
 
-The number of classes is limited, but not your imagination, and experience will forge the characters gradually.
+<!--
+A class is also given two class talents and one free talent to select (two free talents for a `Dabster`). A talent is a qualifier that comes in two levels: unprefixed and _very_-prefixed. The two class talents are already _very_-prefixed.
+-->
 
 
-| HP    | CP   | f skills | g skills | m skills |
-|:-----:|:----:|:--------:|:--------:|:--------:|
-| 1d8+3 | none | 1d4      | 1d4      | none     |
+| HP       | CP | f skills | g skills | m skills |
+|:--------:|:--:|:--------:|:--------:|:--------:|
+| `CON TC` |    | `Lea TC` | `Lea TC` |          |
+| 1d8+3    |    | 1d4      | 1d4      |          |
 
 ## Fighter
 
@@ -40,9 +41,10 @@ Choosing the `Fighter` class doesn't mean the character is a professional soldie
 The `Fighter` class talents are `VERY SWERVING` and `VERY FIRM`.
 
 
-| HP  | CP   | f skills | g skills | m skills |
-|:---:|:----:|:--------:|:--------:|:--------:|
-| 1d8 | none | 1d3      | 1d6      | none     |
+| HP       | CP | f skills | g skills | m skills |
+|:--------:|:--:|:--------:|:--------:|:--------:|
+| `CON TC` |    | `Lea TC` | `Lea TC` |          |
+| 1d8      |    | 1d3      | 1d6      |          |
 
 ## Dabster
 
@@ -68,9 +70,10 @@ The `Dabster` class talents are `VERY SKILLFUL` and `VERY EVASIVE`.
 
 
 <!-- .top -->
-| HP    | CP   | f skills | g skills | m skills |
-|:-----:|:----:|:--------:|:--------:|:--------:|
-| 1d8-1 | 1d8  | 1d3-1    | 1d4      | 1d3      |
+| HP       | CP       | f skills | g skills | m skills |
+|:--------:|:--------:|:--------:|:--------:|:--------:|
+| `CON TC` | `Men TC` | `Lea TC` | `Lea TC` | `Men TC` |
+| 1d8-1    | 1d8      | 1d3-1    | 1d4      | 1d3      |
 
 <!-- .top -->
 ## Caster
@@ -90,9 +93,10 @@ For example, a `Fighter-Caster` has to choose between the class talents of the `
 
 
 <!-- .right -->
-| HP    | CP   | f skills | g skills | m skills |
-|:-----:|:----:|:--------:|:--------:|:--------:|
-| 1d8+1 | none | 1d3      | 1d5      | none     |
+| HP       | CP       | f skills | g skills | m skills |
+|:--------:|:--------:|:--------:|:--------:|:--------:|
+| `CON TC` |          | `Lea TC` | `Lea TC` |          |
+| 1d8+1    |          | 1d3      | 1d5      |          |
 
 <!-- .ambi -->
 ## Fighter-Dabster
@@ -102,9 +106,10 @@ Blah blah blah.
 <!-- clear -->
 
 <!-- .right -->
-| HP    | CP   | f skills | g skills | m skills |
-|:-----:|:----:|:--------:|:--------:|:--------:|
-| 1d8+1 | 1d6  | 1d3      | 1d3      | 1d2      |
+| HP       | CP       | f skills | g skills | m skills |
+|:--------:|:--------:|:--------:|:--------:|:--------:|
+| `CON TC` | `Men TC` | `Lea TC` | `Lea TC` | `Men TC` |
+| 1d8+1    | 1d6      | 1d3      | 1d3      | 1d2      |
 
 <!-- .ambi -->
 ## Fighter-Caster
@@ -115,9 +120,10 @@ Blah blah blah.
 <!-- clear -->
 
 <!-- .right -->
-| HP    | CP   | f skills | g skills | m skills |
-|:-----:|:----:|:--------:|:--------:|:--------:|
-| 1d8   | 1d6  | 1d3-1    | 1d4      | 1d2      |
+| HP       | CP       | f skills | g skills | m skills |
+|:--------:|:--------:|:--------:|:--------:|:--------:|
+| `CON TC` | `Men TC` | `Lea TC` | `Lea TC` | `Men TC` |
+| 1d8      | 1d6      | 1d3-1    | 1d4      | 1d2      |
 
 <!-- .ambi -->
 ## Dabster-Caster

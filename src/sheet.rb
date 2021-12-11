@@ -715,7 +715,7 @@ div('.center.subgrid', 2, 1) do
     div('.ac', 1, 3) { img('.ac', src: 'shield.svg') }
 
     div('.ac-group', 2, 2) do
-      div('.ac-label', 'Min AC')
+      div('.ac-label', 'min AC')
       div('.ac-explanation', 'base AC + <i>Dodge</i>')
     end
 

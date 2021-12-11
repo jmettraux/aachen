@@ -213,28 +213,19 @@ A trait is a qualifier, for example a character might be `Lucky`. A trait may be
 
 <!-- <div.trait> -->
 
-### Watchful `WIS TC` **31**
-* TODO
-* TODO
-* TODO
+### Watchful `WIS TC` **34**
+* +1 to _Notice_ checks
+* +2 to _Notice_ checks
+* Advantage on _Notice_ checks
 
 <!-- </div> -->
 
 <!-- <div.trait> -->
 
-### Wise `MEN TC` **32**
+### Wise `MEN TC` **35**
 * +1 on _Mental_ saves
 * +1 or +_Know_ on _Mental_ saves
 * Advantage on _Mental_ saves
-
-<!-- </div> -->
-
-<!-- <div.trait> -->
-
-### Zealous 1 **46**
-* TODO
-* TODO
-* TODO
 
 <!-- </div> -->
 
