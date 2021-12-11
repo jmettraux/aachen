@@ -667,7 +667,7 @@ table.social-class th:nth-child(1) {
 
 [data-aa-title="class"] table {
   float: left;
-  width: 53%;
+  width: 42%;
   margin-top: 1rem;
   margin-right: 1rem;
   margin-bottom: 0.5rem;
@@ -684,9 +684,11 @@ table.social-class th:nth-child(1) {
 
 [data-aa-title="class"] table.right {
   float: right;
-  margin-top: 0;
+  /*
+  margin-top: 1rem;
   margin-left: 1rem;
   margin-right: 0;
+  */
 }
 
 [data-aa-title="class"] p + h1 {
@@ -704,8 +706,11 @@ table.social-class th:nth-child(1) {
 }
 
 [data-aa-title="class"] h2.ambi {
+/*
   line-height: 0.7;
+  margin-top: 1rem;
   margin-bottom: 1rem;
+*/
 }
 
 

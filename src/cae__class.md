@@ -27,10 +27,14 @@ A class is also given two class talents and one free talent to select (two free 
 -->
 
 
-| HP       | CP | f skills | g skills | m skills |
-|:--------:|:--:|:--------:|:--------:|:--------:|
-| `CON TC` |    | `Lea TC` | `Lea TC` |          |
-| 1d8+3    |    | 1d4      | 1d4      |          |
+| Item           | 1d20 ≥   | Count      |
+|:--------------:|:--------:|:----------:|
+| HP             | `CON TC` | 1d8+3      |
+| CP             |          |            |
+| Fighter Skills | `Lea TC` | 1d4        |
+| General Skills | `Lea TC` | 1d4        |
+| Magic Skills   |          |            |
+| Traits         |          | 2 attempts |
 
 ## Fighter
 
@@ -41,10 +45,14 @@ Choosing the `Fighter` class doesn't mean the character is a professional soldie
 The `Fighter` class talents are `VERY SWERVING` and `VERY FIRM`.
 
 
-| HP       | CP | f skills | g skills | m skills |
-|:--------:|:--:|:--------:|:--------:|:--------:|
-| `CON TC` |    | `Lea TC` | `Lea TC` |          |
-| 1d8      |    | 1d3      | 1d6      |          |
+| Item           | 1d20 ≥   | Count      |
+|:--------------:|:--------:|:----------:|
+| HP             | `CON TC` | 1d8        |
+| CP             |          |            |
+| Fighter Skills | `Lea TC` | 1d3        |
+| General Skills | `Lea TC` | 1d6        |
+| Magic Skills   |          |            |
+| Traits         |          | 2 attempts |
 
 ## Dabster
 
@@ -70,10 +78,14 @@ The `Dabster` class talents are `VERY SKILLFUL` and `VERY EVASIVE`.
 
 
 <!-- .top -->
-| HP       | CP       | f skills | g skills | m skills |
-|:--------:|:--------:|:--------:|:--------:|:--------:|
-| `CON TC` | `Men TC` | `Lea TC` | `Lea TC` | `Men TC` |
-| 1d8-1    | 1d8      | 1d3-1    | 1d4      | 1d3      |
+| Item           | 1d20 ≥   | Count      |
+|:--------------:|:--------:|:----------:|
+| HP             | `CON TC` | 1d8-1      |
+| CP             | `Men TC` | 1d8        |
+| Fighter Skills | `Lea TC` | 1d3-1      |
+| General Skills | `Lea TC` | 1d4        |
+| Magic Skills   | `Men TC` | 1d3        |
+| Traits         |          | 1 attempt  |
 
 <!-- .top -->
 ## Caster
@@ -93,10 +105,14 @@ For example, a `Fighter-Caster` has to choose between the class talents of the `
 
 
 <!-- .right -->
-| HP       | CP       | f skills | g skills | m skills |
-|:--------:|:--------:|:--------:|:--------:|:--------:|
-| `CON TC` |          | `Lea TC` | `Lea TC` |          |
-| 1d8+1    |          | 1d3      | 1d5      |          |
+| Item           | 1d20 ≥   | Count      |
+|:--------------:|:--------:|:----------:|
+| HP             | `CON TC` | 1d8+1      |
+| CP             |          |            |
+| Fighter Skills | `Lea TC` | 1d3        |
+| General Skills | `Lea TC` | 1d5        |
+| Magic Skills   |          |            |
+| Traits         |          | 2 attempts |
 
 <!-- .ambi -->
 ## Fighter-Dabster
@@ -106,10 +122,14 @@ Blah blah blah.
 <!-- clear -->
 
 <!-- .right -->
-| HP       | CP       | f skills | g skills | m skills |
-|:--------:|:--------:|:--------:|:--------:|:--------:|
-| `CON TC` | `Men TC` | `Lea TC` | `Lea TC` | `Men TC` |
-| 1d8+1    | 1d6      | 1d3      | 1d3      | 1d2      |
+| Item           | 1d20 ≥   | Count      |
+|:--------------:|:--------:|:----------:|
+| HP             | `CON TC` | 1d8+1      |
+| CP             | `Men TC` | 1d6        |
+| Fighter Skills | `Lea TC` | 1d3        |
+| General Skills | `Lea TC` | 1d3        |
+| Magic Skills   | `Men TC` | 1d2        |
+| Traits         |          | 1 attempt  |
 
 <!-- .ambi -->
 ## Fighter-Caster
@@ -120,10 +140,14 @@ Blah blah blah.
 <!-- clear -->
 
 <!-- .right -->
-| HP       | CP       | f skills | g skills | m skills |
-|:--------:|:--------:|:--------:|:--------:|:--------:|
-| `CON TC` | `Men TC` | `Lea TC` | `Lea TC` | `Men TC` |
-| 1d8      | 1d6      | 1d3-1    | 1d4      | 1d2      |
+| Item           | 1d20 ≥   | Count      |
+|:--------------:|:--------:|:----------:|
+| HP             | `CON TC` | 1d8        |
+| CP             | `Men TC` | 1d6        |
+| Fighter Skills | `Lea TC` | 1d3-1      |
+| General Skills | `Lea TC` | 1d4        |
+| Magic Skills   | `Men TC` | 1d2        |
+| Traits         |          | 2 attempts |
 
 <!-- .ambi -->
 ## Dabster-Caster
