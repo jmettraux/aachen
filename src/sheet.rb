@@ -273,7 +273,6 @@ border: 1px solid grey;
 
   .configuration-grid {
     display: grid;
-    grid-template-columns: auto auto auto auto auto 2rem;
   }
   .configuration-grid img {
     height: 3.5rem;
@@ -284,6 +283,13 @@ border: 1px solid grey;
     justify-self: center;
   }
 
+  .conf-cell.header2 {
+    font-size: 70%;
+    color: grey;
+    text-align: center;
+    align-self: center;
+  }
+
   .conf-cell.vertical {
     writing-mode: vertical-lr;
     justify-self: stretch;
@@ -292,6 +298,24 @@ border: 1px solid grey;
     text-orientation: mixed;
     text-align: center;
     padding-left: 0.5rem;
+  }
+
+  .conf-cell.damage img {
+    transform: rotate(270deg);
+  }
+
+  .conf-cell .input {
+    width: 3rem;
+    display: inline-block;
+    border-bottom: 1px solid grey;
+    margin-bottom: 1.0rem;
+  }
+
+  .conf-cell.weapon .input {
+    width: 7rem;
+  }
+  .conf-cell.range img {
+    height: 2.1rem;
   }
 
   /* SKILL GRID */
@@ -446,6 +470,7 @@ def make(tag_name, *rest, &block)
 end
 
 def div(*args, &block); make(:div, *args, &block); end
+def span(*args, &block); make(:span, *args, &block); end
 def img(*args); make(:img, *args); end
 
 puts %{
@@ -697,14 +722,26 @@ div('.right.subgrid', 2, 1) do
     div('.conf-cell.header', 1, 1, 'AC')
     div('.conf-cell.header', 2, 1, 'Weapon')
     div('.conf-cell.header', 3, 1, 'Range')
-    div('.conf-cell.header', 4, 1, 'Atk')
-    div('.conf-cell.header', 5, 1, 'Dmg')
+    div('.conf-cell.header', 4, 1, 'Attack')
+    div('.conf-cell.header', 5, 1, 'Damage')
+
+    div('.conf-cell.header2', 1, 2, 'base AC +<br/>Dodge, Shield or <i>F Skill</i>')
+    #div('.conf-cell.header2', 2, 2, '')
+    div('.conf-cell.header2', 3, 2, 'short / long')
+    div('.conf-cell.header2', 4, 2, 'F Skill')
+    div('.conf-cell.header2', 5, 2, 'Dice + F Skill')
 
     4.times do |y|
-      y = 2 + y
+      y = 3 + y
       div('.conf-cell.ac', 1, y) { img('.ac', src: 'shield.svg') }
-      #div('.conf-cell.weapon', 2, y, '_____')
-      div('.conf-cell.range', 3, y) { img('.rng', src: 'range.svg') }
+      div('.conf-cell.weapon', 2, y) {
+        span('.input', '')
+      }
+      div('.conf-cell.range', 3, y) do
+        span('.input', '')
+        img('.rng', src: 'range.svg')
+        span('.input', '')
+      end
       div('.conf-cell.attack', 4, y) { img('.atk', src: 'cross.svg') }
       div('.conf-cell.damage', 5, y) { img('.uhp', src: 'heart.svg') }
     end
@@ -712,30 +749,6 @@ div('.right.subgrid', 2, 1) do
 
   div('.vlabel', 2, 1, 'Info')
   div('.vlabel', 2, 2, 'Configurations')
-
-  #div('.weapon-grid', 1, 2) do
-  #  [ 'weapon', 'range', 'atk', 'dmg' ]
-  #    .each_with_index do |k, i|
-  #      div('.weapon-key', k, 1 + i, 1)
-  #    end
-  #  5.times do |i|
-  #    div('.weapon-line', '', 1, i + 2);
-  #    div('.weapon-line', '', 2, i + 2);
-  #    k = i.odd? ? '.odd' : ''
-  #    div('.weapon-att' + k, 3, i + 2) do
-  #      img('.cross', src: 'cross.svg')
-  #    end
-  #    div('.weapon-line', '', 4, i + 2);
-  #  end
-  #end
-    #
-  #div('.gear-grid', 1, 3) do
-  #  [ 'gear', '', '', '', '' ]
-  #    .each_with_index do |k, i|
-  #      k = '&nbsp;' if k == ''
-  #      div('.field', k, 1, 1 + i, 2, 1)
-  #    end
-  #end
 end
 
 puts %{
