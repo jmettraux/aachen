@@ -74,6 +74,20 @@ border: 1px solid grey;
     row-gap: 0.4rem;
   }
 
+  .left.subgrid {
+    column-gap: 0.3rem;
+    grid-template-columns: 1.4rem auto;
+  }
+
+  .abilities-label, .skills-label {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    justify-self: stretch;
+    align-self: stretch;
+    background-color: lightgrey;
+    text-align: center;
+  }
+
   .ability-grid {
     display: grid;
     width: 100%;
@@ -360,12 +374,6 @@ border: 1px solid grey;
 
   .bold { font-weight: bold; }
 
-  /*
-  .center.subgrid > * {
-    grid-template-columns: 50% auto;
-    justify-self: stretch;
-  }
-  */
 }.strip
 
 puts %{
@@ -443,7 +451,10 @@ puts %{
 
 div('.left.subgrid', 1, 1) do
 
-  div('.ability-grid', 1, 1) do
+  div('.abilities-label', 1, 1, 'Abilities');
+  div('.skills-label', 1, 2, 'Skills');
+
+  div('.ability-grid', 2, 1) do
 
     div('.save-circle.sq', 1, 8)
     div('.ini-label', 1, 10, 1, 2, 'INI<br/>tiative')
@@ -502,7 +513,7 @@ div('.left.subgrid', 1, 1) do
     div('.learning-label', 9, 9, 1, 2, 'learning<br/>TC')
   end
 
-  div('.skill-grid', 1, 2) do
+  div('.skill-grid', 2, 2) do
 
     div('.skill-tag', 1, 1, 2, 5, 'G')
 
