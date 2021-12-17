@@ -276,7 +276,7 @@ border: 1px solid grey;
     grid-template-columns: auto auto auto auto auto 2rem;
   }
   .configuration-grid img {
-    width: 3.5rem;
+    height: 3.5rem;
   }
 
   .conf-cell {
@@ -693,12 +693,14 @@ div('.right.subgrid', 2, 1) do
   end
 
   div('.configuration-grid', 1, 2) do
+
     div('.conf-cell.header', 1, 1, 'AC')
     div('.conf-cell.header', 2, 1, 'Weapon')
     div('.conf-cell.header', 3, 1, 'Range')
     div('.conf-cell.header', 4, 1, 'Atk')
     div('.conf-cell.header', 5, 1, 'Dmg')
-    3.times do |y|
+
+    4.times do |y|
       y = 2 + y
       div('.conf-cell.ac', 1, y) { img('.ac', src: 'shield.svg') }
       #div('.conf-cell.weapon', 2, y, '_____')
