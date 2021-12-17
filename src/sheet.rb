@@ -80,7 +80,7 @@ border: 1px solid grey;
   }
   .right.subgrid {
     column-gap: 0.3rem;
-    grid-template-columns: auto 1.4rem;
+    grid-template-columns: 1.4rem auto 1.4rem 70%;
   }
 
   .vlabel {
@@ -212,39 +212,36 @@ border: 1px solid grey;
     border-color: lightgrey;
   }
 
-  /* HP GRID */
+  /* POINT GRID */
 
-  .hp-grid {
+  .point-grid {
     display: grid;
+    row-gap: 0.2rem;
   }
 
-  .hp-max {
+  .point-grid > * {
     justify-self: center;
   }
-  .hp-max img {
-    width: 4.9rem;
+
+  .point-grid .info {
+    align-self: end;
+  }
+  .point-grid .max {
+    font-weight: bold;
   }
 
-  /*
-  .hp-info .classes {
-    margin-top: 0.4rem;
-    font-size: 11pt;
+  .point-grid .hp img, .point-grid .cp img {
+    height: 4.2rem;
+  }
+  .point-grid .ac img {
+    height: 2.1rem;
+  }
+
+  .point-grid .ac.info {
+    font-size: 70%;
     color: grey;
-  }
-  */
-
-  /* CP GRID */
-
-  .cp-max {
-    justify-self: center;
-  }
-
-  .cp-max img {
-    width: 3.5rem;
-  }
-
-  .cp-grid {
-    display: grid;
+    align-self: start;
+    margin-left: 0.2rem;
   }
 
   /* INFO GRID */
@@ -371,31 +368,6 @@ border: 1px solid grey;
     margin-right: 0.2rem;
     padding-right: 0.2rem;
     text-align: center;
-  }
-
-  /* AC GRID */
-
-  .ac-grid {
-    display: grid;
-  }
-
-  .ac {
-    justify-self: center;
-  }
-  .ac img {
-    width: 4.2rem;
-  }
-  .ac.base img {
-    width: 2.8rem;
-  }
-
-  .ac-label {
-    padding-top: 0.4rem;
-    font-weight: bold;
-  }
-  .ac-explanation {
-    font-size: 11pt;
-    color: grey;
   }
 
   /* misc */
@@ -623,85 +595,27 @@ div('.left.subgrid', 1, 1) do
   end
 end
 
-#div('.center.subgrid', 2, 1) do
-#
-#  div('.hp-grid', 1, 1) do
-#
-#    div('.hp-max', 1, 1) do
-#      img('.heart', src: 'heart.svg')
-#    end
-#    div('.hp-info', 2, 1) do
-#      div('.bold', 'HP max')
-#      #div('.classes') do
-#      #  div('Fighter 1d8+3 / lvl')
-#      #  div('Dabster 1d8 / lvl')
-#      #  div('Caster 1d8-1 / lvl')
-#      #  div('Fighter-x 1d8+1 / lvl')
-#      #  div('Dabster-Caster 1d8 / lvl')
-#      #end
-#    end
-#  #end
-#  #div('.cp-grid', 1, 2) do
-#    div('.cp-max', 1, 2) { img(src: 'drop.svg') }
-#    div('.cp-info', 2, 2) do
-#      div('.bold', 'CP max')
-#    end
-#  end
-#
-#  div('.att-grid', 1, 3) do
-#
-#    div('.att', 1, 1) do
-#      img('.cross', src: 'cross.svg')
-#    end
-#    div('.att-info', 2, 1) do
-#      div('Ranged Attack')
-#      div('.explanation', '1d20 + X ≥ eny AC')
-#    end
-#    div('.att', 1, 2) do
-#      img('.cross', src: 'cross.svg')
-#    end
-#    div('.att-info', 2, 2) do
-#      div('Melee Attack')
-#      div('.explanation', '1d20 + X ≥ eny AC')
-#    end
-#  end
-#
-#  div('.ac-grid', 1, 4) do
-#
-#    div('.ac.base', 1, 1) { img('.ac', src: 'shield-grey.svg') }
-#    div('.ac-group', 2, 1) do
-#      div('.ac-label', 'base AC')
-#      div('.ac-explanation') do
-#        div([
-#          '10 <i>no armor</i>',
-#          '12 gambeson',
-#          '14 mail shirt',
-#          '16 mail hauberk' ].join('<br/>'))
-#      end
-#    end#, 'base AC<br/>' + armor)
-#
-#    div('.ac', 1, 2) { img('.ac', src: 'shield-grey.svg') }
-#    div('.ac', 1, 3) { img('.ac', src: 'shield.svg') }
-#
-#    div('.ac-group', 2, 2) do
-#      div('.ac-label', 'min AC')
-#      div('.ac-explanation', 'base AC + <i>Dodge</i>')
-#    end
-#
-#    div('.ac-group', 2, 3) do
-#      div('.ac-label', 'AC')
-#      div('.ac-explanation',
-#        'base AC + best of<br/>' +
-#        '&nbsp;&nbsp;<i>Dodge</i>, <i>Shield</i>,<br/>' +
-#        '&nbsp;&nbsp;or Weapon')
-#    end
-#  end
-#end
-
 div('.right.subgrid', 2, 1) do
 
-  div('.info-grid', 1, 1) do
+  div('.point-grid', 2, 1) do
+
+    div('.hp.info.max', 1, 1, 2, 1, 'HP max')
+    div('.hp', 1, 2, 2, 1) { img(src: 'heart.svg') }
+    div('.cp.info.max', 1, 3, 2, 1, 'CP max')
+    div('.cp', 1, 4, 2, 1) { img(src: 'drop.svg') }
+    div('.ac.info', 1, 5, 2, 1, 'AC base')
+    div('.ac', 1, 6) { img(src: 'shield-grey.svg') }
+    div('.ac.info', 2, 6, [
+      '10 <i>no armor</i>',
+      '12 gambeson',
+      '14 mail shirt',
+      '16 mail hauberk' ].join('<br/>'))
+  end
+
+  div('.info-grid', 4, 1) do
+
     div('.picture', 2, 1, 1, 7)
+
     j = -1
     [ 'name', '', 'player', 'origin', 'level', 'class', 'background' ]
       .each_with_index do |k, i|
@@ -717,7 +631,7 @@ div('.right.subgrid', 2, 1) do
       end
   end
 
-  div('.configuration-grid', 1, 2) do
+  div('.configuration-grid', 2, 2, 3, 1) do
 
     div('.conf-cell.header', 1, 1, 'AC')
     div('.conf-cell.header', 2, 1, 'Weapon')
@@ -733,22 +647,22 @@ div('.right.subgrid', 2, 1) do
 
     4.times do |y|
       y = 3 + y
-      div('.conf-cell.ac', 1, y) { img('.ac', src: 'shield.svg') }
+      div('.conf-cell.ac', 1, y) { img('.ac', src: 'shield-grey.svg') }
       div('.conf-cell.weapon', 2, y) {
         span('.input', '')
       }
       div('.conf-cell.range', 3, y) do
-        span('.input', '')
         img('.rng', src: 'range.svg')
-        span('.input', '')
+        img('.rng', src: 'range.svg')
       end
       div('.conf-cell.attack', 4, y) { img('.atk', src: 'cross.svg') }
       div('.conf-cell.damage', 5, y) { img('.uhp', src: 'heart.svg') }
     end
   end
 
-  div('.vlabel', 2, 1, 'Info')
-  div('.vlabel', 2, 2, 'Configurations')
+  div('.vlabel', 1, 1, 'Hit & Cast')
+  div('.vlabel', 3, 1, 'Info')
+  div('.vlabel', 1, 2, 'Configurations')
 end
 
 puts %{
