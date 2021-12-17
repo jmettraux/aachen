@@ -65,8 +65,8 @@ border: 1px solid grey;
     display: grid;
     width: 100%;
     height: 100%;
-    grid-template-columns: 42% auto;
-    column-gap: 0.4rem;
+    grid-template-columns: 44% auto;
+    column-gap: 0.5rem;
   }
 
   .subgrid {
@@ -78,8 +78,12 @@ border: 1px solid grey;
     column-gap: 0.3rem;
     grid-template-columns: 1.4rem auto;
   }
+  .right.subgrid {
+    column-gap: 0.3rem;
+    grid-template-columns: auto 1.4rem;
+  }
 
-  .abilities-label, .skills-label {
+  .vlabel {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     justify-self: stretch;
@@ -451,8 +455,8 @@ puts %{
 
 div('.left.subgrid', 1, 1) do
 
-  div('.abilities-label', 1, 1, 'Abilities');
-  div('.skills-label', 1, 2, 'Skills');
+  div('.vlabel', 1, 1, 'Abilities');
+  div('.vlabel', 1, 2, 'Skills');
 
   div('.ability-grid', 2, 1) do
 
@@ -694,7 +698,6 @@ div('.right.subgrid', 2, 1) do
     div('.conf-cell.header', 3, 1, 'Range')
     div('.conf-cell.header', 4, 1, 'Atk')
     div('.conf-cell.header', 5, 1, 'Dmg')
-    div('.conf-cell.vertical', 6, 1, 1, 4, 'Configurations')
     3.times do |y|
       y = 2 + y
       div('.conf-cell.ac', 1, y) { img('.ac', src: 'shield.svg') }
@@ -704,6 +707,9 @@ div('.right.subgrid', 2, 1) do
       div('.conf-cell.damage', 5, y) { img('.uhp', src: 'heart.svg') }
     end
   end
+
+  div('.vlabel', 2, 1, 'Info')
+  div('.vlabel', 2, 2, 'Configurations')
 
   #div('.weapon-grid', 1, 2) do
   #  [ 'weapon', 'range', 'atk', 'dmg' ]
