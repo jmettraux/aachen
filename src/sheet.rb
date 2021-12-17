@@ -65,7 +65,7 @@ border: 1px solid grey;
     display: grid;
     width: 100%;
     height: 100%;
-    grid-template-columns: 42% auto 35%;
+    grid-template-columns: 42% auto;
     column-gap: 0.4rem;
   }
 
@@ -178,13 +178,13 @@ border: 1px solid grey;
     width: 5.6rem;
     transform-origin: left;
     transform: rotate(35deg);
-    background-color: lightgrey;
+    background-color: grey;
   }
   .lup35::after {
     width: 5.6rem;
     transform-origin: left;
     transform: rotate(-35deg);
-    background-color: lightgrey;
+    background-color: grey;
   }
   .learning::after {
     width: 4.7rem;
@@ -229,36 +229,6 @@ border: 1px solid grey;
     display: grid;
   }
 
-  /* ATT GRID */
-
-  .att-grid {
-    display: grid;
-  }
-
-  .att {
-    justify-self: center;
-    position: relative;
-  }
-  .att::before {
-    content: '+';
-    display: 'inline-block';
-    position: absolute;
-    top: 2rem;
-  }
-  .att img {
-    width: 4.9rem;
-  }
-  .att-info .explanation {
-    margin-top: 0.4rem;
-    font-size: 70%;
-    color: grey;
-  }
-
-  .right.subgrid {
-    row-gap: 0.4rem;
-    grid-template-rows: 50% 27% auto;
-  }
-
   /* INFO GRID */
 
   .info-grid {
@@ -274,16 +244,6 @@ border: 1px solid grey;
     min-height: 1.2rem;
     max-height: 1.2rem;
   }
-  .gear-grid .field {
-    font-size: 70%;
-    color: grey;
-    align-self: end;
-    border-bottom: 1px solid grey;
-    /*
-    min-height: 1.2rem;
-    max-height: 1.2rem;
-    */
-  }
 
   .info-grid .picture {
     width: 100%;
@@ -291,62 +251,29 @@ border: 1px solid grey;
     border: 1px solid grey;
   }
 
-  /* GEAR GRID */
+  /* CONFIGURATION GRID */
 
-  .gear-grid {
+  .configuration-grid {
     display: grid;
-    margin-top: 0.5rem;
+    grid-template-columns: auto auto auto auto auto 2rem;
   }
-  /*
-  .gear-label {
-    font-size: 70%;
-    color: grey;
-    height: 1.4rem;
-    border-bottom: 1px solid grey;
-  }
-  .gear-line {
-    width: 100%;
-    height: 1.4rem;
-    border-bottom: 1px solid grey;
-  }
-  */
-
-  /* WEAPON GRID */
-
-  .weapon-grid {
-    display: grid;
-    column-gap: 0.21rem;
-    grid-template-columns: 30% 77px auto 25%;
+  .configuration-grid img {
+    width: 3.5rem;
   }
 
-  .weapon-key {
-    font-size: 70%;
-    color: grey;
+  .conf-cell {
+    align-self: end;
+    justify-self: center;
   }
-  .weapon-line {
-    font-size: 70%;
-    color: grey;
-    width: 100%;
-    /*height: 1.4rem;*/
-    border-bottom: 1px solid grey;
-  }
-  .weapon-att {
-    min-height: 1.6rem;
-    max-height: 1.6rem;
-    position: relative;
-    padding-left: 1.1rem;
-  }
-  .weapon-att.odd {
-    padding-left: 1.7rem;
-  }
-  .weapon-att::before {
-    content: '+';
-    position: absolute;
-    left: 0.35rem;
-    top: 0.49rem;
-  }
-  .weapon-att img {
-    width: 2.4rem;
+
+  .conf-cell.vertical {
+    writing-mode: vertical-lr;
+    justify-self: stretch;
+    align-self: stretch;
+    background-color: lightgrey;
+    text-orientation: mixed;
+    text-align: center;
+    padding-left: 0.5rem;
   }
 
   /* SKILL GRID */
@@ -433,10 +360,12 @@ border: 1px solid grey;
 
   .bold { font-weight: bold; }
 
+  /*
   .center.subgrid > * {
     grid-template-columns: 50% auto;
     justify-self: stretch;
   }
+  */
 }.strip
 
 puts %{
@@ -654,82 +583,82 @@ div('.left.subgrid', 1, 1) do
   end
 end
 
-div('.center.subgrid', 2, 1) do
+#div('.center.subgrid', 2, 1) do
+#
+#  div('.hp-grid', 1, 1) do
+#
+#    div('.hp-max', 1, 1) do
+#      img('.heart', src: 'heart.svg')
+#    end
+#    div('.hp-info', 2, 1) do
+#      div('.bold', 'HP max')
+#      #div('.classes') do
+#      #  div('Fighter 1d8+3 / lvl')
+#      #  div('Dabster 1d8 / lvl')
+#      #  div('Caster 1d8-1 / lvl')
+#      #  div('Fighter-x 1d8+1 / lvl')
+#      #  div('Dabster-Caster 1d8 / lvl')
+#      #end
+#    end
+#  #end
+#  #div('.cp-grid', 1, 2) do
+#    div('.cp-max', 1, 2) { img(src: 'drop.svg') }
+#    div('.cp-info', 2, 2) do
+#      div('.bold', 'CP max')
+#    end
+#  end
+#
+#  div('.att-grid', 1, 3) do
+#
+#    div('.att', 1, 1) do
+#      img('.cross', src: 'cross.svg')
+#    end
+#    div('.att-info', 2, 1) do
+#      div('Ranged Attack')
+#      div('.explanation', '1d20 + X ≥ eny AC')
+#    end
+#    div('.att', 1, 2) do
+#      img('.cross', src: 'cross.svg')
+#    end
+#    div('.att-info', 2, 2) do
+#      div('Melee Attack')
+#      div('.explanation', '1d20 + X ≥ eny AC')
+#    end
+#  end
+#
+#  div('.ac-grid', 1, 4) do
+#
+#    div('.ac.base', 1, 1) { img('.ac', src: 'shield-grey.svg') }
+#    div('.ac-group', 2, 1) do
+#      div('.ac-label', 'base AC')
+#      div('.ac-explanation') do
+#        div([
+#          '10 <i>no armor</i>',
+#          '12 gambeson',
+#          '14 mail shirt',
+#          '16 mail hauberk' ].join('<br/>'))
+#      end
+#    end#, 'base AC<br/>' + armor)
+#
+#    div('.ac', 1, 2) { img('.ac', src: 'shield-grey.svg') }
+#    div('.ac', 1, 3) { img('.ac', src: 'shield.svg') }
+#
+#    div('.ac-group', 2, 2) do
+#      div('.ac-label', 'min AC')
+#      div('.ac-explanation', 'base AC + <i>Dodge</i>')
+#    end
+#
+#    div('.ac-group', 2, 3) do
+#      div('.ac-label', 'AC')
+#      div('.ac-explanation',
+#        'base AC + best of<br/>' +
+#        '&nbsp;&nbsp;<i>Dodge</i>, <i>Shield</i>,<br/>' +
+#        '&nbsp;&nbsp;or Weapon')
+#    end
+#  end
+#end
 
-  div('.hp-grid', 1, 1) do
-
-    div('.hp-max', 1, 1) do
-      img('.heart', src: 'heart.svg')
-    end
-    div('.hp-info', 2, 1) do
-      div('.bold', 'HP max')
-      #div('.classes') do
-      #  div('Fighter 1d8+3 / lvl')
-      #  div('Dabster 1d8 / lvl')
-      #  div('Caster 1d8-1 / lvl')
-      #  div('Fighter-x 1d8+1 / lvl')
-      #  div('Dabster-Caster 1d8 / lvl')
-      #end
-    end
-  #end
-  #div('.cp-grid', 1, 2) do
-    div('.cp-max', 1, 2) { img(src: 'drop.svg') }
-    div('.cp-info', 2, 2) do
-      div('.bold', 'CP max')
-    end
-  end
-
-  div('.att-grid', 1, 3) do
-
-    div('.att', 1, 1) do
-      img('.cross', src: 'cross.svg')
-    end
-    div('.att-info', 2, 1) do
-      div('Ranged Attack')
-      div('.explanation', '1d20 + X ≥ eny AC')
-    end
-    div('.att', 1, 2) do
-      img('.cross', src: 'cross.svg')
-    end
-    div('.att-info', 2, 2) do
-      div('Melee Attack')
-      div('.explanation', '1d20 + X ≥ eny AC')
-    end
-  end
-
-  div('.ac-grid', 1, 4) do
-
-    div('.ac.base', 1, 1) { img('.ac', src: 'shield-grey.svg') }
-    div('.ac-group', 2, 1) do
-      div('.ac-label', 'base AC')
-      div('.ac-explanation') do
-        div([
-          '10 <i>no armor</i>',
-          '12 gambeson',
-          '14 mail shirt',
-          '16 mail hauberk' ].join('<br/>'))
-      end
-    end#, 'base AC<br/>' + armor)
-
-    div('.ac', 1, 2) { img('.ac', src: 'shield-grey.svg') }
-    div('.ac', 1, 3) { img('.ac', src: 'shield.svg') }
-
-    div('.ac-group', 2, 2) do
-      div('.ac-label', 'min AC')
-      div('.ac-explanation', 'base AC + <i>Dodge</i>')
-    end
-
-    div('.ac-group', 2, 3) do
-      div('.ac-label', 'AC')
-      div('.ac-explanation',
-        'base AC + best of<br/>' +
-        '&nbsp;&nbsp;<i>Dodge</i>, <i>Shield</i>,<br/>' +
-        '&nbsp;&nbsp;or Weapon')
-    end
-  end
-end
-
-div('.right.subgrid', 3, 1) do
+div('.right.subgrid', 2, 1) do
 
   div('.info-grid', 1, 1) do
     div('.picture', 2, 1, 1, 7)
@@ -748,31 +677,46 @@ div('.right.subgrid', 3, 1) do
       end
   end
 
-  div('.weapon-grid', 1, 2) do
-
-    [ 'weapon', 'range', 'atk', 'dmg' ]
-      .each_with_index do |k, i|
-        div('.weapon-key', k, 1 + i, 1)
-      end
-    5.times do |i|
-      div('.weapon-line', '', 1, i + 2);
-      div('.weapon-line', '', 2, i + 2);
-      k = i.odd? ? '.odd' : ''
-      div('.weapon-att' + k, 3, i + 2) do
-        img('.cross', src: 'cross.svg')
-      end
-      div('.weapon-line', '', 4, i + 2);
+  div('.configuration-grid', 1, 2) do
+    div('.conf-cell.header', 1, 1, 'AC')
+    div('.conf-cell.header', 2, 1, 'Weapon')
+    div('.conf-cell.header', 3, 1, 'Range')
+    div('.conf-cell.header', 4, 1, 'Atk')
+    div('.conf-cell.header', 5, 1, 'Dmg')
+    div('.conf-cell.vertical', 6, 1, 1, 4, 'Configurations')
+    3.times do |y|
+      y = 2 + y
+      div('.conf-cell.ac', 1, y) { img('.ac', src: 'shield.svg') }
+      #div('.conf-cell.weapon', 2, y, '_____')
+      div('.conf-cell.range', 3, y) { img('.rng', src: 'range.svg') }
+      div('.conf-cell.attack', 4, y) { img('.atk', src: 'cross.svg') }
+      div('.conf-cell.damage', 5, y) { img('.uhp', src: 'heart.svg') }
     end
   end
 
-  div('.gear-grid', 1, 3) do
-
-    [ 'gear', '', '', '', '' ]
-      .each_with_index do |k, i|
-        k = '&nbsp;' if k == ''
-        div('.field', k, 1, 1 + i, 2, 1)
-      end
-  end
+  #div('.weapon-grid', 1, 2) do
+  #  [ 'weapon', 'range', 'atk', 'dmg' ]
+  #    .each_with_index do |k, i|
+  #      div('.weapon-key', k, 1 + i, 1)
+  #    end
+  #  5.times do |i|
+  #    div('.weapon-line', '', 1, i + 2);
+  #    div('.weapon-line', '', 2, i + 2);
+  #    k = i.odd? ? '.odd' : ''
+  #    div('.weapon-att' + k, 3, i + 2) do
+  #      img('.cross', src: 'cross.svg')
+  #    end
+  #    div('.weapon-line', '', 4, i + 2);
+  #  end
+  #end
+    #
+  #div('.gear-grid', 1, 3) do
+  #  [ 'gear', '', '', '', '' ]
+  #    .each_with_index do |k, i|
+  #      k = '&nbsp;' if k == ''
+  #      div('.field', k, 1, 1 + i, 2, 1)
+  #    end
+  #end
 end
 
 puts %{
