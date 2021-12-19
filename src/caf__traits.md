@@ -12,7 +12,7 @@
 
 # Select Traits
 
-A trait is a qualifier, for example a character might be `Lucky`. A trait may be selected a second time, simply prefix the character with _very_, our character becomes `Very Lucky`, select it a third time and it's prefixed with _highly_.
+A trait is a qualifier, for example a character might be `Lucky`. A trait may be selected a second time, simply prefix the character with _very_, our character becomes `Very Lucky`, select it a third time and it becomes `Highly Lucky`.
 
 ~~TODO~~
 

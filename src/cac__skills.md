@@ -50,9 +50,6 @@ Feel
 Soak
 : To absorb magical energy as CP (Casting Points).
 
-<!-- </div.left-column> -->
-<!-- <div.right-column> -->
-
 ## General Skills
 
 Administer
@@ -69,6 +66,9 @@ Craft
 
 Exert
 : To climb, run, lift, throw. Athletic training.
+
+<!-- </div.left-column> -->
+<!-- <div.right-column> -->
 
 Heal
 : To mend wounds, combat diseases, neutralize poisons.
