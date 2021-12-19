@@ -10,6 +10,16 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <!-- meta name="viewport" content="width=device-width, initial-scale=1" /-->
   <!-- <script src="${NAME}.js"></script> -->
+
+  <script>
+
+    window.clog = console.log;
+
+    var onDocumentReady = function(fev) {
+      if (document.readyState != 'loading') fev();
+      else document.addEventListener('DOMContentLoaded', fev);
+    };
+  </script>
 </head>
 <body>
 
