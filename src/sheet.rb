@@ -309,10 +309,10 @@ border: 1px solid grey;
   }
 
   .conf-cell.weapon .input {
-    width: 7rem;
+    width: 7.0rem;
   }
-  .conf-cell.range img {
-    height: 2.1rem;
+  .conf-cell.range .input {
+    width: 4.9rem;
   }
 
   /* SKILL GRID */
@@ -641,20 +641,15 @@ div('.right.subgrid', 2, 1) do
 
     div('.conf-cell.header2', 1, 2, 'base AC +<br/>Dodge, Shield or <i>F Skill</i>')
     #div('.conf-cell.header2', 2, 2, '')
-    div('.conf-cell.header2', 3, 2, 'short / long')
+    div('.conf-cell.header2', 3, 2, 'ft / m / sq')
     div('.conf-cell.header2', 4, 2, 'F Skill')
     div('.conf-cell.header2', 5, 2, 'Dice + F Skill')
 
     4.times do |y|
       y = 3 + y
       div('.conf-cell.ac', 1, y) { img('.ac', src: 'shield-grey.svg') }
-      div('.conf-cell.weapon', 2, y) {
-        span('.input', '')
-      }
-      div('.conf-cell.range', 3, y) do
-        img('.rng', src: 'range.svg')
-        img('.rng', src: 'range.svg')
-      end
+      div('.conf-cell.weapon', 2, y) { span('.input', '') }
+      div('.conf-cell.range', 3, y) { span('.input', '') }
       div('.conf-cell.attack', 4, y) { img('.atk', src: 'cross.svg') }
       div('.conf-cell.damage', 5, y) { img('.uhp', src: 'heart.svg') }
     end
