@@ -644,7 +644,7 @@ div('.right.subgrid', 2, 1) do
     #div('.conf-cell.header2', 2, 2, '')
     div('.conf-cell.header2', 3, 2, 'ft / m / sq')
     div('.conf-cell.header2', 4, 2, 'F Skill')
-    div('.conf-cell.header2', 5, 2, 'Dice + F Skill')
+    div('.conf-cell.header2', 5, 2, 'Dice<br/>+ F Skill if melee')
 
     div('.conf-cell.header2', 1, 3, 'no shield | shield')
 
