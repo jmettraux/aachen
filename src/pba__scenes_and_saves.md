@@ -26,64 +26,27 @@ A **turn** is short for **exploration turn**, it covers 10 minutes of site explo
 
 Saving throws (or _saves_) are last-ditch attempt at avoiding unusual perils and dangers. Characters don't get a save to avoid or parry a sword stroke, that's determined by their armor class (AC) and the attack roll of the adversary.
 
-The referee grants saves to characters and creatures. They roll 1d20 and if the result is greater or equal to the save score, the save is successful.
+The referee grants save rolls to characters and creatures. They assign a Save TC and a modifier.
 
-Physical (Resistance) Save
+1d20 + mod ≥ Save TC → save is successful
+
+Physical (Resistance) Save TC
 : When resisting a poison, a disease, or exhaustion.
-: score  → 16 - (max(`STR`m, `CON`m)) - _char level_
 
-Mental (Resistance) Save
-: When resisting magical effects, illusions, or warding off tempations and affirming one's willpower.
-: score  → 16 - (max(`WIS`m, `CHA`m)) - _char level_
-
-Evasion ( / Dodge) Save
+Evasion ( / Dodge) Save TC
 : Diving and dodging from sudden explosions, pits, and perils.
-: score  → 16 - (max(`DEX`m, `INT`m)) - _char level_
 
-(Sheer) Luck Save
-: When only sheer good luck can save the character.
-: score  → 16 - _char level_
+Mental (Resistance) Save TC
+: When resisting magical effects, illusions, or warding off tempations and affirming one's willpower.
+
+The modifier might be the character level, or a skill like _Exert_, _Pray_, _Feel_, _Notice_, etc. Like the Save TC it is determined by the referee, but player suggestions are welcome. The referee might also decide that a modifier is not applicable (+0).
 
 The description of the power or ability being saved against generally dictates the effect of a successful save (effect nullified or attenuated).
 
 <!--
-A saving throw—also called a save—represents an attempt to resist magic, a trap, a poison, a disease, or a similar threat. Referees request saving throws from characters under an imminent threat or resisting an effect.[^1]
+(Sheer) Luck Save
+: When only sheer good luck can save the character.
 
-A saving throw is done with a d20. It succeeds if equal or greater than the saving throw score.
-
-A successful saving throw means that the character suffers no harm, or reduced harm.
-
-Saving throws are computed from 16 minus the best of two attribute modifiers minus the character level.
-
-[^1]:
-  Note that saving are meant to be last-ditch chances to avoid the worst of
-  unusual perils or uncommon dangers. You can't make an Evasion saving throw to
-  dodge a sword stroke; that's what the hit roll is for. It's up to the referee
-  to decide whether a particular danger might allow a saving throw or not.
-
-## The Saves
-
-The saving throws are:
-
-* Physical (Resistance) Save
-* Mental (Resistance) Save
-* Evasion ( / Dodge) Save
-* (Sheer) Luck Save
-
-### Physical Saves
-
-A physical resistance save. The referee may request a physical saving throw to determine how a character resists a poison, a disease, or exhaustion.
-
-### Mental Saves
-
-A mental resistance save. The referee may request mental saving throws against magical effect, illusions, or to ward off tempations and ascertain a character's willpower.
-
-### Evasion Saves
-
-An evasion save. Diving and dodging from sudden explosions, pits, and perils, when swiftness and reaction speed are challenged.
-
-### Luck Saves
-
-Luck saves are not rooted in any attribute. When sheer good luck is the last ditch defense.
+: score  → 16 - (max(`STR`m, `CON`m)) - _char level_
 -->
 
