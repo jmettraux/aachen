@@ -281,7 +281,7 @@ border: 1px solid grey;
   }
 
   .conf-cell.header2 {
-    font-size: 70%;
+    font-size: 60%;
     color: grey;
     text-align: center;
     align-self: center;
@@ -640,7 +640,7 @@ div('.right.subgrid', 2, 1) do
     div('.conf-cell.header', 4, 1, 'Attack')
     div('.conf-cell.header', 5, 1, 'Damage')
 
-    div('.conf-cell.header2', 1, 2, 'base AC +<br/>Dodge, Shield or <i>F Skill</i>')
+    div('.conf-cell.header2', 1, 2, 'base AC + best of<br/>Dodge, Shield or <i>F Skill</i>')
     #div('.conf-cell.header2', 2, 2, '')
     div('.conf-cell.header2', 3, 2, 'ft / m / sq')
     div('.conf-cell.header2', 4, 2, 'F Skill')
