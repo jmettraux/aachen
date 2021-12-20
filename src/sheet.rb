@@ -646,9 +646,14 @@ div('.right.subgrid', 2, 1) do
     div('.conf-cell.header2', 4, 2, 'F Skill')
     div('.conf-cell.header2', 5, 2, 'Dice + F Skill')
 
+    div('.conf-cell.header2', 1, 3, 'no shield | shield')
+
     4.times do |y|
-      y = 3 + y
-      div('.conf-cell.ac', 1, y) { img('.ac', src: 'shield-grey.svg') }
+      y = 4 + y
+      div('.conf-cell.ac', 1, y) do
+        img('.ac', src: 'shield-lightgrey.svg')
+        img('.ac', src: 'shield-grey.svg')
+      end
       div('.conf-cell.weapon', 2, y) { span('.input', '') }
       div('.conf-cell.range', 3, y) { span('.input', '') }
       div('.conf-cell.attack', 4, y) { img('.atk', src: 'cross.svg') }
