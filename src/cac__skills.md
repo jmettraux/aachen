@@ -17,7 +17,9 @@
 
 Skills are expressed from 0 to 10 or 20. That value is used as a d20 modifier against an Ability TC, a Save TC, or an AC.
 
-When a character acquires a skill, they start at +0. If a character has not been exposed to the skills, they have a -2 in it.
+When a character acquires a skill, they start at +0. If a character has not been exposed to the skills, they have a default -2.
+
+A character may have at most a `level + 1` skill score.
 
 Skills are divided between Fighter skills **F**, Magic skills **M**, and General skills **G**.
 
@@ -61,14 +63,14 @@ Connect
 Convince
 : To persuade one or more listeners.
 
+<!-- </div.left-column> -->
+<!-- <div.right-column> -->
+
 Craft
 : To craft or repair goods.
 
 Exert
 : To climb, run, lift, throw. Athletic training.
-
-<!-- </div.left-column> -->
-<!-- <div.right-column> -->
 
 Heal
 : To mend wounds, combat diseases, neutralize poisons.
