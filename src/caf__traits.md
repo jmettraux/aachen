@@ -237,7 +237,7 @@ A trait is a qualifier, for example a character might be `Lucky`. A trait may be
 <script>
 
 onDocumentReady(function() {
-  var ab = [ 1, 2 ]; var max = [ 4, 6 ]
+  var ab = [ 1, 1 ]; var max = [ 4, 6 ]
   var es = document
     .querySelectorAll('section[data-aa-title="traits"] h3 strong')
   es.forEach(function(e, i) {
