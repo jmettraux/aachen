@@ -14,7 +14,7 @@
 
 There are only three core classes, `Fighter`, `Dabster`, and `Caster`, but they can be mixed in pairs (three plus three classes in total).
 
-The vast majority of people belong to the classes `Fighter` and `Dabster`.
+The vast majority of people belong to the classes `Fighter` and `Dabster`. People are categorized as _fighter_, _cleric_, or _commoner_. Classes are technical.
 
 Adventurers are probably travellers, pilgrims, traders, vagabonds, gyrovagues, or hired hands on a mission. One who wields a spear is probably a fighter, you'd have to see them fight to ascertain that, the man with a tonsure is a cleric, or someone posing as one.
 

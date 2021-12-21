@@ -15,7 +15,7 @@
 
 
 Reaction
-: if necessary, ~~2d6~~ →<br/>≤ 3 Hostile | 3-5 Unfriendly | 6-8  Neutral |<br/>9-11 Indifferent | ≥ 12 Helpful.
+: if necessary, ~~2d6~~ →<br/>≤ 2 Hostile | 3-5 Unfriendly | 6-8  Neutral |<br/>9-11 Indifferent | ≥ 12 Helpful.
 
 Surprise
 : no surprise, or;
