@@ -521,7 +521,7 @@ div('.left.subgrid', 1, 1) do
     j = 0
     %w{
       Administer Connect Convince #Craft Exert Heal Hunt #Know Lead Notice
-      Perform Pray Read Ride Sail Sneak Survive Swim
+      Perform Pray Read Ride Sail Sneak Survive Swim Trade
     }
       .select { |k|
         k[0, 1] != '#' }
@@ -541,12 +541,14 @@ div('.left.subgrid', 1, 1) do
       .each_with_index { |s, i| div('.skill-note', s, 3, 8 + i, 2, 1) }
 
     %w{
-      Trade Work
+      Work
       #---
       _Craft
       _Know
       _
       _
+      _
+      ---
       ---
       ---
       ---
@@ -568,12 +570,12 @@ div('.left.subgrid', 1, 1) do
         div('.skill-box', 4, 1 + i)
       end
 
-    div('.skill-tag', 3, 12, 2, 5, 'M')
+    div('.skill-tag', 3, 13, 2, 5, 'M')
 
     %w{
       _Bows _Crossbows _Slings _Javelins Throw
       ---
-      #Slash _Axes* _Maces* _Staffs* _Spears* _Swords*
+      #Slash _Axes* _Maces* _Staffs* _Spears* _Swords* _Knives*
       Punch Grapple
       ---
       #Parry
@@ -592,7 +594,7 @@ div('.left.subgrid', 1, 1) do
     div('.skill-tag', 6, 1, 2, 5, 'F')
 
     div('.weapon-cat', 5, 1, 1, 5, 'ranged')
-    div('.weapon-cat', 5, 7, 1, 7, 'melee')
+    div('.weapon-cat', 5, 7, 1, 8, 'melee')
   end
 end
 
