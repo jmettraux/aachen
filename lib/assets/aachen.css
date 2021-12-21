@@ -840,8 +840,8 @@ table.social-class th:nth-child(1) {
 }
 
 [data-aa-title="equipment"] h2.list {
-  margin-top: 0.7rem;
-  margin-bottom: 0.3rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
 }
 [data-aa-title="equipment"] h2#armor {
   margin-top: -0.3rem;
