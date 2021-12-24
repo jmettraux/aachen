@@ -105,7 +105,7 @@ everyday clothes, sling bag, knife, tinderbox,<br/>1 gallon waterskin, travel ra
 · _Ranged weapon_ ≥ 0
 <!-- </div> -->
 <!-- <div b10c10> -->
-sling or bow, 2d6 pieces of ammo, or 1d3 javelins
+weapon with 2d6 pieces of ammo (1d3 in case of javelins)
 <!-- </div> -->
 
 <!-- <div a11> ALL -->
@@ -196,8 +196,8 @@ Monetary exchange is at its worse but people and organizations are still in the 
 | Seax             |       |    1d6 |          |    2s |     24d |
 | Spear, broad     |       |    1d8 |          |    6s |     72d |
 | Spear, heavy     |     7 |   1d10 | 2H       |    7s |     84d |
-| Sword, long      |       |    1d8 |          |    1L |    240d |
 | Sword, short     |       |    1d6 |          |   10s |    120d |
+| Sword, long      |       |    1d8 |          |    1L |    240d |
 | Sword, great     |     7 |   1d12 | 2H       |    2L |    480d |
 | &nbsp;           |       |        |          |       |         |
 | Shield bash S    |       |    1d4 | LL       |       |         |

@@ -88,6 +88,15 @@ A trait is a qualifier, for example a character might be `Lucky`. A trait may be
 
 <!-- <div.trait> -->
 
+### Hammering `EVA TC` **11**
+* One more melee attack per turn if the first attack hits
+* One more melee attack per turn
+* One more melee attack per turn, and if that hits, a third melee attack
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
 ### ~~Intricate~~ `LEA TC` **11**
 * TODO
 * TODO
@@ -174,15 +183,6 @@ A trait is a qualifier, for example a character might be `Lucky`. A trait may be
 
 <!-- </div> -->
 
-<!-- <div.trait> -->
-
-### Talented `CHA TC` **11**
-* +1 when rolling against Ability TC to acquire a trait level
-* As per ·, but +3
-* As per ··, but advantage
-
-<!-- </div> -->
-
 
 <!-- PAGE BREAK traits -->
 
@@ -197,6 +197,15 @@ A trait is a qualifier, for example a character might be `Lucky`. A trait may be
 * Name
 * Equipment
 
+
+<!-- <div.trait> -->
+
+### Talented `CHA TC` **11**
+* +1 when rolling against Ability TC to acquire a trait level
+* As per ·, but +3
+* As per ··, but advantage
+
+<!-- </div> -->
 
 <!-- <div.trait> -->
 
