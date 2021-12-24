@@ -29,7 +29,10 @@ Saves~~→p4~~
 : `Evasion` = mean of `DEX TC` and `INT TC`, round up;
 : `Mental` = mean of `WIS TC` and `CHA TC`, round up.
 
-INI and Learning~~→p4~~
+[^1]:
+  Round down for a `TC`, else round up
+
+INI and Learning~~→p4~~ [^1]
 : INI mod = mean of (`DEX` and `WIS`), round down;
 : Learning mod = mean of `INT TC` and `WIS TC`, round up.
 

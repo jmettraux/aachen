@@ -794,6 +794,12 @@ table.social-class th:nth-child(1) {
   line-height: 0.65;
   width: 100%;
 }
+[data-aa-title="name"] table.names {
+  line-height: 0.61;
+}
+[data-aa-title="name"] table.names tr:nth-child(3n) td {
+  border-bottom: solid thin #c0c0c0;
+}
 [data-aa-title="name"] table.social-class {
   margin-top: 1rem;
 }

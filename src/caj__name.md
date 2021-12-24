@@ -20,6 +20,7 @@ Should the name be too ambiguous indicate the father name (patronym) or some pla
 
 [^1]
 
+<!-- .names -->
 | d6d8 | Frankish M | F | Gallic M | F | Roman M | F |
 |:----:|:----------:|:-:|:--------:|:-:|:-------:|:-:|
 | 11 | Adalbert | Adelhaid | Ambigat | Abrezta | Aetius | Aemilia |
