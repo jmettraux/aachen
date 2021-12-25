@@ -688,13 +688,14 @@ table.social-class th:nth-child(1) {
   margin-top: 0.5rem;
 }
 
+[data-aa-title="class"] h2:not(.top) {
+  margin-top: 0.28rem;
+}
+
 [data-aa-title="class"] table.right {
   float: right;
-  /*
-  margin-top: 1rem;
   margin-left: 1rem;
   margin-right: 0;
-  */
 }
 
 [data-aa-title="class"] p + h1 {
@@ -709,14 +710,6 @@ table.social-class th:nth-child(1) {
 [data-aa-title="class"] h2 em {
   font-size: 75%;
   font-style: normal;
-}
-
-[data-aa-title="class"] h2.ambi {
-/*
-  line-height: 0.7;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-*/
 }
 
 

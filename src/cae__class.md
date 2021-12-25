@@ -24,7 +24,9 @@ Before rolling for count, roll a d20 against the given `TC`, if successful then 
 
 Traits are a bit different. A character receives _attempts_, they can be used to acquire a trait or to enhance it (from _regular_, to _very_, to _highly_). An attempt is a roll against the trait given `TC`, if successful the trait is acquired or enhanced, else too bad.
 
+<!-- clear -->
 
+<!-- .top -->
 | Item           | 1d20 ≥   | Count      |
 |:--------------:|:--------:|:----------:|
 | HP             | `CON TC` | 1d8+3      |
@@ -35,12 +37,12 @@ Traits are a bit different. A character receives _attempts_, they can be used to
 | Spells         |          |            |
 | Traits         |          | 3 attempts |
 
+<!-- .top -->
 ## Fighter
 
-Any free man is supposed to bear arms in service of his community. Better if he has some actual training in using them.
+A character with the `Fighter` class isn't necessarily a professional soldier, it's a person with an inclination for weapons. They may be a priest or a farmer, but they know how to fight.
 
-Choosing the `Fighter` class doesn't mean the character is a professional soldier, it means they have an aptitude for weapons and are devoting time to maintain and enhance that aptitude.
-
+<!-- clear -->
 
 | Item           | 1d20 ≥   | Count      |
 |:--------------:|:--------:|:----------:|
@@ -87,20 +89,12 @@ Dabsters gain the widest variety of non-combat skills and are the quickest to le
 <!-- .top -->
 ## Caster
 
-At some point during their childhood, the `Caster`'s gift was revealed and they understood they were different and had to conceal that difference.
-
-Some of them are very talented, some others less so but were lucky enough to find someone whose trail they could walk in.
+At some point during their childhood, the `Caster`'s gift was revealed and they understood they were different and had to conceal that difference. Some of them are very talented, some others less so but were lucky enough to find someone whose trail they could walk in.
 
 
 # _or a_ Hybrid _of_ two Classes
 
-Blah blah blah ~~TODO~~.
-
-<!--
-`Fighter`, `Dabster`, and `Caster` are meant to cover a wide range of characters, but sometimes more granularity is required. A mix has its own level progression table, but the player has to choose between the class talents or halves of them.
-
-For example, a `Fighter-Caster` has to choose between the class talents of the `Fighter` and of the `Caster`. The player can chose `VERY SWERVING` and `VERY INTRICATE`, or he could split the talents and take `VERY INTRICATE`, `SWERVING` and `FIRM` (1 very equals 2 non-very talents).
--->
+For when a player wants to place the cursor between two classes for their character.
 
 <!-- clear -->
 
@@ -117,7 +111,10 @@ For example, a `Fighter-Caster` has to choose between the class talents of the `
 
 ## Fighter-Dabster
 
-Blah blah blah TODO.
+[^1] A dabster with extra weapon skills.
+
+[^1]:
+  Referees might use `Fighter-Dabster` as a class for common NPCs
 
 <!-- clear -->
 
@@ -134,7 +131,7 @@ Blah blah blah TODO.
 
 ## Fighter-Caster
 
-Blah blah blah TODO.
+Skilled with weapons and with some kind of supernatural luck.
 
 
 <!-- clear -->
@@ -152,5 +149,8 @@ Blah blah blah TODO.
 
 ## Dabster-Caster
 
-Blah blah blah TODO.
+[^2] A regular person, with something strange about them.
+
+[^2]:
+  `Dabster-Caster` could be used for common, average, caster NPCs
 
