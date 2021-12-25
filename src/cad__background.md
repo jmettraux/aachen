@@ -57,13 +57,13 @@ Character with Backgrounds tagged _learning advantage_ get an advantage when rol
   maybe, to differentiate social class from bg:
 
   <!-- .social-class -->
-  | d12   | soclass      |
-  |:-----:|:------------:|
-  | 1-8   | _bground_    |
-  |  9    | outcast      |
-  | 10    | slave        |
-  | 11    | free         |
-  | 12    | elite _(la)_ |
+  | d12   | soclass   |
+  |:-----:|:---------:|
+  | 1-8   | _bground_ |
+  |  9    | outcast   |
+  | 10    | slave     |
+  | 11    | free      |
+  | 12    | elite     |
 
   <!-- .social-class -->
   | d12  | origin  |
