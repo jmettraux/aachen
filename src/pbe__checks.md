@@ -11,37 +11,46 @@
 * Advancement
 
 
-<!-- .skill-levels -->
-| Lvl | Mod |                                                      |
-|:---:|:---:|------------------------------------------------------|
-|     |  -1 | Unskilled                                            |
-| 0   |  +0 | The proficiency of an ordinary practicioner          |
-| 1   |  +1 | Veteran of the skill, noticeably better than others  |
-| 2   |  +2 | Veteran and talented, one of the best in the city    |
-| 3   |  +3 | Inspirational master, one of the best in the kingdom |
-| 4   |  +4 | One of the best in the known world                   |
-
 # Skill Checks
 
-~~2d6 + _skill level_ + _attribute modifier_~~ is rolled as a skill check. It succeeds if the sum is greater or equal to a _difficulty class_ (DC) set by the referee. The _attribute modifier_ is determined by the referee.
+Aachen checks are all 1d20 + modifiers ≥ `TC` (target class). The referee decides what `TC` and what modifiers do apply. The modifier is the skill level of the character (or -2 if the character is unskilled).
 
-For example, to force a door open, the referee might demand a `STR`/`Exert` check and set the DC to 8. A character with a `STR` of 17 and an `Exert` of 1, thus rolls 2d6 + 1 (`Exert`) + 1 (`STR`m) against 8.
+A skill check is generally done when there is time pressure or opposition. Else the referee might grant success given a certain skill. For example, the referee might decide that a character with `+0` in _Reading_ can easily read a certain text.
 
-If a character has no level in the skill being challenged, then -1 is used (remember 0 is the starting level, _ordinary practicioner_). The example becomes 2d6 -1 (no level in `Exert`) + 1 (`STR`m) against 8.
+Here are a few examples of skill check adjudications:
 
-The referee determines when a skill check is required or not. When there is no time pressure, a dice roll might not be necessary and the referee will simply consider the skill level and the difficulty class and grant success or not.
+Sneaking
+: 1d20 + _Sneak_ ≥ `EVA TC` ~~or~~
+: 1d20 + _Sneak_ ≥ opponent's 1d20 + _Notice_ ~~or~~
+: 1d20 + _Sneak_ ≥ opponent's `WIS` (not `WIS TC`) ~~or~~
+: 1d20 + _Sneak_ ≥ static `DC`
+
+Obtaining a discount
+: 1d20 + _Trade_ ≥ `INT TC` ~~or~~
+: 1d20 + _Trade_ ≥ `WIS TC` ~~or~~
+: 1d20 + _Trade_ ≥ opponent's 1d20 + _Trade_
+
+Shooting at the range
+: 1d20 + _Bows_ ≥ `DEX TC`
+
+In summary:
+
+Against own's TC
+: 1d20 + Skill ≥ abi `TC` or save `TC`
+
+Opposed check
+: 1d20 + Skill ≥ opponent's 1d20 + Skill ~~or~~
+: 1d20 + Skill ≥ opponent's 1d20 + other Skill ~~or~~
+: 1d20 + Skill ≥ opponent's Ability (not abi `TC`)
+
+Static DC
+: 1d20 + Skill ≥ static DC (Difficulty Class)
 
 ## Dis-Advantage
 
-The referee might grant advantage or require disadvantage on a skill check. In case of advantage, 3d6 are rolled and the best two are kept and summed. In case of disadvantage, 3d6 are rolled and the worse two are kept and summed.
+The referee might grant advantage or disadvantage on a skill check. Two d20s are rolled and the highest is kept in case of advantage (the lowest for a disadvantage).
 
 ## Aiding a Check
 
-A character may help another character at a skill check if the referee agrees. The helper rolls with the same skill against the same difficulty class. The attribute modifier might be different, as the referee sees fit. If the help check suceeds the helped check gains a +1. Multiple characters may help a check, but the maximum bonus is +1.
-
-## Opposed Checks
-
-Skill checks may be opposed, the highest wins. The same combination _attribute_ / _skill_ may be used on both side, or not. Break a tie by rolling again or comparing raw _skill levels_.
-
-For example, a `STR`/`Exert` can be used as a contest of strength, while a scout may roll `DEX`/`Sneak` against a sentinel's `WIS`/`Notice`.
+A character may help the skill check of another character. The helper rolls like the helped will roll. If the helper succeeds, the helped gains a `+2` on their roll. More people may help but the max help bonus stays at `+2`.
 
