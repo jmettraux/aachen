@@ -36,9 +36,14 @@ The class tables determines how many CPs a character starts with. For example a 
 
 # Select Spells
 
-~~FIXME~~
+`Casters` get to know 1d3 new spells by level, while half-`Casters` get to know 1d2. A prior successful 1d20 roll against `LEA TC` (Learning TC) lets the player roll 2 dice instead of one, thus a `Caster` rolls 2d3 and keeps the highest roll. [^2]
 
-A `Caster` or simply a character with the `Intricate` trait may select a few spells in accord with the referee. The background and the origin of the character might lead the referee to recommend certain spells.
+[^2]:
+  Option:
 
-A level 1 character knows (1 + `INT`m) spells (at least one). The referee is free to grant an extra known spell of choice.
+  The referee selects the spells, since casting befalls the caster, it's not a scholarly pursuit.
+
+<!--
+Since spells go along two axes, form and colour.
+-->
 
