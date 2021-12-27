@@ -887,6 +887,10 @@ table.social-class th:nth-child(1) {
   border-bottom: 0;
 }
 
+[data-aa-title="scenes and saves"] h1:not(:first-child) {
+  margin-top: 3rem;
+}
+
 [data-aa-title="checks"] h1 {
   margin-top: 0;
 }

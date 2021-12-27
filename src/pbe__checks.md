@@ -36,7 +36,8 @@ Shooting at the range
 In summary:
 
 Against own's TC
-: 1d20 + Skill ≥ abi `TC` or save `TC`
+: 1d20 + Skill ≥ abi `TC` ~~or~~
+: 1d20 + Skill ≥ save `TC`
 
 Opposed check
 : 1d20 + Skill ≥ opponent's 1d20 + Skill ~~or~~
