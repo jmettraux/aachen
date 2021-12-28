@@ -917,7 +917,6 @@ table.social-class th:nth-child(1) {
 }
 
 [data-aa-title="combat2"] h2 {
-  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 [data-aa-title="combat2"] h2:first-of-type {
@@ -955,6 +954,7 @@ table.social-class th:nth-child(1) {
   grid-column-start: 2;
 }
 [data-aa-title="combat2"] table.modifiers {
+  margin-top: 0.5rem;
   float: right;
   width: 54%;
   font-size: var(--size-b);

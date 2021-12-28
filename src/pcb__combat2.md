@@ -65,7 +65,7 @@ Range
 
 Roll
 : ~~1d20 + _weapon skill_ ≥ _target AC_~~;
-: circumstance table above might add a modifier;
+: circumstance table might add a modifier;
 : natural 1 → always failure | natural 20 → always success.
 
 Dis-Advantage
@@ -100,7 +100,4 @@ Like Melee Attacks, but
 
 Range
 : as per weapon description.
-
-Damage
-: in case of successful attack:<br/>~~_weapon damage dice_ + _weapon skill_~~
 
