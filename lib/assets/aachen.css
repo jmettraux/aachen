@@ -917,16 +917,17 @@ table.social-class th:nth-child(1) {
 }
 
 [data-aa-title="combat2"] h2 {
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
-[data-aa-title="combat2"] h2:not(:first-child) {
-  margin-top: 1rem;
-}
-[data-aa-title="combat2"] h2:last-of-type {
-  margin-top: 1.5rem;
+[data-aa-title="combat2"] h2:first-of-type {
+  margin-top: -0.25rem;
 }
 [data-aa-title="combat2"] ul:not(.compass) {
   padding-inline-start: 0;
+}
+[data-aa-title="combat2"] .actions {
+  margin-bottom: 1rem;
 }
 [data-aa-title="combat2"] .actions ul {
   margin-bottom: 0;
@@ -957,7 +958,7 @@ table.social-class th:nth-child(1) {
   float: right;
   width: 54%;
   font-size: var(--size-b);
-  line-height: 0.7;
+  line-height: 0.6;
 }
 
 [data-aa-title="cactions"] dl {

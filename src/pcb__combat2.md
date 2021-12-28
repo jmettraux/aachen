@@ -10,7 +10,6 @@
 * Exploration
 * Advancement
 
-
 ## Actions
 
 Actions that are common in combat:
@@ -58,39 +57,37 @@ Actions that are common in combat:
 
 ## Melee Attacks
 
+[^1]
+
 Range
 : usually 5ft 1.5m 1sq (the adjacent square);
 : 10ft 3m 2sq, if the weapon or creature has the **L** (Long) trait;
 
 Roll
-: ~~1d20 + _class atk bonus_ + `STR`m~~ ≥ _target AC_;
-: some weapons allow to use the `DEX`m instead;
+: ~~1d20 + _weapon skill_ ≥ _target AC_~~;
 : circumstance table above might add a modifier;
 : natural 1 → always failure | natural 20 → always success.
 
 Dis-Advantage
+: granted by the referee;
 : advantage → highest of 2d20 | disadvantage → lowest of 2d20.
 
 Damage
-: in case of successful attack;
-: ~~_weapon damage dice_ + `STR`m~~;[^1]
-: or _weapon damage dice_ + `DEX`m if `DEX`m used for atk roll.
-
-Shock Damage
-: in case of failed attack;
-: and if _target AC_ ≤ _weapon shock AC_;
-: ~~_weapon shock damage_ + `STR`m~~ (`DEX`m if used for atk roll).
+: in case of successful attack:<br/>~~_weapon damage dice_ + _weapon skill_~~
 
 [^1]:
-  Shock ~~2/15~~ means dmg 2 + _attr mod_ if _target AC_ ≤ 15
+  Option:
 
+  The referee might bypass modifiers and simply grant advantage or disadvantage
 
 <!-- .modifiers -->
 | Circumstance                              | Mod    |
 |-------------------------------------------|:------:|
-| The target is at least half behind cover  | -2     |
-| · is almost completely in cover           | -4     |
-| Shooting at an adjacent prone foe         | +2     |
+| Target cover                              |        |
+| · at least half behind cover              | -2     |
+| · almost completely in cover              | -4     |
+| Shooting                                  |        |
+| · at an adjacent prone foe                | +2     |
 | · at long range                           | -2     |
 | · at a distant prone foe                  | -2     |
 | · a single handed weapon while in contact | -4     |
@@ -104,6 +101,6 @@ Like Melee Attacks, but
 Range
 : as per weapon description.
 
-Shock Damage
-: none.
+Damage
+: in case of successful attack:<br/>~~_weapon damage dice_ + _weapon skill_~~
 

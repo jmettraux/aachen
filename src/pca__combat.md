@@ -20,13 +20,13 @@ Reaction
 Surprise
 : no surprise, or;
 : a side gets the surprise, or;
-: `DEX`/`Sneak` vs `WIS`/`Notice` opposed roll or equivalent;
+: ~~1d20~~ + _Sneak_ ≥ `Dex TC` or<br/>~~1d20~~ + _Sneak_ ≥ opponent's 1d20 + _Notice_
 
 Surprise Round
 : if a side was granted the surprise.
 
 Initiative[^1]
-: each side rolls ~~1d8~~ + side's best `DEX`m;
+: each side rolls ~~1d20~~ + side's best `INI` (initiative)
 : the side with the highest roll goes first,<br/>in case of tie, the PC side goes first;
 
 <span class="fleuron">❦</span> Hi Ini Round
@@ -42,7 +42,7 @@ Morale
 [^1]:
   option:
 
-  each player rolls 1d8 + `DEX`m and the players get interleaved initiative (while the opfor still has its rounds together)
+  each player rolls 1d20 + `INI` and the players get interleaved initiative (while the opfor still has its rounds together)
 
 
 <hr/>
@@ -93,42 +93,6 @@ The weapon dictates which attribute modifier is used, the rule of thumb is STR f
 ### Melee Attacks
 
 Melee attacks usually have a _range_ of 5 feet. Some weapons or creature attacks have the _long_ trait, letting them target foes within 10 feet.
-
-TODO
-
-| Circumstance                          | Mod |
-|---------------------------------------|----:|
-| Melee attacking an adjacent prone foe |  +2 |
-| Melee attacking while prone           |  -4 |
-
-### Ranged Attacks
-
-Ranged weapon and creature ranged attacks have a short and a long range. For example, a large bow is 100ft / 600ft. From 100ft to 600ft, the modifier is -2, beyond 600ft, no chance to hit.
-
-| Circumstance                                     | Mod |
-|--------------------------------------------------|----:|
-| Shooting at an adjacent prone foe                |  +2 |
-| Shooting at long range                           |  -2 |
-| Shooting at a distant prone foe                  |  -2 |
-| Shooting a single handed weapon while in contact |  -4 |
-| The target is at least half behind cover         |  -2 |
-| The target is almost completely in cover         |  -4 |
-
-Shooting a two-handed weapon while in contact is not allowed.
-
-### Damage
-
-TODO
-
-### Shock Damage
-
-Some weapons or creature attacks have _shock damage_. It is expressed as dmg / AC and only applies to melee attacks.
-
-Shock damage indicates the minimum amount of damage inflicted, miss or not. The STR or DEX modifier applies, magical bonuses apply too.
-
-If the opponent AC is superior to the shock damage target AC, shock damage is not considered.
-
-For example a fighter with STR +1 uses a "2 / AC 13" sword. An opponent with an AC of 13 or less gets at least 2 + 1 points of damage should the fighter make a melee attack on them. In case of hit, 1d8 + 1 (STR) is rolled, a roll of 1 or 2 both inflict 3 points of damage.
 
 ### Execution Attacks
 
