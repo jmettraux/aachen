@@ -86,6 +86,8 @@ body {
   padding: 0;
 }
 
+.hidden { display: none; }
+
 del {
   text-decoration: none;
   color: red;
