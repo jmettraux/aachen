@@ -59,7 +59,7 @@ Main Action (MA)
 
 Move Action (MvA)
 : from 0 to movement rate (30ft 9m 6sq t for a human);
-: may not be split (may not move 10ft shoot, then move the remaining 20ft).
+: may not be split (may not move 10ft, shoot, then move the remaining 20ft).
 
 On Turn Action (OTA)
 : are performed on turn, like **MA** and **MvA**;

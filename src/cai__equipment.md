@@ -177,32 +177,32 @@ Monetary exchange is at its worse but people and organizations are still in the 
 ## melee weapons
 
 <!-- .weapons.melee -->
-| Name             | STR ≥ | Damage | Flags    | Value | Value d |
-|------------------|:-----:|:------:|:--------:|:-----:|--------:|
-| Axe              |     7 |    1d6 | T        |    6s |     72d |
-| Axe, war         |     9 |   1d10 | 2H       |    9s |    108d |
-| Club             |       |    1d4 | T, LL    |       |         |
-| Club, large      |     7 |   1d10 | 2H       |       |         |
-| Dagger           |       |    1d4 | S, T, XA |    2s |     24d |
-| Halberd *        |     7 |   1d10 | L        |    5s |     60d |
-| Hammer, war      |     8 |    1d8 |          |    8s |     96d |
-| Hammer, great    |     9 |   1d10 | 2H       |   10s |    120d |
-| Hatchet          |       |    1d4 |          |    1s |     12d |
-| Javelin          |       |    1d6 | T        |    5s |     60d |
-| Knife            |       |    1d4 |          |    1s |     12d |
-| Mace             |       |    1d6 | LL       |    7s |     84d |
-| Pike             |     7 |    1d8 | 2H, L    |    5s |     60d |
-| Quarterstaff     |       |    1d6 | 2H, LL   |       |         |
-| Seax             |       |    1d6 |          |    2s |     24d |
-| Spear, broad     |       |    1d8 |          |    6s |     72d |
-| Spear, heavy     |     7 |   1d10 | 2H       |    7s |     84d |
-| Sword, short     |       |    1d6 |          |   10s |    120d |
-| Sword, long      |       |    1d8 |          |    1L |    240d |
-| Sword, great     |     7 |   1d12 | 2H       |    2L |    480d |
-| &nbsp;           |       |        |          |       |         |
-| Shield bash S    |       |    1d4 | LL       |       |         |
-| Shield bash L    |       |    1d6 | LL       |       |         |
-| _Unarmed attack_ |       |    1d2 | LL       |       |         |
+| Name             | STR ≥ | Damage | Flags  | Value | Value d |
+|------------------|:-----:|:------:|:------:|:-----:|--------:|
+| Axe              |     7 |    1d6 | T      |    6s |     72d |
+| Axe, war         |     9 |   1d10 | 2H     |    9s |    108d |
+| Club             |       |    1d4 | T, LL  |       |         |
+| Club, large      |     7 |   1d10 | 2H     |       |         |
+| Dagger           |       |    1d4 | S, T   |    2s |     24d |
+| Halberd *        |     7 |   1d10 | L      |    5s |     60d |
+| Hammer, war      |     8 |    1d8 |        |    8s |     96d |
+| Hammer, great    |     9 |   1d10 | 2H     |   10s |    120d |
+| Hatchet          |       |    1d4 |        |    1s |     12d |
+| Javelin          |       |    1d6 | T      |    5s |     60d |
+| Knife            |       |    1d4 |        |    1s |     12d |
+| Mace             |       |    1d6 | LL     |    7s |     84d |
+| Pike             |     7 |    1d8 | 2H, L  |    5s |     60d |
+| Quarterstaff     |       |    1d6 | 2H, LL |       |         |
+| Seax             |       |    1d6 |        |    2s |     24d |
+| Spear, broad     |       |    1d8 |        |    6s |     72d |
+| Spear, heavy     |     7 |   1d10 | 2H     |    7s |     84d |
+| Sword, short     |       |    1d6 |        |   10s |    120d |
+| Sword, long      |       |    1d8 |        |    1L |    240d |
+| Sword, great     |     7 |   1d12 | 2H     |    2L |    480d |
+| &nbsp;           |       |        |        |       |         |
+| Shield bash S    |       |    1d4 | LL     |       |         |
+| Shield bash L    |       |    1d6 | LL     |       |         |
+| _Unarmed attack_ |       |    1d2 | LL     |       |         |
 
 [^1]
 
@@ -217,14 +217,14 @@ LL
 L
 : Long, allows melee attacks up to 10ft (2sq), even if ally in the way. An opponent between 5 to 10ft can disengage freely from the `L` weapon wielder, no need for a _fighting withdrawal_.
 
-2H
-: 2 Handed
-
 <!-- </div.left-column> -->
 
 <!-- <div.right-column> -->
 
 <!-- .weapon-traits -->
+2H
+: 2 Handed
+
 T
 : Throwable, -4 to hit if throwing while engaged in melee
 
@@ -234,8 +234,12 @@ R
 SR
 : Slow Reload. Takes a _Main Action_ to reload.
 
+<!--
 XA
 : when used for an eXecution Attack, a -1 penalty is applied to the target `Physical Save` and the damage is doubled.
+
+(bows, crossbows, dagger)
+-->
 
 <!-- </div.right-column> -->
 
@@ -245,15 +249,15 @@ XA
 ## ranged weapons
 
 <!-- .weapons.ranged -->
-| Name       | STR ≥ | Dmg  | Short Range <     | Long Range (Atk -2) < | Flags      | Val  | d   |
-|------------|:-----:|:----:|:-----------------:|:---------------------:|:----------:|-----:|----:|
-| Bow, small |       |  1d6 | 50ft 15m 10sq V   | 300ft 90m 60sq 6V     | 2H, R, XA  |   2s | 24d |
-| Bow, large |    10 |  1d8 | 100ft 30m 20sq VV | 600ft 180m 120sq 12V  | 2H, R, XA  |   3s | 36d |
-| Crossbow * |     7 | 1d10 | 100ft 30m 20sq VV | 300ft 90m 60sq 6V     | 2H, SR, XA |   7s | 84d |
-| Sling      |       |  1d6 | 50ft 15m 10sq V   | 100ft 30m 20sq VV     | 2H, R      |   6d |  6d |
-| _Axe_      |     7 |  1d6 | 10ft 3m 2sq       | 30ft 9m 6sq t         | T          |   6s | 72d |
-| _Dagger_   |       |  1d4 | 30ft 9m 6sq t     | 60ft 18m 12sq tt      | T          |   6d |  6d |
-| _Javelin_  |     7 |  1d6 | 30ft 9m 6sq t     | 60ft 18m 12sq tt      | T          |   6d |  6d |
+| Name       | STR ≥ | Dmg  | Short Range <     | Long Range (Atk -2) < | Flags  | Val  | d   |
+|------------|:-----:|:----:|:-----------------:|:---------------------:|:------:|-----:|----:|
+| Bow, small |       |  1d6 | 50ft 15m 10sq V   | 300ft 90m 60sq 6V     | 2H, R  |   2s | 24d |
+| Bow, large |    10 |  1d8 | 100ft 30m 20sq VV | 600ft 180m 120sq 12V  | 2H, R  |   3s | 36d |
+| Crossbow * |     7 | 1d10 | 100ft 30m 20sq VV | 300ft 90m 60sq 6V     | 2H, SR |   7s | 84d |
+| Sling      |       |  1d6 | 50ft 15m 10sq V   | 100ft 30m 20sq VV     | 2H, R  |   6d |  6d |
+| _Axe_      |     7 |  1d6 | 10ft 3m 2sq       | 30ft 9m 6sq t         | T      |   6s | 72d |
+| _Dagger_   |       |  1d4 | 30ft 9m 6sq t     | 60ft 18m 12sq tt      | T      |   6d |  6d |
+| _Javelin_  |     7 |  1d6 | 30ft 9m 6sq t     | 60ft 18m 12sq tt      | T      |   6d |  6d |
 
 
 [^1]:
