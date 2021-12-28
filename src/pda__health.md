@@ -14,11 +14,21 @@
 
 # Health
 
-TODO
+When a character reaches 0 HPs, it is considered _mortally wounded_. If they endure further damage they die.
 
-## Scars
+Each round, when their initiative turn comes, the player rolls 1d20 + 1 ≥ `PHY TC`, if they fail, they die.
+
+If another character assists them and succeeds a _Heal_ skill check, for example 1d20 + _Heal_ ≥ `INT TC`, the character is stabilized, and will be able to go on after the combat ends.
+
+The referee might rule the character surviving a _mortally wounded_ episode will be scarred and ask for a roll on the following table. The amount of damage that downed the character determines the roll from d4+d20 to 6d4. If the character already suffers from the resulting scar, it is ignored.
+
+[^1]
+
+[^1]:
+  If too complicated, roll 2d12 (let's hope it's not a double 1)
 
 <style>
+#scars { margin-top: 2rem; }
 #scars td:nth-child(1) { text-align: right; }
 #scars td:nth-child(2) { text-align: right; font-size: 83%; }
 #scars td:nth-child(3) { text-align: right; font-size: 83%; }
