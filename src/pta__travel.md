@@ -36,7 +36,13 @@ On a natural roll of 2 or 3, some danger or trouble has befallen the hunting par
 
 ## Foraging
 
-...TODO<!-- RETURN -->
+~~TODO~~
+
+## Camping
+
+~~TODO~~
+
+<!-- RETURN -->
 
 The party may attempt a WIS + Survive skill check. The difficulty is 8 for woodlands, and it may climb to 12 or more for desert lands.
 

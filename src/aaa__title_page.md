@@ -10,11 +10,11 @@ Design Decisions:
 
 * fast character creation
 * low on math (slightly harder operations only at character creation)
-* 1d20 roll high, advantage and disadvantage
-* may use any OSR bestiary (HD, AC, ...)
-* abilities are nouns, skills are verbs, traits are adjective (modifiable by very)
+* may use any B/X bestiary (HD, AC, ...)
+* abilities are nouns, skills are verbs, traits are adjective
 * abilities and saves are DCs (TCs), skills are modifiers, d20 roll high
 * traits should be short and unambiguous (-, very, extremely)
+* 1d20 + modifier ≥ TC, advantage and disadvantage
 * few to zero exceptions, if possible introduced by traits
 * non-scholarly magic system, easily replaceable though
 

@@ -517,9 +517,10 @@ table.social-class th:nth-child(1) {
 [data-aa-title="character creation"] del {
   font-size: var(--size-b);
   color: #c0c0c0;
-  Ability TCs
-  top: 1.0rem;
-  right: 1.2rem;
+  margin-right: 0.1rem;
+}
+[data-aa-title="character creation"] del::after {
+  content: '←';
 }
 [data-aa-title="character creation"] dl {
   margin-top: 2rem;

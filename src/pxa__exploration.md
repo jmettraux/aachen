@@ -38,7 +38,9 @@ _Running movement_[^rm] generally lets adventurers reach any location in most si
 
 ## Resting
 
-...TODO<!-- RETURN -->
+~~TODO~~
+
+<!-- RETURN -->
 
 Adventurers must rest[^4] for one turn every hour or else they becomes wearied. Heroes who spend any time in Running movement must rest for a turn immediately after each turn of doing so.[^5] Those who engage in battle must also immediately spend a turn afterwards resting.
 
