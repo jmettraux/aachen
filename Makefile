@@ -43,6 +43,7 @@ clean:
 	rm -f out/tmp/*.pdf
 	rm -f out/tmp/*.html
 	rm -f out/html/*.ps
+	rm -f out/html/*.ps.zip
 	rm -f out/html/*.pdf
 	rm -f out/html/*.css
 	rm -f out/html/*.ico

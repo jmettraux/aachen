@@ -59,6 +59,8 @@ def make_ps
     h[:out] = "out/html/#{CONFIG[:NAME]}.sample.stapled.2.duplex.ps"
     make_duplex(h)
   end
+
+  zip
 end
 
 def make(cmd, h)
@@ -77,5 +79,17 @@ def make_duplex(h)
     f.write(File.read(h[:in]))
   end
   puts ".. wrote Duplex #{h[:out]}"
+end
+
+def zip
+
+  Dir['out/html/*.ps'].each do |path|
+
+    next if path.index('.sample.')
+    next unless path.index('.2.duplex.ps')
+
+    system("zip #{path}.zip #{path}")
+    system("ls -lh #{path}*")
+  end
 end
 
