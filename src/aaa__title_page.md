@@ -17,6 +17,7 @@ Design Decisions:
 * 1d20 + modifier ≥ TC, advantage and disadvantage
 * few to zero exceptions, if possible introduced by traits
 * non-scholarly magic system, easily replaceable though
+* linear character advancement
 
 Git Branch
 : ${GITBRA}
