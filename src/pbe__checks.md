@@ -22,7 +22,7 @@ Here are a few examples of skill check adjudications:
 Sneaking
 : 1d20 + _Sneak_ ≥ `EVA TC` ~~or~~
 : 1d20 + _Sneak_ ≥ opponent's 1d20 + _Notice_ ~~or~~
-: 1d20 + _Sneak_ ≥ opponent's `WIS` (not `WIS TC`) ~~or~~
+: 1d20 + _Sneak_ ≥ opponent's `WIS` (**not** `WIS TC`) ~~or~~
 : 1d20 + _Sneak_ ≥ static `DC`
 
 Obtaining a discount
@@ -33,16 +33,24 @@ Obtaining a discount
 Shooting at the range
 : 1d20 + _Bows_ ≥ `DEX TC`
 
+Healing a character
+: 1d20 + _Heal_ ≥ `INT TC` ~~or~~
+: 1d20 + _Heal_ ≥ wounded's `CON TC`
+
 In summary:
 
 Against own's TC
-: 1d20 + Skill ≥ abi `TC` ~~or~~
-: 1d20 + Skill ≥ save `TC`
+: 1d20 + Skill ≥ Ability `TC` ~~or~~
+: 1d20 + Skill ≥ Save `TC`
+
+Against other's TC
+: 1d20 + Skill ≥ other's Ability `TC` ~~or~~
+: 1d20 + Skill ≥ other's Save `TC`
 
 Opposed check
 : 1d20 + Skill ≥ opponent's 1d20 + Skill ~~or~~
 : 1d20 + Skill ≥ opponent's 1d20 + other Skill ~~or~~
-: 1d20 + Skill ≥ opponent's Ability (not abi `TC`)
+: 1d20 + Skill ≥ opponent's Ability (**not** abi `TC`)
 
 Static DC
 : 1d20 + Skill ≥ static DC (Difficulty Class)
