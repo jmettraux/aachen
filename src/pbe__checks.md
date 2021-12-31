@@ -43,9 +43,9 @@ Against own's TC
 : 1d20 + Skill ≥ Ability `TC` ~~or~~
 : 1d20 + Skill ≥ Save `TC`
 
-Against other's TC
-: 1d20 + Skill ≥ other's Ability `TC` ~~or~~
-: 1d20 + Skill ≥ other's Save `TC`
+Against friend's TC
+: 1d20 + Skill ≥ friend's Ability `TC` ~~or~~
+: 1d20 + Skill ≥ friend's Save `TC`
 
 Opposed check
 : 1d20 + Skill ≥ opponent's 1d20 + Skill ~~or~~

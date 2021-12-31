@@ -912,7 +912,7 @@ table.social-class th:nth-child(1) {
 }
 
 [data-aa-title="combat"] h1 {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 [data-aa-title="combat"] .fleuron {
   font-weight: normal;

@@ -20,7 +20,7 @@ Reaction
 Surprise
 : no surprise, or;
 : a side gets the surprise, or;
-: ~~1d20~~ + _Sneak_ ≥ `Dex TC` or<br/>~~1d20~~ + _Sneak_ ≥ opponent's 1d20 + _Notice_
+: ~~1d20~~ + _Sneak_ ≥ `Dex TC` _or_<br/>~~1d20~~ + _Sneak_ ≥ opponent's ~~1d20~~ + _Notice_ _or_<br/>~~1d20~~ + _Sneak_ ≥ opponent's `WIS` (~~not~~ `WIS TC`)
 
 Surprise Round
 : if a side was granted the surprise.
@@ -68,10 +68,10 @@ On Turn Action (OTA)
 : _examples_: saying a few word, drawing out a readied object, reloading a bow from a readied quiver, etc.
 
 Instant Action (IA)
-: are simple and fast, and linked to traits and special powers;
+: are simple and fast, and linked to traits or special powers;
 : may be performed _out of turn_;
 : as many as the referee deems reasonable;
-: execution order is decided by the referee if many trigger at the same time.
+: execution order decided by referee if many trigger at the same time.
 
 
 <!-- RETURN -->
