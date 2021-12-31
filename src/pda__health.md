@@ -18,7 +18,9 @@ When a character reaches 0 HPs, it is considered _mortally wounded_. If they end
 
 Each round, when their initiative turn comes, the player rolls 1d20 + 1 ≥ `PHY TC`, if they fail, they die.
 
-If another character assists them and succeeds a _Heal_ skill check, for example 1d20 + _Heal_ ≥ `INT TC`, the character is stabilized, and will be able to go on after the combat ends.
+Another character may try a _Heal_ skill check, for example 1d20 + _Heal_ ≥ `INT TC`, or 1d20 + _Heal_ ≥ wounded `CON TC`.
+
+If the skill check is successful, the wounded character is stabilized, and will be able to go on after the combat ends. Taking further damage here will bring them back to _mortally wounded_.
 
 The referee might rule the character surviving a _mortally wounded_ episode will be scarred and ask for a roll on the following table. The amount of damage that downed the character determines the roll from d4+d20 to 6d4. If the character already suffers from the resulting scar, it is ignored.
 
