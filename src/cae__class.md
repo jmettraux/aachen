@@ -78,9 +78,9 @@ Dabsters gain the widest variety of non-combat skills and are the quickest to le
 <!-- .top -->
 | Item           | 1d20 ≥   | Count      |
 |:--------------:|:--------:|:----------:|
-| HP             | `CON TC` | 1d8-1      |
+| HP             | `CON TC` | 1d8-1 ~~(min 1)~~ |
 | CP             | `Men TC` | 1d8        |
-| Fighter Skills | `Lea TC` | 1d3-1      |
+| Fighter Skills | `Lea TC` | 1d3-1 ~~(min 0)~~ |
 | General Skills | `Lea TC` | 1d4        |
 | Magic Skills   | `Men TC` | 1d3        |
 | Spells         | `Lea TC` | 1d3        |
@@ -141,7 +141,7 @@ Skilled with weapons and with some kind of supernatural luck.
 |:--------------:|:--------:|:----------:|
 | HP             | `CON TC` | 1d8        |
 | CP             | `Men TC` | 1d6        |
-| Fighter Skills | `Lea TC` | 1d3-1      |
+| Fighter Skills | `Lea TC` | 1d3-1 ~~(min 0)~~ |
 | General Skills | `Lea TC` | 1d4        |
 | Magic Skills   | `Men TC` | 1d2        |
 | Spells         | `Lea TC` | 1d2        |
