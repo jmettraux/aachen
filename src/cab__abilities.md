@@ -23,9 +23,9 @@
 | Wisdom       | `WIS` | street smart             |
 | Charisma     | `CHA` | force of character       |
 
-Roll 3d6 and assign in order. Replace the lowest roll with a 14.
+Roll 2 series of 6 × 3d6; pick best of the 2 series; assign the 6 numbers at will.
 
-**Or** roll 3d6 six times, replace the lowest with 14  and assign at will.
+**Or** roll 3d6 and assign in order. Replace the lowest roll with a 14.
 
 **Or** use the 14, 12, 11, 10, 9, 7 array and assign at will.
 
