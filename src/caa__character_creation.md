@@ -46,22 +46,22 @@ Level
 
 ~~p10-11~~Traits
 : They represent side talents or particular specializations;
-: Choose a trait and if 1d20 ≥ Trait Ability TC, add 1 level to it, else nothing;
-: 1 extra Trait attempt for a `Dabster`.
+: Choose a trait and if 1d20 ≥ Trait Ability TC, add 1 level to it, else nothing.
 
-~~p12~~Skill
-: Pick an extra general skill (not a fighter skill, nor a magic skill).
+~~p12~~Skills
+: Pick 2 extra skills (caster skills are off limits for non `Casters`)
 
 ~~p12~~Hit Points
-: `Fighter` → 1d8+3 | `Dabster` → 1d8 | `Caster` → 1d8-1;
-: Roll 2d8, if 1d20  ≥ `CON TC`, pick the best d8, else the worst;
+: `Fighter` → 1d8+3 | `Dabster` → 1d8 |<br/>`Caster` → 1d8-1;
+: Roll 1d20  ≥ `CON TC`, if successful roll 2d8 and keep the best else roll 1d8;
 : Apply trait modifiers if any;
 : Minimum HP is 1.
 
 ~~p12~~Cast Points
-: `Caster` → 1d8 | `Dabster/Fighter -Caster` → 1d6;
-: Roll 2d8 (or 2d6),<br/>if 1d20 ≥ `Mental TC`, pick the best die, else the worst;
-: Apply trait modifiers if any.
+: `Caster` → 1d8 | `Dabster/Fighter - Caster` → 1d6;
+: Roll 1d20 ≥ `Mental TC`, roll 2 dice keep the best, else roll 1 die;
+: Apply trait modifiers if any;
+: Minimum CP is 1.
 
 ~~p12~~Spells
 : If the character has the `Intricate` or `Very Intricate` trait, select (1 + `INT`m) spells (at least one). **<span style="color: red;">FIXME</span>**

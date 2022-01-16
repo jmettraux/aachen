@@ -31,7 +31,7 @@ Traits are a bit different. A character receives _attempts_, they can be used to
 |:--------------:|:--------:|:----------:|
 | HP             | `CON TC` | 1d8+3      |
 | CP             |          |            |
-| Fighter Skills | `Lea TC` | 1d4        |
+| Fighter Skills | `Eva TC` | 1d4        |
 | General Skills | `Lea TC` | 1d4        |
 | Magic Skills   |          |            |
 | Spells         |          |            |
@@ -48,7 +48,7 @@ A character with the `Fighter` class isn't necessarily a professional soldier, i
 |:--------------:|:--------:|:----------:|
 | HP             | `CON TC` | 1d8        |
 | CP             |          |            |
-| Fighter Skills | `Lea TC` | 1d3        |
+| Fighter Skills | `Eva TC` | 1d3        |
 | General Skills | `Lea TC` | 1d6        |
 | Magic Skills   |          |            |
 | Spells         |          |            |
@@ -80,7 +80,7 @@ Dabsters gain the widest variety of non-combat skills and are the quickest to le
 |:--------------:|:--------:|:----------:|
 | HP             | `CON TC` | 1d8-1 ~~(min 1)~~ |
 | CP             | `Men TC` | 1d8        |
-| Fighter Skills | `Lea TC` | 1d3-1 ~~(min 0)~~ |
+| Fighter Skills | `Eva TC` | 1d3-1 ~~(min 0)~~ |
 | General Skills | `Lea TC` | 1d4        |
 | Magic Skills   | `Men TC` | 1d3        |
 | Spells         | `Lea TC` | 1d3        |
@@ -103,7 +103,7 @@ For when a player wants to place the cursor between two classes for their charac
 |:--------------:|:--------:|:----------:|
 | HP             | `CON TC` | 1d8+1      |
 | CP             |          |            |
-| Fighter Skills | `Lea TC` | 1d3        |
+| Fighter Skills | `Eva TC` | 1d3        |
 | General Skills | `Lea TC` | 1d5        |
 | Magic Skills   |          |            |
 | Spells         |          |            |
@@ -123,7 +123,7 @@ For when a player wants to place the cursor between two classes for their charac
 |:--------------:|:--------:|:----------:|
 | HP             | `CON TC` | 1d8+1      |
 | CP             | `Men TC` | 1d6        |
-| Fighter Skills | `Lea TC` | 1d3        |
+| Fighter Skills | `Eva TC` | 1d3        |
 | General Skills | `Lea TC` | 1d3        |
 | Magic Skills   | `Men TC` | 1d2        |
 | Spells         | `Lea TC` | 1d2        |
@@ -141,7 +141,7 @@ Skilled with weapons and with some kind of supernatural luck.
 |:--------------:|:--------:|:----------:|
 | HP             | `CON TC` | 1d8        |
 | CP             | `Men TC` | 1d6        |
-| Fighter Skills | `Lea TC` | 1d3-1 ~~(min 0)~~ |
+| Fighter Skills | `Eva TC` | 1d3-1 ~~(min 0)~~ |
 | General Skills | `Lea TC` | 1d4        |
 | Magic Skills   | `Men TC` | 1d2        |
 | Spells         | `Lea TC` | 1d2        |

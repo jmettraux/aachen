@@ -10,7 +10,7 @@
 * Equipment
 
 
-# Select an Extra Skill
+# Select Two Extra Skills
 
 Learn a new skill (starting at +0) or increase an already known skill (max +2, since character level + 1).
 
