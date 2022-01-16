@@ -53,6 +53,9 @@ Cast
 Feel
 : To feel spell effects.
 
+Seize
+: To take over others' magical threads.
+
 Soak
 : To absorb magical energy as CP (Casting Points).
 
@@ -63,9 +66,6 @@ Administer
 
 Connect
 : To connect with people, to ascertain the dynamics of groups and communities.
-
-Convince
-: To persuade one or more listeners.
 
 <!-- </div.left-column> -->
 <!-- <div.right-column> -->
@@ -99,7 +99,7 @@ Pray
 : To know how to perform the religious rites, to know the religious history.
 
 Read
-: Level 0, read. Level 1, read and write.
+: At +0, read. From +1 on, read and write.
 
 Ride
 : To ride an animal, to drive a cart or carriage. To take care of the animal.
@@ -115,6 +115,9 @@ Survive
 
 Swim
 : To swim, to be at ease in the water.
+
+Talk
+: To use the spoken word.
 
 Trade
 : To buy and sell advantageously, to value goods correctly, to deal with traders and merchants.

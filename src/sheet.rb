@@ -453,8 +453,8 @@ puts %{
 
 div('.left.subgrid', 1, 1) do
 
-  div('.vlabel', 1, 1, 'Abilities');
-  div('.vlabel', 1, 2, 'Skills');
+  div('.vlabel', 1, 1, '↑ Abilities');
+  div('.vlabel', 1, 2, '↑ Skills');
 
   div('.ability-grid', 2, 1) do
 
@@ -471,7 +471,7 @@ div('.left.subgrid', 1, 1) do
     div('.a-label', 1, 14, 'mean-')
     div('.a-label', 3, 14, 'Abi')
     div('.a-label', 5, 14, '21 - Abi')
-    div('.a-label', 7, 14, 'mean+')
+    div('.a-label', 7, 14, 'mean+', 2)
 
     div('.ability-circle.clgrey.sq', 3, 2)
     div('.ability-circle.clgrey.sq', 3, 4)
@@ -498,6 +498,7 @@ div('.left.subgrid', 1, 1) do
     div('.line.lup', 6, 4)
     div('.line.ldown', 6, 6)
     div('.line.lup', 6, 8)
+    div('.line.lup.learning', 6, 6, 2) # dexwis
     div('.line.ldown.learning', 6, 8, 2)
     div('.line.lup.learning', 6, 10, 2)
     div('.line.ldown', 6, 10)
@@ -505,13 +506,15 @@ div('.left.subgrid', 1, 1) do
 
     div('.save-circle', 7, 3)
     div('.save-circle', 7, 7)
-    div('.save-circle.clgrey', 8, 9)
+    div('.save-circle.clgrey', 8, 5) # dexwis
+    div('.save-circle.clgrey', 8, 9) # learning
     div('.save-circle', 7, 11)
 
     div('.save-label', 8, 3, 1, 2, 'Physical')
-    div('.save-label', 8, 7, 1, 2, 'Evasion')
+    div('.save-label', 8, 7, 1, 2, 'Evasion', style: 'align-self: center')
     div('.save-label', 8, 11, 1, 2, 'Mental', style: 'align-self: end')
 
+    div('.learning-label', 9, 5, 1, 2, 'dex / wis<br/>TC')
     div('.learning-label', 9, 9, 1, 2, 'learning<br/>TC')
   end
 
@@ -521,8 +524,8 @@ div('.left.subgrid', 1, 1) do
 
     j = 0
     %w{
-      Administer Connect Convince #Craft Exert Heal Hunt #Know Lead Notice
-      Perform Pray Read Ride Sail Sneak Survive Swim
+      Administer Connect #Craft Exert Heal Hunt #Know Lead Notice
+      Perform Pray Read Ride Sail Sneak Survive Swim Talk
     }
       .select { |k|
         k[0, 1] != '#' }
@@ -555,9 +558,9 @@ div('.left.subgrid', 1, 1) do
       ---
       ---
       ---
-      ---
       _Cast
       _Feel
+      _Seize
       _Soak
     }
       .select { |k|
@@ -591,8 +594,8 @@ div('.left.subgrid', 1, 1) do
       end
     div('.skill-tag', 6, 1, 2, 5, 'F')
 
-    div('.weapon-cat', 5, 1, 1, 5, 'ranged')
-    div('.weapon-cat', 5, 6, 1, 8, 'melee')
+    div('.weapon-cat', 5, 1, 1, 5, '↑ ranged')
+    div('.weapon-cat', 5, 6, 1, 8, '↑ melee')
   end
 end
 
@@ -661,9 +664,9 @@ div('.right.subgrid', 2, 1) do
     end
   end
 
-  div('.vlabel', 1, 1, 'Hit & Cast')
-  div('.vlabel', 3, 1, 'Info')
-  div('.vlabel', 1, 2, 'Configurations')
+  div('.vlabel', 1, 1, '↑ Hit & Cast')
+  div('.vlabel', 3, 1, '↑ Info')
+  div('.vlabel', 1, 2, '↑ Configurations')
 end
 
 puts %{
