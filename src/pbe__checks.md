@@ -52,8 +52,8 @@ Opposed check
 : 1d20 + Skill ≥ opponent's 1d20 + other Skill ~~or~~
 : 1d20 + Skill ≥ opponent's Ability (**not** abi `TC`)
 
-Static DC
-: 1d20 + Skill ≥ static DC (Difficulty Class)
+Arbitrary DC
+: 1d20 + Skill ≥ arbitrary DC (Difficulty Class)
 
 ## Dis-Advantage
 
