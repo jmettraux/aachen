@@ -368,6 +368,7 @@ border: 1px solid grey;
     color: grey;
     align-self: end;
     justify-self: left;
+    padding-right: 1rem;
   }
 
   .weapon-cat {
@@ -570,8 +571,8 @@ div('.left.subgrid', 1, 1) do
 
     j = 0
     %w{
-      Administer Connect #Craft Exert Heal Hunt #Know Lead Notice
-      Perform Pray Read Ride Sail Sneak Survive Swim Talk
+      Administer Connect #Craft Exert Heal Hunt #Know Lead #Notice
+      Perform Pray Read Ride Sail #Sneak Scout Survive Swim Talk Trade
     }
       .select { |k|
         k[0, 1] != '#' }
@@ -586,16 +587,16 @@ div('.left.subgrid', 1, 1) do
       'skills start at +0',
       'but default to -2',
       'max is char level + 1',
-      '1d20 + skill ≥ abi TC'
+      '1d20 + skill ≥ some TC'
     ]
-      .each_with_index { |s, i| div('.skill-note', s, 3, 8 + i, 2, 1) }
+      .each_with_index { |s, i| div('.skill-note', s, 3, 8 + i, 3, 1) }
 
     %w{
-      Trade
       Work
       #---
       _Craft
       _Know
+      _
       _
       _
       ---

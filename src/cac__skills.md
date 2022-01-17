@@ -84,13 +84,10 @@ Hunt
 : To take game with snare, arrow or spear, to know the habits and the manner of preys.
 
 Know
-: Grammar, logic, rhetoric, then arithmetic, geometry, music, astronomy
+: Grammar, logic, rhetoric, then arithmetic, geometry, music, astronomy.
 
 Lead
 : To conduct and inspire people.
-
-Notice
-: To perceive small details, hidden features, emotional states. To be aware.
 
 Perform
 : To sing, dance, or play an instrument. To know songs and stories.
@@ -107,8 +104,8 @@ Ride
 Sail
 : To sail and navigate a ship, to build a craft. To read sea weather, to manage sailors.
 
-Sneak
-: To move unnoticed, without leaving traces, to conceal things, to deal with locks and traps.
+Scout
+: To gather information, unnoticed.
 
 Survive
 : To mitigate environmental hazards, to identify plants and wildlife, to craft basic survival tools and shelter.
