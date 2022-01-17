@@ -165,13 +165,13 @@ A free woman or man born in a family owning enough land to support itself.
 | 4                | d6 | Growth      | d8 | Learning   |
 |------------------|---:|:-----------:|---:|:----------:|
 | **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Skill  |
-| Craft            |  2 | +2 Physical |  2 | Connect    |
+| Work             |  2 | +2 Physical |  2 | Connect    |
 |                  |  3 | +2 Mental   |  3 | Craft      |
 | **Quick Skills** |  4 | +2 Mental   |  4 | Trade      |
 | Trade            |  5 | Exert       |  5 | Know       |
 | Connect          |  6 | Any Skill   |  6 | Administer |
 |                  |    |             |  7 | Talk       |
-|                  |    |             |  8 | Work       |
+|                  |    |             |  8 | Build      |
 
 ### Artisan ~~(learning advantage)~~
 
@@ -181,7 +181,7 @@ Born in an artisan family, son or daughter of a master or journeyman or born els
 
 
 <!-- .background -->
-| 5                | d6 | Growth      | d8 | Learning   |
+| 5                | d6 | Growth      | d8 | Learning  |
 |------------------|---:|:-----------:|---:|:---------:|
 | **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Skill |
 | Pray             |  2 | +2 Physical |  2 | Connect   |
@@ -208,7 +208,7 @@ Born in a family of priests (pagan faith) or in a family linked to a religious i
 | Lead             |  5 | Connect     |  5 | Lead        |
 | Connect          |  6 | Any Skill   |  6 | Ride        |
 |                  |    |             |  7 | Shield      |
-|                  |    |             |  8 | Convince    |
+|                  |    |             |  8 | Talk        |
 
 
 ### Elite ~~(learning advantage)~~
