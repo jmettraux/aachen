@@ -74,7 +74,7 @@ The referee might rule the character surviving a _mortally wounded_ episode will
 <tr class="r"><td>12</td><td>5.00%</td><td>7.64%</td><td>8.98%</td><td> 9.65%</td><td> 8.20%</td><td>Broken Knee</td><td><code>DEX</code> - 2 and movement halved</td></tr>
 <tr class="r"><td>13</td><td>5.00%</td><td class="bo">8.33%</td><td class="bo">9.38%</td><td>10.80%</td><td>11.13%</td><td>Destroyed Nose</td><td><code>CHA</code> - 2, loss of sense of smell</td></tr>
 <tr class="r"><td>14</td><td>5.00%</td><td>7.64%</td><td class="bo">9.38%</td><td class="bo">11.27%</td><td>13.33%</td><td>Flesh Wound</td><td>that's it</td></tr>
-<tr class="r"><td>15</td><td>5.00%</td><td>6.94%</td><td>8.98%</td><td>10.80%</td><td class="bo">14.16%</td><td>Ruined Ear</td><td>-1 on all Notice checks</td></tr>
+<tr class="r"><td>15</td><td>5.00%</td><td>6.94%</td><td>8.98%</td><td>10.80%</td><td class="bo">14.16%</td><td>Ruined Ear</td><td>-1 on all Spy checks</td></tr>
 <tr class="r"><td>16</td><td>5.00%</td><td>6.25%</td><td>8.20%</td><td> 9.65%</td><td>13.33%</td><td>Stiffened Scars</td><td><code>CHA</code> - 1, <code>DEX</code> - 1</td></tr>
 <tr class="r"><td>17</td><td>5.00%</td><td>5.56%</td><td>7.03%</td><td> 8.02%</td><td>11.13%</td><td>Mangled Fingers</td><td>bow fingers gone</td></tr>
 <tr class="r"><td>18</td><td>5.00%</td><td>4.86%</td><td>5.47%</td><td> 6.17%</td><td> 8.20%</td><td>Torn Face</td><td><code>CHA</code> - 2</td></tr>
@@ -103,7 +103,7 @@ The referee might rule the character surviving a _mortally wounded_ episode will
 | 54-57 | ~~Missing Hand~~, `DEX` - 2                             |
 | 58-59 | ~~Missing Leg~~, `DEX` - 4, movement reduced to 10 feet |
 | 60-64 | ~~Ripped Muscle~~, `STR` - 2                            |
-| 65-68 | ~~Ruined Ear~~, -1 on all Notice checks                 |
+| 65-68 | ~~Ruined Ear~~, -1 on all Spy checks                    |
 | 69-72 | ~~Shattered Elbow~~, `DEX` - 2, costs the use of an arm |
 | 73-77 | ~~Skull-Cracked~~, `INT` - 2                            |
 | 78-81 | ~~Smashed Ribs~~, `CON` - 2                             |

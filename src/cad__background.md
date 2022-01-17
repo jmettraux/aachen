@@ -28,7 +28,7 @@ Aachen targets Europa between 700 and 1100 AD. The Empire receded in far Byzanti
 
 [^1]
 
-The background is determined by rolling 1d6, or by choosing one in accord with the referee. A player may also want to come up with their own background, giving it a name and three skills. For example, a `Mountebank` background that grants _Convince_, _Exert_, and _Perform_.
+The background is determined by rolling 1d6, or by choosing one in accord with the referee. A player may also want to come up with their own background, giving it a name and three skills. For example, a `Mountebank` background that grants _Talk_, _Exert_, and _Perform_.
 
 
 ## Applying the Background
@@ -112,9 +112,9 @@ Character with Backgrounds tagged _learning advantage_ get an advantage when rol
 |                  |  3 | +2 Physical |  3 | Connect     |
 | **Quick Skills** |  4 | +2 Mental   |  4 | Exert       |
 | Hunt             |  5 | Exert       |  5 | Hunt        |
-| Any Fighter      |  6 | Any Skill   |  6 | Notice      |
+| Any Fighter      |  6 | Any Skill   |  6 | Spy         |
 |                  |    |             |  7 | Sneak       |
-|                  |    |             |  8 | Convince    |
+|                  |    |             |  8 | Talk        |
 
 ### Wanderer
 
@@ -130,8 +130,8 @@ An outlaw or an unprotected foreigner. At some point the character "branched out
 | Work             |  2 | +2 Physical |  2 | Any Skill   |
 |                  |  3 | +2 Physical |  3 | Connect     |
 | **Quick Skills** |  4 | +2 Any Abi  |  4 | Craft       |
-| Sneak            |  5 | Exert       |  5 | Exert       |
-| Exert            |  6 | Any Skill   |  6 | Notice      |
+| Scout            |  5 | Exert       |  5 | Exert       |
+| Exert            |  6 | Any Skill   |  6 | Scout       |
 |                  |    |             |  7 | Sneak       |
 |                  |    |             |  8 | Work        |
 
@@ -170,7 +170,7 @@ A free woman or man born in a family owning enough land to support itself.
 | **Quick Skills** |  4 | +2 Mental   |  4 | Trade      |
 | Trade            |  5 | Exert       |  5 | Know       |
 | Connect          |  6 | Any Skill   |  6 | Administer |
-|                  |    |             |  7 | Convince   |
+|                  |    |             |  7 | Talk       |
 |                  |    |             |  8 | Work       |
 
 ### Artisan ~~(learning advantage)~~
@@ -187,9 +187,9 @@ Born in an artisan family, son or daughter of a master or journeyman or born els
 | Pray             |  2 | +2 Physical |  2 | Connect   |
 |                  |  3 | +2 Mental   |  3 | Craft     |
 | **Quick Skills** |  4 | +2 Mental   |  4 | Know      |
-| Convince         |  5 | Connect     |  5 | Perform   |
+| Talk             |  5 | Connect     |  5 | Perform   |
 | Know             |  6 | Any Skill   |  6 | Pray      |
-|                  |    |             |  7 | Convince  |
+|                  |    |             |  7 | Talk      |
 |                  |    |             |  8 | Work      |
 
 ### Religious ~~(learning advantage)~~ [^3]

@@ -73,7 +73,7 @@ Those in swift movement risk surprise whenever their movement carries them into 
 
 Those in running movement are always surprised whenever they encounter others.
 
-If surprise is uncertain, let the concealed or discovered party's most stealthy character make a DEX/Stealth skill check and the discovering party's most keen-eyed member make a WIS/Notice skill check. If the concealed party beats the discovering party, then they surprise them. It is conceivably possible that both groups might be surprised in some situations. In that case, let both groups make WIS/Notice checks against a difficulty 9, and any who lose are surprised.
+If surprise is uncertain, let the concealed or discovered party's most stealthy character make a DEX/Stealth skill check and the discovering party's most keen-eyed member make a WIS/Scout skill check. If the concealed party beats the discovering party, then they surprise them. It is conceivably possible that both groups might be surprised in some situations. In that case, let both groups make WIS/Scout checks against a difficulty 9, and any who lose are surprised.
 
 A group that is surprised loses a full round of action to their ambushers. Once their foes have taken a round of action, Initiative is rolled as normal and the encounter progresses. let the referee not forget the Reaction Roll for encounters, but remember that a hungry foe who has won surprise on the adventuring party may be that much more inclined to leap immediately into the fray.
 

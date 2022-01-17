@@ -20,10 +20,10 @@ A skill check is generally done when there is time pressure or opposition. Else 
 Here are a few examples of skill check adjudications:
 
 Sneaking
-: 1d20 + _Sneak_ ≥ `EVA TC` ~~or~~
-: 1d20 + _Sneak_ ≥ opponent's 1d20 + _Notice_ ~~or~~
-: 1d20 + _Sneak_ ≥ opponent's `WIS` (**not** `WIS TC`) ~~or~~
-: 1d20 + _Sneak_ ≥ static `DC`
+: 1d20 + _Scout_ ≥ `EVA TC` ~~or~~
+: 1d20 + _Scout_ ≥ opponent's 1d20 + _Spy_ ~~or~~
+: 1d20 + _Scout_ ≥ opponent's `WIS` (**not** `WIS TC`) ~~or~~
+: 1d20 + _Scout_ ≥ static `DC`
 
 Obtaining a discount
 : 1d20 + _Trade_ ≥ `INT TC` ~~or~~

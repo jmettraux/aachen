@@ -44,9 +44,9 @@ A trait is a qualifier, for example a character might be `Lucky`. A trait may be
 <!-- <div.trait> -->
 
 ### Deceitful `WIS TC` **11**
-* Once per scene, as an instant action, a missed _Sneak_ or _Convince_ check can be turned into a success
-* As per · and the character has a +1 on _Sneak_ and _Convince_ checks aimed at deception
-* As per · and the character has advantage on _Sneak_ and _Convince_ checks aimed at deception
+* Once per scene, as an instant action, a missed _Scout_ check can be turned into a success
+* As per · and the character has a +1 on _Scout_ checks aimed at deception
+* As per · and the character has advantage on _Scout_ checks aimed at deception
 
 <!-- </div> -->
 
@@ -228,9 +228,9 @@ A trait is a qualifier, for example a character might be `Lucky`. A trait may be
 <!-- <div.trait> -->
 
 ### Watchful `WIS TC` **11**
-* +1 to _Notice_ checks
-* +2 to _Notice_ checks
-* Advantage on _Notice_ checks
+* +1 to _Spy_ checks
+* +2 to _Spy_ checks
+* Advantage on _Spy_ checks
 
 <!-- </div> -->
 

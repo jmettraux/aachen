@@ -51,18 +51,10 @@ Mental Save
 For example:
 
 * 1d20 + _Feel_ ≥ `Men TC` for a `Caster` to detect and prevent a magical effect
-* 1d20 + _Notice_ ≥ `Eva TC` for a character to dodge an arrow trap
+* 1d20 + _Spy_ ≥ `Eva TC` for a character to dodge an arrow trap
 * 1d20 + Level ≥ `Phy TC` to lower the effect of a poison
 * 1d20 + 0 ≥ `Men TC` 
 * ...
 
 A saving throw is a kind of skill check against a save `TC`. The referee might grant advantage or disadvantage as well.
-
-<!--
-The modifier might be the character level, or a skill like _Exert_, _Pray_, _Feel_, _Notice_, etc. Like the Save TC it is determined by the referee, but player suggestions are welcome. The referee might also decide that a modifier is not applicable (+0).
-
-The description of the power or ability being saved against generally dictates the effect of a successful save (effect nullified or attenuated).
-
-A save roll may be considered a skill check against a save `TC`.
--->
 

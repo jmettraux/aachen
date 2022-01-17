@@ -575,8 +575,8 @@ div('.left.subgrid', 1, 1) do
 
     j = 0
     %w{
-      Administer Connect #Craft Exert Heal Hunt #Know Lead #Notice
-      Perform Pray Read Ride Sail #Sneak Scout Survive Swim Talk Trade
+      Administer Build Connect #Craft Exert Heal Hunt #Know Lead #Notice
+      Perform Pray Read Ride Sail #Sneak Scout Spy Survive Swim
     }
       .select { |k|
         k[0, 1] != '#' }
@@ -596,12 +596,12 @@ div('.left.subgrid', 1, 1) do
       .each_with_index { |s, i| div('.skill-note', s, 3, 8 + i, 3, 1) }
 
     %w{
+      Talk
+      Trade
       Work
       #---
       _Craft
       _Know
-      _
-      _
       _
       ---
       ---

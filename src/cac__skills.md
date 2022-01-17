@@ -64,11 +64,14 @@ Soak
 Administer
 : To manage land and laborers, or a workshop, its journeyfolk and apprentices.
 
-Connect
-: To connect with people, to ascertain the dynamics of groups and communities.
+Build
+: To build structures, to appraise such structures (traps and anomalies?).
 
 <!-- </div.left-column> -->
 <!-- <div.right-column> -->
+
+Connect
+: To connect with people, to ascertain the dynamics of groups and communities.
 
 Craft
 : To craft or repair goods.
@@ -106,6 +109,9 @@ Sail
 
 Scout
 : To gather information, unnoticed.
+
+Spy
+: to observe, to notice.
 
 Survive
 : To mitigate environmental hazards, to identify plants and wildlife, to craft basic survival tools and shelter.
