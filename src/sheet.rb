@@ -97,8 +97,10 @@ border: 1px solid grey;
     width: 100%;
     height: 100%;
     place-items: center;
+    /*
     grid-template-columns:
-      #{hs.cs} 0.7rem #{hs.cs} 6.0rem #{hs.cs} 0.7rem #{hs.cs} auto;
+      #{hs.cs} 0.2rem #{hs.cs} 5.6rem #{hs.cs} 0.2rem #{hs.cs} auto;
+    */
   }
 
   .a-label {
@@ -124,8 +126,9 @@ border: 1px solid grey;
 
   .save-label {
     padding-left: 0.1rem;
-    justify-self: left;
+    justify-self: center;
     align-self: start;
+    font-size: 70%;
   }
   .learning-label {
     writing-mode: vertical-rl;
@@ -139,6 +142,10 @@ border: 1px solid grey;
   .ini-label {
     align-self: start;
     text-align: center;
+  }
+  .ini2 {
+    font-size: 80%;
+    color: grey;
   }
 
   .ability-circle {
@@ -155,7 +162,7 @@ border: 1px solid grey;
     width: #{hs.circle_side};
     height: #{hs.circle_side};
     border-radius: #{hs.circle_side};
-    border: #{hs.border_width} solid grey;
+    border: #{hs.border_width} solid lightgrey;
     background-color: white;
     z-index: 10;
     grid-row-end: span 2;
@@ -311,6 +318,15 @@ border: 1px solid grey;
     width: 4.9rem;
   }
 
+  .conf-cell.attack {
+    position: relative;
+  }
+  .conf-cell.attack .plus {
+    position: absolute;
+    top: 1.9rem;
+    left: 0.4rem;
+  }
+
   /* SKILL GRID */
 
   .skill-grid {
@@ -378,6 +394,7 @@ border: 1px solid grey;
   /* misc */
 
   .bold { font-weight: bold; }
+  span.mean { font-size: 90%; }
 
 }.strip
 
@@ -462,64 +479,89 @@ div('.left.subgrid', 1, 1) do
 
   div('.ability-grid', 2, 1) do
 
-    div('.save-circle.sq', 1, 8)
-    div('.ini-label', 1, 10, 1, 2, 'INI<br/>tiative')
+    #div('.save-circle.sq', 1, 8)
+    #div('.ini-label', 1, 10, 1, 2, 'INI<br/>tiative')
+    #div('.line.lup35', 2, 8)
+    #div('.line.ldown35', 2, 8)
 
-    div('.line.lup35', 2, 8)
-    div('.line.ldown35', 2, 8)
+    div('.a-label', 1, 1, '3d6')
+    div('.a-label', 3, 1, 'Ability TCs')
+    div('.a-label', 5, 1, 'Save/Mean TCs', 5)
+    div('.a-label', 10, 1, 'DEX<span class="mean">×</span>WIS')
 
-    div('.a-label', 3, 1, '3d6')
-    div('.a-label', 5, 1, 'Ability TC')
-    div('.a-label', 7, 1, 'Save TC')
+    div('.a-label', 1, 14, 'Abi')
+    div('.a-label', 3, 14, '21 - Abi')
+    div('.a-label', 5, 14, 'mean+', 5)
 
-    div('.a-label', 1, 14, 'mean-')
-    div('.a-label', 3, 14, 'Abi')
-    div('.a-label', 5, 14, '21 - Abi')
-    div('.a-label', 7, 14, 'mean+', 2)
+    div('.ability-circle.clgrey.sq', 1, 2)
+    div('.ability-circle.clgrey.sq', 1, 4)
+    div('.ability-circle.clgrey.sq', 1, 6)
+    div('.ability-circle.clgrey.sq', 1, 8)
+    div('.ability-circle.clgrey.sq', 1, 10)
+    div('.ability-circle.clgrey.sq', 1, 12)
 
-    div('.ability-circle.clgrey.sq', 3, 2)
-    div('.ability-circle.clgrey.sq', 3, 4)
-    div('.ability-circle.clgrey.sq', 3, 6)
-    div('.ability-circle.clgrey.sq', 3, 8)
-    div('.ability-circle.clgrey.sq', 3, 10)
-    div('.ability-circle.clgrey.sq', 3, 12)
+    div('.ability-label', 2, 2, 1, 2, '<b>STR</b>ength')
+    div('.ability-label', 2, 4, 1, 2, '<b>CON</b>stitution')
+    div('.ability-label', 2, 6, 1, 2, '<b>DEX</b>terity')
+    div('.ability-label', 2, 8, 1, 2, '<b>INT</b>elligence')
+    div('.ability-label', 2, 10, 1, 2, '<b>WIS</b>dom')
+    div('.ability-label', 2, 12, 1, 2, '<b>CHA</b>risma')
 
-    div('.ability-label', 4, 2, 1, 2, '<b>STR</b>ength')
-    div('.ability-label', 4, 4, 1, 2, '<b>CON</b>stitution')
-    div('.ability-label', 4, 6, 1, 2, '<b>DEX</b>terity')
-    div('.ability-label', 4, 8, 1, 2, '<b>INT</b>elligence')
-    div('.ability-label', 4, 10, 1, 2, '<b>WIS</b>dom')
-    div('.ability-label', 4, 12, 1, 2, '<b>CHA</b>risma')
+    div('.ability-circle', 3, 2)
+    div('.ability-circle', 3, 4)
+    div('.ability-circle', 3, 6)
+    div('.ability-circle', 3, 8)
+    div('.ability-circle', 3, 10)
+    div('.ability-circle', 3, 12)
 
-    div('.ability-circle', 5, 2)
-    div('.ability-circle', 5, 4)
-    div('.ability-circle', 5, 6)
-    div('.ability-circle', 5, 8)
-    div('.ability-circle', 5, 10)
-    div('.ability-circle', 5, 12)
-
-    div('.line.ldown', 6, 2)
-    div('.line.lup', 6, 4)
-    div('.line.ldown', 6, 6)
-    div('.line.lup', 6, 8)
-    div('.line.lup.learning', 6, 6, 2) # dexwis
-    div('.line.ldown.learning', 6, 8, 2)
-    div('.line.lup.learning', 6, 10, 2)
-    div('.line.ldown', 6, 10)
-    div('.line.lup', 6, 12)
+    div('.save-circle', 5, 4)
+    div('.save-circle', 5, 10)
+    div('.save-label', 5, 6, 1, 2, 'Body')
+    div('.save-label', 5, 12, 1, 2, 'Soul')
 
     div('.save-circle', 7, 3)
     div('.save-circle', 7, 7)
-    div('.save-circle.clgrey', 8, 5) # dexwis
-    div('.save-circle.clgrey', 8, 9) # learning
     div('.save-circle', 7, 11)
+    div('.save-label', 7, 5, 1, 2, 'Physical')
+    div('.save-label', 7, 9, 1, 2, 'Evasion')
+    div('.save-label', 7, 13, 1, 2, 'Mental')
 
-    div('.save-label', 8, 3, 1, 2, 'Physical')
-    div('.save-label', 8, 7, 1, 2, 'Evasion', style: 'align-self: center')
-    div('.save-label', 8, 11, 1, 2, 'Mental', style: 'align-self: end')
+    #div('.save-label', 11, 5, 'DXWI')
+    #div('.save-circle', 11, 7)
+    div('.save-circle', 9, 9)
+    div('.save-label', 9, 11, 1, 2, 'Learning')
 
-    div('.learning-label', 9, 5, 1, 2, 'dex / wis<br/>TC')
-    div('.learning-label', 9, 9, 1, 2, 'learning<br/>TC')
+    div('.save-circle.sq', 10, 2)
+    div('.ini-label', 10, 4, 1, 4) {
+      span('.ini', 'INI<br/>tiative<br/><span class')
+      span('.ini2', '(mean-)')
+    }
+
+    div('.save-circle', 10, 8)
+    div('.save-label', 10, 10, 1, 2, 'Impulse')
+
+    #div('.line.ldown', 6, 2)
+    #div('.line.lup', 6, 4)
+    #div('.line.ldown', 6, 6)
+    #div('.line.lup', 6, 8)
+    #div('.line.lup.learning', 6, 6, 2) # dexwis
+    #div('.line.ldown.learning', 6, 8, 2)
+    #div('.line.lup.learning', 6, 10, 2)
+    #div('.line.ldown', 6, 10)
+    #div('.line.lup', 6, 12)
+
+    #div('.save-circle', 7, 3)
+    #div('.save-circle', 7, 7)
+    #div('.save-circle.clgrey', 8, 5) # dexwis
+    #div('.save-circle.clgrey', 8, 9) # learning
+    #div('.save-circle', 7, 11)
+
+    #div('.save-label', 8, 3, 1, 2, 'Physical')
+    #div('.save-label', 8, 7, 1, 2, 'Evasion', style: 'align-self: center')
+    #div('.save-label', 8, 11, 1, 2, 'Mental', style: 'align-self: end')
+
+    #div('.learning-label', 9, 5, 1, 2, 'dex / wis<br/>TC')
+    #div('.learning-label', 9, 9, 1, 2, 'learning<br/>TC')
   end
 
   div('.skill-grid', 2, 2) do
