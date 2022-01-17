@@ -33,38 +33,23 @@ Roll 2 series of 6 × 3d6; pick best of the 2 series; assign the 6 numbers at wi
 <!-- clear -->
 
 
-## Compute Ability TCs
+## Compute Initiative Modifier
 
-For each ability, compute its `TC` (target class). `ABI TC` = 21 - `ABI`.
-
-
-## Compute Save TCs and Initiative mod
-
-<!-- .saves -->
-| Save     | Against                                    | Score |
-|----------|--------------------------------------------|-------|
-| Physical | poison, disease, or exhaustion             | mean of `STR TC` and `CON TC`, round up |
-| Evasion  | magical effects, illusions, or temptations | mean of `DEX TC` and `INT TC`, round up |
-| Mental   | sudden explosions, sudden pits or perils   | mean of `WIS TC` and `CHA TC`, round up |
-
-The _INItiative modifier_ is equal to the mean of `DEX` and `WIS` rounded down.
-
-The _learning TC_ is equal to the mean of `INT` and `WIS` rounded up.
+The INItiative modifier is added to 1d20 when determining initiative rank at the beginning of a combat. It is equal to (`DEX` + `WIS`) / 2, rounding down (Ability scores, not their TCs).
 
 
-## Example
+## Compute Save/Mean TCs
 
-<!-- .example -->
-| Ability | Score | TC               | Save         | TC |
-|:-------:|:-----:|:----------------:|:------------:|:--:|
-| `STR`   |     7 | 21 -  7 = **14** |              |    |
-| `CON`   |     7 | 21 -  7 = **14** | **Physical** | (14 + 14) / 2 = **14** |
-| `DEX`   |    15 | 21 - 15 =  **6** |              |                        |
-| `INT`   |     9 | 21 -  9 = **12** | **Evasion**  | (6 + 12) / 2 = **9**   |
-| `WIS`   |    14 | 21 - 14 =  **7** |              |                        |
-| `CHA`   |     7 | 21 -  7 = **14** | **Mental**   | (7 + 14) / 2 = **11**  |
+<!-- .save-mean -->
+| TC    | Use                 | Score (round up) |
+|-------|---------------------|-------|
+| Body  | Physical challenges | (`STR TC` + `CON TC` + `DEX TC`) / 3 |
+| Soul  | Mental challenges   | (`INT TC` + `WIS TC` + `CHA TC`) / 3 |
+| Physical | Against poison, disease, or exhaustion | (`STR TC` + `CON TC`) / 2 |
+| Evasion  | Against sudden perils                 | (`DEX TC` + `INT TC`) / 2 |
+| Mental   | Against spells, charms, or illusions  | (`WIS TC` + `CHA TC`) / 2 |
+| Learning | When acquiring new skills or feats    | (`INT TC` + `WIS TC`) / 2 |
+| Impulse  | Checking instictive reactions         | (`DEX TC` + `WIS TC`) / 2 |
 
-Initiative modifier = mean- of `DEX` and `WIS` = (15 + 14) / 2 = **14**
-
-Learning TC = mean+ of `INT TC` and `WIS TC` = (12 + 7) / 2 = **10**
+_Evasion_ and _Impulse_ might seem interchangeable. _Impulse_ should be used over _Evasion_ when "gut feeling" is involved.
 

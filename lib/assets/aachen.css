@@ -538,35 +538,27 @@ table.social-class th:nth-child(1) {
 [data-aa-title="abilities"] table.abilities td:nth-child(3) {
   font-size: var(--size-b);
 }
-
-[data-aa-title="abilities"] h2 {
-  margin-bottom: 1rem;
-}
-
-[data-aa-title="abilities"] p {
-  text-indent: 0;
-}
-
-[data-aa-title="abilities"] table.example {
-  margin-top: 1rem;
-  line-height: 0.5;
-}
-[data-aa-title="abilities"] table.example tr:nth-child(2n) td {
+[data-aa-title="abilities"] table.abilities tr:nth-child(3) td {
   border-bottom: solid thin #c0c0c0;
 }
 
-[data-aa-title="abilities"] table.example + p {
-  margin-top: 1rem;
+[data-aa-title="abilities"] h2 {
+  /*
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+  */
 }
 
-/*
-[data-aa-title="abilities"] table.saves td:nth-child(2),
-[data-aa-title="abilities"] table.saves td:nth-child(3) {
+[data-aa-title="abilities"] table.save-mean {
+  margin-bottom: 1.5rem;
+}
+[data-aa-title="abilities"] table.save-mean td:nth-child(3) {
+  text-align: center;
   font-size: var(--size-b);
 }
-*/
-[data-aa-title="abilities"] table.saves + p {
-  margin-top: 1rem;
+[data-aa-title="abilities"] table.save-mean tr:nth-child(2) td,
+[data-aa-title="abilities"] table.save-mean tr:nth-child(5) td {
+  border-bottom: solid thin #c0c0c0;
 }
 
 #combat_skills {

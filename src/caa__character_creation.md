@@ -23,18 +23,11 @@ Level
 : Compute `STR TC`, `DEX TC`, `CON TC`, `INT TC`, `WIS TC`, and `CHA TC` where `XXX TC` = 21 - `XXX`;
 : For example if `STR` is 17 then `STR TC` is 21 - 17 thus 4.
 
-~~p4~~Saves
-: Compute the saving throw scores;
-: `Physical` = mean of `STR TC` and `CON TC`, round up;
-: `Evasion` = mean of `DEX TC` and `INT TC`, round up;
-: `Mental` = mean of `WIS TC` and `CHA TC`, round up.
+~~p4~~Save/Mean TCs
+: Compute the Save/Mean TCs, combinations of Ability TCs (mean rounded up).
 
-[^1]:
-  Round down for a `TC`, else round up
-
-~~p4~~INI and Learning [^1]
-: INI mod = mean of (`DEX` and `WIS`), round down;
-: Learning mod = mean of `INT TC` and `WIS TC`, round up.
+~~p4~~INI [^1]
+: INI mod = mean of (`DEX` and `WIS`), round down.
 
 ~~p6-7~~Background
 : Determine the background of the character;
@@ -71,4 +64,8 @@ Level
 
 ~~p14-15~~Equipment
 : Determine the equipment of the character with the referee.
+
+
+[^1]:
+  Round down for a `TC`, else round up
 
