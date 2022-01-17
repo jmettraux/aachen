@@ -297,10 +297,6 @@ border: 1px solid grey;
     padding-left: 0.5rem;
   }
 
-  .conf-cell.damage img {
-    transform: rotate(270deg);
-  }
-
   .conf-cell .input {
     width: 3rem;
     display: inline-block;
@@ -369,6 +365,14 @@ border: 1px solid grey;
     padding-right: 0.2rem;
     text-align: center;
     border-bottom: 3px solid white;
+  }
+
+  img.atk {
+    /*height: 4.2rem;*/
+    transform: rotate(270deg);
+  }
+  img.dmg {
+    /*height: 4.2rem;*/
   }
 
   /* misc */
@@ -659,8 +663,10 @@ div('.right.subgrid', 2, 1) do
       end
       div('.conf-cell.weapon', 2, y) { span('.input', '') }
       div('.conf-cell.range', 3, y) { span('.input', '') }
-      div('.conf-cell.attack', 4, y) { img('.atk', src: 'cross.svg') }
-      div('.conf-cell.damage', 5, y) { img('.uhp', src: 'heart.svg') }
+      div('.conf-cell.attack', 4, y) {
+        span('.plus', '+'); img('.atk', src: 'triangle.svg') }
+      div('.conf-cell.damage', 5, y) {
+        img('.dmg', src: 'hex.svg') }
     end
   end
 
