@@ -354,6 +354,7 @@ border: 1px solid grey;
     width: #{hs.box_width};
     height: #{hs.box_height};
     margin-bottom: 1px;
+    position: relative;
   }
   .skill-box.attack {
     border-color: black;
@@ -362,6 +363,9 @@ border: 1px solid grey;
     content: '+';
     color: grey;
     display: inline-block;
+    position: absolute;
+    top: -0.1rem;
+    left: 0;
   }
   .skill-note {
     font-size: 11pt;
