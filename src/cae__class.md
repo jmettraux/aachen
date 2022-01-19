@@ -20,9 +20,16 @@ Adventurers are probably travellers, pilgrims, traders, vagabonds, gyrovagues, o
 
 Each class is presented with a table detailing the count of each item an adventurer get upon levelling up. Character creation counts as levelling up (to 1st level).
 
+[^1]
+
 Before rolling for count, roll a d20 against the given `TC`, if successful then the count dice is rolled twice with the best result kept (like when rolling with advantage). For example, a fighter successfully rolling 1d20 against their `CON TC` may roll 2d8 pick the best and add 3 to determine their new HP max.
 
 Traits are a bit different. A character receives _attempts_, they can be used to acquire a trait or to enhance it (from _regular_, to _very_, to _highly_). An attempt is a roll against the trait given `TC`, if successful the trait is acquired or enhanced, else too bad.
+
+[^1]:
+  Option:
+
+  to speed things up, instead of advantage, on TC check success get the max, else the min.
 
 <!-- clear -->
 
