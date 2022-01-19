@@ -115,6 +115,15 @@ A trait is a qualifier, for example a character might be `Lucky`. A trait may be
 
 <!-- <div.trait> -->
 
+### Marking `IMP TC` **11**
+* +1 damage for ranged attacks
+* +2 damage for ranged attacks
+* add skill modifier to damage for ranged attacks
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
 ### Safe `DEX TC` **11**
 * Recompute a save TC: instead of the mean, select the best of the two Abi TCs
 * As per · for another save TC
@@ -174,15 +183,6 @@ A trait is a qualifier, for example a character might be `Lucky`. A trait may be
 
 <!-- </div> -->
 
-<!-- <div.trait> -->
-
-### Swerving `PHY TC` **11**
-* Once per scene, as an instant action, a successful attack against the character can be negated
-* As per · or a missed attack by the character can be made to succeed
-* As per ··, twice per scene
-
-<!-- </div> -->
-
 
 <!-- PAGE BREAK traits -->
 
@@ -197,6 +197,15 @@ A trait is a qualifier, for example a character might be `Lucky`. A trait may be
 * Name
 * Equipment
 
+
+<!-- <div.trait> -->
+
+### Swerving `PHY TC` **11**
+* Once per scene, as an instant action, a successful attack against the character can be negated
+* As per · or a missed attack by the character can be made to succeed
+* As per ··, twice per scene
+
+<!-- </div> -->
 
 <!-- <div.trait> -->
 
@@ -246,7 +255,7 @@ A trait is a qualifier, for example a character might be `Lucky`. A trait may be
 <script>
 
 onDocumentReady(function() {
-  var ab = [ 1, 1 ]; var max = [ 4, 6 ]
+  var ab = [ 1, 1 ]; var max = [ 4, 8 ]
   var es = document
     .querySelectorAll('section[data-aa-title="traits"] h3 strong')
   es.forEach(function(e, i) {
