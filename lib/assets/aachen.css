@@ -1129,6 +1129,7 @@ table.social-class th:nth-child(1) {
   padding-right: 0.5rem;
 }
 
+/*
 [data-aa-title="spell list"] .text-block {
   display: flex;
   flex-direction: column;
@@ -1177,6 +1178,7 @@ table.social-class th:nth-child(1) {
   text-indent: 0;
   margin-bottom: 0.3rem;
 }
+*/
 
 [data-aa-title="rchecks"] h1 {
   margin-top: 0;

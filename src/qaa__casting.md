@@ -2,8 +2,8 @@
 <!-- .margin.compass -->
 * _Playing a Caster_
 * **Spellcasting**
-* Spell types
-* Spell list
+* Spells
+* Spell colours
 
 
 # Spellcasting
@@ -17,36 +17,32 @@ Casting Points[^1]
 : After a not so good night rest, casters go back to half the CP max rounded up;
 : Casters may temporarily accumulate more CP than their CP max;
 : As an instant action, casters may at any moment convert one or more of their remaining HPs to CPs;
-: As an instant action, casters may accept becoming ~~frail~~ (see Health) to gain _character level_ × d4 CPs.
+: As an instant action, casters may turn 1 `CON` point into 1d8 CPs.
 
 Casting Cost
 : Casting a spell costs a main action and at least 1 CP;
 : Spells scale with the CPs invested in them;
 : Casters may not invest more CPs than their current CP count.
 
-Casting Roll[^2]
-: _attribute modifier_ is `INT`m (book smart), `WIS`m (street smart), or `CHA`m (force of will);
-: The same _att modifier_ cannot be used twice in a row in the same scene;
-: ~~2d6 + `Cast` + _att modifier_~~ ≥ **8** to succeed;
-: Casters who incur damage in the combat round before casting do roll at disadvantage (3d6, 2 worse dice);
+Casting Roll
+: The referee and the caster player determine which magic skill (_Weave_, _Feel_, _Seize_, _Soak_, or _Mutate_) and which of the caster's abilities are involved;
+: The roll is 1d20 + _Magic Skill_ ≥ _Caster Ability_;
+: Casters who incur damage in the combat round right before casting roll with disadvantage;
 : If the roll fails, the spell peters out;
 : Success or failure, invested CPs are consumed and gone.
 
 Casting at ~~Risk~~
 : Casters may accept a risk in order to gain 1 extra CP to invest;
 : Still, at least 1 CP must be invested;
-: If the casting roll fails with a double 1, the spell peters out as expected, the CPs are consumed, but 1d6 extra HPs have to be paid;
+: If the casting roll fails with a 1, the spell peters out as expected, the CPs are consumed, but 1d6 extra HPs have to be paid;
 : Friends and/or foes within 5ft must bear the extra HP cost;
-: The caster must endure at least 1 of the extra HP (they may pay in CP though).
+: The caster must endure at least 1 of the extra HPs (they may pay in CP though).
 
 After Cast
 : Casters who converted all their HPs to CPs to cast fall inconscious right after the the cast, successful or not.
 
 [^1]:
   Using two sort of coins for HPs and CPs make point management easy and tactile.
-
-[^2]:
-  Maybe the referee will want to simplify things and let casters use the same modifier over and over.
 
 <!--
 ## known spells
