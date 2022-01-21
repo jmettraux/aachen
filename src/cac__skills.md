@@ -15,7 +15,7 @@
 
 # Skills
 
-Skills are expressed from 0 to 10 or 20. That value is used as a d20 modifier against an Ability TC, a Save TC, or an AC.
+Skills are expressed from 0 to 10 or 20. That value is used as a d20 modifier against an Ability TC, a Save TC, an arbitrary DC, or an AC.
 
 When a character acquires a skill, they start at +0. If a character has not been exposed to the skills, they have a default -2.
 
@@ -23,7 +23,8 @@ A character may have at most a `level + 1` skill score.
 
 Skills are divided between Fighter skills **F**, Magic skills **M**, and General skills **G**.
 
-## Fighter Skills [^1]
+
+## Fighter Skills
 
 Bows / Crossbows / Slings / Javelins / Throw
 : Shoot with a given type of ranged weapon (or throw a rock).
@@ -39,10 +40,6 @@ Shield
 
 Dodge
 : To avoid hits and projectiles.
-
-[^1]:
-  Seax → `Swords`<br/>
-  Dagger → `Knives`
 
 
 ## Magic Skill
@@ -132,7 +129,7 @@ Trade
 : To buy and sell advantageously, to value goods correctly, to deal with traders and merchants.
 
 Craft
-: There are many crafts, TODO
+: One of the many crafts of the era.
 
 Know
 : Grammar, logic, rhetoric, then arithmetic, geometry, music, astronomy.
@@ -169,3 +166,15 @@ Know
 <!-- </div.right-column> -->
 <!-- </div.two-columns> -->
 
+<script>
+
+onDocumentReady(function() {
+  document
+    .querySelectorAll('section[data-aa-title="skills"] dt')
+    .forEach(function(e) {
+      if ( ! (e.textContent === 'Craft' || e.textContent === 'Know')) return;
+      e.classList.add('generic');
+    });
+});
+
+</script>

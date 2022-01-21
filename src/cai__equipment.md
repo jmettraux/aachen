@@ -177,32 +177,32 @@ Monetary exchange is at its worse but people and organizations are still in the 
 ## melee weapons
 
 <!-- .weapons.melee -->
-| Name             | STR ≥ | Damage | Flags  | Value | Value d |
-|------------------|:-----:|:------:|:------:|:-----:|--------:|
-| Axe              |     7 |    1d6 | T      |    6s |     72d |
-| Axe, war         |     9 |   1d10 | 2H     |    9s |    108d |
-| Club             |       |    1d4 | T, LL  |       |         |
-| Club, large      |     7 |   1d10 | 2H     |       |         |
-| Dagger           |       |    1d4 | S, T   |    2s |     24d |
-| Halberd *        |     7 |   1d10 | L      |    5s |     60d |
-| Hammer, war      |     8 |    1d8 |        |    8s |     96d |
-| Hammer, great    |     9 |   1d10 | 2H     |   10s |    120d |
-| Hatchet          |       |    1d4 |        |    1s |     12d |
-| Javelin          |       |    1d6 | T      |    5s |     60d |
-| Knife            |       |    1d4 |        |    1s |     12d |
-| Mace             |       |    1d6 | LL     |    7s |     84d |
-| Pike             |     7 |    1d8 | 2H, L  |    5s |     60d |
-| Quarterstaff     |       |    1d6 | 2H, LL |       |         |
-| Seax             |       |    1d6 |        |    2s |     24d |
-| Spear, broad     |       |    1d8 |        |    6s |     72d |
-| Spear, heavy     |     7 |   1d10 | 2H     |    7s |     84d |
-| Sword, short     |       |    1d6 |        |   10s |    120d |
-| Sword, long      |       |    1d8 |        |    1L |    240d |
-| Sword, great     |     7 |   1d12 | 2H     |    2L |    480d |
-| &nbsp;           |       |        |        |       |         |
-| Shield bash S    |       |    1d4 | LL     |       |         |
-| Shield bash L    |       |    1d6 | LL     |       |         |
-| _Unarmed attack_ |       |    1d2 | LL     |       |         |
+| Name             | Skill    | STR ≥ | Damage | Flags  | Value | Value d |
+|------------------|:--------:|:-----:|:------:|:------:|:-----:|--------:|
+| Axe              | Axes     |     7 |    1d6 | T      |    6s |     72d |
+| Axe, war         | Axes     |     9 |   1d10 | 2H     |    9s |    108d |
+| Club             | Maces    |       |    1d4 | T, LL  |       |         |
+| Club, large      | Maces    |     7 |   1d10 | 2H     |       |         |
+| Dagger           | Knives   |       |    1d4 | S, T   |    2s |     24d |
+| Halberd *        | Spears   |     7 |   1d10 | L      |    5s |     60d |
+| Hammer, war      | Maces    |     8 |    1d8 |        |    8s |     96d |
+| Hammer, great    | Maces    |     9 |   1d10 | 2H     |   10s |    120d |
+| Hatchet          | Axes     |       |    1d4 |        |    1s |     12d |
+| Javelin          | Javelins |       |    1d6 | T      |    5s |     60d |
+| Knife            | Knives   |       |    1d4 |        |    1s |     12d |
+| Mace             | Maces    |       |    1d6 | LL     |    7s |     84d |
+| Quarterstaff     | Staffs   |       |    1d6 | 2H, LL |       |         |
+| Seax             | Swords   |       |    1d6 |        |    2s |     24d |
+| Spear, broad     | Spears   |       |    1d8 | L      |    6s |     72d |
+| Spear, heavy     | Spears   |     7 |   1d10 | 2H, L  |    7s |     84d |
+| Sword, short     | Swords   |       |    1d6 |        |   10s |    120d |
+| Sword, long      | Swords   |       |    1d8 |        |    1L |    240d |
+| Sword, great     | Swords   |     7 |   1d12 | 2H     |    2L |    480d |
+| &nbsp;           |          |       |        |        |       |         |
+| &nbsp;           |          |       |        |        |       |         |
+| Shield bash S    | Shields  |       |    1d4 | LL     |       |         |
+| Shield bash L    | Shields  |       |    1d6 | LL     |       |         |
+| _Unarmed attack_ | Punch/Grapple |  |    1d2 | LL     |       |         |
 
 [^1]
 

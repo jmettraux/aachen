@@ -108,13 +108,13 @@ Character with Backgrounds tagged _learning advantage_ get an advantage when rol
 | 1                | d6 | Growth      | d8 | Learning    |
 |------------------|---:|:-----------:|---:|:-----------:|
 | **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Fighter |
-| Exert            |  2 | +2 Physical |  2 | Any Skill   |
-|                  |  3 | +2 Physical |  3 | Connect     |
+| Gather           |  2 | +2 Physical |  2 | Any Skill   |
+|                  |  3 | +2 Physical |  3 | Perform     |
 | **Quick Skills** |  4 | +2 Mental   |  4 | Exert       |
-| Hunt             |  5 | Exert       |  5 | Hunt        |
+| Hunt             |  5 | Hunt        |  5 | Hunt        |
 | Any Fighter      |  6 | Any Skill   |  6 | Spy         |
-|                  |    |             |  7 | Sneak       |
-|                  |    |             |  8 | Talk        |
+|                  |    |             |  7 | Scout       |
+|                  |    |             |  8 | Negotiate   |
 
 ### Wanderer
 
@@ -127,13 +127,13 @@ An outlaw or an unprotected foreigner. At some point the character "branched out
 | 2                | d6 | Growth      | d8 | Learning    |
 |------------------|---:|:-----------:|---:|:-----------:|
 | **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Fighter |
-| Work             |  2 | +2 Physical |  2 | Any Skill   |
-|                  |  3 | +2 Physical |  3 | Connect     |
-| **Quick Skills** |  4 | +2 Any Abi  |  4 | Craft       |
+| Grow             |  2 | +2 Physical |  2 | Any Skill   |
+|                  |  3 | +2 Physical |  3 | Negotiate   |
+| **Quick Skills** |  4 | +2 Any Abi  |  4 | a Craft     |
 | Scout            |  5 | Exert       |  5 | Exert       |
 | Exert            |  6 | Any Skill   |  6 | Scout       |
-|                  |    |             |  7 | Sneak       |
-|                  |    |             |  8 | Work        |
+|                  |    |             |  7 | Spy         |
+|                  |    |             |  8 | Trade       |
 
 ### Slave
 
@@ -146,13 +146,13 @@ Born into slavery or forced into it by war or debt. The character could be the s
 | 3                | d6 | Growth      | d8 | Learning    |
 |------------------|---:|:-----------:|---:|:-----------:|
 | **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Fighter |
-| Work             |  2 | +2 Physical |  2 | Any Skill   |
-|                  |  3 | +2 Physical |  3 | Connect     |
-| **Quick Skills** |  4 | +2 Mental   |  4 | Craft       |
-| Staff            |  5 | Exert       |  5 | Ride        |
+| Grow             |  2 | +2 Physical |  2 | Any Skill   |
+|                  |  3 | +2 Physical |  3 | Negotiate   |
+| **Quick Skills** |  4 | +2 Mental   |  4 | a Craft     |
+| Staffs           |  5 | Exert       |  5 | Ride        |
 | Connect          |  6 | Any Skill   |  6 | Hunt        |
 |                  |    |             |  7 | Administer  |
-|                  |    |             |  8 | Work        |
+|                  |    |             |  8 | Build       |
 
 ### Commoner
 
@@ -165,12 +165,12 @@ A free woman or man born in a family owning enough land to support itself.
 | 4                | d6 | Growth      | d8 | Learning   |
 |------------------|---:|:-----------:|---:|:----------:|
 | **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Skill  |
-| Work             |  2 | +2 Physical |  2 | Connect    |
+| Trade            |  2 | +2 Physical |  2 | Negotiate  |
 |                  |  3 | +2 Mental   |  3 | Craft      |
 | **Quick Skills** |  4 | +2 Mental   |  4 | Trade      |
-| Trade            |  5 | Exert       |  5 | Know       |
-| Connect          |  6 | Any Skill   |  6 | Administer |
-|                  |    |             |  7 | Talk       |
+| a Craft          |  5 | Exert       |  5 | Know       |
+| Negotiate        |  6 | Any Skill   |  6 | Administer |
+|                  |    |             |  7 | Read       |
 |                  |    |             |  8 | Build      |
 
 ### Artisan ~~(learning advantage)~~
@@ -184,12 +184,12 @@ Born in an artisan family, son or daughter of a master or journeyman or born els
 | 5                | d6 | Growth      | d8 | Learning  |
 |------------------|---:|:-----------:|---:|:---------:|
 | **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Skill |
-| Pray             |  2 | +2 Physical |  2 | Connect   |
+| Pray             |  2 | +2 Physical |  2 | Negotiate |
 |                  |  3 | +2 Mental   |  3 | Craft     |
 | **Quick Skills** |  4 | +2 Mental   |  4 | Know      |
-| Talk             |  5 | Connect     |  5 | Perform   |
+| Negotiate        |  5 | Negotiate   |  5 | Perform   |
 | Know             |  6 | Any Skill   |  6 | Pray      |
-|                  |    |             |  7 | Talk      |
+|                  |    |             |  7 | Hunt      |
 |                  |    |             |  8 | Work      |
 
 ### Religious ~~(learning advantage)~~ [^3]
@@ -203,12 +203,12 @@ Born in a family of priests (pagan faith) or in a family linked to a religious i
 |------------------|---:|:-----------:|---:|:-----------:|
 | **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Fighter |
 | Sword            |  2 | +2 Physical |  2 | Any Skill   |
-|                  |  3 | +2 Physical |  3 | Connect     |
+|                  |  3 | +2 Physical |  3 | Negotiate   |
 | **Quick Skills** |  4 | +2 Mental   |  4 | Trade       |
-| Lead             |  5 | Connect     |  5 | Lead        |
-| Connect          |  6 | Any Skill   |  6 | Ride        |
+| Lead             |  5 | Negotiate   |  5 | Lead        |
+| Negotiate        |  6 | Any Skill   |  6 | Ride        |
 |                  |    |             |  7 | Shield      |
-|                  |    |             |  8 | Talk        |
+|                  |    |             |  8 | Scout       |
 
 
 ### Elite ~~(learning advantage)~~

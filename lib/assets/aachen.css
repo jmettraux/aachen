@@ -641,6 +641,9 @@ table.social-class th:nth-child(1) {
   content: '·';
   padding-right: 0.3rem;
 }
+[data-aa-title="skills"] dt.generic {
+  color: grey;
+}
 
 [data-aa-title="background"] h3 {
   margin: 0;
@@ -854,7 +857,7 @@ table.social-class th:nth-child(1) {
 }
 
 [data-aa-title="equipment"] h2.list {
-  margin-top: 0.2rem;
+  margin-top: 0.5rem;
   margin-bottom: 0.2rem;
 }
 [data-aa-title="equipment"] h2#armor {
