@@ -18,6 +18,7 @@ Design Decisions:
 * few to zero exceptions, if possible introduced by traits
 * non-scholarly magic system, easily replaceable though
 * linear character advancement
+* nature : abilities, culture : skills
 
 Git Branch
 : ${GITBRA}

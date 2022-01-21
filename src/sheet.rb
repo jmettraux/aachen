@@ -80,7 +80,7 @@ border: 1px solid grey;
   }
   .right.subgrid {
     column-gap: 0.3rem;
-    grid-template-columns: 1.4rem auto 1.4rem 70%;
+    grid-template-columns: 1.4rem auto 1.4rem 66%;
   }
 
   .vlabel {
@@ -237,6 +237,18 @@ border: 1px solid grey;
     font-weight: bold;
   }
 
+  .ac-info {
+    align-self: end;
+    padding-top: 1rem;
+  }
+  .ac-top .info {
+    font-size: 70%;
+    color: grey;
+  }
+  .ac.shield {
+    align-self: end;
+  }
+
   .point-grid .hp img, .point-grid .cp img {
     height: 4.2rem;
   }
@@ -247,7 +259,7 @@ border: 1px solid grey;
   .point-grid .ac.info {
     font-size: 70%;
     color: grey;
-    align-self: start;
+    align-self: end;
     margin-left: 0.2rem;
   }
 
@@ -349,6 +361,13 @@ border: 1px solid grey;
   .skill-label.italic {
     font-style: italic;
   }
+  .skill-label.veiled {
+    font-style: italic;
+    color: grey;
+  }
+  .skill-label.grey {
+    color: grey;
+  }
   .skill-box {
     border: #{hs.box_border_width} solid grey;
     width: #{hs.box_width};
@@ -368,11 +387,13 @@ border: 1px solid grey;
     left: 0;
   }
   .skill-note {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
     font-size: 11pt;
     color: grey;
-    align-self: end;
-    justify-self: left;
-    padding-right: 1rem;
+    align-self: start;
+    justify-self: center;
+    padding-right: 0.33rem;
   }
 
   .weapon-cat {
@@ -531,8 +552,6 @@ div('.left.subgrid', 1, 1) do
     div('.save-label', 7, 9, 1, 2, 'Evasion')
     div('.save-label', 7, 13, 1, 2, 'Mental')
 
-    #div('.save-label', 11, 5, 'DXWI')
-    #div('.save-circle', 11, 7)
     div('.save-circle', 9, 9)
     div('.save-label', 9, 11, 1, 2, 'Learning')
 
@@ -544,29 +563,6 @@ div('.left.subgrid', 1, 1) do
 
     div('.save-circle', 10, 8)
     div('.save-label', 10, 10, 1, 2, 'Impulse')
-
-    #div('.line.ldown', 6, 2)
-    #div('.line.lup', 6, 4)
-    #div('.line.ldown', 6, 6)
-    #div('.line.lup', 6, 8)
-    #div('.line.lup.learning', 6, 6, 2) # dexwis
-    #div('.line.ldown.learning', 6, 8, 2)
-    #div('.line.lup.learning', 6, 10, 2)
-    #div('.line.ldown', 6, 10)
-    #div('.line.lup', 6, 12)
-
-    #div('.save-circle', 7, 3)
-    #div('.save-circle', 7, 7)
-    #div('.save-circle.clgrey', 8, 5) # dexwis
-    #div('.save-circle.clgrey', 8, 9) # learning
-    #div('.save-circle', 7, 11)
-
-    #div('.save-label', 8, 3, 1, 2, 'Physical')
-    #div('.save-label', 8, 7, 1, 2, 'Evasion', style: 'align-self: center')
-    #div('.save-label', 8, 11, 1, 2, 'Mental', style: 'align-self: end')
-
-    #div('.learning-label', 9, 5, 1, 2, 'dex / wis<br/>TC')
-    #div('.learning-label', 9, 9, 1, 2, 'learning<br/>TC')
   end
 
   div('.skill-grid', 2, 2) do
@@ -575,8 +571,9 @@ div('.left.subgrid', 1, 1) do
 
     j = 0
     %w{
-      Administer Build Connect #Craft Exert Heal Hunt #Know Lead #Notice
-      Perform Pray Read Ride Sail #Sneak Scout Spy Survive Swim
+      Administer Build Cook Exert Gather Grow Heal Herd Hunt Lead
+      Negociate Perform Pray Read Ride Sail
+      #Know #Notice #Craft #Sneak #Connect
     }
       .select { |k|
         k[0, 1] != '#' }
@@ -587,44 +584,59 @@ div('.left.subgrid', 1, 1) do
         j = 1 + i
       end
 
-    [
-      'skills start at +0',
-      'but default to -2',
-      'max is char level + 1',
-      '1d20 + skill ≥ some TC'
-    ]
-      .each_with_index { |s, i| div('.skill-note', s, 3, 8 + i, 3, 1) }
-
     %w{
-      Talk
+      Scout
+      Spy
+      Swim
       Trade
-      Work
       #---
       _Craft
       _Know
       _
-      ---
-      ---
-      ---
-      ---
-      ---
-      ---
-      _Cast
-      _Feel
-      _Seize
-      _Soak
+      _
+      _
+      _
     }
       .select { |k|
         k[0, 1] != '#' }
       .each_with_index do |k, i|
         next if k == '---'
         it, k = k.match(/^_(.+)$/) ? [ true, $1 ] : [ false, k ]
+        klas = ''
+        klas = klas + '.veiled' if it
+        klas = klas + '.grey' if k == '_'
         k = (k == '_') ? '_________' : k
-        div('.skill-label' + (it ? '.italic' : ''), 3, 1 + i, k)
+        div('.skill-label' + klas, 3, 1 + i, k)
         div('.skill-box', 4, 1 + i)
       end
 
+    %w{
+      _Weave
+      _Feel
+      _Seize
+      _Soak
+      _Mutate
+    }
+      .select { |k|
+        k[0, 1] != '#' }
+      .each_with_index do |k, i|
+        next if k == '---'
+        it, k = k.match(/^_(.+)$/) ? [ true, $1 ] : [ false, k ]
+        klas = ''
+        klas = klas + '.italic' if it
+        klas = klas + '.grey' if k == '_'
+        k = (k == '_') ? '_________' : k
+        div('.skill-label' + klas, 3, 12 + i, k)
+        div('.skill-box', 4, 12 + i)
+      end
+
     div('.skill-tag', 3, 12, 2, 5, 'M')
+
+    t = [
+      'skills start at +0, but default to -2, max is char level + 1',
+      '1d20 + skill ≥ some TC'
+    ].join('<br/>')
+    div('.skill-note', 5, 1, t, 1, 16)
 
     %w{
       _Bows _Crossbows _Slings _Javelins Throw
@@ -640,13 +652,13 @@ div('.left.subgrid', 1, 1) do
         next if k == '---'
         it, k = k[0, 1] == '_' ? [ true, k[1..-1] ] : [ false, k ]
         at, k = k[-1, 1] == '*' ? [ true, k[0..-2] ] : [ false, k ]
-        div('.skill-label' + (it ? '.italic' : ''), 6, 1 + i, k)
-        div('.skill-box' + (at ? '.attack' : ''), 7, 1 + i)
+        div('.skill-label' + (it ? '.italic' : ''), 7, 1 + i, k)
+        div('.skill-box' + (at ? '.attack' : ''), 8, 1 + i)
       end
-    div('.skill-tag', 6, 1, 2, 5, 'F')
+    div('.skill-tag', 7, 1, 'F', 2, 5)
 
-    div('.weapon-cat', 5, 1, 1, 5, '↑ ranged')
-    div('.weapon-cat', 5, 6, 1, 8, '↑ melee')
+    div('.weapon-cat', 6, 1, '↑ ranged', 1, 5)
+    div('.weapon-cat', 6, 6, '↑ melee', 1, 8)
   end
 end
 
@@ -658,8 +670,8 @@ div('.right.subgrid', 2, 1) do
     div('.hp', 1, 2, 2, 1) { img(src: 'heart.svg') }
     div('.cp.info.max', 1, 3, 2, 1, 'CP max')
     div('.cp', 1, 4, 2, 1) { img(src: 'drop.svg') }
-    div('.ac.info', 1, 5, 2, 1, 'AC base')
-    div('.ac', 1, 6) { img(src: 'shield-grey.svg') }
+    div('.ac-info', 1, 5, 2, 1, 'base AC')
+    div('.ac.shield', 1, 6) { img(src: 'shield-grey.svg') }
     div('.ac.info', 2, 6, [
       '10 <i>no armor</i>',
       '12 gambeson',
@@ -688,31 +700,33 @@ div('.right.subgrid', 2, 1) do
 
   div('.configuration-grid', 2, 2, 3, 1) do
 
-    div('.conf-cell.header', 1, 1, 'AC')
-    div('.conf-cell.header', 2, 1, 'Weapon')
-    div('.conf-cell.header', 3, 1, 'Range')
-    div('.conf-cell.header', 4, 1, 'Attack')
-    div('.conf-cell.header', 5, 1, 'Damage')
+    div('.conf-cell.header', 1, 1, 'AC', 2, 1)
+    div('.conf-cell.header', 3, 1, 'Weapon')
+    div('.conf-cell.header', 4, 1, 'Range')
+    div('.conf-cell.header', 5, 1, 'Attack')
+    div('.conf-cell.header', 6, 1, 'Damage')
 
-    div('.conf-cell.header2', 1, 2, 'base AC + best of<br/>Dodge, Shield or <i>F Skill</i>')
-    #div('.conf-cell.header2', 2, 2, '')
-    div('.conf-cell.header2', 3, 2, 'ft / m / sq')
-    div('.conf-cell.header2', 4, 2, 'F Skill')
-    div('.conf-cell.header2', 5, 2, 'Dice<br/>+ F Skill if melee')
+    div('.conf-cell.header2', 1, 2, 'base AC + best of<br/>Dodge, Shield or <i>F Skill</i>', 2, 1)
+    div('.conf-cell.header2', 1, 3, 'no shield')
+    div('.conf-cell.header2', 2, 3, 'shield')
 
-    div('.conf-cell.header2', 1, 3, 'no shield | shield')
+    div('.conf-cell.header2', 4, 2, 'ft / m / sq')
+    div('.conf-cell.header2', 5, 2, 'F Skill')
+    div('.conf-cell.header2', 6, 2, 'Dice<br/>+ F Skill if melee')
 
     4.times do |y|
       y = 4 + y
-      div('.conf-cell.ac', 1, y) do
-        img('.ac', src: 'shield-lightgrey.svg')
-        img('.ac', src: 'shield-grey.svg')
-      end
-      div('.conf-cell.weapon', 2, y) { span('.input', '') }
-      div('.conf-cell.range', 3, y) { span('.input', '') }
-      div('.conf-cell.attack', 4, y) {
+      div('.conf-cell.ac', 1, y) {
+        img('.ac', src: 'shield-lightgrey.svg') }
+      div('.conf-cell.ac', 2, y) {
+        img('.ac', src: 'shield-grey.svg') }
+      div('.conf-cell.weapon', 3, y) {
+        span('.input', '') }
+      div('.conf-cell.range', 4, y) {
+        span('.input', '') }
+      div('.conf-cell.attack', 5, y) {
         span('.plus', '+'); img('.atk', src: 'triangle.svg') }
-      div('.conf-cell.damage', 5, y) {
+      div('.conf-cell.damage', 6, y) {
         img('.dmg', src: 'hex.svg') }
     end
   end
