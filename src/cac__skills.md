@@ -23,17 +23,13 @@ A character may have at most a `level + 1` skill score.
 
 Skills are divided between Fighter skills **F**, Magic skills **M**, and General skills **G**.
 
-## Fighter Skills
+## Fighter Skills [^1]
 
 Bows / Crossbows / Slings / Javelins / Throw
 : Shoot with a given type of ranged weapon (or throw a rock).
 
-Axes / Maces / Staffs / Spears / Swords / Knives [^1]
+Axes / Maces / Staffs / Spears / Swords / Knives
 : Fight with a given type of melee weapon.
-
-[^1]:
-  Seax → `Swords`<br/>
-  Dagger → `Knives`
 
 Punch / Grapple
 : Fight unarmed. Punching and grappling are separate.
@@ -44,10 +40,14 @@ Shield
 Dodge
 : To avoid hits and projectiles.
 
+[^1]:
+  Seax → `Swords`<br/>
+  Dagger → `Knives`
+
 
 ## Magic Skill
 
-Cast
+Weave
 : To cast spells.
 
 Feel
@@ -59,6 +59,12 @@ Seize
 Soak
 : To absorb magical energy as CP (Casting Points).
 
+Mutate
+: To alter woven magical threads
+
+<!-- </div.left-column> -->
+<!-- <div.right-column> -->
+
 ## General Skills
 
 Administer
@@ -67,30 +73,36 @@ Administer
 Build
 : To build structures, to appraise such structures (traps and anomalies?).
 
-<!-- </div.left-column> -->
-<!-- <div.right-column> -->
-
-Connect
-: To connect with people, to ascertain the dynamics of groups and communities.
-
-Craft
-: To craft or repair goods.
+Cook
+: To prepare meals
 
 Exert
 : To climb, run, lift, throw. Athletic training.
+
+Fish
+: To catch fish and other aquatic creatures.
+
+Gather
+: To gather herbs, mushrooms, to identify plants.
+
+Grow
+: To cultivate crops and the like.
 
 Heal
 : To mend wounds, combat diseases, neutralize poisons.
 : This skill is used when stabilising _Mortally Wounded_ characters, its importance cannot be overstated.
 
+Herd
+: To herd cattle, to take care of the animals.
+
 Hunt
 : To take game with snare, arrow or spear, to know the habits and the manner of preys.
 
-Know
-: Grammar, logic, rhetoric, then arithmetic, geometry, music, astronomy.
-
 Lead
 : To conduct and inspire people.
+
+Negotiate
+: To talk, to convince.
 
 Perform
 : To sing, dance, or play an instrument. To know songs and stories.
@@ -111,22 +123,48 @@ Scout
 : To gather information, unnoticed.
 
 Spy
-: to observe, to notice.
-
-Survive
-: To mitigate environmental hazards, to identify plants and wildlife, to craft basic survival tools and shelter.
+: to observe, to notice. To gather information.
 
 Swim
 : To swim, to be at ease in the water.
 
-Talk
-: To use the spoken word.
-
 Trade
 : To buy and sell advantageously, to value goods correctly, to deal with traders and merchants.
 
-Work
-: To toil in the fields, take care of herds, hew trees, weave cloth. All the work.
+Craft
+: There are many crafts, TODO
+
+Know
+: Grammar, logic, rhetoric, then arithmetic, geometry, music, astronomy.
+: Or something else.
+
+<!--
+  craftsmen:
+
+  * ale maker
+  * weaponsmith
+  * blacksmith
+  * carpenter
+  * lumberjack
+  * charcoal maker
+  * miller
+  * butcher
+  * baker
+  * wheelwright
+  * coppersmith
+  * shoemaker
+  * mason
+  * joiner
+  * miner
+  * potter
+  * sadler
+  * stonecutter
+  * tanner
+  * cooper
+  * shipwright
+  * cabinet maker
+  * rope maker
+-->
 
 <!-- </div.right-column> -->
 <!-- </div.two-columns> -->

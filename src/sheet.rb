@@ -571,8 +571,8 @@ div('.left.subgrid', 1, 1) do
 
     j = 0
     %w{
-      Administer Build Cook Exert Gather Grow Heal Herd Hunt Lead
-      Negociate Perform Pray Read Ride Sail
+      Administer Build Cook Exert Fish Gather Grow Heal Herd Hunt Lead
+      Negociate Perform Pray Read Ride
       #Know #Notice #Craft #Sneak #Connect
     }
       .select { |k|
@@ -585,14 +585,10 @@ div('.left.subgrid', 1, 1) do
       end
 
     %w{
-      Scout
-      Spy
-      Swim
-      Trade
+      Sail Scout Spy Swim Trade
       #---
       _Craft
       _Know
-      _
       _
       _
       _
