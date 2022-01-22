@@ -3,6 +3,7 @@
 * _Playing a Caster_
 * **Spellcasting**
 * Spells
+* Spell forms
 * Spell colours
 
 

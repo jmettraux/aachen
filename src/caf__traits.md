@@ -255,17 +255,17 @@ A trait is a qualifier, for example a character might be `Lucky`. A trait may be
 <script>
 
 onDocumentReady(function() {
-  var ab = [ 1, 1 ]; var max = [ 4, 8 ]
-  var es = document
-    .querySelectorAll('section[data-aa-title="traits"] h3 strong')
-  es.forEach(function(e, i) {
-    e.title = `${i + 1} / ${es.length} -> ${max[0] * max[1]}`;
-    e.textContent = `${ab[0]}${ab[1]}`;
-    if (i === 0) {
-      e.textContent = `${e.textContent} ← d${max[0]}d${max[1]}`;
-    }
-    ab[1] = ab[1] + 1; if (ab[1] > max[1]) { ab[0] = ab[0] + 1; ab[1] = 1; }
-  });
+  var ab = [ 1, 1 ]; var max = [ 4, 8 ];
+  var es = elts('section[data-aa-title="traits"] h3 strong');
+  es
+    .forEach(function(e, i) {
+      e.title = `${i + 1} / ${es.length} -> ${max[0] * max[1]}`;
+      e.textContent = `${ab[0]}${ab[1]}`;
+      if (i === 0) {
+        e.textContent = `${e.textContent} ← d${max[0]}d${max[1]}`;
+      }
+      ab[1] = ab[1] + 1; if (ab[1] > max[1]) { ab[0] = ab[0] + 1; ab[1] = 1; }
+    });
 });
 
 </script>

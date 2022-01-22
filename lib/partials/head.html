@@ -19,6 +19,15 @@
       if (document.readyState != 'loading') fev();
       else document.addEventListener('DOMContentLoaded', fev);
     };
+
+    var elt = function(start, sel) {
+      if ( ! sel) { sel = start; start = document; }
+      return start.querySelector(sel);
+    };
+    var elts = function(start, sel) {
+      if ( ! sel) { sel = start; start = document; }
+      return start.querySelectorAll(sel);
+    };
   </script>
 </head>
 <body>

@@ -1050,135 +1050,81 @@ table.social-class th:nth-child(1) {
 [data-aa-title="spells"] h1 {
   margin-top: 0;
 }
-[data-aa-title="spells"] .matrix {
+[data-aa-title="spells"] table.matrix {
   float: right;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  width: 61%;
   margin-left: 1rem;
-  margin-bottom: 0.5rem;
+  font-size: var(--size-b);
+  line-height: 1.0;
+  width: 60%;
 }
-[data-aa-title="spells"] .matrix p {
-  font-size: 48pt;
-  padding-top: 5.0rem;
+[data-aa-title="spells"] table.matrix td {
+  padding: 0 0.1rem;
+}
+[data-aa-title="spells"] table.matrix td.name {
+  color: red;
+  text-align: right;
+}
+[data-aa-title="spells"] table.matrix td.description {
+}
+[data-aa-title="spells"] table.matrix td.number {
   color: #d0d0d0;
-}
-[data-aa-title="spells"] .matrix del {
-  color: #c0c0c0;
-  display: inline-block;
-  width: 0.9rem;
   text-align: center;
 }
-[data-aa-title="spells"] dl {
+[data-aa-title="spells"] table.matrix td[rowspan] {
+  color: #d0d0d0;
+  font-size: 48pt;
+}
+
+[data-aa-title="spell forms"] h1 {
+  margin-top: 0;
+}
+[data-aa-title="spell forms"] dl {
   margin-top: 0.3rem;
   margin-bottom: 0.0rem;
   font-size: var(--size-b);
   line-height: 0.6;
 }
-[data-aa-title="spells"] dl dt {
+[data-aa-title="spell forms"] dl dt {
   font-weight: normal;
   color: red;
 }
-[data-aa-title="spells"] dl dt:after {
+[data-aa-title="spell forms"] dl dt:after {
   content: '';
   margin: 0;
   padding: 0;
 }
-[data-aa-title="spells"] table {
+[data-aa-title="spell forms"] table {
   font-size: var(--size-b);
   line-height: 0.85;
   margin-bottom: 1rem;
 }
-[data-aa-title="spells"] table th,
-[data-aa-title="spells"] table td {
+[data-aa-title="spell forms"] table th,
+[data-aa-title="spell forms"] table td {
   /*padding: 0.28em 0.49em 0.28em 0.49em;*/
   /* top right bottom left */
   padding: 0.2em 0 0.3em 0
 }
-[data-aa-title="spells"] table td:nth-child(1) {
+[data-aa-title="spell forms"] table td:nth-child(1) {
   color: red;
 }
-[data-aa-title="spells"] table td:nth-child(2) {
+[data-aa-title="spell forms"] table td:nth-child(2) {
   font-size: 80%;
 }
-[data-aa-title="spells"] table tr:nth-child(3n) td {
+[data-aa-title="spell forms"] table tr:nth-child(3n) td {
   border-bottom: solid thin #c0c0c0;
 }
-[data-aa-title="spells"] table td:nth-child(7),
-[data-aa-title="spells"] table td:nth-child(8),
-[data-aa-title="spells"] table td:nth-child(9) {
+[data-aa-title="spell forms"] table td:nth-child(7),
+[data-aa-title="spell forms"] table td:nth-child(8),
+[data-aa-title="spell forms"] table td:nth-child(9) {
   color: #a0a0a0;
 }
 
-[data-aa-title="spells"] h2 {
-  margin-bottom: 1rem;
-}
-
-[data-aa-title="spells"] .caption {
-  font-size: var(--size-b);
-}
-
-[data-aa-title="spells"] ul:not(.compass) {
-  list-style: none;
-  padding-inline-start: 0;
-  text-indent: -1rem;
-  margin-left: 1rem;
-}
-[data-aa-title="spells"] ul:not(.compass) li:before {
-  content: '·';
-  padding-right: 0.5rem;
-}
-
-/*
-[data-aa-title="spell list"] .text-block {
+[data-aa-title="spell colours"] .text-block {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   column-gap: 1rem;
 }
-[data-aa-title="spell list"] .spell {
-  width: calc((var(--tblock-width) - 1rem) / 2);
-  margin-bottom: 0.1rem;
-}
-
-[data-aa-title="spell list"] h2 {
-  margin-top: -0.3rem;
-  margin-bottom: 0.1rem;
-  font-size: calc(1.5 * var(--size-a));
-  color: red;
-}
-[data-aa-title="spell list"] h2 del {
-  font-size: 70%;
-  font-variant: normal;
-  color: #c0c0c0;
-}
-[data-aa-title="spell list"] h2 del:before {
-  content: '·';
-  padding-right: 0.3rem;
-}
-
-[data-aa-title="spell list"] ul:not(.compass) {
-  list-style: none;
-  font-size: var(--size-b);
-  padding-inline-start: 0;
-  margin-top: 0;
-  margin-bottom: 0.3rem;
-}
-[data-aa-title="spell list"] ul:not(.compass) li {
-  display: inline-block;
-}
-[data-aa-title="spell list"] ul:not(.compass) li:not(:last-of-type):after {
-  content: ' | ';
-}
-[data-aa-title="spell list"] ul:not(.compass) strong {
-  width: 4rem;
-}
-[data-aa-title="spell list"] p {
-  font-size: var(--size-b);
-  text-indent: 0;
-  margin-bottom: 0.3rem;
-}
-*/
 
 [data-aa-title="rchecks"] h1 {
   margin-top: 0;
@@ -1187,32 +1133,6 @@ table.social-class th:nth-child(1) {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-/*
-[data-aa-title="rchecks"] ul:not(.compass) {
-  list-style: none;
-  padding-inline-start: 0;
-}
-[data-aa-title="rchecks"] ul:not(.compass) li:before {
-  padding-left: 0.3rem;
-  content: '·';
-  padding-right: 0.3rem;
-}
-*/
-/*
-[data-aa-title="rchecks"] table {
-  font-size: var(--size-b);
-  line-height: 0.66;
-}
-[data-aa-title="rchecks"] table tr:nth-child(3n) td {
-  border-bottom: solid thin #c0c0c0;
-}
-[data-aa-title="rchecks"] table.difficulty {
-  float: right;
-  width: 40%;
-  margin-left: 1rem;
-  line-height: 1.0;
-}
-*/
 
 [data-aa-title="reaction and morale"] table + h1 {
   margin-top: 0;

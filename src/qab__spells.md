@@ -3,83 +3,25 @@
 * _Playing a Caster_
 * Spellcasting
 * **Spells**
+* Spell forms
 * Spell colours
 
 
-<!-- <div.matrix> -->
-
-<!-- .colours -->
-Amber
-: ~~1~~ heat
-
-Coal
-: ~~2~~ damage
-
-Copper
-: ~~3~~ earth
-
-Blue
-: ~~4~~ cold
-
-Night
-: ~~5~~ darkness
-
-Quartz
-: ~~6~~ meta
-
-Red
-: ~~7~~ fire
-
-Scarlet
-: ~~8~~ drain
-
-Silver
-: ~~9~~ fence
-
-Turquoise
-: ~~10~~ healing
-
-Gold
-: ~~11~~ light
-
-×
-
-<!-- .forms -->
-Arrow
-: ~~1~~ missile
-
-Ball
-: ~~2~~ sphere
-
-Crown
-: ~~3~~ donut
-
-Disk
-: ~~4~~ horizontal shield
-
-Finger
-: ~~5~~ point
-
-Flail
-: ~~6~~ there and back
-
-Hand
-: ~~7~~ touch
-
-Hut
-: ~~8~~ shelter
-
-Pole
-: ~~9~~ ten feet
-
-Powder
-: ~~10~~ cloud
-
-Shield
-: ~~11~~ vertical disk
-
-<!-- </div> -->
-
+<!-- .matrix -->
+|           |   |             |   |        |   |                |
+|-----------|---|-------------|---|--------|---|----------------|
+| Amber     | 1 | heat        | × | Arrow  | 1 | missile        |
+| Blue      | 1 | cold        |   | Ball   | 1 | sphere         |
+| Coal      | 1 | damage      |   | Crown  | 1 | donut          |
+| Copper    | 1 | earth       |   | Disk   | 1 | round platform |
+| Gold      | 1 | light       |   | Finger | 1 | point          |
+| Night     | 1 | darkness    |   | Flail  | 1 | there and back |
+| Quartz    | 1 | meta        |   | Hand   | 1 | touch          |
+| Red       | 1 | fire        |   | Hut    | 1 | shelter        |
+| Scarlet   | 1 | drain       |   | Net    | 1 | web            |
+| Silver    | 1 | fence       |   | Pole   | 1 | ten feet       |
+| Turquoise | 1 | healing     |   | Powder | 1 | cloud          |
+|           | 1 |             |   | Shield | 1 | vertical disk  |
 
 # Spells
 
@@ -88,23 +30,30 @@ Casters see the magical energy as threads of various colours. It is probable tha
 Most of the casters choose simple, well known, forms for weaving their magical threads. Maybe in Constantinople or further east, there are casters that know more complicated forms.
 
 
-| form   | cstime | diameter     | range     | duration  | speed/rnd | ctrl ≤   | move      | prolong  |
-|--------|:------:|:------------:|:---------:|:---------:|:---------:|:--------:|:---------:|:--------:|
-| Arrow  | MA     | -            | L 80ft/CP | 1 rnd/CP  | 80ft/CP   | -        | -         | -        |
-| Ball   | MA     | 1ft/CP       | M 30ft/CP | 1 rnd/CP  | 30ft/CP   | 10ft/lvl | 1 CP/5ft  | 1 CP/rnd |
-| Crown  | MA     | 1ft/CP       | M 30ft/CP | 10 min/CP | 0         | 10ft/lvl | 1 CP/5ft  | 1 CP/min |
-| Disk   | MA     | 5ft/CP       | S 10ft/CP | 10 min/CP | 0         | 10ft/lvl | 1 CP/5ft  | 1 CP/min |
-| Finger | MA     | -            | T touch   | 1 rnd     | 0         | -        | -         | 1 CP/rnd |
-| Flail  | MA     | -            | S 10ft/CP | 1 rnd     | 80ft/CP   | -        | -         | -        |
-| Hand   | MA     | -            | T touch   | 1 rnd     | 0         | -        | -         | 1 CP/rnd |
-| Hut    | MA+OTA | 5ft/CP       | C 5ft/CP  | 1 min/CP  | 0         | 10ft/lvl | 1 CP/5ft  | 1 CP/min |
-| Pole   | MA     | -            | S 10ft/CP | 1 rnd     | 0         | -        | -         | 1 CP/rnd |
-| Powder | MA     | 5ft/CP       | S 10ft/CP | 1 rnd/CP  | 30ft/CP   | 10ft/lvl | -         | 1 CP/rnd |
-| Shield | MA     | broad shield | T touch   | 1 min/CP  | 0         | 10ft/lvl | 1 CP/10ft | 1 CP/min |
+<script>
 
-<!-- .caption -->
-**MA**: main action, **OTA**: on turn action,
-**T**: touch, **C**: close, **S**: short, **M**: medium, **L**: long
+onDocumentReady(function() {
+  var te = elt('section[data-aa-title="spells"] table.matrix');
+  elt(te, 'thead').remove();
+  elts(te, 'tr').forEach(function(tre, i) {
+    var tdes = elts(tre, 'td');
+    tdes[0].classList.add('name');
+    tdes[4].classList.add('name');
+    tdes[2].classList.add('description');
+    tdes[6].classList.add('description');
+    tdes[1].classList.add('number');
+    tdes[5].classList.add('number');
+    tdes[1].textContent = '' + (1 + i);
+    tdes[5].textContent = '' + (1 + i);
+    if (i == 0) { tdes[3].setAttribute('rowspan', '12'); }
+    else { tdes[3].remove(); }
+  });
+});
+
+</script>
+
+
+<!-- RETURN -->
 
 ## Investment
 

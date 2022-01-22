@@ -169,8 +169,7 @@ Know
 <script>
 
 onDocumentReady(function() {
-  document
-    .querySelectorAll('section[data-aa-title="skills"] dt')
+  elts('section[data-aa-title="skills"] dt')
     .forEach(function(e) {
       if ( ! (e.textContent === 'Craft' || e.textContent === 'Know')) return;
       e.classList.add('generic');
