@@ -14,6 +14,8 @@
 
 The threads that the casters weave appear to them in certain colours. Each colours has a domain of effect.
 
+The domain covered by _Feary_ threads is left to the discretion of the referee. The other colors are rather _pedestrian_, high magic, beyond magic is left to _Feary_ threads.
+
 ### Amber **heat**
 
 The space within the threads heats up. A novice caster may reach water boiling point, but only the most expert casters may melt iron and other metals.
@@ -61,9 +63,9 @@ Threads that block other threads. Some casters use them to craft magical shields
 
 Living elements exposed to turquoise threads seem to repair / re-harmonize on the spot.
 
-### Faery **other**
+### Faery **beyond**
 
-Most of the casters describe this colour as coming out of Faery land. TODO.
+Most of the casters describe this colour as coming out of Faery land. Some expert casters describe those threads as emanating from "true magic". Referee are free (as should be) to define the domain of the faery threads.
 
 <!-- </div.right-column> -->
 <!-- </div.two-columns> -->

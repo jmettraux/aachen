@@ -8,20 +8,20 @@
 
 
 <!-- .matrix -->
-|           |   |             |   |        |   |                |
-|-----------|---|-------------|---|--------|---|----------------|
-| Amber     | 1 | heat        | × | Arrow  | 1 | missile        |
-| Blue      | 1 | cold        |   | Ball   | 1 | sphere         |
-| Coal      | 1 | damage      |   | Crown  | 1 | donut          |
-| Copper    | 1 | earth       |   | Disk   | 1 | round platform |
-| Gold      | 1 | light       |   | Finger | 1 | point          |
-| Night     | 1 | darkness    |   | Flail  | 1 | there and back |
-| Quartz    | 1 | meta        |   | Hand   | 1 | touch          |
-| Red       | 1 | fire        |   | Hut    | 1 | shelter        |
-| Scarlet   | 1 | drain       |   | Net    | 1 | web            |
-| Silver    | 1 | fence       |   | Pole   | 1 | ten feet       |
-| Turquoise | 1 | healing     |   | Powder | 1 | cloud          |
-|           | 1 |             |   | Shield | 1 | vertical disk  |
+|           |    |          |   |        |    |          |
+|-----------|----|----------|---|--------|----|----------|
+| Amber     |  1 | heat     | × | Arrow  |  1 | missile  |
+| Blue      |  2 | cold     |   | Ball   |  2 | sphere   |
+| Coal      |  3 | damage   |   | Crown  |  3 | donut    |
+| Copper    |  4 | earth    |   | Disk   |  4 | platform |
+| Gold      |  5 | light    |   | Finger |  5 | point    |
+| Night     |  6 | darkness |   | Flail  |  6 | whip     |
+| Quartz    |  7 | meta     |   | Hand   |  7 | touch    |
+| Red       |  8 | fire     |   | Hut    |  8 | shelter  |
+| Scarlet   |  9 | drain    |   | Net    |  9 | web      |
+| Silver    | 10 | fence    |   | Pole   | 10 | ten feet |
+| Turquoise | 11 | healing  |   | Powder | 11 | cloud    |
+| Faery     | 12 | beyond   |   | Shield | 12 | lens     |
 
 # Spells
 
@@ -29,6 +29,7 @@ Casters see the magical energy as threads of various colours. It is probable tha
 
 Most of the casters choose simple, well known, forms for weaving their magical threads. Maybe in Constantinople or further east, there are casters that know more complicated forms.
 
+A ~~spell~~ is a combination ~~form~~ × ~~colour~~, like for example _Red Arrow_, or _Turquoise Shield_.
 
 <script>
 
@@ -43,8 +44,6 @@ onDocumentReady(function() {
     tdes[6].classList.add('description');
     tdes[1].classList.add('number');
     tdes[5].classList.add('number');
-    tdes[1].textContent = '' + (1 + i);
-    tdes[5].textContent = '' + (1 + i);
     if (i == 0) { tdes[3].setAttribute('rowspan', '12'); }
     else { tdes[3].remove(); }
   });

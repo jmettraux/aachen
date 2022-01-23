@@ -1052,10 +1052,9 @@ table.social-class th:nth-child(1) {
 }
 [data-aa-title="spells"] table.matrix {
   float: right;
-  margin-left: 1rem;
   font-size: var(--size-b);
   line-height: 1.0;
-  width: 60%;
+  width: 56%;
 }
 [data-aa-title="spells"] table.matrix td {
   padding: 0 0.1rem;
@@ -1072,7 +1071,8 @@ table.social-class th:nth-child(1) {
 }
 [data-aa-title="spells"] table.matrix td[rowspan] {
   color: #c0c0c0;
-  font-size: 48pt;
+  font-size: 42pt;
+  padding-top: 3rem;
 }
 
 [data-aa-title="spell forms"] h1 {
@@ -1096,6 +1096,7 @@ table.social-class th:nth-child(1) {
 [data-aa-title="spell forms"] table {
   font-size: var(--size-b);
   line-height: 0.85;
+  margin-top: 2rem;
   margin-bottom: 1rem;
 }
 [data-aa-title="spell forms"] table th,
@@ -1124,7 +1125,7 @@ table.social-class th:nth-child(1) {
   font-weight: normal;
   font-variant: small-caps;
   text-transform: lowercase;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.16rem;
 }
 [data-aa-title="spell colours"] h3:first-child {
   margin-top: 0;
