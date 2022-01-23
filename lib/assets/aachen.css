@@ -1067,11 +1067,11 @@ table.social-class th:nth-child(1) {
 [data-aa-title="spells"] table.matrix td.description {
 }
 [data-aa-title="spells"] table.matrix td.number {
-  color: #d0d0d0;
+  color: #c0c0c0;
   text-align: center;
 }
 [data-aa-title="spells"] table.matrix td[rowspan] {
-  color: #d0d0d0;
+  color: #c0c0c0;
   font-size: 48pt;
 }
 
@@ -1119,11 +1119,28 @@ table.social-class th:nth-child(1) {
   color: #a0a0a0;
 }
 
-[data-aa-title="spell colours"] .text-block {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  column-gap: 1rem;
+[data-aa-title="spell colours"] h3 {
+  color: red;
+  font-weight: normal;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  margin-bottom: 0.6rem;
+}
+[data-aa-title="spell colours"] h3:first-child {
+  margin-top: 0;
+}
+[data-aa-title="spell colours"] h3 strong {
+  font-weight: normal;
+  font-variant: normal;
+  color: #c0c0c0;
+  font-size: 80%;
+}
+[data-aa-title="spell colours"] h3 strong::before {
+  content: '·';
+  padding-right: 0.3rem;
+}
+[data-aa-title="spell colours"] h3 ~ p {
+  margin-left: 0.6rem;
 }
 
 [data-aa-title="rchecks"] h1 {

@@ -7,102 +7,64 @@
 * **Spell colours**
 
 
+<!-- <div.two-columns> -->
+<!-- <div.left-column> -->
+
 # Spell colours
 
-<!-- <div.spell-colour> -->
+The threads that the casters weave appear to them in certain colours. Each colours has a domain of effect.
 
-## Amber
+### Amber **heat**
 
-Heat.
+The space within the threads heats up. A novice caster may reach water boiling point, but only the most expert casters may melt iron and other metals.
 
-<!-- </div> -->
+### Blue **cold**
 
-<!-- <div.spell-colour> -->
+The temperature falls. Casters usually stop at the point where water turns to ice, there doesn't much use to go below.
 
-## Blue
+### Coal **damage**
 
-TODO.
+Applying such threads to matter seem to wreck it and damage it.
 
-<!-- </div> -->
+### Copper **earth**
 
-<!-- <div.spell-colour> -->
+Threads that are solidly tied together and may be used as supports or platforms.
 
-## Coal
+### Gold **light**
 
-TODO.
+Novice caster weave gold threads that emit white light. More advanced casters may modulate the light color. Some casters (2 in 6) seem able to go meta and use such threads to control the path of light.
 
-<!-- </div> -->
+### Night **darkness**
 
-<!-- <div.spell-colour> -->
+Dark threads absorb light.
 
-## Copper
+<!-- </div.left-column> -->
+<!-- <div.right-column> -->
 
-TODO.
+### Quartz **meta**
 
-<!-- </div> -->
+The threads react to surrounding threads and may reveal them.
 
-<!-- <div.spell-colour> -->
+### Red **fire**
 
-## Gold
+Red threads trigger combustion in adjacent elements.
 
-TODO.
+### Scarlet **drain**
 
-<!-- </div> -->
+Threads that absorb magical energy. Some casters use them as trap to weaken enemies (draining HPs or CPs), some casters use those traps or missiles to drain enemies and then soak the gathered magical energy as CPs for themselves.
 
-<!-- <div.spell-colour> -->
+### Silver **fence**
 
-## Night
+Threads that block other threads. Some casters use them to craft magical shields and armors.
 
-TODO.
+### Turquoise **healing**
 
-<!-- </div> -->
+Living elements exposed to turquoise threads seem to repair / re-harmonize on the spot.
 
-<!-- <div.spell-colour> -->
+### Faery **other**
 
-## Quartz
+Most of the casters describe this colour as coming out of Faery land. TODO.
 
-TODO.
-
-<!-- </div> -->
-
-<!-- <div.spell-colour> -->
-
-## Red
-
-TODO.
-
-<!-- </div> -->
-
-<!-- <div.spell-colour> -->
-
-## Scarlet
-
-TODO.
-
-<!-- </div> -->
-
-<!-- <div.spell-colour> -->
-
-## Silver
-
-TODO.
-
-<!-- </div> -->
-
-<!-- <div.spell-colour> -->
-
-## Turquoise
-
-TODO.
-
-<!-- </div> -->
-
-
-<!-- <div.spell-colour> -->
-
-## Xxx
-
-TODO.
-
-<!-- </div> -->
+<!-- </div.right-column> -->
+<!-- </div.two-columns> -->
 
