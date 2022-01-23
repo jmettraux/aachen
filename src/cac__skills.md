@@ -120,7 +120,10 @@ Scout
 : To gather information, unnoticed.
 
 Spy
-: to observe, to notice. To gather information.
+: To observe, to notice. To gather information.
+
+Steal
+: To lay one's hands on something.
 
 Swim
 : To swim, to be at ease in the water.

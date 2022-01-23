@@ -110,7 +110,7 @@ Character with Backgrounds tagged _learning advantage_ get an advantage when rol
 | **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Fighter |
 | Gather           |  2 | +2 Physical |  2 | Any Skill   |
 |                  |  3 | +2 Physical |  3 | Perform     |
-| **Quick Skills** |  4 | +2 Mental   |  4 | Exert       |
+| **Quick Skills** |  4 | +2 Mental   |  4 | Steal       |
 | Hunt             |  5 | Hunt        |  5 | Hunt        |
 | Any Fighter      |  6 | Any Skill   |  6 | Spy         |
 |                  |    |             |  7 | Scout       |
@@ -129,11 +129,11 @@ An outlaw or an unprotected foreigner. At some point the character "branched out
 | **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Fighter |
 | Grow             |  2 | +2 Physical |  2 | Any Skill   |
 |                  |  3 | +2 Physical |  3 | Negotiate   |
-| **Quick Skills** |  4 | +2 Any Abi  |  4 | a Craft     |
+| **Quick Skills** |  4 | +2 Any Abi  |  4 | Craft       |
 | Scout            |  5 | Exert       |  5 | Exert       |
 | Exert            |  6 | Any Skill   |  6 | Scout       |
 |                  |    |             |  7 | Spy         |
-|                  |    |             |  8 | Trade       |
+|                  |    |             |  8 | Steal       |
 
 ### Slave
 
@@ -148,7 +148,7 @@ Born into slavery or forced into it by war or debt. The character could be the s
 | **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Fighter |
 | Grow             |  2 | +2 Physical |  2 | Any Skill   |
 |                  |  3 | +2 Physical |  3 | Negotiate   |
-| **Quick Skills** |  4 | +2 Mental   |  4 | a Craft     |
+| **Quick Skills** |  4 | +2 Mental   |  4 | Craft       |
 | Staffs           |  5 | Exert       |  5 | Ride        |
 | Connect          |  6 | Any Skill   |  6 | Hunt        |
 |                  |    |             |  7 | Administer  |
@@ -168,7 +168,7 @@ A free woman or man born in a family owning enough land to support itself.
 | Trade            |  2 | +2 Physical |  2 | Negotiate  |
 |                  |  3 | +2 Mental   |  3 | Craft      |
 | **Quick Skills** |  4 | +2 Mental   |  4 | Trade      |
-| a Craft          |  5 | Exert       |  5 | Know       |
+| Craft            |  5 | Exert       |  5 | Know       |
 | Negotiate        |  6 | Any Skill   |  6 | Administer |
 |                  |    |             |  7 | Read       |
 |                  |    |             |  8 | Build      |

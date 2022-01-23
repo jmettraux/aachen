@@ -102,7 +102,20 @@ Pick Up An Item
 : **MvA**
 : The character scoops up an object off the floor if they have a free hand, leaving it readied in their grip.
 
+
 <!-- PAGE BREAK cactions -->
+
+<!-- .margin.compass -->
+* _Playing the Game_
+* Scenes & Saves
+* Skill Checks
+* Combat
+* **Cbt Actions**
+* Health
+* Travel
+* Exploration
+* Advancement
+
 
 Ready Or Stow An Item
 : **MA**

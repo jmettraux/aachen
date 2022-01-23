@@ -585,11 +585,10 @@ div('.left.subgrid', 1, 1) do
       end
 
     %w{
-      Sail Scout Spy Swim Trade
+      Sail Scout Spy Steal Swim Trade
       #---
       _Craft
       _Know
-      _
       _
       _
     }
