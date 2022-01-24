@@ -36,5 +36,5 @@ Printed
 : ${PRINTED}
 
 License
-: CC-BY 4.0 <span class="license-link">https://creativecommons.org/licenses/by/4.0/</span>
+: CC BY-SA 4.0 <span class="license-link">https://creativecommons.org/licenses/by-sa/4.0/</span>
 
