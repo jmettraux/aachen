@@ -11,6 +11,7 @@ out/tmp/*.html
 
 out/html/*.js
 out/html/*.ps
+out/html/*.ps.zip
 out/html/*.css
 out/html/*.ico
 out/html/*.png
