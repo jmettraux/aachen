@@ -41,8 +41,8 @@
 
   --page-width: 210mm; /* A4 */
   --page-height: 297mm; /* A4 */
-  /*--page-width: 215.9mm; / * US Letter */
-  /*--page-height: 279.4mm; / * US Letter */
+  /*--page-width: 215.9mm; /* US Letter */
+  /*--page-height: 279.4mm; /* US Letter */
 
   --tblock-height: calc(var(--page-height) / 10 * 9);
   --tblock-width: calc(var(--tblock-height) / var(--phi));

@@ -27,9 +27,13 @@
 
 Casters see the magical energy as threads of various colours. It is probable that some casters see colours differently, and that some of them don't see some of the colours.
 
-Most of the casters choose simple, well known, forms for weaving their magical threads. Maybe in Constantinople or further east, there are casters that know more complicated forms.
+Most of the casters choose simple, well known, forms for weaving their magical threads. Maybe in Constantinople or further east, there are casters that know more complex forms.
 
 A ~~spell~~ is a combination ~~form~~ × ~~colour~~, like for example _Red Arrow_, or _Turquoise Shield_.
+
+The caster player negotiates with the referee the effect of the spell and then invests CPs and attempts to cast the spell. Most of the time, the magical skill involved will be _Weave_, but feel free to use the other skills, _Feel_, _Seize_, _Soak_, and _Mutate_.
+
+
 
 <script>
 

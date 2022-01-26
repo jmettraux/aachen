@@ -2,8 +2,8 @@
 <!-- .margin.compass -->
 * _Playing a Caster_
 * Spellcasting
-* **Spells**
-* Spell forms
+* Spells
+* **Spell forms**
 * Spell colours
 
 

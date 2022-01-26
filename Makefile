@@ -28,9 +28,9 @@ ps: pdf
 	$(RUM) make_ps
 
 tod: ps
-	cp out/html/aachen.stapled.2.duplex.ps.zip ~/Downloads/
+	cp out/html/aachen.pdf ~/Downloads/aachen.pdf
 	cp out/html/aachen.stapled.pdf ~/Downloads/
-	cp out/html/aachen.stuffed.pdf ~/Downloads/
+	cp out/html/aachen.stapled.2.duplex.ps.zip ~/Downloads/
 
 blank:
 	echo "" | ps2pdf -sPAPERSIZE=a4 - out/tmp/blank_a4.pdf
