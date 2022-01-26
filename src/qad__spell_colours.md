@@ -30,7 +30,7 @@ Applying such threads to matter seem to wreck it and damage it.
 
 ### Copper **earth**
 
-Threads that are solidly tied together and may be used as supports or platforms.
+Threads that are solidly tied together and may be used as supports or platforms. Sound waves are blocked / reverberated by copper threads.
 
 ### Gold **light**
 

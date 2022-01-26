@@ -65,8 +65,8 @@ border: 1px solid grey;
     display: grid;
     width: 100%;
     height: 100%;
-    grid-template-columns: 44% auto;
-    column-gap: 0.5rem;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
   }
 
   .subgrid {
