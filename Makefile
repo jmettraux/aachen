@@ -28,6 +28,7 @@ ps: pdf
 	$(RUM) make_ps
 
 tod: ps
+	cp out/html/csheet.pdf ~/Downloads/
 	cp out/html/aachen.pdf ~/Downloads/aachen.pdf
 	cp out/html/aachen.stapled.pdf ~/Downloads/
 	cp out/html/aachen.stapled.2.duplex.ps.zip ~/Downloads/

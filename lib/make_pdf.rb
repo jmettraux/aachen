@@ -30,6 +30,10 @@ def make_pdf
     h[:out] = "out/html/#{CONFIG[:NAME]}.sample.stapled.pdf"
     make_stapled_pdf(h)
   end
+
+  h[:in] = "out/html/sheet.html"
+  h[:out] = "out/html/csheet.pdf"
+  make_chrome_pdf(h)
 end
 
 def make_chrome_pdf(h)
