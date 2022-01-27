@@ -3,6 +3,28 @@ require 'ostruct'
 require 'strscan'
 
 
+class DiceDice
+  attr_reader :d0, :d1
+  def initialize(d0, d1)
+    @d0 = d0
+    @d1 = d1
+    @current = [ 1, 1 ]
+  end
+  def to_s
+    "d#{d0}d#{d1}"
+  end
+  def next
+    r = "#{@current[0]}#{@current[1]}".to_i
+    @current[1] += 1
+    if @current[1] > d1
+      @current[1] = 1
+      @current[0] += 1
+    end
+    r
+  end
+end
+
+
 hs = OpenStruct.new(
   page_width: "297mm", # A4
   page_height: "210mm", # A4
@@ -350,7 +372,6 @@ border: 1px solid lightgrey;
 
   .skill-label {
     height: #{hs.box_height};
-    margin-left: 0.2rem;
     font-size: 11pt;
   }
   .skill-label.italic {
@@ -362,6 +383,14 @@ border: 1px solid lightgrey;
   }
   .skill-label.grey {
     color: grey;
+  }
+  .skill-label .dice {
+    font-size: 9pt;
+    color: grey;
+    width: 0.9rem;
+    text-align: right;
+    display: inline-block;
+    margin-right: 0.3rem;
   }
   .skill-box {
     border: #{hs.box_border_width} solid grey;
@@ -567,6 +596,8 @@ div('.left.subgrid', 1, 1) do
 
     div('.skill-tag', 1, 1, 2, 5, 'G')
 
+    sd = DiceDice.new(5, 8)
+
     j = 0
     %w{
       Administer Build Connect Cook Exert Fish Gather Grow Heal Herd Hunt Lead
@@ -577,7 +608,10 @@ div('.left.subgrid', 1, 1) do
         k[0, 1] != '#' }
       .each_with_index do |k, i|
         next if k == 'skip'
-        div('.skill-label', 1, 1 + i, k)
+        div('.skill-label', 1, 1 + i) do
+          span('.dice', sd.next.to_s)
+          span('.name', k)
+        end
         div('.skill-box', 2, 1 + i)
         j = 1 + i
       end
@@ -591,13 +625,6 @@ div('.left.subgrid', 1, 1) do
       _
       _
       _
-      ---
-      __Weave
-      __Feel
-      __Seize
-      __Soak
-      __Mutate
-      __Orchestrate
     }
       .select { |k|
         k[0, 1] != '#' }
@@ -605,27 +632,41 @@ div('.left.subgrid', 1, 1) do
         next if k == '---'
         it, k = k.match(/^(_+)(.+)$/) ? [ $1, $2 ] : [ false, k ]
         klas = ''
-        #klas = klas + '.veiled' if it
-        #klas = klas + '.grey' if k == '_'
+        klas = klas + '.veiled' if it
+        klas = klas + '.grey' if k == '_'
         k = (k == '_') ? '_________' : k
-        div('.skill-label' + klas, 3, 1 + i, k)
+        div('.skill-label' + klas, 3, 1 + i) do
+          d = sd.next.to_s
+          d = sd.to_s if d == '45'
+          span('.dice', d)
+          span('.name', k)
+        end
         div('.skill-box', 4, 1 + i)
       end
 
-    #%w{
-    #}
-    #  .select { |k|
-    #    k[0, 1] != '#' }
-    #  .each_with_index do |k, i|
-    #    next if k == '---'
-    #    it, k = k.match(/^_(.+)$/) ? [ true, $1 ] : [ false, k ]
-    #    klas = ''
-    #    klas = klas + '.italic' if it
-    #    klas = klas + '.grey' if k == '_'
-    #    k = (k == '_') ? '_________' : k
-    #    div('.skill-label' + klas, 3, 13 + i, k)
-    #    div('.skill-box', 4, 13 + i)
-    #  end
+    %w{
+      Weave
+      Feel
+      Seize
+      Soak
+      Mutate
+      Orchestrate
+    }
+      .select { |k|
+        k[0, 1] != '#' }
+      .each_with_index do |k, i|
+        next if k == '---'
+        it, k = k.match(/^_(.+)$/) ? [ true, $1 ] : [ false, k ]
+        klas = ''
+        klas = klas + '.italic' if it
+        klas = klas + '.grey' if k == '_'
+        k = (k == '_') ? '_________' : k
+        div('.skill-label' + klas, 3, 13 + i) do
+          span('.dice', (i + 1).to_s)
+          span('.name', k)
+        end
+        div('.skill-box', 4, 13 + i)
+      end
 
     div('.skill-tag', 3, 13, 2, 5, 'M')
 
@@ -650,7 +691,10 @@ div('.left.subgrid', 1, 1) do
         next if k == '---'
         it, k = k[0, 1] == '_' ? [ true, k[1..-1] ] : [ false, k ]
         at, k = k[-1, 1] == '*' ? [ true, k[0..-2] ] : [ false, k ]
-        div('.skill-label' + (it ? '.italic' : ''), 7, 1 + i, k)
+        div('.skill-label' + (it ? '.italic' : ''), 7, 1 + i) do
+          span('.dice', (i + 1).to_s)
+          span('.name', k)
+        end
         div('.skill-box' + (at ? '.attack' : ''), 8, 1 + i)
       end
     div('.skill-tag', 7, 1, 'F', 2, 5)
