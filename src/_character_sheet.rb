@@ -81,6 +81,10 @@ style = %{
     /*padding: 0.17in; / * Brother printable area.... */
   }
 
+  .grey {
+    color: grey;
+  }
+
   .page {
 
     position: relative;
@@ -273,6 +277,16 @@ border: 1px solid lightgrey;
     height: 2.1rem;
   }
 
+  /* NAME */
+
+  .character-name {
+    border-bottom: 1px solid grey;
+  }
+
+  .character-name .title {
+    color: grey;
+  }
+
   /* INFO GRID */
 
   .info-grid {
@@ -340,6 +354,9 @@ border: 1px solid lightgrey;
     margin-bottom: 1.0rem;
   }
 
+  .conf-cell.weapon {
+    padding-right: 0.3rem;
+  }
   .conf-cell.weapon .input {
     width: 7.0rem;
   }
@@ -379,9 +396,6 @@ border: 1px solid lightgrey;
   }
   .skill-label.veiled {
     font-style: italic;
-    color: grey;
-  }
-  .skill-label.grey {
     color: grey;
   }
   .skill-label .dice {
@@ -589,7 +603,7 @@ div('.left.subgrid', 1, 1) do
     div('.save-label', 10, 10, 1, 2, 'Impulse')
 
     div('.save-circle', 10, 13)
-    div('.save-label', 10, 15, 1, 2, 'All')
+    div('.save-label.grey', 10, 15, 1, 2, '10½')
   end
 
   div('.skill-grid', 2, 2) do
@@ -706,7 +720,11 @@ end
 
 div('.right.subgrid', 2, 1) do
 
-  div('.point-grid', 2, 1) do
+  div('.character-name', 2, 1, 3, 1) do
+    div('.title', 'name')
+  end
+
+  div('.point-grid', 2, 2) do
 
     div('.hp.info.max', 1, 1, 2, 1, 'HP max')
     div('.hp', 1, 2, 2, 1) { img(src: 'heart.svg') }
@@ -714,26 +732,26 @@ div('.right.subgrid', 2, 1) do
     div('.cp', 1, 4, 2, 1) { img(src: 'drop.svg') }
   end
 
-  div('.info-grid', 4, 1) do
+  div('.info-grid', 4, 2) do
 
     div('.picture', 2, 1, 1, 7)
 
     j = -1
-    [ 'name', '', 'player', 'origin', 'level', 'class', 'background' ]
+    [ 'player', 'origin', 'level', 'class', 'background', '' ]
       .each_with_index do |k, i|
         j = i
         k = '&nbsp;' if k == ''
         div('.field', k, 1, 1 + i)
       end
     j = j + 2
-    [ 'appearance', '', 'traits', '', '', '', 'scars', '' ]
+    [ 'appearance', '', '', 'traits', '', '', '', 'scars', '' ]
       .each_with_index do |k, i|
         k = '&nbsp;' if k == ''
         div('.field', k, 1, j + i, 2, 1)
       end
   end
 
-  div('.configuration-grid', 2, 2, 3, 1) do
+  div('.configuration-grid', 2, 3, 3, 1) do
 
     div('.conf-acs', 1, 2, 'base AC: no armor 10 / gambeson 12 / mail shirt 14 / mail hauberk 16', 1, 7)
 
@@ -768,9 +786,10 @@ div('.right.subgrid', 2, 1) do
     end
   end
 
-  div('.vlabel', 1, 1, '↑ Hit & Cast')
-  div('.vlabel', 3, 1, '↑ Info')
-  div('.vlabel', 1, 2, '↑ Configurations')
+  div('.vlabel', 1, 1, '&nbsp;')
+  div('.vlabel', 1, 2, '↑ Hit & Cast')
+  div('.vlabel', 3, 2, '↑ Info')
+  div('.vlabel', 1, 3, '↑ Configurations')
 end
 
 puts %{
