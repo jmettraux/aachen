@@ -16,7 +16,7 @@ html0: clean
 	cp lib/assets/*.png out/html/
 	cp lib/assets/*.css out/html/
 	cp lib/assets/*.svg out/html/
-	$(RUBY) src/sheet.rb > out/html/sheet.html
+	$(RUBY) src/_character_sheet.rb > out/html/character_sheet.html
 h0: html0
 html: html0
 	$(RUM) make_html
@@ -28,7 +28,7 @@ ps: pdf
 	$(RUM) make_ps
 
 tod: ps
-	cp out/html/csheet.pdf ~/Downloads/
+	cp out/html/character_sheet.pdf ~/Downloads/
 	cp out/html/aachen.pdf ~/Downloads/aachen.pdf
 	cp out/html/aachen.stapled.pdf ~/Downloads/
 	cp out/html/aachen.stapled.2.duplex.ps.zip ~/Downloads/
