@@ -1,4 +1,5 @@
 
+require 'yaml'
 require 'ostruct'
 require 'strscan'
 
@@ -24,14 +25,52 @@ class DiceDice
   end
 end
 
+class Character
+  def initialize(h)
+    @h = h
+    @use = h[:_use]
+  end
+  def method_missing(k)
+    if m = k.to_s.match(/^(.+)(_[a-z]+)$/)
+      send("get#{m[2]}", m[1].to_sym)
+    else
+      get(k)
+    end
+  end
+  def body; meanup(str_tc, con_tc, dex_tc).to_s; end
+  def soul; meanup(int_tc, wis_tc, cha_tc).to_s; end
+  def physical; meanup(str_tc, con_tc).to_s; end
+  def evasion; meanup(dex_tc, int_tc).to_s; end
+  def mental; meanup(wis_tc, cha_tc).to_s; end
+  def learning; meanup(int_tc, wis_tc).to_s; end
+  def impulse; meanup(dex_tc, wis_tc).to_s; end
+  def initiative; meandown(dex, wis).to_s; end
+  def all; meanup(str_tc, con_tc, dex_tc, int_tc, wis_tc, cha_tc).to_s; end
+  def get(k); @use ? @h[k.to_s.downcase.to_sym].to_s : ''; end
+  protected
+  def get_tc(k); @use ? (21 - @h[k]).to_s : ''; end
+  def meanup(*args)
+    @use ? (args.inject(0.0) { |r, a| r + a.to_f } / args.length).ceil : ''
+  end
+  def meandown(*args)
+    @use ? (args.inject(0.0) { |r, a| r + a.to_f } / args.length).floor : ''
+  end
+  class << self
+    def load(path)
+      Character.new(YAML.load_file(path))
+    end
+  end
+end
+character = Character.load('char.yaml') rescue Character.new({})
+
 
 hs = OpenStruct.new(
-  page_width: "297mm", # A4
-  page_height: "210mm", # A4
+  page_width: '297mm', # A4
+  page_height: '210mm', # A4
   #page_width: "#{297 - 2 * 4.24}mm", # A4   Brother margin: 4.23mm, 0.16in
   #page_height: "#{210 - 2 * 4.24}mm", # A4
-  #page_width: 215.9mm, # US Letter
-  #page_height: 279.4mm, # US Letter
+  #page_width: '215.9mm', # US Letter
+  #page_height: '279.4mm', # US Letter
   size_a: '14pt',
   mul_a: '1.15',
   title_face: 'trajan-pro-3, serif',
@@ -81,8 +120,15 @@ style = %{
     /*padding: 0.17in; / * Brother printable area.... */
   }
 
-  .grey {
-    color: grey;
+  .grey { color: grey; }
+
+  .d {
+    padding-top: 0.5rem;
+    color: blue;
+    text-align: center;
+  }
+  .skill-box {
+    padding: 0;
   }
 
   .page {
@@ -557,12 +603,12 @@ div('.left.subgrid', 1, 1) do
     div('.a-label', 3, 14, '21 - Abi')
     div('.a-label', 5, 14, 'mean+', 5)
 
-    div('.ability-circle.clgrey.sq', 1, 2)
-    div('.ability-circle.clgrey.sq', 1, 4)
-    div('.ability-circle.clgrey.sq', 1, 6)
-    div('.ability-circle.clgrey.sq', 1, 8)
-    div('.ability-circle.clgrey.sq', 1, 10)
-    div('.ability-circle.clgrey.sq', 1, 12)
+    div('.ability-circle.d.clgrey.sq', 1, 2, character.str)
+    div('.ability-circle.d.clgrey.sq', 1, 4, character.con)
+    div('.ability-circle.d.clgrey.sq', 1, 6, character.dex)
+    div('.ability-circle.d.clgrey.sq', 1, 8, character.int)
+    div('.ability-circle.d.clgrey.sq', 1, 10, character.wis)
+    div('.ability-circle.d.clgrey.sq', 1, 12, character.cha)
 
     div('.ability-label', 2, 2, 1, 2, '<b>STR</b>ength')
     div('.ability-label', 2, 4, 1, 2, '<b>CON</b>stitution')
@@ -571,38 +617,38 @@ div('.left.subgrid', 1, 1) do
     div('.ability-label', 2, 10, 1, 2, '<b>WIS</b>dom')
     div('.ability-label', 2, 12, 1, 2, '<b>CHA</b>risma')
 
-    div('.ability-circle', 3, 2)
-    div('.ability-circle', 3, 4)
-    div('.ability-circle', 3, 6)
-    div('.ability-circle', 3, 8)
-    div('.ability-circle', 3, 10)
-    div('.ability-circle', 3, 12)
+    div('.ability-circle.d', 3, 2, character.str_tc)
+    div('.ability-circle.d', 3, 4, character.con_tc)
+    div('.ability-circle.d', 3, 6, character.dex_tc)
+    div('.ability-circle.d', 3, 8, character.int_tc)
+    div('.ability-circle.d', 3, 10, character.wis_tc)
+    div('.ability-circle.d', 3, 12, character.cha_tc)
 
-    div('.save-circle', 5, 4)
-    div('.save-circle', 5, 10)
+    div('.save-circle.d', 5, 4, character.body)
+    div('.save-circle.d', 5, 10, character.soul)
     div('.save-label', 5, 6, 1, 2, 'Body')
     div('.save-label', 5, 12, 1, 2, 'Soul')
 
-    div('.save-circle', 7, 3)
-    div('.save-circle', 7, 7)
-    div('.save-circle', 7, 11)
+    div('.save-circle.d', 7, 3, character.physical)
+    div('.save-circle.d', 7, 7, character.evasion)
+    div('.save-circle.d', 7, 11, character.mental)
     div('.save-label', 7, 5, 1, 2, 'Physical')
     div('.save-label', 7, 9, 1, 2, 'Evasion')
     div('.save-label', 7, 13, 1, 2, 'Mental')
 
-    div('.save-circle', 9, 9)
+    div('.save-circle.d', 9, 9, character.learning)
     div('.save-label', 9, 11, 1, 2, 'Learning')
 
-    div('.save-circle.sq', 10, 2)
+    div('.save-circle.d.sq', 10, 2, character.initiative)
     div('.ini-label', 10, 4, 1, 4) {
       span('.ini', 'INI<br/>tiative<br/><span class')
       span('.ini2', '(mean-)')
     }
 
-    div('.save-circle', 10, 8)
+    div('.save-circle.d', 10, 8, character.impulse)
     div('.save-label', 10, 10, 1, 2, 'Impulse')
 
-    div('.save-circle', 10, 13)
+    div('.save-circle.d', 10, 13, character.all)
     div('.save-label.grey', 10, 15, 1, 2, '10½')
   end
 
@@ -626,7 +672,7 @@ div('.left.subgrid', 1, 1) do
           span('.dice', sd.next.to_s)
           span('.name', k)
         end
-        div('.skill-box', 2, 1 + i)
+        div('.skill-box.d', 2, 1 + i, character.get(k))
         j = 1 + i
       end
 
@@ -655,7 +701,7 @@ div('.left.subgrid', 1, 1) do
           span('.dice', d)
           span('.name', k)
         end
-        div('.skill-box', 4, 1 + i)
+        div('.skill-box.d', 4, 1 + i, character.get(k))
       end
 
     %w{
@@ -679,7 +725,7 @@ div('.left.subgrid', 1, 1) do
           span('.dice', (i + 1).to_s)
           span('.name', k)
         end
-        div('.skill-box', 4, 13 + i)
+        div('.skill-box.d', 4, 13 + i, character.get(k))
       end
 
     div('.skill-tag', 3, 13, 2, 5, 'M')
@@ -709,7 +755,7 @@ div('.left.subgrid', 1, 1) do
           span('.dice', (i + 1).to_s)
           span('.name', k)
         end
-        div('.skill-box' + (at ? '.attack' : ''), 8, 1 + i)
+        div('.skill-box.d' + (at ? '.attack' : ''), 8, 1 + i, character.get(k))
       end
     div('.skill-tag', 7, 1, 'F', 2, 5)
 
@@ -722,14 +768,17 @@ div('.right.subgrid', 2, 1) do
 
   div('.character-name', 2, 1, 3, 1) do
     div('.title', 'name')
+    div('.d', character.name)
   end
 
   div('.point-grid', 2, 2) do
 
     div('.hp.info.max', 1, 1, 2, 1, 'HP max')
     div('.hp', 1, 2, 2, 1) { img(src: 'heart.svg') }
+    div('.d', 1, 2, 2, 1, character.hp)
     div('.cp.info.max', 1, 3, 2, 1, 'CP max')
     div('.cp', 1, 4, 2, 1) { img(src: 'drop.svg') }
+    div('.d', 1, 4, 2, 1, character.cp)
   end
 
   div('.info-grid', 4, 2) do
