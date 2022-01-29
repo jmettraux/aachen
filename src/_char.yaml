@@ -1,0 +1,42 @@
+---
+
+:name: Gabriel De la Tour d'Auvergne
+:player: Toto
+
+:str: 15
+:con: 12
+:dex: 11
+:int: 13
+:wis: 11
+:cha: 15
+
+:build: 2
+:scout: 1
+
+:weave: 2
+:soak: 1
+
+:swords: 1
+:shields: 2
+:dodge: 1
+
+:klass: fighter-dabster
+:level: 2
+:hp: 8
+:cp: 7
+
+:base_ac: 12
+  # 10 no armor
+  # 12 gambeson
+  # 14 mail shirt
+  # 16 mail hauberk
+
+:configurations:
+  - :weapon: Scimitar
+    :skill: swords
+    :damage: 1d8
+  - :weapon: Short Bow
+    :skill: bows
+    :range: 50ft/15m/10sq V
+    :damage: 1d6
+

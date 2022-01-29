@@ -31,8 +31,12 @@ def make_pdf
     make_stapled_pdf(h)
   end
 
-  h[:in] = "out/html/sheet.html"
-  h[:out] = "out/html/csheet.pdf"
+  h[:in] = "out/html/character_sheet.html"
+  h[:out] = "out/html/character_sheet.pdf"
+  make_chrome_pdf(h)
+
+  h[:in] = "out/html/character_sheet_0.html"
+  h[:out] = "out/html/character_sheet_0.pdf"
   make_chrome_pdf(h)
 end
 

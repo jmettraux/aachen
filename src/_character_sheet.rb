@@ -1,4 +1,5 @@
 
+require 'pp'
 require 'yaml'
 require 'ostruct'
 require 'strscan'
@@ -28,7 +29,22 @@ end
 class Character
   def initialize(h)
     @h = h
-    @use = h[:_use]
+    cs = @h[:configurations] || []
+    cs.each do |c|
+      base = geti(:base_ac) || 10
+      skill = geti(c[:skill]) || -2
+      shields = geti(:shields) || -2
+      dodge = geti(:dodge) || -2
+      range = c[:range]
+      c[:ac] =
+        base + (range ? [ dodge ] : [ skill, dodge ]).max
+      c[:acws] =
+        base + (range ? [ dodge, shields ] : [ skill, dodge, shields ]).max
+      c[:attack] = skill
+    end
+    cs << {} while cs.length < 5
+    @h[:configurations] = cs.collect { |c| OpenStruct.new(c) }
+#PP.pp(@h, $stderr)
   end
   def method_missing(k)
     if m = k.to_s.match(/^(.+)(_[a-z]+)$/)
@@ -46,14 +62,16 @@ class Character
   def impulse; meanup(dex_tc, wis_tc).to_s; end
   def initiative; meandown(dex, wis).to_s; end
   def all; meanup(str_tc, con_tc, dex_tc, int_tc, wis_tc, cha_tc).to_s; end
-  def get(k); @use ? @h[k.to_s.downcase.to_sym].to_s : ''; end
+  def get(k); geti(k).to_s; end
+  def configurations; @h[:configurations]; end
   protected
-  def get_tc(k); @use ? (21 - @h[k]).to_s : ''; end
+  def geti(k); @h[k.to_s.downcase.to_sym]; end
+  def get_tc(k); (21 - @h[k.to_s.downcase.to_sym]).to_s rescue ''; end
   def meanup(*args)
-    @use ? (args.inject(0.0) { |r, a| r + a.to_f } / args.length).ceil : ''
+    (args.inject(0.0) { |r, a| r + a.to_f } / args.length).ceil
   end
   def meandown(*args)
-    @use ? (args.inject(0.0) { |r, a| r + a.to_f } / args.length).floor : ''
+    (args.inject(0.0) { |r, a| r + a.to_f } / args.length).floor
   end
   class << self
     def load(path)
@@ -61,7 +79,7 @@ class Character
     end
   end
 end
-character = Character.load('char.yaml') rescue Character.new({})
+character = Character.load(ENV['AACHEN_CHAR_YAML']) rescue Character.new({})
 
 
 hs = OpenStruct.new(
@@ -122,11 +140,21 @@ style = %{
 
   .grey { color: grey; }
 
-  .d {
-    padding-top: 0.5rem;
-    color: blue;
-    text-align: center;
+  .ability-circle, .save-circle, .skill-box, .character-name, .field,
+  .cp.icon, .hp.icon, .conf-cell {
+    position: relative;
   }
+
+  .d {
+    color: blue;
+    position: absolute;
+    left: 28%;
+  }
+  .hp .d, .cp .d {
+    left: 28%;
+    top: 28%;
+  }
+
   .skill-box {
     padding: 0;
   }
@@ -250,12 +278,13 @@ border: 1px solid lightgrey;
   .sq {
     border-radius: 0;
     margin-top: 1px;
+    position: relative;
   }
   .sq::before {
     content: '+';
-    display: inline-block;
-    margin-top: 0.5rem;
     color: grey;
+    position: absolute;
+    left: 0;
   }
 
   .line {
@@ -397,7 +426,6 @@ border: 1px solid lightgrey;
     width: 3rem;
     display: inline-block;
     border-bottom: 1px solid grey;
-    margin-bottom: 1.0rem;
   }
 
   .conf-cell.weapon {
@@ -603,12 +631,12 @@ div('.left.subgrid', 1, 1) do
     div('.a-label', 3, 14, '21 - Abi')
     div('.a-label', 5, 14, 'mean+', 5)
 
-    div('.ability-circle.d.clgrey.sq', 1, 2, character.str)
-    div('.ability-circle.d.clgrey.sq', 1, 4, character.con)
-    div('.ability-circle.d.clgrey.sq', 1, 6, character.dex)
-    div('.ability-circle.d.clgrey.sq', 1, 8, character.int)
-    div('.ability-circle.d.clgrey.sq', 1, 10, character.wis)
-    div('.ability-circle.d.clgrey.sq', 1, 12, character.cha)
+    div('.ability-circle.clgrey.sq', 1, 2) { span('.d', character.str) }
+    div('.ability-circle.clgrey.sq', 1, 4) { span('.d', character.con) }
+    div('.ability-circle.clgrey.sq', 1, 6) { span('.d', character.dex) }
+    div('.ability-circle.clgrey.sq', 1, 8) { span('.d', character.int) }
+    div('.ability-circle.clgrey.sq', 1, 10) { span('.d', character.wis) }
+    div('.ability-circle.clgrey.sq', 1, 12) { span('.d', character.cha) }
 
     div('.ability-label', 2, 2, 1, 2, '<b>STR</b>ength')
     div('.ability-label', 2, 4, 1, 2, '<b>CON</b>stitution')
@@ -617,38 +645,40 @@ div('.left.subgrid', 1, 1) do
     div('.ability-label', 2, 10, 1, 2, '<b>WIS</b>dom')
     div('.ability-label', 2, 12, 1, 2, '<b>CHA</b>risma')
 
-    div('.ability-circle.d', 3, 2, character.str_tc)
-    div('.ability-circle.d', 3, 4, character.con_tc)
-    div('.ability-circle.d', 3, 6, character.dex_tc)
-    div('.ability-circle.d', 3, 8, character.int_tc)
-    div('.ability-circle.d', 3, 10, character.wis_tc)
-    div('.ability-circle.d', 3, 12, character.cha_tc)
+    div('.ability-circle', 3, 2) { span('.d', character.str_tc) }
+    div('.ability-circle', 3, 4) { span('.d', character.con_tc) }
+    div('.ability-circle', 3, 6) { span('.d', character.dex_tc) }
+    div('.ability-circle', 3, 8) { span('.d', character.int_tc) }
+    div('.ability-circle', 3, 10) { span('.d', character.wis_tc) }
+    div('.ability-circle', 3, 12) { span('.d', character.cha_tc) }
 
-    div('.save-circle.d', 5, 4, character.body)
-    div('.save-circle.d', 5, 10, character.soul)
+$stderr.puts("+" * 80)
+$stderr.puts character.body.inspect
+    div('.save-circle', 5, 4) { span('.d', character.body) }
+    div('.save-circle', 5, 10) { span('.d', character.soul) }
     div('.save-label', 5, 6, 1, 2, 'Body')
     div('.save-label', 5, 12, 1, 2, 'Soul')
 
-    div('.save-circle.d', 7, 3, character.physical)
-    div('.save-circle.d', 7, 7, character.evasion)
-    div('.save-circle.d', 7, 11, character.mental)
+    div('.save-circle', 7, 3) { span('.d', character.physical) }
+    div('.save-circle', 7, 7) { span('.d', character.evasion) }
+    div('.save-circle', 7, 11) { span('.d', character.mental) }
     div('.save-label', 7, 5, 1, 2, 'Physical')
     div('.save-label', 7, 9, 1, 2, 'Evasion')
     div('.save-label', 7, 13, 1, 2, 'Mental')
 
-    div('.save-circle.d', 9, 9, character.learning)
+    div('.save-circle', 9, 9) { span('.d', character.learning) }
     div('.save-label', 9, 11, 1, 2, 'Learning')
 
-    div('.save-circle.d.sq', 10, 2, character.initiative)
+    div('.save-circle.sq', 10, 2) { span('.d', character.initiative) }
     div('.ini-label', 10, 4, 1, 4) {
       span('.ini', 'INI<br/>tiative<br/><span class')
       span('.ini2', '(mean-)')
     }
 
-    div('.save-circle.d', 10, 8, character.impulse)
+    div('.save-circle', 10, 8) { span('.d', character.impulse) }
     div('.save-label', 10, 10, 1, 2, 'Impulse')
 
-    div('.save-circle.d', 10, 13, character.all)
+    div('.save-circle', 10, 13) { span('.d', character.all) }
     div('.save-label.grey', 10, 15, 1, 2, '10½')
   end
 
@@ -672,7 +702,7 @@ div('.left.subgrid', 1, 1) do
           span('.dice', sd.next.to_s)
           span('.name', k)
         end
-        div('.skill-box.d', 2, 1 + i, character.get(k))
+        div('.skill-box', 2, 1 + i) { span('.d', character.get(k)) }
         j = 1 + i
       end
 
@@ -701,7 +731,7 @@ div('.left.subgrid', 1, 1) do
           span('.dice', d)
           span('.name', k)
         end
-        div('.skill-box.d', 4, 1 + i, character.get(k))
+        div('.skill-box', 4, 1 + i) { span('.d', character.get(k)) }
       end
 
     %w{
@@ -725,7 +755,7 @@ div('.left.subgrid', 1, 1) do
           span('.dice', (i + 1).to_s)
           span('.name', k)
         end
-        div('.skill-box.d', 4, 13 + i, character.get(k))
+        div('.skill-box', 4, 13 + i) { span('.d', character.get(k)) }
       end
 
     div('.skill-tag', 3, 13, 2, 5, 'M')
@@ -742,7 +772,7 @@ div('.left.subgrid', 1, 1) do
       #Slash _Axes* _Maces* _Staffs* _Spears* _Swords* _Knives*
       Punch Grapple
       ---
-      Shield
+      _Shields
       Dodge
     }
       .select { |k|
@@ -755,7 +785,8 @@ div('.left.subgrid', 1, 1) do
           span('.dice', (i + 1).to_s)
           span('.name', k)
         end
-        div('.skill-box.d' + (at ? '.attack' : ''), 8, 1 + i, character.get(k))
+        div('.skill-box' + (at ? '.attack' : ''), 8, 1 + i) {
+          span('.d', character.get(k)) }
       end
     div('.skill-tag', 7, 1, 'F', 2, 5)
 
@@ -774,11 +805,15 @@ div('.right.subgrid', 2, 1) do
   div('.point-grid', 2, 2) do
 
     div('.hp.info.max', 1, 1, 2, 1, 'HP max')
-    div('.hp', 1, 2, 2, 1) { img(src: 'heart.svg') }
-    div('.d', 1, 2, 2, 1, character.hp)
+    div('.hp.icon', 1, 2, 2, 1) do
+      img(src: 'heart.svg')
+      span('.d', character.hp)
+    end
     div('.cp.info.max', 1, 3, 2, 1, 'CP max')
-    div('.cp', 1, 4, 2, 1) { img(src: 'drop.svg') }
-    div('.d', 1, 4, 2, 1, character.cp)
+    div('.cp.icon', 1, 4, 2, 1) do
+      img(src: 'drop.svg')
+      span('.d', character.cp)
+    end
   end
 
   div('.info-grid', 4, 2) do
@@ -790,13 +825,13 @@ div('.right.subgrid', 2, 1) do
       .each_with_index do |k, i|
         j = i
         k = '&nbsp;' if k == ''
-        div('.field', k, 1, 1 + i)
+        div('.field', k, 1, 1 + i) { span('.d', character.get(k)) }
       end
     j = j + 2
     [ 'appearance', '', '', 'traits', '', '', '', 'scars', '' ]
       .each_with_index do |k, i|
         k = '&nbsp;' if k == ''
-        div('.field', k, 1, j + i, 2, 1)
+        div('.field', k, 1, j + i, 2, 1) { span('.d', character.get(k)) }
       end
   end
 
@@ -819,19 +854,24 @@ div('.right.subgrid', 2, 1) do
     div('.conf-cell.header2', 7, 2, 'Dice<br/>+ F Skill if melee')
 
     4.times do |y|
-      y = 4 + y
-      div('.conf-cell.ac', 2, y) {
-        img('.ac', src: 'shield-lightgrey.svg') }
-      div('.conf-cell.ac', 3, y) {
-        img('.ac', src: 'shield-grey.svg') }
-      div('.conf-cell.weapon', 4, y) {
-        span('.input', '') }
-      div('.conf-cell.range', 5, y) {
-        span('.input', '') }
-      div('.conf-cell.attack', 6, y) {
-        span('.plus', '+'); img('.atk', src: 'triangle.svg') }
-      div('.conf-cell.damage', 7, y) {
-        img('.dmg', src: 'hex.svg') }
+      div('.conf-cell.ac', 2, 4 + y) {
+        img('.ac', src: 'shield-lightgrey.svg')
+        span('.d', character.configurations[y].ac.to_s) }
+      div('.conf-cell.ac', 3, 4 + y) {
+        img('.ac', src: 'shield-grey.svg')
+        span('.d', character.configurations[y].acws.to_s) }
+      div('.conf-cell.weapon', 4, 4 + y) {
+        span('.input', '')
+        span('.d', character.configurations[y].weapon) }
+      div('.conf-cell.range', 5, 4 + y) {
+        span('.input', '')
+        span('.d', character.configurations[y].range) }
+      div('.conf-cell.attack', 6, 4 + y) {
+        span('.plus', '+'); img('.atk', src: 'triangle.svg')
+        span('.d', character.configurations[y].attack.to_s) }
+      div('.conf-cell.damage', 7, 4 + y) {
+        img('.dmg', src: 'hex.svg')
+        span('.d', character.configurations[y].damage) }
     end
   end
 

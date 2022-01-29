@@ -16,7 +16,10 @@ html0: clean
 	cp lib/assets/*.png out/html/
 	cp lib/assets/*.css out/html/
 	cp lib/assets/*.svg out/html/
-	$(RUBY) src/_character_sheet.rb > out/html/character_sheet.html
+	$(RUBY) src/_character_sheet.rb \
+      > out/html/character_sheet.html
+	AACHEN_CHAR_YAML=src/_char.yaml $(RUBY) src/_character_sheet.rb \
+      > out/html/character_sheet_0.html
 h0: html0
 html: html0
 	$(RUM) make_html
@@ -29,6 +32,7 @@ ps: pdf
 
 tod: ps
 	cp out/html/character_sheet.pdf ~/Downloads/
+	cp out/html/character_sheet_0.pdf ~/Downloads/
 	cp out/html/aachen.pdf ~/Downloads/aachen.pdf
 	cp out/html/aachen.stapled.pdf ~/Downloads/
 	cp out/html/aachen.stapled.2.duplex.ps.zip ~/Downloads/

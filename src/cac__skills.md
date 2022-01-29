@@ -35,7 +35,7 @@ Axes / Maces / Staffs / Spears / Swords / Knives
 Punch / Grapple
 : Fight unarmed. Punching and grappling are separate.
 
-Shield
+Shields
 : To use a shield, defensively and offensively.
 
 Dodge
