@@ -41,6 +41,9 @@ class Character
       c[:acws] =
         base + (range ? [ dodge, shields ] : [ skill, dodge, shields ]).max
       c[:attack] = skill
+      if ! range && skill != 0 && ! c[:damage].match?(/[-+]/)
+        c[:damage] = "#{c[:damage]}#{skill > 0 ? '+' : ''}#{skill}"
+      end
     end
     cs << {} while cs.length < 5
     @h[:configurations] = cs.collect { |c| OpenStruct.new(c) }
@@ -68,10 +71,14 @@ class Character
   def geti(k); @h[k.to_s.downcase.to_sym]; end
   def get_tc(k); (21 - @h[k.to_s.downcase.to_sym]).to_s rescue ''; end
   def meanup(*args)
-    (args.inject(0.0) { |r, a| r + a.to_f } / args.length).ceil
+    geti(:str) ?
+    (args.inject(0.0) { |r, a| r + a.to_f } / args.length).ceil :
+    ''
   end
   def meandown(*args)
-    (args.inject(0.0) { |r, a| r + a.to_f } / args.length).floor
+    geti(:str) ?
+    (args.inject(0.0) { |r, a| r + a.to_f } / args.length).floor :
+    ''
   end
   class << self
     def load(path)
@@ -151,8 +158,44 @@ style = %{
     left: 28%;
   }
   .hp .d, .cp .d {
-    left: 28%;
+    font-size: 120%;
+    left: 40%;
     top: 28%;
+  }
+  .character-name .d {
+    left: 3rem;
+    top: 0.6rem;
+  }
+  .field .d {
+    left: 35%;
+  }
+  .skill-box .d {
+    left: 28%;
+    top: -2px;
+  }
+  .conf-cell.ac .d {
+    top: 0.6rem;
+    left: 32%;
+    font-size: 110%;
+  }
+  .conf-cell.weapon .d {
+    left: 0.2rem;
+    bottom: 0.2rem;
+  }
+  .conf-cell.range .d {
+    left: 0;
+    bottom: 0.2rem;
+    font-size: 70%;
+  }
+  .conf-cell.attack .d {
+    font-size: 110%;
+    top: 1rem;
+    left: 1.8rem;
+  }
+  .conf-cell.damage .d {
+    font-size: 110%;
+    top: 1rem;
+    left: 0.7rem;
   }
 
   .skill-box {
@@ -652,8 +695,6 @@ div('.left.subgrid', 1, 1) do
     div('.ability-circle', 3, 10) { span('.d', character.wis_tc) }
     div('.ability-circle', 3, 12) { span('.d', character.cha_tc) }
 
-$stderr.puts("+" * 80)
-$stderr.puts character.body.inspect
     div('.save-circle', 5, 4) { span('.d', character.body) }
     div('.save-circle', 5, 10) { span('.d', character.soul) }
     div('.save-label', 5, 6, 1, 2, 'Body')
