@@ -33,7 +33,8 @@ ps: pdf
 tod: ps
 	cp out/html/character_sheet.pdf ~/Downloads/
 	cp out/html/character_sheet_0.pdf ~/Downloads/
-	cp out/html/aachen.pdf ~/Downloads/aachen.pdf
+	cp out/html/aachen.pdf ~/Downloads/
+	cp out/html/aachen.a5.pdf ~/Downloads/
 	cp out/html/aachen.stapled.pdf ~/Downloads/
 	cp out/html/aachen.stapled.2.duplex.ps.zip ~/Downloads/
 

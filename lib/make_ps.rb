@@ -17,6 +17,16 @@ def make_ps
   h[:out] = "out/html/#{CONFIG[:NAME]}.2.duplex.ps"
   make_duplex(h)
 
+  # a5
+
+  h[:in] = "out/html/#{CONFIG[:NAME]}.ps"
+  h[:out] = "out/html/#{CONFIG[:NAME]}.a5.ps"
+  make(:to_ps_a5, h)
+
+  h[:in] = "out/html/#{CONFIG[:NAME]}.a5.ps"
+  h[:out] = "out/html/#{CONFIG[:NAME]}.a5.pdf"
+  make(:to_pdf_a5, h)
+
   # stapled
 
   h[:in] = "out/html/#{CONFIG[:NAME]}.stapled.pdf"
