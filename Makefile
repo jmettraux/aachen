@@ -27,8 +27,10 @@ h: html
 
 pdf: html
 	$(RUM) make_pdf
+	pdfinfo out/html/aachen.pdf
 ps: pdf
 	$(RUM) make_ps
+	pdfinfo out/html/aachen.a5.pdf
 
 tod: ps
 	cp out/html/character_sheet.pdf ~/Downloads/
