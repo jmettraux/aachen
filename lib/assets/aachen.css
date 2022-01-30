@@ -1075,49 +1075,16 @@ table.social-class th:nth-child(1) {
   padding-top: 3rem;
 }
 
-[data-aa-title="spell forms"] h1 {
-  margin-top: 0;
-}
-[data-aa-title="spell forms"] dl {
-  margin-top: 0.3rem;
-  margin-bottom: 0.0rem;
+[data-aa-title="spell forms"] .scales table {
+  display: inline-block;
+  width: auto;
   font-size: var(--size-b);
-  line-height: 0.6;
-}
-[data-aa-title="spell forms"] dl dt {
-  font-weight: normal;
-  color: red;
-}
-[data-aa-title="spell forms"] dl dt:after {
-  content: '';
-  margin: 0;
-  padding: 0;
-}
-[data-aa-title="spell forms"] table {
-  font-size: var(--size-b);
-  line-height: 0.85;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-[data-aa-title="spell forms"] table th,
-[data-aa-title="spell forms"] table td {
-  /*padding: 0.28em 0.49em 0.28em 0.49em;*/
-  /* top right bottom left */
-  padding: 0.2em 0 0.3em 0
-}
-[data-aa-title="spell forms"] table td:nth-child(1) {
-  color: red;
-}
-[data-aa-title="spell forms"] table td:nth-child(2) {
-  font-size: 80%;
+  line-height: 0.7;
+  vertical-align: top;
+  margin-right: 0.9rem;
 }
 [data-aa-title="spell forms"] table tr:nth-child(3n) td {
   border-bottom: solid thin #c0c0c0;
-}
-[data-aa-title="spell forms"] table td:nth-child(7),
-[data-aa-title="spell forms"] table td:nth-child(8),
-[data-aa-title="spell forms"] table td:nth-child(9) {
-  color: #a0a0a0;
 }
 
 [data-aa-title="spell colours"] h3 {

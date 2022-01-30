@@ -9,6 +9,83 @@
 
 # Spell Forms
 
+<!-- <div.scales> -->
+
+
+
+<!-- .sizes -->
+| size   | CPs | cast time   |
+|-------:|----:|:-----------:|
+| 1 inch |   1 | Main Action |
+| 1 ft   |   2 | MA          |
+| 5 ft   |   3 | MA          |
+| 10 ft  |   4 | MA          |
+| 20 ft  |   5 | MA + OTA    |
+| 40 ft  |   6 | MA + OTA    |
+| 60 ft  |   7 | 2 MAs       |
+| 80 ft  |   8 | 2 MAs       |
+| 100 ft |   9 | 2 MAs       |
+
+<!-- .ranges -->
+| range   | CPs |
+|--------:|----:|
+| contact |   1 |
+| 1 ft    |   2 |
+| 5 ft    |   3 |
+| 10 ft   |   4 |
+| 20 ft   |   5 |
+| 40 ft   |   6 |
+| 60 ft   |   7 |
+| 80 ft   |   8 |
+| 100 ft  |   9 |
+
+<!-- .duration -->
+| duration | CPs |
+|---------:|----:|
+| 1 rnd    |   1 |
+| 1 min    |   2 |
+| 5 min    |   3 |
+| 10 min   |   4 |
+| 20 min   |   5 |
+| 40 min   |   6 |
+| 60 min   |   7 |
+| 80 min   |   8 |
+| 100 min  |   9 |
+
+<!-- .speed -->
+| speed      | CPs |
+|-----------:|----:|
+| 0          |   0 |
+| 15 ft/rnd  |   1 |
+| 30 ft/rnd  |   2 |
+| 60 ft/rnd  |   3 |
+| 90 ft/rnd  |   4 |
+| 120 ft/rnd |   5 |
+| 150 ft/rnd |   6 |
+| 180 ft/rnd |   7 |
+| 210 ft/rnd |   8 |
+
+<!-- </div.scales> -->
+
+
+<!-- RETURN -->
+
+<!-- .forms -->
+| form   | speed |
+|--------|-------|
+| Arrow  | |
+| Ball   | |
+| Crown  | |
+| Disk   | |
+| Finger | |
+| Flail  | |
+| Hand   | |
+| Hut    | |
+| Net    | |
+| Pole   | |
+| Powder | |
+| Shield | |
+
 Casters see the magical energy as threads of various colours. It is probable that some casters see colours differently, and that some of them don't see some of the colours.
 
 Most of the casters choose simple, well known, forms for weaving their magical threads. Maybe in Constantinople or further east, there are casters that know more complicated forms.
@@ -32,7 +109,6 @@ Most of the casters choose simple, well known, forms for weaving their magical t
 <!-- .caption -->
 **MA**: main action, **OTA**: on turn action,
 **T**: touch, **C**: close, **S**: short, **M**: medium, **L**: long
-
 
 <!-- RETURN -->
 
