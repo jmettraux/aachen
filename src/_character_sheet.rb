@@ -147,8 +147,8 @@ style = %{
 
   .grey { color: grey; }
 
-  .ability-circle, .save-circle, .skill-box, .character-name, .field,
-  .cp.icon, .hp.icon, .conf-cell {
+  .ability-square, .ability-circle, .save-circle, .skill-box, .character-name,
+  .field, .cp.icon, .hp.icon, .conf-cell {
     position: relative;
   }
 
@@ -299,6 +299,14 @@ border: 1px solid lightgrey;
     color: grey;
   }
 
+  .ability-square {
+    width: #{hs.circle_side};
+    height: #{hs.circle_side};
+    border: #{hs.border_width} solid lightgrey;
+    background-color: white;
+    grid-row-end: span 2;
+    margin-top: 1px;
+  }
   .ability-circle {
     width: #{hs.circle_side};
     height: #{hs.circle_side};
@@ -317,18 +325,16 @@ border: 1px solid lightgrey;
     background-color: white;
     z-index: 10;
     grid-row-end: span 2;
-  }
-
-  .sq {
-    border-radius: 0;
-    margin-top: 1px;
     position: relative;
   }
-  .sq::before {
-    content: '+';
-    color: grey;
+  .save-circle::before {
     position: absolute;
-    left: 0;
+    width: #{hs.circle_side};
+    height: #{hs.circle_side};
+    border: #{hs.border_width} solid lightgrey;
+    background-color: white;
+    top: 1rem;
+    left: 1rem;
   }
 
   .line {
@@ -366,9 +372,6 @@ border: 1px solid lightgrey;
   .learning::after {
     width: 4.7rem;
     background-color: lightgrey;
-  }
-  .clgrey {
-    border-color: lightgrey;
   }
 
   /* POINT GRID */
@@ -661,11 +664,6 @@ div('.left.subgrid', 1, 1) do
 
   div('.ability-grid', 2, 1) do
 
-    #div('.save-circle.sq', 1, 8)
-    #div('.ini-label', 1, 10, 1, 2, 'INI<br/>tiative')
-    #div('.line.lup35', 2, 8)
-    #div('.line.ldown35', 2, 8)
-
     div('.a-label', 1, 1, '3d6')
     div('.a-label', 3, 1, 'Ability TCs')
     div('.a-label', 5, 1, 'Save/Mean TCs', 5)
@@ -675,12 +673,12 @@ div('.left.subgrid', 1, 1) do
     div('.a-label', 3, 14, '21 - Abi')
     div('.a-label', 5, 14, 'mean+', 5)
 
-    div('.ability-circle.clgrey.sq', 1, 2) { span('.d', character.str) }
-    div('.ability-circle.clgrey.sq', 1, 4) { span('.d', character.con) }
-    div('.ability-circle.clgrey.sq', 1, 6) { span('.d', character.dex) }
-    div('.ability-circle.clgrey.sq', 1, 8) { span('.d', character.int) }
-    div('.ability-circle.clgrey.sq', 1, 10) { span('.d', character.wis) }
-    div('.ability-circle.clgrey.sq', 1, 12) { span('.d', character.cha) }
+    div('.ability-square', 1, 2) { span('.d', character.str) }
+    div('.ability-square', 1, 4) { span('.d', character.con) }
+    div('.ability-square', 1, 6) { span('.d', character.dex) }
+    div('.ability-square', 1, 8) { span('.d', character.int) }
+    div('.ability-square', 1, 10) { span('.d', character.wis) }
+    div('.ability-square', 1, 12) { span('.d', character.cha) }
 
     div('.ability-label', 2, 2, 1, 2, '<b>STR</b>ength')
     div('.ability-label', 2, 4, 1, 2, '<b>CON</b>stitution')
@@ -711,7 +709,7 @@ div('.left.subgrid', 1, 1) do
     div('.save-circle', 9, 9) { span('.d', character.learning) }
     div('.save-label', 9, 11, 'Learning')
 
-    div('.save-circle.sq', 10, 2) { span('.d', character.initiative) }
+    div('.save-circle', 10, 2) { span('.d', character.initiative) }
     div('.ini-label', 10, 4, 1, 4) {
       span('.ini', 'INI<br/>tiative<br/><span class')
       span('.ini2', '(mean-)')
