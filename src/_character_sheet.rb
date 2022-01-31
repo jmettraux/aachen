@@ -279,6 +279,7 @@ border: 1px solid lightgrey;
     justify-self: center;
     align-self: start;
     font-size: 70%;
+    grid-row-end: span 2;
   }
   .learning-label {
     writing-mode: vertical-rl;
@@ -697,18 +698,18 @@ div('.left.subgrid', 1, 1) do
 
     div('.save-circle', 5, 4) { span('.d', character.body) }
     div('.save-circle', 5, 10) { span('.d', character.soul) }
-    div('.save-label', 5, 6, 1, 2, 'Body')
-    div('.save-label', 5, 12, 1, 2, 'Soul')
+    div('.save-label', 5, 6, 'Body')
+    div('.save-label', 5, 12, 'Soul')
 
     div('.save-circle', 7, 3) { span('.d', character.physical) }
     div('.save-circle', 7, 7) { span('.d', character.evasion) }
     div('.save-circle', 7, 11) { span('.d', character.mental) }
-    div('.save-label', 7, 5, 1, 2, 'Physical')
-    div('.save-label', 7, 9, 1, 2, 'Evasion')
-    div('.save-label', 7, 13, 1, 2, 'Mental')
+    div('.save-label', 7, 5, 'Physical')
+    div('.save-label', 7, 9, 'Evasion')
+    div('.save-label', 7, 13, 'Mental')
 
     div('.save-circle', 9, 9) { span('.d', character.learning) }
-    div('.save-label', 9, 11, 1, 2, 'Learning')
+    div('.save-label', 9, 11, 'Learning')
 
     div('.save-circle.sq', 10, 2) { span('.d', character.initiative) }
     div('.ini-label', 10, 4, 1, 4) {
@@ -717,10 +718,10 @@ div('.left.subgrid', 1, 1) do
     }
 
     div('.save-circle', 10, 8) { span('.d', character.impulse) }
-    div('.save-label', 10, 10, 1, 2, 'Impulse')
+    div('.save-label', 10, 10, 'Impulse')
 
     div('.save-circle', 10, 13) { span('.d', character.all) }
-    div('.save-label.grey', 10, 15, 1, 2, '10½')
+    div('.save-label.grey', 10, 15, '10½')
   end
 
   div('.skill-grid', 2, 2) do
