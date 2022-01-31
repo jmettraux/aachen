@@ -61,7 +61,7 @@ Soak
 Mutate
 : To alter woven magical threads.
 
-Orchestrate
+Entwine
 : To arrange and synchronize two or more set of threads.
 
 <!-- </div.left-column> -->

@@ -780,7 +780,7 @@ div('.left.subgrid', 1, 1) do
       Seize
       Soak
       Mutate
-      Orchestrate
+      Entwine
     }
       .select { |k|
         k[0, 1] != '#' }
