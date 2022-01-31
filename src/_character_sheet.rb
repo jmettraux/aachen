@@ -748,11 +748,10 @@ div('.left.subgrid', 1, 1) do
       end
 
     %w{
-      Scout Spy Steal Swim Trade
+      Scout Spy Steal Swim Trade Travel
       #---
       _Craft
       _Know
-      _
       _
       _
       _

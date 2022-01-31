@@ -15,6 +15,8 @@
 
 # Skills
 
+More like skill domains, some of those domains overlap.
+
 Skills are expressed from 0 to 10 or 20. That value is used as a d20 modifier against an Ability TC, a Save TC, an arbitrary DC, or an AC.
 
 When a character acquires a skill, they start at +0. If a character has not been exposed to the skills, they have a default -2.
@@ -57,7 +59,10 @@ Soak
 : To absorb magical energy as CP (Casting Points).
 
 Mutate
-: To alter woven magical threads
+: To alter woven magical threads.
+
+Orchestrate
+: To arrange and synchronize two or more set of threads.
 
 <!-- </div.left-column> -->
 <!-- <div.right-column> -->
@@ -130,6 +135,9 @@ Swim
 
 Trade
 : To buy and sell advantageously, to value goods correctly, to deal with traders and merchants.
+
+Travel
+: To be used at travelling.
 
 Craft
 : One of the many crafts of the era.
