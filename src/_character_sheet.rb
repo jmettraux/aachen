@@ -247,10 +247,6 @@ border: 1px solid lightgrey;
     width: 100%;
     height: 100%;
     place-items: center;
-    /*
-    grid-template-columns:
-      #{hs.cs} 0.2rem #{hs.cs} 5.6rem #{hs.cs} 0.2rem #{hs.cs} auto;
-    */
   }
 
   .a-label {
@@ -323,18 +319,19 @@ border: 1px solid lightgrey;
     border-radius: #{hs.circle_side};
     border: #{hs.border_width} solid lightgrey;
     background-color: white;
-    z-index: 10;
     grid-row-end: span 2;
     position: relative;
   }
-  .save-circle::before {
+  .save-circle::after {
+    content: '';
     position: absolute;
-    width: #{hs.circle_side};
-    height: #{hs.circle_side};
+    width: 1.7rem;
+    height: 1.9rem;
     border: #{hs.border_width} solid lightgrey;
     background-color: white;
-    top: 1rem;
-    left: 1rem;
+    top: -1.2rem;
+    left: 0.9rem;
+    z-index: -10;
   }
 
   .line {
@@ -666,8 +663,8 @@ div('.left.subgrid', 1, 1) do
 
     div('.a-label', 1, 1, '3d6')
     div('.a-label', 3, 1, 'Ability TCs')
-    div('.a-label', 5, 1, 'Save/Mean TCs', 5)
-    div('.a-label', 10, 1, 'DEX<span class="mean">×</span>WIS')
+    div('.a-label', 4, 1, 'Save/Mean TCs', 4, 1)
+    #div('.a-label', 10, 1, 'DEX<span class="mean">×</span>WIS')
 
     div('.a-label', 1, 14, 'Abi')
     div('.a-label', 3, 14, '21 - Abi')
@@ -694,32 +691,32 @@ div('.left.subgrid', 1, 1) do
     div('.ability-circle', 3, 10) { span('.d', character.wis_tc) }
     div('.ability-circle', 3, 12) { span('.d', character.cha_tc) }
 
-    div('.save-circle', 5, 4) { span('.d', character.body) }
-    div('.save-circle', 5, 10) { span('.d', character.soul) }
-    div('.save-label', 5, 6, 'Body')
-    div('.save-label', 5, 12, 'Soul')
+    div('.save-circle', 4, 4) { span('.d', character.body) }
+    div('.save-circle', 4, 10) { span('.d', character.soul) }
+    div('.save-label', 4, 6, 'Body')
+    div('.save-label', 4, 12, 'Soul')
 
-    div('.save-circle', 7, 3) { span('.d', character.physical) }
-    div('.save-circle', 7, 7) { span('.d', character.evasion) }
-    div('.save-circle', 7, 11) { span('.d', character.mental) }
-    div('.save-label', 7, 5, 'Physical')
-    div('.save-label', 7, 9, 'Evasion')
-    div('.save-label', 7, 13, 'Mental')
+    div('.save-circle', 5, 3) { span('.d', character.physical) }
+    div('.save-circle', 5, 7) { span('.d', character.evasion) }
+    div('.save-circle', 5, 11) { span('.d', character.mental) }
+    div('.save-label', 5, 5, 'Physical')
+    div('.save-label', 5, 9, 'Evasion')
+    div('.save-label', 5, 13, 'Mental')
 
-    div('.save-circle', 9, 9) { span('.d', character.learning) }
-    div('.save-label', 9, 11, 'Learning')
+    div('.save-circle', 6, 9) { span('.d', character.learning) }
+    div('.save-label', 6, 11, 'Learning')
 
-    div('.save-circle', 10, 2) { span('.d', character.initiative) }
-    div('.ini-label', 10, 4, 1, 4) {
-      span('.ini', 'INI<br/>tiative<br/><span class')
-      span('.ini2', '(mean-)')
-    }
+    #div('.save-circle', 10, 2) { span('.d', character.initiative) }
+    #div('.ini-label', 10, 4, 1, 4) {
+    #  span('.ini', 'INI<br/>tiative<br/><span class')
+    #  span('.ini2', '(mean-)')
+    #}
 
-    div('.save-circle', 10, 8) { span('.d', character.impulse) }
-    div('.save-label', 10, 10, 'Impulse')
+    div('.save-circle', 7, 8) { span('.d', character.impulse) }
+    div('.save-label', 7, 10, 'Impulse')
 
-    div('.save-circle', 10, 13) { span('.d', character.all) }
-    div('.save-label.grey', 10, 15, '10½')
+    div('.save-circle', 8, 7) { span('.d', character.all) }
+    div('.save-label.grey', 8, 9, '10½')
   end
 
   div('.skill-grid', 2, 2) do
