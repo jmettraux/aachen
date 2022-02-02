@@ -21,7 +21,7 @@ html0: clean
 	AACHEN_CHAR_YAML=src/_char.yaml $(RUBY) src/_character_sheet.rb \
       > out/html/character_sheet_0.html
 h0: html0
-html: html0
+html: jpegs
 	$(RUM) make_html
 h: html
 
