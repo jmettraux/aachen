@@ -217,7 +217,7 @@ style = %{
     position: relative;
 
     margin: 0;
-border: 1px solid lightgrey;
+/*border: 1px solid lightgrey;*/
   }
 
   .page-grid {
@@ -296,6 +296,7 @@ border: 1px solid lightgrey;
     align-self: end;
     color: grey;
     text-align: center;
+    margin-bottom: 1rem;
   }
 
   .ability-square {
@@ -727,7 +728,7 @@ div('.left.subgrid', 1, 1) do
       div('.save-square') { span('.d', character.learning_dc) } }
     div('.save-label', 6, 11, 'Learning')
 
-    div('.initiative', 7, 1, 'INI modifier<br/>is Impulse DC →', 1, 6)
+    div('.initiative', 7, 1, 'INI modifier<br/>is Impulse DC →', 1, 7)
 
     div('.save-circle', 7, 8) {
       span('.d', character.impulse)

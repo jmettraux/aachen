@@ -26,8 +26,8 @@ Casting Cost
 : Casters may not invest more CPs than their current CP count.
 
 Casting Roll
-: The referee and the caster player determine which magic skill (_Weave_, _Feel_, _Seize_, _Soak_, or _Mutate_) and which of the caster's abilities are involved;
-: The roll is 1d20 + _Magic Skill_ ≥ _Caster Ability_;
+: The referee and the caster player determine which magic skill (_Weave_, _Feel_, _Seize_, _Soak_, _Mutate_, or _Entwine_) and which of the caster's TCs are involved;
+: The roll is 1d20 + _Magic Skill_ ≥ _Caster TC_;
 : Casters who incur damage in the combat round right before casting roll with disadvantage;
 : If the roll fails, the spell peters out;
 : Success or failure, invested CPs are consumed and gone.

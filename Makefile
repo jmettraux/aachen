@@ -32,6 +32,13 @@ ps: pdf
 	$(RUM) make_ps
 	pdfinfo out/html/aachen.a5.pdf
 
+jpegs: html
+	chrome --headless --no-sandbox --disable-gpu \
+      --window-size=1140x840 \
+      --screenshot=out/html/csheet.jpg out/html/character_sheet.html
+	convert out/html/csheet.jpg \
+      -crop 560x415+10+10 out/html/csheet_abilities.jpg
+
 tod: ps
 	cp out/html/character_sheet.pdf ~/Downloads/
 	cp out/html/character_sheet_0.pdf ~/Downloads/
