@@ -70,6 +70,7 @@ class Character
   protected
   def geti(k); @h[k.to_s.downcase.to_sym]; end
   def get_tc(k); (21 - @h[k.to_s.downcase.to_sym]).to_s rescue ''; end
+  def get_dc(k); i = send(k).to_i; i > 0 ? (21 - i).to_s : ''; end
   def meanup(*args)
     geti(:str) ?
     (args.inject(0.0) { |r, a| r + a.to_f } / args.length).ceil :
@@ -197,6 +198,15 @@ style = %{
     top: 1rem;
     left: 0.7rem;
   }
+  .save-square .d {
+    top: -0.2rem;
+    left: 0.05rem;
+    color: #9999ee;
+  }
+  .explanation .d {
+    color: grey;
+    font-size: 70%;
+  }
 
   .skill-box {
     padding: 0;
@@ -277,22 +287,15 @@ border: 1px solid lightgrey;
     font-size: 70%;
     grid-row-end: span 2;
   }
-  .learning-label {
+
+  .initiative {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     font-size: 70%;
-    justify-self: center;
-    align-self: center;
+    justify-self: end;
+    align-self: end;
     color: grey;
     text-align: center;
-  }
-  .ini-label {
-    align-self: start;
-    text-align: center;
-  }
-  .ini2 {
-    font-size: 80%;
-    color: grey;
   }
 
   .ability-square {
@@ -322,8 +325,7 @@ border: 1px solid lightgrey;
     grid-row-end: span 2;
     position: relative;
   }
-  .save-circle::after {
-    content: '';
+  .save-square {
     position: absolute;
     width: 1.7rem;
     height: 1.9rem;
@@ -332,6 +334,13 @@ border: 1px solid lightgrey;
     top: -1.2rem;
     left: 0.9rem;
     z-index: -10;
+  }
+
+  .ability-square > .d,.ability-square > .d,  .ability-circle > .d, .save-circle > .d {
+    top: 0.6rem;
+  }
+  .save-circle.explanation .save-square .d {
+    top: -0.1rem;
   }
 
   .line {
@@ -663,12 +672,12 @@ div('.left.subgrid', 1, 1) do
 
     div('.a-label', 1, 1, '3d6')
     div('.a-label', 3, 1, 'Ability TCs')
-    div('.a-label', 4, 1, 'Save/Mean TCs', 4, 1)
+    div('.a-label', 4, 1, 'circles are TCs / squares are DCs', 5)
     #div('.a-label', 10, 1, 'DEX<span class="mean">×</span>WIS')
 
     div('.a-label', 1, 14, 'Abi')
     div('.a-label', 3, 14, '21 - Abi')
-    div('.a-label', 5, 14, 'mean+', 5)
+    div('.a-label', 4, 14, 'DC = 21 - TC and TC = 21 - DC', 5)
 
     div('.ability-square', 1, 2) { span('.d', character.str) }
     div('.ability-square', 1, 4) { span('.d', character.con) }
@@ -691,32 +700,50 @@ div('.left.subgrid', 1, 1) do
     div('.ability-circle', 3, 10) { span('.d', character.wis_tc) }
     div('.ability-circle', 3, 12) { span('.d', character.cha_tc) }
 
-    div('.save-circle', 4, 4) { span('.d', character.body) }
-    div('.save-circle', 4, 10) { span('.d', character.soul) }
+    div('.save-circle', 4, 4) {
+      span('.d', character.body)
+      div('.save-square') { span('.d', character.body_dc) } }
+    div('.save-circle', 4, 10) {
+      span('.d', character.soul)
+      div('.save-square') { span('.d', character.soul_dc) } }
     div('.save-label', 4, 6, 'Body')
     div('.save-label', 4, 12, 'Soul')
 
-    div('.save-circle', 5, 3) { span('.d', character.physical) }
-    div('.save-circle', 5, 7) { span('.d', character.evasion) }
-    div('.save-circle', 5, 11) { span('.d', character.mental) }
+    div('.save-circle', 5, 3) {
+      span('.d', character.physical)
+      div('.save-square') { span('.d', character.physical_dc) } }
+    div('.save-circle', 5, 7) {
+      span('.d', character.evasion)
+      div('.save-square') { span('.d', character.evasion_dc) } }
+    div('.save-circle', 5, 11) {
+      span('.d', character.mental)
+      div('.save-square') { span('.d', character.mental_dc) } }
     div('.save-label', 5, 5, 'Physical')
     div('.save-label', 5, 9, 'Evasion')
     div('.save-label', 5, 13, 'Mental')
 
-    div('.save-circle', 6, 9) { span('.d', character.learning) }
+    div('.save-circle', 6, 9) {
+      span('.d', character.learning)
+      div('.save-square') { span('.d', character.learning_dc) } }
     div('.save-label', 6, 11, 'Learning')
 
-    #div('.save-circle', 10, 2) { span('.d', character.initiative) }
-    #div('.ini-label', 10, 4, 1, 4) {
-    #  span('.ini', 'INI<br/>tiative<br/><span class')
-    #  span('.ini2', '(mean-)')
-    #}
+    div('.initiative', 7, 1, 'INI modifier<br/>is Impulse DC →', 1, 6)
 
-    div('.save-circle', 7, 8) { span('.d', character.impulse) }
+    div('.save-circle', 7, 8) {
+      span('.d', character.impulse)
+      div('.save-square') { span('.d', character.impulse_dc) } }
     div('.save-label', 7, 10, 'Impulse')
 
-    div('.save-circle', 8, 7) { span('.d', character.all) }
-    div('.save-label.grey', 8, 9, '10½')
+    div('.save-circle', 8, 7) {
+      span('.d', character.all)
+      div('.save-square') { span('.d', character.all_dc) } }
+    div('.save-label.grey', 8, 9, 'all')
+
+    div('.save-circle.explanation', 8, 12) {
+      span('.d', 'TC')
+      div('.save-square') { span('.d', 'DC') } }
+    #div('.expla', 8, 2, 'DC = 21 - TC<br/>TC = 21 - DC', 2, 2)
+    #div('.save-label', 7, 5, 'DC = 21 - TC<br/>TC = 21 - DC')
   end
 
   div('.skill-grid', 2, 2) do
