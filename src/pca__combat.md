@@ -1,11 +1,10 @@
 
 <!-- .margin.compass -->
 * _Playing the Game_
-* Scenes & Saves
-* Skill Checks
+* Checks
 * **Combat**
 * Cbt Actions
-* Health
+* Hit Points
 * Travel
 * Exploration
 * Advancement

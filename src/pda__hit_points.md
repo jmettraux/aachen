@@ -1,18 +1,19 @@
 
 <!-- .margin.compass -->
 * _Playing the Game_
-* Scenes & Saves
-* Skill Checks
+* Checks
 * Combat
 * Cbt Actions
-* **Health**
+* **Hit Points**
 * Travel
 * Exploration
 * Advancement
 * Combat
 
 
-# Health
+# Hit Points
+
+(more generally health FIXME)
 
 When a character reaches 0 HPs, it is considered _mortally wounded_. If they endure further damage they die.
 
@@ -23,6 +24,25 @@ Another character may try a _Heal_ skill check, for example 1d20 + _Heal_ ≥ `I
 If the skill check is successful, the wounded character is stabilized, and will be able to go on after the combat ends. Taking further damage here will bring them back to _mortally wounded_.
 
 The referee might rule the character surviving a _mortally wounded_ episode will be scarred and ask for a roll on the following table. The amount of damage that downed the character determines the dice to roll from d4+d20 to 6d4. If the character already suffers from the resulting scar, it is ignored.
+
+
+<!-- PAGE BREAK hit_points -->
+
+<!-- .margin.compass -->
+* _Playing the Game_
+* Checks
+* Combat
+* Cbt Actions
+* **Hit Points**
+* Travel
+* Exploration
+* Advancement
+* Combat
+
+
+## Wounds
+
+TODO
 
 [^1]
 
@@ -85,30 +105,4 @@ The referee might rule the character surviving a _mortally wounded_ episode will
 <tr class="r"><td>23</td><td>2.50%</td><td>1.39%</td><td>0.59%</td><td> 0.31%</td><td> 0.15%</td><td>Man-Wounded</td><td>unable to sire heirs</td></tr>
 <tr class="r"><td>24</td><td>1.25%</td><td>0.69%</td><td>0.20%</td><td> 0.08%</td><td> 0.02%</td><td>Collapsed Lung</td><td><code>CON</code> - 4</td></tr>
 </table>
-
-<!-- .scars.hidden -->
-| d100  | Scar                                                    |
-|:-----:|---------------------------------------------------------|
-|  1-4  | ~~Blinded Eye~~, -4 when throwing or shooting           |
-|  5-9  | ~~Brain-Bruised~~, `WIS` - 2                            |
-| 10-15 | ~~Broken Knee~~, `DEX` - 2 and movement halved          |
-| 16-19 | ~~Collpased Lung~~, `CON` - 4                           |
-| 20-23 | ~~Destroyed Nose~~, `CHA` - 2, loss of sense of smell   |
-| 24-37 | ~~Flesh Wound~~, that's it                              |
-| 38-39 | ~~Gut Wound~~, `CON` - 4                                |
-| 40-43 | ~~Incontinent~~, `CHA` - 2, often stinking of piss      |
-| 44-46 | ~~Man-Wounded~~, unable to sire heirs                   |
-| 47-50 | ~~Mangled Fingers~~, bow fingers gone                   |
-| 51-53 | ~~Missing Arm~~, `DEX` - 4                              |
-| 54-57 | ~~Missing Hand~~, `DEX` - 2                             |
-| 58-59 | ~~Missing Leg~~, `DEX` - 4, movement reduced to 10 feet |
-| 60-64 | ~~Ripped Muscle~~, `STR` - 2                            |
-| 65-68 | ~~Ruined Ear~~, -1 on all Spy checks                    |
-| 69-72 | ~~Shattered Elbow~~, `DEX` - 2, costs the use of an arm |
-| 73-77 | ~~Skull-Cracked~~, `INT` - 2                            |
-| 78-81 | ~~Smashed Ribs~~, `CON` - 2                             |
-| 82-87 | ~~Stiffened Scars~~, `CHA` - 1, `DEX` - 1               |
-| 88-91 | ~~Throat Wound~~, unable to speak above a whisper       |
-| 92-95 | ~~Torn Face~~, `CHA` - 2                                |
-| 96-00 | ~~Unhealing Abcess~~, `CHA` - 1, `CON` - 1              |
 

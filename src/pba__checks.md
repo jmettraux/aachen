@@ -1,17 +1,16 @@
 
 <!-- .margin.compass -->
 * _Playing the Game_
-* Scenes & Saves
-* **Skill Checks**
+* **Checks**
 * Combat
 * Cbt Actions
-* Health
+* Hit Points
 * Travel
 * Exploration
 * Advancement
 
 
-# Skill Checks
+# Checks
 
 Aachen checks are all 1d20 + modifiers ≥ `TC` (target class). The referee decides what `TC` and what modifiers do apply. The modifier is the skill level of the character (or -2 if the character is unskilled).
 
@@ -62,4 +61,20 @@ The referee might grant advantage or disadvantage on a skill check. Two d20s are
 ## Aiding a Check
 
 A character may help the skill check of another character. The helper rolls like the helped will roll. If the helper succeeds, the helped gains a `+2` on their roll. More people may help but the max help bonus stays at `+2`.
+
+
+<!-- PAGE BREAK checks -->
+
+
+<!-- .margin.compass -->
+* _Playing the Game_
+* **Checks**
+* Combat
+* Cbt Actions
+* Hit Points
+* Travel
+* Exploration
+* Advancement
+
+## Saves
 
