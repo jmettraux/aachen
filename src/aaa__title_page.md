@@ -2,23 +2,26 @@
 <!-- .book-title -->
 # ${NAME_UPCASE}
 
-${NAME_CAP} is a set of tabletop role playing rules targetting a low-fantasy Europe between the Dark Ages and AD 1100.
+${NAME_CAP} is a set of tabletop role playing rules.
 
 It's taking inspiration from Gallant & Bold by John Grümph and Stars Without Number by Kevin Crawford.
 
 Design Decisions:
 
-* fast character creation
-* low on math (slightly harder operations only at character creation)
-* may use any B/X bestiary (HD, AC, ...)
+* targets a low-fantasy Europe between the Dark Ages and AD 1100
+* low on math (additions, arithmetic means, subtractions)
+* may leverage any B/X bestiary (HD, AC, ...)
 * abilities are nouns, skills are verbs, traits are adjective
-* abilities and saves are DCs (TCs), skills are modifiers, d20 roll high
-* traits should be short and unambiguous (-, very, extremely)
-* 1d20 + modifier ≥ TC, advantage and disadvantage
-* few to zero exceptions, if possible introduced by traits
-* non-scholarly magic system, easily replaceable though
+* abilities are the six well-known abilities of old
+* skills are more like skill domains, they are learned with a master usually
+* traits are short qualifier available in three levels (default, _very_, and _extremly_)
+* traits bring in "exceptions"
+* all checks are 1d20 + _skill_ ≥ `DC`
+* `DC`s are either `TC`s (target class) when challenging oneself or `OC`s when being challenged
+* `DC`s are computed from abilities and derived means of abilities (for example `Body TC` is the mean of `STR TC`, `CON TC`, and `DEX TC`
+* skills are nurture, while abilities and `DC`s are nature
 * linear character advancement
-* nature : abilities, culture : skills
+* non-scholarly magic system, easily replaceable though
 
 Git Branch
 : ${GITBRA}
