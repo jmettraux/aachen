@@ -16,23 +16,11 @@ html0: clean
 	cp lib/assets/*.png out/html/
 	cp lib/assets/*.css out/html/
 	cp lib/assets/*.svg out/html/
+csheet: html0
 	$(RUBY) src/_character_sheet.rb \
       > out/html/character_sheet.html
 	AACHEN_CHAR_YAML=src/_char.yaml $(RUBY) src/_character_sheet.rb \
       > out/html/character_sheet_0.html
-h0: html0
-html: jpegs
-	$(RUM) make_html
-h: html
-
-pdf: html
-	$(RUM) make_pdf
-	pdfinfo out/html/aachen.pdf
-ps: pdf
-	$(RUM) make_ps
-	pdfinfo out/html/aachen.a5.pdf
-
-jpegs: html0
 	chrome --headless --no-sandbox --disable-gpu \
       --window-size=1140x840 \
       --screenshot=out/html/csheet.jpg out/html/character_sheet.html
@@ -44,6 +32,16 @@ jpegs: html0
       -crop 550x840+550+0 -trim out/html/csheet_right.jpg
 	convert out/html/csheet_trimmed.jpg \
       -crop 550x410+0+0 -trim out/html/csheet_abilities.jpg
+html: csheet
+	$(RUM) make_html
+h: html
+
+pdf: html
+	$(RUM) make_pdf
+	pdfinfo out/html/aachen.pdf
+ps: pdf
+	$(RUM) make_ps
+	pdfinfo out/html/aachen.a5.pdf
 
 tod: ps
 	cp out/html/character_sheet.pdf ~/Downloads/
