@@ -37,6 +37,9 @@ Difficulty Class (DC)
 Disadvantage
 : Like the _Advantage_, but keep the lowest of the 2d20.
 
+Hit Dice
+: TODO
+
 Hit Points
 : Zero hit points, coma or death.
 
@@ -50,7 +53,7 @@ Opposition Class (OC)
 : A number, usually between 3 and 18, that is _opposed_ to skill checks of other characters FIXME
 
 Referee
-: gamemaster, loremaster, umpire, dungeon master, ...
+: gamemaster, loremaster, umpire, arbiter, wilderness lord, dungeon master, ...
 
 Save Check
 : TODO

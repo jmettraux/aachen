@@ -12,55 +12,54 @@
 
 # Checks
 
-Aachen checks are all 1d20 + modifiers ≥ `TC` (target class). The referee decides what `TC` and what modifiers do apply. The modifier is the skill level of the character (or -2 if the character is unskilled).
+## general mechanism
 
-A skill check is generally done when there is time pressure or opposition. Else the referee might grant success given a certain skill. For example, the referee might decide that a character with `+0` in _Reading_ can easily read a certain text.
+If there is time pressure, opposition, or the task is dangerous, the referee might demand a check to the player (or roll for a NPC).
 
-Here are a few examples of skill check adjudications:
+<!-- .comparison -->
+1d20 + _modifier_ ≥ `DC`
 
-Sneaking
-: 1d20 + _Scout_ ≥ `EVA TC` ~~or~~
-: 1d20 + _Scout_ ≥ opponent's 1d20 + _Spy_ ~~or~~
-: 1d20 + _Scout_ ≥ opponent's `WIS` (**not** `WIS TC`) ~~or~~
-: 1d20 + _Scout_ ≥ static `DC`
+The modifier is usually a skill, covering the task at hand. The `DC` might be a character Target Class (`TC`) or an opposing character `OC`.
 
-Obtaining a discount
-: 1d20 + _Trade_ ≥ `INT TC` ~~or~~
-: 1d20 + _Trade_ ≥ `WIS TC` ~~or~~
-: 1d20 + _Trade_ ≥ opponent's 1d20 + _Trade_
+For less passive opposed checks, the referee might rule that
 
-Shooting at the range
-: 1d20 + _Bows_ ≥ `DEX TC`
+<!-- .comparison -->
+1d20 + _modifier_ ≥ opponent's 1d20 + _modifier_
 
-Healing a character
-: 1d20 + _Heal_ ≥ `INT TC` ~~or~~
-: 1d20 + _Heal_ ≥ wounded's `CON TC`
+where the modifier are the same skills or different skills.
 
-In summary:
 
-Against own's TC
-: 1d20 + Skill ≥ Ability `TC` ~~or~~
-: 1d20 + Skill ≥ Save `TC`
+## attack checks
 
-Against friend's TC
-: 1d20 + Skill ≥ friend's Ability `TC` ~~or~~
-: 1d20 + Skill ≥ friend's Save `TC`
+An attack check follows the pattern above. The modifier is the weapon skill, while the `DC` is the opponent's Armor Class.
 
-Opposed check
-: 1d20 + Skill ≥ opponent's 1d20 + Skill ~~or~~
-: 1d20 + Skill ≥ opponent's 1d20 + other Skill ~~or~~
-: 1d20 + Skill ≥ opponent's Ability (**not** abi `TC`)
+<!-- .comparison -->
+1d20 + _weapon skill_ ≥ `AC`
 
-Arbitrary DC
-: 1d20 + Skill ≥ arbitrary DC (Difficulty Class)
 
-## Dis-Advantage
+## save checks
 
-The referee might grant advantage or disadvantage on a skill check. Two d20s are rolled and the highest is kept in case of advantage (the lowest for a disadvantage).
+The referee might grant a save check to character. The modifier might be a skill or simply half the level or the hit dice (`HD`) rounded down. The target class (`TC`) has to be selected among `Physical TC`, `Evasion TC`, `Mental TC`, or any other `TC` on the character sheet.
 
-## Aiding a Check
+<!-- .comparison -->
+1d20 + _modifier_ ≥ `TC`
 
-A character may help the skill check of another character. The helper rolls like the helped will roll. If the helper succeeds, the helped gains a `+2` on their roll. More people may help but the max help bonus stays at `+2`.
+Should the `TC`s be unavailalbe for a creature, the referee might default to a mean 10 or 11 or to any difficulty class they deem appropriate.
+
+
+## advantage and disadvantage
+
+[^1]
+
+[^1]:
+  the referee might grant +2 or -2 instead of an advantage or disadvantage.
+
+Depending on the circumstances, the referee might grant advantage or disadvantage on a check. Roll two d20s instead of one, and keep the highest in case of advantage or the lowest in case of disadvantage.
+
+
+## ones and twenties
+
+The referee decides if something extra happens on a natural 1 or a natural 20. They might even rule that nothing special happens.
 
 
 <!-- PAGE BREAK checks -->
@@ -76,5 +75,8 @@ A character may help the skill check of another character. The helper rolls like
 * Exploration
 * Advancement
 
-## Saves
+
+## check examples
+
+Checks, second page. TODO.
 

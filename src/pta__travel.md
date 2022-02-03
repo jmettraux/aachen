@@ -8,7 +8,6 @@
 * **Travel**
 * Exploration
 * Advancement
-* Combat
 
 
 # Travel TODO

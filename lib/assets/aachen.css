@@ -903,14 +903,11 @@ table.social-class th:nth-child(1) {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-
-[data-aa-title="checks"] dl del {
-  color: grey;
-  margin-left: 0.5rem;
+[data-aa-title="checks"] p + p {
+  text-indent: 0;
 }
-[data-aa-title="checks"] dl strong {
-  font-weight: normal;
-  color: red;
+[data-aa-title="checks"] p.comparison {
+  text-indent: 1rem;
 }
 
 [data-aa-title="combat"] h1 {
