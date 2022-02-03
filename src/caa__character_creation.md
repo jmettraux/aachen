@@ -20,18 +20,19 @@ Level
 : Roll 2 series of 6 × 3d6; pick best of the 2; assign at will.
 
 ~~p4~~Ability TCs
-: Compute `STR TC`, `DEX TC`, `CON TC`, `INT TC`, `WIS TC`, and `CHA TC` where `XXX TC` = 21 - `XXX`;
-: For example if `STR` is 17 then `STR TC` is 21 - 17 thus 4.
+: Compute `STR TC`, `DEX TC`, `CON TC`, `INT TC`, `WIS TC`, and `CHA TC`;
+: `STR TC` = 21 - `STR` and so on.
 
-~~p4~~Save/Mean TCs
-: Compute the Save/Mean TCs, combinations of Ability TCs (mean rounded up).
+~~p4~~Other TCs
+: Compute `Body TC`, `Soul TC`, `Physical TC`, `Evasion TC`, `Mental TC`, `Learning TC`, `Impulse TC`, and `All TC`.
 
-~~p4~~INI [^1]
-: INI mod = mean of (`DEX` and `WIS`), round down.
+~~p4~~Initiative
+: The INI modifier is equal to 21 - `Impulse TC`;
+: Compute other `OC`s (21 - `TC`).
 
 ~~p6-7~~Background
 : Determine the background of the character;
-: Then follow the background table to roll or pick skill levels.
+: Then follow the background table to roll or pick skills.
 
 ~~p8-9~~Class
 : Select a character class;
@@ -64,8 +65,4 @@ Level
 
 ~~p14-15~~Equipment
 : Determine the equipment of the character with the referee.
-
-
-[^1]:
-  Round down for a `TC`, else round up
 
