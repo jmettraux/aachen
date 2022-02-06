@@ -177,9 +177,6 @@ style = %{
     top: 0.7rem;
     left: 1rem;
   }
-  .ability-diamond:nth-child(2n) .d {
-    left: 0.6rem;
-  }
   .save-circle .d {
     top: 0.8rem;
     left: 1rem;
@@ -276,6 +273,7 @@ style = %{
     height: 100%;
     place-items: center;
     z-index: 0;
+    grid-template-columns: auto 6rem auto 4rem auto auto auto auto;
   }
 
   .a-label {
@@ -288,6 +286,7 @@ style = %{
   .ability-label {
     justify-self: left;
     grid-row-end: span 2;
+    margin-left: 0.4rem;
   }
 
   .save-label {
@@ -333,8 +332,17 @@ position: relative;
     position: absolute;
     transform: scale(0.6, 0.85) rotate(45deg);
   }
-  .ability-diamond:nth-child(2n) .dia {
+  .ability-diamond:nth-child(3n) .dia {
+    left: 0.42rem;
+  }
+  .ability-diamond:nth-child(3n+1) .dia {
     left: -0.4rem;
+  }
+  .ability-diamond:nth-child(3n) .d {
+    left: 1.4rem;
+  }
+  .ability-diamond:nth-child(3n+1) .d {
+    left: 0.6rem;
   }
   .ability-circle {
     width: #{hs.circle_side};
@@ -344,6 +352,12 @@ position: relative;
     background-color: white;
     z-index: 10;
     grid-row-end: span 2;
+  }
+  .ability-circle:nth-child(3n) {
+    left: 0.8rem;
+  }
+  .ability-circle:nth-child(3n+2) {
+    left: 0.4rem;
   }
 
   .save-circle {
@@ -694,12 +708,12 @@ div('.left.subgrid', 1, 1) do
   div('.ability-grid', 2, 1) do
 
     div('.a-label', 1, 1, '3d6')
-    div('.a-label', 3, 1, 'Ability TCs')
+    div('.a-label', 3, 1, 'Abi TCs')
     div('.a-label', 4, 1, 'circles are TCs / diamonds are DCs', 5)
     #div('.a-label', 10, 1, 'DEX<span class="mean">×</span>WIS')
 
-    div('.a-label', 1, 14, 'Abi')
-    div('.a-label', 3, 14, '21 - Abi')
+    div('.a-label', 1, 14, 'Abi DC')
+    div('.a-label', 3, 14, '21 - Abi DC', 2, { style: 'justify-self: left;' })
     div('.a-label', 4, 14, 'DC = 21 - TC and TC = 21 - DC', 5)
 
     div('.ability-bground', 1, 2)
