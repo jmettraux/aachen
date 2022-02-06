@@ -148,7 +148,7 @@ style = %{
 
   .grey { color: grey; }
 
-  .ability-square, .ability-circle, .save-circle, .skill-box, .character-name,
+  .ability-circle, .save-circle, .skill-box, .character-name,
   .field, .cp.icon, .hp.icon, .conf-cell {
     position: relative;
   }
@@ -257,6 +257,7 @@ style = %{
     width: 100%;
     height: 100%;
     place-items: center;
+    z-index: 0;
   }
 
   .a-label {
@@ -268,16 +269,7 @@ style = %{
 
   .ability-label {
     justify-self: left;
-    position: relative;
-  }
-  .ability-label::after {
-    content: '';
-    background-color: lightgrey;
-    position: absolute;
-    left: -1rem;
-    width: 8rem;
-    height: 1.8rem;
-    z-index: -1;
+    grid-row-end: span 2;
   }
 
   .save-label {
@@ -299,6 +291,32 @@ style = %{
     margin-bottom: 1rem;
   }
 
+  .ability-bground {
+    background-color: lightgrey;
+    grid-column-end: span 3;
+    grid-row-end: span 2;
+    width: 100%;
+    height: #{hs.circle_side};
+    margin-bottom: 0.1rem;
+    border-radius: 3rem;
+  }
+  .ability-diamond {
+    width: #{hs.circle_side};
+    height: #{hs.circle_side};
+    grid-row-end: span 2;
+position: relative;
+  }
+  .ability-diamond .dia {
+    border: 7px solid grey;
+    background-color: white;
+    width: #{hs.circle_side};
+    height: #{hs.circle_side};
+    position: absolute;
+    transform: scale(0.6, 0.85) rotate(45deg);
+  }
+  .ability-diamond:nth-child(2n) .dia {
+    left: -0.4rem;
+  }
   .ability-square {
     width: #{hs.circle_side};
     height: #{hs.circle_side};
@@ -337,7 +355,7 @@ style = %{
     z-index: -10;
   }
 
-  .ability-square > .d,.ability-square > .d,  .ability-circle > .d, .save-circle > .d {
+  .ability-circle > .d, .save-circle > .d {
     top: 0.6rem;
   }
   .save-circle.explanation .save-square .d {
@@ -680,19 +698,26 @@ div('.left.subgrid', 1, 1) do
     div('.a-label', 3, 14, '21 - Abi')
     div('.a-label', 4, 14, 'DC = 21 - TC and TC = 21 - DC', 5)
 
-    div('.ability-square', 1, 2) { span('.d', character.str) }
-    div('.ability-square', 1, 4) { span('.d', character.con) }
-    div('.ability-square', 1, 6) { span('.d', character.dex) }
-    div('.ability-square', 1, 8) { span('.d', character.int) }
-    div('.ability-square', 1, 10) { span('.d', character.wis) }
-    div('.ability-square', 1, 12) { span('.d', character.cha) }
+    div('.ability-bground', 1, 2)
+    div('.ability-bground', 1, 4)
+    div('.ability-bground', 1, 6)
+    div('.ability-bground', 1, 8)
+    div('.ability-bground', 1, 10)
+    div('.ability-bground', 1, 12)
 
-    div('.ability-label', 2, 2, 1, 2, '<b>STR</b>ength')
-    div('.ability-label', 2, 4, 1, 2, '<b>CON</b>stitution')
-    div('.ability-label', 2, 6, 1, 2, '<b>DEX</b>terity')
-    div('.ability-label', 2, 8, 1, 2, '<b>INT</b>elligence')
-    div('.ability-label', 2, 10, 1, 2, '<b>WIS</b>dom')
-    div('.ability-label', 2, 12, 1, 2, '<b>CHA</b>risma')
+    div('.ability-diamond', 1, 2) { div('.dia'); span('.d', character.str) }
+    div('.ability-diamond', 1, 4) { div('.dia'); span('.d', character.con) }
+    div('.ability-diamond', 1, 6) { div('.dia'); span('.d', character.dex) }
+    div('.ability-diamond', 1, 8) { div('.dia'); span('.d', character.int) }
+    div('.ability-diamond', 1, 10) { div('.dia'); span('.d', character.wis) }
+    div('.ability-diamond', 1, 12) { div('.dia'); span('.d', character.cha) }
+
+    div('.ability-label', 2, 2, '<b>STR</b>ength')
+    div('.ability-label', 2, 4, '<b>CON</b>stitution')
+    div('.ability-label', 2, 6, '<b>DEX</b>terity')
+    div('.ability-label', 2, 8, '<b>INT</b>elligence')
+    div('.ability-label', 2, 10, '<b>WIS</b>dom')
+    div('.ability-label', 2, 12, '<b>CHA</b>risma')
 
     div('.ability-circle', 3, 2) { span('.d', character.str_tc) }
     div('.ability-circle', 3, 4) { span('.d', character.con_tc) }
