@@ -12,7 +12,8 @@ Ability DC
 : The higher the better
 
 Ability TC
-: 21 - Ability `OC`, for example `STR TC` = 21 - `STR OC`
+: 21 - Ability `DC`, for example `STR TC` = 21 - `STR DC`;
+: The lower the better
 
 Advantage
 : The referee might grant advantage on check, roll 2d20 instead of 1 and keep the highest.

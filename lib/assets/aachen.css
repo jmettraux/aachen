@@ -485,6 +485,9 @@ table.social-class th:nth-child(1) {
   display: none;
 }
 
+[data-aa-title="intro"] h1 {
+  margin-bottom: 1rem;
+}
 [data-aa-title="intro"] dl {
   display: block;
 }
@@ -499,7 +502,7 @@ table.social-class th:nth-child(1) {
 [data-aa-title="intro"] .last-dd::after {
   content: '';
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
 }
 [data-aa-title="intro"] .right-column dl {
   margin-top: 0;
