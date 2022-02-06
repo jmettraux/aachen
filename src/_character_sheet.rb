@@ -371,7 +371,7 @@ position: relative;
   }
   .save-circle .dia {
     position: absolute;
-    border: 6px solid lightgrey;
+    border: 7px solid lightgrey;
     width: 2.4rem;
     height: 2.4rem;
     transform: scale(0.6, 0.85) rotate(45deg);

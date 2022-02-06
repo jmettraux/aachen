@@ -24,14 +24,7 @@ csheet: html0
 	chrome --headless --no-sandbox --disable-gpu \
       --window-size=1140x840 \
       --screenshot=out/html/csheet.jpg out/html/character_sheet.html
-	convert out/html/csheet.jpg \
-      -trim out/html/csheet_trimmed.jpg
-	convert out/html/csheet_trimmed.jpg \
-      -crop 550x840+0+0 -trim out/html/csheet_left.jpg
-	convert out/html/csheet_trimmed.jpg \
-      -crop 550x840+550+0 -trim out/html/csheet_right.jpg
-	convert out/html/csheet_trimmed.jpg \
-      -crop 550x410+0+0 -trim out/html/csheet_abilities.jpg
+	$(RUM) make_csheet
 html: csheet
 	$(RUM) make_html
 h: html
