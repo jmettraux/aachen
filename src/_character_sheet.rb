@@ -170,6 +170,24 @@ style = %{
   .field .d {
     left: 35%;
   }
+  .ability-circle .d {
+    top: 0.8rem;
+  }
+  .ability-diamond .d {
+    top: 0.7rem;
+    left: 1rem;
+  }
+  .ability-diamond:nth-child(2n) .d {
+    left: 0.6rem;
+  }
+  .save-circle .d {
+    top: 0.8rem;
+    left: 1rem;
+  }
+  .save-circle .dia + .d {
+    left: 0.2rem;
+    top: -1rem;
+  }
   .skill-box .d {
     left: 28%;
     top: -2px;
@@ -284,11 +302,12 @@ style = %{
     writing-mode: vertical-rl;
     text-orientation: mixed;
     font-size: 70%;
-    justify-self: end;
+    justify-self: start;
     align-self: end;
     color: grey;
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 1.4rem;
+    margin-left: 0.5rem;
   }
 
   .ability-bground {
@@ -317,14 +336,6 @@ position: relative;
   .ability-diamond:nth-child(2n) .dia {
     left: -0.4rem;
   }
-  .ability-square {
-    width: #{hs.circle_side};
-    height: #{hs.circle_side};
-    border: #{hs.border_width} solid lightgrey;
-    background-color: white;
-    grid-row-end: span 2;
-    margin-top: 1px;
-  }
   .ability-circle {
     width: #{hs.circle_side};
     height: #{hs.circle_side};
@@ -344,22 +355,15 @@ position: relative;
     grid-row-end: span 2;
     position: relative;
   }
-  .save-square {
+  .save-circle .dia {
     position: absolute;
-    width: 1.7rem;
-    height: 1.9rem;
-    border: #{hs.border_width} solid lightgrey;
+    border: 6px solid lightgrey;
+    width: 2.4rem;
+    height: 2.4rem;
+    transform: scale(0.6, 0.85) rotate(45deg);
+    top: -1.6rem;
+    left: -0.5rem;
     background-color: white;
-    top: -1.2rem;
-    left: 0.9rem;
-    z-index: -10;
-  }
-
-  .ability-circle > .d, .save-circle > .d {
-    top: 0.6rem;
-  }
-  .save-circle.explanation .save-square .d {
-    top: -0.1rem;
   }
 
   .line {
@@ -691,7 +695,7 @@ div('.left.subgrid', 1, 1) do
 
     div('.a-label', 1, 1, '3d6')
     div('.a-label', 3, 1, 'Ability TCs')
-    div('.a-label', 4, 1, 'circles are TCs / squares are DCs', 5)
+    div('.a-label', 4, 1, 'circles are TCs / diamonds are DCs', 5)
     #div('.a-label', 10, 1, 'DEX<span class="mean">×</span>WIS')
 
     div('.a-label', 1, 14, 'Abi')
@@ -728,48 +732,55 @@ div('.left.subgrid', 1, 1) do
 
     div('.save-circle', 4, 4) {
       span('.d', character.body)
-      div('.save-square') { span('.d', character.body_dc) } }
+      div('.dia')
+      span('.d', character.body_dc) }
     div('.save-circle', 4, 10) {
       span('.d', character.soul)
-      div('.save-square') { span('.d', character.soul_dc) } }
+      div('.dia')
+      span('.d', character.soul_dc) }
     div('.save-label', 4, 6, 'Body')
     div('.save-label', 4, 12, 'Soul')
 
     div('.save-circle', 5, 3) {
       span('.d', character.physical)
-      div('.save-square') { span('.d', character.physical_dc) } }
+      div('.dia')
+      span('.d', character.physical_dc) }
     div('.save-circle', 5, 7) {
       span('.d', character.evasion)
-      div('.save-square') { span('.d', character.evasion_dc) } }
+      div('.dia')
+      span('.d', character.evasion_dc) }
     div('.save-circle', 5, 11) {
       span('.d', character.mental)
-      div('.save-square') { span('.d', character.mental_dc) } }
+      div('.dia')
+      span('.d', character.mental_dc) }
     div('.save-label', 5, 5, 'Physical')
     div('.save-label', 5, 9, 'Evasion')
     div('.save-label', 5, 13, 'Mental')
 
     div('.save-circle', 6, 9) {
       span('.d', character.learning)
-      div('.save-square') { span('.d', character.learning_dc) } }
+      div('.dia')
+      span('.d', character.learning_dc) }
     div('.save-label', 6, 11, 'Learning')
 
     div('.initiative', 7, 1, 'INI modifier<br/>is Impulse DC →', 1, 7)
 
     div('.save-circle', 7, 8) {
       span('.d', character.impulse)
-      div('.save-square') { span('.d', character.impulse_dc) } }
+      div('.dia')
+      span('.d', character.impulse_dc) }
     div('.save-label', 7, 10, 'Impulse')
 
     div('.save-circle', 8, 7) {
       span('.d', character.all)
-      div('.save-square') { span('.d', character.all_dc) } }
+      div('.dia')
+      span('.d', character.all_dc) }
     div('.save-label.grey', 8, 9, 'all')
 
     div('.save-circle.explanation', 8, 12) {
       span('.d', 'TC')
-      div('.save-square') { span('.d', 'DC') } }
-    #div('.expla', 8, 2, 'DC = 21 - TC<br/>TC = 21 - DC', 2, 2)
-    #div('.save-label', 7, 5, 'DC = 21 - TC<br/>TC = 21 - DC')
+      div('.dia')
+      span('.d', 'DC') }
   end
 
   div('.skill-grid', 2, 2) do
