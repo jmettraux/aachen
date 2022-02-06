@@ -38,7 +38,7 @@ Disadvantage
 : Like the _Advantage_, but keep the lowest of the 2d20.
 
 Hit Dice
-: TODO
+: The number of d8s that are rolled to determine the hit points (HP) of a creature. 1 HD is roughly equivalent to 1 character level.
 
 Hit Points
 : Zero hit points, coma or death.
@@ -47,10 +47,7 @@ Hit Points
 <!-- <div.right-column> -->
 
 Level
-: TODO
-
-Opposition Class (OC)
-: A number, usually between 3 and 18, that is _opposed_ to skill checks of other characters FIXME
+: A number from 1 to 6 or more denothing the character level of experience.
 
 Referee
 : gamemaster, loremaster, umpire, arbiter, wilderness lord, dungeon master, ...
@@ -65,10 +62,13 @@ Skill Check
 : TODO
 
 Target Class (TC)
-: A number, usually between 3 and 18, that is the target for FIXME
+: An ability `TC` is equal to 21 - the ability score;
+: A "save" `TC` is the mean (rounded down) of two or three ability `TC`s;
+: Skill checks are usually 1d20 + _skill_ ≥ `TC`;
+: For example, the referee might demand 1d20 + _Exert_ ≥ `Strength TC` to break some tool.
 
 Trait
-: TODO
+: A small "exception" granted to the character to denote their side talent or specialization.
 
 <!-- </div.right-column> -->
 <!-- </div.two-columns> -->

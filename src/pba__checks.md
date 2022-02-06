@@ -78,5 +78,43 @@ The referee decides if something extra happens on a natural 1 or a natural 20. T
 
 ## check examples
 
-Checks, second page. TODO.
+Remember, `TC`s are target classes, the lower the better, they are used when rolling against oneself. And `OC`s are opponent classes, the higher the better, as they are "presented" to the opponent as a `DC`.
+
+Sneaking
+: 1d20 + _Scout_ ≥ `EVA TC` ~~or~~
+: 1d20 + _Scout_ ≥ opponent's 1d20 + _Spy_ ~~or~~
+: 1d20 + _Scout_ ≥ opponent's `Learning DC` ~~or~~
+: 1d20 + _Scout_ ≥ opponent's `WIS` (**not** `WIS TC`) ~~or~~
+: 1d20 + _Scout_ ≥ static `DC`
+
+Obtaining a discount
+: 1d20 + _Trade_ ≥ `INT TC` ~~or~~
+: 1d20 + _Trade_ ≥ `WIS TC` ~~or~~
+: 1d20 + _Trade_ ≥ opponent's 1d20 + _Trade_
+
+Shooting at the range
+: 1d20 + _Bows_ ≥ `DEX TC`
+
+Healing a character
+: 1d20 + _Heal_ ≥ `INT TC` ~~or~~
+: 1d20 + _Heal_ ≥ wounded's `CON TC`
+
+
+## in summary
+
+Against own's TC
+: 1d20 + Skill ≥ Ability `TC` ~~or~~
+: 1d20 + Skill ≥ Save `TC`
+
+Against friend's TC
+: 1d20 + Skill ≥ friend's Ability `TC` ~~or~~
+: 1d20 + Skill ≥ friend's Save `TC`
+
+Opposed check
+: 1d20 + Skill ≥ opponent's 1d20 + Skill ~~or~~
+: 1d20 + Skill ≥ opponent's 1d20 + other Skill ~~or~~
+: 1d20 + Skill ≥ opponent's Ability (**not** abi `TC`)
+
+Arbitrary DC
+: 1d20 + Skill ≥ arbitrary DC (Difficulty Class)
 
