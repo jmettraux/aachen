@@ -7,6 +7,10 @@
 Abilities
 : Strength, Constitution, Dexterity, Intelligence, Wisdom, and Charisma
 
+Ability DC
+: Or simply Ability Score;
+: The higher the better
+
 Ability TC
 : 21 - Ability `OC`, for example `STR TC` = 21 - `STR OC`
 
@@ -32,6 +36,7 @@ Class
 : Most people are `fighter`s, some are `Dabster`s. Some are `Caster`s, in secret.
 
 Difficulty Class (DC)
+: Or Diamond Class.
 : The number that has to be reached with 1d20 + _skill_ when rolling for an attack check, a skill check, or a save check. FIXME
 
 Disadvantage
@@ -46,20 +51,33 @@ Hit Points
 <!-- </div.left-column> -->
 <!-- <div.right-column> -->
 
+Instant Action
+: TODO
+
 Level
 : A number from 1 to 6 or more denothing the character level of experience.
 
+Main Action
+: TODO
+
+Move Action
+: TODO
+
+On Turn Action
+: TODO
+
 Referee
-: gamemaster, loremaster, umpire, arbiter, wilderness lord, dungeon master, ...
+: Gamemaster, loremaster, umpire, arbiter, wilderness lord, dungeon master, ...
 
 Save Check
-: TODO
+: A last ditch attempt granted by the referee.
+: 1d20 + (_skill_ or _level_ or nothing) ≥ some `TC`
 
 Skill
-: TODO
+: A verb representing more of a _skill domain_ than a single skill. For example _Scout_ could cover the actual Sneak, Observe, etc... skills.
 
 Skill Check
-: TODO
+: A roll like 1d20 + some _skill_ ≥ some `TC`
 
 Target Class (TC)
 : An ability `TC` is equal to 21 - the ability score;
@@ -69,6 +87,7 @@ Target Class (TC)
 
 Trait
 : A small "exception" granted to the character to denote their side talent or specialization.
+: A trait manifests at three level, _normal_, _very_, and _extremely_.
 
 <!-- </div.right-column> -->
 <!-- </div.two-columns> -->
