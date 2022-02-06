@@ -17,16 +17,16 @@
 If there is time pressure, opposition, or the task is dangerous, the referee might demand a check to the player (or roll for a NPC).
 
 <!-- .comparison -->
-1d20 + _modifier_ ≥ `DC`
+1d20 + _modifier_ ≥ `TC` or `DC`
 
-The modifier is usually a skill, covering the task at hand. The `DC` might be a character Target Class (`TC`) or an opposing character `OC`.
+The modifier is usually a skill, covering the task at hand. The target number might be a character Target Class (`TC`) or an opposing character `DC`.
 
-For less passive opposed checks, the referee might rule that
+For less passive opposed checks, the referee might request
 
 <!-- .comparison -->
-1d20 + _modifier_ ≥ opponent's 1d20 + _modifier_
+1d20 + _skill_ ≥ opponent's 1d20 + _skill_
 
-where the modifier are the same skills or different skills.
+where the left skill and the right skill might be the same or not.
 
 
 ## attack checks
@@ -78,13 +78,14 @@ The referee decides if something extra happens on a natural 1 or a natural 20. T
 
 ## check examples
 
-Remember, `TC`s are target classes, the lower the better, they are used when rolling against oneself. And `OC`s are opponent classes, the higher the better, as they are "presented" to the opponent as a `DC`.
+Remember, `TC`s are target classes, the lower the better, they are used when rolling against oneself. And `DC`s are opponent classes, the higher the better, as they are "presented" to the opponent.
 
 Sneaking
 : 1d20 + _Scout_ ≥ `EVA TC` ~~or~~
 : 1d20 + _Scout_ ≥ opponent's 1d20 + _Spy_ ~~or~~
 : 1d20 + _Scout_ ≥ opponent's `Learning DC` ~~or~~
-: 1d20 + _Scout_ ≥ opponent's `WIS` (**not** `WIS TC`) ~~or~~
+: 1d20 + _Scout_ ≥ opponent's `EVA DC` ~~or~~
+: 1d20 + _Scout_ ≥ opponent's `WIS DC` ~~or~~
 : 1d20 + _Scout_ ≥ static `DC`
 
 Obtaining a discount
@@ -93,28 +94,32 @@ Obtaining a discount
 : 1d20 + _Trade_ ≥ opponent's 1d20 + _Trade_
 
 Shooting at the range
-: 1d20 + _Bows_ ≥ `DEX TC`
+: 1d20 + _Bows_ ≥ `DEX TC` ~~or~~
+: 1d20 + _Bows_ ≥ 15 (arbitrary `DC`)
 
 Healing a character
 : 1d20 + _Heal_ ≥ `INT TC` ~~or~~
 : 1d20 + _Heal_ ≥ wounded's `CON TC`
 
 
-## in summary
+## in summary [^1]
+
+[^1]:
+  DC is _Diamond Class_, while TC is, well, _The Circle_ on the character sheet
 
 Against own's TC
-: 1d20 + Skill ≥ Ability `TC` ~~or~~
-: 1d20 + Skill ≥ Save `TC`
+: 1d20 + _skill_ ≥ Ability `TC` ~~or~~
+: 1d20 + _skill_ ≥ Save `TC`
 
 Against friend's TC
-: 1d20 + Skill ≥ friend's Ability `TC` ~~or~~
-: 1d20 + Skill ≥ friend's Save `TC`
+: 1d20 + _skill_ ≥ friend's Ability `TC` ~~or~~
+: 1d20 + _skill_ ≥ friend's Save `TC`
 
 Opposed check
-: 1d20 + Skill ≥ opponent's 1d20 + Skill ~~or~~
-: 1d20 + Skill ≥ opponent's 1d20 + other Skill ~~or~~
-: 1d20 + Skill ≥ opponent's Ability (**not** abi `TC`)
+: 1d20 + _skill_ ≥ opponent's 1d20 + _skill_ ~~or~~
+: 1d20 + _skill_ ≥ opponent's 1d20 + other _skill_ ~~or~~
+: 1d20 + _skill_ ≥ opponent's Ability `DC`
 
 Arbitrary DC
-: 1d20 + Skill ≥ arbitrary DC (Difficulty Class)
+: 1d20 + _skill_ ≥ arbitrary `DC` (Difficulty Class)
 
