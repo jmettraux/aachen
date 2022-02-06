@@ -191,7 +191,7 @@ Monetary exchange is at its worse but people and organizations are still in the 
 | Javelin          | Javelins |       |    1d6 | T      |    5s |     60d |
 | Knife            | Knives   |       |    1d4 |        |    1s |     12d |
 | Mace             | Maces    |       |    1d6 | LL     |    7s |     84d |
-| Quarterstaff     | Staffs   |       |    1d6 | 2H, LL |       |         |
+| Quarterstaff     | Staves   |       |    1d6 | 2H, LL |       |         |
 | Seax             | Swords   |       |    1d6 |        |    2s |     24d |
 | Spear, broad     | Spears   |       |    1d8 | L      |    6s |     72d |
 | Spear, heavy     | Spears   |     7 |   1d10 | 2H, L  |    7s |     84d |

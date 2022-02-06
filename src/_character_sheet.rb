@@ -883,7 +883,7 @@ div('.left.subgrid', 1, 1) do
     %w{
       _Bows _Crossbows _Slings _Javelins Throw
       ---
-      #Slash _Axes* _Maces* _Staffs* _Spears* _Swords* _Knives*
+      #Slash _Axes* _Maces* _Staves* _Spears* _Swords* _Knives*
       Punch Grapple
       ---
       _Shields

@@ -31,7 +31,7 @@ Skills are divided between Fighter skills **F**, Magic skills **M**, and General
 Bows / Crossbows / Slings / Javelins / Throw
 : Shoot with a given type of ranged weapon (or throw a rock).
 
-Axes / Maces / Staffs / Spears / Swords / Knives
+Axes / Maces / Staves / Spears / Swords / Knives
 : Fight with a given type of melee weapon.
 
 Punch / Grapple

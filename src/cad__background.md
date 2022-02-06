@@ -149,7 +149,7 @@ Born into slavery or forced into it by war or debt. The character could be the s
 | Grow             |  2 | +2 Physical |  2 | Any Skill   |
 |                  |  3 | +2 Physical |  3 | Negotiate   |
 | **Quick Skills** |  4 | +2 Mental   |  4 | Craft       |
-| Staffs           |  5 | Exert       |  5 | Ride        |
+| Staves           |  5 | Exert       |  5 | Ride        |
 | Connect          |  6 | Any Skill   |  6 | Hunt        |
 |                  |    |             |  7 | Administer  |
 |                  |    |             |  8 | Build       |
