@@ -3,8 +3,8 @@
 * _Playing a Caster_
 * Spellcasting
 * Spells
-* Spell forms
 * **Spell colours**
+* Spell forms
 
 
 <!-- <div.two-columns> -->

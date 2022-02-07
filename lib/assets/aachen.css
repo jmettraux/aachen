@@ -1044,12 +1044,17 @@ table.social-class th:nth-child(1) {
 
 [data-aa-title="spells"] h1 {
   margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+[data-aa-title="spells"] h1 + p {
+  position: absolute;
 }
 [data-aa-title="spells"] table.matrix {
   float: right;
   font-size: var(--size-b);
   line-height: 1.0;
-  width: 56%;
+  width: 67%;
+  margin-bottom: 1rem;
 }
 [data-aa-title="spells"] table.matrix td {
   padding: 0 0.1rem;
@@ -1067,7 +1072,8 @@ table.social-class th:nth-child(1) {
 [data-aa-title="spells"] table.matrix td[rowspan] {
   color: #c0c0c0;
   font-size: 42pt;
-  padding-top: 3rem;
+  padding: 0 1rem;
+  padding-top: 5rem;
 }
 
 [data-aa-title="spell forms"] .scales table {
