@@ -462,6 +462,10 @@ table.social-class th:nth-child(1) {
 
 /* specific */
 
+[data-aa-page="1"] p + p {
+  text-indent: 0;
+}
+
 [data-aa-page="1"] h1 {
   text-align: center;
 }

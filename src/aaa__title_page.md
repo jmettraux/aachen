@@ -8,7 +8,7 @@ It's taking inspiration from Gallant & Bold by John Grümph and Stars Without Nu
 
 Design Decisions:
 
-* targets a low-fantasy Europe between the Dark Ages and AD 1100
+* targets a low-fantasy Europe between the Dark Ages and AD 1100 (or a similar world of your conception)
 * low on math (additions, arithmetic means, subtractions)
 * may leverage any B/X bestiary (HD, AC, ...)
 * abilities are nouns, skills are verbs, traits are adjective
@@ -37,6 +37,9 @@ URL
 
 Printed
 : ${PRINTED}
+
+Author
+: Jehan Mestral - https://weaver.skepti.ch
 
 License
 : CC BY-SA 4.0 <span class="license-link">https://creativecommons.org/licenses/by-sa/4.0/</span>
