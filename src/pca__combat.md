@@ -19,7 +19,7 @@ Reaction
 Surprise
 : no surprise, or;
 : a side gets the surprise, or;
-: ~~1d20~~ + _Scout_ ≥ `Dex TC` _or_<br/>~~1d20~~ + _Scout_ ≥ opponent's ~~1d20~~ + _Spy_ _or_<br/>~~1d20~~ + _Scout_ ≥ opponent's `WIS` (~~not~~ `WIS TC`)
+: ~~1d20~~ + _Scout_ ≥ `Dex TC` _or_<br/>~~1d20~~ + _Scout_ ≥ opponent's ~~1d20~~ + _Spy_ _or_<br/>~~1d20~~ + _Scout_ ≥ opponent's `WIS DC`
 
 Surprise Round
 : if a side was granted the surprise.

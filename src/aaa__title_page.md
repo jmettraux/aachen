@@ -17,7 +17,7 @@ Design Decisions:
 * traits are short qualifier available in three levels (default, _very_, and _extremly_)
 * traits bring in "exceptions"
 * all checks are 1d20 + _skill_ ≥ `DC`
-* `DC`s are either `TC`s (target class) when challenging oneself or `OC`s when being challenged
+* `DC`s are either `TC`s (target class) when challenging oneself or `DC`s when being challenged
 * `DC`s are computed from abilities and derived means of abilities (for example `Body TC` is the mean of `STR TC`, `CON TC`, and `DEX TC`
 * skills are nurture, while abilities and `DC`s are nature
 * linear character advancement
