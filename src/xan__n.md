@@ -19,4 +19,5 @@
 * "Wolves of God", Kevin Crawford
 * "Avant Charlemagne", François Nedelec
 * "HR2 Charlemagne's Paladin", TSR 1992
+* "Gallant & Bold", John Grümph
 

@@ -44,7 +44,7 @@ _Bear Hug_ If the bear hits the same victim twice with its Claws in the same rou
 * **AC**      13
 * **HD**      1 -1 (HP 3)
 * **Save**    15
-* **Attack**  +0 seax 1d6 (Shk 1 / AC 15), +1 short bow 1d6+1
+* **Attack**  +0 seax 1d6, +1 short bow 1d6+1
 * **Morale**  7 (9 with leader)
 * **Move**    30ft 9m 6sq t
 
