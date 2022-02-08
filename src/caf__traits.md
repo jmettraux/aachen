@@ -12,23 +12,25 @@
 
 # Select Traits
 
-A trait is a qualifier, for example a character might be `Lucky`. A trait may be selected a second time, simply prefix the character with _very_, our character becomes `Very Lucky`, select it a third time and it becomes `Highly Lucky`.
+A trait is a qualifier denoting a special capability or a talent of a character or a creature. A trait comes in three level _(no prefix)_, _very_, or _highly_.
 
-~~TODO~~
+Upon creation and levelling up, characters get 2 or 3 attempts at traits, depending on their class. An attempt is a roll against a `TC`, the trait dictactes what `TC`. If the roll is successful, the trait is acquired. If the trait is already acquired, it goes up one level (_highly_ is the maximum).
+
+· _(no prefix)_ → ·· ~~_very_~~ → ··· ~~_highly_~~
 
 <!-- <div.trait> -->
 
 ### Able `WIS TC` **11 ← d4d6**
-* Simply increase an ability by one (recompute its TC)
+* Simply increase an ability by one (recompute the derived `TC`s)
 
 <!-- </div> -->
 
 <!-- <div.trait> -->
 
 ### Artful **11**
-* TODO
-* TODO
-* TODO
+* +1 on checks when cunning/trickery is involved
+* As per ·, but +2
+* As per ·, but advantage
 
 <!-- </div> -->
 
@@ -97,19 +99,28 @@ A trait is a qualifier, for example a character might be `Lucky`. A trait may be
 
 <!-- <div.trait> -->
 
-### ~~Intricate~~ `LEA TC` **11**
-* TODO
-* TODO
-* TODO
+### Intricate `SOU TC` **11**
+* +2 CP per level, retroactive
+* +3 CP per level, retroactive
+* +4 CP per level, retroactive
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
+### Impulsive `IMP TC` **11**
+* Recompute Impulse `TC` and `DC`, select the best of `DEX TC` and `WIS TC`
+* As per ·, with a +1 to the `TC` (-1 to the `DC`)
+* As per ·, with a +2 to the `TC` (-2 to the `DC`)
 
 <!-- </div> -->
 
 <!-- <div.trait> -->
 
 ### Lucky `MEN TC` **11**
-* TODO
-* TODO
-* TODO
+* +1 on checks when sheer luck is involved
+* As per ·, but +2
+* As per ·, but advantage
 
 <!-- </div> -->
 
@@ -125,9 +136,9 @@ A trait is a qualifier, for example a character might be `Lucky`. A trait may be
 <!-- <div.trait> -->
 
 ### Safe `DEX TC` **11**
-* Recompute a save TC: instead of the mean, select the best of the two Abi TCs
-* As per · for another save TC
-* As per · for the remaining save TC
+* Recompute a save `TC` and its `DC`: instead of the mean, select the best of the two Abi `TC`s
+* As per · for another save `TC` and `DC`
+* As per · for the remaining save `TC` and `DC`
 
 <!-- </div> -->
 
@@ -136,7 +147,7 @@ A trait is a qualifier, for example a character might be `Lucky`. A trait may be
 ### Scheming `LEA TC` **11**
 * Each combat turn,  may exchange their initiative rank with someone in the party
 * Each combat turn,  may reshuffle the initiative ranks of the party
-* TODO
+* As per ··, with +2 on initiative rolls
 
 <!-- </div> -->
 
@@ -156,6 +167,20 @@ A trait is a qualifier, for example a character might be `Lucky`. A trait may be
 
 <!-- </div> -->
 
+
+<!-- PAGE BREAK traits -->
+
+<!-- .margin.compass -->
+* _Character Creation_
+* Abis & Saves
+* Background
+* Class
+* **Traits**
+* Hit Points
+* Name
+* Equipment
+
+
 <!-- <div.trait> -->
 
 ### Skillful `EVA TC` **11**
@@ -169,8 +194,8 @@ A trait is a qualifier, for example a character might be `Lucky`. A trait may be
 
 ### Snappy `MEN TC` **11**
 * -3 instead of -4 on snap attacks
-* -2 instead of -4 on snap attacks
-* -1 instead of -4 on snap attacks
+* As per · but -2
+* As per · but -1
 
 <!-- </div> -->
 
@@ -182,21 +207,6 @@ A trait is a qualifier, for example a character might be `Lucky`. A trait may be
 * As per · but advantage
 
 <!-- </div> -->
-
-
-<!-- PAGE BREAK traits -->
-
-
-<!-- .margin.compass -->
-* _Character Creation_
-* Abis & Saves
-* Background
-* Class
-* **Traits**
-* Hit Points
-* Name
-* Equipment
-
 
 <!-- <div.trait> -->
 

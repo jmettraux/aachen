@@ -28,7 +28,7 @@ Level
 
 ~~p4~~Initiative
 : The INI modifier is equal to 21 - `Impulse TC`;
-: Compute other `OC`s (21 - `TC`).
+: Compute other `DC`s (21 - `TC`).
 
 ~~p6-7~~Background
 : Determine the background of the character;
@@ -53,12 +53,13 @@ Level
 
 ~~p12~~Cast Points
 : `Caster` → 1d8 | `Dabster/Fighter - Caster` → 1d6;
-: Roll 1d20 ≥ `Mental TC`, roll 2 dice keep the best, else roll 1 die;
+: Roll 1d20 ≥ `Mental TC`, if successful, roll 2 dice keep the best, else roll 1 die;
 : Apply trait modifiers if any;
 : Minimum CP is 1.
 
 ~~p12~~Spells
-: If the character has the `Intricate` or `Very Intricate` trait, select (1 + `INT`m) spells (at least one). **<span style="color: red;">FIXME</span>**
+: A `Caster` is granted 2 _spell forms_ and 1 _spell colour_;
+: Roll 1d20 ≥ `Soul TC`, grant a 2nd _spell colour_ if successful.
 
 ~~p13~~Name
 : Give the character a name.

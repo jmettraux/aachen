@@ -88,7 +88,7 @@ Target Class (TC)
 
 Trait
 : A small "exception" granted to the character to denote their side talent or specialization.
-: A trait manifests at three level, _normal_, _very_, and _extremely_.
+: A trait manifests at three level, _normal_, _very_, and _highly_.
 
 <!-- </div.right-column> -->
 <!-- </div.two-columns> -->

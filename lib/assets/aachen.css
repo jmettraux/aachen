@@ -126,7 +126,7 @@ del {
   max-height: var(--tblock-height);
 
   /*overflow: hidden; / * in .page has bad effects when printing */
-  overflow-x: visible;
+  overflow-x: hidden;
   overflow-y: hidden;
 }
 
@@ -738,11 +738,11 @@ table.social-class th:nth-child(1) {
 [data-aa-title="traits"] .text-block > * {
   width: calc((var(--tblock-width) - 1rem) / 2);
 }
+[data-aa-title="traits"] p + .trait {
+  margin-top: 1rem;
+}
 [data-aa-title="traits"] .trait {
   font-size: var(--size-b);
-}
-[data-aa-title="traits"] .trait:first-of-type {
-  margin-top: 0.3rem;
 }
 [data-aa-title="traits"] .trait h3 {
   font-size: var(--size-a);
@@ -1076,13 +1076,26 @@ table.social-class th:nth-child(1) {
   padding-top: 5rem;
 }
 
+[data-aa-title="spell forms"] h1:first-of-type {
+  margin-top: 0;
+}
+[data-aa-title="spell forms"] table.forms {
+  display: inline-block;
+  width: 50%;
+  font-size: var(--size-b);
+  line-height: 0.7;
+  vertical-align: top;
+  margin-left: 0.7rem;
+  margin-bottom: 1rem;
+  float: right;
+}
 [data-aa-title="spell forms"] .scales table {
   display: inline-block;
   width: auto;
   font-size: var(--size-b);
   line-height: 0.7;
   vertical-align: top;
-  margin-right: 0.9rem;
+  margin-right: 0.7rem;
 }
 [data-aa-title="spell forms"] table tr:nth-child(3n) td {
   border-bottom: solid thin #c0c0c0;
