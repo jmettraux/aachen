@@ -91,7 +91,8 @@ Sneaking
 Obtaining a discount
 : 1d20 + _Trade_ ≥ `INT TC` ~~or~~
 : 1d20 + _Trade_ ≥ `WIS TC` ~~or~~
-: 1d20 + _Trade_ ≥ opponent's 1d20 + _Trade_
+: 1d20 + _Trade_ ≥ opponent's 1d20 + _Trade_ ~~or~~
+: 1d20 + _Trade_ ≥ opponent's `Mental DC`
 
 Shooting at the range
 : 1d20 + _Bows_ ≥ `DEX TC` ~~or~~

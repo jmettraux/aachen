@@ -63,7 +63,7 @@ Range
 : 10ft 3m 2sq, if the weapon or creature has the **L** (Long) trait;
 
 Roll
-: ~~1d20 + _weapon skill_~~ ≥ ~~_target AC_~~;
+: ~~1d20~~ + ~~_weapon skill_~~ ≥ ~~_target AC_~~;
 : circumstance table might add a modifier;
 : natural 1 → always failure | natural 20 → always success.
 
@@ -72,7 +72,7 @@ Dis-Advantage
 : advantage → highest of 2d20 | disadvantage → lowest of 2d20.
 
 Damage
-: in case of successful attack:<br/>~~_weapon damage dice_ + _weapon skill_~~
+: in case of successful attack:<br/>~~_weapon damage dice_~~ + ~~_weapon skill_~~
 
 [^1]:
   Option:

@@ -4,7 +4,7 @@
 
 ${NAME_CAP} is a set of tabletop role playing rules.
 
-It's taking inspiration from Gallant & Bold by John Grümph and Stars Without Number by Kevin Crawford.
+It's inspired by John Grümph's Gallant & Bold and by Kevin Crawford's Stars Without Number.
 
 Design Decisions:
 
@@ -16,7 +16,7 @@ Design Decisions:
 * skills are more like skill domains, they are learned with a master usually
 * traits are short qualifier available in three levels (default, _very_, and _extremly_)
 * traits bring in "exceptions"
-* all checks are 1d20 + _skill_ ≥ `DC`
+* all checks are 1d20 + _skill_ ≥ `DC` or `TC`
 * `DC`s are either `TC`s (target class) when challenging oneself or `DC`s when being challenged
 * `DC`s are computed from abilities and derived means of abilities (for example `Body TC` is the mean of `STR TC`, `CON TC`, and `DEX TC`
 * skills are nurture, while abilities and `DC`s are nature

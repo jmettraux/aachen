@@ -529,7 +529,7 @@ table.social-class th:nth-child(1) {
 
 [data-aa-title="abilities"] table.abilities {
   float: left;
-  width: 56%;
+  width: 60%;
   margin-right: 1rem;
   line-height: 0.8;
 }
@@ -541,10 +541,8 @@ table.social-class th:nth-child(1) {
 }
 
 [data-aa-title="abilities"] h2 {
-  /*
-  margin-top: 0.75rem;
+  margin-top: 1.5rem;
   margin-bottom: 0.5rem;
-  */
 }
 
 [data-aa-title="abilities"] table.save-mean {
