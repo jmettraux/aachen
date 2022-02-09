@@ -20,8 +20,13 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 
 <!-- <div.trait> -->
 
-### Able `WIS TC` **11 ← d4d6**
+### Able `WIS TC` **11 ← d4d6** [^1]
 * Simply increase an ability by one (recompute the derived `TC`s)
+
+[^1]:
+  Option:
+
+  How about paying -2 to an Ability to gain a Trait?
 
 <!-- </div> -->
 
