@@ -24,6 +24,9 @@ csheet: html0
 	chrome --headless --no-sandbox --disable-gpu \
       --window-size=1140x840 \
       --screenshot=out/html/csheet.jpg out/html/character_sheet.html
+	chrome --headless --no-sandbox --disable-gpu \
+      --window-size=1140x840 \
+      --screenshot=out/html/csheet_0.jpg out/html/character_sheet_0.html
 	$(RUM) make_csheet
 html: csheet
 	$(RUM) make_html
