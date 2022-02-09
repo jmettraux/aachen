@@ -6,6 +6,8 @@
 
 tmp/*.svg
 
+src/_scratch.md
+
 out/tmp/*.md
 out/tmp/*.html
 
@@ -18,5 +20,6 @@ out/html/*.png
 out/html/*.pdf
 out/html/*.svg
 out/html/*.html
+out/html/csheet*.jpg
 out/html/et-book/
 

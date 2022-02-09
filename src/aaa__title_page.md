@@ -19,7 +19,7 @@ Design Decisions:
 * all checks are 1d20 + _skill_ ≥ `DC` or `TC`
 * `DC`s are either `TC`s (target class) when challenging oneself or `DC`s when being challenged
 * `DC`s are computed from abilities and derived means of abilities (for example `Body TC` is the mean of `STR TC`, `CON TC`, and `DEX TC`
-* skills are nurture, while abilities and `DC`s are nature
+* skills are nurture, while abilities and their derivatives are nature
 * linear character advancement
 * non-scholarly magic system, easily replaceable though
 
@@ -33,7 +33,7 @@ Src SHA
 : ${SRCSHA}
 
 URL
-: ${WEBURL}
+: https://github.com/jmettraux/aachen
 
 Printed
 : ${PRINTED}
