@@ -187,7 +187,11 @@ style = %{
   }
   .save-circle .dia + .d {
     left: 0.2rem;
-    top: -1rem;
+    top: -1.0rem;
+  }
+  .save-circle.explanation .dia + .d {
+    left: 0.2rem;
+    top: -0.8rem;
   }
   .skill-box .d {
     left: 28%;
@@ -938,6 +942,8 @@ div('.right.subgrid', 2, 1) do
       img(src: 'heart.svg')
       span('.d', character.hp)
     end
+  end
+  div('.point-grid', 2, 3) do
     div('.cp.info.max', 1, 3, 2, 1, 'CP max')
     div('.cp.icon', 1, 4, 2, 1) do
       img(src: 'drop.svg')
@@ -945,7 +951,7 @@ div('.right.subgrid', 2, 1) do
     end
   end
 
-  div('.info-grid', 4, 2) do
+  div('.info-grid', 4, 2, 1, 2) do
 
     div('.picture', 2, 1, 1, 7)
 
@@ -964,7 +970,7 @@ div('.right.subgrid', 2, 1) do
       end
   end
 
-  div('.spell-grid', 2, 3, 3, 1) do
+  div('.spell-grid', 2, 4, 3, 1) do
     %w[
       Amber Blue Coal Copper Gold Night
       Quartz Red Scarlet Silver Turquoise Faery
@@ -979,7 +985,7 @@ div('.right.subgrid', 2, 1) do
     end
   end
 
-  div('.configuration-grid', 2, 4, 3, 1) do
+  div('.configuration-grid', 2, 5, 3, 1) do
 
     div('.conf-acs', 1, 2, 'base AC: no armor 10 / gambeson 12 / mail shirt 14 / mail hauberk 16', 1, 7)
 
@@ -1020,10 +1026,12 @@ div('.right.subgrid', 2, 1) do
   end
 
   div('.vlabel', 1, 1, '&nbsp;')
-  div('.vlabel', 1, 2, '↑ Hit & Cast', 1, 2)
-  div('.vlabel', 3, 2, '↑ Info')
+  div('.vlabel', 1, 2, '↑ Hit Points')
+  #div('.vlabel', 1, 3, 'Cast Points ↑ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Spells ↑', 1, 2)
+  div('.vlabel', 1, 3, '↑ Cast Points', 1, 2)
+  div('.vlabel', 3, 2, '↑ Info', 1, 2)
   #div('.vlabel', 1, 3, '&nbsp;')
-  div('.vlabel', 1, 4, '↑ Configurations')
+  div('.vlabel', 1, 5, '↑ Configurations')
 end
 
 puts %{
