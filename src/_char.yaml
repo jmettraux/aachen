@@ -4,7 +4,8 @@
 :player: Giuseppe
 :origin: Burgund
 :background: Wanderer
-:class: Fighter
+:level: 2
+:class: Fighter-Dabster
 :traits: Very Swerving
 
 :str: 15
@@ -24,8 +25,6 @@
 :shields: 2
 :dodge: 1
 
-:klass: fighter-dabster
-:level: 2
 :hp: 8
 :cp: 7
 
@@ -36,9 +35,9 @@
   # 16 mail hauberk
 
 :configurations:
-  - :weapon: Scimitar
+  - :weapon: Seax
     :skill: swords
-    :damage: 1d8
+    :damage: 1d6
   - :weapon: Short Bow
     :skill: bows
     :range: 50ft/15m/10sq V

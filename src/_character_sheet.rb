@@ -68,6 +68,7 @@ class Character
   def get(k); geti(k).to_s; end
   def configurations; @h[:configurations]; end
   def knows?(n); @h[:spells] && @h[:spells].include?(n.to_s); end
+  def base_ac; @h[:base_ac]; end
   protected
   def geti(k); @h[k.to_s.downcase.to_sym]; end
   def get_tc(k); (21 - @h[k.to_s.downcase.to_sym]).to_s rescue ''; end
@@ -492,6 +493,7 @@ position: relative;
     font-size: 70%;
     text-align: center;
     color: grey;
+    border-bottom: 1px solid white;
   }
   .spell-grid .t.underline {
     border-bottom: 1px solid blue;
@@ -506,11 +508,19 @@ position: relative;
     height: 3.5rem;
   }
 
-  .conf-acs {
+  .conf-footer {
     color: grey;
     font-size: 70%;
-    writing-mode: vertical-lr;
-    text-orientation: mixed;
+    margin-top: 0.66rem;
+  }
+  .conf-footer.base {
+    justify-self: center;
+  }
+  .conf-footer .ac {
+    border-bottom: 1px solid white;
+  }
+  .conf-footer .ac.underline {
+    border-bottom: 1px solid blue;
   }
 
   .conf-cell {
@@ -995,8 +1005,6 @@ div('.right.subgrid', 2, 1) do
 
   div('.configuration-grid', 2, 5, 3, 1) do
 
-    div('.conf-acs', 1, 2, 'base AC: no armor 10 / gambeson 12 / mail shirt 14 / mail hauberk 16', 1, 7)
-
     div('.conf-cell.header', 2, 1, 'AC', 2, 1)
     div('.conf-cell.header', 4, 1, 'Weapon')
     div('.conf-cell.header', 5, 1, 'Range')
@@ -1031,6 +1039,16 @@ div('.right.subgrid', 2, 1) do
         img('.dmg', src: 'hex.svg')
         span('.d', character.configurations[y].damage) }
     end
+
+    div('.conf-footer.base', 2, 8, 'base AC:')
+    div('.conf-footer', 3, 8, 6, 1) {
+      [ 'no armour 10', 'gambeson 12', 'mail shirt 14', 'mail hauberk 16' ]
+        .each do |a|
+          n = a.match(/(\d+)/)[1].to_i
+          span('.ac' + (character.base_ac == n ? '.underline' : ''), a)
+          span('.slash', '/') unless a.match(/hauberk/)
+        end
+    }
   end
 
   div('.vlabel', 1, 1, '&nbsp;')
