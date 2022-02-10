@@ -67,6 +67,7 @@ class Character
   def all; meanup(str_tc, con_tc, dex_tc, int_tc, wis_tc, cha_tc).to_s; end
   def get(k); geti(k).to_s; end
   def configurations; @h[:configurations]; end
+  def knows?(n); @h[:spells] && @h[:spells].include?(n.to_s); end
   protected
   def geti(k); @h[k.to_s.downcase.to_sym]; end
   def get_tc(k); (21 - @h[k.to_s.downcase.to_sym]).to_s rescue ''; end
@@ -491,6 +492,9 @@ position: relative;
     font-size: 70%;
     text-align: center;
     color: grey;
+  }
+  .spell-grid .t.underline {
+    border-bottom: 1px solid blue;
   }
 
   /* CONFIGURATION GRID */
@@ -975,13 +979,17 @@ div('.right.subgrid', 2, 1) do
       Amber Blue Coal Copper Gold Night
       Quartz Red Scarlet Silver Turquoise Faery
     ].each_with_index do |n, i|
-      div('.colour', 1 + (i * 2), 1, 2, 1) { div('.t', n) }
+      div('.colour', 1 + (i * 2), 1, 2, 1) do
+        div('.t' + (character.knows?(n) ? '.underline' : ''), n)
+      end
     end
     %w[
       Arrow Ball Crown Disk Finger Flail
       Hand Hut Net Pole Powder Shield
     ].each_with_index do |n, i|
-      div('.colour', 2 + (i * 2), 2, 2, 1) { div('.t', n) }
+      div('.colour', 2 + (i * 2), 2, 2, 1) do
+        div('.t' + (character.knows?(n) ? '.underline' : ''), n)
+      end
     end
   end
 
