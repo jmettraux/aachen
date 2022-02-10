@@ -315,7 +315,7 @@ style = %{
     color: grey;
     text-align: center;
     margin-bottom: 1.4rem;
-    margin-left: 0.5rem;
+    margin-left: 0.71rem;
   }
 
   .ability-bground {
