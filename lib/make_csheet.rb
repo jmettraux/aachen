@@ -14,17 +14,18 @@ def do_make_csheet(suffix='')
   m = geom.match(/ (\d+)x(\d+)/)
   w = m[1].to_i
   h = m[2].to_i
+  w2 = w * 0.52
 
   system(
     "convert out/html/csheet_trimmed#{suffix}.jpg " +
-    "-crop #{w / 2}x#{h}+0+0 -trim out/html/csheet_left#{suffix}.jpg")
+    "-crop #{w2}x#{h}+0+0 -trim out/html/csheet_left#{suffix}.jpg")
   system(
     "convert out/html/csheet_trimmed#{suffix}.jpg " +
-    "-crop #{w / 2}x#{h}+#{w / 2}+0 -trim out/html/csheet_right#{suffix}.jpg")
+    "-crop #{w2}x#{h}+#{w2}+0 -trim out/html/csheet_right#{suffix}.jpg")
 
   system(
     "convert out/html/csheet_trimmed#{suffix}.jpg " +
-    "-crop #{w / 2}x#{h/2}+0+0 -trim out/html/csheet_abilities#{suffix}.jpg")
+    "-crop #{w2}x#{h / 2}+0+0 -trim out/html/csheet_abilities#{suffix}.jpg")
 end
 
 def make_csheet

@@ -4,6 +4,7 @@ NAME_ != grep "NAME_:" Config.yaml | cut -d ": " -f 2 | sed 's/^ *//'
 
 RUBY = ruby
 RUM = $(RUBY) -Ilib -r make -e
+SHOOTGEO = 1200x900
 
 
 all: ps
@@ -22,10 +23,10 @@ csheet: html0
 	AACHEN_CHAR_YAML=src/_char.yaml $(RUBY) src/_character_sheet.rb \
       > out/html/character_sheet_0.html
 	chrome --headless --no-sandbox --disable-gpu \
-      --window-size=1140x840 \
+      --window-size=$(SHOOTGEO) \
       --screenshot=out/html/csheet.jpg out/html/character_sheet.html
 	chrome --headless --no-sandbox --disable-gpu \
-      --window-size=1200x900 \
+      --window-size=$(SHOOTGEO) \
       --screenshot=out/html/csheet_0.jpg out/html/character_sheet_0.html
 	$(RUM) make_csheet
 html: csheet
