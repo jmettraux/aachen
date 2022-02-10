@@ -1,8 +1,11 @@
 ---
 
 :name: Gabriel De la Tour d'Auvergne
-:player: Toto
-:background: wanderer
+:player: Giuseppe
+:origin: Burgund
+:background: Wanderer
+:class: Fighter
+:traits: Very Swerving
 
 :str: 15
 :con: 12

@@ -160,15 +160,19 @@ style = %{
   }
   .hp .d, .cp .d {
     font-size: 120%;
-    left: 40%;
+    left: 42%;
+    top: 21%;
+  }
+  .cp .d {
     top: 28%;
   }
   .character-name .d {
     left: 3rem;
-    top: 0.6rem;
+    bottom: 0.15rem;
   }
   .field .d {
-    left: 35%;
+    left: 4rem;
+    bottom: 0.1rem;
   }
   .ability-circle .d {
     top: 0.8rem;
@@ -200,13 +204,13 @@ style = %{
   }
   .conf-cell.range .d {
     left: 0;
-    bottom: 0.2rem;
+    bottom: 0.3rem;
     font-size: 70%;
   }
   .conf-cell.attack .d {
     font-size: 110%;
     top: 1rem;
-    left: 1.8rem;
+    left: 1.7rem;
   }
   .conf-cell.damage .d {
     font-size: 110%;
@@ -472,6 +476,17 @@ position: relative;
     width: 100%;
     height: 100%;
     border: 1px solid grey;
+  }
+
+  /* SPELL GRID */
+
+  .spell-grid {
+    display: grid;
+  }
+  .spell-grid .t {
+    font-size: 70%;
+    text-align: center;
+    color: grey;
   }
 
   /* CONFIGURATION GRID */
@@ -949,7 +964,22 @@ div('.right.subgrid', 2, 1) do
       end
   end
 
-  div('.configuration-grid', 2, 3, 3, 1) do
+  div('.spell-grid', 2, 3, 3, 1) do
+    %w[
+      Amber Blue Coal Copper Gold Night
+      Quartz Red Scarlet Silver Turquoise Faery
+    ].each_with_index do |n, i|
+      div('.colour', 1 + (i * 2), 1, 2, 1) { div('.t', n) }
+    end
+    %w[
+      Arrow Ball Crown Disk Finger Flail
+      Hand Hut Net Pole Powder Shield
+    ].each_with_index do |n, i|
+      div('.colour', 2 + (i * 2), 2, 2, 1) { div('.t', n) }
+    end
+  end
+
+  div('.configuration-grid', 2, 4, 3, 1) do
 
     div('.conf-acs', 1, 2, 'base AC: no armor 10 / gambeson 12 / mail shirt 14 / mail hauberk 16', 1, 7)
 
@@ -990,9 +1020,10 @@ div('.right.subgrid', 2, 1) do
   end
 
   div('.vlabel', 1, 1, '&nbsp;')
-  div('.vlabel', 1, 2, '↑ Hit & Cast')
+  div('.vlabel', 1, 2, '↑ Hit & Cast', 1, 2)
   div('.vlabel', 3, 2, '↑ Info')
-  div('.vlabel', 1, 3, '↑ Configurations')
+  #div('.vlabel', 1, 3, '&nbsp;')
+  div('.vlabel', 1, 4, '↑ Configurations')
 end
 
 puts %{
