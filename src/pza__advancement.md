@@ -36,18 +36,3 @@ Rolling 3 for a skill group means that 3 skills may be "upped" in that group. As
 
 TODO
 
-<!-- PAGE BREAK advancement -->
-
-<!-- .margin.compass -->
-* _Playing the Game_
-* Checks
-* Combat
-* Cbt Actions
-* Hit Points
-* Travel
-* Exploration
-* **Advancement**
-
-
-TODO
-
