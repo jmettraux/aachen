@@ -839,7 +839,7 @@ div('.left.subgrid', 1, 1) do
     j = 0
     %w{
       Administer Build Connect Cook Exert Fish Gather Grow Heal Herd Hunt Lead
-      Negociate Perform Pray Read Ride Sail
+      Negotiate Perform Pray Read Ride Sail
       #Know #Notice #Craft #Sneak #Connect
     }
       .select { |k|

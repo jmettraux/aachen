@@ -28,27 +28,27 @@ Aachen targets Europa between 700 and 1100 AD. The Empire receded in far Byzanti
 
 [^1]
 
-The background is determined by rolling 1d6, or by choosing one in accord with the referee. A player may also want to come up with their own background, giving it a name and three skills. For example, a `Mountebank` background that grants _Talk_, _Exert_, and _Perform_.
+The background is determined by rolling 1d6, or by choosing one in accord with the referee. A player may also want to come up with their own background, giving it a name and three skills. For example, a `Mountebank` background that grants _Talk_, _Travel_, _Exert_, and _Perform_.
 
 
 ## Applying the Background
 
 There are three ways to apply a background table.
 
-The **quick way** is to take the _Free Skill_ and the 2 _Quick Skills_.
+The **quick way** is to take the _Free Skill_ and the 3 _Quick Skills_.
 
-The **selection way** is to take the _Free Skill_ and then select two skills from the right-most column, the _Learning_ column. Disregard, _Any Skill_ and _Any Fighter Skill_.
+The **selection way** is to take the _Free Skill_ and then select 3 skills from the right-most column, the _Learning_ column. Disregard _Any Skill_ and _Any Fighting Skill_.
 
-The **random way** is to the the _Free Skill_ and then roll thrice, either from the _Growth_ column or from the _Learning_ column. It is not necessary to roll thrice from the same column.
+The **random way** is to take the _Free Skill_ and then roll four times, either from the _Growth_ column or from the _Learning_ column.
 
-Rolling _Any Skill_ means the player may choose any one skill for his character. Rolling _Any Fighter (Skill)_ means the player may choose `SLASH`, `SHOOT`, or `PUNCH`.
+Rolling _Any Skill_ means the player may choose any one skill for his character. Rolling _Any Fighting (Skill)_ means the player may choose among _Swords_, _Shields, _Punch_, _Grapple_, _Bows_, etc.
 
 [^2]
 
 Rolling _+1 Any Abi_ means 1 point may be added to the score of any ability. Rolling _+2 Physical_ means 2 points may be added to the score of `STR`, `DEX`, or `CON`. 2 points on one of them, or 1 point on two of them. Rolling _+2 Mental_ is the equivalent for `INT`, `WIS`, and `CHA`.
-Remember to recompute the ability modifiers and the saving throw scores if an ability score is changed.
+Remember to recompute the `DC`s and `TC`s depending on the modified abilities.
 
-When a character is given a skill, it sets it at level 0. Taking it a second time sets it at level 1.
+When a character is given a skill, it sets it at level 0. Taking it a second time sets it at level 1, and so on.
 
 Character with Backgrounds tagged _learning advantage_ get an advantage when rolling for skills upon levelling up.
 
@@ -85,7 +85,7 @@ Character with Backgrounds tagged _learning advantage_ get an advantage when rol
 
 [^2]:
   _Any Skill_:
-  The referee may prevent you from choosing `cast`, `feel`, or `soak`. Or let you take it for scholarly reasons (no actual spell casting).
+  Non-caster characters may not choose magical skills like _Weave_, _Soak_, etc, unless the referee rules otherwise.
 
 <!-- PAGE BREAK background -->
 
@@ -105,16 +105,16 @@ Character with Backgrounds tagged _learning advantage_ get an advantage when rol
 -->
 
 <!-- .background -->
-| 1                | d6 | Growth      | d8 | Learning    |
-|------------------|---:|:-----------:|---:|:-----------:|
-| **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Fighter |
-| Gather           |  2 | +2 Physical |  2 | Any Skill   |
-|                  |  3 | +2 Physical |  3 | Perform     |
-| **Quick Skills** |  4 | +2 Mental   |  4 | Steal       |
-| Hunt             |  5 | Hunt        |  5 | Hunt        |
-| Any Fighter      |  6 | Any Skill   |  6 | Spy         |
-|                  |    |             |  7 | Scout       |
-|                  |    |             |  8 | Negotiate   |
+| 1                | d6 | Growth      | d8 | Learning     |
+|------------------|---:|:-----------:|---:|:------------:|
+| **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Fighting |
+| Gather           |  2 | +2 Physical |  2 | Any Skill    |
+|                  |  3 | +2 Physical |  3 | Perform      |
+| **Quick Skills** |  4 | +2 Mental   |  4 | Steal        |
+| Hunt             |  5 | Hunt        |  5 | Hunt         |
+| Travel           |  6 | Any Skill   |  6 | Spy          |
+| Any Fighting     |    |             |  7 | Scout        |
+|                  |    |             |  8 | Negotiate    |
 
 ### Wanderer
 
@@ -124,16 +124,16 @@ An outlaw or an unprotected foreigner. At some point the character "branched out
 
 
 <!-- .background -->
-| 2                | d6 | Growth      | d8 | Learning    |
-|------------------|---:|:-----------:|---:|:-----------:|
-| **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Fighter |
-| Grow             |  2 | +2 Physical |  2 | Any Skill   |
-|                  |  3 | +2 Physical |  3 | Negotiate   |
-| **Quick Skills** |  4 | +2 Any Abi  |  4 | Craft       |
-| Scout            |  5 | Exert       |  5 | Exert       |
-| Exert            |  6 | Any Skill   |  6 | Scout       |
-|                  |    |             |  7 | Spy         |
-|                  |    |             |  8 | Steal       |
+| 2                | d6 | Growth      | d8 | Learning     |
+|------------------|---:|:-----------:|---:|:------------:|
+| **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Fighting |
+| Grow             |  2 | +2 Physical |  2 | Any Skill    |
+|                  |  3 | +2 Physical |  3 | Negotiate    |
+| **Quick Skills** |  4 | +2 Any Abi  |  4 | Craft        |
+| Scout            |  5 | Exert       |  5 | Exert        |
+| Exert            |  6 | Any Skill   |  6 | Scout        |
+| Craft            |    |             |  7 | Spy          |
+|                  |    |             |  8 | Steal        |
 
 ### Slave
 
@@ -143,16 +143,16 @@ Born into slavery or forced into it by war or debt. The character could be the s
 
 
 <!-- .background -->
-| 3                | d6 | Growth      | d8 | Learning    |
-|------------------|---:|:-----------:|---:|:-----------:|
-| **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Fighter |
-| Grow             |  2 | +2 Physical |  2 | Any Skill   |
-|                  |  3 | +2 Physical |  3 | Negotiate   |
-| **Quick Skills** |  4 | +2 Mental   |  4 | Craft       |
-| Staves           |  5 | Exert       |  5 | Ride        |
-| Connect          |  6 | Any Skill   |  6 | Hunt        |
-|                  |    |             |  7 | Administer  |
-|                  |    |             |  8 | Build       |
+| 3                | d6 | Growth      | d8 | Learning     |
+|------------------|---:|:-----------:|---:|:------------:|
+| **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Fighting |
+| Grow             |  2 | +2 Physical |  2 | Any Skill    |
+|                  |  3 | +2 Physical |  3 | Negotiate    |
+| **Quick Skills** |  4 | +2 Mental   |  4 | Craft        |
+| Staves           |  5 | Exert       |  5 | Ride         |
+| Connect          |  6 | Any Skill   |  6 | Hunt         |
+| Trade            |    |             |  7 | Administer   |
+|                  |    |             |  8 | Build        |
 
 ### Commoner
 
@@ -170,7 +170,7 @@ A free woman or man born in a family owning enough land to support itself.
 | **Quick Skills** |  4 | +2 Mental   |  4 | Trade      |
 | Craft            |  5 | Exert       |  5 | Know       |
 | Negotiate        |  6 | Any Skill   |  6 | Administer |
-|                  |    |             |  7 | Read       |
+| Administer       |    |             |  7 | Read       |
 |                  |    |             |  8 | Build      |
 
 ### Artisan ~~(learning advantage)~~
@@ -189,7 +189,7 @@ Born in an artisan family, son or daughter of a master or journeyman or born els
 | **Quick Skills** |  4 | +2 Mental   |  4 | Know      |
 | Negotiate        |  5 | Negotiate   |  5 | Perform   |
 | Know             |  6 | Any Skill   |  6 | Pray      |
-|                  |    |             |  7 | Hunt      |
+| Travel           |    |             |  7 | Hunt      |
 |                  |    |             |  8 | Work      |
 
 ### Religious ~~(learning advantage)~~ [^3]
@@ -199,16 +199,16 @@ Born in a family of priests (pagan faith) or in a family linked to a religious i
 <!-- clear -->
 
 <!-- .background -->
-| 6                | d6 | Growth      | d8 | Learning    |
-|------------------|---:|:-----------:|---:|:-----------:|
-| **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Fighter |
-| Sword            |  2 | +2 Physical |  2 | Any Skill   |
-|                  |  3 | +2 Physical |  3 | Negotiate   |
-| **Quick Skills** |  4 | +2 Mental   |  4 | Trade       |
-| Lead             |  5 | Negotiate   |  5 | Lead        |
-| Negotiate        |  6 | Any Skill   |  6 | Ride        |
-|                  |    |             |  7 | Shield      |
-|                  |    |             |  8 | Scout       |
+| 6                | d6 | Growth      | d8 | Learning     |
+|------------------|---:|:-----------:|---:|:------------:|
+| **Free Skill**   |  1 | +1 Any Abi  |  1 | Any Fighting |
+| Sword            |  2 | +2 Physical |  2 | Any Skill    |
+|                  |  3 | +2 Physical |  3 | Negotiate    |
+| **Quick Skills** |  4 | +2 Mental   |  4 | Trade        |
+| Lead             |  5 | Negotiate   |  5 | Lead         |
+| Negotiate        |  6 | Any Skill   |  6 | Ride         |
+| Travel           |    |             |  7 | Shield       |
+|                  |    |             |  8 | Scout        |
 
 
 ### Elite ~~(learning advantage)~~
