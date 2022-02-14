@@ -7,27 +7,62 @@
 * Spell forms
 
 
-<!-- .matrix -->
-|         |   |           |    |          |   |        |    |          |
-|---------|---|-----------|----|----------|---|--------|----|----------|
-|         | × | Amber     |  1 | heat     | × | Arrow  |  1 | missile  |
-|         |   | Blue      |  2 | cold     |   | Ball   |  2 | sphere   |
-|         |   | Coal      |  3 | damage   |   | Crown  |  3 | donut    |
-|         |   | Copper    |  4 | earth    |   | Disk   |  4 | platform |
-|         |   | Gold      |  5 | light    |   | Finger |  5 | point    |
-|         |   | Night     |  6 | darkness |   | Flail  |  6 | whip     |
-| Weave   |   | Quartz    |  7 | meta     |   | Hand   |  7 | touch    |
-| Feel    |   | Red       |  8 | fire     |   | Hut    |  8 | shelter  |
-| Seize   |   | Scarlet   |  9 | drain    |   | Net    |  9 | web      |
-| Soak    |   | Silver    | 10 | fence    |   | Pole   | 10 | ten feet |
-| Mutate  |   | Turquoise | 11 | healing  |   | Powder | 11 | cloud    |
-| Entwine |   | Faery     | 12 | beyond   |   | Shield | 12 | lens     |
+<!-- <div.tables> -->
 
-# Spells
-
+<!-- .formula -->
 Skill × Colour × Form
 
-<!-- clear -->
+<!-- .skills -->
+|         |   |          |
+|---------|---|----------|
+| Weave   | 1 | make     |
+| Feel    | 2 | perceive |
+| Seize   | 3 | wrest    |
+| Soak    | 4 | drink    |
+| Mutate  | 5 | change   |
+| Entwine | 6 | combine  |
+
+<!-- .mul -->
+×
+
+<!-- .colours -->
+|           |    |          |
+|-----------|----|----------|
+| Amber     |  1 | heat     |
+| Blue      |  2 | cold     |
+| Coal      |  3 | damage   |
+| Copper    |  4 | earth    |
+| Gold      |  5 | light    |
+| Night     |  6 | darkness |
+| Quartz    |  7 | meta     |
+| Red       |  8 | fire     |
+| Scarlet   |  9 | drain    |
+| Silver    | 10 | fence    |
+| Turquoise | 11 | healing  |
+| Faery     | 12 | beyond   |
+
+<!-- .mul -->
+×
+
+<!-- .forms -->
+|        |    |          |
+|--------|----|----------|
+| Arrow  |  1 | missile  |
+| Ball   |  2 | sphere   |
+| Crown  |  3 | donut    |
+| Disk   |  4 | platform |
+| Finger |  5 | point    |
+| Flail  |  6 | whip     |
+| Hand   |  7 | touch    |
+| Hut    |  8 | shelter  |
+| Net    |  9 | web      |
+| Pole   | 10 | ten feet |
+| Powder | 11 | cloud    |
+| Shield | 12 | lens     |
+
+<!-- </div.tables> -->
+
+# Spells
 
 Casters see the magical energy as threads of various colours. It is probable that some casters see colours differently, and that some of them don't see some of the colours.
 
@@ -42,25 +77,8 @@ FIXME The caster player negotiates with the referee the effect of the spell and 
 <script>
 
 onDocumentReady(function() {
-  var te = elt('section[data-aa-title="spells"] table.matrix');
-  elt(te, 'thead').remove();
-  elts(te, 'tr').forEach(function(tre, i) {
-    var tdes = elts(tre, 'td');
-    tdes[0].classList.add('name');
-    tdes[2].classList.add('name');
-    tdes[6].classList.add('name');
-    tdes[4].classList.add('description');
-    tdes[8].classList.add('description');
-    tdes[3].classList.add('number');
-    tdes[7].classList.add('number');
-    if (i == 0) {
-      tdes[1].setAttribute('rowspan', '12');
-      tdes[5].setAttribute('rowspan', '12');
-    }
-    else {
-      tdes[1].remove();
-      tdes[5].remove();
-    }
+  elts('section[data-aa-title="spells"] .tables table').forEach(function(te) {
+    elt(te, 'thead').remove();
   });
 });
 

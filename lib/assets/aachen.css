@@ -1042,36 +1042,47 @@ table.social-class th:nth-child(1) {
 
 [data-aa-title="spells"] h1 {
   margin-top: 0;
-  margin-bottom: 0.3rem;
+  /*margin-bottom: 0.3rem;*/
 }
-[data-aa-title="spells"] h1 + p {
-  position: absolute;
-}
-[data-aa-title="spells"] table.matrix {
-  float: right;
+[data-aa-title="spells"] .tables {
+  float: left;
   font-size: var(--size-b);
-  line-height: 1.0;
-  width: 67%;
-  margin-bottom: 1rem;
+  line-height: 0.7;
+  width: 33%;
+  /*margin-right: 0.6rem;*/
 }
-[data-aa-title="spells"] table.matrix td {
-  padding: 0 0.1rem;
+[data-aa-title="spells"] .tables .formula {
+  margin-top: 0.3rem;
+  text-align: center;
+  font-size: 14pt;
 }
-[data-aa-title="spells"] table.matrix td.name {
+[data-aa-title="spells"] .tables table {
+  line-height: 0.7;
+  margin: 1.6rem 0;
+  width: 90%;
+}
+[data-aa-title="spells"] .tables table td:nth-child(1) { /* names */
   color: red;
   text-align: right;
+  width: 6rem;
 }
-[data-aa-title="spells"] table.matrix td.description {
-}
-[data-aa-title="spells"] table.matrix td.number {
+[data-aa-title="spells"] .tables table td:nth-child(2) { /* numbers */
   color: #c0c0c0;
   text-align: center;
+  width: 1rem;
 }
-[data-aa-title="spells"] table.matrix td[rowspan] {
+[data-aa-title="spells"] .tables table td:nth-child(3) { /* nicks */
+}
+[data-aa-title="spells"] .tables table tr:nth-child(3n) td {
+  border-bottom: solid thin #c0c0c0;
+}
+[data-aa-title="spells"] .tables table tr:nth-last-child(1) td {
+  border-bottom: 0;
+}
+[data-aa-title="spells"] .tables .mul {
   color: #c0c0c0;
   font-size: 42pt;
-  padding: 0 1rem;
-  padding-top: 5rem;
+  padding-left: 4.2rem;
 }
 
 [data-aa-title="spell forms"] h1:first-of-type {
@@ -1097,6 +1108,9 @@ table.social-class th:nth-child(1) {
 }
 [data-aa-title="spell forms"] table tr:nth-child(3n) td {
   border-bottom: solid thin #c0c0c0;
+}
+[data-aa-title="spell forms"] table tr:nth-last-child(1) td {
+  border-bottom: 0;
 }
 
 [data-aa-title="spell colours"] h3 {
