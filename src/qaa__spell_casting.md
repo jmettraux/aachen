@@ -45,9 +45,3 @@ After Cast
 [^1]:
   Using two sort of coins for HPs and CPs make point management easy and tactile.
 
-<!--
-## known spells
-
-A Weaver is usually granted 1 or 2 spells at level 1. As the Weaver gains experience, the referee considers their trail and hint at new spells. The referee may "loan" spells to the Weaver and eventually take them back. Two spells per level might be a good number for the known spells.
--->
-

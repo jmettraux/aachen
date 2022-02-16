@@ -68,11 +68,37 @@ Casters see the magical energy as threads of various colours. It is probable tha
 
 Most of the casters choose simple, well known, forms for weaving their magical threads. Maybe in Constantinople or further east, there are casters that know more complex forms.
 
-A ~~Spell~~ is a combination ~~Skill~~ × ~~Form~~ × ~~Colour~~. Most of the time, the skill is _Weave_.
+A spell is a combination ~~Skill~~ × ~~Colour~~ × ~~Form~~.
 
-FIXME The caster player negotiates with the referee the effect of the spell and then invests CPs and attempts to cast the spell. Most of the time, the magical skill involved will be _Weave_, but feel free to use the other skills, _Feel_, _Seize_, _Soak_, and _Mutate_.
+A spell is also a negotiation between the referee and the player to determine how the fictional world is affected by the magic wielded by the character. There are no spell descriptions, the referee is free to interpret the guidelines provided here.
 
+_Weave_
+: the main way of using magic, by making threads
 
+_Feel_
+: feeling threads of magic
+
+_Soak_
+: absorbing energy as Casting Points
+
+_Mutate_
+: transforming threads
+
+_Entwine_
+: binding or combining threads
+
+## Examples
+
+_Weave_ × _Coal_ × _Arrow_
+: an arrow of pain flying through the air to hit its target
+
+_Feel_ × _Quartz_ × _Pole_
+: a pole of meta threads the caster may use to probe for others' threads
+
+_Soak_ × _Copper_ × _Finger_
+: the caster attempts to soak magical energy from the soil through their finger
+
+...
 
 <script>
 
