@@ -9,8 +9,8 @@
 
 <!-- <div.tables> -->
 
-<!-- .formula -->
-Skill × Colour × Form
+<!-- .head -->
+Skill
 
 <!-- .skills -->
 |         |   |          |
@@ -24,6 +24,9 @@ Skill × Colour × Form
 
 <!-- .mul -->
 ×
+
+<!-- .head -->
+Colour
 
 <!-- .colours -->
 |           |    |          |
@@ -43,6 +46,9 @@ Skill × Colour × Form
 
 <!-- .mul -->
 ×
+
+<!-- .head -->
+Form
 
 <!-- .forms -->
 |        |    |          |
@@ -89,13 +95,16 @@ _Entwine_
 
 ## Examples
 
-_Weave_ × _Coal_ × _Arrow_
+
+<!-- .examples -->
+
+_Weave_ ~~×~~ _Coal_ ~~×~~ _Arrow_
 : an arrow of pain flying through the air to hit its target
 
-_Feel_ × _Quartz_ × _Pole_
+_Feel_ ~~×~~ _Quartz_ ~~×~~ _Pole_
 : a pole of meta threads the caster may use to probe for others' threads
 
-_Soak_ × _Copper_ × _Finger_
+_Soak_ ~~×~~ _Copper_ ~~×~~ _Finger_
 : the caster attempts to soak magical energy from the soil through their finger
 
 ...
