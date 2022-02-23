@@ -68,6 +68,7 @@ Form
 
 <!-- </div.tables> -->
 
+
 # Spells
 
 Casters see the magical energy as threads of various colours. It is probable that some casters see colours differently, and that some of them don't see some of the colours.
@@ -93,8 +94,8 @@ _Mutate_
 _Entwine_
 : binding or combining threads
 
-## Examples
 
+## Examples
 
 <!-- .examples -->
 
@@ -102,12 +103,20 @@ _Weave_ ~~×~~ _Coal_ ~~×~~ _Arrow_
 : an arrow of pain flying through the air to hit its target
 
 _Feel_ ~~×~~ _Quartz_ ~~×~~ _Pole_
-: a pole of meta threads the caster may use to probe for others' threads
+: a pole of meta threads the caster may be used to probe for others' threads
+
+_Seize_ ~~×~~ _Red_ ~~×~~ _Ball_
+: take controle of the red threads found inside of a sphere
 
 _Soak_ ~~×~~ _Copper_ ~~×~~ _Finger_
 : the caster attempts to soak magical energy from the soil through their finger
 
-...
+_Mutate_ ~~×~~ _Copper_ ~~×~~ _Hand_
+: mutate a set of copper threads, turn them into a hand-like shape
+
+_Entwine_ ~~×~~ _Gold_ ~~×~~ _Powder_
+: add powder light emitting threads on top of other threads, outlining them
+
 
 <script>
 

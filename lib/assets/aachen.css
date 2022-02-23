@@ -1063,7 +1063,7 @@ table.social-class th:nth-child(1) {
   color: #c0c0c0;
   font-size: 42pt;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 [data-aa-title="spells"] .tables table {
   line-height: 0.7;
