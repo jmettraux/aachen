@@ -839,7 +839,7 @@ div('.left.subgrid', 1, 1) do
     j = 0
     %w{
       Administer Build Connect Cook Exert Fish Gather Grow Heal Herd Hunt Lead
-      Negotiate Perform Pray Read Ride Sail
+      Negotiate Perform Pray Read Ride Sail Scout
       #Know #Notice #Craft #Sneak #Connect
     }
       .select { |k|
@@ -855,7 +855,7 @@ div('.left.subgrid', 1, 1) do
       end
 
     %w{
-      Scout Spy Steal Swim Trade Travel
+      Spy Steal Swim Trade Travel
       #---
       _Craft
       _Know
@@ -882,12 +882,14 @@ div('.left.subgrid', 1, 1) do
       end
 
     %w{
-      Weave
       Feel
-      Seize
+      Pinch
       Soak
-      Mutate
-      Entwine
+      Spin
+      Tie
+      Weave
+      Undo
+      Xxx
     }
       .select { |k|
         k[0, 1] != '#' }
@@ -898,11 +900,11 @@ div('.left.subgrid', 1, 1) do
         klas = klas + '.italic' if it
         klas = klas + '.grey' if k == '_'
         k = (k == '_') ? '_________' : k
-        div('.skill-label' + klas, 3, 13 + i) do
+        div('.skill-label' + klas, 3, 12 + i) do
           span('.dice', (i + 1).to_s)
           span('.name', k)
         end
-        div('.skill-box', 4, 13 + i) { span('.d', character.get(k)) }
+        div('.skill-box', 4, 12 + i) { span('.d', character.get(k)) }
       end
 
     div('.skill-tag', 3, 13, 2, 5, 'M')
@@ -914,9 +916,9 @@ div('.left.subgrid', 1, 1) do
     div('.skill-note', 5, 1, t, 1, 16)
 
     %w{
-      _Bows _Crossbows _Slings _Javelins Throw
+      _Bows _Crossbows _Slings _Javelins --- Throw
       ---
-      #Slash _Axes* _Maces* _Staves* _Spears* _Swords* _Knives*
+      #Slash _Axes* _Maces* _Staves* _Spears* _Swords* _Knives* ---
       Punch Grapple
       ---
       _Shields
@@ -937,8 +939,8 @@ div('.left.subgrid', 1, 1) do
       end
     div('.skill-tag', 7, 1, 'F', 2, 5)
 
-    div('.weapon-cat', 6, 1, '↑ ranged', 1, 5)
-    div('.weapon-cat', 6, 7, '↑ melee', 1, 8)
+    div('.weapon-cat', 6, 1, '↑ ranged', 1, 6)
+    div('.weapon-cat', 6, 8, '↑ melee', 1, 9)
   end
 end
 

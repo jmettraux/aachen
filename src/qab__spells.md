@@ -21,6 +21,8 @@ Skill
 | Soak    | 4 | drink    |
 | Mutate  | 5 | change   |
 | Entwine | 6 | combine  |
+| Xxx     | 7 | ...      |
+| Xxx     | 8 | ...      |
 
 <!-- .mul -->
 ×
