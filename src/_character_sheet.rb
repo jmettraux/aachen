@@ -886,10 +886,10 @@ div('.left.subgrid', 1, 1) do
       Pinch
       Soak
       Spin
+      Spoil
       Tie
       Weave
       Undo
-      Xxx
     }
       .select { |k|
         k[0, 1] != '#' }

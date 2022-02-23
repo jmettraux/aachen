@@ -1044,6 +1044,9 @@ table.social-class th:nth-child(1) {
   margin-top: 0;
   /*margin-bottom: 0.3rem;*/
 }
+[data-aa-title="spells"] h2 {
+  margin-bottom: 0.6rem;
+}
 [data-aa-title="spells"] .tables {
   float: left;
   font-size: var(--size-b);

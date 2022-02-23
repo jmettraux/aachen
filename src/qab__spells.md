@@ -15,14 +15,14 @@ Skill
 <!-- .skills -->
 |         |   |          |
 |---------|---|----------|
-| Weave   | 1 | make     |
-| Feel    | 2 | perceive |
-| Seize   | 3 | wrest    |
-| Soak    | 4 | drink    |
-| Mutate  | 5 | change   |
-| Entwine | 6 | combine  |
-| Xxx     | 7 | ...      |
-| Xxx     | 8 | ...      |
+| Feel    | 1 | sense    |
+| Pinch   | 2 | pinpoint |
+| Soak    | 3 | imbibe   |
+| Spin    | 4 | refine   |
+| Spoil   | 5 | waste    |
+| Tie     | 6 | join     |
+| Weave   | 7 | knit     |
+| Undo    | 8 | unknit   |
 
 <!-- .mul -->
 ×
@@ -81,43 +81,37 @@ A spell is a combination ~~Skill~~ × ~~Colour~~ × ~~Form~~.
 
 A spell is also a negotiation between the referee and the player to determine how the fictional world is affected by the magic wielded by the character. There are no spell descriptions, the referee is free to interpret the guidelines provided here.
 
-_Weave_
-: the main way of using magic, by making threads
-
-_Feel_
-: feeling threads of magic
-
-_Soak_
-: absorbing energy as Casting Points
-
-_Mutate_
-: transforming threads
-
-_Entwine_
-: binding or combining threads
-
+TODO skills
 
 ## Examples
+
+<!-- Feel Pinch Soak Spin Spoil Tie Weave Undo -->
 
 <!-- .examples -->
 
 _Weave_ ~~×~~ _Coal_ ~~×~~ _Arrow_
+: TODO
+
+_Spin_ ~~×~~ _Coal_ ~~×~~ _Arrow_
 : an arrow of pain flying through the air to hit its target
 
 _Feel_ ~~×~~ _Quartz_ ~~×~~ _Pole_
 : a pole of meta threads the caster may be used to probe for others' threads
 
-_Seize_ ~~×~~ _Red_ ~~×~~ _Ball_
-: take controle of the red threads found inside of a sphere
+_Pinch_ ~~×~~ _Red_ ~~×~~ _Ball_
+: take control of the red threads found inside of a sphere
 
 _Soak_ ~~×~~ _Copper_ ~~×~~ _Finger_
 : the caster attempts to soak magical energy from the soil through their finger
 
-_Mutate_ ~~×~~ _Copper_ ~~×~~ _Hand_
-: mutate a set of copper threads, turn them into a hand-like shape
+_Undo_ ~~×~~ _Copper_ ~~×~~ _Hand_
+: TODO
 
 _Entwine_ ~~×~~ _Gold_ ~~×~~ _Powder_
 : add powder light emitting threads on top of other threads, outlining them
+
+_Spoil_ ~~×~~ _Gold_ ~~×~~ _Powder_
+: TODO
 
 
 <script>
