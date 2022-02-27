@@ -834,7 +834,7 @@ div('.left.subgrid', 1, 1) do
 
     div('.skill-tag', 1, 1, 2, 5, 'G')
 
-    sd = DiceDice.new(5, 8)
+    sd = DiceDice.new(4, 8)
 
     j = 0
     %w{
@@ -915,6 +915,7 @@ div('.left.subgrid', 1, 1) do
     ].join('<br/>')
     div('.skill-note', 5, 1, t, 1, 16)
 
+    j = 1
     %w{
       _Bows _Crossbows _Slings _Javelins --- Throw
       ---
@@ -931,8 +932,9 @@ div('.left.subgrid', 1, 1) do
         it, k = k[0, 1] == '_' ? [ true, k[1..-1] ] : [ false, k ]
         at, k = k[-1, 1] == '*' ? [ true, k[0..-2] ] : [ false, k ]
         div('.skill-label' + (it ? '.italic' : ''), 7, 1 + i) do
-          span('.dice', (i + 1).to_s)
+          span('.dice', j.to_s)
           span('.name', k)
+          j = j + 1
         end
         div('.skill-box' + (at ? '.attack' : ''), 8, 1 + i) {
           span('.d', character.get(k)) }

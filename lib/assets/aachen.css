@@ -566,6 +566,9 @@ table.social-class th:nth-child(1) {
   line-height: var(--mul-b);
 }
 
+[data-aa-title="skills"] p:last-of-type {
+  margin-bottom: 2rem;
+}
 [data-aa-title="skills"] h2:first-of-type {
   margin-top: 0;
 }
@@ -579,17 +582,18 @@ table.social-class th:nth-child(1) {
   padding-right: 0.5rem;
 }
 
-[data-aa-title="skills"] dl {
+[data-aa-title="skills"] dl:not(.compass) {
   display: block;
   margin-top: 0;
   margin-left: 0.5rem;
+  margin-bottom: 2rem;
   font-size: var(--size-b);
   line-height: var(--mul-b);
 }
-[data-aa-title="skills"] p + dl {
+[data-aa-title="skills"] p + dl:not(.compass) {
   margin-top: 1.5rem;
 }
-[data-aa-title="skills"] dt {
+[data-aa-title="skills"] dl:not(.compass) dt {
   display: inline-block;
   padding-top: 0.1rem;
   /*padding-right:0;*/
@@ -603,26 +607,29 @@ table.social-class th:nth-child(1) {
   margin-left: -0.5rem;
   padding-right: 0.35rem;
 }
-[data-aa-title="skills"] dt:after {
+[data-aa-title="skills"] dl:not(.compass) dt:after {
   content: '·';
   padding-right: 0;
 }
-[data-aa-title="skills"] dd {
+[data-aa-title="skills"] dl:not(.compass) dd {
   display: inline;
 }
 [data-aa-title="skills"] .last-dd {
   margin-bottom: 0;
 }
-[data-aa-title="skills"] dt + dd:after {
+[data-aa-title="skills"] dl:not(.compass) dt + dd:after {
   content: '';
   display: block;
 }
-[data-aa-title="skills"] dt + dd + dd:after {
+[data-aa-title="skills"] dl:not(.compass) dt + dd + dd:after {
   content: '';
   display: block;
   margin-bottom: 0.5rem;
 }
-
+[data-aa-title="skills"] dt.generic {
+  color: grey;
+}
+/*
 [data-aa-title="skills"] .margin ul {
   line-height: 1.1;
   list-style: none;
@@ -637,9 +644,7 @@ table.social-class th:nth-child(1) {
   content: '·';
   padding-right: 0.3rem;
 }
-[data-aa-title="skills"] dt.generic {
-  color: grey;
-}
+*/
 
 [data-aa-title="background"] h3 {
   margin: 0;
@@ -1036,8 +1041,9 @@ table.social-class th:nth-child(1) {
   line-height: 0.7;
 }
 
-[data-aa-title="casting"] dl {
-  margin-top: 2rem;
+[data-aa-title="spell casting"] h2 {
+  margin-bottom: 1.0rem;
+  margin-bottom: 0.6rem;
 }
 
 [data-aa-title="spells"] h1 {

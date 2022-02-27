@@ -13,16 +13,16 @@
 Skill
 
 <!-- .skills -->
-|         |   |          |
-|---------|---|----------|
-| Feel    | 1 | sense    |
-| Pinch   | 2 | pinpoint |
-| Soak    | 3 | imbibe   |
-| Spin    | 4 | refine   |
-| Spoil   | 5 | waste    |
-| Tie     | 6 | join     |
-| Weave   | 7 | knit     |
-| Undo    | 8 | unknit   |
+|       |   |        |
+|-------|---|--------|
+| Feel  | 1 | sense  |
+| Pinch | 2 | seize  |
+| Soak  | 3 | imbibe |
+| Spin  | 4 | refine |
+| Spoil | 5 | waste  |
+| Tie   | 6 | join   |
+| Weave | 7 | knit   |
+| Undo  | 8 | unknit |
 
 <!-- .mul -->
 ×
@@ -73,15 +73,16 @@ Form
 
 # Spells
 
-Casters see the magical energy as threads of various colours. It is probable that some casters see colours differently, and that some of them don't see some of the colours.
-
-Most of the casters choose simple, well known, forms for weaving their magical threads. Maybe in Constantinople or further east, there are casters that know more complex forms.
-
 A spell is a combination ~~Skill~~ × ~~Colour~~ × ~~Form~~.
+
+Skills in Aachen are verbs, magical ~~skills~~ are rather ambiguous verbs
+
+Casters see the magical energy as threads of various ~~colours~~. It is probable that some casters see colours differently, and that some of them don't see some of the colours.
+
+Most of the casters choose simple, well known, ~~forms~~ for weaving their magical threads. Maybe in Constantinople or further east, there are casters that know more complex forms.
 
 A spell is also a negotiation between the referee and the player to determine how the fictional world is affected by the magic wielded by the character. There are no spell descriptions, the referee is free to interpret the guidelines provided here.
 
-TODO skills
 
 ## Examples
 

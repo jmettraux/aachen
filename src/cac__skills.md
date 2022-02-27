@@ -17,13 +17,9 @@
 
 More like skill domains, some of those domains overlap.
 
-Skills are expressed from 0 to 10 or 20. That value is used as a d20 modifier against an Ability TC, a Save TC, an arbitrary DC, or an AC.
-
 When a character acquires a skill, they start at +0. If a character has not been exposed to the skills, they have a default -2.
 
 A character may have at most a `level + 1` skill score.
-
-Skills are divided between Fighter skills **F**, Magic skills **M**, and General skills **G**.
 
 
 ## Fighter Skills
@@ -46,23 +42,31 @@ Dodge
 
 ## Magic Skill
 
-Weave
-: To cast spells.
-
 Feel
 : To feel spell effects.
 
-Seize
-: To take over others' magical threads.
+Pinch
+: To seize the thread at a certain point.
 
 Soak
-: To absorb magical energy as CP (Casting Points).
+: To absorb magical energy; or
+: To imbibe threads with other threads or energy.
 
-Mutate
-: To alter woven magical threads.
+Spin
+: To produce thin threads.
 
-Entwine
-: To arrange and synchronize two or more set of threads.
+Spoil
+: To plunder or to waste threads.
+
+Tie
+: To bind or join threads to other threads; or
+: To tie something with magical threads.
+
+Weave
+: To knit fabric of threads.
+
+Undo
+: To unknit or untie threads.
 
 <!-- </div.left-column> -->
 <!-- <div.right-column> -->
