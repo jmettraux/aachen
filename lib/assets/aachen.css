@@ -533,6 +533,10 @@ table.social-class th:nth-child(1) {
   margin-right: 1rem;
   line-height: 0.8;
 }
+[data-aa-title="abilities"] table.abilities td:nth-child(2) {
+  text-align: center;
+  min-width: 5rem;
+}
 [data-aa-title="abilities"] table.abilities td:nth-child(3) {
   font-size: var(--size-b);
 }
@@ -548,6 +552,12 @@ table.social-class th:nth-child(1) {
 [data-aa-title="abilities"] table.save-mean {
   margin-bottom: 1.5rem;
 }
+[data-aa-title="abilities"] table.save-mean td:nth-child(1) {
+  width: 7rem;
+}
+[data-aa-title="abilities"] table.save-mean td:nth-child(2) {
+  font-size: var(--size-b);
+}
 [data-aa-title="abilities"] table.save-mean td:nth-child(3) {
   text-align: center;
   font-size: var(--size-b);
@@ -555,6 +565,9 @@ table.social-class th:nth-child(1) {
 [data-aa-title="abilities"] table.save-mean tr:nth-child(2) td,
 [data-aa-title="abilities"] table.save-mean tr:nth-child(5) td {
   border-bottom: solid thin #c0c0c0;
+}
+[data-aa-title="abilities"] table.save-mean.tcs td:nth-child(3) {
+  min-width: 12rem;
 }
 
 #combat_skills {
