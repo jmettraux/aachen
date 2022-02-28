@@ -561,13 +561,11 @@ table.social-class th:nth-child(1) {
 [data-aa-title="abilities"] table.save-mean td:nth-child(3) {
   text-align: center;
   font-size: var(--size-b);
+  width: 13rem;
 }
 [data-aa-title="abilities"] table.save-mean tr:nth-child(2) td,
 [data-aa-title="abilities"] table.save-mean tr:nth-child(5) td {
   border-bottom: solid thin #c0c0c0;
-}
-[data-aa-title="abilities"] table.save-mean.tcs td:nth-child(3) {
-  min-width: 12rem;
 }
 
 #combat_skills {
