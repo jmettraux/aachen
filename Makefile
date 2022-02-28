@@ -4,7 +4,7 @@ NAME_ != grep "NAME_:" Config.yaml | cut -d ": " -f 2 | sed 's/^ *//'
 
 RUBY = ruby
 RUM = $(RUBY) -Ilib -r make -e
-SHOOTGEO = 1200x900
+SHOOTGEO = 1200x1200
 
 
 all: ps
@@ -24,10 +24,10 @@ csheet: html0
       > out/html/character_sheet_0.html
 	chrome --headless --no-sandbox --disable-gpu \
       --window-size=$(SHOOTGEO) \
-      --screenshot=out/html/csheet.jpg out/html/character_sheet.html
+      --screenshot=out/html/csheet.png out/html/character_sheet.html
 	chrome --headless --no-sandbox --disable-gpu \
       --window-size=$(SHOOTGEO) \
-      --screenshot=out/html/csheet_0.jpg out/html/character_sheet_0.html
+      --screenshot=out/html/csheet_0.png out/html/character_sheet_0.html
 	$(RUM) make_csheet
 html: csheet
 	$(RUM) make_html

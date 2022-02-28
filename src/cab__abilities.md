@@ -31,7 +31,7 @@ Roll 2 series of 6 × 3d6; pick best of the 2 series; assign the 6 numbers at wi
 
 <!-- clear -->
 
-<!--img src="csheet_abilities.jpg" /-->
+<!--img src="csheet_abilities.png" /-->
 
 
 ## Compute TCs

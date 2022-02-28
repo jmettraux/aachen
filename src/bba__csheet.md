@@ -2,7 +2,7 @@
 <!-- .margin.compass -->
 * _Character Sheet_
 
-<img src="csheet_left_0.jpg" style="float: right;" />
+<img src="csheet_left_0.png" style="float: right;" />
 
 <!-- <div.comment.se.c_abilities_0> -->
 
@@ -43,7 +43,7 @@ Melee weapons and _Shields_ cover attack and parry.
 <!-- .margin.compass -->
 * _Character Sheet_
 
-<img src="csheet_right_0.jpg" />
+<img src="csheet_right_0.png" />
 
 <style>
     /* TODO move .comment to the .css */
