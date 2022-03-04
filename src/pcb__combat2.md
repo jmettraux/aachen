@@ -8,6 +8,7 @@
 * Travel
 * Exploration
 * Advancement
+* Encumbrance
 
 ## Actions
 

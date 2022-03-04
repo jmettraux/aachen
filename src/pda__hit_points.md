@@ -7,6 +7,7 @@
 * **Hit Points**
 * Travel
 * Exploration
+* Encumbrance
 * Advancement
 
 
@@ -35,6 +36,7 @@ The referee might rule the character surviving a _mortally wounded_ episode will
 * **Hit Points**
 * Travel
 * Exploration
+* Encumbrance
 * Advancement
 
 

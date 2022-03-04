@@ -8,6 +8,7 @@
 * Travel
 * Exploration
 * Advancement
+* Encumbrance
 
 
 # Combat Actions
@@ -112,6 +113,7 @@ Pick Up An Item
 * Hit Points
 * Travel
 * Exploration
++ Encumbrance
 * Advancement
 
 

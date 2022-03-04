@@ -7,6 +7,7 @@
 * Hit Points
 * **Travel**
 * Exploration
+* Encumbrance
 * Advancement
 
 

@@ -8,6 +8,7 @@
 * Travel
 * Exploration
 * Advancement
+* Encumbrance
 
 
 # Checks
@@ -73,6 +74,7 @@ The referee decides if something extra happens on a natural 1 or a natural 20. T
 * Hit Points
 * Travel
 * Exploration
+* Encumbrance
 * Advancement
 
 
