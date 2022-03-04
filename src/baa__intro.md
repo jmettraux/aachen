@@ -36,6 +36,9 @@ Check
 Class
 : Most people are `fighter`s, some are `Dabster`s. Some are `Caster`s, in secret.
 
+Configuration
+: A combo armor/shield/weapon detailed on its own line on the character sheet, with AC, Attack Modifier, and Damage dice.
+
 Difficulty Class (DC)
 : Or Diamond Class.
 : The number that has to be reached with 1d20 + _skill_ when rolling for an attack check, a skill check, or a save check. FIXME
@@ -46,11 +49,11 @@ Disadvantage
 Hit Dice
 : The number of d8s that are rolled to determine the hit points (HP) of a creature. 1 HD is roughly equivalent to 1 character level.
 
-Hit Points
-: Zero hit points, coma or death.
-
 <!-- </div.left-column> -->
 <!-- <div.right-column> -->
+
+Hit Points
+: Zero hit points, coma or death.
 
 Instant Action
 : TODO
