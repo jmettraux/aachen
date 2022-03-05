@@ -95,17 +95,19 @@ Grow
 : To cultivate crops and the like.
 
 Heal
-: To mend wounds, combat diseases, neutralize poisons.
-: This skill is used when stabilising _Mortally Wounded_ characters, its importance cannot be overstated.
+: To mend wounds, combat diseases, neutralize poisons, and stabilise _Mortally Wounded_ characters.
 
 Herd
 : To herd cattle, to take care of the animals.
 
 Hunt
-: To take game with snare, arrow or spear, to know the habits and the manner of preys.
+: To take game with snare, arrow or spear, more widely gamekeeping.
 
 Lead
 : To conduct and inspire people.
+
+Log
+: Felling and logging trees, more widely, sylviculture.
 
 Negotiate
 : To talk, to convince.

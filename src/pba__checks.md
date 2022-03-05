@@ -45,7 +45,7 @@ The referee might grant a save check to character. The modifier might be a skill
 <!-- .comparison -->
 1d20 + _modifier_ ≥ `TC`
 
-Should the `TC`s be unavailalbe for a creature, the referee might default to a mean 10 or 11 or to any difficulty class they deem appropriate.
+Should the `TC`s be unavailable for a creature, the referee might default to a mean 10 or 11 or to any difficulty class they deem appropriate.
 
 
 ## advantage and disadvantage
