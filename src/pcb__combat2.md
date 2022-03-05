@@ -10,7 +10,7 @@
 * Advancement
 * Encumbrance
 
-## Actions
+## Actions in Combat
 
 Actions that are common in combat:
 
