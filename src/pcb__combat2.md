@@ -49,15 +49,13 @@ Actions that are common in combat:
 <!-- </div> -->
 
 
-<!-- .modifiers -->
+<!-- .modifiers.hidden -->
 | Circumstance                    | Mod |
 |---------------------------------|----:|
 | attacking an adjacent prone foe |  +2 |
 | attacking while prone           |  -4 |
 
 ## Melee Attacks
-
-[^1]
 
 Range
 : usually 5ft 1.5m 1sq (the adjacent square);
@@ -75,12 +73,7 @@ Dis-Advantage
 Damage
 : in case of successful attack:<br/>~~_weapon damage dice_~~ + ~~_weapon skill_~~
 
-[^1]:
-  Option:
-
-  The referee might bypass modifiers and simply grant advantage or disadvantage
-
-<!-- .modifiers -->
+<!-- .modifiers.hidden -->
 | Circumstance                              | Mod    |
 |-------------------------------------------|:------:|
 | Target cover                              |        |
@@ -100,4 +93,7 @@ Like Melee Attacks, but
 
 Range
 : as per weapon description.
+
+Modifiers
+: -2 at long range.
 

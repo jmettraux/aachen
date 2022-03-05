@@ -951,9 +951,6 @@ table.social-class th:nth-child(1) {
   width: 56%;
 }
 
-[data-aa-title="combat2"] h2 {
-  margin-bottom: 1rem;
-}
 [data-aa-title="combat2"] h2:first-of-type {
   margin-top: -0.25rem;
 }
@@ -988,12 +985,8 @@ table.social-class th:nth-child(1) {
 [data-aa-title="combat2"] .actions .bravo {
   grid-column-start: 2;
 }
-[data-aa-title="combat2"] table.modifiers {
-  margin-top: 0.5rem;
-  float: right;
-  width: 54%;
-  font-size: var(--size-b);
-  line-height: 0.6;
+[data-aa-title="combat2"] dl {
+  grid-template-columns: 7.6rem auto;
 }
 
 [data-aa-title="cactions"] dl {
@@ -1058,6 +1051,9 @@ table.social-class th:nth-child(1) {
 [data-aa-title="spell casting"] h2 {
   margin-bottom: 1.0rem;
   margin-bottom: 0.6rem;
+}
+[data-aa-title="spell casting"] dl {
+  grid-template-columns: 18% auto;
 }
 
 [data-aa-title="spells"] h1 {
