@@ -934,6 +934,9 @@ table.social-class th:nth-child(1) {
 [data-aa-title="checks"] p.comparison {
   text-indent: 1rem;
 }
+[data-aa-title="checks"] dl {
+  grid-template-columns: 33% auto;
+}
 
 [data-aa-title="combat"] h1 {
   margin-bottom: 1rem;
