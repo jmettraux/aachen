@@ -126,3 +126,8 @@ Opposed check
 Arbitrary DC
 : 1d20 + _skill_ ≥ arbitrary `DC` (Difficulty Class)
 
+
+## not checking
+
+The referee might decide that the level of skill of a character is sufficient for the task to automatically succeed.
+
