@@ -13,13 +13,10 @@
 
 # Encumbrance
 
-before
-: the party starts its move;
-: a fight, after the characters _drop_ some of their load.
-
-load check
+check
+: happens before the party starts its movement;
 : each player describes the load of their character(s);
-: the referee flags each character as _free_, _burdened_, or _very burdened_;
+: each character is flagged as _free_, _burdened_, or _very burdened_ by the referee (see _determine_);
 : players may decide to _rebalance_.
 
 rebalance
@@ -27,26 +24,30 @@ rebalance
 : beware opponents interrupting the operation, place sentries;
 : ends with a new _load check_.
 
-drop
-: a character may drop its load before a combat to become _free_ or, at least, _burdened_;
-: is an Instant Action **IA**;
-: beware breaking gear;
-: beware tripping on dropped gear;
-: beware losing dropped gear in case of retreat.
-
 scout
 : a party may place one or more _free_ of burden scouts in front;
-: their load being taken by others in the party.
+: their load being taken by others in the party;
+: carriers and scouts are rotated during pauses.
 
 pack
 : mules and pack horses can each carry up to 240 lb (108 kg);
 : they have to be harnessed and loaded carefully;
-: they have to be fed properly and given appropriate rest.
+: they have to be fed properly and given appropriate rest;
+: at least one character must be skilled in handling such animals.
 
 <hr/>
 
-use
-: common sense; or
+drop
+: a character may drop its load before fighting to become _free_ or, at least, _burdened_;
+: it is an Instant Action **IA**;
+: beware breaking gear;
+: beware tripping on dropped gear;
+: beware losing dropped gear in case of retreat.
+
+<hr/>
+
+determine
+: using common sense; or
 : strength `STR DC`; or
 : (`STR DC` + `CON DC`) / 2; or
 : an average `STR DC` of 10.5.
