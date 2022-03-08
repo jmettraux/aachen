@@ -1048,6 +1048,13 @@ table.social-class th:nth-child(1) {
   line-height: 0.7;
 }
 
+[data-aa-title="encumbrance"] dl {
+  grid-template-columns: 24% auto;
+}
+[data-aa-title="encumbrance"] hr {
+  width: 90%;
+}
+
 [data-aa-title="spell casting"] h2 {
   margin-bottom: 1.0rem;
   margin-bottom: 0.6rem;

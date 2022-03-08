@@ -53,21 +53,21 @@ Combat Round
 : 1 **MA** + 1 **MvA** | 1 **MvA** + 1 **MA** | 2 **MvA**;
 : plus as many **OTA** as the referee deems reasonable.
 
-Main Action (MA)
+Main Action · **MA**
 : takes up most of the round;
 : _examples_: attacking, casting a spell, drawing a friend to cover, apply a skill, etc.
 
-Move Action (MvA)
+Move Action · **MvA**
 : from 0 to movement rate (30ft 9m 6sq t for a human);
 : may not be split (may not move 10ft, shoot, then move the remaining 20ft).
 
-On Turn Action (OTA)
+On Turn Action · **OTA**
 : are performed on turn, like **MA** and **MvA**;
 : are simple and quick actions;
 : as many may be performed as the referee deems reasonable;
 : _examples_: saying a few word, drawing out a readied object, reloading a bow from a readied quiver, etc.
 
-Instant Action (IA)
+Instant Action · **IA**
 : are simple and fast, and linked to traits or special powers;
 : may be performed _out of turn_;
 : as many as the referee deems reasonable;

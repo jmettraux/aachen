@@ -36,6 +36,9 @@ Check
 Class
 : Most people are `fighter`s, some are `Dabster`s. Some are `Caster`s, in secret.
 
+Combat Round
+: Approximately 6 seconds. Compare with _Exploration Turn_.
+
 Configuration
 : A combo armor/shield/weapon detailed on its own line on the character sheet, with AC, Attack Modifier, and Damage dice.
 
@@ -46,11 +49,14 @@ Difficulty Class (DC)
 Disadvantage
 : Like the _Advantage_, but keep the lowest of the 2d20.
 
-Hit Dice
-: The number of d8s that are rolled to determine the hit points (HP) of a creature. 1 HD is roughly equivalent to 1 character level.
-
 <!-- </div.left-column> -->
 <!-- <div.right-column> -->
+
+Exploration Turn
+: 10 minutes of careful progression. Compare with _Combat Round_.
+
+Hit Dice
+: The number of d8s that are rolled to determine the hit points (HP) of a creature. 1 HD is roughly equivalent to 1 character level.
 
 Hit Points
 : Zero hit points, coma or death.
