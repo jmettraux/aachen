@@ -29,7 +29,7 @@ scout
 : their load being taken by others in the party;
 : carriers and scouts are rotated during pauses.
 
-pack
+pack [^1]
 : mules and pack horses can each carry up to 240 lb (108 kg);
 : they have to be harnessed and loaded carefully;
 : they have to be fed properly and given appropriate rest;
@@ -72,6 +72,35 @@ very burdened
 : slowed movement, 10ft 3m 2sq;
 : opponents get advantage in melee attacks;
 : disadvantage on all checks.
+
+[^1]:
+
+  | lb  | kg    |
+  |----:|------:|
+  |  10 |   4.5 |
+  |  20 |   9.1 |
+  |  30 |  13.6 |
+  |  40 |  18.1 |
+  |  50 |  22.7 |
+  |  60 |  27.2 |
+  |  70 |  31.8 |
+  |  80 |  36.3 |
+  |  90 |  40.8 |
+  | 100 |  45.4 |
+  | 110 |  49.9 |
+  | 120 |  54.4 |
+  | 130 |  59.0 |
+  | 140 |  63.5 |
+  | 150 |  68.0 |
+  | 160 |  72.6 |
+  | 170 |  77.1 |
+  | 180 |  81.6 |
+  | 190 |  86.2 |
+  | 200 |  90.7 |
+  | 210 |  95.3 |
+  | 220 |  99.8 |
+  | 230 | 104.3 |
+  | 240 | 108.9 |
 
 <!-- RETURN -->
 
