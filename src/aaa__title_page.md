@@ -23,6 +23,9 @@ Design Decisions:
 * linear character advancement
 * non-scholarly magic system, easily replaceable though
 
+Version
+: ${GITTAG}
+
 Git Branch
 : ${GITBRA}
 
