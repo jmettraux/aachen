@@ -1056,12 +1056,19 @@ table.social-class th:nth-child(1) {
 }
 [data-aa-title="encumbrance"] .margin .note {
   color: grey;
-  /*top: 477px !important;  // aligns with page number */
-  /*top: 399px !important;*/
+  top: 230px !important;
+  left: -14px;
 }
 [data-aa-title="encumbrance"] .margin .note table {
   font-size: var(--size-c);
   line-height: 0.4;
+}
+[data-aa-title="encumbrance"] .margin .note table th {
+  text-align: right;
+  padding-right: 0.2rem;
+}
+[data-aa-title="encumbrance"] .margin .note table td {
+  padding: 0.28em 0.2em;
 }
 [data-aa-title="encumbrance"] .margin .note table tr:nth-child(3n) td {
   border-bottom: solid thin #c0c0c0;
