@@ -1057,7 +1057,14 @@ table.social-class th:nth-child(1) {
 [data-aa-title="encumbrance"] .margin .note {
   color: grey;
   /*top: 477px !important;  // aligns with page number */
-  top: 399px !important;
+  /*top: 399px !important;*/
+}
+[data-aa-title="encumbrance"] .margin .note table {
+  font-size: var(--size-c);
+  line-height: 0.4;
+}
+[data-aa-title="encumbrance"] .margin .note table tr:nth-child(3n) td {
+  border-bottom: solid thin #c0c0c0;
 }
 
 [data-aa-title="spell casting"] h2 {
