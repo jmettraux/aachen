@@ -52,6 +52,16 @@ blank:
 	echo "" | ps2pdf -sPAPERSIZE=a4 - out/tmp/blank_a4.pdf
 	echo "" | ps2pdf -sPAPERSIZE=letter - out/tmp/blank_letter.pdf
 
+pkg: html
+	rm -fR $(NAME_)_html
+	mkdir $(NAME_)_html
+	cp out/html/aachen.html $(NAME_)_html/
+	cp out/html/aachen.css $(NAME_)_html/
+	cp out/html/normalize-8.0.1.css $(NAME_)_html/
+	cp out/html/csheet_left_0.png $(NAME_)_html/
+	cp out/html/csheet_right_0.png $(NAME_)_html/
+	zip $(NAME_)_html.zip $(NAME_)_html/*
+
 name:
 	@echo $(NAME_)
 
