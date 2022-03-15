@@ -328,7 +328,7 @@ dd > p {
 
 .book-title {
   font-size: 60pt;
-  margin-top: 2em;
+  margin-top: 0.5rem;
 }
 
 .two-columns {
@@ -462,31 +462,20 @@ table.social-class th:nth-child(1) {
 
 /* specific */
 
-[data-aa-page="1"] p + p {
-  text-indent: 0;
-}
-
 [data-aa-page="1"] h1 {
   text-align: center;
+  margin-bottom: 3rem;
 }
 [data-aa-page="1"] dl {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
+  grid-template-columns: 24% auto;
+  margin-bottom: 2rem;
 }
-[data-aa-page="1"] dd {
-  font-family: monospace;
-  font-size: 80%;
-  line-height: 1.7;
+[data-aa-page="1"] hr {
+  width: 63%;
+  margin-bottom: 2rem;
 }
-[data-aa-page="1"] dd.last-dd {
-  margin: 0;
-}
-[data-aa-page="1"] .license-link {
-  font-size: x-small;
-}
-[data-aa-page="1"] .folio {
-  display: none;
+[data-aa-page="1"] dt::after {
+  content: '';
 }
 
 [data-aa-title="intro"] h1 {
@@ -1294,6 +1283,11 @@ table.social-class th:nth-child(1) {
 }
 [data-aa-title="probabilities"] table tr:nth-child(3n) td {
   border-bottom: solid thin #c0c0c0;
+}
+
+section:last-of-type dl {
+  position: absolute;
+  bottom: 3rem;
 }
 
 /* top right bottom left */

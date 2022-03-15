@@ -2,48 +2,64 @@
 <!-- .book-title -->
 # ${NAME_UPCASE}
 
-${NAME_CAP} is a set of tabletop role playing rules.
 
-It's inspired by John Grümph's Gallant & Bold and by Kevin Crawford's Stars Without Number.
+&nbsp;
+: _Definitions_
 
-Design Decisions:
+Aachen
+: is a set of tabletop role playing rules.
 
-* targets a low-fantasy Europe between the Dark Ages and AD 1100 (or a similar world of your conception)
-* low on math (additions, arithmetic means, subtractions)
-* may leverage any B/X bestiary (HD, AC, ...)
-* abilities are nouns, skills are verbs, traits are adjective
-* abilities are the six well-known abilities of old
-* skills are more like skill domains, they are learned with a master usually
-* traits are short qualifier available in three levels (default, _very_, and _extremly_)
-* traits bring in "exceptions"
-* all checks are 1d20 + _skill_ ≥ `DC` or `TC`
+<hr/>
+
+&nbsp;
+: _Inspiration_
+
+B/X
+: until the Rules Cyclopedia.
+
+Gallant & Bold
+: by John Grümph.
+
+Wolves of God
+: by Kevin Crawford.
+
+<hr/>
+
+&nbsp;
+: _Decisions_
+
+Low-Fantasy
+: a Europe between the Dark Ages and AD 1100 (or a similar world).
+
+Math
+: additions, arithmetic means, subtractions, not much else.
+
+AST
+: abilities are nouns, skills are verbs, traits are adjective.
+
+Abilities
+: the six well-known abilities of old.
+
+Skills
+: more like skill domains, sets learned with a master;
+: are "nurture", while abilities and their derivatives are "nature".
+
+Traits
+: short qualifiers available at the default, _very_, or _extremely_ level;
+: traits bring in "exceptions".
+
+Checks
+: 1d20 + _skill_ ≥ `DC` or `TC`; or
+: 1d20 + _skill_ ≥ opponent's 1d20 + _skill_.
+
+Bestiary
+: may leverage any B/X "stat'ed" monster (HD, AC, attacks, ...).
+
+
+<!-- RETURN -->
+
 * `DC`s are either `TC`s (target class) when challenging oneself or `DC`s when being challenged
 * `DC`s are computed from abilities and derived means of abilities (for example `Body TC` is the mean of `STR TC`, `CON TC`, and `DEX TC`
-* skills are nurture, while abilities and their derivatives are nature
 * linear character advancement
 * non-scholarly magic system, easily replaceable though
-
-Version
-: ${GITTAG}
-
-Git Branch
-: ${GITBRA}
-
-Git SHA
-: ${GITSHA}
-
-Src SHA
-: ${SRCSHA}
-
-URL
-: https://github.com/jmettraux/aachen
-
-Printed
-: ${PRINTED}
-
-Author
-: Jehan Mestral - https://weaver.skepti.ch
-
-License
-: CC BY-SA 4.0 <span class="license-link">https://creativecommons.org/licenses/by-sa/4.0/</span>
 
