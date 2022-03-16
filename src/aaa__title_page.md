@@ -28,8 +28,11 @@ Wolves of God
 &nbsp;
 : _Decisions_
 
+Kit
+: tuned and tuneable B/X.
+
 Low-Fantasy
-: a Europe between the Dark Ages and AD 1100 (or a similar world).
+: a Europe between the Dark Ages and AD 1100 (or similar).
 
 Math
 : additions, arithmetic means, subtractions, not much else.
@@ -49,17 +52,14 @@ Traits
 : traits bring in "exceptions".
 
 Checks
-: 1d20 + _skill_ ≥ `DC` or `TC`; or
-: 1d20 + _skill_ ≥ opponent's 1d20 + _skill_.
+: 1d20 + _skill_ ≥ `TC` or opponent's `DC` or `AC`; or
+: 1d20 + _skill_ ≥ opponent's 1d20 + _skill_;
+: `DC`s are ability scores or arithmetic means of ability scores;
+: `TC`s are ability scores but inverted (21 - a).
 
 Bestiary
-: may leverage any B/X "stat'ed" monster (HD, AC, attacks, ...).
+: may leverage any B/X stat'ed monster (HD, AC, attacks, ...).
 
-
-<!-- RETURN -->
-
-* `DC`s are either `TC`s (target class) when challenging oneself or `DC`s when being challenged
-* `DC`s are computed from abilities and derived means of abilities (for example `Body TC` is the mean of `STR TC`, `CON TC`, and `DEX TC`
-* linear character advancement
-* non-scholarly magic system, easily replaceable though
+Magic
+: non-scholarly system.
 

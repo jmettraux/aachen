@@ -474,7 +474,7 @@ table.social-class th:nth-child(1) {
   width: 63%;
   margin-bottom: 2rem;
 }
-[data-aa-page="1"] dt::after {
+[data-aa-page="1"] dt:first-of-type::after {
   content: '';
 }
 
