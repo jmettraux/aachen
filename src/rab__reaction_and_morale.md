@@ -46,7 +46,7 @@ Reaction rolls may be used for social encounters as well. The player characters 
 
 # Morale
 
-Morale affect NPCs, not PCs. By default, NPCs fight as long as honor and common sense demand it, but failed morale checks may change that.
+Morale affects NPCs, not PCs. By default, NPCs fight as long as honor and common sense demand it, but failed morale checks may change that.
 
 Morale checks are done
 

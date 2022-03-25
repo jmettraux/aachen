@@ -26,8 +26,8 @@ Invest
 : Casters may not invest more CPs than their current CP count.
 
 Roll
-: Roll 1d20 + _Magic Skill_ ≥ _Caster TC_; or
-: Roll 1d20 + _Magic Skill_ ≥ _Target DC_;
+: 1d20 + _Magic Skill_ ≥ _Caster TC_; or
+: 1d20 + _Magic Skill_ ≥ _Target DC_;
 : Casters who incur damage in the combat round right before casting roll with disadvantage;
 : Casters may invest extra CPs to increase their roll result, +1 per CP;
 : If the roll fails, the spell peters out;

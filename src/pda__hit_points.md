@@ -76,7 +76,7 @@ TODO
 
 <table id="scars" class="scars">
 <tr><td></td><td class="lg"></td><td class="lg"></td><td class="lg"></td><td class="lg"></td><td class="lg"></td><td class="lg" colspan="2">Damage > 18</td></tr>
-<tr><td></td><td class="lg"></td><td></td><td></td><td></td><td></td><td colspan="2">Damage ≥ <code>CON</code></td></tr>
+<tr><td></td><td class="lg"></td><td></td><td></td><td></td><td></td><td colspan="2">Damage ≥ <code>CON DC</code></td></tr>
 <tr><td></td><td class="lg"></td><td></td><td class="lg"></td><td class="lg"></td><td class="lg"></td><td class="lg" colspan="2">Damage > 12</td></tr>
 <tr><td></td><td class="lg"></td><td></td><td class="lg"></td><td></td><td></td><td colspan="2">Damage > 6</td></tr>
 <tr><td></td><td class="lg"></td><td></td><td class="lg"></td><td></td><td class="lg"></td><td class="lg" colspan="2">else</td></tr>
