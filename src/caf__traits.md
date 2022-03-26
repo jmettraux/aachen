@@ -104,6 +104,15 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 
 <!-- <div.trait> -->
 
+### Insistent `MEN TC` **11**
+* Once per fight, as an instant action IA, may recuperate 1d6 HP
+* As per ·, but 1d4 HP per level
+* As per ·, but 1d6 HP per level
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
 ### Intricate `SOU TC` **11**
 * +2 CP per level, retroactive
 * +3 CP per level, retroactive
@@ -165,15 +174,9 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 
 <!-- </div> -->
 
-<!-- <div.trait> -->
-
-### Skilled `LEA TC` **11**
-* Simply increase a skill (start at +0)
-
-<!-- </div> -->
-
-
 <!-- PAGE BREAK traits -->
+
+
 
 <!-- .margin.compass -->
 * _Character Creation_
@@ -184,6 +187,14 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 * Hit Points
 * Name
 * Equipment
+
+
+<!-- <div.trait> -->
+
+### Skilled `LEA TC` **11**
+* Simply increase a skill (start at +0)
+
+<!-- </div> -->
 
 
 <!-- <div.trait> -->
