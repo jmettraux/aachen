@@ -816,47 +816,15 @@ table.social-class th:nth-child(1) {
   margin-top: 1rem;
 }
 
+[data-aa-title="equipment"] dl {
+  margin-top: 2rem;
+  grid-template-columns: 28% auto;
+}
 [data-aa-title="equipment"] table.monetary {
 }
 [data-aa-title="equipment"] table.monetary th:nth-child(7) {
   border: 0;
 }
-
-[data-aa-title="equipment"] .equipment-grid {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  display: grid;
-  grid-template-columns: auto 1fr 1fr;
-  /*grid-template-rows: auto auto auto auto auto auto auto;*/
-  font-size: smaller;
-}
-[data-aa-title="equipment"] .equipment-grid .row-1 code {
-  font-size: 120%;
-}
-[data-aa-title="equipment"] .equipment-grid .cell {
-  padding-top: 0.25rem;
-  padding-right: 1rem;
-}
-[data-aa-title="equipment"] .equipment-grid .cell p {
-  text-align: center;
-}
-[data-aa-title="equipment"] .equipment-grid .col-a p {
-  text-align: left;
-  font-size: 110%;
-}
-[data-aa-title="equipment"] .equipment-grid .col-a.span p {
-  /*margin-top: 1.5em;*/
-}
-[data-aa-title="equipment"] .equipment-grid :not(.col-a).span p:before {
-  content: '— ';
-}
-[data-aa-title="equipment"] .equipment-grid :not(.col-a).span p:after {
-  content: ' —';
-}
-[data-aa-title="equipment"] .equipment-grid .row-1 {
-  border-bottom: solid thin black;
-}
-
 [data-aa-title="equipment"] h2.list {
   margin-top: 0.5rem;
   margin-bottom: 0.2rem;
@@ -869,6 +837,7 @@ table.social-class th:nth-child(1) {
   line-height: 0.66;
 }
 [data-aa-title="equipment"] h2.list.monetary {
+  margin-top: 3rem;
   margin-bottom: 2rem;
 }
 [data-aa-title="equipment"] table.monetary {
@@ -897,11 +866,9 @@ table.social-class th:nth-child(1) {
 [data-aa-title="equipment"] dl.weapon-traits .last-dd {
   margin: 0;
 }
-
 [data-aa-title="equipment"] .note {
   font-size: smaller;
 }
-
 [data-aa-title="equipment"] table.armor th:nth-child(5) {
   border-bottom: 0;
 }

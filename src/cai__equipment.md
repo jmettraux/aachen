@@ -16,120 +16,40 @@ These are equipment suggestions for new characters, based on their background an
 
 The referee may allow the `Caster` to choose the equipment of a `Fighter` of the same background, but beware playing the soldier.
 
+Wanderer
+: Quarterstaff
 
-<!-- <div.equipment-grid> -->
+Slave
+: Quarterstaff
 
-<!-- <div a1> -->
-&nbsp;
-<!-- </div> -->
-<!-- <div b1> -->
-`Fighter`
-<!-- </div> -->
-<!-- <div c1> -->
-`Dabster` or `Caster`
-<!-- </div> -->
+Commoner
+: Seax
 
-<!-- <div a2> WANDERER -->
-`Wanderer`
-<!-- </div> -->
-<!-- <div b2> -->
-quarterstaff, seax
-<!-- </div> -->
-<!-- <div c2> -->
-quarterstaff
-<!-- </div> -->
+Artisan
+: Seax
 
-<!-- <div a3> SLAVE -->
-`Slave`
-<!-- </div> -->
-<!-- <div b3> -->
-quarterstaff
-<!-- </div> -->
-<!-- <div c3> -->
-quarterstaff
-<!-- </div> -->
+Religious
+: Religious object;
+: 1-4 Seax or 5-6 Dagger
 
-<!-- <div a4> COMMONER -->
-`Commoner`
-<!-- </div> -->
-<!-- <div b4> -->
-spear, shield, seax
-<!-- </div> -->
-<!-- <div c4> -->
-seax
-<!-- </div> -->
+Elite
+: Sword;
+: 1-4 gambeson or 5-6 mail shirt if Fighter
 
-<!-- <div a5> ARTISAN -->
-`Artisan`
-<!-- </div> -->
-<!-- <div b5> -->
-spear, shield, seax, 5-6 gambeson
-<!-- </div> -->
-<!-- <div c5> -->
-seax
-<!-- </div> -->
+Fighter
+: Spear, Shield
 
-<!-- <div a6a7> RELIGIOUS -->
-`Religious`
-<!-- </div> -->
-<!-- <div b6> -->
-spear, shield, seax
-<!-- </div> -->
-<!-- <div c6> -->
-1-4 seax or 5-6 dagger
-<!-- </div> -->
+Dabster or Caster
+: 1 object related to a known skill
 
-<!-- <div b7c7> religious 2 -->
-religious object
-<!-- </div> -->
+Ranged Weapon
+: weapon with 2d6 arrows (bow) or bullets (sling); or
+: 1d3 javelins
 
-<!-- <div a8> ELITE -->
-`Elite`
-<!-- </div> -->
-<!-- <div b8> -->
-spear, shield, sword,<br/>
-1-4 gambeson or 5-6 mail shirt
-<!-- </div> -->
-<!-- <div c8> -->
-sword, 5-6 gambeson
-<!-- </div> -->
-
-<!-- <div a9> ALL -->
-_all_
-<!-- </div> -->
-<!-- <div b9c9> -->
-everyday clothes, sling bag, knife, tinderbox,<br/>1 gallon waterskin, travel rations 1d6 days
-<!-- </div> -->
-
-<!-- <div a10> ALL -->
-· _Ranged weapon_ ≥ 0
-<!-- </div> -->
-<!-- <div b10c10> -->
-weapon with 2d6 pieces of ammo (1d3 in case of javelins)
-<!-- </div> -->
-
-<!-- <div a11> ALL -->
-· `Craft` ≥ 0
-<!-- </div> -->
-<!-- <div b11c11> -->
-light tools for 1 given craft
-<!-- </div> -->
-
-<!-- <div a12> ALL -->
-· `Heal` ≥ 0
-<!-- </div> -->
-<!-- <div b12c12> -->
-medicine bag of herbs and bandages
-<!-- </div> -->
-
-<!-- <div a13> ALL -->
-· `Work` ≥ 0
-<!-- </div> -->
-<!-- <div b13c13> -->
-axe
-<!-- </div> -->
-
-<!-- </div.equipment-grid> -->
+All
+: sling bag;
+: knife, tinderbox, 1 gallon waterskin, travel ration 1d6 days;
+: 2 objects related to known skills
 
 
 <!-- .list.monetary -->
@@ -249,7 +169,7 @@ XA
 ## ranged weapons
 
 <!-- .weapons.ranged -->
-| Name       | STR ≥ | Dmg  | Short Range <     | Long Range (Atk -2) < | Flags  | Val  | d   |
+| Name       | STR ≥ | Dmg  | Short Range ≤     | Long Range (Atk -2) ≤ | Flags  | Val  | d   |
 |------------|:-----:|:----:|:-----------------:|:---------------------:|:------:|-----:|----:|
 | Bow, small |       |  1d6 | 50ft 15m 10sq V   | 300ft 90m 60sq 6V     | 2H, R  |   2s | 24d |
 | Bow, large |    10 |  1d8 | 100ft 30m 20sq VV | 600ft 180m 120sq 12V  | 2H, R  |   3s | 36d |
