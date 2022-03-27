@@ -14,7 +14,7 @@
 
 A trait is a qualifier denoting a special capability or a talent of a character or a creature. A trait comes in three level _(no prefix)_, _very_, or _highly_.
 
-Upon creation and levelling up, characters get 2 or 3 attempts at traits, depending on their class. An attempt is a roll against a `TC`, the trait dictactes what `TC`. If the roll is successful, the trait is acquired. If the trait is already acquired, it goes up one level (_highly_ is the maximum).
+Upon creation and levelling up, characters get 2 or 3 attempts at traits, depending on their class. An attempt is a roll against a `TC`, the trait dictactes what `TC`. If the roll is successful, the trait is acquired, or, if already acquired, it goes up one level (_highly_ is the maximum).
 
 · _(no prefix)_ → ·· ~~_very_~~ → ··· ~~_highly_~~
 
@@ -36,6 +36,15 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 * +1 on checks when cunning/trickery is involved
 * As per ·, but +2
 * As per ·, but advantage
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
+### Balanced `CON TC` **11**
+* Opponents don't get advantage against you in melee attacks when you are burdened
+* As per ·, and you are not slowed down in combat
+* Ignore encumbrance in combat
 
 <!-- </div> -->
 
@@ -105,9 +114,9 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 <!-- <div.trait> -->
 
 ### Insistent `MEN TC` **11**
-* Once per fight, as an instant action IA, may recuperate 1d6 HP
-* As per ·, but 1d4 HP per level
+* Once per fight, as an Instant Action **IA**, may recuperate 1d4 HP per level
 * As per ·, but 1d6 HP per level
+* As per ·, but 1d8 HP per level
 
 <!-- </div> -->
 
@@ -165,15 +174,6 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 
 <!-- </div> -->
 
-<!-- <div.trait> -->
-
-### Sharp `DEX TC` **11**
-* +1 on ranged attacks
-* +2 on ranged attacks
-* Advantage on ranged attacks
-
-<!-- </div> -->
-
 <!-- PAGE BREAK traits -->
 
 
@@ -188,6 +188,15 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 * Name
 * Equipment
 
+
+<!-- <div.trait> -->
+
+### Sharp `DEX TC` **11**
+* +1 on ranged attacks
+* +2 on ranged attacks
+* Advantage on ranged attacks
+
+<!-- </div> -->
 
 <!-- <div.trait> -->
 
