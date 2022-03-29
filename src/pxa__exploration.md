@@ -4,7 +4,7 @@
 * Checks
 * Combat
 * Cbt Actions
-* Hit Points
+* Taking Hits
 * Travel
 * **Exploration**
 * Encumbrance

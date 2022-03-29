@@ -4,7 +4,7 @@
 * **Checks**
 * Combat
 * Cbt Actions
-* Hit Points
+* Taking Hits
 * Travel
 * Exploration
 * Advancement
@@ -71,7 +71,7 @@ The referee decides if something extra happens on a natural 1 or a natural 20. T
 * **Checks**
 * Combat
 * Cbt Actions
-* Hit Points
+* Taking Hits
 * Travel
 * Exploration
 * Encumbrance

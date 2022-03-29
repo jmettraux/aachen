@@ -5,7 +5,7 @@
 * Background
 * Class
 * Traits
-* Hit Points
+* Taking Hits
 * Name
 * Equipment
 

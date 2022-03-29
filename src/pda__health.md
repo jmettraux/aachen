@@ -4,15 +4,18 @@
 * Checks
 * Combat
 * Cbt Actions
-* **Hit Points**
+* **Taking Hits**
 * Travel
 * Exploration
 * Encumbrance
 * Advancement
 
 
-# Hit Points
+# Taking Hits
 
+## Hit Points
+
+<!--
 (more generally health FIXME)
 
 When a character reaches 0 HPs, it is considered _mortally wounded_. If they endure further damage they die.
@@ -24,16 +27,17 @@ Another character may try a _Heal_ skill check, for example 1d20 + _Heal_ ≥ `I
 If the skill check is successful, the wounded character is stabilized, and will be able to go on after the combat ends. Taking further damage here will bring them back to _mortally wounded_.
 
 The referee might rule the character surviving a _mortally wounded_ episode will be scarred and ask for a roll on the following table. The amount of damage that downed the character determines the dice to roll from d4+d20 to 6d4. If the character already suffers from the resulting scar, it is ignored.
+-->
 
 
-<!-- PAGE BREAK hit_points -->
+<!-- PAGE BREAK health -->
 
 <!-- .margin.compass -->
 * _Playing the Game_
 * Checks
 * Combat
 * Cbt Actions
-* **Hit Points**
+* **Taking Hits**
 * Travel
 * Exploration
 * Encumbrance
