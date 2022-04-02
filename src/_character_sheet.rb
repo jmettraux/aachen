@@ -487,13 +487,21 @@ position: relative;
   /* SPELL GRID */
 
   .spell-grid {
-    display: grid;
+    text-align: center;
   }
   .spell-grid .t {
-    font-size: 70%;
+    font-size: 60%;
     text-align: center;
     color: grey;
     border-bottom: 1px solid white;
+    padding: 0 0.1em;
+  }
+  .spell-grid .t11:after {
+    content: '';
+    display: block;
+  }
+  .spell-grid .t .i {
+    margin-right: 0.1em;
   }
   .spell-grid .t.underline {
     border-bottom: 1px solid blue;
@@ -992,17 +1000,21 @@ div('.right.subgrid', 2, 1) do
       Amber Blue Coal Copper Gold Night
       Quartz Red Scarlet Silver Turquoise Faery
     ].each_with_index do |n, i|
-      div('.colour', 1 + (i * 2), 1, 2, 1) do
-        div('.t' + (character.knows?(n) ? '.underline' : ''), n)
-      end
+      #div('.colour', 1 + (i * 2), 1, 2, 1) do
+        span(".t.colour.t#{i}" + (character.knows?(n) ? '.underline' : '')) do
+          span('.i', "#{1 + i}"); span('.n', n)
+        end
+      #end
     end
     %w[
       Arrow Ball Crown Disk Finger Flail
       Hand Hut Net Pole Powder Shield
     ].each_with_index do |n, i|
-      div('.colour', 2 + (i * 2), 2, 2, 1) do
-        div('.t' + (character.knows?(n) ? '.underline' : ''), n)
-      end
+      #div('.form', 2 + (i * 2), 2, 2, 1) do
+        span('.t.form' + (character.knows?(n) ? '.underline' : '')) do
+          span('.i', "#{1 + i}"); span('.n', n)
+        end
+      #end
     end
   end
 
