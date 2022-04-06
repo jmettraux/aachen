@@ -13,7 +13,46 @@
 
 # Taking Hits
 
-## Hit Points
+Hit Points
+: when an opponent reaches 0 HP, it is considered dead;
+: when a character reaches 0 HP, it is considered out of action.
+
+First aid
+: TODO
+
+Exhaustion
+: starts at zero points for "fresh" characters;
+: after a combat each participant takes 1 exhaustion point, unless the referee rules otherwise.
+
+EP 1
+: -1 on all checks.
+
+EP 2
+: -2 on all checks.
+
+EP 3
+: disadvantage on all checks.
+
+EP 4
+: and speed reduced in half.
+
+EP 5
+: and AC maxed at 12.
+
+EP 6
+: death.
+
+Short rest
+: is one hour of light activity;
+: not more than three short rests per 24 hours;
+: shakes off one exhaustion point;
+
+Long rest
+: is eight hours of light activity or sleep, with at most 2 hours of watch;
+: shakes off one exhaustion point;
+
+Zero HP
+: a wound is rolled or 1 extra exhaustion point is taken when reaching 0 HP.
 
 <!--
 (more generally health FIXME)
