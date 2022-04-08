@@ -30,7 +30,7 @@ Out of action
 : character becomes unconscious.
 
 First aid
-: a successful _Heal_ check brings back a character to consciousness;
+: a successful _Heal_ check brings back a character to consciousness and 1 HP;
 : else the character will have to be carried.
 
 Post Combat
@@ -66,21 +66,22 @@ EL 6
 Short rest
 : is one hour of light activity;
 : not more than three short rests per 24 hours;
-: regain 1d6 HP;
+: regain 1d6 HP; or 1d3 HP if _wounded_;
 : if already at HP max, decrease Exhaustion Level by 1.
 
 Long rest
 : is 8 hours of light activity or sleep;
 : at most 2 hours on watch;
-: regain level × 1d6 HP;
+: regain level × 1d6 HP; or level × 1d3 HP if _wounded_;
 : if already at HP max, decrease Exhaustion Level by 1d2.
 
 <hr/>
 
 Wounds
-: if damage points ≥ remaining HP, then 0 HP and EL 5;
-: if damage points > remaining HP, wound incurred as well;
-: consider damage points and roll on the wound table.
+: if damage ≥ remaining HP, then 0 HP and EL 5;
+: if damage > remaining HP, wound incurred as well;
+: if damage > 3, roll on the wound table;
+: character is _wounded_ until reaching back max HP and EL 0.
 
 
 <!-- PAGE BREAK health -->
@@ -99,15 +100,14 @@ Wounds
 
 ## Wounds
 
-TODO
-
+<!--
 [^1]
-
 [^1]:
   If too complicated, roll 2d12 (let's hope it's not a double 1)
+-->
 
 <style>
-#scars { margin-top: 2rem; }
+#scars { margin: 2rem 0; }
 #scars td:nth-child(1) { text-align: right; }
 #scars td:nth-child(2) { text-align: right; font-size: 90%; }
 #scars td:nth-child(3) { text-align: right; font-size: 90%; }
@@ -129,14 +129,15 @@ TODO
 #scars tr.r td:nth-child(2) { background-color: lightgrey; }
 #scars tr.r td:nth-child(4) { background-color: lightgrey; }
 #scars tr.r td:nth-child(6) { background-color: lightgrey; }
+#scars td.rnd { border-start-start-radius: 0.33rem; }
 </style>
 
 <table id="scars" class="scars">
-<tr><td></td><td class="lg"></td><td class="lg"></td><td class="lg"></td><td class="lg"></td><td class="lg"></td><td class="lg" colspan="2">Damage > 18</td></tr>
+<tr><td></td><td class="lg rnd"></td><td class="lg"></td><td class="lg"></td><td class="lg"></td><td class="lg"></td><td class="lg" colspan="2">Damage > 18</td></tr>
 <tr><td></td><td class="lg"></td><td></td><td></td><td></td><td></td><td colspan="2">Damage ≥ <code>CON DC</code></td></tr>
-<tr><td></td><td class="lg"></td><td></td><td class="lg"></td><td class="lg"></td><td class="lg"></td><td class="lg" colspan="2">Damage > 12</td></tr>
+<tr><td></td><td class="lg"></td><td></td><td class="lg rnd"></td><td class="lg"></td><td class="lg"></td><td class="lg" colspan="2">Damage > 12</td></tr>
 <tr><td></td><td class="lg"></td><td></td><td class="lg"></td><td></td><td></td><td colspan="2">Damage > 6</td></tr>
-<tr><td></td><td class="lg"></td><td></td><td class="lg"></td><td></td><td class="lg"></td><td class="lg" colspan="2">else</td></tr>
+<tr><td></td><td class="lg"></td><td></td><td class="lg"></td><td></td><td class="lg rnd"></td><td class="lg" colspan="2">Damage > 3</td></tr>
 <tr><th>roll</th><th class="lg">d4+d20</th><th>2d12</th><th class="lg">3d8</th><th>4d6</th><th class="lg">6d4</th><th></th><th></th></tr>
 <tr class="r"><td> 2</td><td>1.25%</td><td>0.69%</td><td>     </td><td>      </td><td>      </td><td>Death</td><td></td></tr>
 <tr class="r"><td> 3</td><td>2.50%</td><td>1.39%</td><td>0.20%</td><td>      </td><td>      </td><td>Gut Wound</td><td><code>CON</code> - 4</td></tr>
@@ -162,4 +163,6 @@ TODO
 <tr class="r"><td>23</td><td>2.50%</td><td>1.39%</td><td>0.59%</td><td> 0.31%</td><td> 0.15%</td><td>Man-Wounded</td><td>unable to sire heirs</td></tr>
 <tr class="r"><td>24</td><td>1.25%</td><td>0.69%</td><td>0.20%</td><td> 0.08%</td><td> 0.02%</td><td>Collapsed Lung</td><td><code>CON</code> - 4</td></tr>
 </table>
+
+(This table is based on Kevin Crawford's Scar Table for _Wolves of God_ and on @xaosseed 2-24 tables).
 
