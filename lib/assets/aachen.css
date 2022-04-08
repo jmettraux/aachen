@@ -999,6 +999,9 @@ table.social-class th:nth-child(1) {
   width: calc((var(--tblock-width) - 1rem) / 2);
 }
 
+[data-aa-title="health"] dl {
+  grid-template-columns: 28% auto;
+}
 [data-aa-title="health"] table.scars {
   font-size: var(--size-b);
   line-height: 0.7;

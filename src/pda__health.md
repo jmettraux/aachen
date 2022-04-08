@@ -14,45 +14,72 @@
 # Taking Hits
 
 Hit Points
+: a measure of grit, fortitude.
+
+Exhaustion Levels
+: a measure of fatigue.
+
+Reaching 0 HP
 : when an opponent reaches 0 HP, it is considered dead;
-: when a character reaches 0 HP, it is considered out of action.
+: when a character does, it is considered out of action.
+
+Out of action
+: Exhaustion Level immediately reaches 5;
+: Character becomes unconscious.
 
 First aid
 : TODO
 
-Exhaustion
-: starts at zero points for "fresh" characters;
-: after a combat each participant takes 1 exhaustion point, unless the referee rules otherwise.
+Post Combat
+: Exhaustion Level increase by 1 (max EL 5, so no death);
+: Referee may rule: "no exhaustion increase"; or
+: "exhaustion increase by 1 on failed `CON TC` check".
 
-EP 1
+<hr/>
+
+Exhaustion level 0
+: "fresh character".
+
+EL 1
 : -1 on all checks.
 
-EP 2
+EL 2
 : -2 on all checks.
 
-EP 3
-: disadvantage on all checks.
+EL 3
+: disadvantage on all checks;
 
-EP 4
+EL 4
+: and AC maxed at 12;
+
+EL 5
 : and speed reduced in half.
 
-EP 5
-: and AC maxed at 12.
-
-EP 6
+EL 6
 : death.
+
+<hr/>
 
 Short rest
 : is one hour of light activity;
 : not more than three short rests per 24 hours;
-: shakes off one exhaustion point;
+: regain 1d6 HP;
+: if already at HP max, decrease Exhaustion Level by 1.
 
 Long rest
-: is eight hours of light activity or sleep, with at most 2 hours of watch;
-: shakes off one exhaustion point;
+: is 8 hours of light activity or sleep;
+: at most 2 hours on watch;
+: regain level × 1d6 HP;
+: if already at HP max, decrease Exhaustion Level by 1d2.
 
-Zero HP
-: a wound is rolled or 1 extra exhaustion point is taken when reaching 0 HP.
+<hr/>
+
+Reaching 0 HP
+: TODO
+
+Wounds
+: TODO
+
 
 <!--
 (more generally health FIXME)
