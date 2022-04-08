@@ -14,26 +14,29 @@
 # Taking Hits
 
 Hit Points
-: a measure of grit, fortitude.
+: a measure of grit, fortitude;
+: minimum HP is 0.
 
 Exhaustion Levels
-: a measure of fatigue.
+: a measure of fatigue;
+: starts at 0, ends at 6 with death.
 
 Reaching 0 HP
 : when an opponent reaches 0 HP, it is considered dead;
 : when a character does, it is considered out of action.
 
 Out of action
-: Exhaustion Level immediately reaches 5;
-: Character becomes unconscious.
+: Exhaustion Level immediately reaches 5, "crippled";
+: character becomes unconscious.
 
 First aid
-: TODO
+: a successful _Heal_ check brings back a character to consciousness;
+: else the character will have to be carried.
 
 Post Combat
 : Exhaustion Level increase by 1 (max EL 5, so no death);
-: Referee may rule: "no exhaustion increase"; or
-: "exhaustion increase by 1 on failed `CON TC` check".
+: referee may rule: "no exhaustion increase"; or
+: "no exhaustion increase on successful `CON TC` check".
 
 <hr/>
 
@@ -52,7 +55,7 @@ EL 3
 EL 4
 : and AC maxed at 12;
 
-EL 5
+"crippled" EL 5
 : and speed reduced in half.
 
 EL 6
@@ -74,26 +77,10 @@ Long rest
 
 <hr/>
 
-Reaching 0 HP
-: TODO
-
 Wounds
-: TODO
-
-
-<!--
-(more generally health FIXME)
-
-When a character reaches 0 HPs, it is considered _mortally wounded_. If they endure further damage they die.
-
-Each round, when their initiative turn comes, the player rolls 1d20 + 1 ≥ `PHY TC`, if they fail, they die.
-
-Another character may try a _Heal_ skill check, for example 1d20 + _Heal_ ≥ `INT TC`, or 1d20 + _Heal_ ≥ wounded `CON TC`.
-
-If the skill check is successful, the wounded character is stabilized, and will be able to go on after the combat ends. Taking further damage here will bring them back to _mortally wounded_.
-
-The referee might rule the character surviving a _mortally wounded_ episode will be scarred and ask for a roll on the following table. The amount of damage that downed the character determines the dice to roll from d4+d20 to 6d4. If the character already suffers from the resulting scar, it is ignored.
--->
+: if damage points ≥ remaining HP, then 0 HP and EL 5;
+: if damage points > remaining HP, wound incurred as well;
+: consider damage points and roll on the wound table.
 
 
 <!-- PAGE BREAK health -->
