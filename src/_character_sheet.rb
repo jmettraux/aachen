@@ -256,7 +256,7 @@ style = %{
 
   .subgrid {
     display: grid;
-    row-gap: 1rem;
+    row-gap: 0.3rem;
   }
 
   .left.subgrid {
