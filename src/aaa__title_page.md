@@ -38,7 +38,7 @@ Math
 : additions, arithmetic means, subtractions, not much else.
 
 AST
-: abilities are nouns, skills are verbs, traits are adjective.
+: abilities are nouns, skills are verbs, traits are adjectives.
 
 Abilities
 : the six well-known abilities of old.
