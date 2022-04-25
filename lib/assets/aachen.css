@@ -1033,11 +1033,11 @@ table.social-class th:nth-child(1) {
   border-bottom: solid thin #c0c0c0;
 }
 
-[data-aa-title="spell casting"] h2 {
+[data-aa-title="casting"] h2 {
   margin-bottom: 1.0rem;
   margin-bottom: 0.6rem;
 }
-[data-aa-title="spell casting"] dl {
+[data-aa-title="casting"] dl {
   grid-template-columns: 18% auto;
 }
 
@@ -1062,6 +1062,9 @@ table.social-class th:nth-child(1) {
   color: #c0c0c0;
   font-size: 28pt;
   text-align: center;
+}
+[data-aa-title="spells"] .tables thead {
+  display: none;
 }
 [data-aa-title="spells"] .tables .mul {
   text-indent: 0;
@@ -1094,76 +1097,6 @@ table.social-class th:nth-child(1) {
 }
 [data-aa-title="spells"] .tables table tr:nth-last-child(1) td {
   border-bottom: 0;
-}
-[data-aa-title="spells"] dl.examples {
-  display: block;
-}
-[data-aa-title="spells"] dl.examples dt {
-  display: inline;
-  padding-right: 0.3rem;
-}
-[data-aa-title="spells"] dl.examples dd {
-  display: inline;
-}
-[data-aa-title="spells"] dl.examples dd.last-dd::after {
-  content: '';
-  display: block;
-  margin-bottom: 0.6rem;
-}
-[data-aa-title="spells"] dl.examples dt del {
-  color: #c0c0c0;
-}
-
-[data-aa-title="spell forms"] h1:first-of-type {
-  margin-top: 0;
-}
-[data-aa-title="spell forms"] table.forms {
-  display: inline-block;
-  width: 50%;
-  font-size: var(--size-b);
-  line-height: 0.7;
-  vertical-align: top;
-  margin-left: 0.7rem;
-  margin-bottom: 1rem;
-  float: right;
-}
-[data-aa-title="spell forms"] .scales table {
-  display: inline-block;
-  width: auto;
-  font-size: var(--size-b);
-  line-height: 0.7;
-  vertical-align: top;
-  margin-right: 0.7rem;
-}
-[data-aa-title="spell forms"] table tr:nth-child(3n) td {
-  border-bottom: solid thin #c0c0c0;
-}
-[data-aa-title="spell forms"] table tr:nth-last-child(1) td {
-  border-bottom: 0;
-}
-
-[data-aa-title="spell colours"] h3 {
-  color: red;
-  font-weight: normal;
-  font-variant: small-caps;
-  text-transform: lowercase;
-  margin-bottom: 0.16rem;
-}
-[data-aa-title="spell colours"] h3:first-child {
-  margin-top: 0;
-}
-[data-aa-title="spell colours"] h3 strong {
-  font-weight: normal;
-  font-variant: normal;
-  color: #c0c0c0;
-  font-size: 80%;
-}
-[data-aa-title="spell colours"] h3 strong::before {
-  content: '·';
-  padding-right: 0.3rem;
-}
-[data-aa-title="spell colours"] h3 ~ p {
-  margin-left: 0.6rem;
 }
 
 [data-aa-title="rchecks"] h1 {

@@ -1,10 +1,8 @@
 
 <!-- .margin.compass -->
 * _Playing a Caster_
-* Spellcasting
+* Casting
 * **Spells**
-* Spell colours
-* Spell forms
 
 
 <!-- <div.tables> -->
@@ -83,45 +81,58 @@ Most of the casters choose simple, well known, ~~forms~~ for weaving their magic
 
 A spell is also a negotiation between the referee and the player to determine how the fictional world is affected by the magic wielded by the character. There are no spell descriptions, the referee is free to interpret the guidelines provided here.
 
+<!-- <div.scales> -->
 
-## Examples
+<!-- .sizes -->
+| size   | CPs | cast time   | damage |
+|-------:|----:|:-----------:|-------:|
+| 1 inch |   1 | Main Action | 1      |
+| 1 ft   |   2 | MA          | 1d4    |
+| 5 ft   |   3 | MA          | 1d6    |
+| 10 ft  |   4 | MA          | 1d8    |
+| 20 ft  |   5 | MA + OTA    | 2d4    |
+| 40 ft  |   6 | MA + OTA    | 2d6    |
+| 60 ft  |   7 | 2 MAs       | 2d8    |
+| 80 ft  |   8 | 2 MAs       | 3d6    |
+| 100 ft |   9 | 2 MAs       | 4d6    |
 
-<!-- Feel Pinch Soak Spin Spoil Tie Weave Undo -->
+<!-- .ranges -->
+| range   | CPs |
+|--------:|----:|
+| contact |   1 |
+| 1 ft    |   2 |
+| 5 ft    |   3 |
+| 10 ft   |   4 |
+| 20 ft   |   5 |
+| 40 ft   |   6 |
+| 60 ft   |   7 |
+| 80 ft   |   8 |
+| 100 ft  |   9 |
 
-<!-- .examples -->
+<!-- .duration -->
+| duration | CPs |
+|---------:|----:|
+| 1 rnd    |   1 |
+| 1 min    |   2 |
+| 5 min    |   3 |
+| 10 min   |   4 |
+| 20 min   |   5 |
+| 40 min   |   6 |
+| 60 min   |   7 |
+| 80 min   |   8 |
+| 100 min  |   9 |
 
-_Weave_ ~~×~~ _Coal_ ~~×~~ _Arrow_
-: TODO
+<!-- .speed -->
+| speed      | CPs |
+|-----------:|----:|
+| 0          |   0 |
+| 15 ft/rnd  |   1 |
+| 30 ft/rnd  |   2 |
+| 60 ft/rnd  |   3 |
+| 90 ft/rnd  |   4 |
+| 120 ft/rnd |   5 |
+| 150 ft/rnd |   6 |
+| 180 ft/rnd |   7 |
+| 210 ft/rnd |   8 |
 
-_Spin_ ~~×~~ _Coal_ ~~×~~ _Arrow_
-: an arrow of pain flying through the air to hit its target
-
-_Feel_ ~~×~~ _Quartz_ ~~×~~ _Pole_
-: a pole of meta threads the caster may be used to probe for others' threads
-
-_Pinch_ ~~×~~ _Red_ ~~×~~ _Ball_
-: take control of the red threads found inside of a sphere
-
-_Soak_ ~~×~~ _Copper_ ~~×~~ _Finger_
-: the caster attempts to soak magical energy from the soil through their finger
-
-_Undo_ ~~×~~ _Copper_ ~~×~~ _Hand_
-: TODO
-
-_Entwine_ ~~×~~ _Gold_ ~~×~~ _Powder_
-: add powder light emitting threads on top of other threads, outlining them
-
-_Spoil_ ~~×~~ _Gold_ ~~×~~ _Powder_
-: TODO
-
-
-<script>
-
-onDocumentReady(function() {
-  elts('section[data-aa-title="spells"] .tables table').forEach(function(te) {
-    elt(te, 'thead').remove();
-  });
-});
-
-</script>
-
+<!-- </div.scales> -->

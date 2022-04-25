@@ -1,13 +1,11 @@
 
 <!-- .margin.compass -->
 * _Playing a Caster_
-* **Spellcasting**
+* **Casting**
 * Spells
-* Spell colours
-* Spell forms
 
 
-# Spellcasting
+# Casting
 
 Casters have the gift of weaving magical threads to achieve effects. The gift doesn't seem hereditary, a minority of people are casters, some of them don't even know they have the gift, some might be blind, weaving but not seeing the threads. Casters normally see the threads they weave but don't see other casters' threads, unless a thread revealing spell is used.
 
