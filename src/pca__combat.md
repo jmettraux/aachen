@@ -22,10 +22,10 @@ Surprise
 : a side gets the surprise, or;
 : ~~1d20~~ + _Scout_ ≥ `Dex TC` _or_<br/>~~1d20~~ + _Scout_ ≥ opponent's ~~1d20~~ + _Spy_ _or_<br/>~~1d20~~ + _Scout_ ≥ opponent's `WIS DC`
 
-Surprise Round
+Surprise Round[^1]
 : if a side was granted the surprise.
 
-Initiative[^1]
+Initiative
 : each side rolls ~~1d20~~ + side's best `INI` (initiative)
 : the side with the highest roll goes first,<br/>in case of tie, the PC side goes first;
 
@@ -44,13 +44,12 @@ Morale
 
   each player rolls 1d20 + `INI` and the players get interleaved initiative (while the opfor still has its rounds together)
 
-
 <hr/>
 
 <!-- .actions -->
-Combat Round
+Combat Round[^2]
 : approximately 6 seconds;
-: 1 **MA** + 1 **MvA** | 1 **MvA** + 1 **MA** | 2 **MvA**;
+: 1 **MA** + 1 **MvA**, or 1 **MvA** + 1 **MA**, or 2 **MvA**;
 : plus as many **OTA** as the referee deems reasonable.
 
 Main Action · **MA**
@@ -72,6 +71,11 @@ Instant Action · **IA**
 : may be performed _out of turn_;
 : as many as the referee deems reasonable;
 : execution order decided by referee if many trigger at the same time.
+
+[^2]:
+  basically:
+
+  move+act, or act+move, or move+move
 
 
 <!-- RETURN -->

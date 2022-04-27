@@ -12,11 +12,11 @@ Roll 3d6 for Abilities, then compute the `TC`s (21 - Ability).
 
 <!-- </div> -->
 
-<!-- <div.comment.ne.c_means> -->
+<!-- <div.comment.ne.c_averages> -->
 
-East of "Abi TCs" are "means".
+East of "Abi TCs" are "averages".
 
-For example "Body TC" is the mean of `STR TC`, `CON TC`, and `DEX TC`.
+For example "Body TC" is the average of `STR TC`, `CON TC`, and `DEX TC`.
 
 <!-- </div> -->
 
@@ -127,7 +127,7 @@ It's the base to compute the ACs in their shield icons.
   }
 
   [data-aa-title="csheet"] .c_abilities_0  { top:  4.2rem; left:   1.7rem; }
-  [data-aa-title="csheet"] .c_means        { top: 10.0rem; left:   1.7rem; }
+  [data-aa-title="csheet"] .c_averages     { top: 10.0rem; left:   1.7rem; }
   [data-aa-title="csheet"] .c_skills_0     { top: 23.0rem; left:   1.7rem; }
   [data-aa-title="csheet"] .c_skills_1     { top: 30.0rem; left:   1.7rem; }
   [data-aa-title="csheet"] .c_skills_m     { top: 45.0rem; right: 15.5rem; }
