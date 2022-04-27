@@ -71,16 +71,6 @@ Form
 
 # Spells
 
-A spell is a combination ~~Skill~~ × ~~Colour~~ × ~~Form~~.
-
-Skills in Aachen are verbs, magical ~~skills~~ are rather ambiguous verbs
-
-Casters see the magical energy as threads of various ~~colours~~. It is probable that some casters see colours differently, and that some of them don't see some of the colours.
-
-Most of the casters choose simple, well known, ~~forms~~ for weaving their magical threads. Maybe in Constantinople or further east, there are casters that know more complex forms.
-
-A spell is also a negotiation between the referee and the player to determine how the fictional world is affected by the magic wielded by the character. There are no spell descriptions, the referee is free to interpret the guidelines provided here.
-
 <!-- <div.scales> -->
 
 <!-- .sizes -->
@@ -95,6 +85,10 @@ A spell is also a negotiation between the referee and the player to determine ho
 | 60 ft  |   7 | 2 MAs       | 2d8    |
 | 80 ft  |   8 | 2 MAs       | 3d6    |
 | 100 ft |   9 | 2 MAs       | 4d6    |
+
+<!-- </div.scales> -->
+
+<!-- RETURN -->
 
 <!-- .ranges -->
 | range   | CPs |
@@ -136,3 +130,13 @@ A spell is also a negotiation between the referee and the player to determine ho
 | 210 ft/rnd |   8 |
 
 <!-- </div.scales> -->
+
+A spell is a combination ~~Skill~~ × ~~Colour~~ × ~~Form~~.
+
+Skills in Aachen are verbs, magical ~~skills~~ are rather ambiguous verbs
+
+Casters see the magical energy as threads of various ~~colours~~. It is probable that some casters see colours differently, and that some of them don't see some of the colours.
+
+Most of the casters choose simple, well known, ~~forms~~ for weaving their magical threads. Maybe in Constantinople or further east, there are casters that know more complex forms.
+
+A spell is also a negotiation between the referee and the player to determine how the fictional world is affected by the magic wielded by the character. There are no spell descriptions, the referee is free to interpret the guidelines provided here.
