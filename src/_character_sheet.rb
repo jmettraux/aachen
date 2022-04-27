@@ -869,6 +869,8 @@ div('.left.subgrid', 1, 1) do
       _Know
       _
       _
+      _
+      _
     }
       .select { |k|
         k[0, 1] != '#' }
@@ -881,7 +883,7 @@ div('.left.subgrid', 1, 1) do
         k = (k == '_') ? '_________' : k
         div('.skill-label' + klas, 3, 1 + i) do
           d = sd.next.to_s
-          d = sd.to_s if d == '45'
+          d = sd.to_s if d == '47'
           span('.dice', d)
           span('.name', k)
         end
@@ -889,14 +891,12 @@ div('.left.subgrid', 1, 1) do
       end
 
     %w{
+      Throw
+      Wrap
+      Bind
       Feel
-      Pinch
       Soak
-      Spin
-      Spoil
-      Tie
-      Weave
-      Undo
+      Radiate
     }
       .select { |k|
         k[0, 1] != '#' }
@@ -907,11 +907,11 @@ div('.left.subgrid', 1, 1) do
         klas = klas + '.italic' if it
         klas = klas + '.grey' if k == '_'
         k = (k == '_') ? '_________' : k
-        div('.skill-label' + klas, 3, 12 + i) do
+        div('.skill-label' + klas, 3, 14 + i) do
           span('.dice', (i + 1).to_s)
           span('.name', k)
         end
-        div('.skill-box', 4, 12 + i) { span('.d', character.get(k)) }
+        div('.skill-box', 4, 14 + i) { span('.d', character.get(k)) }
       end
 
     div('.skill-tag', 3, 13, 2, 5, 'M')

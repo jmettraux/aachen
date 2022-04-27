@@ -5,25 +5,31 @@
 * **Spells**
 
 
+# Spells
+
 <!-- <div.tables> -->
+
+<!-- <div.table> -->
 
 <!-- .head -->
 Skill
 
 <!-- .skills -->
-|       |   |        |
-|-------|---|--------|
-| Feel  | 1 | sense  |
-| Pinch | 2 | seize  |
-| Soak  | 3 | imbibe |
-| Spin  | 4 | refine |
-| Spoil | 5 | waste  |
-| Tie   | 6 | join   |
-| Weave | 7 | knit   |
-| Undo  | 8 | unknit |
+|         |   |            |
+|---------|---|------------|
+| Throw   | 1 | project    |
+| Wrap    | 2 | surround   |
+| Bind    | 3 | tie, untie |
+| Feel    | 4 | sense      |
+| Soak    | 5 | take       |
+| Radiate | 6 | give       |
+
+<!-- </div.table> -->
 
 <!-- .mul -->
 ×
+
+<!-- <div.table> -->
 
 <!-- .head -->
 Colour
@@ -44,8 +50,12 @@ Colour
 | Turquoise | 11 | healing  |
 | Faery     | 12 | beyond   |
 
+<!-- </div.table> -->
+
 <!-- .mul -->
 ×
+
+<!-- <div.table> -->
 
 <!-- .head -->
 Form
@@ -66,10 +76,12 @@ Form
 | Powder | 11 | cloud    |
 | Shield | 12 | lens     |
 
+<!-- </div.table> -->
+
 <!-- </div.tables> -->
 
 
-# Spells
+<!-- RETURN -->
 
 <!-- <div.scales> -->
 
