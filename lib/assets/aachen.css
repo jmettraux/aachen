@@ -1053,6 +1053,7 @@ table.social-class th:nth-child(1) {
   line-height: 0.7;
   display: grid;
   grid-template-columns: auto auto auto auto auto;
+  margin-bottom: 1.2rem;
 }
 [data-aa-title="spells"] .tables .head {
   margin-top: 0.3rem;
@@ -1069,13 +1070,12 @@ table.social-class th:nth-child(1) {
   color: #c0c0c0;
   font-size: 42pt;
   text-align: center;
-  margin-top: 1.4rem;
 }
 [data-aa-title="spells"] .tables table {
   line-height: 0.7;
   margin: 0;
-  margin-top: 1.2rem;
-  margin-bottom: 1.6rem;
+  margin-top: 1.0rem;
+  margin-bottom: 1.0rem;
   width: 90%;
 }
 [data-aa-title="spells"] .tables table td:nth-child(1) { /* names */
@@ -1094,6 +1094,22 @@ table.social-class th:nth-child(1) {
   border-bottom: solid thin #c0c0c0;
 }
 [data-aa-title="spells"] .tables table tr:nth-last-child(1) td {
+  border-bottom: 0;
+}
+[data-aa-title="spells"] .scales {
+  font-size: var(--size-b);
+  line-height: 0.7;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 0.6rem;
+}
+[data-aa-title="spells"] .scales table {
+  border-right: 1px solid #c0c0c0;
+}
+[data-aa-title="spells"] .scales table tr:nth-child(3n) td {
+  border-bottom: solid thin #c0c0c0;
+}
+[data-aa-title="spells"] .scales table tr:nth-last-child(1) td {
   border-bottom: 0;
 }
 

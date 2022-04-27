@@ -81,30 +81,26 @@ Form
 <!-- </div.tables> -->
 
 
-<!-- RETURN -->
-
 <!-- <div.scales> -->
 
 <!-- .sizes -->
-| size   | CPs | cast time   | damage |
-|-------:|----:|:-----------:|-------:|
-| 1 inch |   1 | Main Action | 1      |
-| 1 ft   |   2 | MA          | 1d4    |
-| 5 ft   |   3 | MA          | 1d6    |
-| 10 ft  |   4 | MA          | 1d8    |
-| 20 ft  |   5 | MA + OTA    | 2d4    |
-| 40 ft  |   6 | MA + OTA    | 2d6    |
-| 60 ft  |   7 | 2 MAs       | 2d8    |
-| 80 ft  |   8 | 2 MAs       | 3d6    |
-| 100 ft |   9 | 2 MAs       | 4d6    |
-
-<!-- </div.scales> -->
-
-<!-- RETURN -->
+| size   | cast time   | dmg | CPs |
+|-------:|:-----------:|----:|----:|
+|        |             |     |   0 |
+| 1 in   | Main Action | 1   |   1 |
+| 1 ft   | MA          | 1d4 |   2 |
+| 5 ft   | MA          | 1d6 |   3 |
+| 10 ft  | MA          | 1d8 |   4 |
+| 20 ft  | MA + OTA    | 2d4 |   5 |
+| 40 ft  | MA + OTA    | 2d6 |   6 |
+| 60 ft  | 2 MAs       | 2d8 |   7 |
+| 80 ft  | 2 MAs       | 3d6 |   8 |
+| 100 ft | 2 MAs       | 4d6 |   9 |
 
 <!-- .ranges -->
 | range   | CPs |
 |--------:|----:|
+|         |   0 |
 | contact |   1 |
 | 1 ft    |   2 |
 | 5 ft    |   3 |
@@ -118,6 +114,7 @@ Form
 <!-- .duration -->
 | duration | CPs |
 |---------:|----:|
+|          |   0 |
 | 1 rnd    |   1 |
 | 1 min    |   2 |
 | 5 min    |   3 |
@@ -140,8 +137,13 @@ Form
 | 150 ft/rnd |   6 |
 | 180 ft/rnd |   7 |
 | 210 ft/rnd |   8 |
+| 240 ft/rnd |   9 |
 
 <!-- </div.scales> -->
+
+
+
+<!-- RETURN -->
 
 A spell is a combination ~~Skill~~ × ~~Colour~~ × ~~Form~~.
 
@@ -152,3 +154,4 @@ Casters see the magical energy as threads of various ~~colours~~. It is probable
 Most of the casters choose simple, well known, ~~forms~~ for weaving their magical threads. Maybe in Constantinople or further east, there are casters that know more complex forms.
 
 A spell is also a negotiation between the referee and the player to determine how the fictional world is affected by the magic wielded by the character. There are no spell descriptions, the referee is free to interpret the guidelines provided here.
+
