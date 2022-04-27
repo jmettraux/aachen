@@ -7,6 +7,8 @@
 * "Carolingian Cavalryman AD 768-987", David Nicolle and Wayne Reynolds, Osprey "Warrior"
 * "The Conquest of Saxony AD 782-785", David Nicolle and Graham Turner, Osprey "Campaign"
 * "Charlemagne and his world", Friedrich Heer
+* "The Carolingian Economy", Adriaan Verhulst
+* "The Carolingian World", Marios Costambeys, Matthew Innes, Simon MacLean
 
 ## fiction
 
