@@ -81,21 +81,23 @@ Form
 <!-- </div.tables> -->
 
 
+[^1]
+
 <!-- <div.scales> -->
 
 <!-- .sizes -->
-| size   | cast time   | dmg | CPs |
-|-------:|:-----------:|----:|----:|
-|        |             |     |   0 |
-| 1 in   | Main Action | 1   |   1 |
-| 1 ft   | MA          | 1d4 |   2 |
-| 5 ft   | MA          | 1d6 |   3 |
-| 10 ft  | MA          | 1d8 |   4 |
-| 20 ft  | MA + OTA    | 2d4 |   5 |
-| 40 ft  | MA + OTA    | 2d6 |   6 |
-| 60 ft  | 2 MAs       | 2d8 |   7 |
-| 80 ft  | 2 MAs       | 3d6 |   8 |
-| 100 ft | 2 MAs       | 4d6 |   9 |
+| size   | cast time | dmg | CPs |
+|-------:|:---------:|----:|----:|
+|        |           |     |   0 |
+| 1 in   | 1 MA      | 1d4 |   1 |
+| 1 ft   | 1 MA      | 1d6 |   2 |
+| 5 ft   | 1 MA      | 1d8 |   3 |
+| 10 ft  | 1 MA      | 2d6 |   4 |
+| 20 ft  | 1 round   | 2d8 |   5 |
+| 40 ft  | 1 round   | 3d6 |   6 |
+| 60 ft  | 2 rounds  | 3d8 |   7 |
+| 80 ft  | 2 rounds  | 4d6 |   8 |
+| 100 ft | 2 rounds  | 4d8 |   9 |
 
 <!-- .ranges -->
 | range   | CPs |
@@ -141,6 +143,10 @@ Form
 
 <!-- </div.scales> -->
 
+[^1]:
+  **MA**: main action<br/>
+  **MvA**: move action<br/>
+  **OTA**: on turn action
 
 
 <!-- RETURN -->

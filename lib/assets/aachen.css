@@ -1098,12 +1098,12 @@ table.social-class th:nth-child(1) {
 }
 [data-aa-title="spells"] .scales {
   font-size: var(--size-b);
-  line-height: 0.7;
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-column-gap: 0.6rem;
 }
 [data-aa-title="spells"] .scales table {
+  line-height: 0.7;
   border-right: 1px solid #c0c0c0;
 }
 [data-aa-title="spells"] .scales table tr:nth-child(3n) td {
