@@ -80,8 +80,8 @@ Long rest
 
 Wounds
 : if damage ≥ remaining HP, then 0 HP and EL 5;
-: if damage > remaining HP, wound incurred as well;
-: if damage > 3, roll on the wound table;
+: if damage > remaining HP, scar incurred as well;
+: if damage > 3, roll on the scar table;
 : character is _wounded_ until reaching back max HP and EL 0.
 
 
@@ -99,13 +99,16 @@ Wounds
 * Advancement
 
 
-## Wounds
+## Wounded
 
-<!--
-[^1]
-[^1]:
-  If too complicated, roll 2d12 (let's hope it's not a double 1)
--->
+A character is _wounded_ until reaching back max HP and EL 0. A party should take good care of its wounded members.
+
+After that, the character is still fit for adventure but scarred, playing such a character should present interesting and fun challenges.
+
+
+## Scar Table
+
+Given the amount of damage incurred upon reaching 0 HP, the set of dice rolled differs.
 
 <style>
 #scars { margin: 2rem 0; }

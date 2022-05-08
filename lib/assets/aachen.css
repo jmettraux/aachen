@@ -1006,6 +1006,9 @@ table.social-class th:nth-child(1) {
   font-size: var(--size-b);
   line-height: 0.7;
 }
+[data-aa-title="health"] h2 {
+  margin-bottom: 1rem;
+}
 
 [data-aa-title="encumbrance"] dl {
   grid-template-columns: 24% auto;
