@@ -67,13 +67,14 @@ Short rest
 : is one hour of light activity;
 : not more than three short rests per 24 hours;
 : regain 1d6 HP; or 1d3 HP if _wounded_;
-: if already at HP max, decrease Exhaustion Level by 1.
+: decrease Exhaustion Level by 1 on successful `CON TC` check;
+: disadvantage on the `CON TC` check if _wounded_.
 
 Long rest
 : is 8 hours of light activity or sleep;
 : at most 2 hours on watch;
 : regain level × 1d6 HP; or level × 1d3 HP if _wounded_;
-: if already at HP max, decrease Exhaustion Level by 1d2.
+: decrease Exhaustion Level by 1, if enough food.
 
 <hr/>
 
