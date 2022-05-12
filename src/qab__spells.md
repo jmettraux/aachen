@@ -88,58 +88,54 @@ Form
 <!-- .sizes -->
 | size   | cast time | dmg | CPs |
 |-------:|:---------:|----:|----:|
-|        |           |     |   0 |
 | 1 in   | 1 MA      | 1d4 |   1 |
-| 1 ft   | 1 MA      | 1d6 |   2 |
-| 5 ft   | 1 MA      | 1d8 |   3 |
-| 10 ft  | 1 MA      | 2d6 |   4 |
-| 20 ft  | 1 round   | 2d8 |   5 |
-| 40 ft  | 1 round   | 3d6 |   6 |
-| 60 ft  | 2 rounds  | 3d8 |   7 |
-| 80 ft  | 2 rounds  | 4d6 |   8 |
-| 100 ft | 2 rounds  | 4d8 |   9 |
+| 1 ft   | 1 MA      | 1d6 |  +1 |
+| 5 ft   | 1 MA      | 1d8 |  +2 |
+| 10 ft  | 1 MA      | 2d6 |  +3 |
+| 20 ft  | 1 round   | 2d8 |  +4 |
+| 40 ft  | 1 round   | 3d6 |  +5 |
+| 60 ft  | 2 rounds  | 3d8 |  +6 |
+| 80 ft  | 2 rounds  | 4d6 |  +7 |
+| 100 ft | 2 rounds  | 4d8 |  +8 |
 
 <!-- .ranges -->
 | range   | CPs |
 |--------:|----:|
-|         |   0 |
 | contact |   1 |
-| 1 ft    |   2 |
-| 5 ft    |   3 |
-| 10 ft   |   4 |
-| 20 ft   |   5 |
-| 40 ft   |   6 |
-| 60 ft   |   7 |
-| 80 ft   |   8 |
-| 100 ft  |   9 |
+| 1 ft    |  +1 |
+| 5 ft    |  +2 |
+| 10 ft   |  +3 |
+| 20 ft   |  +4 |
+| 40 ft   |  +5 |
+| 60 ft   |  +6 |
+| 80 ft   |  +7 |
+| 100 ft  |  +8 |
 
 <!-- .duration -->
 | duration | CPs |
 |---------:|----:|
-|          |   0 |
 | 1 rnd    |   1 |
-| 1 min    |   2 |
-| 5 min    |   3 |
-| 10 min   |   4 |
-| 20 min   |   5 |
-| 40 min   |   6 |
-| 60 min   |   7 |
-| 80 min   |   8 |
-| 100 min  |   9 |
+| 1 min    |  +1 |
+| 5 min    |  +2 |
+| 10 min   |  +3 |
+| 20 min   |  +4 |
+| 40 min   |  +5 |
+| 60 min   |  +6 |
+| 80 min   |  +7 |
+| 100 min  |  +8 |
 
 <!-- .speed -->
 | speed      | CPs |
 |-----------:|----:|
-| 0          |   0 |
-| 15 ft/rnd  |   1 |
-| 30 ft/rnd  |   2 |
-| 60 ft/rnd  |   3 |
-| 90 ft/rnd  |   4 |
-| 120 ft/rnd |   5 |
-| 150 ft/rnd |   6 |
-| 180 ft/rnd |   7 |
-| 210 ft/rnd |   8 |
-| 240 ft/rnd |   9 |
+| 5 ft/rnd   |   1 |
+| 15 ft/rnd  |  +1 |
+| 30 ft/rnd  |  +2 |
+| 60 ft/rnd  |  +3 |
+| 90 ft/rnd  |  +4 |
+| 120 ft/rnd |  +5 |
+| 150 ft/rnd |  +6 |
+| 180 ft/rnd |  +7 |
+| 210 ft/rnd |  +8 |
 
 <!-- </div.scales> -->
 
@@ -147,6 +143,13 @@ Form
   **MA**: main action<br/>
   **MvA**: move action<br/>
   **OTA**: on turn action
+
+
+## Example
+
+A `Caster` with _Throw_ +1, _Wrap_ +0, and knowledge of Blue, Gold, and Arrow might decide to
+
+Throw × Blue × Arrow
 
 
 <!-- RETURN -->
