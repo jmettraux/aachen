@@ -1100,10 +1100,12 @@ table.social-class th:nth-child(1) {
   border-bottom: 0;
 }
 [data-aa-title="spells"] .scales {
+  margin-top: 1rem;
   font-size: var(--size-b);
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-column-gap: 0.6rem;
+  margin-bottom: -2rem;
 }
 [data-aa-title="spells"] .scales table {
   line-height: 0.7;
@@ -1114,6 +1116,22 @@ table.social-class th:nth-child(1) {
 }
 [data-aa-title="spells"] .scales table tr:nth-last-child(1) td {
   border-bottom: 0;
+}
+[data-aa-title="spells"] .scales table.sizes {
+  margin-top: 0rem;
+  margin-bottom: 6rem;
+}
+[data-aa-title="spells"] .scales table.ranges {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+[data-aa-title="spells"] .scales table.durations {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+[data-aa-title="spells"] .scales table.speeds {
+  margin-top: 6rem;
+  margin-bottom: 0rem;
 }
 
 [data-aa-title="rchecks"] h1 {

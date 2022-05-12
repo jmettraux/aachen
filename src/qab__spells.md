@@ -80,13 +80,16 @@ Form
 
 <!-- </div.tables> -->
 
+## Scaling
+
+By default, a spell of 1 inch diameter, weaved next to the caster, lasting 1 round and moving at most at 5 feet per round costs 1 CP.
 
 [^1]
 
 <!-- <div.scales> -->
 
 <!-- .sizes -->
-| size   | cast time | dmg | CPs |
+| diameter   | cast time | dmg | CPs |
 |-------:|:---------:|----:|----:|
 | 1 in   | 1 MA      | 1d4 |   1 |
 | 1 ft   | 1 MA      | 1d6 |  +1 |
@@ -111,7 +114,7 @@ Form
 | 80 ft   |  +7 |
 | 100 ft  |  +8 |
 
-<!-- .duration -->
+<!-- .durations -->
 | duration | CPs |
 |---------:|----:|
 | 1 rnd    |   1 |
@@ -124,7 +127,7 @@ Form
 | 80 min   |  +7 |
 | 100 min  |  +8 |
 
-<!-- .speed -->
+<!-- .speeds -->
 | speed      | CPs |
 |-----------:|----:|
 | 5 ft/rnd   |   1 |
