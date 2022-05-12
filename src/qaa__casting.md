@@ -45,10 +45,13 @@ Max
 : Casters may temporarily accumulate more CP than their CP max.
 
 from HPs
-: As an instant action, casters may at any moment convert one or more of their remaining HPs to CPs.
+: As an instant action, casters may convert one or more of their HPs to CPs.
+
+from ELs
+: As an instant action, casters may incur one Exhaustion Level to gain 2d4 CPs.
 
 from CON
-: As an instant action, casters may turn 1 `CON` point into 1d8 CPs.
+: As an instant action, casters may turn 1 `CON` point into 2d8 CPs.
 
 
 <!-- RETURN -->
