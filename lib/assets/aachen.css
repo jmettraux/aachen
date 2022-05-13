@@ -1056,7 +1056,7 @@ table.social-class th:nth-child(1) {
   line-height: 0.7;
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-  margin-bottom: 1.2rem;
+  /*margin-bottom: 1.2rem;*/
 }
 [data-aa-title="spells"] .tables .head {
   margin-top: 0.3rem;
@@ -1099,13 +1099,16 @@ table.social-class th:nth-child(1) {
 [data-aa-title="spells"] .tables table tr:nth-last-child(1) td {
   border-bottom: 0;
 }
+[data-aa-title="spells"] .tables + h2 {
+  margin-top: 0;
+}
 [data-aa-title="spells"] .scales {
   margin-top: 1rem;
   font-size: var(--size-b);
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-column-gap: 0.6rem;
-  margin-bottom: -2rem;
+  margin-bottom: -3rem;
 }
 [data-aa-title="spells"] .scales table {
   line-height: 0.7;

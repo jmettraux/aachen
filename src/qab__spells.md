@@ -89,35 +89,35 @@ By default, a spell of 1 inch diameter, weaved next to the caster, lasting 1 rou
 <!-- <div.scales> -->
 
 <!-- .sizes -->
-| diameter   | cast time | dmg | CPs |
-|-------:|:---------:|----:|----:|
-| 1 in   | 1 MA      | 1d4 |   1 |
-| 1 ft   | 1 MA      | 1d6 |  +1 |
-| 5 ft   | 1 MA      | 1d8 |  +2 |
-| 10 ft  | 1 MA      | 2d6 |  +3 |
-| 20 ft  | 1 round   | 2d8 |  +4 |
-| 40 ft  | 1 round   | 3d6 |  +5 |
-| 60 ft  | 2 rounds  | 3d8 |  +6 |
-| 80 ft  | 2 rounds  | 4d6 |  +7 |
-| 100 ft | 2 rounds  | 4d8 |  +8 |
+| dia ⌀  | cast time | damage | CPs |
+|-------:|:---------:|-------:|----:|
+| _1 in_ | _1 MA_    | _1d4_  | _1_ |
+| 1 ft   | 1 MA      | 1d6    |  +1 |
+| 5 ft   | 1 MA      | 1d8    |  +2 |
+| 10 ft  | 1 MA      | 2d6    |  +3 |
+| 20 ft  | 1 round   | 2d8    |  +4 |
+| 40 ft  | 1 round   | 3d6    |  +5 |
+| 60 ft  | 2 rounds  | 3d8    |  +6 |
+| 80 ft  | 2 rounds  | 4d6    |  +7 |
+| 100 ft | 2 rounds  | 4d8    |  +8 |
 
 <!-- .ranges -->
-| range   | CPs |
-|--------:|----:|
-| contact |   1 |
-| 1 ft    |  +1 |
-| 5 ft    |  +2 |
-| 10 ft   |  +3 |
-| 20 ft   |  +4 |
-| 40 ft   |  +5 |
-| 60 ft   |  +6 |
-| 80 ft   |  +7 |
-| 100 ft  |  +8 |
+| range     | CPs |
+|----------:|----:|
+| _contact_ | _1_ |
+| 1 ft      |  +1 |
+| 5 ft      |  +2 |
+| 10 ft     |  +3 |
+| 20 ft     |  +4 |
+| 40 ft     |  +5 |
+| 60 ft     |  +6 |
+| 80 ft     |  +7 |
+| 100 ft    |  +8 |
 
 <!-- .durations -->
 | duration | CPs |
 |---------:|----:|
-| 1 rnd    |   1 |
+| _1 rnd_  | _1_ |
 | 1 min    |  +1 |
 | 5 min    |  +2 |
 | 10 min   |  +3 |
@@ -128,17 +128,17 @@ By default, a spell of 1 inch diameter, weaved next to the caster, lasting 1 rou
 | 100 min  |  +8 |
 
 <!-- .speeds -->
-| speed      | CPs |
-|-----------:|----:|
-| 5 ft/rnd   |   1 |
-| 15 ft/rnd  |  +1 |
-| 30 ft/rnd  |  +2 |
-| 60 ft/rnd  |  +3 |
-| 90 ft/rnd  |  +4 |
-| 120 ft/rnd |  +5 |
-| 150 ft/rnd |  +6 |
-| 180 ft/rnd |  +7 |
-| 210 ft/rnd |  +8 |
+| speed       | CPs |
+|------------:|----:|
+| _5 ft/rnd_  | _1_ |
+| 30 ft/rnd   |  +1 |
+| 60 ft/rnd   |  +2 |
+| 90 ft/rnd   |  +3 |
+| 120 ft/rnd  |  +4 |
+| 150 ft/rnd  |  +5 |
+| 180 ft/rnd  |  +6 |
+| 210 ft/rnd  |  +7 |
+| 240 ft/rnd  |  +8 |
 
 <!-- </div.scales> -->
 
@@ -147,12 +147,16 @@ By default, a spell of 1 inch diameter, weaved next to the caster, lasting 1 rou
   **MvA**: move action<br/>
   **OTA**: on turn action
 
+  **damage**: is indicative, some spells don't deal damage, some even heal
+
 
 ## Example
 
 A `Caster` with _Throw_ +1, _Wrap_ +0, and knowledge of Blue, Gold, and Arrow might decide to
 
 Throw × Blue × Arrow
+
+and invest an extra CP to make the arrow 1 foot in diameter (and potentially 1d6 in damage) and another CP to give it a speed of 30 feet per round.
 
 
 <!-- RETURN -->
