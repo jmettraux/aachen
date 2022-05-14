@@ -988,7 +988,7 @@ div('.right.subgrid', 2, 1) do
         div('.field', k, 1, 1 + i) { span('.d', character.get(k)) }
       end
     j = j + 2
-    [ 'appearance', '', '', 'traits', '', '', '', 'scars', '' ]
+    [ 'appearance', '', '', 'traits (p12-13)', '', '', '', 'scars', '' ]
       .each_with_index do |k, i|
         k = '&nbsp;' if k == ''
         div('.field', k, 1, j + i, 2, 1) { span('.d', character.get(k)) }

@@ -34,16 +34,18 @@ Everyone has Hit Points, but `Casters` have Cast Points (CPs) too. They can be t
 The class tables determines how many CPs a character starts with. For example a `Dabster-Caster` rolls 1d6. Players first roll 1d20 against their `MEN TC` (mental save TC), if they succeed, the CP count is determined by rolling two dices and picking the best, so a successful `Dabster-Caster` would roll 2d6 and pick the best.
 
 
-# Select Spells
+# Select Spell Forms and Colours
 
-`Casters` get to know 1d3 new spells by level, while half-`Casters` get to know 1d2. A prior successful 1d20 roll against `LEA TC` (Learning TC) lets the player roll 2 dice instead of one, thus a `Caster` rolls 2d3 and keeps the highest roll. [^2]
+At first level, `Casters` and half-`Casters` should know at least 1 spell form and 1 spell colour.
+
+Upon acquiring a new level, `Casters` receive 1d3 forms or colours, while half `Casters` receive 1d2 ones. On a successful 1d20 ≥ `Sou TC` roll, roll the 1d3 or 1d2 twice and pick the best.
+
+<!-- RETURN -->
+
+Xxx. [^2]
 
 [^2]:
   Option:
 
   The referee selects the spells, since casting befalls the caster, it's not a scholarly pursuit.
-
-<!--
-Since spells go along two axes, form and colour.
--->
 

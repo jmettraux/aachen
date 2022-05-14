@@ -82,7 +82,7 @@ Dabsters gain the widest variety of non-combat skills and are the quickest to le
 * Equipment
 
 
-<!-- .top -->
+<!-- .top.wide -->
 | Item           | 1d20 ≥   | Count      |
 |:--------------:|:--------:|:----------:|
 | HP             | `CON TC` | 1d8-1 ~~(min 1)~~ |
@@ -90,7 +90,7 @@ Dabsters gain the widest variety of non-combat skills and are the quickest to le
 | Fighter Skills | `Eva TC` | 1d3-1 ~~(min 0)~~ |
 | General Skills | `Lea TC` | 1d4        |
 | Magic Skills   | `Men TC` | 1d3        |
-| Spells         | `Lea TC` | 1d3        |
+| Spells         | `Sou TC` | 1d3 forms/colours |
 | Traits         |          | 2 attempts |
 
 <!-- .top -->
@@ -105,7 +105,7 @@ For when a player wants to place the cursor between two classes for their charac
 
 <!-- clear -->
 
-<!-- .right -->
+<!-- .right.wide -->
 | Item           | 1d20 ≥   | Count      |
 |:--------------:|:--------:|:----------:|
 | HP             | `CON TC` | 1d8+1      |
@@ -125,7 +125,7 @@ For when a player wants to place the cursor between two classes for their charac
 
 <!-- clear -->
 
-<!-- .right -->
+<!-- .right.wide -->
 | Item           | 1d20 ≥   | Count      |
 |:--------------:|:--------:|:----------:|
 | HP             | `CON TC` | 1d8+1      |
@@ -133,17 +133,18 @@ For when a player wants to place the cursor between two classes for their charac
 | Fighter Skills | `Eva TC` | 1d3        |
 | General Skills | `Lea TC` | 1d3        |
 | Magic Skills   | `Men TC` | 1d2        |
-| Spells         | `Lea TC` | 1d2        |
+| Spells         | `Sou TC` | 1d2 forms/colours |
 | Traits         |          | 2 attempts |
 
 ## Fighter-Caster
 
 Skilled with weapons and with some kind of supernatural luck.
 
+At first level, the `Fighter-Caster` knows at least one spell colour and one spell form.
 
 <!-- clear -->
 
-<!-- .right -->
+<!-- .right.wide -->
 | Item           | 1d20 ≥   | Count      |
 |:--------------:|:--------:|:----------:|
 | HP             | `CON TC` | 1d8        |
@@ -151,12 +152,14 @@ Skilled with weapons and with some kind of supernatural luck.
 | Fighter Skills | `Eva TC` | 1d3-1 ~~(min 0)~~ |
 | General Skills | `Lea TC` | 1d4        |
 | Magic Skills   | `Men TC` | 1d2        |
-| Spells         | `Lea TC` | 1d2        |
+| Spells         | `Sou TC` | 1d2 forms/colours |
 | Traits         |          | 3 attempts |
 
 ## Dabster-Caster
 
 [^2] A regular person, with something strange about them.
+
+At first level, the `Dabster-Caster` knows at least one spell colour and one spell form.
 
 [^2]:
   `Dabster-Caster` could be used for common, average, caster NPCs
