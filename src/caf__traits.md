@@ -32,7 +32,7 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 
 <!-- <div.trait> -->
 
-### Artful **11**
+### Artful `LEA TC` **11**
 * +1 on checks when cunning/trickery is involved
 * As per ·, but +2
 * As per ·, but advantage
@@ -54,6 +54,15 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 * +1 melee damage
 * +1d4 melee damage
 * +1d8 melee damage
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
+### Durable `CON TC` **11**
+* +1 on the Short Rest `CON TC` check for shedding an Exhaustion Level
+* As per · but with +3
+* Short Rest `CON TC` check always succeed
 
 <!-- </div> -->
 
@@ -99,6 +108,15 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 * +1 on _Physical_ saves
 * +1 or +_Exert_ on _Physical_ saves
 * Advantage on _Physical_ saves
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
+### Gallant `CHA TC` **11**
+* Forces a +1 on the morale rolls of the opposition
+* As per ·, but +2
+* As per ··, and the opposition has to roll morale when the character enters the fray
 
 <!-- </div> -->
 
@@ -156,6 +174,21 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 
 <!-- </div> -->
 
+<!-- PAGE BREAK traits -->
+
+
+
+<!-- .margin.compass -->
+* _Character Creation_
+* Abis & Saves
+* Background
+* Class
+* **Traits**
+* Hit Points
+* Name
+* Equipment
+
+
 <!-- <div.trait> -->
 
 ### Safe `DEX TC` **11**
@@ -173,21 +206,6 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 * As per ··, with +2 on initiative rolls
 
 <!-- </div> -->
-
-<!-- PAGE BREAK traits -->
-
-
-
-<!-- .margin.compass -->
-* _Character Creation_
-* Abis & Saves
-* Background
-* Class
-* **Traits**
-* Hit Points
-* Name
-* Equipment
-
 
 <!-- <div.trait> -->
 
@@ -210,8 +228,8 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 
 ### Skillful `EVA TC` **11**
 * Once per scene, as an instant action, a missed non-combat skill check can be turned into a success
-* As per · and the character has a +1 on checks for known skills (level 0 or better)
-* TODO
+* As per · and the character has a +1 on checks for known non-combat skills (level 0 or better)
+* As per ·· but with +3
 
 <!-- </div> -->
 
