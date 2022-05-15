@@ -39,7 +39,7 @@ End
 
 Rest
 : After a good night rest, casters go back to their Cast Point maximum (CP max);
-: After a not so good night rest, casters go back to half the CP max rounded up.
+: After a not so good night rest, it's half the CP max rounded up.
 
 Max
 : Casters may temporarily accumulate more CP than their CP max.
