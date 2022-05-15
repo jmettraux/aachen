@@ -131,6 +131,15 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 
 <!-- <div.trait> -->
 
+### Impervious `BOD TC` **11**
+* Ignore 1d3 points of damage (may not negate damage completely)
+* As per ·, but 1 point per level
+* As per ·, but 2 points per level
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
 ### Insistent `MEN TC` **11**
 * Once per fight, as an Instant Action **IA**, may recuperate 1d4 HP per level
 * As per ·, but 1d6 HP per level
@@ -165,17 +174,7 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 
 <!-- </div> -->
 
-<!-- <div.trait> -->
-
-### Marking `IMP TC` **11**
-* +1 damage for ranged attacks
-* +2 damage for ranged attacks
-* add skill modifier to damage for ranged attacks
-
-<!-- </div> -->
-
 <!-- PAGE BREAK traits -->
-
 
 
 <!-- .margin.compass -->
@@ -188,6 +187,15 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 * Name
 * Equipment
 
+
+<!-- <div.trait> -->
+
+### Marking `IMP TC` **11**
+* +1 damage for ranged attacks
+* +2 damage for ranged attacks
+* add skill modifier to damage for ranged attacks
+
+<!-- </div> -->
 
 <!-- <div.trait> -->
 
