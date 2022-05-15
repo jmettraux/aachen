@@ -59,6 +59,15 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 
 <!-- <div.trait> -->
 
+### Canny `Lea TC` **11**
+* Recuperates 1 CP per level after a short rest
+* As per · but 2 CPs per level
+* As per · but 1d4 CPs per level
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
 ### Durable `CON TC` **11**
 * +1 on the Short Rest `CON TC` check for shedding an Exhaustion Level
 * As per · but with +3
@@ -156,6 +165,20 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 
 <!-- </div> -->
 
+<!-- PAGE BREAK traits -->
+
+
+<!-- .margin.compass -->
+* _Character Creation_
+* Abis & Saves
+* Background
+* Class
+* **Traits**
+* Hit Points
+* Name
+* Equipment
+
+
 <!-- <div.trait> -->
 
 ### Intricate `SOU TC` **11**
@@ -173,20 +196,6 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 * As per ·, with a +2 to the `TC` (-2 to the `DC`)
 
 <!-- </div> -->
-
-<!-- PAGE BREAK traits -->
-
-
-<!-- .margin.compass -->
-* _Character Creation_
-* Abis & Saves
-* Background
-* Class
-* **Traits**
-* Hit Points
-* Name
-* Equipment
-
 
 <!-- <div.trait> -->
 
