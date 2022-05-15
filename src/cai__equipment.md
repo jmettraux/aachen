@@ -56,14 +56,14 @@ All
 ## libri, soldi, denarii
 
 <!-- .monetary -->
-|     | Name     | Latin    | French | Val | Val d |   | Worker           |         | Wage   | d      |
-|-----|----------|----------|--------|----:|------:|---|------------------|---------|-------:|-------:|
-| L   | Pound    | Liber    | Livre  | 20s |  240d |   | Labourer         | 1 day   |     1d |     1d |
-| s   | Shilling | Solidus  | Sou    |     |   12d |   |                  | 1 month |     2s |    24d |
-| d   | Pence    | Denarius | Denier |     |    1d |   |                  | 1 year  |   1L4s |   288d |
-| f   | Farthing |          | Ferlin |     |  1/4d |   | Master           | 1 day   |     5d |     5d |
-|     |          |          |        |     |       |   | Craftsman        | 1 month |    10s |   120d |
-|     |          |          |        |     |       |   |                  | 1 year  |     5L | 1,440d |
+|     | Name     | Latin      | French | Val | Val d |   | Worker           |         | Wage   | d      |
+|-----|----------|------------|--------|----:|------:|---|------------------|---------|-------:|-------:|
+| L   | Pound    | Liber      | Livre  | 20s |  240d |   | Labourer         | 1 day   |     1d |     1d |
+| s   | Shilling | Solidus    | Sou    |     |   12d |   |                  | 1 month |     2s |    24d |
+| d   | Pence    | Denarius   | Denier |     |    1d |   |                  | 1 year  |   1L4s |   288d |
+| f   | Farthing | Sestertius | Ferlin |     |  1/4d |   | Master           | 1 day   |     5d |     5d |
+|     |          |            |        |     |       |   | Craftsman        | 1 month |    10s |   120d |
+|     |          |            |        |     |       |   |                  | 1 year  |     5L | 1,440d |
 
 Monetary exchange is at its worse but people and organizations are still in the habit of valuing services and merchandises in _Liber_, _Solidus_, and _Denarii_.
 
