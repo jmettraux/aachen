@@ -211,7 +211,14 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 ### Marking `IMP TC` **11**
 * +1 damage for ranged attacks
 * +2 damage for ranged attacks
-* add skill modifier to damage for ranged attacks
+* Add skill modifier to damage for ranged attacks
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
+### Polyglot `SOU TC` **11**
+* Acquire an extra language or dialect
 
 <!-- </div> -->
 
@@ -245,7 +252,7 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 <!-- <div.trait> -->
 
 ### Skilled `LEA TC` **11**
-* Simply increase a skill (start at +0)
+* Simply increase a skill (start at +0 as usual)
 
 <!-- </div> -->
 
@@ -334,7 +341,7 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 <script>
 
 onDocumentReady(function() {
-  var ab = [ 1, 1 ]; var max = [ 4, 8 ];
+  var ab = [ 1, 1 ]; var max = [ 6, 6 ];
   var es = elts('section[data-aa-title="traits"] h3 strong');
   es
     .forEach(function(e, i) {
