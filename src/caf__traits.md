@@ -140,6 +140,15 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 
 <!-- <div.trait> -->
 
+### Incisive `DEX TC` **11**
+* +1 on melee attacks
+* +2 on melee attacks
+* Advantage on melee attacks
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
 ### Insistent `MEN TC` **11**
 * Once per fight, as an Instant Action **IA**, may recuperate 1d4 HP per level
 * As per ·, but 1d6 HP per level
@@ -165,15 +174,6 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 
 <!-- </div> -->
 
-<!-- <div.trait> -->
-
-### Lucky `MEN TC` **11**
-* +1 on checks when sheer luck is involved
-* As per ·, but +2
-* As per ·, but advantage
-
-<!-- </div> -->
-
 <!-- PAGE BREAK traits -->
 
 
@@ -187,6 +187,15 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 * Name
 * Equipment
 
+
+<!-- <div.trait> -->
+
+### Lucky `MEN TC` **11**
+* +1 on checks when sheer luck is involved
+* As per ·, but +2
+* As per ·, but advantage
+
+<!-- </div> -->
 
 <!-- <div.trait> -->
 
