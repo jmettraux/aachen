@@ -50,9 +50,9 @@ Grazing
 : ground cover and season may require using dedicated rations for the pack animals;
 : sufficient rest and care has to be given to pack animals.
 
-<hr/>
-
 [^1]
+
+<hr/>
 
 Foraging
 : happens while travelling;
@@ -76,7 +76,7 @@ Drinking
 
 
 [^1]:
-  When routine sets in, the referee might decide to skip some rolls.
+  When routine sets in, the referee might decide to skip some rolls, only considering skill level.
 
   After a successful travel, the referee may grant a _Travel_ +0 to the characters.
 
