@@ -95,7 +95,7 @@ Grow
 : To cultivate crops and the like.
 
 Heal
-: To mend wounds, combat diseases, neutralize poisons, and stabilise _Mortally Wounded_ characters.
+: To mend wounds, combat diseases, neutralize poisons, and stabilise _Wounded_ characters.
 
 Herd
 : To herd cattle, to take care of the animals.
