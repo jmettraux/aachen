@@ -143,7 +143,7 @@ Trade
 : To buy and sell advantageously, to value goods correctly, to deal with traders and merchants.
 
 Travel
-: To be used at travelling.
+: To be used to travel.
 
 Craft
 : One of the many crafts of the era.

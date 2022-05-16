@@ -18,23 +18,41 @@ Distance
 : referee might translate that to distances, roughly;
 : easy terrain → 24mi / 36km;
 : by boat → 48mi / 72km;
-: under ground → 6mi / 9km.
+: under ground → 6mi / 9km;
+: factor in season, weather, and infrastructure.
 
-Leading
-: party hires or appoints _guide_, _scouts_, _campmaster_, and _huntmaster_.
+Organizing
+: party hires a _guide_ or appoints a _navigator_;
+: party appoints _packmaster_, _campmaster_ and _huntmaster_;
+: _scouts_ are sent 120yd 360ft 100m 70sq ahead of the van if necessary;
+: _campmaster_ appoints _watchers_ and decides watch order.
 
-Guiding
-: in non-familiar environments,<br/> _guide_ rolls 1d20 + _Travel_ ≥ `Lea TC` or referee-set `DC`;
+Packing
+: pack animals should be carefully harnessed and loaded;
+: _packmaster_ rolls 1d20 + _Ride_ or _Travel_ ≥ `Lea TC` or referee-set `DC`;
+: a poorly harnessed and loaded animal will quickly be unusable.
+
+Navigating
+: in non-familiar environments,<br/> _navigator_ rolls 1d20 + _Travel_ ≥ `Lea TC` or referee-set `DC`;
 : failure → party gets lost.
+
+Sailing
+: favour _Sail_ over _Travel_.
 
 <hr/>
 
 Camping
 : _campmaster_ rolls 1d20 + _Build_ or _Travel_ ≥ `Wis TC` or referee-set `DC`;
-: success → comfortable camp;
 : failure → not so comfortable, rest not optimal.
 
+Grazing
+: after unloading pack horses and mules can be left to graze;
+: ground cover and season may require using dedicated rations for the pack animals;
+: sufficient rest and care has to be given to pack animals.
+
 <hr/>
+
+[^1]
 
 Foraging
 : happens while travelling;
@@ -52,18 +70,15 @@ Preserving
 : with enough fuel and half a day of work,<br/>3 daily rations per character may be preserved;
 : travel rations last for one month.
 
-Water
-: travellers usually can refill their waterskins while traveling;
-: at sea or in dry environments, → strict water supply tracking.
-
-<hr/>
-
-Security
-: _guide_ may send _scouts_ 120yd 360ft 100m 70sq ahead of the van;
-: _campmaster_ may place _watchers_;
-: _scouts_ and _watchers_ are rotated.
+Drinking
+: travellers usually can refill their waterskins while travelling; but
+: at sea or in dry environments → strict water supply tracking.
 
 
+[^1]:
+  When routine sets in, the referee might decide to skip some rolls.
+
+  After a successful travel, the referee may grant a _Travel_ +0 to the characters.
 
 <!-- RETURN -->
 
@@ -77,60 +92,6 @@ Security
 | by boat      | 48mi / 72km | 24mi / 36km | 36mi / 54km |
 | under ground |  6mi /  9km |  6mi /  9km |  6mi /  9km |
 
-
-Foraged food and hunted meat units are unpreserved and will spoil in three days. Smoking or drying a reasonable amount of food units requires 1 fire unit and half a day of labour.
-
-## Speed
-
-These are average travel speeds, infrastructure and terrain will alter them.
-
-## Foraging
-
-While on the road, characters are allowed to forage. One character may roll _Gather_ ≥ `Wis TC` or a `DC` set by the referee, if successful the character gets one daily ration.
-
-## Camping
-
-The party's appointed campmaster...
-
-## Hunting
-
-The party might decide not to travel and to dedicate one day to hunting. The party's huntmaster player rolls _Hunt_ ≥ `Wis TC` or a `DC` set by the referee; in case of success 2d8 + the number of hunters daily rations are obtained; in case of failure 1d6 rations are obtained.
-
-Warning: hunt is restricted in some places.
-
-<!-- RETURN -->
-
-## Hunting
-
-The party may attempt a WIS + Hunt skill check for every 6 hours of hunting. The difficulty is 8 most places. For every point succeeded by, meat for 1 man per day is obtained.
-
-Each day of hunting in the same hex (6mi / 9km), increases the difficulty by 2.
-
-On a natural roll of 2 or 3, some danger or trouble has befallen the hunting party (or the party was discovered by the rightful owner of the land in the middle of poaching it).
-
-## Foraging
-
-~~TODO~~
-
-## Camping
-
-~~TODO~~
-
-<!-- RETURN -->
-
-The party may attempt a WIS + Survive skill check. The difficulty is 8 for woodlands, and it may climb to 12 or more for desert lands.
-
-On success, the foraging party collects 1d6 units plus the sum of the party's survival skill level (-1 for those without a survival skill level), the maximum is 10.
-
-A forage unit is either 1 day of food for 1 person, 1 day of water for 1 person or a night firewood for the party.
-
-Characters native from the wilds will never find less than 2 units of forage, barring extreme situations.
-
-## Hunting, foraging, preserving
-
-In some places where hunting is forbidden, foraging might be an alternative. When water is necessary, foraging is mandatory.
-
-Foraged food and hunted meat units are unpreserved and will spoil in three days. Smoking or drying a reasonable amount of food units requires 1 fire unit and half a day of labour.
 
 ## Encounters
 
