@@ -11,6 +11,63 @@
 * Advancement
 
 
+# Travel
+
+Distance
+: the party thinks in term of "day of travel";
+: referee might translate that to distances, roughly;
+: easy terrain → 24mi / 36km;
+: by boat → 48mi / 72km;
+: under ground → 6mi / 9km.
+
+Leading
+: party hires or appoints _guide_, _scouts_, _campmaster_, and _huntmaster_.
+
+Guiding
+: in non-familiar environments,<br/> _guide_ rolls 1d20 + _Travel_ ≥ `Lea TC` or referee-set `DC`;
+: failure → party gets lost.
+
+<hr/>
+
+Camping
+: _campmaster_ rolls 1d20 + _Build_ or _Travel_ ≥ `Wis TC` or referee-set `DC`;
+: success → comfortable camp;
+: failure → not so comfortable, rest not optimal.
+
+<hr/>
+
+Foraging
+: happens while travelling;
+: each character rolls 1d20 + _Gather_ ≥ `Wis TC` or referee-set `DC`;
+: success → 1 daily ration obtained.
+
+Hunting
+: instead of travelling, the party spends one day hunting;
+: _huntmaster_ rolls 1d20 + _Hunt_ ≥ `Wis TC` or referee-set `DC`;
+: success → 2d8 + hunter count daily rations are obtained;
+: failure → 1d6 rations are obtained.
+
+Preserving
+: rations obtained through foraging or hunting will last 3 days;
+: with enough fuel and half a day of work,<br/>3 daily rations per character may be preserved;
+: travel rations last for one month.
+
+Water
+: travellers usually can refill their waterskins while traveling;
+: at sea or in dry environments, → strict water supply tracking.
+
+<hr/>
+
+Security
+: _guide_ may send _scouts_ 120yd 360ft 100m 70sq ahead of the van;
+: _campmaster_ may place _watchers_;
+: _scouts_ and _watchers_ are rotated.
+
+
+
+<!-- RETURN -->
+
+
 <!-- .distances -->
 | Terrain      | per day     | bad weather | per night   |
 |--------------|:-----------:|:-----------:|:-----------:|
@@ -19,54 +76,6 @@
 | forest       | 18mi / 27km | 12mi / 18km | 12mi / 18km |
 | by boat      | 48mi / 72km | 24mi / 36km | 36mi / 54km |
 | under ground |  6mi /  9km |  6mi /  9km |  6mi /  9km |
-
-# Travel
-
-Travel Speed
-: as per table above;
-: referee might alter those numbers depending on infrastructure, terrain, and circumstances.
-
-<hr/>
-
-Camping
-: evening or rest times comes, party appoints a _campmaster_;
-: campmaster rolls 1d20 + _Build_ or _Travel_ ≥ `Wis TC` or referee-set `DC`;
-: success → comfortable camp;
-: failure → not so comfortable, rest not optimal;
-: safety of the camp is another matter (referee discretion).
-
-<hr/>
-
-Foraging
-: happens while travelling;
-: each character rolls 1d20 + _Gather_ ≥ `Wis TC` or referee-set `DC`;
-: success → 1 daily ration obtained;
-: failure → nothing.
-
-Hunting
-: instead of travelling, the party spends one day hunting;
-: party appoints a character as _huntmaster_;
-: huntmaster rolls 1d20 + _Hunt_ ≥ `Wis TC` or referee-set `DC`;
-: success → 2d8 + hunter count daily rations are obtained;
-: failure → 1d6 rations are obtained.
-
-Preserving
-: rations obtained through foraging or hunting will last 3 days;
-: with enough fuel and half a day of work, 3 daily rations per character may be preserved.
-
-<hr/>
-
-Encounters
-: nada
-
-Security
-: on the march
-: in the camp
-
-<!-- RETURN -->
-
-
-
 
 
 Foraged food and hunted meat units are unpreserved and will spoil in three days. Smoking or drying a reasonable amount of food units requires 1 fire unit and half a day of labour.
