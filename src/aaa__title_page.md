@@ -52,13 +52,14 @@ Traits
 : traits bring in "exceptions".
 
 Checks
-: 1d20 + _skill_ ≥ `TC` or opponent's `DC` or `AC`; or
+: 1d20 + _skill_ ≥ `TC`; or
+: 1d20 + _skill_ ≥ opponent's `DC` or `AC`; or
 : 1d20 + _skill_ ≥ opponent's 1d20 + _skill_;
 : `DC`s are ability scores or arithmetic means of ability scores;
-: `TC`s are ability scores but inverted (21 - a).
+: `TC`s are ability scores but inverted (21 - ability).
 
 Bestiary
-: may leverage any B/X stat'ed monster (HD, AC, attacks, ...).
+: may leverage any B/X stat'ed monster (`HD`, `AC`, attacks, ...).
 
 Magic
 : non-scholarly system.
