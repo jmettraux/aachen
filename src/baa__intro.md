@@ -1,37 +1,34 @@
 
-<!-- <div.two-columns> -->
-<!-- <div.left-column> -->
-
 # Concepts
 
 Abilities
-: Strength, Constitution, Dexterity, Intelligence, Wisdom, and Charisma
+: Strength, Constitution, Dexterity, Intelligence, Wisdom, and Charisma.
 
 Ability DC
 : Or simply Ability Score;
-: The higher the better
+: The higher the better.
 
 Ability TC
 : 21 - Ability `DC`, for example `STR TC` = 21 - `STR DC`;
-: The lower the better
+: The lower the better.
 
 Advantage
 : The referee might grant advantage on check, roll 2d20 instead of 1 and keep the highest.
 
 Armor Class (AC)
-: Base armor class + the best of _Dodge_, or the skill for the melee weapon currently in hand
+: Base armor class + the best of _Dodge_, or the skill for the melee weapon currently in hand.
 
 Armor Class (AC) with shield
-: Base armor class + the best of _Dodge_, _Shields_, or the skill for the melee weapon currently in hand
+: Base armor class + the best of _Dodge_, _Shields_, or the skill for the melee weapon currently in hand.
 
 Attack Check
-: 1d20 + _weapon skill_ ≥ Opponent's `AC`
+: 1d20 + _weapon skill_ ≥ Opponent's `AC`.
 
 Background
-: Where a character is raised (not necessarily their social class)
+: Where a character is raised (not necessarily their social class).
 
 Check
-: A 1d20 + _skill_ roll to determine the outcome of an action
+: A 1d20 + _skill_ roll to determine the outcome of an action.
 
 Class
 : Most people are `fighter`s, some are `Dabster`s. Some are `Caster`s, in secret.
@@ -46,11 +43,13 @@ Difficulty Class (DC)
 : Or Diamond Class.
 : The number that has to be reached with 1d20 + _skill_ when rolling for an attack check, a skill check, or a save check. FIXME
 
+<!-- dl break -->
+
 Disadvantage
 : Like the _Advantage_, but keep the lowest of the 2d20.
 
-<!-- </div.left-column> -->
-<!-- <div.right-column> -->
+Exhaustion Level
+: a scale tracking the exhaustion of characters. Penalties and disadvantages accrue as characters tire.
 
 Exploration Turn
 : 10 minutes of careful progression. Compare with _Combat Round_.
@@ -61,33 +60,21 @@ Hit Dice
 Hit Points
 : Zero hit points, coma or death.
 
-Instant Action
-: TODO
-
 Level
 : A number from 1 to 6 or more denothing the character level of experience.
-
-Main Action
-: TODO
-
-Move Action
-: TODO
-
-On Turn Action
-: TODO
 
 Referee
 : Gamemaster, loremaster, umpire, arbiter, wilderness lord, dungeon master, ...
 
 Save Check
-: A last ditch attempt granted by the referee.
-: 1d20 + (_skill_ or _level_ or nothing) ≥ some `TC`
+: A last ditch attempt granted by the referee;
+: 1d20 + (_skill_ or _level_ or nothing) ≥ some `TC`.
 
 Skill
 : A verb representing more of a _skill domain_ than a single skill. For example _Scout_ could cover the actual Sneak, Observe, etc... skills.
 
 Skill Check
-: A roll like 1d20 + some _skill_ ≥ some `TC`
+: A roll like 1d20 + some _skill_ ≥ some `TC`.
 
 Target Class (TC)
 : An ability `TC` is equal to 21 - the ability score;
@@ -96,9 +83,6 @@ Target Class (TC)
 : For example, the referee might demand 1d20 + _Exert_ ≥ `Strength TC` to break some tool.
 
 Trait
-: A small "exception" granted to the character to denote their side talent or specialization.
+: A small "exception" granted to the character to denote their side talent or specialization;
 : A trait manifests at three level, _normal_, _very_, and _highly_.
-
-<!-- </div.right-column> -->
-<!-- </div.two-columns> -->
 

@@ -478,10 +478,20 @@ table.social-class th:nth-child(1) {
   content: '';
 }
 
+[data-aa-title="intro"] .text-block {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+}
+[data-aa-title="intro"] .text-block > * {
+  width: calc((var(--tblock-width) - 1rem) / 2);
+}
 [data-aa-title="intro"] h1 {
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
 }
 [data-aa-title="intro"] dl {
+  margin-top: 0;
   display: block;
 }
 [data-aa-title="intro"] dt {
@@ -497,9 +507,11 @@ table.social-class th:nth-child(1) {
   display: block;
   margin-bottom: 0.3rem;
 }
+/*
 [data-aa-title="intro"] .right-column dl {
   margin-top: 0;
 }
+*/
 
 [data-aa-title="character creation"] del {
   font-size: var(--size-b);
@@ -787,9 +799,6 @@ table.social-class th:nth-child(1) {
   width: 0.6rem;
   display: inline-block;
   text-align: center;
-  /*
-  padding-right: 0.3rem;
-  */
 }
 [data-aa-title="traits"] .trait ul:not(.compass) li + li:before {
   content: '··';
@@ -924,6 +933,15 @@ table.social-class th:nth-child(1) {
   grid-template-columns: auto auto;
 }
 
+[data-aa-title="cactions"] .text-block {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+}
+[data-aa-title="cactions"] .text-block > * {
+  width: calc((var(--tblock-width) - 1rem) / 2);
+}
 [data-aa-title="cactions"] dl {
   display: block;
   font-size: var(--size-b);
@@ -973,9 +991,6 @@ table.social-class th:nth-child(1) {
   flex-direction: column;
   flex-wrap: wrap;
   column-gap: 1rem;
-}
-[data-aa-title="cactions"] .text-block > * {
-  width: calc((var(--tblock-width) - 1rem) / 2);
 }
 
 [data-aa-title="health"] dl {

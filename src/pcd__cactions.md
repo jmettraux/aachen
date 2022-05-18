@@ -49,7 +49,7 @@ Cast a Spell
 Use A Skill
 : **MA**
 : The character uses a skill that could be plausibly applied in a few seconds.
-: An 1d20 + _Heal_ ≥ `INT TC` or 1d20 + _Heal_ ≥ `WIS TC` skill check to stabilize a wounded comrade is one such potential use, as is turning a creaking engine wheel, shouting out a stirring rallying cry to timorous NPC allies, or anything else that might be done quickly.
+: The referee will probably require a dice roll as the skill usage is attempted under pressure, under fire.
 
 ~~Take Action After~~ [^1]
 : **OTA**
@@ -63,16 +63,16 @@ Use A Skill
 : The remaining **MA** is triggered as a **IA** when the character wishes it;
 : Held actions are resolved before other characters' impeding actions.
 
-<!-- .bravo -->
-
 Make a Charge Attack
 : **MvA** + **MA**
 : Rush in straight line from at least 30ft (9m 6sq t) up to 60ft (18m 12sq tt) and hurl a spear or make a melee attack with a +2 attack roll bonus.
 : -2 penalty to AC until the whole combat round ends.
 
+<!-- dl break -->
+
 Go Total Defense
 : **IA** + **MA**
-: As an Instant Action (so even before his own turn), the character chooses to focus on avoiding anything hurled at them;
+: As an Instant Action (so even before their own turn), the character chooses to focus on avoiding anything hurled at them;
 : It consumes the character Main Action;
 : The character gains a +2 to their AC until their next turn and is immune to shock damage;
 : It is OK to decide to _Go Total Defense_ right after a foe has rolled their attack, thus potentially turning their hit into a miss.
@@ -91,7 +91,7 @@ Make a Fighting Withdrawal
 
 Go Prone
 : **OTA**
-: The character falls flat, forcing a -2 penaly on the to hit roll of ranged attacker;
+: The character falls flat, forcing a -2 penalty on the to hit roll of ranged attacker;
 : Although adjacent melee and ranged opponents get a +2 to hit instead.
 
 Drop an Item
@@ -101,6 +101,10 @@ Drop an Item
 Pick Up An Item
 : **MvA**
 : The character scoops up an object off the floor if they have a free hand, leaving it readied in their grip.
+
+Ready Or Stow An Item
+: **MA**
+: The character draws a weapon, extracts an item from their pack, or otherwise moves an object around on their person.
 
 
 <!-- PAGE BREAK cactions -->
@@ -117,14 +121,10 @@ Pick Up An Item
 * Advancement
 
 
-Ready Or Stow An Item
-: **MA**
-: The character draws a weapon, extracts an item from their pack, or otherwise moves an object around on their person.
-
 Reload A Weapon
 : **MA**
 : The character reloads a weapon like a crossbow with a quarrel from a readied quiver;
-: Bows can be reloaded as an On Turn Action (**OTA**), assuming the character has a readied quiver and at least 1 for their particular weapon skill; other wise it's a Move Action (**MvA**).
+: Bows can be reloaded as an On Turn Action (**OTA**), assuming the character has a readied quiver and at least +1 for their particular weapon skill; other wise it's a Move Action (**MvA**).
 
 Stand Up
 : **MvA**
