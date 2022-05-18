@@ -22,7 +22,7 @@ When a character acquires a skill, they start at +0. If a character has not been
 A character may have at most a `level + 1` skill score.
 
 
-## Fighter Skills
+## ~~F~~ Fighter Skills
 
 Bows / Crossbows / Slings / Javelins / Throw
 : Shoot with a given type of ranged weapon (or throw a rock).
@@ -40,7 +40,7 @@ Dodge
 : To avoid hits and projectiles.
 
 
-## Magic Skills
+## ~~M~~ Magic Skills
 
 Throw
 : To weave to project.
@@ -65,7 +65,7 @@ Radiate
 <!-- <div.right-column> -->
 
 
-## General Skills
+## ~~G~~ General Skills
 
 Administer
 : To manage land and laborers, or a workshop, its journeyfolk and apprentices.
