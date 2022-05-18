@@ -40,36 +40,30 @@ Dodge
 : To avoid hits and projectiles.
 
 
-## Magic Skill
+## Magic Skills
+
+Throw
+: To weave to project.
+
+Wrap
+: To weave to surround.
+
+Bind
+: To weave to connect.
 
 Feel
-: To feel spell effects.
-
-Pinch
-: To seize the thread at a certain point.
+: To weave to perceive.
 
 Soak
-: To absorb magical energy; or
-: To imbibe threads with other threads or energy.
+: To weave to absorb.
 
-Spin
-: To produce thin threads.
+Radiate
+: To weave to emit.
 
-Spoil
-: To plunder or to waste threads.
-
-Tie
-: To bind or join threads to other threads; or
-: To tie something with magical threads.
-
-Weave
-: To knit fabric of threads.
-
-Undo
-: To unknit or untie threads.
 
 <!-- </div.left-column> -->
 <!-- <div.right-column> -->
+
 
 ## General Skills
 
