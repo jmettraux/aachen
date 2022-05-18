@@ -11,56 +11,54 @@
 * Advancement
 
 
-# Exploration TODO
+# Exploration
 
-A "site" may be a dungeon, an old ruin, an underground site.
+Site
+: underground site or a ruin, a "dungeon".
 
-Time in a site is measured in turns of ten minutes. Most of the things adventurers will wish to do will take a turn to accomplish, taking into account the packing and unpacking of gear, the need to listen carefully while working, and the desire and/or need to do all things quietly and carefully.
+Turn
+: an exploration turn lasts 10 minutes.
 
+Cautious Movement
+: 120ft 36m 24sq FFF per turn;
+: mapping and searching for features of interest,<br/>quietly and stealthily;
+: cannot be surprised unless foe is carefully concealed.
 
-## Movement
+Swift Movement
+: 360ft 108m 72sq 4Vtt per turn;
+: merely travelling in an already explored area.
 
-There are three modes of movement in a site.
+Running Movement
+: indefinite, but reckless;
+: map may not be consulted;
+: may last only for one turn;
+: must rest after a turn of running.
 
-_Cautious movement_[^2] is at a speed of hundred and twenty feet per turn. At a cautious pace, the adventurers are pacing out distances, making a map, checking carefully for any features of interest around them, and doing all this as quietly and stealthily as possible.
+Surprise
+: TODO
+: a party bearing light sources cannot surprise foes lurking in the dark.
 
-[^2]: Cautious movement is 120 ft per turn
+<hr/>
 
-_Swift movement_[^3] is at thrice the speed, three hundred and sixty feet per turn. The party moving switfly is merely reading their map as it ventures through an area they have already explored and are making no effort to examine again as they pass through. They are maintaining some quiet, but are not as careful as a Cautious party.
+Rest
+: the 6th turn should be a rest turn<br/>(50min explo then 10min rest);
+: skip the rest turn → Exhaustion Level increases by 1.
 
-[^3]: Swift movement is 360 ft per turn
+Pitch Torch
+: lasts 3 turns (30 minutes);
+: casts light up to 30ft 9m 6sq t.
 
-_Running movement_[^rm] generally lets adventurers reach any location in most sites with ten minutes of running. They may not consult their map and must simply tell the referre which turns they take and passages they venture down. They must halt for the remainder of the turn when a door must be opened or a barrier overcome, and then rest will be needed if they are not to be wearied.
+Oil Lamp
+: lasts 6 turns (1 hour);
+: casts light up to 10ft 3m 2sq.
 
-[^rm]: Running movement is indefinite, but reckless
+<hr/>
 
+Encounters
+: TODO
 
-## Resting
-
-~~TODO~~
 
 <!-- RETURN -->
-
-Adventurers must rest[^4] for one turn every hour or else they becomes wearied. Heroes who spend any time in Running movement must rest for a turn immediately after each turn of doing so.[^5] Those who engage in battle must also immediately spend a turn afterwards resting.
-
-[^4]: One must rest 1 turn in 6 when exploring
-[^5]: One must rest 1 turn after each fight or each turn of running
-
-Those who do not rest suffer a -2 penalty to skill checks and a -4 penalty to hit rolls until they spend a turn recovering.
-
-
-## Lighting
-
-A pitch torch[^pt] casts usable light up to thirty feet and lasts for three turns (thirty minutes).
-
-[^pt]: Torches last 3 turns and cast light at 30 ft
-
-An oil lamp[^ol] with a full flask of oil will burn for 6 turns (one hour), yet cast only ten feet of usable light.
-
-[^ol]: A lamp lasts six turns and casts light at 10 ft
-
-Adventurers bearing light sources can never surprise foes lurking in the darkness.
-
 
 ## Surprise
 
@@ -76,6 +74,11 @@ If surprise is uncertain, let the concealed or discovered party's most stealthy 
 
 A group that is surprised loses a full round of action to their ambushers. Once their foes have taken a round of action, Initiative is rolled as normal and the encounter progresses. let the referee not forget the Reaction Roll for encounters, but remember that a hungry foe who has won surprise on the adventuring party may be that much more inclined to leap immediately into the fray.
 
+A "site" may be a dungeon, an old ruin, an underground site.
+
+Time in a site is measured in turns of ten minutes. Most of the things adventurers will wish to do will take a turn to accomplish, taking into account the packing and unpacking of gear, the need to listen carefully while working, and the desire and/or need to do all things quietly and carefully.
+
+<!-- RETURN -->
 
 ## Random Encounters
 

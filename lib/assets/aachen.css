@@ -588,9 +588,9 @@ table.social-class th:nth-child(1) {
 }
 [data-aa-title="skills"] h2 del {
   color: grey;
-  font-size: 24pt;
+  font-size: 28pt;
   position: absolute;
-  top: -0.5rem;
+  top: -0.6rem;
   left: 0;
 }
 [data-aa-title="skills"] dl:not(.compass) {
@@ -987,6 +987,10 @@ table.social-class th:nth-child(1) {
 
 [data-aa-title="travel"] dl {
   grid-template-columns: 18% auto;
+}
+
+[data-aa-title="exploration"] dl {
+  grid-template-columns: 33% auto;
 }
 
 [data-aa-title="encumbrance"] dl {
