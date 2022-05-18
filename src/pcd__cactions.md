@@ -145,7 +145,7 @@ Shatter A Shield
 : **MA**
 : ~~TODO~~
 
-Make a Mob Attack
-: **MA**
+Make an Opportunity Attack
+: **IA**
 : ~~TODO~~
 

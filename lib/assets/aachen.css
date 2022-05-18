@@ -573,11 +573,6 @@ table.social-class th:nth-child(1) {
   margin-top: 2rem;
 }
 
-[data-aa-title="skills"] table {
-  font-size: var(--size-b);
-  line-height: var(--mul-b);
-}
-
 [data-aa-title="skills"] p:last-of-type {
   margin-bottom: 2rem;
 }
@@ -608,14 +603,12 @@ table.social-class th:nth-child(1) {
 [data-aa-title="skills"] dl:not(.compass) dt {
   display: inline-block;
   padding-top: 0.1rem;
-  /*padding-right:0;*/
   float: none;
   text-align: left;
   font-variant: small-caps;
   font-weight: 500;
   text-transform: lowercase;
   font-size: var(--size-a);
-  /*text-indent: -0.5rem;*/
   margin-left: -0.5rem;
   padding-right: 0.35rem;
 }
@@ -641,22 +634,6 @@ table.social-class th:nth-child(1) {
 [data-aa-title="skills"] dt.generic {
   color: grey;
 }
-/*
-[data-aa-title="skills"] .margin ul {
-  line-height: 1.1;
-  list-style: none;
-  list-style-position: outside;
-  padding-inline-start: 0;
-}
-[data-aa-title="skills"] .margin ul li {
-  text-indent: -0.5rem;
-  margin-left: 0.5rem;
-}
-[data-aa-title="skills"] .margin ul li::before {
-  content: '·';
-  padding-right: 0.3rem;
-}
-*/
 
 [data-aa-title="background"] h3 {
   margin: 0;
@@ -923,13 +900,13 @@ table.social-class th:nth-child(1) {
 }
 [data-aa-title="combat2"] h2:first-of-type {
   line-height: 0.8;
+  position: absolute;
 }
 [data-aa-title="combat2"] dl {
   margin-top: 0;
   grid-template-columns: 25% auto;
 }
 [data-aa-title="combat2"] dl:first-of-type {
-  float: right;
   grid-template-columns: auto auto;
 }
 

@@ -11,10 +11,11 @@
 * Encumbrance
 
 
+## Combat<br/>Actions
+
 Main Action **MA**
 : make a melee attack
 : make a ranged attack
-: make a mob attack
 : cast a spell
 : use a skill
 : ready or stow an item
@@ -25,6 +26,7 @@ Instant Action **IA**
 : drop an item
 
 Instant Action **IA** + Main Action **MA**
+: make an opportunity attack
 : ~~go total defense~~
 : ~~make a snap attack~~
 
@@ -43,9 +45,6 @@ On Turn Action **OTA**
 : ~~take action after~~
 : go prone
 
-## Combat Actions
-
-<!-- clear -->
 
 ## Melee Attacks
 
