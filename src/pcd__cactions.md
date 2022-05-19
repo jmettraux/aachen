@@ -34,13 +34,13 @@ Cast a Spell
 
 Charge
 : **MvA** + **MA**
-: Rush in straight line from at least 30ft (9m 6sq t) up to 60ft (18m 12sq tt) and hurl a spear or make a melee attack with a +2 attack roll bonus.
-: -2 penalty to AC until the whole combat round ends.
+: Rush in straight line from at least 30ft (9m 6sq t) up to 60ft (18m 12sq tt) and hurl a spear or make a melee attack with a +2 attack roll bonus;
+: -2 to AC for the whole combat round.
 
 Disengage
 : **MA**
-: The character disengages from any melee opponents around them. They don't actually move away, but they can now move away (**MvA**) from their opponents without granting them a free melee attack;
-: If the character doesn't move, the opponents might re-engage them.
+: The character disengages from any melee opponents around them. They don't actually move away, but they can now move away (**MvA**) from the opponents without granting them an opportunity attack;
+: If the character doesn't move, it might get re-engaged by the opponents.
 
 Drop an Item
 : **IA**
@@ -48,21 +48,22 @@ Drop an Item
 
 Go Prone
 : **OTA**
-: The character falls flat, forcing a -2 penalty on the to hit roll of ranged attacker;
+: The character falls flat, forcing a -2 penalty on the to hit roll of ranged attackers;
 : Although adjacent melee and ranged opponents get a +2 to hit instead.
 
 Go Total Defense [^1]
 : **IA** + **MA**
 : As an Instant Action (so even before their own turn), the character chooses to focus on avoiding anything hurled at them;
 : It consumes the character Main Action;
-: The character gains a +2 to their AC until their next turn and is immune to shock damage;
+: The character gains a +2 to their AC until their next turn;
 : It is OK to decide to _Go Total Defense_ right after a foe has rolled their attack, thus potentially turning their hit into a miss.
 
 ~~Hold Action~~
 : **MvA**
 : The character foregoes their **MvA** to hold their action until later in the round;
-: The remaining **MA** is triggered as a **IA** when the character wishes it;
-: Held actions are resolved before other characters' impeding actions.
+: The remaining **MA** is triggered as an **IA** when the character wishes it;
+: Held actions are resolved before other characters' impeding actions;
+: See also `Take Action After`.
 
 <!-- dl break -->
 
@@ -76,7 +77,7 @@ Make a Ranged Attack
 
 Make an Opportunity Attack
 : **IA**
-: ~~TODO~~
+: As a foe moves out of their melee reach, a character is granted an attack of opportunity, unless the foe is using _Disengage_.
 
 Make a Snap Attack
 : **IA** + **MA**
@@ -88,7 +89,7 @@ Make a Snap Attack
 Move
 : **MvA**
 : The character moves at their normal movement rate (30ft 9m 6sq t for a human);
-: Halve the movement rate in case of difficult terrain or progressing prone;
+: Halve the movement rate in case of difficult terrain or when progressing prone;
 : Some terrains might even require a 1d20 + _Exert_ ≥ `STR TC` skill check or some other check success to secure even the half rate.
 
 Pick Up An Item
@@ -102,7 +103,7 @@ Ready Or Stow An Item
 Reload A Weapon
 : **MA**
 : The character reloads a weapon like a crossbow with a quarrel from a readied quiver;
-: Bows can be reloaded as an On Turn Action (**OTA**), assuming the character has a readied quiver and at least +1 for their particular weapon skill; other wise it's a Move Action (**MvA**).
+: Bows can be reloaded as an On Turn Action (**OTA**), assuming the character has a readied quiver and at least +1 for their particular weapon skill; otherwise it's a Move Action (**MvA**).
 
 
 <!-- PAGE BREAK cactions -->
@@ -121,13 +122,17 @@ Reload A Weapon
 
 Screen An Ally
 : **MvA**
-: ~~FIXME~~
-: The character moves up to their normal move rate towards an ally and then physically blocks opponents from attacking them, provided they remain within ten feet. Until the character's next turn, enemies who wish to make a melee or ranged attack against the screened ally must succeed a STR or DEX based skill check against the screener using the combat skill applicable to their weapon; on a failure, the attack roll is automatically directed toward the screening character.
-: A character can screen against a number of attackers in one round equal to their combat skill; thus Stab-2 lets them block two attackers. Characters with level-0 or worse combat skills can't effectively screen. Multiple characters can try to screen the same ally; in such a case, the attacker's skill check is compared against all screeners and the lowest-rolling successful blocker is attacked. Characters can only screen against foes and attacks they could plausibly physically block.
+: The character moves up to thier normal move rate towards an ally and then physically blocks opponents from attacking them, provided they remain adjacent;
+: Until the character's next turn, foes wishing to make a melee or ranged attack against the screened ally must succeed 1d20 + _weapon skill_ ≥ screener `STR DC`;
+: On failure, the screener will be the recipient of the attack and not the ally;
+: In a round a screener can deflect a number of opponents equal to their weapon proficiency, thus a _Sword_ +2 character can block two attackers with their sword;
+: A +0 weapon skill, doesn't let a character screen an ally with that weapon;
+: Multiple characters can screen a common ally, requiring multiple rolls from the attackers.
 
 Shatter A Shield
 : **MA**
-: ~~TODO~~
+: An attacker using an axe or a heavy mace may attempt to shatter their opponent's shield;
+: On a successful hit roll, an opposed 1d20 + `STR DC` ≥ 1d20 + target `STR DC` is rolled, in case of success the target's shield becomes unusable.
 
 Stand Up
 : **MvA**
@@ -145,7 +150,12 @@ Use A Skill
 : The character uses a skill that could be plausibly applied in a few seconds.
 : The referee will probably require a dice roll as the skill usage is attempted under pressure, under fire.
 
+<!-- dl break -->
+
 Lock Shields
 : **MA**
-: ~~TODO~~
+: A character moves next to an ally and locks shield with them;
+: A soon as 3 characters form this shield wall, they all gain +2 to their AC;
+: The +2 is ignored by attacker in the back or on the right flank of the wall;
+: The wall (and its +2) ends for participants without shields and it ends when only to defenders remain.
 

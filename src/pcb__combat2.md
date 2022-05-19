@@ -28,8 +28,8 @@ Instant Action **IA**
 : make an opportunity attack
 
 Instant Action **IA** + Main Action **MA**
-: ~~go total defense~~
-: ~~make a snap attack~~
+: go total defense
+: make a snap attack
 
 Move Action **MvA** + Main Action **MA**
 : charge
