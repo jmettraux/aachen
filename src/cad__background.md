@@ -20,7 +20,7 @@
 |  3 | Commoner   |
 |  4 | Artisan    |
 |  5 | Religious  |
-|  6 | Noble      |
+|  6 | Elite      |
 
 A background corresponds to where/how the character was raised. There isn't a one to one mapping between social class and background. A wanderer character may be of noble origin, but since they spent their childhood wandering, their skillset is given by the `wanderer` background.
 
