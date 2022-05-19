@@ -1019,6 +1019,13 @@ table.social-class th:nth-child(1) {
   border-bottom: solid thin #c0c0c0;
 }
 
+[data-aa-title="advancement"] hr {
+  width: 90%;
+}
+[data-aa-title="advancement"] dl {
+  grid-template-columns: 24% auto;
+}
+
 [data-aa-title="casting"] h2 {
   margin-bottom: 0.6rem;
 }
