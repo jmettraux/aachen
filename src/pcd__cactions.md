@@ -84,7 +84,7 @@ Make a Snap Attack
 : If multiple combatants decide to _Make a Snap Attack_ at the same time, they are resolved simultaneously;
 : (if the character is a nameless NPC, the referee shouldn't bother granting them snap attacks).
 
-Make a Fighting Withdrawal
+Disengage
 : **MA**
 : The character disengages from any melee opponents around them. They don't actually move away, but they can now move away (**MvA**) from their opponents without granting them a free melee attack;
 : If the character doesn't move, the opponents might re-engage them.

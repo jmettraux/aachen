@@ -20,13 +20,14 @@ Main Action **MA**
 : use a skill
 : ready or stow an item
 : reload a weapon
+: disengage
 : shatter a shield
 
 Instant Action **IA**
 : drop an item
+: make an opportunity attack
 
 Instant Action **IA** + Main Action **MA**
-: make an opportunity attack
 : ~~go total defense~~
 : ~~make a snap attack~~
 
