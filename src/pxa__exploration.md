@@ -28,7 +28,7 @@ Swift Movement
 : 360ft 108m 72sq 4Vtt per turn;
 : merely travelling in an already explored area.
 
-Running Movement
+Running Movement [^1]
 : indefinite, but reckless;
 : map may not be consulted;
 : may last only for one turn;
@@ -37,6 +37,9 @@ Running Movement
 Surprise
 : TODO
 : a party bearing light sources cannot surprise foes lurking in the dark.
+
+[^1]:
+  the referee may call for an _Exert_ check, like 1d20 + _Exert_ ≥ `CON TC`
 
 <hr/>
 

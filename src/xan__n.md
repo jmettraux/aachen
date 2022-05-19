@@ -9,6 +9,7 @@
 * "Charlemagne and his world", Friedrich Heer
 * "The Carolingian Economy", Adriaan Verhulst
 * "The Carolingian World", Marios Costambeys, Matthew Innes, Simon MacLean
+* "The Medieval Warhorse", Ann Hyland
 
 ## fiction
 
