@@ -981,14 +981,14 @@ div('.right.subgrid', 2, 1) do
     div('.picture', 2, 1, 1, 7)
 
     j = -1
-    [ 'player', 'origin', 'level', 'class', 'background', '' ]
+    [ 'player', 'level', 'class', 'background', 'origin', 'religion' ]
       .each_with_index do |k, i|
         j = i
-        k = '&nbsp;' if k == ''
+        #k = '&nbsp;' if k == ''
         div('.field', k, 1, 1 + i) { span('.d', character.get(k)) }
       end
     j = j + 2
-    [ 'appearance', '', '', 'traits (p12-13)', '', '', '', 'scars', '' ]
+    [ 'appearance', '', '', 'traits (p12-13)', '', '', 'languages', 'scars', '' ]
       .each_with_index do |k, i|
         k = '&nbsp;' if k == ''
         div('.field', k, 1, j + i, 2, 1) { span('.d', character.get(k)) }
