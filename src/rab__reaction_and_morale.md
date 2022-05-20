@@ -29,8 +29,10 @@ A high reaction roll combined with some caution on the part of the player charac
 
 ## Social Encounter Reaction
 
+Reaction rolls may be used for social encounters as well. The player characters might be presenting a request to a local magistrate and the referee rolls 2d6 plus the party's spokesperson `CHA` modifier.
+
 <!-- .last-p -->
-Reaction rolls may be used for social encounters as well. The player characters might be presenting a request to a local magistrate and the referee rolls 2d6 plus the party's spokesperson `CHA`m.
+`CHA` modifier ← `CHA DC` 3: ~~-2~~ | 4-8: ~~-1~~ | 9-12: ~~+0~~ | 13-17: ~~+1~~ | 18: ~~+2~~
 
 
 <!-- .morale-scale -->
