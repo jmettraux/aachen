@@ -15,7 +15,7 @@ Aachen
 : _Inspiration_
 
 B/X
-: until the Rules Cyclopedia.
+: clarity
 
 Gallant & Bold
 : by John Grümph.
@@ -27,9 +27,6 @@ Wolves of God
 
 &nbsp;
 : _Decisions_
-
-Kit
-: tuned and tuneable B/X.
 
 Low-Fantasy
 : a Europe between the Dark Ages and AD 1100 (or similar).

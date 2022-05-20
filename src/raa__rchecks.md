@@ -47,5 +47,28 @@ Circumstances and tools might alter the DC. Usually the referee should limit the
 
 # Save Checks
 
-TODO
+Any `TC` can be used as a target for a save check.
+
+`Physical TC`, `Evasion TC`, and `Mental TC` were inspired from the saving throws in Kevin Crawford's _Stars without Number_, but in the end the `TC`s can be used as target number for save checks.
+
+## for player characters
+
+Todo.
+
+## for the others
+
+A quick rule of thumb for computing the save `TC` of a creature would be
+
+17 - (`Level` or `HD`)
+
+
+## DCs instead of TCs
+
+There is another way to think about Save Checks: the referee can think of `DC`s as AC against an impeding danger.
+
+A danger makes an _attack roll_ against a character or creature:
+
+1d20 + _modifier_ ≥ `DC`
+
+The _save_ fails if the danger succeeds its attack roll.
 
