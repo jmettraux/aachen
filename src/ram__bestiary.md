@@ -10,8 +10,7 @@
 
 # Bestiary
 
-TODO conversion process
-
+TODO conversion process;
 TODO you can give _Traits_ to monsters
 
 ## Monsters And Saving Throws
