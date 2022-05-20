@@ -17,11 +17,11 @@ Aachen
 B/X
 : clarity
 
-Gallant & Bold
-: by John Grümph.
-
 Wolves of God
-: by Kevin Crawford.
+: by Kevin Crawford, openness
+
+Gallant & Bold
+: by John Grümph, abilities on their heads
 
 <hr/>
 

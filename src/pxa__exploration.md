@@ -26,7 +26,8 @@ Cautious Movement
 
 Swift Movement
 : 360ft 108m 72sq 4Vtt per turn;
-: merely travelling in an already explored area.
+: merely travelling in an already explored area;
+: scout forward.
 
 Running Movement [^1]
 : indefinite, but reckless;
@@ -35,8 +36,10 @@ Running Movement [^1]
 : must rest after a turn of running.
 
 Surprise
-: TODO
-: a party bearing light sources cannot surprise foes lurking in the dark.
+: those who run are always surprised;
+: a party bearing light sources cannot surprise foes lurking in the dark;
+: in doubt, roll 1d20 + _Scout_ ≥ `WIS TC` for both sides, both win, no surprise, both lose, no surprise;
+: the surprised side concedes a whole combat round.
 
 [^1]:
   the referee may call for an _Exert_ check, like 1d20 + _Exert_ ≥ `CON TC`
@@ -45,7 +48,8 @@ Surprise
 
 Rest
 : the 6th turn should be a rest turn<br/>(50min explo then 10min rest);
-: skip the rest turn → Exhaustion Level increases by 1.
+: skip the rest turn → Exhaustion Level increases by 1;
+: keep a watch.
 
 Pitch Torch
 : lasts 3 turns (30 minutes);
@@ -58,7 +62,7 @@ Oil Lamp
 <hr/>
 
 Encounters
-: TODO
+: the domain of the referee.
 
 
 <!-- RETURN -->
@@ -80,29 +84,4 @@ A group that is surprised loses a full round of action to their ambushers. Once 
 A "site" may be a dungeon, an old ruin, an underground site.
 
 Time in a site is measured in turns of ten minutes. Most of the things adventurers will wish to do will take a turn to accomplish, taking into account the packing and unpacking of gear, the need to listen carefully while working, and the desire and/or need to do all things quietly and carefully.
-
-<!-- RETURN -->
-
-## Random Encounters
-
-Random encounters[^re] are rolled every two turns in some sites. The referee rolls a d6, and on a result of 1 then there is some encounter with an inhabitant of the place. The encounter begins at a distance of 2d4 times 10 feet.
-
-[^re]: 1 in 6 chance of an encounter
-
-If the encounter is heard approaching and there is a convenient place to hide, the adventurers might be able to conceal themselves.
-
-The referee may decide to omit a random encounter check if the playing characters are staying out of the communication lanes of the site or are in some very seldom-occupied corner of it.
-
-Conversely[^re2], the referee may increase the odds to 2 in 6 or even 3 in 6 if the adventurers have made great tumult and trouble or if they have been running recklessly.
-
-[^re2]: Running or loud action increases the chance to 2 or even 3 in 6
-
-
-## Mapping the Site
-
-One or more members of the adventuring party might be mapping the site as they progress. They might be using a piece of charcoal and a piece of parchment.
-
-The mapper asks questions when there are uncertainties. The referee should not correct errors and misunderstandings.
-
-The adventurers may consult their map while navigating, unless they are running or there is not enough light to read.
 
