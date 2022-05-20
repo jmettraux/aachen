@@ -93,6 +93,16 @@ del {
   color: red;
 }
 
+ul:not(.compass) {
+  list-style: none;
+  padding-inline-start: 0.1rem;
+}
+ul:not(.compass) li:before {
+  content: '*';
+  font-weight: bolder;
+  padding-right: 0.3rem;
+}
+
 .page {
 
   position: relative;
@@ -1157,15 +1167,6 @@ table.social-class th:nth-child(1) {
 }
 [data-aa-title="reaction and morale"] .last-p {
   margin-bottom: 3.0rem;
-}
-[data-aa-title="reaction and morale"] ul.morale-checks {
-  list-style: none;
-  padding-inline-start: 0;
-}
-[data-aa-title="reaction and morale"] ul.morale-checks li:before {
-  padding-left: 1.3rem;
-  content: '·';
-  padding-right: 0.3rem;
 }
 
 [data-aa-title="bestiary"] h2 {
