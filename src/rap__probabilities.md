@@ -5,6 +5,7 @@
 * Save Checks
 * Reaction & Morale
 * Bestiary
+* Equipment
 * **Probabilities**
 
 

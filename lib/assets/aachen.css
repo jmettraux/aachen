@@ -1216,6 +1216,14 @@ table.social-class th:nth-child(1) {
   padding-left: 0.25rem;
 }
 
+[data-aa-title="equipment2"] table {
+  font-size: 11pt;
+  line-height: 0.5;
+}
+[data-aa-title="equipment2"] table tr:nth-child(3n) td {
+  border-bottom: solid thin #c0c0c0;
+}
+
 [data-aa-title="probabilities"] table {
   font-size: var(--size-b);
   line-height: 0.66;
