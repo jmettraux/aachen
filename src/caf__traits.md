@@ -259,7 +259,7 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 
 <!-- <div.trait> -->
 
-### Skillful `EVA TC` **11**
+### Skillful `EVA TC` **11** [^1]
 * Once per scene, as an instant action, a missed non-combat skill check can be turned into a success
 * As per · and the character has a +1 on checks for known non-combat skills (level 0 or better)
 * As per ·· but with +3
@@ -337,6 +337,9 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 * Advantage on _Mental_ saves
 
 <!-- </div> -->
+
+[^1]:
+  trait selection shouldn't take too long, else referee will request player to roll d6d6 for traits...
 
 <script>
 

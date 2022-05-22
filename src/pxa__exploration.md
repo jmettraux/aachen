@@ -17,7 +17,8 @@ Site
 : underground site or a ruin, a "dungeon".
 
 Turn
-: an exploration turn lasts 10 minutes.
+: an exploration turn lasts 10 minutes;
+: (while a combat round lasts 6 seconds).
 
 Cautious Movement
 : 120ft 36m 24sq FFF per turn;
@@ -32,7 +33,7 @@ Swift Movement
 Running Movement [^1]
 : indefinite, but reckless;
 : map may not be consulted;
-: may last only for one turn;
+: may last only for one turn (so 10 minutes);
 : must rest after a turn of running.
 
 Surprise
