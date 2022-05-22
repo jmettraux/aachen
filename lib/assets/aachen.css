@@ -782,7 +782,7 @@ table.social-class th:nth-child(1) {
 [data-aa-title="traits"] .trait ul:not(.compass) li {
   list-style: none;
   margin-left: 0.9rem;
-  text-indent: -0.6rem;
+  text-indent: -0.5rem;
   line-height: 1.1;
 }
 [data-aa-title="traits"] .trait ul:not(.compass) li:before {
