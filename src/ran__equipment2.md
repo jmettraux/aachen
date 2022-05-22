@@ -72,3 +72,11 @@
 | wages     | Labourer                    |        1 day |       1d |       1d | R<<<     |      0.2 |
 | wages     | Master craftsman            |        1 day |       5d |       5d |      5.0 | R<<<     |
 
+[^1]
+
+[^1]:
+  <!-- .u275px -->
+  The last column says that, for example, a master craftsman has to work 4 days to buy a cow.
+
+  This is all indicative, and there are no general stores.
+
