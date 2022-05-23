@@ -69,8 +69,8 @@
 | goods     | Waterskin                   |     1 gallon |       3d |       3d |      3.0 |      0.6 |
 | goods     | Wool                        |   175 lb wey |      10s |     120d |    120.0 |     24.0 |
 |           |                             |              |          |          |          |          |
-| wages     | Labourer                    |        1 day |       1d |       1d | R<<<     |      0.2 |
 | wages     | Master craftsman            |        1 day |       5d |       5d |      5.0 | R<<<     |
+| wages     | Labourer                    |        1 day |       1d |       1d | R<<<     |      0.2 |
 
 [^1]
 

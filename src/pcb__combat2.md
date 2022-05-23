@@ -68,7 +68,9 @@ Damage
 
 ## Ranged Attacks
 
-Like Melee Attacks, but
+<!-- .ranged-dl -->
+&nbsp;
+: like Melee Attacks, but
 
 Range
 : as per weapon description.
