@@ -26,23 +26,24 @@ Surprise Round[^1]
 : if a side was granted the surprise.
 
 Initiative
-: each side rolls ~~1d20~~ + side's best `INI` (initiative)
-: the side with the highest roll goes first,<br/>in case of tie, the PC side goes first;
+: each side rolls ~~1d20~~ + side's best _Impulse_ `DC`;
+: the side with the highest roll goes first;
+: in case of tie, the PC side goes first.
 
 <span class="fleuron">❦</span> Hi Ini Round
 : each participant in this side takes their turn.
 
 Lo Ini Round
-: each participant in that side takes their turn.
+: each participant in that side takes their turn;
 : then loop back to ❦ unless the combat has ended.
 
 Morale
-: on sustaining its first casualty and<br/>when half its participants are down,<br/>the NPC side breaks and flees/parleys if ~~2d6~~ > _Morale_
+: on sustaining its first casualty and<br/>when half its participants are down,<br/>the NPC side breaks and flees/parleys if ~~2d6~~ > _Morale_.
 
 [^1]:
   option:
 
-  each player rolls 1d20 + `INI` and the players get interleaved initiative (while the opfor still has its rounds together)
+  each player rolls 1d20 + _Impulse_ `DC` and the players get interleaved initiative (while the opfor still has its rounds together)
 
 <hr/>
 
@@ -53,8 +54,7 @@ Combat Round[^2]
 : plus as many **OTA** as the referee deems reasonable.
 
 Main Action · **MA**
-: takes up most of the round;
-: _examples_: attacking, casting a spell, drawing a friend to cover, apply a skill, etc.
+: takes up most of the round.
 
 Move Action · **MvA**
 : from 0 to movement rate (30ft 9m 6sq t for a human);
@@ -63,8 +63,7 @@ Move Action · **MvA**
 On Turn Action · **OTA**
 : are performed on turn, like **MA** and **MvA**;
 : are simple and quick actions;
-: as many may be performed as the referee deems reasonable;
-: _examples_: saying a few word, drawing out a readied object, reloading a bow from a readied quiver, etc.
+: as many may be performed as the referee deems reasonable.
 
 Instant Action · **IA**
 : are simple and fast, and linked to traits or special powers;
