@@ -72,3 +72,8 @@ Saves as attacks
 : failure → the danger is avoided completely or partially;
 : the referee grants a _modifier_, like an _attack modifier_ to the danger.
 
+
+<!-- RETURN -->
+
+Should the `TC`s be unavailable for a creature, the referee might default to a mean 10 or 11 or to any difficulty class they deem appropriate.
+

@@ -13,8 +13,6 @@
 
 # Checks
 
-## general mechanism
-
 If there is time pressure, opposition, or the task is dangerous, the referee might demand a check to the player (or roll for a NPC).
 
 <!-- .comparison -->
@@ -40,12 +38,17 @@ An attack check follows the pattern above. The modifier is the weapon skill, whi
 
 ## save checks
 
-The referee might grant a save check to character. The modifier might be a skill or simply half the level or the hit dice (`HD`) rounded down. The target class (`TC`) has to be selected among `Physical TC`, `Evasion TC`, `Mental TC`, or any other `TC` on the character sheet.
+The referee might grant a save check to a character. The modifier might be a skill or simply half the level or the hit dice (`HD`) rounded down. The target class (`TC`) has to be selected among `Physical TC`, `Evasion TC`, `Mental TC`, or any other `TC` on the character sheet.
 
 <!-- .comparison -->
-1d20 + _modifier_ ≥ `TC`
+1d20 + _character modifier_ ≥ character `TC`
 
-Should the `TC`s be unavailable for a creature, the referee might default to a mean 10 or 11 or to any difficulty class they deem appropriate.
+The referee might turn a save check on its head and make it an attack check.
+
+<!-- .comparison -->
+1d20 + _attacker modifier_ ≥ character `DC`
+
+TC transcend, DC defend.
 
 
 ## advantage and disadvantage
@@ -55,7 +58,7 @@ Should the `TC`s be unavailable for a creature, the referee might default to a m
 [^1]:
   the referee might grant +2 or -2 instead of an advantage or disadvantage.
 
-Depending on the circumstances, the referee might grant advantage or disadvantage on a check. Roll two d20s instead of one, and keep the highest in case of advantage or the lowest in case of disadvantage.
+Depending on the circumstances, the referee might grant advantage or disadvantage on a check. Roll two d20s instead of one, and keep the highest in case of advantage, or the lowest in case of disadvantage.
 
 
 ## ones and twenties
