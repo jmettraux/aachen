@@ -5,11 +5,11 @@
 * Save Checks
 * Reaction & Morale
 * Bestiary
-* **Equipment**
+* **Values**
 * Probabilities
 
 
-# Equipment
+# Relative Values
 
 | category  | name                        |              | v1       | vd       | labourer | master   |
 |-----------|-----------------------------|--------------|---------:|---------:|---------:|---------:|
@@ -75,8 +75,8 @@
 [^1]
 
 [^1]:
-  <!-- .u275px -->
+  <!-- .u325px -->
   The last column says that, for example, a master craftsman has to work 4 days to buy a cow.
 
-  This is all indicative, and there are no general stores.
+  This is all relative, indicative, and there are no general stores.
 

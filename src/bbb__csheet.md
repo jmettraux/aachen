@@ -71,7 +71,7 @@ A caster knows one or more spell colours and one or more spell forms.
 
 Combined with magical skills, that determines what spells may be cast.
 
-The caster here knows [ Soak / Weave ] × [ Gold ] × [ Arrow / Pole ]
+The caster here knows [ Throw / Soak ] × [ Gold ] × [ Arrow / Pole ]
 
 <!-- </div> -->
 

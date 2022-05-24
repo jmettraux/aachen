@@ -929,6 +929,25 @@ table.social-class th:nth-child(1) {
 [data-aa-title="combat2"] dl.ranged-dl dd:first-of-type {
   font-style: italic;
 }
+[data-aa-title="combat2"] table.ranges {
+  font-size: var(--size-c);
+  line-height: 0.5;
+  color: grey;
+}
+[data-aa-title="combat2"] table.ranges th, table.ranges td {
+  text-align: right;
+  padding-left: 0.15rem;
+  padding-right: 0.15rem;
+}
+[data-aa-title="combat2"] table.ranges th:first-child, table.ranges td:first-child {
+  padding-left: 0;
+}
+[data-aa-title="combat2"] table.ranges th:last-child, table.ranges td:last-child {
+  padding-right: 0;
+}
+[data-aa-title="combat2"] table.ranges tr:nth-child(3n) td {
+  border-bottom: solid thin #c0c0c0;
+}
 
 [data-aa-title="cactions"] .text-block {
   display: flex;
