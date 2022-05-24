@@ -34,7 +34,7 @@ There are 3 types of skills: General, Magical, and Fighter skills.
 
 <!-- <div.comment.ne.c_skills_m> -->
 
-The main magical skill is _Weave_ but the other skills are necessary when composing effective threads of magic.
+The magical skills tell in what way `Caster` characters weave magical threads.
 
 <!-- </div> -->
 
