@@ -51,7 +51,7 @@ Traits
 Checks
 : 1d20 + _skill_ ≥ own `TC`; or
 : 1d20 + _skill_ ≥ opponent's `DC` or `AC`; or
-: 1d20 + _skill_ ≥ opponent's 1d20 + _skill_; skills may differ;
+: 1d20 + _skill_ ≥ opponent's 1d20 + _skill_; skills may differ.
 
 Targets
 : `DC`s correspond to ability scores;
