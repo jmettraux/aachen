@@ -4,7 +4,7 @@
 
 
 &nbsp;
-: _Definitions_
+: _Definition_
 
 Aachen
 : is a set of tabletop role playing rules.
@@ -51,9 +51,13 @@ Traits
 Checks
 : 1d20 + _skill_ ≥ `TC`; or
 : 1d20 + _skill_ ≥ opponent's `DC` or `AC`; or
-: 1d20 + _skill_ ≥ opponent's 1d20 + _skill_;
-: `DC`s are ability scores or arithmetic means of ability scores;
-: `TC`s are ability scores but inverted (21 - ability).
+: 1d20 + _skill_ ≥ opponent's 1d20 + _skill_; skills may differ;
+
+Targets
+: `DC`s correspond to ability scores;
+: `TC`s are inverted `DC`s (21 - `DC`s) or
+: means (round up) of other `TC`s;
+: `TC` Transcend / `DC` Defend.
 
 Bestiary
 : may leverage any B/X stat'ed monster (`HD`, `AC`, attacks, ...).
