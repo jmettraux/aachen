@@ -11,28 +11,41 @@
 
 # Skill Checks
 
+When to check
+: when the task is difficult and/or hazardous; or
+: when the task is performed under time pressure; or
+: when success or failure is important or interesting.
 
-## When To Check
+When not to check
+: the task is too easy (`DC` < 6); or
+: the character skill level is appropriate;
+: referee grants success without a check;
+: referee may impose a time cost (factoring in `DC` and skill).
 
-* a task is difficult and hazardous,
-* a task is performed under time pressure, or
-* success or failure of the task is important or interesting
+Mechanism
+: 1d20 + _modifier_ ≥ own `TC`;
+: 1d20 + _modifier_ ≥ task `DC`;
+: success → task completes successfully.
 
-Old farm hands don't get skill checks each time they drive the cart to the market, it is routine work for them.
+Modifier
+: the skill level;
+: -2 if the character has no exposure to the skill;
+: (_Level_ or _HD_) / 2 (round down) if creature should somehow be competent.
 
+Difficulty
+: TODO.
 
-## How Not To Check
+<hr/>
 
-The referee might decide the task is too easy (DC < 6) or look at the character skill level and decide it is appropriate for an automatic success.
+Dis|advantage
+: referee grants advantage or disadvantage as they see fit; or
+: a lighter -2, -1, +1, or +2 may be applied.
 
-If there is time, the referee might look at the character skill level and decide how much time is spent until the task succeeds (DC < 9).
+<hr/>
 
+Mnemonic
+: `TC` Transcend self / `DC` Defend self.
 
-## Difficulty
-
-The referee might increase the difficulty by 1 or 2 if they think that the skill is not completely relevant to the check.
-
-Circumstances and tools might alter the DC. Usually the referee should limit the total change from -2 to +2.
 
 <!-- PAGE BREAK rchecks -->
 
@@ -95,4 +108,15 @@ Quick Save `DC`
 : 11; or
 : arbitrary `DC`; or
 : 3d6.
+
+<hr/>
+
+Dis|advantage
+: referee grants advantage or disadvantage as they see fit; or
+: a lighter -2, -1, +1, or +2 may be applied.
+
+<hr/>
+
+Mnemonic
+: `TC` Transcend self / `DC` Defend self.
 

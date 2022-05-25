@@ -1176,11 +1176,10 @@ dl.with-preamble dd:first-of-type {
 [data-aa-title="rchecks"] h1 {
   margin-top: 0;
 }
-[data-aa-title="rchecks"] h2 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+[data-aa-title="rchecks"] .page.even dl {
+  grid-template-columns: 30% auto;
 }
-[data-aa-title="rchecks"] dl {
+[data-aa-title="rchecks"] .page.odd dl {
   grid-template-columns: 24% auto;
 }
 [data-aa-title="rchecks"] hr {
