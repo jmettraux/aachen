@@ -91,7 +91,7 @@ Sneaking
 : 1d20 + _Scout_ ≥ opponent's `Learning DC` ~~or~~
 : 1d20 + _Scout_ ≥ opponent's `EVA DC` ~~or~~
 : 1d20 + _Scout_ ≥ opponent's `WIS DC` ~~or~~
-: 1d20 + _Scout_ ≥ static `DC`
+: 1d20 + _Scout_ ≥ arbitrary `DC`
 
 Obtaining a discount
 : 1d20 + _Trade_ ≥ `INT TC` ~~or~~

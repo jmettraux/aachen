@@ -309,20 +309,16 @@ style = %{
   .explanation-label {
     color: grey;
     padding-left: 0.1rem;
-    justify-self: center;
+    justify-self: right;
     align-self: center;
     font-size: 70%;
     grid-row-end: span 2;
     text-align: center;
     line-height: 1.0;
-    position: relative;
   }
-  /*
   .explanation-label:after {
-    position: absolute;
     content: '→';
   }
-  */
   .explanation-label.ass {
     align-self: start;
   }
@@ -856,9 +852,8 @@ div('.left.subgrid', 1, 1) do
       span('.d', 'TC')
       div('.dia')
       span('.d', 'DC') }
-    #div('.explanation-label.ass', 7, 11, 'passive /<br>defensive')
-    div('.explanation-label', 7, 11, 'passive /<br>defensive')
-    div('.explanation-label', 7, 12, 'active /<br>vs self')
+    div('.explanation-label', 6, 11, 'defend', 2)
+    div('.explanation-label', 6, 12, 'transcend', 2)
   end
 
   div('.skill-grid', 2, 2) do

@@ -29,11 +29,11 @@ Organizing
 
 Packing
 : pack animals should be carefully harnessed and loaded;
-: _packmaster_ rolls 1d20 + _Ride_ or _Travel_ ≥ `Lea TC` or referee-set `DC`;
+: _packmaster_ rolls 1d20 + _Ride_ or _Travel_ ≥ `Lea TC` or arbitrary `DC`;
 : a poorly harnessed and loaded animal will quickly be unusable.
 
 Navigating
-: in non-familiar environments,<br/> _navigator_ rolls 1d20 + _Travel_ ≥ `Lea TC` or referee-set `DC`;
+: in non-familiar environments,<br/> _navigator_ rolls 1d20 + _Travel_ ≥ `Lea TC` or arbitrary `DC`;
 : failure → party gets lost.
 
 Sailing
@@ -42,7 +42,7 @@ Sailing
 <hr/>
 
 Camping
-: _campmaster_ rolls 1d20 + _Build_ or _Travel_ ≥ `Wis TC` or referee-set `DC`;
+: _campmaster_ rolls 1d20 + _Build_ or _Travel_ ≥ `Wis TC` or arbitrary `DC`;
 : failure → not so comfortable, rest not optimal.
 
 Grazing
@@ -56,12 +56,12 @@ Grazing
 
 Foraging
 : happens while travelling;
-: each character rolls 1d20 + _Gather_ ≥ `Wis TC` or referee-set `DC`;
+: each character rolls 1d20 + _Gather_ ≥ `Wis TC` or arbitrary `DC`;
 : success → 1 daily ration obtained.
 
 Hunting
 : instead of travelling, the party spends one day hunting;
-: _huntmaster_ rolls 1d20 + _Hunt_ ≥ `Wis TC` or referee-set `DC`;
+: _huntmaster_ rolls 1d20 + _Hunt_ ≥ `Wis TC` or arbitrary `DC`;
 : success → 2d8 + hunter count daily rations are obtained;
 : failure → 1d6 rations are obtained.
 

@@ -874,6 +874,20 @@ table.social-class th:nth-child(1) {
 [data-aa-title="equipment"] table.armor th:nth-child(5) {
   border-bottom: 0;
 }
+[data-aa-title="equipment"] .note dl {
+  margin-top: 0;
+}
+[data-aa-title="equipment"] .note dt {
+  text-align: left;
+}
+[data-aa-title="equipment"] .note dt:after {
+  content: '';
+  padding-left: 0;
+}
+[data-aa-title="equipment"] .note dd:before {
+  content: '·';
+  margin-left: -0.3rem;
+}
 
 [data-aa-title="scenes and saves"] h1:not(:first-child) {
   margin-top: 3rem;
