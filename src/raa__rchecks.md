@@ -11,12 +11,12 @@
 
 # Skill Checks
 
-When to check
-: when the task is difficult and/or hazardous; or
-: when the task is performed under time pressure; or
-: when success or failure is important or interesting.
+Check when
+: the task is difficult and/or hazardous; or
+: the task is performed under time pressure; or
+: success or failure is important or interesting.
 
-When not to check
+Do not check when
 : the task is too easy (`DC` < 6); or
 : the character skill level is appropriate;
 : referee grants success without a check;
@@ -28,18 +28,26 @@ Mechanism
 : success → task completes successfully.
 
 Modifier
-: the skill level;
-: -2 if the character has no exposure to the skill;
-: (_Level_ or _HD_) / 2 (round down) if creature should somehow be competent.
+: the skill level; or else
+: -2 if the character has no exposure to the skill; or else
+: (_Level_ or _HD_) / 2 (round down) if creature competent.
 
 Difficulty
-: TODO.
+: character `TC`; or
+: opponent `DC`; or
+: arbitrary task `DC`.
+
+1 and 20
+: a 1 is always a failure;
+: a 20 is always a success;
+: referee should not call for a check for an impossible task.
 
 <hr/>
 
 Dis|advantage
 : referee grants advantage or disadvantage as they see fit; or
-: a lighter -2, -1, +1, or +2 may be applied.
+: a lighter -3 to +3;
+: note that a dis|advantage is equivalent to ± 4 or 5.
 
 <hr/>
 
@@ -113,7 +121,8 @@ Quick Save `DC`
 
 Dis|advantage
 : referee grants advantage or disadvantage as they see fit; or
-: a lighter -2, -1, +1, or +2 may be applied.
+: a lighter -3 to +3;
+: note that a dis|advantage is equivalent to ± 4 or 5.
 
 <hr/>
 
