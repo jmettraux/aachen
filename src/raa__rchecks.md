@@ -49,31 +49,50 @@ Circumstances and tools might alter the DC. Usually the referee should limit the
 # Save Checks
 
 Save `TC`s
-: the referee grants a _save_ against an impending danger to a character;
-: 1d20 ≥ `TC`;
+: the referee grants a _save_ against an impending danger;
+: 1d20 + _modifier_ ≥ `TC`;
 : success → the danger is avoided completely or partially.
 
-Which `TC`
-: see page 6;
-: ~~Physical~~ against poison, disease, or exhaustion;
-: ~~Evasion~~ against sudden perils;
-: ~~Mental~~ against spells, charms, and illusions;
-: the referee decides, any other `TC` may apply.
-
-Quick Save TC
-: for characters and creatures without ability scores;
-: TC ← 17 - (_Level_ or `HD`).
+Modifier
+: is a relevant defender skill; or
+: defender's _Level_ / 2 round down; or
+: defender's _HD_ / 2 round down for creatures.
 
 <hr/>
 
+Which `TC`
+: see page 6;
+: ~~Physical~~ `TC` against poison, disease, or exhaustion;
+: ~~Evasion~~ `TC` against sudden perils;
+: ~~Mental~~ `TC` against spells, charms, and illusions;
+: the referee decides, any other `TC` may be used.
+
+Quick Save `TC`
+: 10; or
+: arbitrary `TC`; or
+: 3d6.
+
+<hr/>
+
+<!-- .with-preamble -->
+&nbsp;
+: _as an alternative:_
+
 Saves as attacks
-: the "danger" makes an attack roll on the character;
+: the "danger" makes an attack roll against the character;
 : 1d20 + _modifier_ ≥ `DC`;
-: failure → the danger is avoided completely or partially;
-: the referee grants a _modifier_, like an _attack modifier_ to the danger.
+: ~~failure~~ → defender avoids the danger completely or partially.
 
+Modifier
+: is a relevant attacker skill; or
+: attacker's _Level_ / 2 round down; or
+: attacker's _HD_ / 2 round down for creatures.
 
-<!-- RETURN -->
+Which `DC`
+: see above **Which `TC`** but use corresponding `DC`.
 
-Should the `TC`s be unavailable for a creature, the referee might default to a mean 10 or 11 or to any difficulty class they deem appropriate.
+Quick Save `DC`
+: 11; or
+: arbitrary `DC`; or
+: 3d6.
 

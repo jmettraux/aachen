@@ -3,16 +3,18 @@
 # ${NAME_UPCASE}
 
 
+<!-- .with-preamble -->
 &nbsp;
-: _Definition_
+: Definition
 
 Aachen
 : is a set of tabletop role playing rules.
 
 <hr/>
 
+<!-- .with-preamble -->
 &nbsp;
-: _Inspiration_
+: Inspiration
 
 B/X
 : clarity
@@ -25,8 +27,9 @@ Gallant & Bold
 
 <hr/>
 
+<!-- .with-preamble -->
 &nbsp;
-: _Decisions_
+: Decisions
 
 Low-Fantasy
 : a Europe between the Dark Ages and AD 1100 (or similar).

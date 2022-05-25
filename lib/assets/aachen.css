@@ -470,6 +470,13 @@ table.social-class th:nth-child(1) {
   width: 40%;
 }
 
+dl.with-preamble dt:first-of-type::after {
+  content: '';
+}
+dl.with-preamble dd:first-of-type {
+  font-style: italic;
+}
+
 /* specific */
 
 [data-aa-page="1"] h1 {
@@ -483,9 +490,6 @@ table.social-class th:nth-child(1) {
 [data-aa-page="1"] hr {
   width: 63%;
   margin-bottom: 2rem;
-}
-[data-aa-page="1"] dt:first-of-type::after {
-  content: '';
 }
 
 [data-aa-title="intro"] .text-block {
@@ -936,12 +940,6 @@ table.social-class th:nth-child(1) {
 }
 [data-aa-title="combat2"] dl:first-of-type {
   grid-template-columns: auto auto;
-}
-[data-aa-title="combat2"] dl.ranged-dl dt:first-of-type:after {
-  content: '';
-}
-[data-aa-title="combat2"] dl.ranged-dl dd:first-of-type {
-  font-style: italic;
 }
 [data-aa-title="combat2"] table.ranges {
   font-size: var(--size-c);
