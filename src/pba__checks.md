@@ -13,11 +13,55 @@
 
 # Checks
 
-TODO
+When the task
+: is difficult and/or hazardous; or
+: is performed under time pressure;
+: the referee might call for a check.
 
-<!--
-<div class="save-circle explanation"><span class="d">TC</span><div class="dia"></div><span class="d">DC</span></div>
--->
+Check
+: 1d20 + character _skill_ ≥ character `TC`; or
+: 1d20 + character _skill_ ≥ opponent `DC`; or
+: 1d20 + character _skill_ ≥ arbitrary `DC`;
+: success → task succeeds.
+
+Skill, `DC`, `TC`
+: are decided by the referee;
+: player may suggest alternatives.
+
+Opposed check
+: referee might decide the task is actively opposed;
+: 1d20 + character _skill_ ≥ 1d20 + opponent _skill_;
+: success → task succeeds.
+: (yes, this favours the _initiating_ side)
+
+<hr/>
+
+Attack check
+: 1d20 + _weapon skill_ ≥ defender `AC`;
+: success → defender takes damage.
+
+<hr/>
+
+Save check
+: the referee might grant a _save_ against an impending danger;
+: 1d20 + _modifier_ ≥ character `TC`;
+: success → the danger is avoided completely or partially.
+
+Modifier and `TC`
+: are decided by the referee;
+: player may suggest alternatives.
+
+<hr/>
+
+Dis|advantage
+: referee might grant advantage or disadvantage to a check;
+: roll 2 d20s instead of 1;
+: keep the highest in case of advantage; the lowest when disadvantage.
+
+1 and 20
+: 1 always fail;
+: 20 always succeed;
+: referee is free to add _critical_ outcomes.
 
 
 <!-- PAGE BREAK checks -->
@@ -37,7 +81,9 @@ TODO
 
 ## check examples
 
+<!--
 Remember, `TC`s are target classes, the lower the better, they are used when rolling against oneself. And `DC`s are opponent classes, the higher the better, as they are "presented" to the opponent.
+-->
 
 Sneaking
 : 1d20 + _Scout_ ≥ `EVA TC` ~~or~~
@@ -64,9 +110,6 @@ Healing a character
 
 ## in summary [^1]
 
-[^1]:
-  DC is _Diamond Class_, while TC is, well, _The Circle_ on the character sheet
-
 Against own's TC
 : 1d20 + _skill_ ≥ Ability `TC` ~~or~~
 : 1d20 + _skill_ ≥ Save `TC`
@@ -83,69 +126,20 @@ Opposed check
 Arbitrary DC
 : 1d20 + _skill_ ≥ arbitrary `DC` (Difficulty Class)
 
+[^1]:
+  DC is _Diamond Class_, while TC is, well, _The Circle_ on the character sheet
 
+<!--
 ## not checking
 
 The referee might decide that the level of skill of a character is sufficient for the task to automatically succeed.
+-->
 
 <script>
   onDocumentReady(function() {
     var tbe = elt('[data-aa-title="checks"] .text-block');
-    tbe.appendChild(elt('#tcdc').content.cloneNode(true));
+    //tbe.appendChild(elt('#tcdc').content.cloneNode(true));
+    tbe.insertBefore(elt('#tcdc').content.cloneNode(true), tbe.children[1]);
   });
 </script>
-
-<!-- RETURN -->
-
-If there is time pressure, opposition, or the task is dangerous, the referee might demand a check to the player (or roll for a NPC).
-
-<!-- .comparison -->
-1d20 + _modifier_ ≥ `TC` or `DC`
-
-The modifier is usually a skill, covering the task at hand. The target number might be a character Target Class (`TC`) or an opposing character `DC`.
-
-For less passive opposed checks, the referee might request
-
-<!-- .comparison -->
-1d20 + _skill_ ≥ opponent's 1d20 + _skill_
-
-where the left skill and the right skill might be the same or not.
-
-
-## attack checks
-
-An attack check follows the pattern above. The modifier is the weapon skill, while the `DC` is the opponent's Armor Class.
-
-<!-- .comparison -->
-1d20 + _weapon skill_ ≥ `AC`
-
-
-## save checks
-
-The referee might grant a save check to a character. The modifier might be a skill or simply half the level or the hit dice (`HD`) rounded down. The target class (`TC`) has to be selected among `Physical TC`, `Evasion TC`, `Mental TC`, or any other `TC` on the character sheet.
-
-<!-- .comparison -->
-1d20 + _character modifier_ ≥ character `TC`
-
-The referee might turn a save check on its head and make it an attack check.
-
-<!-- .comparison -->
-1d20 + _attacker modifier_ ≥ character `DC`
-
-TC transcend, DC defend.
-
-
-## advantage and disadvantage
-
-[^1]
-
-[^1]:
-  the referee might grant +2 or -2 instead of an advantage or disadvantage.
-
-Depending on the circumstances, the referee might grant advantage or disadvantage on a check. Roll two d20s instead of one, and keep the highest in case of advantage, or the lowest in case of disadvantage.
-
-
-## ones and twenties
-
-The referee decides if something extra happens on a natural 1 or a natural 20. They might even rule that nothing special happens.
 
