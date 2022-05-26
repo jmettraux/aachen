@@ -948,13 +948,14 @@ dl.with-preamble dd:first-of-type {
 }
 [data-aa-title="combat2"] table.ranges th, table.ranges td {
   text-align: right;
-  padding-left: 0.15rem;
-  padding-right: 0.15rem;
+  padding-left: 0.17rem;
+  padding-right: 0.17rem;
 }
 [data-aa-title="combat2"] table.ranges th:first-child, table.ranges td:first-child {
   padding-left: 0;
 }
 [data-aa-title="combat2"] table.ranges th:last-child, table.ranges td:last-child {
+  padding-left: 0;
   padding-right: 0;
 }
 [data-aa-title="combat2"] table.ranges tr:nth-child(3n) td {
