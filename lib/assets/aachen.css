@@ -1275,5 +1275,46 @@ section:last-of-type dl {
   bottom: 3rem;
 }
 
+.save-circle {
+  width: 3.0rem;
+  height: 3.0rem;
+  border-radius: 3.0rem;
+  border: 0.3rem solid lightgrey;
+  background-color: white;
+  grid-row-end: span 2;
+  position: relative;
+}
+.save-circle .dia {
+  position: absolute;
+  border: 7px solid lightgrey;
+  width: 2.4rem;
+  height: 2.4rem;
+  transform: scale(0.6, 0.85) rotate(45deg);
+  top: -1.6rem;
+  left: -0.5rem;
+  background-color: white;
+}
+.d {
+  color: red;
+  position: absolute;
+  left: 28%;
+  /*font-size: var(--size-b);*/
+  font-size: 11pt;
+}
+.save-circle .d {
+  top: 0.8rem;
+  left: 1rem;
+}
+/*
+.save-circle .dia + .d {
+  left: 0.15rem;
+  top: -1.0rem;
+}
+*/
+.save-circle.explanation .dia + .d {
+  left: 0.15rem;
+  top: -0.8rem;
+}
+
 /* top right bottom left */
 

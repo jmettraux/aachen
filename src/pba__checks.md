@@ -13,57 +13,11 @@
 
 # Checks
 
-If there is time pressure, opposition, or the task is dangerous, the referee might demand a check to the player (or roll for a NPC).
+TODO
 
-<!-- .comparison -->
-1d20 + _modifier_ ≥ `TC` or `DC`
-
-The modifier is usually a skill, covering the task at hand. The target number might be a character Target Class (`TC`) or an opposing character `DC`.
-
-For less passive opposed checks, the referee might request
-
-<!-- .comparison -->
-1d20 + _skill_ ≥ opponent's 1d20 + _skill_
-
-where the left skill and the right skill might be the same or not.
-
-
-## attack checks
-
-An attack check follows the pattern above. The modifier is the weapon skill, while the `DC` is the opponent's Armor Class.
-
-<!-- .comparison -->
-1d20 + _weapon skill_ ≥ `AC`
-
-
-## save checks
-
-The referee might grant a save check to a character. The modifier might be a skill or simply half the level or the hit dice (`HD`) rounded down. The target class (`TC`) has to be selected among `Physical TC`, `Evasion TC`, `Mental TC`, or any other `TC` on the character sheet.
-
-<!-- .comparison -->
-1d20 + _character modifier_ ≥ character `TC`
-
-The referee might turn a save check on its head and make it an attack check.
-
-<!-- .comparison -->
-1d20 + _attacker modifier_ ≥ character `DC`
-
-TC transcend, DC defend.
-
-
-## advantage and disadvantage
-
-[^1]
-
-[^1]:
-  the referee might grant +2 or -2 instead of an advantage or disadvantage.
-
-Depending on the circumstances, the referee might grant advantage or disadvantage on a check. Roll two d20s instead of one, and keep the highest in case of advantage, or the lowest in case of disadvantage.
-
-
-## ones and twenties
-
-The referee decides if something extra happens on a natural 1 or a natural 20. They might even rule that nothing special happens.
+<!--
+<div class="save-circle explanation"><span class="d">TC</span><div class="dia"></div><span class="d">DC</span></div>
+-->
 
 
 <!-- PAGE BREAK checks -->
@@ -133,4 +87,65 @@ Arbitrary DC
 ## not checking
 
 The referee might decide that the level of skill of a character is sufficient for the task to automatically succeed.
+
+<script>
+  onDocumentReady(function() {
+    var tbe = elt('[data-aa-title="checks"] .text-block');
+    tbe.appendChild(elt('#tcdc').content.cloneNode(true));
+  });
+</script>
+
+<!-- RETURN -->
+
+If there is time pressure, opposition, or the task is dangerous, the referee might demand a check to the player (or roll for a NPC).
+
+<!-- .comparison -->
+1d20 + _modifier_ ≥ `TC` or `DC`
+
+The modifier is usually a skill, covering the task at hand. The target number might be a character Target Class (`TC`) or an opposing character `DC`.
+
+For less passive opposed checks, the referee might request
+
+<!-- .comparison -->
+1d20 + _skill_ ≥ opponent's 1d20 + _skill_
+
+where the left skill and the right skill might be the same or not.
+
+
+## attack checks
+
+An attack check follows the pattern above. The modifier is the weapon skill, while the `DC` is the opponent's Armor Class.
+
+<!-- .comparison -->
+1d20 + _weapon skill_ ≥ `AC`
+
+
+## save checks
+
+The referee might grant a save check to a character. The modifier might be a skill or simply half the level or the hit dice (`HD`) rounded down. The target class (`TC`) has to be selected among `Physical TC`, `Evasion TC`, `Mental TC`, or any other `TC` on the character sheet.
+
+<!-- .comparison -->
+1d20 + _character modifier_ ≥ character `TC`
+
+The referee might turn a save check on its head and make it an attack check.
+
+<!-- .comparison -->
+1d20 + _attacker modifier_ ≥ character `DC`
+
+TC transcend, DC defend.
+
+
+## advantage and disadvantage
+
+[^1]
+
+[^1]:
+  the referee might grant +2 or -2 instead of an advantage or disadvantage.
+
+Depending on the circumstances, the referee might grant advantage or disadvantage on a check. Roll two d20s instead of one, and keep the highest in case of advantage, or the lowest in case of disadvantage.
+
+
+## ones and twenties
+
+The referee decides if something extra happens on a natural 1 or a natural 20. They might even rule that nothing special happens.
 
