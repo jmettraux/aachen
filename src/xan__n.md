@@ -16,6 +16,7 @@
 * "Three Hearts and Three Lions", Poul Anderson
 * "The Compleat Enchanter", L. Sprague de Camp and Fletcher Pratt
 * "The Story of Roland", James Baldwin
+* "The Broken Sword", Poul Anderson
 
 ## games and supplements
 
