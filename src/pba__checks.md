@@ -13,12 +13,7 @@
 
 # Checks
 
-When the task
-: is difficult and/or hazardous; or
-: is performed under time pressure;
-: the referee might call for a check.
-
-Check
+Skill check
 : 1d20 + character _skill_ ≥ character `TC`; or
 : 1d20 + character _skill_ ≥ opponent `DC`; or
 : 1d20 + character _skill_ ≥ arbitrary `DC`;
@@ -33,6 +28,11 @@ Opposed check
 : 1d20 + character _skill_ ≥ 1d20 + opponent _skill_;
 : success → task succeeds.
 : (yes, this favours the _initiating_ side)
+
+No check unless
+: the task is difficult and/or hazardous; or
+: the task is performed under time pressure; or
+: the referee decides so.
 
 <hr/>
 
@@ -109,7 +109,7 @@ Healing a character
 : 1d20 + _Heal_ ≥ wounded's `CON TC`
 
 
-## in summary [^1]
+## in summary
 
 Against own's TC
 : 1d20 + _skill_ ≥ Ability `TC` ~~or~~
@@ -127,9 +127,6 @@ Opposed check
 Arbitrary DC
 : 1d20 + _skill_ ≥ arbitrary `DC` (Difficulty Class)
 
-[^1]:
-  DC is _Diamond Class_, while TC is, well, _The Circle_ on the character sheet
-
 <!--
 ## not checking
 
@@ -140,7 +137,7 @@ The referee might decide that the level of skill of a character is sufficient fo
   onDocumentReady(function() {
     var tbe = elt('[data-aa-title="checks"] .text-block');
     //tbe.appendChild(elt('#tcdc').content.cloneNode(true));
-    tbe.insertBefore(elt('#tcdc').content.cloneNode(true), tbe.children[1]);
+    tbe.insertBefore(elt('#tcdc').content.cloneNode(true), tbe.children[0]);
   });
 </script>
 

@@ -897,17 +897,9 @@ dl.with-preamble dd:first-of-type {
   margin-top: 3rem;
 }
 
-/*
 [data-aa-title="checks"] h1 {
   margin-top: 0;
 }
-[data-aa-title="checks"] p + p {
-  text-indent: 0;
-}
-[data-aa-title="checks"] p.comparison {
-  text-indent: 1rem;
-}
-*/
 [data-aa-title="checks"] h2 {
   margin-top: 0;
   margin-bottom: 1.4rem;
@@ -1291,8 +1283,9 @@ section:last-of-type dl {
   border: 0.3rem solid lightgrey;
   background-color: white;
   grid-row-end: span 2;
-  position: absolute;
-  right: 0;
+  position: relative;
+  float: right;
+  top: 1.46rem;
 }
 .save-circle .dia {
   position: absolute;
