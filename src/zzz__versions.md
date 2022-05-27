@@ -1,6 +1,6 @@
 
 Version
-: ${GITTAG}
+: `${GITTAG}`
 
 Git Branch
 : ${GITBRA}

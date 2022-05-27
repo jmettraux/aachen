@@ -62,7 +62,7 @@ Targets
 : means (round up) of other `TC`s;
 : `TC` Transcend / `DC` Defend.
 
-Bestiary
+Opposition
 : may leverage any B/X stat'ed monster (`HD`, `AC`, attacks, ...).
 
 Magic

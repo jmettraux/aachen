@@ -4,7 +4,7 @@
 * Skill Checks
 * Save Checks
 * **Reaction & Morale**
-* Bestiary
+* Opposition
 * Values
 * Probabilities
 

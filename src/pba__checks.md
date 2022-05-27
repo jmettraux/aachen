@@ -56,11 +56,12 @@ Modifier and `TC`
 Dis|advantage
 : referee might grant advantage or disadvantage to a check;
 : roll 2 d20s instead of 1;
-: keep the highest in case of advantage; the lowest when disadvantage.
+: keep the highest in case of advantage;
+: keep the lowest when disadvantage.
 
 1 and 20
-: 1 always fail;
-: 20 always succeed;
+: 1 → always a failure;
+: 20 → always a success;
 : referee is free to add _critical_ outcomes.
 
 

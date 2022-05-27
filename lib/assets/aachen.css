@@ -1257,7 +1257,7 @@ dl.with-preamble dd:first-of-type {
   clear: both;
   margin-bottom: 0.5rem;
 }
-[data-aa-title="bestiary"] p > em:after {
+[data-aa-title="bestiary"] p > em:first-of-type:after {
   content: '·';
   padding-left: 0.25rem;
 }

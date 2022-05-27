@@ -4,7 +4,7 @@
 * **Skill Checks**
 * Save Checks
 * Reaction & Morale
-* Bestiary
+* Opposition
 * Values
 * Probabilities
 
@@ -63,7 +63,7 @@ Mnemonic
 * Skill Checks
 * **Save Checks**
 * Reaction & Morale
-* Bestiary
+* Opposition
 * Probabilities
 
 
