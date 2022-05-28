@@ -60,7 +60,7 @@ Roll
 : circumstance table might add a modifier;
 : natural 1 → always failure | natural 20 → always success.
 
-Dis-Advantage
+Dis|advantage
 : granted by the referee;
 : advantage → highest of 2d20 | disadvantage → lowest of 2d20.
 
