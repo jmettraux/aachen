@@ -11,6 +11,26 @@
 * Encumbrance
 
 
+<div class="dctc">
+  <div class="dc-l">
+    against other's rolls
+  </div>
+  <div class="tc-l">
+    against own rolls
+  </div>
+  <div class="save-circle explanation">
+    <span class="d">TC</span>
+    <div class="dia">&nbsp;</div>
+    <span class="d">DC</span>
+  </div>
+  <div class="dc-r">
+    Defend
+  </div>
+  <div class="tc-r">
+    Transcend
+  </div>
+</div>
+
 # Checks
 
 Skill check
@@ -132,12 +152,4 @@ Arbitrary DC
 
 The referee might decide that the level of skill of a character is sufficient for the task to automatically succeed.
 -->
-
-<script>
-  onDocumentReady(function() {
-    var tbe = elt('[data-aa-title="checks"] .text-block');
-    //tbe.appendChild(elt('#tcdc').content.cloneNode(true));
-    tbe.insertBefore(elt('#tcdc').content.cloneNode(true), tbe.children[0]);
-  });
-</script>
 
