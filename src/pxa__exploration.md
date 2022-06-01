@@ -22,11 +22,13 @@ Turn
 
 Cautious Movement
 : 120ft 36m 24sq FFF per turn;
+: (4 times normal movement 30ft 9m 6sq t);
 : mapping and searching for features of interest,<br/>quietly and stealthily;
 : cannot be surprised unless foe is carefully concealed.
 
 Swift Movement
 : 360ft 108m 72sq 4Vtt per turn;
+: (12 times normal movement 30ft 9m 6sq t);
 : merely travelling in an already explored area;
 : scout forward.
 
