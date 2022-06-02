@@ -413,6 +413,11 @@ ul.compass li strong {
 .compact { line-height: 0.77; }
 .compact6 { line-height: 0.66; }
 
+.column-break { /* height: var(--page-height); must be set at flex level */
+  flex-basis: 100%;
+  width: 0 !important;
+}
+
 table.backgrounds {
   line-height: 0.6;
 }
