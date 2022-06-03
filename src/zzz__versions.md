@@ -18,8 +18,8 @@ Printed
 : ${PRINTED}
 
 Author
-: Jehan Mestral - https://weaver.skepti.ch
+: Jehan Mestral — https://weaver.skepti.ch
 
 License
-: CC BY-SA 4.0 <span class="license-link">https://creativecommons.org/licenses/by-sa/4.0/</span>
+: CC BY-SA 4.0 — <span class="license-link">https://creativecommons.org/licenses/by-sa/4.0/</span>
 
