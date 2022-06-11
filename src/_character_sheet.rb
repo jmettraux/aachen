@@ -681,6 +681,36 @@ position: relative;
   .bold { font-weight: bold; }
   span.mean { font-size: 90%; }
 
+  table.dctc {
+    font-size: 9pt;
+    line-height: 0.8;
+    color: darkgrey;
+    position: absolute;
+    left: 45.8%;
+    top: 1.55rem;
+    border-collapse: collapse;
+  }
+  table.dctc .l {
+    text-align: right;
+  }
+  /*table.dctc tr:nth-child(1) { border-bottom: 1px solid lightgrey; }*/
+  table.dctc tr:nth-child(5) {
+    border-bottom: 1px solid lightgrey;
+  }
+  table.dctc tr:nth-child(6) td {
+    padding-top: 0.05rem;
+  }
+  /*table.dctc tr:last-child { border-top: 1px solid lightgrey; }*/
+  table.dctc td {
+    padding-top: 0.02rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  table.dctc td.c {
+    padding-left: 0.2rem;
+    padding-right: 0.1rem;
+  }
+
 }.strip
 
 puts %{
@@ -754,6 +784,18 @@ def img(*args); make(:img, *args); end
 
 puts %{
 <div class="page">
+  <table class="dctc">
+    <tr><td class="l">DC</td><td class="c">⇌</td><td class="r">TC</td></tr>
+    <tr><td class="l"> 3</td><td class="c"> </td><td class="r">18</td></tr>
+    <tr><td class="l"> 4</td><td class="c"> </td><td class="r">17</td></tr>
+    <tr><td class="l"> 5</td><td class="c"> </td><td class="r">16</td></tr>
+    <tr><td class="l"> 6</td><td class="c"> </td><td class="r">15</td></tr>
+    <tr><td class="l"> 7</td><td class="c"> </td><td class="r">14</td></tr>
+    <tr><td class="l"> 8</td><td class="c"> </td><td class="r">13</td></tr>
+    <tr><td class="l"> 9</td><td class="c"> </td><td class="r">12</td></tr>
+    <tr><td class="l">10</td><td class="c"> </td><td class="r">11</td></tr>
+    <tr><td class="l">TC</td><td class="c">⇌</td><td class="r">DC</td></tr>
+  </table>
   <div class="page-grid">
 }
 
