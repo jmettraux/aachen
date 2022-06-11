@@ -588,6 +588,32 @@ dl.with-preamble dd:first-of-type {
   border-bottom: solid thin #c0c0c0;
 }
 
+table.dctc {
+  font-size: 9pt;
+  line-height: 0.8;
+  color: darkgrey;
+  position: absolute;
+  border-collapse: collapse;
+  width: 70%;
+  right: 0;
+  bottom: 3.55rem;
+}
+table.dctc .l { text-align: right; }
+table.dctc tr:nth-child(1) { border-bottom: 1px solid lightgrey; }
+table.dctc tr:nth-child(5) { border-bottom: 1px solid lightgrey; }
+table.dctc tr:nth-child(6) td { padding-top: 0.07rem; }
+table.dctc tr:last-child { border-top: 1px solid lightgrey; }
+table.dctc tr:last-child td { padding-top: 0.07rem; }
+table.dctc td {
+  padding-top: 0.02rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+table.dctc td.c {
+  padding-left: 0.2rem;
+  padding-right: 0.1rem;
+}
+
 #combat_skills {
   margin-top: 2rem;
 }

@@ -66,3 +66,24 @@ An opponents rolls against a character's DCs.
 | Learning | opposing scholar arguments            | ← 21 - `Learning TC` |
 | Impulse  | ~~Initiative modifier~~               | ← 21 - `Impulse TC`  |
 
+
+
+<table id="dctc_table" class="dctc">
+  <tr><td class="l">DC</td><td class="c">⇌</td><td class="r">TC</td></tr>
+  <tr><td class="l"> 3</td><td class="c"> </td><td class="r">18</td></tr>
+  <tr><td class="l"> 4</td><td class="c"> </td><td class="r">17</td></tr>
+  <tr><td class="l"> 5</td><td class="c"> </td><td class="r">16</td></tr>
+  <tr><td class="l"> 6</td><td class="c"> </td><td class="r">15</td></tr>
+  <tr><td class="l"> 7</td><td class="c"> </td><td class="r">14</td></tr>
+  <tr><td class="l"> 8</td><td class="c"> </td><td class="r">13</td></tr>
+  <tr><td class="l"> 9</td><td class="c"> </td><td class="r">12</td></tr>
+  <tr><td class="l">10</td><td class="c"> </td><td class="r">11</td></tr>
+  <tr><td class="l">TC</td><td class="c">⇌</td><td class="r">DC</td></tr>
+</table>
+
+<script>
+onDocumentReady(function() {
+  elt('[data-aa-title="abilities"] .margin').appendChild(elt('#dctc_table'));
+});
+</script>
+
