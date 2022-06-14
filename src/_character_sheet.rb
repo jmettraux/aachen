@@ -1087,8 +1087,8 @@ div('.right.subgrid', 2, 1) do
     div('.conf-cell.header', 7, 1, 'Damage')
 
     div('.conf-cell.header2', 2, 2, 'base AC + best of<br/>Dodge, Shield or <i>F Skill</i>', 2, 1)
-    div('.conf-cell.header2', 2, 3, 'no shield')
-    div('.conf-cell.header2', 3, 3, 'shield')
+    div('.conf-cell.header2', 2, 3, 'w/o shield')
+    div('.conf-cell.header2', 3, 3, 'with shield')
 
     div('.conf-cell.header2', 5, 2, 'ft / m / sq')
     div('.conf-cell.header2', 6, 2, 'F Skill')
