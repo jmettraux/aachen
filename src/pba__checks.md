@@ -140,35 +140,45 @@ Against friend's TC
 : 1d20 + _skill_ ≥ friend's Save `TC`
 
 Opposed check
-: 1d20 + _skill_ ≥ opponent's 1d20 + _skill_ ~~or~~
-: 1d20 + _skill_ ≥ opponent's 1d20 + other _skill_ ~~or~~
+: 1d20 + _skill_ ≥ opponent's 1d20 + opp's _skill_ ~~or~~
+: 1d20 + _skill_ ≥ opponent's 1d20 + other opp's _skill_ ~~or~~
 : 1d20 + _skill_ ≥ opponent's Ability `DC`
 
 Arbitrary DC
 : 1d20 + _skill_ ≥ arbitrary `DC` (Difficulty Class)
 
 
-<table class="summary-table">
+<table class="check-summary-table">
   <tr>
     <td>1d20 +</td>
     <td class="bleft bright">
-      skill<br/>
+      <em>skill</em><br/>
       creature HD / 2 ↓<br/>
       some modifier
     </td>
     <td class="bright">≥</td>
     <td>
-      own TC<br/>
-      opponent's DC<br/>
-      arbitrary DC<br/>
-      opponent's AC
+      own TC<span class="sym tc">◯</span><br/>
+      opponent's DC<span class="sym dc">◇</span><br/>
+      arbitrary DC<span class="sym dc">◇</span><br/>
+      opponent's AC<span class="sym ac">◇</span><br/>
+      opponent's 1d20 +
+        <div class="opponent">
+          opp's <em>skill</em><br/>
+          opp's other <em>skill</em><br/>
+          opp's HD / 2 ↓<br/>
+          some modifier
+        </div>
     </td>
+    <!--
     <td>
       <span class="sym tc">◯</span><br/>
       <span class="sym dc">◇</span><br/>
       <span class="sym dc">◇</span><br/>
-      <span class="sym ac">◇</span>
+      <span class="sym ac">◇</span><br/>
+      <span class="sym ac">&nbsp;</span>
     </td>
+    -->
   </tr>
 </table>
 
