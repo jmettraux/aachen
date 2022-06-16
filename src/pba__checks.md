@@ -147,6 +147,31 @@ Opposed check
 Arbitrary DC
 : 1d20 + _skill_ ≥ arbitrary `DC` (Difficulty Class)
 
+
+<table class="summary-table">
+  <tr>
+    <td>1d20 +</td>
+    <td class="bleft bright">
+      skill<br/>
+      creature HD / 2 ↓<br/>
+      some modifier
+    </td>
+    <td class="bright">≥</td>
+    <td>
+      own TC<br/>
+      opponent's DC<br/>
+      opponent's AC<br/>
+      arbitrary DC
+    </td>
+    <td>
+      <span class="sym tc">◯</span><br/>
+      <span class="sym dc">◇</span><br/>
+      <span class="sym dc">◇</span><br/>
+      <span class="sym dc">◇</span>
+    </td>
+  </tr>
+</table>
+
 <!--
 ## not checking
 

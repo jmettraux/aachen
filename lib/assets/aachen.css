@@ -1384,15 +1384,35 @@ section:last-of-type dl {
   top: 0.8rem;
   left: 1rem;
 }
-/*
-.save-circle .dia + .d {
-  left: 0.15rem;
-  top: -1.0rem;
-}
-*/
 .save-circle.explanation .dia + .d {
   left: 0.15rem;
   top: -0.8rem;
+}
+[data-aa-title="checks"] del {
+  font-size: var(--size-b);
+  margin-left: 0.2rem;
+}
+[data-aa-title="checks"] .summary-table {
+  margin-top: 7rem;
+  width: auto;
+  margin-left: 7%;
+  line-height: 1.2;
+}
+[data-aa-title="checks"] .summary-table td {
+  text-align: center;
+}
+[data-aa-title="checks"] .summary-table td.bleft {
+  border-left: 1px solid darkgrey;
+}
+[data-aa-title="checks"] .summary-table td.bright {
+  border-right: 1px solid darkgrey;
+}
+[data-aa-title="checks"] .summary-table .sym {
+  font-weight: bold;
+  color: darkgrey;
+}
+[data-aa-title="checks"] .summary-table .sym.tc {
+  font-size: 90%;
 }
 
 /* top right bottom left */
