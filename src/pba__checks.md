@@ -160,14 +160,14 @@ Arbitrary DC
     <td>
       own TC<br/>
       opponent's DC<br/>
-      opponent's AC<br/>
-      arbitrary DC
+      arbitrary DC<br/>
+      opponent's AC
     </td>
     <td>
       <span class="sym tc">◯</span><br/>
       <span class="sym dc">◇</span><br/>
       <span class="sym dc">◇</span><br/>
-      <span class="sym dc">◇</span>
+      <span class="sym ac">◇</span>
     </td>
   </tr>
 </table>

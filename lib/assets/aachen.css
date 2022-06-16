@@ -1414,6 +1414,9 @@ section:last-of-type dl {
 [data-aa-title="checks"] .summary-table .sym.tc {
   font-size: 90%;
 }
+[data-aa-title="checks"] .summary-table .sym.ac {
+  font-size: 130%;
+}
 
 /* top right bottom left */
 
