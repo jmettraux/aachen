@@ -73,7 +73,9 @@ _Hug_ On a successful Claw hit, the bear gets a _Grapple_ check, if successful, 
 * **DCs'** `bod`13 | `sou`7 | `phy`12 | `eva`9 | `men`9 | `imp`13
 * **Skills** +3 _Hunt_, +2 _Scout_, +2 _Spy_
 
-_Name_ Canis Lupus.
+Wolves tend to travel in nuclear families along with their offspring. A single animal or a mated pair have higher success rate in hunting than larger packs do.
+
+_Canis lupus lupus_ Eurasian wolf.
 
 <!-- </div> -->
 
