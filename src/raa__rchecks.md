@@ -17,7 +17,7 @@ Check when
 : success or failure is important or interesting.
 
 Do not check when
-: the task is too easy (`DC` < 6); or
+: the task is too easy (`DC` < ~~6~~); or
 : the character skill level is appropriate;
 : referee grants success without a check;
 : referee may impose a time cost (factoring in `DC` and skill).
@@ -53,6 +53,18 @@ Dis|advantage
 
 Mnemonic
 : `TC` Transcend self / `DC` Defend self.
+
+
+
+<!-- .lengthy -->
+Lengthy task
+: some tasks last longer than 1 turn;
+: combat > 6s | exploration > 10m;
+: referee assigns HPs to the task; 1d8 per difficulty level;
+: successful task check → HPs reduced by 1d8;
+: HPs reach zero → whole task successful;
+: some tasks are "aggravated" by failure → regain 1d6 HPs;
+: referee decides on "damage" and "aggravation" dice.
 
 
 <!-- PAGE BREAK rchecks -->

@@ -1222,6 +1222,9 @@ table.dctc td.c {
 [data-aa-title="rchecks"] hr {
   width: 90%;
 }
+[data-aa-title="rchecks"] .lengthy {
+  margin-top: 5rem;
+}
 
 [data-aa-title="reaction and morale"] table + h1 {
   margin-top: 0;
