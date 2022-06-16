@@ -54,9 +54,12 @@ Dis|advantage
 Mnemonic
 : `TC` Transcend self / `DC` Defend self.
 
+<hr/>
 
+<!-- .with-preamble -->
+&nbsp;
+: _option:_
 
-<!-- .lengthy -->
 Lengthy task
 : some tasks last longer than 1 turn;
 : combat > 6s | exploration > 10m;
@@ -65,6 +68,32 @@ Lengthy task
 : HPs reach zero → whole task successful;
 : some tasks are "aggravated" by failure → regain 1d6 HPs;
 : referee decides on "damage" and "aggravation" dice.
+
+<hr/>
+
+<table class="summary-table">
+  <tr>
+    <td>1d20 +</td>
+    <td class="bleft bright">
+      skill<br/>
+      creature HD / 2 ↓<br/>
+      some modifier
+    </td>
+    <td class="bright">≥</td>
+    <td>
+      own TC<br/>
+      opponent's DC<br/>
+      arbitrary DC<br/>
+      opponent's AC
+    </td>
+    <td>
+      <span class="sym tc">◯</span><br/>
+      <span class="sym dc">◇</span><br/>
+      <span class="sym dc">◇</span><br/>
+      <span class="sym ac">◇</span>
+    </td>
+  </tr>
+</table>
 
 
 <!-- PAGE BREAK rchecks -->

@@ -1222,8 +1222,8 @@ table.dctc td.c {
 [data-aa-title="rchecks"] hr {
   width: 90%;
 }
-[data-aa-title="rchecks"] .lengthy {
-  margin-top: 5rem;
+[data-aa-title="rchecks"] .summary-table {
+  font-size: var(--size-b);
 }
 
 [data-aa-title="reaction and morale"] table + h1 {
@@ -1397,27 +1397,29 @@ section:last-of-type dl {
 }
 [data-aa-title="checks"] .summary-table {
   margin-top: 7rem;
+}
+.summary-table {
   width: auto;
   margin-left: 7%;
   line-height: 1.2;
 }
-[data-aa-title="checks"] .summary-table td {
+.summary-table td {
   text-align: center;
 }
-[data-aa-title="checks"] .summary-table td.bleft {
+.summary-table td.bleft {
   border-left: 1px solid darkgrey;
 }
-[data-aa-title="checks"] .summary-table td.bright {
+.summary-table td.bright {
   border-right: 1px solid darkgrey;
 }
-[data-aa-title="checks"] .summary-table .sym {
+.summary-table .sym {
   font-weight: bold;
   color: darkgrey;
 }
-[data-aa-title="checks"] .summary-table .sym.tc {
+.summary-table .sym.tc {
   font-size: 90%;
 }
-[data-aa-title="checks"] .summary-table .sym.ac {
+.summary-table .sym.ac {
   font-size: 130%;
 }
 
