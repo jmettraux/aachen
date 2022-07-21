@@ -134,7 +134,7 @@ Swim
 : To swim, to be at ease in the water.
 
 Trade
-: To buy and sell advantageously, to value goods correctly, to deal with traders and merchants.
+: To buy and sell advantageously, to value goods correctly, to deal with traders.
 
 Travel
 : To be used to travel.

@@ -133,8 +133,8 @@ It's the base to compute the ACs in their shield icons.
   [data-aa-title="csheet"] .c_skills_m     { top: 45.0rem; right: 15.5rem; }
   [data-aa-title="csheet"] .c_skills_f     { top: 45.0rem; right:  3.5rem; }
 
-  [data-aa-title="csheet"] .c_confs    { top: 24.00rem; right:  3.5rem; }
-  [data-aa-title="csheet"] .c_spells   { top:  8.65rem; right:  3.5rem; }
+  [data-aa-title="csheet"] .c_confs    { top: 24.00rem; right:  2.5rem; }
+  [data-aa-title="csheet"] .c_spells   { top:  8.65rem; right:  2.5rem; }
   [data-aa-title="csheet"] .c_acs      { top: 45.00rem; left:   2.1rem; }
   [data-aa-title="csheet"] .c_base_ac  { top: 45.00rem; left:  14.1rem; }
 </style>
