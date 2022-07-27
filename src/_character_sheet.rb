@@ -713,6 +713,16 @@ position: relative;
 
 }.strip
 
+#style += %{
+#  .right.subgrid { display: none; }
+#  .skill-grid { display: none; }
+#  .vlabel { display: none; }
+#}.strip if ENV['AACHEN_CSHEET_ABILITIES']
+
+scripts =
+  ENV['AACHEN_CSHEET_ABILITIES'] ? '<script src="h-1.2.0.min.js"></script>' :
+  ''
+
 puts %{
 <!DOCTYPE html>
 <html lang="en">
@@ -721,6 +731,7 @@ puts %{
   <title>character sheet</title>
   <link href="normalize-8.0.1.css" rel="stylesheet" type="text/css" />
   <!-- meta name="viewport" content="width=device-width, initial-scale=1" /-->
+  #{scripts}
   <style>
     #{style}
   </style>
@@ -1139,6 +1150,71 @@ puts %{
   </div> <!-- .page-grid -->
 </div> <!-- .page -->
 }
+
+#  .right.subgrid { display: none; }
+#  .skill-grid { display: none; }
+#  .vlabel { display: none; }
+puts %{
+  <div class="ability-dialog hidden">
+    <input class="score" type="text" />
+    <input class="ok" type="submit" value="OK" />
+  </div>
+  <style>
+    .hidden {
+      display: none;
+    }
+    .ability-dialog {
+      border: 2px solid black;
+      padding: 2rem;
+      position: absolute;
+      top: 3rem;
+      left: 6rem;
+      background-color: lightgrey;
+    }
+    .ability-dialog input.score {
+      width: 3rem;
+    }
+    .ability-dialog input.ok {
+      width: 3rem;
+    }
+  </style>
+  <script>
+    H.remove('.right.subgrid');
+    H.remove('.skill-grid');
+    H.remove('.vlabel');
+
+    var clog = console.log;
+
+    var ade = H.elt('.ability-dialog');
+
+    H.on(
+      '.ability-diamond',
+      'click',
+      function(ev) {
+        ade._target = H.elt(ev.target, '^.ability-diamond');
+        H.elt(ade, 'input.score').value = H.text(ade._target, '.d');
+        H.unhide(ade);
+        H.elt(ade, 'input.score').focus(); });
+    H.on(
+      '.ability-dialog input.ok',
+      'click',
+      function(ev) {
+clog('ade._target', ade._target);
+        var v = H.vali(ade, 'input.score');
+        if (typeof v !== 'number') return;
+        if (v < 1 || v > 21) return;
+        H.elt(ade._target, '.d').textContent = '' + v;
+        H.hide(ade);
+        recompute();
+      });
+
+    var recompute = function() {
+H.forEach('.ability-diamond .d', function(e) {
+  clog(e);
+});
+    };
+  </script>
+} if ENV['AACHEN_CSHEET_ABILITIES']
 
 puts %{
 </body>

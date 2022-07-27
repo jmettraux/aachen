@@ -17,11 +17,14 @@ html0: clean
 	cp lib/assets/*.png out/html/
 	cp lib/assets/*.css out/html/
 	cp lib/assets/*.svg out/html/
+	cp lib/assets/*.js out/html/
 csheet: html0
 	$(RUBY) src/_character_sheet.rb \
       > out/html/character_sheet.html
 	AACHEN_CHAR_YAML=src/_char.yaml $(RUBY) src/_character_sheet.rb \
       > out/html/character_sheet_0.html
+	AACHEN_CSHEET_ABILITIES=true $(RUBY) src/_character_sheet.rb \
+      > out/html/csheet_abilities.html
 	chrome --headless --no-sandbox --disable-gpu \
       --window-size=$(SHOOTGEO) \
       --screenshot=out/html/csheet.png out/html/character_sheet.html
