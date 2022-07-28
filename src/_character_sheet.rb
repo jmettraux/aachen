@@ -833,12 +833,12 @@ div('.left.subgrid', 1, 1) do
     div('.ability-bground', 1, 10)
     div('.ability-bground', 1, 12)
 
-    div('.ability-diamond', 1, 2) { div('.dia'); span('.d', character.str) }
-    div('.ability-diamond', 1, 4) { div('.dia'); span('.d', character.con) }
-    div('.ability-diamond', 1, 6) { div('.dia'); span('.d', character.dex) }
-    div('.ability-diamond', 1, 8) { div('.dia'); span('.d', character.int) }
-    div('.ability-diamond', 1, 10) { div('.dia'); span('.d', character.wis) }
-    div('.ability-diamond', 1, 12) { div('.dia'); span('.d', character.cha) }
+    %w[ str con dex int wis cha ].each_with_index do |abi, ai|
+      dc = abi + '_dc'
+      div('.ability-diamond', 1, (ai + 1) * 2) {
+        div('.dia')
+        span('.d.ability-dc', { 'data-key' => dc }, character.send(abi)) }
+    end
 
     div('.ability-label', 2, 2, '<b>STR</b>ength')
     div('.ability-label', 2, 4, '<b>CON</b>stitution')
@@ -847,58 +847,57 @@ div('.left.subgrid', 1, 1) do
     div('.ability-label', 2, 10, '<b>WIS</b>dom')
     div('.ability-label', 2, 12, '<b>CHA</b>risma')
 
-    div('.ability-circle', 3, 2) { span('.d', character.str_tc) }
-    div('.ability-circle', 3, 4) { span('.d', character.con_tc) }
-    div('.ability-circle', 3, 6) { span('.d', character.dex_tc) }
-    div('.ability-circle', 3, 8) { span('.d', character.int_tc) }
-    div('.ability-circle', 3, 10) { span('.d', character.wis_tc) }
-    div('.ability-circle', 3, 12) { span('.d', character.cha_tc) }
+    %w[ str con dex int wis cha ].each_with_index do |abi, ai|
+      tc = abi + '_tc'
+      div('.ability-circle', 3, (ai + 1) * 2) {
+        span('.d.ability-tc', { 'data-key' => tc }, character.send(tc)) }
+    end
 
     div('.save-circle', 4, 4) {
-      span('.d', character.body)
+      span('.d', { 'data-key' => 'body_tc' }, character.body)
       div('.dia')
-      span('.d', character.body_dc) }
+      span('.d', { 'data-key' => 'body_dc' }, character.body_dc) }
     div('.save-circle', 4, 10) {
-      span('.d', character.soul)
+      span('.d', { 'data-key' => 'soul_tc' }, character.soul)
       div('.dia')
-      span('.d', character.soul_dc) }
+      span('.d', { 'data-key' => 'soul_dc' }, character.soul_dc) }
     div('.save-label', 4, 6, 'Body')
     div('.save-label', 4, 12, 'Soul')
 
     div('.save-circle', 5, 3) {
-      span('.d', character.physical)
+      span('.d', { 'data-key' => 'physical_tc' }, character.physical)
       div('.dia')
-      span('.d', character.physical_dc) }
+      span('.d', { 'data-key' => 'physical_dc' }, character.physical_dc) }
     div('.save-circle', 5, 7) {
-      span('.d', character.evasion)
+      span('.d', { 'data-key' => 'evasion_tc' }, character.evasion)
       div('.dia')
-      span('.d', character.evasion_dc) }
+      span('.d', { 'data-key' => 'evasion_dc' }, character.evasion_dc) }
     div('.save-circle', 5, 11) {
-      span('.d', character.mental)
+      span('.d', { 'data-key' => 'mental_tc' }, character.mental)
       div('.dia')
-      span('.d', character.mental_dc) }
+      span('.d', { 'data-key' => 'mental_dc' }, character.mental_dc) }
     div('.save-label', 5, 5, 'Physical')
     div('.save-label', 5, 9, 'Evasion')
     div('.save-label', 5, 13, 'Mental')
 
     div('.save-circle', 6, 9) {
-      span('.d', character.learning)
+      span('.d', { 'data-key' => 'learning_tc' }, character.learning)
       div('.dia')
-      span('.d', character.learning_dc) }
+      span('.d', { 'data-key' => 'learning_dc' }, character.learning_dc) }
     div('.save-label', 6, 11, 'Learning')
 
     div('.initiative', 7, 1, 'INI modifier<br/>is Impulse DC →', 1, 7)
 
     div('.save-circle', 7, 8) {
-      span('.d', character.impulse)
+      span('.d', { 'data-key' => 'impulse_tc' }, character.impulse)
       div('.dia')
-      span('.d', character.impulse_dc) }
+      span('.d', { 'data-key' => 'impulse_dc' }, character.impulse_dc) }
     div('.save-label', 7, 10, 'Impulse')
 
     div('.save-circle', 8, 7) {
-      span('.d', character.all)
+      span('.d', { 'data-key' => 'all_tc' }, character.all)
       div('.dia')
-      span('.d', character.all_dc) }
+      span('.d', { 'data-key' => 'all_dc' }, character.all_dc) }
     div('.save-label.grey', 8, 9, 'all')
 
     div('.save-circle.explanation', 8, 12) {
@@ -1179,6 +1178,8 @@ puts %{
     }
   </style>
   <script>
+    H.setText('title', 'ability computer');
+
     H.remove('.right.subgrid');
     H.remove('.skill-grid');
     H.remove('.vlabel');
@@ -1199,7 +1200,6 @@ puts %{
       '.ability-dialog input.ok',
       'click',
       function(ev) {
-clog('ade._target', ade._target);
         var v = H.vali(ade, 'input.score');
         if (typeof v !== 'number') return;
         if (v < 1 || v > 21) return;
@@ -1207,12 +1207,82 @@ clog('ade._target', ade._target);
         H.hide(ade);
         recompute();
       });
+    H.on(
+      '.ability-dialog input.score',
+      'keyup',
+      function(ev) {
+        if (ev.code === 'Enter') H.elt('.ability-dialog input.ok').click();
+      });
+
+    H.on(
+      '.save-circle.explanation',
+      'click',
+      function(ev) {
+        var max = 18; var min = 3;
+        abis.forEach(function(abi) {
+          set(abi + '_dc', Math.floor(Math.random() * (max - min + 1) + min));
+        });
+        recompute();
+      });
+
+    var abis = [ 'str', 'con', 'dex', 'int', 'wis', 'cha' ];
+    var dcs = {};
+
+    var set = function(key, val) {
+      dcs[key] = val;
+      H.setText(`[-key="${key}"]`, val);
+    };
+
+    var mean_tc = function() {
+      var sum = Array.from(arguments).reduce(
+        function(r, e) { return r + e; },
+        0);
+      return Math.ceil(sum / arguments.length);
+    };
+    var inv = function(i) {
+      return 21 - i;
+    };
 
     var recompute = function() {
-H.forEach('.ability-diamond .d', function(e) {
-  clog(e);
-});
+
+      dcs = H.reduce(
+        '.d.ability-dc',
+        function(h, e) { h[H.att(e, '-key')] = H.texti(e); return h; },
+        {});
+
+      abis.forEach(function(abi) {
+        set(abi + '_tc', inv(dcs[abi + '_dc']));
+      });
+
+      set('body_tc', mean_tc(dcs.str_tc, dcs.con_tc, dcs.dex_tc));
+      set('body_dc', inv(dcs.body_tc));
+
+      set('soul_tc', mean_tc(dcs.int_tc, dcs.wis_tc, dcs.cha_tc));
+      set('soul_dc', inv(dcs.soul_tc));
+
+      set('physical_tc', mean_tc(dcs.str_tc, dcs.con_tc));
+      set('physical_dc', inv(dcs.physical_tc));
+
+      set('evasion_tc', mean_tc(dcs.dex_tc, dcs.int_tc));
+      set('evasion_dc', inv(dcs.evasion_tc));
+
+      set('mental_tc', mean_tc(dcs.wis_tc, dcs.cha_tc));
+      set('mental_dc', inv(dcs.mental_tc));
+
+      set('learning_tc', mean_tc(dcs.int_tc, dcs.wis_tc));
+      set('learning_dc', inv(dcs.learning_tc));
+
+      set('impulse_tc', mean_tc(dcs.dex_tc, dcs.wis_tc));
+      set('impulse_dc', inv(dcs.impulse_tc));
+
+      set('all_tc', mean_tc(
+        dcs.str_tc, dcs.con_tc, dcs.dex_tc,
+        dcs.int_tc, dcs.wis_tc, dcs.cha_tc));
+      set('all_dc', inv(dcs.all_tc));
     };
+
+    H.forEach('.d.ability-dc', function(e) { e.textContent = 10; });
+    recompute();
   </script>
 } if ENV['AACHEN_CSHEET_ABILITIES']
 
