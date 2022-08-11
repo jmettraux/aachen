@@ -268,6 +268,15 @@ Upon creation and levelling up, characters get 2 or 3 attempts at traits, depend
 
 <!-- <div.trait> -->
 
+### Restless `WIS TC` **11**
+* At each round may climb up or down one initiative rank
+* As per · but one or two ranks
+* At each round, choose freely one's initiative rank
+
+<!-- </div> -->
+
+<!-- <div.trait> -->
+
 ### Snappy `MEN TC` **11**
 * -3 instead of -4 on snap attacks
 * As per · but -2
