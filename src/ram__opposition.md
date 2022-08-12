@@ -29,7 +29,7 @@ Here are a few known creatures. Others lurk in the deepest woods.
 * **DCs'** `bod`11 | `sou`10 | `phy`11 | `eva`10 | `men`10 | `imp`10
 * **Skills** _Scout_ +1, _Hunt_ +0, _Spy_ +0
 
-Bandit, brigrand, or highwayman.
+Bandit, brigand, or highwayman.
 
 _Leader_ A NPC of level 2 or better.
 
