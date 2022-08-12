@@ -151,7 +151,7 @@ Arbitrary DC
 <table class="check-summary-table">
   <tr>
     <td>1d20 +</td>
-    <td class="bleft bright">
+    <td class="bleft bright mods">
       <em>skill</em><br/>
       creature HD / 2 ↓<br/>
       some modifier

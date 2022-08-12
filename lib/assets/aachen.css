@@ -963,6 +963,7 @@ table.dctc td.c {
 
 [data-aa-title="combat2"] h2 {
   margin-top: 0;
+  margin-bottom: 1rem;
 }
 [data-aa-title="combat2"] h2:first-of-type {
   line-height: 0.8;
@@ -971,6 +972,7 @@ table.dctc td.c {
 [data-aa-title="combat2"] dl {
   margin-top: 0;
   grid-template-columns: 25% auto;
+  margin-bottom: 1.6rem;
 }
 [data-aa-title="combat2"] dl:first-of-type {
   grid-template-columns: auto auto;
@@ -1405,6 +1407,9 @@ section:last-of-type dl {
 }
 .check-summary-table td.bright {
   border-right: 1px solid darkgrey;
+}
+.check-summary-table td.mods {
+  line-height: 2.8;
 }
 .check-summary-table .sym {
   font-weight: bold;

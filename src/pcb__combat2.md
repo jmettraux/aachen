@@ -65,7 +65,7 @@ Dis|advantage
 : advantage → highest of 2d20 | disadvantage → lowest of 2d20.
 
 Damage
-: successful attack → ~~_weapon damage dice_~~ + ~~_weapon skill_~~
+: successful attack → ~~_weapon damage dice_~~ + ~~_weapon skill_~~.
 
 
 ## Ranged Attacks
@@ -79,6 +79,10 @@ Range
 
 Modifiers
 : -2 on attack roll at long range.
+
+Damage
+: successful attack → ~~_weapon damage dice_~~;
+: (no _weapon skill_ added)
 
 
 [^1]:
