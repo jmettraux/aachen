@@ -57,7 +57,7 @@ No check unless
 <hr/>
 
 Attack check
-: 1d20 + _weapon skill_ ≥ defender `AC`;
+: 1d20 + attacker _weapon skill_ ≥ defender `AC`;
 : success → defender takes damage.
 
 <hr/>
@@ -69,15 +69,21 @@ Save check
 
 Modifier and `TC`
 : are decided by the referee;
+: around (character level or creature HD) / 2, rounded down;
 : player may suggest alternatives.
 
 <hr/>
 
 Dis|advantage
 : referee might grant advantage or disadvantage to a check;
-: roll 2 d20s instead of 1;
-: keep the highest in case of advantage;
-: keep the lowest when disadvantage.
+: on average equivalent to +3.63 (adv-) or -3.63 (disadv-);
+
+Roll
+: 2 d20s instead of 1;
+: advantage → keep highest of the two dice;
+: disadvantage → keep lowest.
+
+<hr/>
 
 1 and 20
 : 1 → always a failure;
