@@ -13,7 +13,7 @@
 
 <div class="dctc">
   <div class="dc-l">
-    against other's rolls
+    against opponent's rolls
   </div>
   <div class="tc-l">
     against own rolls
